@@ -35,640 +35,484 @@
       ]
     },
     {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
+      "title": "GitLab",
+      "feedUrl": "https://about.gitlab.com/atom.xml",
+      "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
-          "id": "https://css-tricks.com/?p=343076",
-          "author": "Chris Coyier",
-          "description": "When I blogged “Making Tables With Sticky Header and Footers Got a Bit Easier” recently, I mentioned that the “stickiness” improvement was just one of the features that got better for <table>s in Chrome as part of the TablesNG upgrade…\nThe post TablesNG — Improvements to table rendering in Chromium appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://www.bram.us/2021/06/21/tablesng-improvements-to-table-rendering-in-chromium/",
-          "publishedOn": "2021-06-23T21:37:14.000Z",
-          "wordCount": 1325,
-          "title": "TablesNG — Improvements to table rendering in Chromium"
+          "id": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
+          "author": null,
+          "description": "In the previous post, titled 3 ways to approach GitOps, we discussed the many benefits and options that GitLab supports for fulfilling the GitOps requirements of customers, whose IT environments are composed of heterogeneous technologies and infrastructures. This post is a 3-part series, in which we delve deeper into these options. In this first part, we cover the pull-based or agent-based approach.\nAbout a pull-based or agent-based approach\nIn this approach, an agent is installed in your infrastructure components to pull changes whenever there is a drift from the desired configuration, which resides in GitLab. Although the infrastructure components could be anything from a physical server or router to a VM or a database, we will focus on a Kubernetes cluster in this section.\nIn the follow…",
+          "link": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
+          "publishedOn": "2021-06-23T00:00:00.000Z",
+          "wordCount": 3514,
+          "title": "How to use a pull-based (agent-based) approach for GitOps"
         },
         {
-          "id": "https://css-tricks.com/?p=342750",
-          "author": "Ollie Williams",
-          "description": "The CSS image-set() function has been supported in Chromium-based browsers since 2012 and in Safari since version 6. Support recently landed in Firefox 88. Let’s dive in and see what we can and can’t do today with image-set().…\nThe post Using Performant Next-Gen Images in CSS with image-set appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/",
-          "publishedOn": "2021-06-23T19:10:54.000Z",
-          "wordCount": 1244,
-          "title": "Using Performant Next-Gen Images in CSS with image-set"
+          "id": "https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/",
+          "author": null,
+          "description": "The DevOps era began with a big idea – dissolve silos to deliver better software, faster. In the transition from classic software paradigms, DIY DevOps toolchains were built with parts that were never designed to work together. That DIY DevOps era left many trapped in new silos, without visibility, and mired in maintenance. Business outcomes suffered as the potential of DevOps was never fully realized.\nThe next iteration of DevOps\nThere is a better way to build software. GitLab 14 delivers modern DevOps with a complete DevOps platform, for a streamlined experience that unleashes the power of DevOps. Over the past year, GitLab has shipped advanced DevOps platform capabilities that enable any team to build and deliver software with velocity, trust, and visibility – no matter their size, indu…",
+          "link": "https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/",
+          "publishedOn": "2021-06-22T00:00:00.000Z",
+          "wordCount": 2659,
+          "title": "GitLab 14 signals shift to modern DevOps: A DevOps platform with velocity, trust, and visibility"
         },
         {
-          "id": "https://css-tricks.com/?p=342669",
-          "author": "Chris Coyier",
-          "description": "PPK looks at aspect-ratio, a CSS property for layout that, for the most part, does exactly what you would think it does. It’s getting more interesting as it’s behind a flag in Firefox and Safari now, so we’ll have …\nThe post “Weak declaration” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/weak-declaration/",
-          "publishedOn": "2021-06-23T14:27:14.000Z",
-          "wordCount": 704,
-          "title": "“Weak declaration”"
+          "id": "https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/",
+          "author": null,
+          "description": "When we think of everything released in the year since GitLab 13.0, we could not be more proud of our community and our team. This month, we celebrate our release of GitLab 14.0 by first taking a step back.\nTogether, we’ve made so much progress over the last year that we want to talk about everything it took to get to GitLab 14.\nWe use semantic versioning so a point release, like 14.0, represents everything new in this month. GitLab 14 is the culmination of the past year. Even more than that, GitLab 14 represents the future of GitLab, and the future of DevOps.\nWith GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …",
+          "link": "https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/",
+          "publishedOn": "2021-06-22T00:00:00.000Z",
+          "wordCount": 12294,
+          "title": "GitLab 14.0 released with a celebration of GitLab 14"
         },
         {
-          "id": "https://css-tricks.com/?p=342930",
-          "author": "Chris Coyier",
-          "description": "There are four keywords that are valid values for any CSS property (see the title). Of those, day to day, I’d say I see the inherit used the most. Perhaps because it’s been around the longest (I think?) but also …\nThe post inherit, initial, unset, revert appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/inherit-initial-unset-revert/",
-          "publishedOn": "2021-06-22T21:20:20.000Z",
-          "wordCount": 687,
-          "title": "inherit, initial, unset, revert"
+          "id": "https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/",
+          "author": null,
+          "description": "We recently discovered a Usage Ping  configuration bug for self-managed instances and have since published a patch release to fix the bug. The issue affects the ability to disable Usage Ping for self-managed GitLab via text configuration files, resulting in the collection and transmission of Usage Ping events from the instance. This bug affects any instance running GitLab version 9.3 to version 13.12.3, and was patched in 13.12.4.\nWhat does this mean for existing users?\nThis issue does not affect customers who have disabled Usage Ping via the user interface or any users of our SaaS product.\nYou can check your instance configuration settings to see if this issue may have affected you. We’ve published more detailed instructions here.\nWhat should I do?\nSince we do not collect any configuration data from your instance, we have no way to detect if you unintentionally shared data with GitLab. Out of an abundance of caution, we ask that you fill out this form if you suspect that Usage Ping data was shared after taking steps to opt-out in your GitLab configuration file. We will purge data from our systems and follow up with confirmation.\nPlease share your questions and feedback with us on the community forum.",
+          "link": "https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/",
+          "publishedOn": "2021-06-21T00:00:00.000Z",
+          "wordCount": 1152,
+          "title": "Usage Ping configuration bug for self-managed instances"
         },
         {
-          "id": "https://css-tricks.com/?p=342634",
-          "author": "Geoff Rich",
-          "description": "Svelte fully supports custom elements (e.g. <my-component>) without any custom configuration or wrapper components and has a perfect score on Custom Elements Everywhere. However, there are still a few quirks you need to watch out for, especially around …\nThe post Using Custom Elements in Svelte appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/using-custom-elements-in-svelte/",
-          "publishedOn": "2021-06-22T14:37:50.000Z",
-          "wordCount": 3090,
-          "title": "Using Custom Elements in Svelte"
+          "id": "https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/",
+          "author": null,
+          "description": "CI/CD pipelines are the preeminent solution to mitigate potential risks while integrating code changes into the repository. CI/CD pipelines help isolate the impact of potential errors, making it easier to fix them. Top that with a tool that provides effective visibility into the running tasks and there you have a recipe for success.\nSince the primary purpose of CI/CD pipelines is to speed up the development process and provide value to the end user faster, there's always room to make the process more efficient. This blog post unpacks some strategies that can help you get the most out of your pipeline definition in GitLab CI.\nHow Directed Acyclic Graphs (DAG) enable concurrent pipelines\n\nBy using the \"Needs\" keyword you can define dependencies for jobs that need to be used from previous sta…",
+          "link": "https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/",
+          "publishedOn": "2021-06-21T00:00:00.000Z",
+          "wordCount": 2627,
+          "title": "How to become more productive with Gitlab CI"
         },
         {
-          "id": "https://css-tricks.com/?p=342925",
-          "author": "Chris Coyier",
-          "description": "I’m not here to raise a shield protecting CSS utility frameworks. I don’t even particularly like the approach, myself, and nothing is above fair criticism. But fair is a key word there. I can’t tell you how many times I’ve …\nThe post If we’re gonna criticize utility-class frameworks, let’s be fair about it appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/",
-          "publishedOn": "2021-06-22T14:33:41.000Z",
-          "wordCount": 3340,
-          "title": "If we’re gonna criticize utility-class frameworks, let’s be fair about it"
+          "id": "https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/",
+          "author": null,
+          "description": "Today we are releasing version 13.12.5 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nOnly update required instance ci template when the parameter is present\nFix Password expired error on git fetch via SSH for LDAP user\nAdvanced Search Settings page does not load if the ES url is unreachable\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/",
+          "publishedOn": "2021-06-21T00:00:00.000Z",
+          "wordCount": 1043,
+          "title": "GitLab Patch Release: 13.12.5"
         },
         {
-          "id": "https://css-tricks.com/?p=342887",
-          "author": "Chris Coyier",
-          "description": "Una is calling it the new responsive. A nod to the era we were most certainly in, the era of responsive design. Where responsive design was fluid grids, flexible media, and media queries, the new responsive is those things …\nThe post Are we in a new era of web design? What do we call it? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://web.dev/new-responsive/",
-          "publishedOn": "2021-06-21T21:22:33.000Z",
-          "wordCount": 2285,
-          "title": "Are we in a new era of web design? What do we call it?"
+          "id": "https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/",
+          "author": null,
+          "description": "GitLab uses a GPG key to sign official GitLab Runner packages. We recently became aware of an instance where this key and other tokens used to distribute official GitLab Runner packages and binaries were not secured according to GitLab’s security policies.\nWe have not found any evidence of unauthorized modification of the packages or access to the services storing them. Our team has audited and investigated integrity hashes, bucket logs and versioning, and pipeline history and concluded that the unauthorized modification of any packages is exceedingly unlikely.\nOut of an abundance of caution, the GPG key used for release signing and verification has been rotated along with all other tokens that were improperly secured.\nIf you use GitLab.com shared runners, this does not impact you.\nAs of J…",
+          "link": "https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/",
+          "publishedOn": "2021-06-16T00:00:00.000Z",
+          "wordCount": 1579,
+          "title": "The GPG key used to sign GitLab Runner packages has been rotated"
         },
         {
-          "id": "https://css-tricks.com/?p=342448",
-          "author": "Preethi",
-          "description": "Let’s forego the usual circles and bars we typically see used in charts for more eccentric shapes. With online presentations more and more common today, a quick way to spruce up your web slides and make them stand out is …\nThe post How to Create CSS Charts With Interesting Shapes, Glyphs and Emoji appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/how-to-create-css-charts-with-interesting-shapes-glyphs-and-emoji/",
-          "publishedOn": "2021-06-21T14:32:45.000Z",
-          "wordCount": 1598,
-          "title": "How to Create CSS Charts With Interesting Shapes, Glyphs and Emoji"
+          "id": "https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/",
+          "author": null,
+          "description": "Last year I wrote about how the Quality Engineering Enablement team was building up the performance testing of GitLab with the GitLab Performance Tool (GPT). Last year, the biggest challenge with performance testing wasn't so much the testing but rather setting up the right large scale GitLab environments to test against.\nLike any server application, deploying at scale is challenging. That's why we built another toolkit that automates the deployment of GitLab at scale: The GitLab Environment Toolkit (GET).\n\nGitLab Environment Toolkit logo\nInternally called the \"Performance Environment Builder\" (PEB), GET grew alongside GPT as we continued to expand our performance testing efforts. Over time we built a toolkit that was quite capable in its own right of deploying GitLab at scale, which is wh…",
+          "link": "https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/",
+          "publishedOn": "2021-06-15T00:00:00.000Z",
+          "wordCount": 4881,
+          "title": "The next step in performance testing? The GitLab Environment Toolkit"
         },
         {
-          "id": "https://css-tricks.com/?p=341511",
-          "author": "Carter Li",
-          "description": "The outline property in CSS draws a line around the outside of an element. This is quite similar to the border property, the main exception being that outline isn’t a part of the box model. It is often used for …\nThe post Using the `outline` Property as a Collapsable Border appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/using-the-outline-property-as-a-collapsable-border/",
-          "publishedOn": "2021-06-18T20:38:59.000Z",
-          "wordCount": 1130,
-          "title": "Using the `outline` Property as a Collapsable Border"
+          "id": "https://about.gitlab.com/releases/2021/06/14/gitlab-13-12-4-released/",
+          "author": null,
+          "description": "Today we are releasing version 13.12.4 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix double render in project's git URL redirect\nFix MR diff compare with previous version\nAdd alias method usage_ping_enabled?\nDo not show Praefect deprecation if Praefect is disabled\nUpdate Mattermost to 5.34.4\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/06/14/gitlab-13-12-4-released/",
+          "publishedOn": "2021-06-14T00:00:00.000Z",
+          "wordCount": 1034,
+          "title": "GitLab Patch Release: 13.12.4"
         },
         {
-          "id": "https://css-tricks.com/?p=342326",
-          "author": "Chris Coyier",
-          "description": "I studied the fonts of the top 1000 websites. Here’s what I learned. — Michael Li brings the data. San-serif has total dominance. “[…] it is rare to go below 10px or above 24px.” And poor <h5> always being the \n…\nThe post Links on Typography appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/links-on-typography-2/",
-          "publishedOn": "2021-06-18T13:44:17.000Z",
-          "wordCount": 815,
-          "title": "Links on Typography"
+          "id": "https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/",
+          "author": null,
+          "description": "GitLab is best known as a complete open source DevOps platform, delivered as a single application, but it also offers powerful project management and collaboration capabilities. In fact, every GitLab team uses GitLab to develop, track and collaborate on projects, processes, and programs.\nBut, what about… other uses? Say … hacking, for instance. 🤷‍♀️\nCan GitLab help a hacker fine-tune their craft? Through our Ask a Hacker AMA series we discovered that there are some bug bounty hunters who use GitLab to streamline their research process. And, like so many cool and awesome things, we learned on Twitter about another contributor using GitLab for bug bounty hunting.  So, we followed up to learn more.\nMeet our hackers\nAlex Chapman\n\nAlex has been hacking for 14 years professionally, but his inte…",
+          "link": "https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/",
+          "publishedOn": "2021-06-11T00:00:00.000Z",
+          "wordCount": 4813,
+          "title": "How do bug bounty hunters use GitLab to help their hack?"
         },
         {
-          "id": "https://css-tricks.com/?p=341948",
-          "author": "Louis Hoebregts",
-          "description": "Clipping and masking have been around for a while now in CSS and even have pretty decent browser support. I recently worked on a project that needed to use a clipping technique for tooltips showing above links in text.\nThose …\nThe post Perfect Tooltips With CSS Clipping and Masking appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/perfect-tooltips-with-css-clipping-and-masking/",
-          "publishedOn": "2021-06-17T14:45:57.000Z",
-          "wordCount": 1691,
-          "title": "Perfect Tooltips With CSS Clipping and Masking"
+          "id": "https://about.gitlab.com/blog/2021/06/10/how-to-get-gitops-right-with-iac-security/",
+          "author": null,
+          "description": "In today's competitive digital era, it is imperative for organizations to undergo a digital transformation to effectively compete. For many, achieving a digital transformation means transitioning toward a DevOps model.\nDevOps has been around for many years, and the development side of the house has benefitted from the core practices of DevOps. However, the infrastructure side of the house has been lagging behind, particularly when it comes to speed. With infrastructure as code (IaC) and GitOps, infrastructure teams have been able to apply the same disciplines and quality gates that are used to manage application code to the infrastructure - to deliver products faster, with more predictability and at scale.\nSecurity slowing down delivery\nWhile the GitOps concept promises faster and more fre…",
+          "link": "https://about.gitlab.com/blog/2021/06/10/how-to-get-gitops-right-with-iac-security/",
+          "publishedOn": "2021-06-10T00:00:00.000Z",
+          "wordCount": 2150,
+          "title": "How to get GitOps right with infrastructure as code security"
         },
         {
-          "id": "https://css-tricks.com/?p=342257",
-          "author": "ImageEngine",
-          "description": "Images have become extremely important to the effectiveness of websites. They speak a 1000 words, attract attention, and stimulate emotions.\nHowever, web performance is also a growing problem for most websites. And images are at the heart of many web …\nThe post Start Serving Optimized Images in Vue appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/start-serving-optimized-images-in-vue/",
-          "publishedOn": "2021-06-17T14:38:42.000Z",
-          "wordCount": 1309,
-          "title": "Start Serving Optimized Images in Vue"
+          "id": "https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/",
+          "author": null,
+          "description": "Development teams are building, testing, and shipping code faster than ever before. Today, we know that security has a role to play at the early stages of the DevOps workflow, but these security controls are mostly centered around finding and fixing bugs and vulnerabilities during development.\nIn this tutorial, we will explore the importance of protecting client-side application code at runtime and guide you through implementing it in your GitLab instance using the integration with Jscrambler.\nThe importance of runtime code protection\nWith web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.\nThis concern has been widely covered in NIST, ISO 2…",
+          "link": "https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/",
+          "publishedOn": "2021-06-09T00:00:00.000Z",
+          "wordCount": 2946,
+          "title": "How to protect your source code with GitLab and Jscrambler"
         },
         {
-          "id": "https://css-tricks.com/?p=342358",
-          "author": "Chris Coyier",
-          "description": "If you’re abhorred by using inline styles, just move that style to the class attribute! And then make sure you have CSS in place that, ya know, does what it says on the box. \nI've revolutionized CSS. pic.twitter.com/1AWCldyCwP\n— Sam \n\n…\nThe post Inline Styles as Classes (lol) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/inline-styles-as-classes-lol/",
-          "publishedOn": "2021-06-16T21:11:02.000Z",
-          "wordCount": 1584,
-          "title": "Inline Styles as Classes (lol)"
+          "id": "https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/",
+          "author": null,
+          "description": "GitLab's complete DevOps platform comes with built-in continuous integration (CI) and continuous delivery (CD) via GitLab CI/CD. GitLab CI/CD is a great solution to increase developer productivity and motivation to write higher-quality code without sacrificing speed. It runs a series of tests every time a commit is pushed, providing immediate visibility into the results of changes in the codebase. While it is not a hassle to set up a CI using Linux-based machines, iOS and macOS developers may find it is more complicated to have access to a Mac that is connected and available 24 hours a day.\nGitLab Runners, provided on GitLab.com, are the engine that executes CI workflows. Due to various requirements, some users may opt to self-host runners on public cloud VMs. This is super easy if the bui…",
+          "link": "https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/",
+          "publishedOn": "2021-06-07T00:00:00.000Z",
+          "wordCount": 3295,
+          "title": "How to use Scaleway to self-host your GitLab Runners"
         },
         {
-          "id": "https://css-tricks.com/?p=342630",
-          "author": "Chris Coyier",
-          "description": "Jim Nielsen: \nIf somebody says a comment isn’t adding any value, I would ask: to whom?\nPersonally, I’ve never liked the advice that writing obvious comments is bad practice—probably because I write obvious comments all the time.\nJim showed …\nThe post Useful and Useless Code Comments appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://blog.jim-nielsen.com/2021/useful-and-usless-code-comments/",
-          "publishedOn": "2021-06-16T19:08:33.000Z",
-          "wordCount": 870,
-          "title": "Useful and Useless Code Comments"
+          "id": "https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/",
+          "author": null,
+          "description": "Today we are releasing version 13.12.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nlast month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nFix maven & gradle examples in the docs, enabling line-by-line display of test coverage in merge requests out-of-the-box (for java &\nkotlin)\nFix issue with frames not loading in Safari\nImprove SSH key expiration warning emails\nAdd an option to expose description_html in Release API [RUN ALL RSPEC] [RUN AS-IF-FOSS]\nFix CSP issues related to captchas\nSet CSP back to disabled by default\nFix referrer option passed to Akismet client\nFix passing environment variables for migrations\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/",
+          "publishedOn": "2021-06-07T00:00:00.000Z",
+          "wordCount": 1075,
+          "title": "GitLab Patch Release: 13.12.3"
         },
         {
-          "id": "https://css-tricks.com/?p=342353",
-          "author": "Okiki Ojo",
-          "description": "The Web Animations API lets us construct animations and control their playback with JavaScript. The API opens the browser’s animation engine to developers and was designed to underlie implementations of both CSS animations and transitions, leaving the door open to …\nThe post How I Used the WAAPI to Build an Animation Library appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/how-i-used-the-waapi-to-build-an-animation-library/",
-          "publishedOn": "2021-06-16T14:26:58.000Z",
-          "wordCount": 2416,
-          "title": "How I Used the WAAPI to Build an Animation Library"
+          "id": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
+          "author": null,
+          "description": "I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.\nGlobal distribution as an advantage\nMany managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…",
+          "link": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
+          "publishedOn": "2021-06-04T00:00:00.000Z",
+          "wordCount": 2351,
+          "title": "How to leverage distributed engineering teams for rapid response"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/",
+          "author": null,
+          "description": "GitLab 14.0: Our annual major release\nGitLab 14.0 is coming to GitLab.com. Along with the exciting new features, it also includes planned deprecations because it is the major version release for 2021. We try to minimize breaking changes, but some changes are needed to improve workflows, performance, scalability, and more.\nThese changes will go live on GitLab.com sometime between May 23 – June 22, through our daily deployments, leading up to the official release of 14.0 on June 22. Keep reading to learn more about these important changes.\nGitLab 14.0 for self-managed users will also be released on June 22, read on for more information about deprecations and removals for self-managed instances.\nPlan\nRemoved deprecated GraphQL fields\nIn accordance with our GraphQL deprecation process, the fol…",
+          "link": "https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/",
+          "publishedOn": "2021-06-04T00:00:00.000Z",
+          "wordCount": 6797,
+          "title": "GitLab.com is moving to 14.0 with a few breaking changes"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/",
+          "author": null,
+          "description": "For some time now, GitLab has been working on enabling the Elasticsearch\nintegration on GitLab.com to allow as many GitLab.com users as possible access\nto the Advanced Global Search\nfeatures. Last year, after enabling Advanced Search for all licensed customers on\nGitLab.com we were thinking how to simplify the rollout of some Advanced Search\nfeatures that require changing the data in Elasticsearch.\n(If you're interested in the lessons we learned on our road to Enabling\nElasticsearch for GitLab.com, you can read all about it.\nThe data migration process problem\nSometimes we need to change mappings of an index or backfill a field, and\nreindexing everything from scratch or using Zero downtime reindexing\nmight seem like an obvious solution. However, this is not a scalable option for\nbig GitLab …",
+          "link": "https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/",
+          "publishedOn": "2021-06-01T00:00:00.000Z",
+          "wordCount": 3507,
+          "title": "GitLab's data migration process for Advanced Search"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/",
+          "author": null,
+          "description": "Debate always swirls over what term is best: DevSecOps, SecDevOps, or even to drop “sec” altogether since it should be ubiquitous. At GitLab, we have a strong point of view on this: DevSecOps places security in the middle of the DevOps effort, which is where it rightly belongs. While transparent and a natural part of the process, it should be top of mind and not buried. Security needs to be everyone’s responsibility. With automation of processes and policies, it can be much easier to arm developers and security pros alike with the information they need in order to meet this responsibility.\nOur DevSecOps platform is the end-to-end secure software solution that helps you plan, create, deploy, secure, and manage your modern software and the infrastructure upon which it relies. GitLab provides…",
+          "link": "https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/",
+          "publishedOn": "2021-06-01T00:00:00.000Z",
+          "wordCount": 2891,
+          "title": "GitLab is setting the standard for DevSecOps"
+        },
+        {
+          "id": "https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/",
+          "author": null,
+          "description": "Today we are releasing versions 13.12.2, 13.11.5, and 13.10.5 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 day…",
+          "link": "https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/",
+          "publishedOn": "2021-06-01T00:00:00.000Z",
+          "wordCount": 2454,
+          "title": "GitLab Security Release: 13.12.2, 13.11.5, and 13.10.5"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/",
+          "author": null,
+          "description": "Recent high-profile supply chain and dependency confusion attacks have been a cross-industry wake-up call on the impact breadth and depth these value-chain or third-party attacks can have on customers, business operations, and brand reputation.\nSecurity teams know supply chain attacks aren't new – they've been around for decades. But, what may have once been considered mainly nation-state threats have now increased in prevalence and sophistication. Malicious actors are now setting their sights on widely used technology like software applications and code repositories to compromise unsuspecting suppliers.\nSo how do we protect our customers and product?\nWe're doing deep dives and making improvements across our product, processes, and practices as well as the controls we have in place for our…",
+          "link": "https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/",
+          "publishedOn": "2021-05-27T00:00:00.000Z",
+          "wordCount": 3377,
+          "title": "A deep dive into how we investigate and secure GitLab packages"
         }
       ]
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "Phoronix",
+      "feedUrl": "https://www.phoronix.com/rss.php",
+      "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/",
-          "author": "hello@smashingmagazine.com (Iris Lješnjanin)",
-          "description": "Frontend and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run [online workshops](https://smashingconf.com/online-workshops/) for all of us to learn together. And we have new ones coming up, and we’d like to kindly welcome you to join in.",
-          "link": "https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/",
-          "publishedOn": "2021-06-23T13:30:00.000Z",
-          "wordCount": 947,
-          "title": "Smashing Online Workshops (July-October 2021)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1a95c729-8b29-4b44-90b0-d38183b367c0/online-workshops-2021-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
-          "author": "hello@smashingmagazine.com (Cameron Cundiff)",
-          "description": "Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.",
-          "link": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
-          "publishedOn": "2021-06-23T09:30:00.000Z",
-          "wordCount": 1388,
-          "title": "Automating Screen Reader Testing On macOS Using Auto VO",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c81018b9-c45e-4c21-9762-dff84dd2682c/automating-screen-reader-testing-macos-autovo.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/",
-          "author": "hello@smashingmagazine.com (Mikołaj Dobrucki)",
-          "description": "After years of innovation in both tools and processes, the struggle between design and development is still real. This article focuses on the best practices for improving the design to development processes and how cutting-edge solutions, such as UXPin powered by Merge technology, can help in facilitating the change.",
-          "link": "https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/",
-          "publishedOn": "2021-06-22T09:00:00.000Z",
-          "wordCount": 2885,
-          "title": "Designing With Code: A Modern Approach To Design (Development Challenges)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08546e48-5034-466a-a29c-08ce3827416e/uxpin-ui.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/",
-          "author": "hello@smashingmagazine.com (Ayobami Ogundiran)",
-          "description": "Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).",
-          "link": "https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/",
-          "publishedOn": "2021-06-21T14:30:00.000Z",
-          "wordCount": 5311,
-          "title": "Image To Text Conversion With React And Tesseract.js (OCR)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/012f3fbe-980a-44fc-b973-a459f6d9bf1a/image-text-conversion-react-tesseract-js-ocr.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
-          "author": "hello@smashingmagazine.com (Ottomatias Peura)",
-          "description": "Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.",
-          "link": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
-          "publishedOn": "2021-06-18T15:00:00.000Z",
-          "wordCount": 3421,
-          "title": "An Alternative Voice UI To Voice Assistants",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8ebd2c76-ebe5-4885-be3e-f9acc3608072/alternative-voice-ui-voice-assistants.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/client-side-routing-next-js/",
-          "author": "hello@smashingmagazine.com (Adebiyi Adedotun)",
-          "description": "Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.",
-          "link": "https://smashingmagazine.com/2021/06/client-side-routing-next-js/",
-          "publishedOn": "2021-06-18T13:00:00.000Z",
-          "wordCount": 3958,
-          "title": "Client-Side Routing In Next.js",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a51f6c83-5e1a-4535-b28a-2018310ffc3b/client-side-routing-next-js.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
-          "author": "hello@smashingmagazine.com (Eric Bailey)",
-          "description": "Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.",
-          "link": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
-          "publishedOn": "2021-06-17T10:30:00.000Z",
-          "wordCount": 1636,
-          "title": "Your Image Is Probably Not Decorative",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/95585fe9-52b8-4bd4-adac-a3580ef87b98/img-alt-attribute-alternate-description-decorative.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/",
-          "author": "hello@smashingmagazine.com (Nic Chan)",
-          "description": "In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.",
-          "link": "https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/",
-          "publishedOn": "2021-06-16T10:30:00.000Z",
-          "wordCount": 4058,
-          "title": "A Complete Guide To Accessibility Tooling",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0e0ea8e6-a4ad-489c-b062-749a22d5e38e/complete-guide-accessibility-tooling.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "When developing themes and plugins for WordPress, we need to test them in different environments. How can we create multiple testing sites on our computer, quickly and easily, without having to become a sysadmin?",
-          "link": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "publishedOn": "2021-06-15T10:15:00.000Z",
-          "wordCount": 2381,
-          "title": "Spinning Up Multiple WordPress Sites Locally With DevKinsta",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2798d879-8878-49e3-bc0f-a1b2008210c0/devkinsta-frontpage.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode of the Smashing Podcast, we’re talking about image optimization. What steps should we follow for performant images in 2021? We talk to expert Addy Osmani to find out.",
-          "link": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "publishedOn": "2021-06-15T07:00:00.000Z",
-          "wordCount": 10715,
-          "title": "Smashing Podcast Episode 39 With Addy Osmani: Image Optimization",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf1aeccc-a603-4cb3-b716-69bd0c86d33a/smashing-podcast-episode-39.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/",
-          "author": "hello@smashingmagazine.com (Stephanie Eckles)",
-          "description": "Spoiler alert: tooltips, modals, tabs, carousels, and dropdown menus are some of the user interface components that require more than CSS. To ensure accessibility of your interface, JavaScript is a necessary addition to accomplish focus management, respond to keyboard events, and toggle ARIA attributes.",
-          "link": "https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/",
-          "publishedOn": "2021-06-14T10:30:00.000Z",
-          "wordCount": 3672,
-          "title": "When CSS Isn’t Enough: JavaScript Requirements For Accessible Components",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9982fa1e-806c-4343-9de1-eb804a48451e/css-javascript-requirements-accessible-components.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/web-design-done-well-audio/",
-          "author": "hello@smashingmagazine.com (Frederick O’Brien)",
-          "description": "Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.",
-          "link": "https://smashingmagazine.com/2021/06/web-design-done-well-audio/",
-          "publishedOn": "2021-06-11T15:00:00.000Z",
-          "wordCount": 1752,
-          "title": "Web Design Done Well: Making Use Of Audio",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf0cbb26-546e-43b7-9b9a-9077259ea84b/making-use-of-audio.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.",
-          "link": "https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/",
-          "publishedOn": "2021-06-10T15:00:00.000Z",
-          "wordCount": 5163,
-          "title": "Useful Front-End Boilerplates And Starter Kits",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/598e7f3e-9dca-4922-b17d-76089efab46f/25-frontend-boilerplates-starter-kits.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/",
-          "author": "hello@smashingmagazine.com (Stefan Judis)",
-          "description": "Building a faster website can be a rocket task these days. There are so many things to consider, so it’s challenging to get everything right. Here are some less-known tools that might help you get there.",
-          "link": "https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/",
-          "publishedOn": "2021-06-10T11:15:00.000Z",
-          "wordCount": 872,
-          "title": "Three Front-End Auditing Tools I Discovered Recently",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e21066b1-baa0-4a85-90ee-8074029d0a32/three-frontend-auditing-tools.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/has-native-css-parent-selector/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.",
-          "link": "https://smashingmagazine.com/2021/06/has-native-css-parent-selector/",
-          "publishedOn": "2021-06-09T10:30:00.000Z",
-          "wordCount": 2780,
-          "title": "Meet <code>:has</code>, A Native CSS Parent Selector (And More)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/89aef48d-9be9-45df-a7f4-775168deb8dd/has-native-css-parent-selector.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/image-optimization-book-release/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "It’s here! For the last year, we’ve been working with Addy Osmani on a new Smashing Book all around image optimization. And now it’s here. Meet “Image Optimization”, our deep-dive guide to understand how to deliver high-quality images on the web fast.",
-          "link": "https://smashingmagazine.com/2021/06/image-optimization-book-release/",
-          "publishedOn": "2021-06-08T12:00:00.000Z",
-          "wordCount": 2347,
-          "title": "From AVIF to WebP: A New Smashing Book By Addy Osmani",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b41ae541-7618-44f2-81cd-cc681c64d0d0/image-optimization-header.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/building-geocoding-app-vue-mapbox/",
-          "author": "hello@smashingmagazine.com (Prince Chukwudire)",
-          "description": "In this guide, we’ll be taking a general look at the concepts of forward geocoding and reverse geocoding, and will build a mini-app that applies these concepts to display specific locations, using Mapbox and Vue.js 2.6.11 to achieve this.",
-          "link": "https://smashingmagazine.com/2021/06/building-geocoding-app-vue-mapbox/",
-          "publishedOn": "2021-06-07T11:00:00.000Z",
-          "wordCount": 2392,
-          "title": "How To Build A Geocoding App In Vue.js Using Mapbox",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/20dc2361-e5a5-4a78-b380-2f5942ecfba8/building-geocoding-app-vue-mapbox.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/getting-started-webpack/",
-          "author": "hello@smashingmagazine.com (Nwani Victory)",
-          "description": "Modern browsers provide good support for JavaScript modules, but module bundlers such as webpack stay a critical part of the JavaScript toolchain. Let’s take a deep dive into what webpack is and how to use it in your development workflow.",
-          "link": "https://smashingmagazine.com/2021/06/getting-started-webpack/",
-          "publishedOn": "2021-06-04T10:00:00.000Z",
-          "wordCount": 4410,
-          "title": "Getting Started With Webpack",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/66ba7a41-2a37-471b-9c60-66a3162d8f05/webpack-dependency-graph-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/managing-shared-state-vue3/",
-          "author": "hello@smashingmagazine.com (Shawn Wildermuth)",
-          "description": "Writing large-scale Vue applications can be a challenge. In this article, Shawn Wildermuth dives into the pros and cons of approaches like factories, shared objects, and using Vuex. He also explains what is coming in Vuex 5.0 that might change how we all use shared state in Vue 3.",
-          "link": "https://smashingmagazine.com/2021/06/managing-shared-state-vue3/",
-          "publishedOn": "2021-06-03T10:30:00.000Z",
-          "wordCount": 3715,
-          "title": "Managing Shared State In Vue 3",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0a70815d-28e5-44af-8306-0e992e99593a/managing-shared-state-vue3.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/",
-          "author": "hello@smashingmagazine.com (Barry Pollard)",
-          "description": "Google’s Core Web Vitals initiative has taken the SEO and Web Performance worlds by storm and many sites are busy optimizing their Page Experience to maximize the ranking factor. The Cumulative Layout Shift metric is causing trouble to a lot of sites, so let’s have a look at ways of addressing any issues for that metric.",
-          "link": "https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/",
-          "publishedOn": "2021-06-02T12:30:00.000Z",
-          "wordCount": 4584,
-          "title": "How To Fix Cumulative Layout Shift (CLS) Issues",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/87fbe5f9-d311-4542-a3f0-14e860415946/cumulative-layout-shift-issues.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox/",
-          "author": "hello@smashingmagazine.com (Jennifer Brehm)",
-          "description": "Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.",
-          "link": "https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox/",
-          "publishedOn": "2021-06-02T10:30:00.000Z",
-          "wordCount": 5653,
-          "title": "Improving The Performance Of An Online Store (Case Study)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-38/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode, we’re talking about React performance. What factors slow our React apps down, and how can we fix it? Drew McLellan talks to expert Ivan Akulov to find out.",
-          "link": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-38/",
-          "publishedOn": "2021-06-01T14:00:00.000Z",
-          "wordCount": 7321,
-          "title": "Smashing Podcast Episode 38 With Ivan Akulov: Why Is My React App Slow?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6db8029d-7039-4beb-b787-f3a0df852f12/smashing-podcast-episode-38.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/currency-convertor-exchangeratesapi/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "Amazon allows visitors to display prices in their own currency. Thanks to *ExchangeRatesApi.io*, we can do the same for our online shops, providing a better experience to our customers. Let’s find out how.",
-          "link": "https://smashingmagazine.com/2021/06/currency-convertor-exchangeratesapi/",
-          "publishedOn": "2021-06-01T09:00:00.000Z",
-          "wordCount": 1513,
-          "title": "Setting Up A Currency Convertor With ExchangeRatesApi.io",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3ce4b3b1-3ae6-4371-8aaf-d72da3b69fc5/4-exchange-rate-api-bsa.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/05/desktop-wallpaper-calendars-june-2021/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "What could be a better way to welcome June than with some colorful inspiration? Well, we might have something for you: wallpapers created with love by artists and designers from across the globe.",
-          "link": "https://smashingmagazine.com/2021/05/desktop-wallpaper-calendars-june-2021/",
-          "publishedOn": "2021-05-31T11:30:00.000Z",
-          "wordCount": 2726,
-          "title": "Happy June Vibes For Your Screen (2021 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/374464b5-093e-4ca2-9397-6f26c83756d4/june-20-summer-coziness-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/",
-          "author": "hello@smashingmagazine.com (Shalabh Vyas)",
-          "description": "In this article, we’ll be re-using the foundational WYSIWYG Editor built in the first article to build a commenting system for a WYSIWYG Editor that enables users to select text inside a document and share their comments on it. Let’s dig in!",
-          "link": "https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/",
-          "publishedOn": "2021-05-28T11:00:00.000Z",
-          "wordCount": 10592,
-          "title": "Adding A Commenting System To A WYSIWYG Editor",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ec39e154-d3d3-4a12-91fd-f0c068cd5247/commenting-system-wysiwyg-editor.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Meet useful Visual Studio Code extensions for web developers: little helpers to minimize slow-downs and frustrations, and boost developer’s workflow along the way. With auto log messages, auto code formatting, file utils, file labels, code snippets, highlight brackets, tags, indents and workspaces, onboarding and remote SSH.",
-          "link": "https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/",
-          "publishedOn": "2021-05-27T13:30:00.000Z",
-          "wordCount": 4049,
-          "title": "Useful VS Code Extensions For Front-End Developers",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c5dbb73-94e1-486f-9daa-351699faaa2d/peacock-extension.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/05/build-launch-responsive-websites-editorx/",
-          "author": "hello@smashingmagazine.com (Miroslav Bekyarov)",
-          "description": "While web builders have been around for a long time, it wasn’t until recently that they became practical for professional use. Closing the gap between design and code has become the north star for many companies and we are seeing a wave of tools that deliver on this promise.",
-          "link": "https://smashingmagazine.com/2021/05/build-launch-responsive-websites-editorx/",
-          "publishedOn": "2021-05-27T09:30:00.000Z",
-          "wordCount": 2842,
-          "title": "How To Build And Launch Powerful Responsive Websites With Editor X",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e3eaf20c-08e9-4f1c-829b-f0bbd7309e0d/21-build-launch-responsive-websites-editorx.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/05/accessible-svg-patterns-comparison/",
-          "author": "hello@smashingmagazine.com (Carie Fisher)",
-          "description": "Discover which SVG patterns we should avoid and which patterns are the most inclusive when comparing different combinations of OSs, browsers, and screen readers.",
-          "link": "https://smashingmagazine.com/2021/05/accessible-svg-patterns-comparison/",
-          "publishedOn": "2021-05-26T13:20:00.000Z",
-          "wordCount": 1751,
-          "title": "Accessible SVGs: Perfect Patterns For Screen Reader Users",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/35bf2e3a-ae5b-49a3-843a-318b4c81f5af/accessible-svg-patterns.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        }
-      ]
-    },
-    {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news",
-      "articles": [
-        {
-          "id": "605abca5687d62084bf6b7cd",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
           "author": null,
-          "description": "Data Analysis is the process of exploring, investigating, and gathering insights from data using statistical measures and visualizations.  The objective of data analysis is to develop an understanding of data by uncovering trends, relationships, and patterns. Data analysis is both a science and an art. On the one hand it",
-          "link": "https://www.freecodecamp.org/news/exploratory-data-analysis-with-numpy-pandas-matplotlib-seaborn/",
-          "publishedOn": "2021-06-24T00:11:01.000Z",
-          "wordCount": 8365,
-          "title": "What is Data Analysis? How to Visualize Data with Python, Numpy, Pandas, Matplotlib &amp; Seaborn Tutorial"
+          "description": "With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
+          "publishedOn": "2021-06-24T04:00:00.000Z",
+          "wordCount": 829,
+          "title": "Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM"
         },
         {
-          "id": "6072ffd4d5756f080ba98b27",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
           "author": null,
-          "description": "Over the last few years, microservices have gone from an overhyped buzzword to something you should understand as a software engineer.  According to an O'Reilly developer survey in 2020:  61% of companies have been using microservices in the last year29% say at least half of their company systems are built",
-          "link": "https://www.freecodecamp.org/news/microservices-architecture-for-humans/",
-          "publishedOn": "2021-06-23T21:52:08.000Z",
-          "wordCount": 2975,
-          "title": "Microservices Architecture – Explained in Plain English"
+          "description": "It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
+          "publishedOn": "2021-06-23T17:45:54.000Z",
+          "wordCount": 1066,
+          "title": "AMD PSF Control Support Still Awaiting The Mainline Linux Kernel"
         },
         {
-          "id": "60d36eb66e1a1407b6b0b16d",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Nine-Double-Perf",
           "author": null,
-          "description": ".NET is a popular software framework developed by Microsoft. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create a REST API end-to-end from scratch using the latest .NET 5 innovations and Visual Studio Code. The course uses the C# programming language.",
-          "link": "https://www.freecodecamp.org/news/create-a-rest-api-with-dot-net-5-and-c-sharp/",
-          "publishedOn": "2021-06-23T18:08:14.000Z",
-          "wordCount": 60401,
-          "title": "Create a REST API with .NET 5 and  C#"
+          "description": "While Valve has been working on Vulkan-based rendering for Source Engine games by making use of DXVK for translating the game engine's native Direct3D calls to the Vulkan API, with some yet-to-be-merged Mesa patches around Gallium Nine there is much better performance to see with Gallium Nine at least for the RadeonSI driver...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Nine-Double-Perf",
+          "publishedOn": "2021-06-23T15:27:10.000Z",
+          "wordCount": 782,
+          "title": "Work-In-Progress RadeonSI+Nine Showing Big Performance Win For Source Engine Games"
         },
         {
-          "id": "60a406bd906c5207e3a7dfcb",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-Blender-LTS",
           "author": null,
-          "description": "In this article you will learn how to create a great technical video course. I run the freeCodeCamp.org YouTube channel where we post technical courses from a variety of contributors. Video courses that follow the guidelines in this article are often a good fit for freeCodeCamp's channel. How to",
-          "link": "https://www.freecodecamp.org/news/how-to-create-a-great-technical-course/",
-          "publishedOn": "2021-06-23T17:19:24.000Z",
-          "wordCount": 2330,
-          "title": "How to Create a Great Technical Course"
+          "description": "Ubuntu maker Canonical has partnered up with the Blender Foundation to offer paid enterprise support around the long-term support versions of Blender...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-Blender-LTS",
+          "publishedOn": "2021-06-23T14:31:19.000Z",
+          "wordCount": 770,
+          "title": "Canonical Partners With Blender Around Paid LTS Application Support"
         },
         {
-          "id": "60d2323d6e1a1407b6b0ac4f",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Alpha-Released",
           "author": null,
-          "description": "Web scraping lets you collect data from web pages across the internet. It's also called web crawling or web data extraction.  PHP is a widely used back-end scripting language for creating dynamic websites and web applications. And you can implement a web scraper using plain PHP code.  But since we",
-          "link": "https://www.freecodecamp.org/news/web-scraping-with-php-crawl-web-pages/",
-          "publishedOn": "2021-06-22T21:11:53.000Z",
-          "wordCount": 2770,
-          "title": "Web Scraping with PHP – How to Crawl Web Pages Using Open Source Tools"
+          "description": "The Qt Company has announced the debut of Qt 6.2 Alpha as it prepares for its September release with many more modules finally making the transition from Qt5 to Qt6...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Alpha-Released",
+          "publishedOn": "2021-06-23T12:09:02.000Z",
+          "wordCount": 726,
+          "title": "Qt 6.2 Alpha Released With Many More Modules Ported From Qt5"
         },
         {
-          "id": "60cac8ff4dc1a607ed7b4592",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenPOWER-Microwatt-5.14",
           "author": null,
-          "description": "There’s a special syntax you can use in JavaScript that makes working with promises easier. It's called “async/await\", and it’s surprisingly straightforward to understand and use.  In this article, we'll discuss:  What are asynchronus functions? How promises work in JavaScript Async/Await basics How to use",
-          "link": "https://www.freecodecamp.org/news/how-to-use-async-await-write-better-javascript/",
-          "publishedOn": "2021-06-22T16:24:37.000Z",
-          "wordCount": 1432,
-          "title": "How to Use Async/Await to Write Better JavaScript Code"
+          "description": "Announced two years ago was the OpenPOWER Microwatt as an FPGA-based soft CPU core...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenPOWER-Microwatt-5.14",
+          "publishedOn": "2021-06-23T11:00:00.000Z",
+          "wordCount": 837,
+          "title": "Linux 5.14 To Support The OpenPOWER Microwatt Soft CPU Core"
         },
         {
-          "id": "60c13e71d3126007592d5be2",
+          "id": "https://www.phoronix.com/vr.php?view=30287",
           "author": null,
-          "description": "The 100 Days of Code challenge is very popular among new coders and developers looking to level up their skills. It's so popular that our Discord server has an entire channel dedicated to it.  By popular demand, we recently built a Discord bot that helps people track their progress in",
-          "link": "https://www.freecodecamp.org/news/how-to-build-a-100-days-of-code-bot-for-discord-using-typescript-and-mongodb/",
-          "publishedOn": "2021-06-22T16:20:36.000Z",
-          "wordCount": 7385,
-          "title": "How to Use TypeScript and MongoDB to Build a 100 Days of Code Discord Bot"
+          "description": "Last week Valve introduced Vulkan rendering support for Left 4 Dead 2. The L4D2 Vulkan support is similar to that of Portal 2 where DXVK is being leveraged for translating the Direct3D calls to Vulkan rather than relying on their OpenGL translations. For those wondering what this means for L4D2 performance on Linux with modern GPUs, here are some benchmarks of Left 4 Dead 2 when testing the OpenGL and Vulkan rendering options.",
+          "link": "https://www.phoronix.com/vr.php?view=30287",
+          "publishedOn": "2021-06-23T09:45:18.000Z",
+          "wordCount": 797,
+          "title": "Left 4 Dead 2 Vulkan Performance With Radeon Graphics On Linux"
         },
         {
-          "id": "60cfff5a4dc1a607ed7b5e58",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Gallium3D-Gen8",
           "author": null,
-          "description": "Do you have a story idea that you'd like to turn into a novel? How about adding visual appeal and interactivity to that novel?  A Visual Novel might be the game genre you are looking for. And this tutorial is here to help set you up in 10 minutes, with",
-          "link": "https://www.freecodecamp.org/news/use-python-to-create-a-visual-novel/",
-          "publishedOn": "2021-06-22T16:18:29.000Z",
-          "wordCount": 1613,
-          "title": "How to Make a Visual Novel Game in 10 Minutes – Python Ren&#x27;Py Tutorial"
+          "description": "Landing in mainline Mesa 21.2 development code last week was the \"Crocus\" Gallium3D driver for old Intel hardware spanning from the Intel 965 chipset days \"Gen4\" up through Crocus supporting Haswell \"Gen7\" graphics. The i965 to Haswell span has been the focus since the official Intel \"Iris\" Gallium3D driver already in Mesa supports the Broadwell \"Gen8\" up through all current Intel UHD/Xe Graphics. But now Crocus with the latest Mesa code has added Gen8 support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Gallium3D-Gen8",
+          "publishedOn": "2021-06-23T07:30:00.000Z",
+          "wordCount": 774,
+          "title": "Crocus Gallium3D Adds Experimental Intel Gen8 Graphics, Overlapping With Iris Driver"
         },
         {
-          "id": "60c81f774dc1a607ed7b2f66",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.14",
           "author": null,
-          "description": "I've been using Vim since the first year I started coding. For all the IDEs/editors that I have used, the Vim plugin is always the very first plugin that I install. I know that Vim can be challenging to work in for people who are not familiar with it.",
-          "link": "https://www.freecodecamp.org/news/how-to-exit-vim/",
-          "publishedOn": "2021-06-21T21:52:43.000Z",
-          "wordCount": 1785,
-          "title": "How to Exit Vim – Vim Save and Quit Command Tutorial"
+          "description": "Intel-owned Habana Labs has submitted their set of driver updates to char/misc ahead of the upcoming Linux 5.14 merge window...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.14",
+          "publishedOn": "2021-06-23T04:00:00.000Z",
+          "wordCount": 924,
+          "title": "Habana Labs Driver Drops Default Memory Scrubbing For Better Performance, Other Changes"
         },
         {
-          "id": "60bce157acb62507dd1d9f11",
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Vulkan-RT-Pipelines",
           "author": null,
-          "description": "When you're working with Python lists, you often need to combine data from multiple lists. So how do you do that? In this tutorial, we'll see the different ways you can combine data from multiple lists. We'll also learn how the list methods append() and extend() work through simple examples.",
-          "link": "https://www.freecodecamp.org/news/python-list-methods-append-vs-extend/",
-          "publishedOn": "2021-06-21T21:25:11.000Z",
-          "wordCount": 1085,
-          "title": "Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples"
+          "description": "Even though Vulkan ray-tracing support on Intel graphics hardware isn't coming until Xe HPG avaiability, Intel's Linux graphics driver developers have been preparing since last year. In preparation for the Xe HPG launch, Intel's open-source talent have for many months already been preparing the Vulkan ray-tracing functionality wither another batch of code being merged today...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Vulkan-RT-Pipelines",
+          "publishedOn": "2021-06-22T23:00:00.000Z",
+          "wordCount": 823,
+          "title": "Intel Lands More Open-Source Vulkan Driver Changes For Ray-Tracing"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-New-Leadership-BUs",
+          "author": null,
+          "description": "Intel CEO Pat Gelsinger continues working on restructuring the company and today announced some new leadership as well as business unit changes...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-New-Leadership-BUs",
+          "publishedOn": "2021-06-22T20:13:47.000Z",
+          "wordCount": 861,
+          "title": "Intel Announces New Leadership Roles, Business Unit Changes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ucode-June-2021-Not-Bad",
+          "author": null,
+          "description": "While in the past we have seen Intel CPU microcode updates lead to measurable performance differences on multiple occasions, this month's CPU microcode update doesn't end up being all that concerning for real-world performance...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ucode-June-2021-Not-Bad",
+          "publishedOn": "2021-06-22T17:44:38.000Z",
+          "wordCount": 873,
+          "title": "Intel's Latest CPU Microcode Update Isn't All That Scary"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PanVK-Lands-In-Mesa",
+          "author": null,
+          "description": "Hitting mainline Mesa today for Mesa 21.2 next quarter is PanVK as the open-source Vulkan driver in development for newer Arm Mali GPUs...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PanVK-Lands-In-Mesa",
+          "publishedOn": "2021-06-22T17:13:14.000Z",
+          "wordCount": 848,
+          "title": "PanVK Merged Into Mesa 21.2 For Open-Source Vulkan Driver With Arm Mali GPUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Releases-DLSS-Linux",
+          "author": null,
+          "description": "NVIDIA announced yesterday they would be releasing DLSS Linux support tomorrow and indeed they have delivered on that first milestone of Deep Learning Super Sampling support for Linux gamers. NVIDIA has published their first 470 driver series beta in the form of the NVIDIA 470.42.01 build...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Releases-DLSS-Linux",
+          "publishedOn": "2021-06-22T13:54:40.000Z",
+          "wordCount": 922,
+          "title": "NVIDIA Posts 470 Linux Driver Beta With Better Wayland Support, DLSS + Improved PRIME"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FXSR-Source-Next-Month",
+          "author": null,
+          "description": "AMD today released FidelityFX Super Resolution that was announced earlier this month at Computex. Today it's Windows-only with no Linux support being introduced. FidelityFX Super Resolution is open-source but the code drop will not be until next month...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FXSR-Source-Next-Month",
+          "publishedOn": "2021-06-22T13:17:32.000Z",
+          "wordCount": 787,
+          "title": "AMD FidelityFX Super Resolution Source Code Coming Next Month"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-Performance-P550-P270",
+          "author": null,
+          "description": "SiFive today is announcing the Performance P550 as the fastest RISC-V processor yet while also announcing the Performance P270 too...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-Performance-P550-P270",
+          "publishedOn": "2021-06-22T13:00:00.000Z",
+          "wordCount": 761,
+          "title": "SiFive Announces The Performance P550 As The Fastest RISC-V Processor Yet"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30284",
+          "author": null,
+          "description": "For those wondering how well the likes of FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD's EPYC 7003 \"Milan\" processors launched earlier this year, here are some initial benchmarks of those BSDs alongside a few Linux distributions. With recently having a Tyan 1U server in the lab with EPYC 7543 32-core processor, I've been running a number of BSD benchmarks on it given these recent BSD releases have been running well on this 1P server.",
+          "link": "https://www.phoronix.com/vr.php?view=30284",
+          "publishedOn": "2021-06-22T11:30:00.000Z",
+          "wordCount": 953,
+          "title": "FreeBSD 13.0 vs. DragonFlyBSD 6.0 vs. Linux On AMD EPYC 7003 Series \"Milan\""
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Pre-Polaris-Now-Legacy",
+          "author": null,
+          "description": "AMD has shifted all their graphics processors and APUs prior to Polaris / GCN 1.4 to being legacy and will not be supported by their new Radeon Software Adrenalin releases...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Pre-Polaris-Now-Legacy",
+          "publishedOn": "2021-06-22T10:04:22.000Z",
+          "wordCount": 1053,
+          "title": "AMD Drops Pre-Polaris GPU Support From Their Mainline Radeon Software Driver"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=W3C-Neural-Network-API-Draft",
+          "author": null,
+          "description": "The latest JavaScript API to see a public working draft out of the W3C is for a Web Neural Network API...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=W3C-Neural-Network-API-Draft",
+          "publishedOn": "2021-06-22T09:27:15.000Z",
+          "wordCount": 764,
+          "title": "W3C Publishes Working Draft For Web Neural Network API"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-R1-Beta-3-Release-Plan",
+          "author": null,
+          "description": "The Haiku open-source operating system inspired by BeOS has been in development since 2001. It took until September 2018 for the Haiku R1 Beta and then last summer was succeeded by Haiku R1 Beta 2. Now a year later the third beta for this inaugural release is now approaching...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-R1-Beta-3-Release-Plan",
+          "publishedOn": "2021-06-22T04:00:00.000Z",
+          "wordCount": 832,
+          "title": "Haiku R1 Beta 3 Aims For Release In About One Month"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-Local-Migration",
+          "author": null,
+          "description": "Google engineers have prepared a set of Linux kernel patches allowing for AMD Secure Encrypted Virtualization (SEV) / SEV-ES encrypted state to allow for local migration support of these encrypted virtual machines on the same host...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-Local-Migration",
+          "publishedOn": "2021-06-21T18:56:47.000Z",
+          "wordCount": 847,
+          "title": "AMD SEV/SEV-ES Local Migration Support Patches For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-DLSS-For-Linux-Tomorrow",
+          "author": null,
+          "description": "NVIDIA announced earlier this month that they would be bringing DLSS to Linux / Steam Play and tomorrow they will be introducing that initial driver support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-DLSS-For-Linux-Tomorrow",
+          "publishedOn": "2021-06-21T17:10:16.000Z",
+          "wordCount": 838,
+          "title": "NVIDIA Releasing DLSS Support For Vulkan API Games On Linux Tomorrow"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30276",
+          "author": null,
+          "description": "Merged this past week was Crocus as the new open-source Intel Gallium3D driver developed by the community and used for Gen4/i965 through Gen7/Haswell generations of Intel graphics. This week I ran some Crocus benchmarks on Intel Haswell comparing against the existing i965 classic Mesa DRI driver while in this article are some comparison driver benchmarks using Intel Sandy Bridge graphics for those still running those once popular processors.",
+          "link": "https://www.phoronix.com/vr.php?view=30276",
+          "publishedOn": "2021-06-21T13:30:00.000Z",
+          "wordCount": 732,
+          "title": "Running The New Intel OpenGL \"Crocus\" Gallium3D Driver On Sandy Bridge"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Rocky-Linux-8.4",
+          "author": null,
+          "description": "Stemming from last month's Red Hat Enterprise Linux 8.4 release and then the RHEL 8.4 based updates to Alma Linux, Oracle Linux, and CentOS 8, RockyLinux has today reached general availability on its v8.4 release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rocky-Linux-8.4",
+          "publishedOn": "2021-06-21T13:02:00.000Z",
+          "wordCount": 715,
+          "title": "Rocky Linux 8.4 Released For RHEL 8.4 / CentOS Alternative"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-SparkFun-Qwiic",
+          "author": null,
+          "description": "Linux 5.14 is bringing a new input driver to support an open-source joystick that can be used for DIY electronics purposes and other use-cases. The schematics and firmware are open-source for building the joystick device yourself or can be purchased for about $10 USD...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-SparkFun-Qwiic",
+          "publishedOn": "2021-06-21T12:10:31.000Z",
+          "wordCount": 807,
+          "title": "Linux 5.14 To Add Driver For A $10 Open-Source Joystick For DIY Electronics Projects"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IGC-1.0.7683",
+          "author": null,
+          "description": "Last week Intel shipped a big update to their open-source Intel Graphics Compiler \"IGC\" that is used currently by their Windows driver, their Linux compute stack, and potentially their Linux graphics drivers moving ahead...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IGC-1.0.7683",
+          "publishedOn": "2021-06-21T09:44:04.000Z",
+          "wordCount": 731,
+          "title": "Intel Graphics Compiler 1.0.7683 Ships With Many Changes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.182-Released",
+          "author": null,
+          "description": "Vulkan 1.2.182 is out and on top of various documentation fixes/clarifications, there are a few new extensions added with this revision...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.182-Released",
+          "publishedOn": "2021-06-21T09:20:03.000Z",
+          "wordCount": 773,
+          "title": "Vulkan 1.2.182 Released With Some Prominent Extensions Added"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Unvanquished-0.52.1-Released",
+          "author": null,
+          "description": "Following last month's Unvanquished 0.52 beta for this open-source game that has long been in development, Sunday marked the release of Unvanquished 0.52.1...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Unvanquished-0.52.1-Released",
+          "publishedOn": "2021-06-21T04:00:00.000Z",
+          "wordCount": 749,
+          "title": "Unvanquished 0.52.1 Brings Rendering Fixes, Flatpak For This Promising Open-Source Game"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rc7",
+          "author": null,
+          "description": "Linus Torvalds is celebrating Father's Day by releasing Linux 5.13-rc7. Kernel maintainers and testers managed to keep him happy the father of Linux happy this week by keeping to a small change set for this late-stage release candidate...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rc7",
+          "publishedOn": "2021-06-20T22:51:28.000Z",
+          "wordCount": 858,
+          "title": "Linux 5.13-rc7 Released Following A Very Calm Week"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-Linux-Driver-v10",
+          "author": null,
+          "description": "Published all the way back in September 2019 was a Linux driver for supporting the Pass-Through DMA controller for EPYC processors. The PTDMA hardware allows for high bandwidth memory-to-memory and I/O copy operations. Now mid-way through 2021 that AMD PTDMA Linux driver remains in the works and is up to its tenth driver revision while waiting to see if it's now ready for mainline or further changes are still deemed necessary...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-Linux-Driver-v10",
+          "publishedOn": "2021-06-20T19:25:44.000Z",
+          "wordCount": 916,
+          "title": "AMD Continues Working To Mainline Their PTDMA Driver For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser5-Unstable-For-Linux-5.12",
+          "author": null,
+          "description": "Back in April the out-of-tree Reiser4 file-system was updated for Linux 5.12 compatibility while now with Linux 5.13 being right around the corner, Edward Shishkin has updated the experimental Reiser5 file-system code for v5.12 compatibility...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser5-Unstable-For-Linux-5.12",
+          "publishedOn": "2021-06-20T15:40:01.000Z",
+          "wordCount": 743,
+          "title": "Experimental Reiser5 File-System Patch Updated For Linux 5.12"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-More-XSTATE-Mess",
+          "author": null,
+          "description": "Earlier this month Linux 5.13 disabled Intel's ENQCMD functionality for upcoming Xeon \"Sapphire Rapids\" processors as the kernel software code around it was deemed \"broken beyond repair\". More of the recent Intel-submitted patches around reworking kernel code in preparation for upcoming CPU features has been found to be rather hairy after already being mainlined and thus another batch of urgent x86 fixes were sent in this morning...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-More-XSTATE-Mess",
+          "publishedOn": "2021-06-20T11:23:36.000Z",
+          "wordCount": 995,
+          "title": "Linux 5.13 Lands More Fixes To The Mucked Up FPU/XSTATE Handling Mess"
         }
       ]
     }

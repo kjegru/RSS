@@ -1,101 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-24T06:46:13.199Z</id>
+    <id>urn:2021-06-24T06:51:25.509Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-24T06:46:13.199Z</updated>
+    <updated>2021-06-24T06:51:25.509Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[What is Data Analysis? How to Visualize Data with Python, Numpy, Pandas, Matplotlib &amp; Seaborn Tutorial]]></title>
-        <id>605abca5687d62084bf6b7cd</id>
-        <link href="https://www.freecodecamp.org/news/exploratory-data-analysis-with-numpy-pandas-matplotlib-seaborn/"/>
-        <updated>2021-06-24T00:11:01.000Z</updated>
-        <summary type="html"><![CDATA[Data Analysis is the process of exploring, investigating, and gathering insights from data using statistical measures and visualizations.  The objective of data analysis is to develop an understanding of data by uncovering trends, relationships, and patterns. Data analysis is both a science and an art. On the one hand it]]></summary>
+        <title type="html"><![CDATA[Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XMM-Fast-Hypercalls-KVM-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XMM-Fast-Hypercalls-KVM-5.14"/>
+        <updated>2021-06-24T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Microservices Architecture – Explained in Plain English]]></title>
-        <id>6072ffd4d5756f080ba98b27</id>
-        <link href="https://www.freecodecamp.org/news/microservices-architecture-for-humans/"/>
-        <updated>2021-06-23T21:52:08.000Z</updated>
-        <summary type="html"><![CDATA[Over the last few years, microservices have gone from an overhyped buzzword to something you should understand as a software engineer.  According to an O'Reilly developer survey in 2020:  61% of companies have been using microservices in the last year29% say at least half of their company systems are built]]></summary>
+        <title type="html"><![CDATA[AMD PSF Control Support Still Awaiting The Mainline Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-Still-Waiting</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-Still-Waiting"/>
+        <updated>2021-06-23T17:45:54.000Z</updated>
+        <summary type="html"><![CDATA[It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TablesNG — Improvements to table rendering in Chromium]]></title>
-        <id>https://css-tricks.com/?p=343076</id>
-        <link href="https://www.bram.us/2021/06/21/tablesng-improvements-to-table-rendering-in-chromium/"/>
-        <updated>2021-06-23T21:37:14.000Z</updated>
-        <summary type="html"><![CDATA[When I blogged “Making Tables With Sticky Header and Footers Got a Bit Easier” recently, I mentioned that the “stickiness” improvement was just one of the features that got better for <table>s in Chrome as part of the TablesNG upgrade…
-The post TablesNG — Improvements to table rendering in Chromium appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Work-In-Progress RadeonSI+Nine Showing Big Performance Win For Source Engine Games]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Nine-Double-Perf</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Nine-Double-Perf"/>
+        <updated>2021-06-23T15:27:10.000Z</updated>
+        <summary type="html"><![CDATA[While Valve has been working on Vulkan-based rendering for Source Engine games by making use of DXVK for translating the game engine's native Direct3D calls to the Vulkan API, with some yet-to-be-merged Mesa patches around Gallium Nine there is much better performance to see with Gallium Nine at least for the RadeonSI driver...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using Performant Next-Gen Images in CSS with image-set]]></title>
-        <id>https://css-tricks.com/?p=342750</id>
-        <link href="https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/"/>
-        <updated>2021-06-23T19:10:54.000Z</updated>
-        <summary type="html"><![CDATA[The CSS image-set() function has been supported in Chromium-based browsers since 2012 and in Safari since version 6. Support recently landed in Firefox 88. Let’s dive in and see what we can and can’t do today with image-set().…
-The post Using Performant Next-Gen Images in CSS with image-set appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Canonical Partners With Blender Around Paid LTS Application Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-Blender-LTS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-Blender-LTS"/>
+        <updated>2021-06-23T14:31:19.000Z</updated>
+        <summary type="html"><![CDATA[Ubuntu maker Canonical has partnered up with the Blender Foundation to offer paid enterprise support around the long-term support versions of Blender...]]></summary>
         <author>
-            <name>Ollie Williams</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Create a REST API with .NET 5 and  C#]]></title>
-        <id>60d36eb66e1a1407b6b0b16d</id>
-        <link href="https://www.freecodecamp.org/news/create-a-rest-api-with-dot-net-5-and-c-sharp/"/>
-        <updated>2021-06-23T18:08:14.000Z</updated>
-        <summary type="html"><![CDATA[.NET is a popular software framework developed by Microsoft. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create a REST API end-to-end from scratch using the latest .NET 5 innovations and Visual Studio Code. The course uses the C# programming language.]]></summary>
+        <title type="html"><![CDATA[Qt 6.2 Alpha Released With Many More Modules Ported From Qt5]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Alpha-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Alpha-Released"/>
+        <updated>2021-06-23T12:09:02.000Z</updated>
+        <summary type="html"><![CDATA[The Qt Company has announced the debut of Qt 6.2 Alpha as it prepares for its September release with many more modules finally making the transition from Qt5 to Qt6...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Create a Great Technical Course]]></title>
-        <id>60a406bd906c5207e3a7dfcb</id>
-        <link href="https://www.freecodecamp.org/news/how-to-create-a-great-technical-course/"/>
-        <updated>2021-06-23T17:19:24.000Z</updated>
-        <summary type="html"><![CDATA[In this article you will learn how to create a great technical video course. I run the freeCodeCamp.org YouTube channel where we post technical courses from a variety of contributors. Video courses that follow the guidelines in this article are often a good fit for freeCodeCamp's channel. How to]]></summary>
+        <title type="html"><![CDATA[Linux 5.14 To Support The OpenPOWER Microwatt Soft CPU Core]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenPOWER-Microwatt-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenPOWER-Microwatt-5.14"/>
+        <updated>2021-06-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Announced two years ago was the OpenPOWER Microwatt as an FPGA-based soft CPU core...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[“Weak declaration”]]></title>
-        <id>https://css-tricks.com/?p=342669</id>
-        <link href="https://css-tricks.com/weak-declaration/"/>
-        <updated>2021-06-23T14:27:14.000Z</updated>
-        <summary type="html"><![CDATA[PPK looks at aspect-ratio, a CSS property for layout that, for the most part, does exactly what you would think it does. It’s getting more interesting as it’s behind a flag in Firefox and Safari now, so we’ll have …
-The post “Weak declaration” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Left 4 Dead 2 Vulkan Performance With Radeon Graphics On Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30287</id>
+        <link href="https://www.phoronix.com/vr.php?view=30287"/>
+        <updated>2021-06-23T09:45:18.000Z</updated>
+        <summary type="html"><![CDATA[Last week Valve introduced Vulkan rendering support for Left 4 Dead 2. The L4D2 Vulkan support is similar to that of Portal 2 where DXVK is being leveraged for translating the Direct3D calls to Vulkan rather than relying on their OpenGL translations. For those wondering what this means for L4D2 performance on Linux with modern GPUs, here are some benchmarks of Left 4 Dead 2 when testing the OpenGL and Vulkan rendering options.]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Smashing Online Workshops (July-October 2021)]]></title>
-        <id>https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/</id>
-        <link href="https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/"/>
-        <updated>2021-06-23T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Frontend and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run [online workshops](https://smashingconf.com/online-workshops/) for all of us to learn together. And we have new ones coming up, and we’d like to kindly welcome you to join in.]]></summary>
+        <title type="html"><![CDATA[Crocus Gallium3D Adds Experimental Intel Gen8 Graphics, Overlapping With Iris Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Gallium3D-Gen8</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Gallium3D-Gen8"/>
+        <updated>2021-06-23T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Landing in mainline Mesa 21.2 development code last week was the "Crocus" Gallium3D driver for old Intel hardware spanning from the Intel 965 chipset days "Gen4" up through Crocus supporting Haswell "Gen7" graphics. The i965 to Haswell span has been the focus since the official Intel "Iris" Gallium3D driver already in Mesa supports the Broadwell "Gen8" up through all current Intel UHD/Xe Graphics. But now Crocus with the latest Mesa code has added Gen8 support...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Iris Lješnjanin)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating Screen Reader Testing On macOS Using Auto VO]]></title>
-        <id>https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/</id>
-        <link href="https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/"/>
-        <updated>2021-06-23T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cameron Cundiff)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -118,415 +105,518 @@ Thank you @PiyushLosalka]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[inherit, initial, unset, revert]]></title>
-        <id>https://css-tricks.com/?p=342930</id>
-        <link href="https://css-tricks.com/inherit-initial-unset-revert/"/>
-        <updated>2021-06-22T21:20:20.000Z</updated>
-        <summary type="html"><![CDATA[There are four keywords that are valid values for any CSS property (see the title). Of those, day to day, I’d say I see the inherit used the most. Perhaps because it’s been around the longest (I think?) but also …
-The post inherit, initial, unset, revert appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Habana Labs Driver Drops Default Memory Scrubbing For Better Performance, Other Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.14"/>
+        <updated>2021-06-23T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel-owned Habana Labs has submitted their set of driver updates to char/misc ahead of the upcoming Linux 5.14 merge window...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Web Scraping with PHP – How to Crawl Web Pages Using Open Source Tools]]></title>
-        <id>60d2323d6e1a1407b6b0ac4f</id>
-        <link href="https://www.freecodecamp.org/news/web-scraping-with-php-crawl-web-pages/"/>
-        <updated>2021-06-22T21:11:53.000Z</updated>
-        <summary type="html"><![CDATA[Web scraping lets you collect data from web pages across the internet. It's also called web crawling or web data extraction.  PHP is a widely used back-end scripting language for creating dynamic websites and web applications. And you can implement a web scraper using plain PHP code.  But since we]]></summary>
+        <title type="html"><![CDATA[How to use a pull-based (agent-based) approach for GitOps]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/"/>
+        <updated>2021-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the previous post, titled 3 ways to approach GitOps, we discussed the many benefits and options that GitLab supports for fulfilling the GitOps requirements of customers, whose IT environments are composed of heterogeneous technologies and infrastructures. This post is a 3-part series, in which we delve deeper into these options. In this first part, we cover the pull-based or agent-based approach.
+About a pull-based or agent-based approach
+In this approach, an agent is installed in your infrastructure components to pull changes whenever there is a drift from the desired configuration, which resides in GitLab. Although the infrastructure components could be anything from a physical server or router to a VM or a database, we will focus on a Kubernetes cluster in this section.
+In the follow…]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Use Async/Await to Write Better JavaScript Code]]></title>
-        <id>60cac8ff4dc1a607ed7b4592</id>
-        <link href="https://www.freecodecamp.org/news/how-to-use-async-await-write-better-javascript/"/>
-        <updated>2021-06-22T16:24:37.000Z</updated>
-        <summary type="html"><![CDATA[There’s a special syntax you can use in JavaScript that makes working with promises easier. It's called “async/await", and it’s surprisingly straightforward to understand and use.  In this article, we'll discuss:  What are asynchronus functions? How promises work in JavaScript Async/Await basics How to use]]></summary>
+        <title type="html"><![CDATA[Intel Lands More Open-Source Vulkan Driver Changes For Ray-Tracing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-Pipelines</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-Pipelines"/>
+        <updated>2021-06-22T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Even though Vulkan ray-tracing support on Intel graphics hardware isn't coming until Xe HPG avaiability, Intel's Linux graphics driver developers have been preparing since last year. In preparation for the Xe HPG launch, Intel's open-source talent have for many months already been preparing the Vulkan ray-tracing functionality wither another batch of code being merged today...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Use TypeScript and MongoDB to Build a 100 Days of Code Discord Bot]]></title>
-        <id>60c13e71d3126007592d5be2</id>
-        <link href="https://www.freecodecamp.org/news/how-to-build-a-100-days-of-code-bot-for-discord-using-typescript-and-mongodb/"/>
-        <updated>2021-06-22T16:20:36.000Z</updated>
-        <summary type="html"><![CDATA[The 100 Days of Code challenge is very popular among new coders and developers looking to level up their skills. It's so popular that our Discord server has an entire channel dedicated to it.  By popular demand, we recently built a Discord bot that helps people track their progress in]]></summary>
+        <title type="html"><![CDATA[Intel Announces New Leadership Roles, Business Unit Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-New-Leadership-BUs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-New-Leadership-BUs"/>
+        <updated>2021-06-22T20:13:47.000Z</updated>
+        <summary type="html"><![CDATA[Intel CEO Pat Gelsinger continues working on restructuring the company and today announced some new leadership as well as business unit changes...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Make a Visual Novel Game in 10 Minutes – Python Ren&#x27;Py Tutorial]]></title>
-        <id>60cfff5a4dc1a607ed7b5e58</id>
-        <link href="https://www.freecodecamp.org/news/use-python-to-create-a-visual-novel/"/>
-        <updated>2021-06-22T16:18:29.000Z</updated>
-        <summary type="html"><![CDATA[Do you have a story idea that you'd like to turn into a novel? How about adding visual appeal and interactivity to that novel?  A Visual Novel might be the game genre you are looking for. And this tutorial is here to help set you up in 10 minutes, with]]></summary>
+        <title type="html"><![CDATA[Intel's Latest CPU Microcode Update Isn't All That Scary]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ucode-June-2021-Not-Bad</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ucode-June-2021-Not-Bad"/>
+        <updated>2021-06-22T17:44:38.000Z</updated>
+        <summary type="html"><![CDATA[While in the past we have seen Intel CPU microcode updates lead to measurable performance differences on multiple occasions, this month's CPU microcode update doesn't end up being all that concerning for real-world performance...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using Custom Elements in Svelte]]></title>
-        <id>https://css-tricks.com/?p=342634</id>
-        <link href="https://css-tricks.com/using-custom-elements-in-svelte/"/>
-        <updated>2021-06-22T14:37:50.000Z</updated>
-        <summary type="html"><![CDATA[Svelte fully supports custom elements (e.g. <my-component>) without any custom configuration or wrapper components and has a perfect score on Custom Elements Everywhere. However, there are still a few quirks you need to watch out for, especially around …
-The post Using Custom Elements in Svelte appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[PanVK Merged Into Mesa 21.2 For Open-Source Vulkan Driver With Arm Mali GPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PanVK-Lands-In-Mesa</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PanVK-Lands-In-Mesa"/>
+        <updated>2021-06-22T17:13:14.000Z</updated>
+        <summary type="html"><![CDATA[Hitting mainline Mesa today for Mesa 21.2 next quarter is PanVK as the open-source Vulkan driver in development for newer Arm Mali GPUs...]]></summary>
         <author>
-            <name>Geoff Rich</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[If we’re gonna criticize utility-class frameworks, let’s be fair about it]]></title>
-        <id>https://css-tricks.com/?p=342925</id>
-        <link href="https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/"/>
-        <updated>2021-06-22T14:33:41.000Z</updated>
-        <summary type="html"><![CDATA[I’m not here to raise a shield protecting CSS utility frameworks. I don’t even particularly like the approach, myself, and nothing is above fair criticism. But fair is a key word there. I can’t tell you how many times I’ve …
-The post If we’re gonna criticize utility-class frameworks, let’s be fair about it appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[NVIDIA Posts 470 Linux Driver Beta With Better Wayland Support, DLSS + Improved PRIME]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Releases-DLSS-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Releases-DLSS-Linux"/>
+        <updated>2021-06-22T13:54:40.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA announced yesterday they would be releasing DLSS Linux support tomorrow and indeed they have delivered on that first milestone of Deep Learning Super Sampling support for Linux gamers. NVIDIA has published their first 470 driver series beta in the form of the NVIDIA 470.42.01 build...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Designing With Code: A Modern Approach To Design (Development Challenges)]]></title>
-        <id>https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/</id>
-        <link href="https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/"/>
-        <updated>2021-06-22T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After years of innovation in both tools and processes, the struggle between design and development is still real. This article focuses on the best practices for improving the design to development processes and how cutting-edge solutions, such as UXPin powered by Merge technology, can help in facilitating the change.]]></summary>
+        <title type="html"><![CDATA[AMD FidelityFX Super Resolution Source Code Coming Next Month]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-FXSR-Source-Next-Month</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-FXSR-Source-Next-Month"/>
+        <updated>2021-06-22T13:17:32.000Z</updated>
+        <summary type="html"><![CDATA[AMD today released FidelityFX Super Resolution that was announced earlier this month at Computex. Today it's Windows-only with no Linux support being introduced. FidelityFX Super Resolution is open-source but the code drop will not be until next month...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Mikołaj Dobrucki)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Exit Vim – Vim Save and Quit Command Tutorial]]></title>
-        <id>60c81f774dc1a607ed7b2f66</id>
-        <link href="https://www.freecodecamp.org/news/how-to-exit-vim/"/>
-        <updated>2021-06-21T21:52:43.000Z</updated>
-        <summary type="html"><![CDATA[I've been using Vim since the first year I started coding. For all the IDEs/editors that I have used, the Vim plugin is always the very first plugin that I install. I know that Vim can be challenging to work in for people who are not familiar with it.]]></summary>
+        <title type="html"><![CDATA[SiFive Announces The Performance P550 As The Fastest RISC-V Processor Yet]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-Performance-P550-P270</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-Performance-P550-P270"/>
+        <updated>2021-06-22T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SiFive today is announcing the Performance P550 as the fastest RISC-V processor yet while also announcing the Performance P270 too...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples]]></title>
-        <id>60bce157acb62507dd1d9f11</id>
-        <link href="https://www.freecodecamp.org/news/python-list-methods-append-vs-extend/"/>
-        <updated>2021-06-21T21:25:11.000Z</updated>
-        <summary type="html"><![CDATA[When you're working with Python lists, you often need to combine data from multiple lists. So how do you do that? In this tutorial, we'll see the different ways you can combine data from multiple lists. We'll also learn how the list methods append() and extend() work through simple examples.]]></summary>
+        <title type="html"><![CDATA[FreeBSD 13.0 vs. DragonFlyBSD 6.0 vs. Linux On AMD EPYC 7003 Series "Milan"]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30284</id>
+        <link href="https://www.phoronix.com/vr.php?view=30284"/>
+        <updated>2021-06-22T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[For those wondering how well the likes of FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD's EPYC 7003 "Milan" processors launched earlier this year, here are some initial benchmarks of those BSDs alongside a few Linux distributions. With recently having a Tyan 1U server in the lab with EPYC 7543 32-core processor, I've been running a number of BSD benchmarks on it given these recent BSD releases have been running well on this 1P server.]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Are we in a new era of web design? What do we call it?]]></title>
-        <id>https://css-tricks.com/?p=342887</id>
-        <link href="https://web.dev/new-responsive/"/>
-        <updated>2021-06-21T21:22:33.000Z</updated>
-        <summary type="html"><![CDATA[Una is calling it the new responsive. A nod to the era we were most certainly in, the era of responsive design. Where responsive design was fluid grids, flexible media, and media queries, the new responsive is those things …
-The post Are we in a new era of web design? What do we call it? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[AMD Drops Pre-Polaris GPU Support From Their Mainline Radeon Software Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Pre-Polaris-Now-Legacy</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Pre-Polaris-Now-Legacy"/>
+        <updated>2021-06-22T10:04:22.000Z</updated>
+        <summary type="html"><![CDATA[AMD has shifted all their graphics processors and APUs prior to Polaris / GCN 1.4 to being legacy and will not be supported by their new Radeon Software Adrenalin releases...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Create CSS Charts With Interesting Shapes, Glyphs and Emoji]]></title>
-        <id>https://css-tricks.com/?p=342448</id>
-        <link href="https://css-tricks.com/how-to-create-css-charts-with-interesting-shapes-glyphs-and-emoji/"/>
-        <updated>2021-06-21T14:32:45.000Z</updated>
-        <summary type="html"><![CDATA[Let’s forego the usual circles and bars we typically see used in charts for more eccentric shapes. With online presentations more and more common today, a quick way to spruce up your web slides and make them stand out is …
-The post How to Create CSS Charts With Interesting Shapes, Glyphs and Emoji appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[W3C Publishes Working Draft For Web Neural Network API]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=W3C-Neural-Network-API-Draft</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=W3C-Neural-Network-API-Draft"/>
+        <updated>2021-06-22T09:27:15.000Z</updated>
+        <summary type="html"><![CDATA[The latest JavaScript API to see a public working draft out of the W3C is for a Web Neural Network API...]]></summary>
         <author>
-            <name>Preethi</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Image To Text Conversion With React And Tesseract.js (OCR)]]></title>
-        <id>https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/</id>
-        <link href="https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/"/>
-        <updated>2021-06-21T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).]]></summary>
+        <title type="html"><![CDATA[Haiku R1 Beta 3 Aims For Release In About One Month]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3-Release-Plan</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3-Release-Plan"/>
+        <updated>2021-06-22T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Haiku open-source operating system inspired by BeOS has been in development since 2001. It took until September 2018 for the Haiku R1 Beta and then last summer was succeeded by Haiku R1 Beta 2. Now a year later the third beta for this inaugural release is now approaching...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Ayobami Ogundiran)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using the `outline` Property as a Collapsable Border]]></title>
-        <id>https://css-tricks.com/?p=341511</id>
-        <link href="https://css-tricks.com/using-the-outline-property-as-a-collapsable-border/"/>
-        <updated>2021-06-18T20:38:59.000Z</updated>
-        <summary type="html"><![CDATA[The outline property in CSS draws a line around the outside of an element. This is quite similar to the border property, the main exception being that outline isn’t a part of the box model. It is often used for …
-The post Using the `outline` Property as a Collapsable Border appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[GitLab 14 signals shift to modern DevOps: A DevOps platform with velocity, trust, and visibility]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/"/>
+        <updated>2021-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The DevOps era began with a big idea – dissolve silos to deliver better software, faster. In the transition from classic software paradigms, DIY DevOps toolchains were built with parts that were never designed to work together. That DIY DevOps era left many trapped in new silos, without visibility, and mired in maintenance. Business outcomes suffered as the potential of DevOps was never fully realized.
+The next iteration of DevOps
+There is a better way to build software. GitLab 14 delivers modern DevOps with a complete DevOps platform, for a streamlined experience that unleashes the power of DevOps. Over the past year, GitLab has shipped advanced DevOps platform capabilities that enable any team to build and deliver software with velocity, trust, and visibility – no matter their size, indu…]]></summary>
         <author>
-            <name>Carter Li</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[An Alternative Voice UI To Voice Assistants]]></title>
-        <id>https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/</id>
-        <link href="https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/"/>
-        <updated>2021-06-18T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.]]></summary>
+        <title type="html"><![CDATA[GitLab 14.0 released with a celebration of GitLab 14]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/"/>
+        <updated>2021-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When we think of everything released in the year since GitLab 13.0, we could not be more proud of our community and our team. This month, we celebrate our release of GitLab 14.0 by first taking a step back.
+Together, we’ve made so much progress over the last year that we want to talk about everything it took to get to GitLab 14.
+We use semantic versioning so a point release, like 14.0, represents everything new in this month. GitLab 14 is the culmination of the past year. Even more than that, GitLab 14 represents the future of GitLab, and the future of DevOps.
+With GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Ottomatias Peura)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links on Typography]]></title>
-        <id>https://css-tricks.com/?p=342326</id>
-        <link href="https://css-tricks.com/links-on-typography-2/"/>
-        <updated>2021-06-18T13:44:17.000Z</updated>
-        <summary type="html"><![CDATA[I studied the fonts of the top 1000 websites. Here’s what I learned. — Michael Li brings the data. San-serif has total dominance. “[…] it is rare to go below 10px or above 24px.” And poor <h5> always being the 
-…
-The post Links on Typography appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[AMD SEV/SEV-ES Local Migration Support Patches For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-Local-Migration</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-Local-Migration"/>
+        <updated>2021-06-21T18:56:47.000Z</updated>
+        <summary type="html"><![CDATA[Google engineers have prepared a set of Linux kernel patches allowing for AMD Secure Encrypted Virtualization (SEV) / SEV-ES encrypted state to allow for local migration support of these encrypted virtual machines on the same host...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Client-Side Routing In Next.js]]></title>
-        <id>https://smashingmagazine.com/2021/06/client-side-routing-next-js/</id>
-        <link href="https://smashingmagazine.com/2021/06/client-side-routing-next-js/"/>
-        <updated>2021-06-18T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.]]></summary>
+        <title type="html"><![CDATA[NVIDIA Releasing DLSS Support For Vulkan API Games On Linux Tomorrow]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-DLSS-For-Linux-Tomorrow</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-DLSS-For-Linux-Tomorrow"/>
+        <updated>2021-06-21T17:10:16.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA announced earlier this month that they would be bringing DLSS to Linux / Steam Play and tomorrow they will be introducing that initial driver support...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Adebiyi Adedotun)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Perfect Tooltips With CSS Clipping and Masking]]></title>
-        <id>https://css-tricks.com/?p=341948</id>
-        <link href="https://css-tricks.com/perfect-tooltips-with-css-clipping-and-masking/"/>
-        <updated>2021-06-17T14:45:57.000Z</updated>
-        <summary type="html"><![CDATA[Clipping and masking have been around for a while now in CSS and even have pretty decent browser support. I recently worked on a project that needed to use a clipping technique for tooltips showing above links in text.
-Those …
-The post Perfect Tooltips With CSS Clipping and Masking appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Running The New Intel OpenGL "Crocus" Gallium3D Driver On Sandy Bridge]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30276</id>
+        <link href="https://www.phoronix.com/vr.php?view=30276"/>
+        <updated>2021-06-21T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Merged this past week was Crocus as the new open-source Intel Gallium3D driver developed by the community and used for Gen4/i965 through Gen7/Haswell generations of Intel graphics. This week I ran some Crocus benchmarks on Intel Haswell comparing against the existing i965 classic Mesa DRI driver while in this article are some comparison driver benchmarks using Intel Sandy Bridge graphics for those still running those once popular processors.]]></summary>
         <author>
-            <name>Louis Hoebregts</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Start Serving Optimized Images in Vue]]></title>
-        <id>https://css-tricks.com/?p=342257</id>
-        <link href="https://css-tricks.com/start-serving-optimized-images-in-vue/"/>
-        <updated>2021-06-17T14:38:42.000Z</updated>
-        <summary type="html"><![CDATA[Images have become extremely important to the effectiveness of websites. They speak a 1000 words, attract attention, and stimulate emotions.
-However, web performance is also a growing problem for most websites. And images are at the heart of many web …
-The post Start Serving Optimized Images in Vue appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Rocky Linux 8.4 Released For RHEL 8.4 / CentOS Alternative]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rocky-Linux-8.4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rocky-Linux-8.4"/>
+        <updated>2021-06-21T13:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Stemming from last month's Red Hat Enterprise Linux 8.4 release and then the RHEL 8.4 based updates to Alma Linux, Oracle Linux, and CentOS 8, RockyLinux has today reached general availability on its v8.4 release...]]></summary>
         <author>
-            <name>ImageEngine</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Your Image Is Probably Not Decorative]]></title>
-        <id>https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/</id>
-        <link href="https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/"/>
-        <updated>2021-06-17T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.]]></summary>
+        <title type="html"><![CDATA[Linux 5.14 To Add Driver For A $10 Open-Source Joystick For DIY Electronics Projects]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SparkFun-Qwiic</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SparkFun-Qwiic"/>
+        <updated>2021-06-21T12:10:31.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.14 is bringing a new input driver to support an open-source joystick that can be used for DIY electronics purposes and other use-cases. The schematics and firmware are open-source for building the joystick device yourself or can be purchased for about $10 USD...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Eric Bailey)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inline Styles as Classes (lol)]]></title>
-        <id>https://css-tricks.com/?p=342358</id>
-        <link href="https://css-tricks.com/inline-styles-as-classes-lol/"/>
-        <updated>2021-06-16T21:11:02.000Z</updated>
-        <summary type="html"><![CDATA[If you’re abhorred by using inline styles, just move that style to the class attribute! And then make sure you have CSS in place that, ya know, does what it says on the box. 
-I've revolutionized CSS. pic.twitter.com/1AWCldyCwP
-— Sam 
+        <title type="html"><![CDATA[Intel Graphics Compiler 1.0.7683 Ships With Many Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-1.0.7683</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-1.0.7683"/>
+        <updated>2021-06-21T09:44:04.000Z</updated>
+        <summary type="html"><![CDATA[Last week Intel shipped a big update to their open-source Intel Graphics Compiler "IGC" that is used currently by their Windows driver, their Linux compute stack, and potentially their Linux graphics drivers moving ahead...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.182 Released With Some Prominent Extensions Added]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.182-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.182-Released"/>
+        <updated>2021-06-21T09:20:03.000Z</updated>
+        <summary type="html"><![CDATA[Vulkan 1.2.182 is out and on top of various documentation fixes/clarifications, there are a few new extensions added with this revision...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unvanquished 0.52.1 Brings Rendering Fixes, Flatpak For This Promising Open-Source Game]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Unvanquished-0.52.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Unvanquished-0.52.1-Released"/>
+        <updated>2021-06-21T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Following last month's Unvanquished 0.52 beta for this open-source game that has long been in development, Sunday marked the release of Unvanquished 0.52.1...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Usage Ping configuration bug for self-managed instances]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/"/>
+        <updated>2021-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We recently discovered a Usage Ping  configuration bug for self-managed instances and have since published a patch release to fix the bug. The issue affects the ability to disable Usage Ping for self-managed GitLab via text configuration files, resulting in the collection and transmission of Usage Ping events from the instance. This bug affects any instance running GitLab version 9.3 to version 13.12.3, and was patched in 13.12.4.
+What does this mean for existing users?
+This issue does not affect customers who have disabled Usage Ping via the user interface or any users of our SaaS product.
+You can check your instance configuration settings to see if this issue may have affected you. We’ve published more detailed instructions here.
+What should I do?
+Since we do not collect any configuration data from your instance, we have no way to detect if you unintentionally shared data with GitLab. Out of an abundance of caution, we ask that you fill out this form if you suspect that Usage Ping data was shared after taking steps to opt-out in your GitLab configuration file. We will purge data from our systems and follow up with confirmation.
+Please share your questions and feedback with us on the community forum.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to become more productive with Gitlab CI]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/"/>
+        <updated>2021-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CI/CD pipelines are the preeminent solution to mitigate potential risks while integrating code changes into the repository. CI/CD pipelines help isolate the impact of potential errors, making it easier to fix them. Top that with a tool that provides effective visibility into the running tasks and there you have a recipe for success.
+Since the primary purpose of CI/CD pipelines is to speed up the development process and provide value to the end user faster, there's always room to make the process more efficient. This blog post unpacks some strategies that can help you get the most out of your pipeline definition in GitLab CI.
+How Directed Acyclic Graphs (DAG) enable concurrent pipelines
 
-…
-The post Inline Styles as Classes (lol) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+By using the "Needs" keyword you can define dependencies for jobs that need to be used from previous sta…]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Useful and Useless Code Comments]]></title>
-        <id>https://css-tricks.com/?p=342630</id>
-        <link href="https://blog.jim-nielsen.com/2021/useful-and-usless-code-comments/"/>
-        <updated>2021-06-16T19:08:33.000Z</updated>
-        <summary type="html"><![CDATA[Jim Nielsen: 
-If somebody says a comment isn’t adding any value, I would ask: to whom?
-Personally, I’ve never liked the advice that writing obvious comments is bad practice—probably because I write obvious comments all the time.
-Jim showed …
-The post Useful and Useless Code Comments appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[GitLab Patch Release: 13.12.5]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/"/>
+        <updated>2021-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 13.12.5 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Only update required instance ci template when the parameter is present
+Fix Password expired error on git fetch via SSH for LDAP user
+Advanced Search Settings page does not load if the ES url is unreachable
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How I Used the WAAPI to Build an Animation Library]]></title>
-        <id>https://css-tricks.com/?p=342353</id>
-        <link href="https://css-tricks.com/how-i-used-the-waapi-to-build-an-animation-library/"/>
-        <updated>2021-06-16T14:26:58.000Z</updated>
-        <summary type="html"><![CDATA[The Web Animations API lets us construct animations and control their playback with JavaScript. The API opens the browser’s animation engine to developers and was designed to underlie implementations of both CSS animations and transitions, leaving the door open to …
-The post How I Used the WAAPI to Build an Animation Library appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[Linux 5.13-rc7 Released Following A Very Calm Week]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rc7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rc7"/>
+        <updated>2021-06-20T22:51:28.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds is celebrating Father's Day by releasing Linux 5.13-rc7. Kernel maintainers and testers managed to keep him happy the father of Linux happy this week by keeping to a small change set for this late-stage release candidate...]]></summary>
         <author>
-            <name>Okiki Ojo</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Complete Guide To Accessibility Tooling]]></title>
-        <id>https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/</id>
-        <link href="https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/"/>
-        <updated>2021-06-16T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.]]></summary>
+        <title type="html"><![CDATA[AMD Continues Working To Mainline Their PTDMA Driver For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-Driver-v10</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-Driver-v10"/>
+        <updated>2021-06-20T19:25:44.000Z</updated>
+        <summary type="html"><![CDATA[Published all the way back in September 2019 was a Linux driver for supporting the Pass-Through DMA controller for EPYC processors. The PTDMA hardware allows for high bandwidth memory-to-memory and I/O copy operations. Now mid-way through 2021 that AMD PTDMA Linux driver remains in the works and is up to its tenth driver revision while waiting to see if it's now ready for mainline or further changes are still deemed necessary...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Nic Chan)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spinning Up Multiple WordPress Sites Locally With DevKinsta]]></title>
-        <id>https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/</id>
-        <link href="https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/"/>
-        <updated>2021-06-15T10:15:00.000Z</updated>
-        <summary type="html"><![CDATA[When developing themes and plugins for WordPress, we need to test them in different environments. How can we create multiple testing sites on our computer, quickly and easily, without having to become a sysadmin?]]></summary>
+        <title type="html"><![CDATA[Experimental Reiser5 File-System Patch Updated For Linux 5.12]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser5-Unstable-For-Linux-5.12</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser5-Unstable-For-Linux-5.12"/>
+        <updated>2021-06-20T15:40:01.000Z</updated>
+        <summary type="html"><![CDATA[Back in April the out-of-tree Reiser4 file-system was updated for Linux 5.12 compatibility while now with Linux 5.13 being right around the corner, Edward Shishkin has updated the experimental Reiser5 file-system code for v5.12 compatibility...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Leonardo Losoviz)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Smashing Podcast Episode 39 With Addy Osmani: Image Optimization]]></title>
-        <id>https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/</id>
-        <link href="https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/"/>
-        <updated>2021-06-15T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode of the Smashing Podcast, we’re talking about image optimization. What steps should we follow for performant images in 2021? We talk to expert Addy Osmani to find out.]]></summary>
+        <title type="html"><![CDATA[Linux 5.13 Lands More Fixes To The Mucked Up FPU/XSTATE Handling Mess]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-More-XSTATE-Mess</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-More-XSTATE-Mess"/>
+        <updated>2021-06-20T11:23:36.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month Linux 5.13 disabled Intel's ENQCMD functionality for upcoming Xeon "Sapphire Rapids" processors as the kernel software code around it was deemed "broken beyond repair". More of the recent Intel-submitted patches around reworking kernel code in preparation for upcoming CPU features has been found to be rather hairy after already being mainlined and thus another batch of urgent x86 fixes were sent in this morning...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[When CSS Isn’t Enough: JavaScript Requirements For Accessible Components]]></title>
-        <id>https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/</id>
-        <link href="https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/"/>
-        <updated>2021-06-14T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Spoiler alert: tooltips, modals, tabs, carousels, and dropdown menus are some of the user interface components that require more than CSS. To ensure accessibility of your interface, JavaScript is a necessary addition to accomplish focus management, respond to keyboard events, and toggle ARIA attributes.]]></summary>
+        <title type="html"><![CDATA[The GPG key used to sign GitLab Runner packages has been rotated]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/"/>
+        <updated>2021-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab uses a GPG key to sign official GitLab Runner packages. We recently became aware of an instance where this key and other tokens used to distribute official GitLab Runner packages and binaries were not secured according to GitLab’s security policies.
+We have not found any evidence of unauthorized modification of the packages or access to the services storing them. Our team has audited and investigated integrity hashes, bucket logs and versioning, and pipeline history and concluded that the unauthorized modification of any packages is exceedingly unlikely.
+Out of an abundance of caution, the GPG key used for release signing and verification has been rotated along with all other tokens that were improperly secured.
+If you use GitLab.com shared runners, this does not impact you.
+As of J…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Stephanie Eckles)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Web Design Done Well: Making Use Of Audio]]></title>
-        <id>https://smashingmagazine.com/2021/06/web-design-done-well-audio/</id>
-        <link href="https://smashingmagazine.com/2021/06/web-design-done-well-audio/"/>
-        <updated>2021-06-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.]]></summary>
+        <title type="html"><![CDATA[The next step in performance testing? The GitLab Environment Toolkit]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/"/>
+        <updated>2021-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year I wrote about how the Quality Engineering Enablement team was building up the performance testing of GitLab with the GitLab Performance Tool (GPT). Last year, the biggest challenge with performance testing wasn't so much the testing but rather setting up the right large scale GitLab environments to test against.
+Like any server application, deploying at scale is challenging. That's why we built another toolkit that automates the deployment of GitLab at scale: The GitLab Environment Toolkit (GET).
+
+GitLab Environment Toolkit logo
+Internally called the "Performance Environment Builder" (PEB), GET grew alongside GPT as we continued to expand our performance testing efforts. Over time we built a toolkit that was quite capable in its own right of deploying GitLab at scale, which is wh…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Frederick O’Brien)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Useful Front-End Boilerplates And Starter Kits]]></title>
-        <id>https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/</id>
-        <link href="https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/"/>
-        <updated>2021-06-10T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.]]></summary>
+        <title type="html"><![CDATA[GitLab Patch Release: 13.12.4]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/14/gitlab-13-12-4-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/14/gitlab-13-12-4-released/"/>
+        <updated>2021-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 13.12.4 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Fix double render in project's git URL redirect
+Fix MR diff compare with previous version
+Add alias method usage_ping_enabled?
+Do not show Praefect deprecation if Praefect is disabled
+Update Mattermost to 5.34.4
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Three Front-End Auditing Tools I Discovered Recently]]></title>
-        <id>https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/</id>
-        <link href="https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/"/>
-        <updated>2021-06-10T11:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Building a faster website can be a rocket task these days. There are so many things to consider, so it’s challenging to get everything right. Here are some less-known tools that might help you get there.]]></summary>
+        <title type="html"><![CDATA[How do bug bounty hunters use GitLab to help their hack?]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/"/>
+        <updated>2021-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab is best known as a complete open source DevOps platform, delivered as a single application, but it also offers powerful project management and collaboration capabilities. In fact, every GitLab team uses GitLab to develop, track and collaborate on projects, processes, and programs.
+But, what about… other uses? Say … hacking, for instance. 🤷‍♀️
+Can GitLab help a hacker fine-tune their craft? Through our Ask a Hacker AMA series we discovered that there are some bug bounty hunters who use GitLab to streamline their research process. And, like so many cool and awesome things, we learned on Twitter about another contributor using GitLab for bug bounty hunting.  So, we followed up to learn more.
+Meet our hackers
+Alex Chapman
+
+Alex has been hacking for 14 years professionally, but his inte…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Stefan Judis)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meet <code>:has</code>, A Native CSS Parent Selector (And More)]]></title>
-        <id>https://smashingmagazine.com/2021/06/has-native-css-parent-selector/</id>
-        <link href="https://smashingmagazine.com/2021/06/has-native-css-parent-selector/"/>
-        <updated>2021-06-09T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.]]></summary>
+        <title type="html"><![CDATA[How to get GitOps right with infrastructure as code security]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/10/how-to-get-gitops-right-with-iac-security/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/10/how-to-get-gitops-right-with-iac-security/"/>
+        <updated>2021-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today's competitive digital era, it is imperative for organizations to undergo a digital transformation to effectively compete. For many, achieving a digital transformation means transitioning toward a DevOps model.
+DevOps has been around for many years, and the development side of the house has benefitted from the core practices of DevOps. However, the infrastructure side of the house has been lagging behind, particularly when it comes to speed. With infrastructure as code (IaC) and GitOps, infrastructure teams have been able to apply the same disciplines and quality gates that are used to manage application code to the infrastructure - to deliver products faster, with more predictability and at scale.
+Security slowing down delivery
+While the GitOps concept promises faster and more fre…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Adrian Bece)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From AVIF to WebP: A New Smashing Book By Addy Osmani]]></title>
-        <id>https://smashingmagazine.com/2021/06/image-optimization-book-release/</id>
-        <link href="https://smashingmagazine.com/2021/06/image-optimization-book-release/"/>
-        <updated>2021-06-08T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s here! For the last year, we’ve been working with Addy Osmani on a new Smashing Book all around image optimization. And now it’s here. Meet “Image Optimization”, our deep-dive guide to understand how to deliver high-quality images on the web fast.]]></summary>
+        <title type="html"><![CDATA[How to protect your source code with GitLab and Jscrambler]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/"/>
+        <updated>2021-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Development teams are building, testing, and shipping code faster than ever before. Today, we know that security has a role to play at the early stages of the DevOps workflow, but these security controls are mostly centered around finding and fixing bugs and vulnerabilities during development.
+In this tutorial, we will explore the importance of protecting client-side application code at runtime and guide you through implementing it in your GitLab instance using the integration with Jscrambler.
+The importance of runtime code protection
+With web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.
+This concern has been widely covered in NIST, ISO 2…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How To Build A Geocoding App In Vue.js Using Mapbox]]></title>
-        <id>https://smashingmagazine.com/2021/06/building-geocoding-app-vue-mapbox/</id>
-        <link href="https://smashingmagazine.com/2021/06/building-geocoding-app-vue-mapbox/"/>
-        <updated>2021-06-07T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this guide, we’ll be taking a general look at the concepts of forward geocoding and reverse geocoding, and will build a mini-app that applies these concepts to display specific locations, using Mapbox and Vue.js 2.6.11 to achieve this.]]></summary>
+        <title type="html"><![CDATA[How to use Scaleway to self-host your GitLab Runners]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/"/>
+        <updated>2021-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab's complete DevOps platform comes with built-in continuous integration (CI) and continuous delivery (CD) via GitLab CI/CD. GitLab CI/CD is a great solution to increase developer productivity and motivation to write higher-quality code without sacrificing speed. It runs a series of tests every time a commit is pushed, providing immediate visibility into the results of changes in the codebase. While it is not a hassle to set up a CI using Linux-based machines, iOS and macOS developers may find it is more complicated to have access to a Mac that is connected and available 24 hours a day.
+GitLab Runners, provided on GitLab.com, are the engine that executes CI workflows. Due to various requirements, some users may opt to self-host runners on public cloud VMs. This is super easy if the bui…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Prince Chukwudire)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Getting Started With Webpack]]></title>
-        <id>https://smashingmagazine.com/2021/06/getting-started-webpack/</id>
-        <link href="https://smashingmagazine.com/2021/06/getting-started-webpack/"/>
-        <updated>2021-06-04T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Modern browsers provide good support for JavaScript modules, but module bundlers such as webpack stay a critical part of the JavaScript toolchain. Let’s take a deep dive into what webpack is and how to use it in your development workflow.]]></summary>
+        <title type="html"><![CDATA[GitLab Patch Release: 13.12.3]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/"/>
+        <updated>2021-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 13.12.3 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+last month's 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Fix maven & gradle examples in the docs, enabling line-by-line display of test coverage in merge requests out-of-the-box (for java &
+kotlin)
+Fix issue with frames not loading in Safari
+Improve SSH key expiration warning emails
+Add an option to expose description_html in Release API [RUN ALL RSPEC] [RUN AS-IF-FOSS]
+Fix CSP issues related to captchas
+Set CSP back to disabled by default
+Fix referrer option passed to Akismet client
+Fix passing environment variables for migrations
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Nwani Victory)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Managing Shared State In Vue 3]]></title>
-        <id>https://smashingmagazine.com/2021/06/managing-shared-state-vue3/</id>
-        <link href="https://smashingmagazine.com/2021/06/managing-shared-state-vue3/"/>
-        <updated>2021-06-03T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Writing large-scale Vue applications can be a challenge. In this article, Shawn Wildermuth dives into the pros and cons of approaches like factories, shared objects, and using Vuex. He also explains what is coming in Vuex 5.0 that might change how we all use shared state in Vue 3.]]></summary>
+        <title type="html"><![CDATA[How to leverage distributed engineering teams for rapid response]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/"/>
+        <updated>2021-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.
+Global distribution as an advantage
+Many managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Shawn Wildermuth)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How To Fix Cumulative Layout Shift (CLS) Issues]]></title>
-        <id>https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/</id>
-        <link href="https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/"/>
-        <updated>2021-06-02T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Google’s Core Web Vitals initiative has taken the SEO and Web Performance worlds by storm and many sites are busy optimizing their Page Experience to maximize the ranking factor. The Cumulative Layout Shift metric is causing trouble to a lot of sites, so let’s have a look at ways of addressing any issues for that metric.]]></summary>
+        <title type="html"><![CDATA[GitLab.com is moving to 14.0 with a few breaking changes]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/"/>
+        <updated>2021-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab 14.0: Our annual major release
+GitLab 14.0 is coming to GitLab.com. Along with the exciting new features, it also includes planned deprecations because it is the major version release for 2021. We try to minimize breaking changes, but some changes are needed to improve workflows, performance, scalability, and more.
+These changes will go live on GitLab.com sometime between May 23 – June 22, through our daily deployments, leading up to the official release of 14.0 on June 22. Keep reading to learn more about these important changes.
+GitLab 14.0 for self-managed users will also be released on June 22, read on for more information about deprecations and removals for self-managed instances.
+Plan
+Removed deprecated GraphQL fields
+In accordance with our GraphQL deprecation process, the fol…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Barry Pollard)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving The Performance Of An Online Store (Case Study)]]></title>
-        <id>https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox/</id>
-        <link href="https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox/"/>
-        <updated>2021-06-02T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Jennifer Brehm)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smashing Podcast Episode 38 With Ivan Akulov: Why Is My React App Slow?]]></title>
-        <id>https://smashingmagazine.com/2021/06/smashing-podcast-episode-38/</id>
-        <link href="https://smashingmagazine.com/2021/06/smashing-podcast-episode-38/"/>
-        <updated>2021-06-01T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode, we’re talking about React performance. What factors slow our React apps down, and how can we fix it? Drew McLellan talks to expert Ivan Akulov to find out.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Drew McLellan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Setting Up A Currency Convertor With ExchangeRatesApi.io]]></title>
-        <id>https://smashingmagazine.com/2021/06/currency-convertor-exchangeratesapi/</id>
-        <link href="https://smashingmagazine.com/2021/06/currency-convertor-exchangeratesapi/"/>
-        <updated>2021-06-01T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon allows visitors to display prices in their own currency. Thanks to *ExchangeRatesApi.io*, we can do the same for our online shops, providing a better experience to our customers. Let’s find out how.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Leonardo Losoviz)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -540,53 +630,61 @@ The post How I Used the WAAPI to Build an Animation Library appeared first on CS
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Happy June Vibes For Your Screen (2021 Desktop Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2021/05/desktop-wallpaper-calendars-june-2021/</id>
-        <link href="https://smashingmagazine.com/2021/05/desktop-wallpaper-calendars-june-2021/"/>
-        <updated>2021-05-31T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[What could be a better way to welcome June than with some colorful inspiration? Well, we might have something for you: wallpapers created with love by artists and designers from across the globe.]]></summary>
+        <title type="html"><![CDATA[GitLab's data migration process for Advanced Search]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For some time now, GitLab has been working on enabling the Elasticsearch
+integration on GitLab.com to allow as many GitLab.com users as possible access
+to the Advanced Global Search
+features. Last year, after enabling Advanced Search for all licensed customers on
+GitLab.com we were thinking how to simplify the rollout of some Advanced Search
+features that require changing the data in Elasticsearch.
+(If you're interested in the lessons we learned on our road to Enabling
+Elasticsearch for GitLab.com, you can read all about it.
+The data migration process problem
+Sometimes we need to change mappings of an index or backfill a field, and
+reindexing everything from scratch or using Zero downtime reindexing
+might seem like an obvious solution. However, this is not a scalable option for
+big GitLab …]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding A Commenting System To A WYSIWYG Editor]]></title>
-        <id>https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/</id>
-        <link href="https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/"/>
-        <updated>2021-05-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll be re-using the foundational WYSIWYG Editor built in the first article to build a commenting system for a WYSIWYG Editor that enables users to select text inside a document and share their comments on it. Let’s dig in!]]></summary>
+        <title type="html"><![CDATA[GitLab is setting the standard for DevSecOps]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Debate always swirls over what term is best: DevSecOps, SecDevOps, or even to drop “sec” altogether since it should be ubiquitous. At GitLab, we have a strong point of view on this: DevSecOps places security in the middle of the DevOps effort, which is where it rightly belongs. While transparent and a natural part of the process, it should be top of mind and not buried. Security needs to be everyone’s responsibility. With automation of processes and policies, it can be much easier to arm developers and security pros alike with the information they need in order to meet this responsibility.
+Our DevSecOps platform is the end-to-end secure software solution that helps you plan, create, deploy, secure, and manage your modern software and the infrastructure upon which it relies. GitLab provides…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Shalabh Vyas)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Useful VS Code Extensions For Front-End Developers]]></title>
-        <id>https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/</id>
-        <link href="https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/"/>
-        <updated>2021-05-27T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Meet useful Visual Studio Code extensions for web developers: little helpers to minimize slow-downs and frustrations, and boost developer’s workflow along the way. With auto log messages, auto code formatting, file utils, file labels, code snippets, highlight brackets, tags, indents and workspaces, onboarding and remote SSH.]]></summary>
+        <title type="html"><![CDATA[GitLab Security Release: 13.12.2, 13.11.5, and 13.10.5]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing versions 13.12.2, 13.11.5, and 13.10.5 for GitLab Community Edition (CE) and Enterprise Edition (EE).
+These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
+GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 day…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How To Build And Launch Powerful Responsive Websites With Editor X]]></title>
-        <id>https://smashingmagazine.com/2021/05/build-launch-responsive-websites-editorx/</id>
-        <link href="https://smashingmagazine.com/2021/05/build-launch-responsive-websites-editorx/"/>
-        <updated>2021-05-27T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[While web builders have been around for a long time, it wasn’t until recently that they became practical for professional use. Closing the gap between design and code has become the north star for many companies and we are seeing a wave of tools that deliver on this promise.]]></summary>
+        <title type="html"><![CDATA[A deep dive into how we investigate and secure GitLab packages]]></title>
+        <id>https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/</id>
+        <link href="https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/"/>
+        <updated>2021-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recent high-profile supply chain and dependency confusion attacks have been a cross-industry wake-up call on the impact breadth and depth these value-chain or third-party attacks can have on customers, business operations, and brand reputation.
+Security teams know supply chain attacks aren't new – they've been around for decades. But, what may have once been considered mainly nation-state threats have now increased in prevalence and sophistication. Malicious actors are now setting their sights on widely used technology like software applications and code repositories to compromise unsuspecting suppliers.
+So how do we protect our customers and product?
+We're doing deep dives and making improvements across our product, processes, and practices as well as the controls we have in place for our…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Miroslav Bekyarov)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessible SVGs: Perfect Patterns For Screen Reader Users]]></title>
-        <id>https://smashingmagazine.com/2021/05/accessible-svg-patterns-comparison/</id>
-        <link href="https://smashingmagazine.com/2021/05/accessible-svg-patterns-comparison/"/>
-        <updated>2021-05-26T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Discover which SVG patterns we should avoid and which patterns are the most inclusive when comparing different combinations of OSs, browsers, and screen readers.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Carie Fisher)</name>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
