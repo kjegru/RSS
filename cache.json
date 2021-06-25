@@ -22,15 +22,6 @@
           "publishedOn": "2021-06-01T04:39:30.000Z",
           "wordCount": 263,
           "title": "v1.10.2"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
-          "author": null,
-          "description": "Added: experimental support for iTunes podcast feed: Demo | Source. With this new release, you can render an audio control to play the mp3 file and display iTunes episode duration. It is \"experimental\" due to these caveats:\n\nThis feature is currently only available through custom template.\niTunes has no strict format requirement for duration. The unit is most likely seconds but can be \"hh:mm:ss\" or \"mm:ss\" for some sources. A future version may expose a human readable string to the template.\nNo image support yet. Some shows might have disabled CORS or use a relative URL for image, which forces osmosfeed to download the image during build. A future version may support it.\nYou can't republish the podcast in the feed output. Supporting this goes beyond the scope of the project at the moment.\nFixed: the articles in template data were not sorted.\nThank you @Zenigata",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
-          "publishedOn": "2021-05-26T06:02:55.000Z",
-          "wordCount": 412,
-          "title": "v1.9.0"
         }
       ]
     },
@@ -39,6 +30,15 @@
       "feedUrl": "https://about.gitlab.com/atom.xml",
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
+        {
+          "id": "https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/",
+          "author": null,
+          "description": "Today we are releasing version 14.0.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nUpdate Geo UI screenshots in docs page\nUpdate admin docs with new admin area access info\nAdd Helm-2to3.gitlab-ci.yml to Auto DevOps\nUpdate docs for new Members page location on GitLab navigation\nDevOps Adoption - ensure displayNamespaceId is included\nRemove add button from Devops Adoption\nGeo: Add Terraform Module to datatypes doc\nCreate 14.0 What's New entry\nToggle codequality diff annotations flag\nBump kas to v14.0.1\nExempt unicorn 'svlogd_prefix' from deprecation check\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/",
+          "publishedOn": "2021-06-24T00:00:00.000Z",
+          "wordCount": 1072,
+          "title": "GitLab Patch Release: 14.0.1"
+        },
         {
           "id": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
           "author": null,
@@ -63,7 +63,7 @@
           "description": "When we think of everything released in the year since GitLab 13.0, we could not be more proud of our community and our team. This month, we celebrate our release of GitLab 14.0 by first taking a step back.\nTogether, we’ve made so much progress over the last year that we want to talk about everything it took to get to GitLab 14.\nWe use semantic versioning so a point release, like 14.0, represents everything new in this month. GitLab 14 is the culmination of the past year. Even more than that, GitLab 14 represents the future of GitLab, and the future of DevOps.\nWith GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …",
           "link": "https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/",
           "publishedOn": "2021-06-22T00:00:00.000Z",
-          "wordCount": 12294,
+          "wordCount": 12300,
           "title": "GitLab 14.0 released with a celebration of GitLab 14"
         },
         {
@@ -227,12 +227,102 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SFH-Next-Gen-Patches",
+          "author": null,
+          "description": "There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SFH-Next-Gen-Patches",
+          "publishedOn": "2021-06-24T22:50:05.000Z",
+          "wordCount": 1036,
+          "title": "AMD SFH Linux Driver Updated For \"Next Gen\" Ryzen Laptops"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30288",
+          "author": null,
+          "description": "Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today's testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.",
+          "link": "https://www.phoronix.com/vr.php?view=30288",
+          "publishedOn": "2021-06-24T20:00:00.000Z",
+          "wordCount": 823,
+          "title": "Another Test Drive With Crocus Gallium3D On Old Intel Hardware"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-BIOS-Disconnect-Vuln",
+          "author": null,
+          "description": "For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-BIOS-Disconnect-Vuln",
+          "publishedOn": "2021-06-24T16:07:36.000Z",
+          "wordCount": 761,
+          "title": "Dell BIOS/UEFI Under Attack From New Vulnerabilities - Use FWUPD For The Latest Updates"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Windows-11-Announcement",
+          "author": null,
+          "description": "As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Windows-11-Announcement",
+          "publishedOn": "2021-06-24T16:00:00.000Z",
+          "wordCount": 873,
+          "title": "Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AWS-BugBust",
+          "author": null,
+          "description": "Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AWS-BugBust",
+          "publishedOn": "2021-06-24T15:30:00.000Z",
+          "wordCount": 768,
+          "title": "Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Vulnerability-Schema",
+          "author": null,
+          "description": "As part of Google's latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Vulnerability-Schema",
+          "publishedOn": "2021-06-24T13:15:25.000Z",
+          "wordCount": 789,
+          "title": "Google Proposes An Open-Source Vulnerability Interchange Schema"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-BPF-Spectre-33624",
+          "author": null,
+          "description": "With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel's  BPF subsystem has been addressed...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-BPF-Spectre-33624",
+          "publishedOn": "2021-06-24T13:00:18.000Z",
+          "wordCount": 877,
+          "title": "Linux Kernel's BPF Fixed Up Against Spectre Vulnerability Bypass"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SM4-AVX-AES-NI-Kernel",
+          "author": null,
+          "description": "Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SM4-AVX-AES-NI-Kernel",
+          "publishedOn": "2021-06-24T11:00:01.000Z",
+          "wordCount": 800,
+          "title": "~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ODF-1.3-OASIS-Approved",
+          "author": null,
+          "description": "The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ODF-1.3-OASIS-Approved",
+          "publishedOn": "2021-06-24T10:14:45.000Z",
+          "wordCount": 713,
+          "title": "OpenDocument Format 1.3 Approved As OASIS Standard"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Dota-2-FidelityFX-Super-Res",
+          "author": null,
+          "description": "Valve's Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dota-2-FidelityFX-Super-Res",
+          "publishedOn": "2021-06-24T10:01:05.000Z",
+          "wordCount": 818,
+          "title": "Valve's Dota 2 Adds AMD FidelityFX Super Resolution"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
           "author": null,
           "description": "With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
           "publishedOn": "2021-06-24T04:00:00.000Z",
-          "wordCount": 829,
+          "wordCount": 748,
           "title": "Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM"
         },
         {
@@ -241,7 +331,7 @@
           "description": "It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
           "publishedOn": "2021-06-23T17:45:54.000Z",
-          "wordCount": 1066,
+          "wordCount": 1068,
           "title": "AMD PSF Control Support Still Awaiting The Mainline Linux Kernel"
         },
         {
@@ -250,7 +340,7 @@
           "description": "While Valve has been working on Vulkan-based rendering for Source Engine games by making use of DXVK for translating the game engine's native Direct3D calls to the Vulkan API, with some yet-to-be-merged Mesa patches around Gallium Nine there is much better performance to see with Gallium Nine at least for the RadeonSI driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Nine-Double-Perf",
           "publishedOn": "2021-06-23T15:27:10.000Z",
-          "wordCount": 782,
+          "wordCount": 783,
           "title": "Work-In-Progress RadeonSI+Nine Showing Big Performance Win For Source Engine Games"
         },
         {
@@ -259,7 +349,7 @@
           "description": "Ubuntu maker Canonical has partnered up with the Blender Foundation to offer paid enterprise support around the long-term support versions of Blender...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-Blender-LTS",
           "publishedOn": "2021-06-23T14:31:19.000Z",
-          "wordCount": 770,
+          "wordCount": 691,
           "title": "Canonical Partners With Blender Around Paid LTS Application Support"
         },
         {
@@ -268,7 +358,7 @@
           "description": "The Qt Company has announced the debut of Qt 6.2 Alpha as it prepares for its September release with many more modules finally making the transition from Qt5 to Qt6...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Alpha-Released",
           "publishedOn": "2021-06-23T12:09:02.000Z",
-          "wordCount": 726,
+          "wordCount": 798,
           "title": "Qt 6.2 Alpha Released With Many More Modules Ported From Qt5"
         },
         {
@@ -277,7 +367,7 @@
           "description": "Announced two years ago was the OpenPOWER Microwatt as an FPGA-based soft CPU core...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenPOWER-Microwatt-5.14",
           "publishedOn": "2021-06-23T11:00:00.000Z",
-          "wordCount": 837,
+          "wordCount": 847,
           "title": "Linux 5.14 To Support The OpenPOWER Microwatt Soft CPU Core"
         },
         {
@@ -286,7 +376,7 @@
           "description": "Last week Valve introduced Vulkan rendering support for Left 4 Dead 2. The L4D2 Vulkan support is similar to that of Portal 2 where DXVK is being leveraged for translating the Direct3D calls to Vulkan rather than relying on their OpenGL translations. For those wondering what this means for L4D2 performance on Linux with modern GPUs, here are some benchmarks of Left 4 Dead 2 when testing the OpenGL and Vulkan rendering options.",
           "link": "https://www.phoronix.com/vr.php?view=30287",
           "publishedOn": "2021-06-23T09:45:18.000Z",
-          "wordCount": 797,
+          "wordCount": 717,
           "title": "Left 4 Dead 2 Vulkan Performance With Radeon Graphics On Linux"
         },
         {
@@ -295,7 +385,7 @@
           "description": "Landing in mainline Mesa 21.2 development code last week was the \"Crocus\" Gallium3D driver for old Intel hardware spanning from the Intel 965 chipset days \"Gen4\" up through Crocus supporting Haswell \"Gen7\" graphics. The i965 to Haswell span has been the focus since the official Intel \"Iris\" Gallium3D driver already in Mesa supports the Broadwell \"Gen8\" up through all current Intel UHD/Xe Graphics. But now Crocus with the latest Mesa code has added Gen8 support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Gallium3D-Gen8",
           "publishedOn": "2021-06-23T07:30:00.000Z",
-          "wordCount": 774,
+          "wordCount": 846,
           "title": "Crocus Gallium3D Adds Experimental Intel Gen8 Graphics, Overlapping With Iris Driver"
         },
         {
@@ -304,7 +394,7 @@
           "description": "Intel-owned Habana Labs has submitted their set of driver updates to char/misc ahead of the upcoming Linux 5.14 merge window...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.14",
           "publishedOn": "2021-06-23T04:00:00.000Z",
-          "wordCount": 924,
+          "wordCount": 845,
           "title": "Habana Labs Driver Drops Default Memory Scrubbing For Better Performance, Other Changes"
         },
         {
@@ -313,7 +403,7 @@
           "description": "Even though Vulkan ray-tracing support on Intel graphics hardware isn't coming until Xe HPG avaiability, Intel's Linux graphics driver developers have been preparing since last year. In preparation for the Xe HPG launch, Intel's open-source talent have for many months already been preparing the Vulkan ray-tracing functionality wither another batch of code being merged today...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Vulkan-RT-Pipelines",
           "publishedOn": "2021-06-22T23:00:00.000Z",
-          "wordCount": 823,
+          "wordCount": 858,
           "title": "Intel Lands More Open-Source Vulkan Driver Changes For Ray-Tracing"
         },
         {
@@ -322,7 +412,7 @@
           "description": "Intel CEO Pat Gelsinger continues working on restructuring the company and today announced some new leadership as well as business unit changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-New-Leadership-BUs",
           "publishedOn": "2021-06-22T20:13:47.000Z",
-          "wordCount": 861,
+          "wordCount": 782,
           "title": "Intel Announces New Leadership Roles, Business Unit Changes"
         },
         {
@@ -331,7 +421,7 @@
           "description": "While in the past we have seen Intel CPU microcode updates lead to measurable performance differences on multiple occasions, this month's CPU microcode update doesn't end up being all that concerning for real-world performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ucode-June-2021-Not-Bad",
           "publishedOn": "2021-06-22T17:44:38.000Z",
-          "wordCount": 873,
+          "wordCount": 954,
           "title": "Intel's Latest CPU Microcode Update Isn't All That Scary"
         },
         {
@@ -340,7 +430,7 @@
           "description": "Hitting mainline Mesa today for Mesa 21.2 next quarter is PanVK as the open-source Vulkan driver in development for newer Arm Mali GPUs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PanVK-Lands-In-Mesa",
           "publishedOn": "2021-06-22T17:13:14.000Z",
-          "wordCount": 848,
+          "wordCount": 769,
           "title": "PanVK Merged Into Mesa 21.2 For Open-Source Vulkan Driver With Arm Mali GPUs"
         },
         {
@@ -349,7 +439,7 @@
           "description": "NVIDIA announced yesterday they would be releasing DLSS Linux support tomorrow and indeed they have delivered on that first milestone of Deep Learning Super Sampling support for Linux gamers. NVIDIA has published their first 470 driver series beta in the form of the NVIDIA 470.42.01 build...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Releases-DLSS-Linux",
           "publishedOn": "2021-06-22T13:54:40.000Z",
-          "wordCount": 922,
+          "wordCount": 923,
           "title": "NVIDIA Posts 470 Linux Driver Beta With Better Wayland Support, DLSS + Improved PRIME"
         },
         {
@@ -358,7 +448,7 @@
           "description": "AMD today released FidelityFX Super Resolution that was announced earlier this month at Computex. Today it's Windows-only with no Linux support being introduced. FidelityFX Super Resolution is open-source but the code drop will not be until next month...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FXSR-Source-Next-Month",
           "publishedOn": "2021-06-22T13:17:32.000Z",
-          "wordCount": 787,
+          "wordCount": 868,
           "title": "AMD FidelityFX Super Resolution Source Code Coming Next Month"
         },
         {
@@ -367,7 +457,7 @@
           "description": "SiFive today is announcing the Performance P550 as the fastest RISC-V processor yet while also announcing the Performance P270 too...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-Performance-P550-P270",
           "publishedOn": "2021-06-22T13:00:00.000Z",
-          "wordCount": 761,
+          "wordCount": 762,
           "title": "SiFive Announces The Performance P550 As The Fastest RISC-V Processor Yet"
         },
         {
@@ -385,7 +475,7 @@
           "description": "AMD has shifted all their graphics processors and APUs prior to Polaris / GCN 1.4 to being legacy and will not be supported by their new Radeon Software Adrenalin releases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Pre-Polaris-Now-Legacy",
           "publishedOn": "2021-06-22T10:04:22.000Z",
-          "wordCount": 1053,
+          "wordCount": 1054,
           "title": "AMD Drops Pre-Polaris GPU Support From Their Mainline Radeon Software Driver"
         },
         {
@@ -394,7 +484,7 @@
           "description": "The latest JavaScript API to see a public working draft out of the W3C is for a Web Neural Network API...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=W3C-Neural-Network-API-Draft",
           "publishedOn": "2021-06-22T09:27:15.000Z",
-          "wordCount": 764,
+          "wordCount": 845,
           "title": "W3C Publishes Working Draft For Web Neural Network API"
         },
         {
@@ -403,7 +493,7 @@
           "description": "The Haiku open-source operating system inspired by BeOS has been in development since 2001. It took until September 2018 for the Haiku R1 Beta and then last summer was succeeded by Haiku R1 Beta 2. Now a year later the third beta for this inaugural release is now approaching...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-R1-Beta-3-Release-Plan",
           "publishedOn": "2021-06-22T04:00:00.000Z",
-          "wordCount": 832,
+          "wordCount": 833,
           "title": "Haiku R1 Beta 3 Aims For Release In About One Month"
         },
         {
@@ -412,7 +502,7 @@
           "description": "Google engineers have prepared a set of Linux kernel patches allowing for AMD Secure Encrypted Virtualization (SEV) / SEV-ES encrypted state to allow for local migration support of these encrypted virtual machines on the same host...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-Local-Migration",
           "publishedOn": "2021-06-21T18:56:47.000Z",
-          "wordCount": 847,
+          "wordCount": 849,
           "title": "AMD SEV/SEV-ES Local Migration Support Patches For Linux"
         },
         {
@@ -421,98 +511,8 @@
           "description": "NVIDIA announced earlier this month that they would be bringing DLSS to Linux / Steam Play and tomorrow they will be introducing that initial driver support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-DLSS-For-Linux-Tomorrow",
           "publishedOn": "2021-06-21T17:10:16.000Z",
-          "wordCount": 838,
+          "wordCount": 919,
           "title": "NVIDIA Releasing DLSS Support For Vulkan API Games On Linux Tomorrow"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30276",
-          "author": null,
-          "description": "Merged this past week was Crocus as the new open-source Intel Gallium3D driver developed by the community and used for Gen4/i965 through Gen7/Haswell generations of Intel graphics. This week I ran some Crocus benchmarks on Intel Haswell comparing against the existing i965 classic Mesa DRI driver while in this article are some comparison driver benchmarks using Intel Sandy Bridge graphics for those still running those once popular processors.",
-          "link": "https://www.phoronix.com/vr.php?view=30276",
-          "publishedOn": "2021-06-21T13:30:00.000Z",
-          "wordCount": 732,
-          "title": "Running The New Intel OpenGL \"Crocus\" Gallium3D Driver On Sandy Bridge"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Rocky-Linux-8.4",
-          "author": null,
-          "description": "Stemming from last month's Red Hat Enterprise Linux 8.4 release and then the RHEL 8.4 based updates to Alma Linux, Oracle Linux, and CentOS 8, RockyLinux has today reached general availability on its v8.4 release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rocky-Linux-8.4",
-          "publishedOn": "2021-06-21T13:02:00.000Z",
-          "wordCount": 715,
-          "title": "Rocky Linux 8.4 Released For RHEL 8.4 / CentOS Alternative"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-SparkFun-Qwiic",
-          "author": null,
-          "description": "Linux 5.14 is bringing a new input driver to support an open-source joystick that can be used for DIY electronics purposes and other use-cases. The schematics and firmware are open-source for building the joystick device yourself or can be purchased for about $10 USD...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-SparkFun-Qwiic",
-          "publishedOn": "2021-06-21T12:10:31.000Z",
-          "wordCount": 807,
-          "title": "Linux 5.14 To Add Driver For A $10 Open-Source Joystick For DIY Electronics Projects"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IGC-1.0.7683",
-          "author": null,
-          "description": "Last week Intel shipped a big update to their open-source Intel Graphics Compiler \"IGC\" that is used currently by their Windows driver, their Linux compute stack, and potentially their Linux graphics drivers moving ahead...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IGC-1.0.7683",
-          "publishedOn": "2021-06-21T09:44:04.000Z",
-          "wordCount": 731,
-          "title": "Intel Graphics Compiler 1.0.7683 Ships With Many Changes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.182-Released",
-          "author": null,
-          "description": "Vulkan 1.2.182 is out and on top of various documentation fixes/clarifications, there are a few new extensions added with this revision...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.182-Released",
-          "publishedOn": "2021-06-21T09:20:03.000Z",
-          "wordCount": 773,
-          "title": "Vulkan 1.2.182 Released With Some Prominent Extensions Added"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Unvanquished-0.52.1-Released",
-          "author": null,
-          "description": "Following last month's Unvanquished 0.52 beta for this open-source game that has long been in development, Sunday marked the release of Unvanquished 0.52.1...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Unvanquished-0.52.1-Released",
-          "publishedOn": "2021-06-21T04:00:00.000Z",
-          "wordCount": 749,
-          "title": "Unvanquished 0.52.1 Brings Rendering Fixes, Flatpak For This Promising Open-Source Game"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rc7",
-          "author": null,
-          "description": "Linus Torvalds is celebrating Father's Day by releasing Linux 5.13-rc7. Kernel maintainers and testers managed to keep him happy the father of Linux happy this week by keeping to a small change set for this late-stage release candidate...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rc7",
-          "publishedOn": "2021-06-20T22:51:28.000Z",
-          "wordCount": 858,
-          "title": "Linux 5.13-rc7 Released Following A Very Calm Week"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-Linux-Driver-v10",
-          "author": null,
-          "description": "Published all the way back in September 2019 was a Linux driver for supporting the Pass-Through DMA controller for EPYC processors. The PTDMA hardware allows for high bandwidth memory-to-memory and I/O copy operations. Now mid-way through 2021 that AMD PTDMA Linux driver remains in the works and is up to its tenth driver revision while waiting to see if it's now ready for mainline or further changes are still deemed necessary...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-Linux-Driver-v10",
-          "publishedOn": "2021-06-20T19:25:44.000Z",
-          "wordCount": 916,
-          "title": "AMD Continues Working To Mainline Their PTDMA Driver For Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser5-Unstable-For-Linux-5.12",
-          "author": null,
-          "description": "Back in April the out-of-tree Reiser4 file-system was updated for Linux 5.12 compatibility while now with Linux 5.13 being right around the corner, Edward Shishkin has updated the experimental Reiser5 file-system code for v5.12 compatibility...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser5-Unstable-For-Linux-5.12",
-          "publishedOn": "2021-06-20T15:40:01.000Z",
-          "wordCount": 743,
-          "title": "Experimental Reiser5 File-System Patch Updated For Linux 5.12"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-More-XSTATE-Mess",
-          "author": null,
-          "description": "Earlier this month Linux 5.13 disabled Intel's ENQCMD functionality for upcoming Xeon \"Sapphire Rapids\" processors as the kernel software code around it was deemed \"broken beyond repair\". More of the recent Intel-submitted patches around reworking kernel code in preparation for upcoming CPU features has been found to be rather hairy after already being mainlined and thus another batch of urgent x86 fixes were sent in this morning...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-More-XSTATE-Mess",
-          "publishedOn": "2021-06-20T11:23:36.000Z",
-          "wordCount": 995,
-          "title": "Linux 5.13 Lands More Fixes To The Mucked Up FPU/XSTATE Handling Mess"
         }
       ]
     }

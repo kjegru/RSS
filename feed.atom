@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-24T06:51:25.509Z</id>
+    <id>urn:2021-06-25T00:21:58.580Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-24T06:51:25.509Z</updated>
+    <updated>2021-06-25T00:21:58.580Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD SFH Linux Driver Updated For "Next Gen" Ryzen Laptops]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches"/>
+        <updated>2021-06-24T22:50:05.000Z</updated>
+        <summary type="html"><![CDATA[There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another Test Drive With Crocus Gallium3D On Old Intel Hardware]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30288</id>
+        <link href="https://www.phoronix.com/vr.php?view=30288"/>
+        <updated>2021-06-24T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today's testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dell BIOS/UEFI Under Attack From New Vulnerabilities - Use FWUPD For The Latest Updates]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-BIOS-Disconnect-Vuln</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-BIOS-Disconnect-Vuln"/>
+        <updated>2021-06-24T16:07:36.000Z</updated>
+        <summary type="html"><![CDATA[For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-11-Announcement</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-11-Announcement"/>
+        <updated>2021-06-24T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AWS-BugBust</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AWS-BugBust"/>
+        <updated>2021-06-24T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Proposes An Open-Source Vulnerability Interchange Schema]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Vulnerability-Schema</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Vulnerability-Schema"/>
+        <updated>2021-06-24T13:15:25.000Z</updated>
+        <summary type="html"><![CDATA[As part of Google's latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Kernel's BPF Fixed Up Against Spectre Vulnerability Bypass]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Spectre-33624</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Spectre-33624"/>
+        <updated>2021-06-24T13:00:18.000Z</updated>
+        <summary type="html"><![CDATA[With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel's  BPF subsystem has been addressed...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SM4-AVX-AES-NI-Kernel</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SM4-AVX-AES-NI-Kernel"/>
+        <updated>2021-06-24T11:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenDocument Format 1.3 Approved As OASIS Standard]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ODF-1.3-OASIS-Approved</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ODF-1.3-OASIS-Approved"/>
+        <updated>2021-06-24T10:14:45.000Z</updated>
+        <summary type="html"><![CDATA[The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valve's Dota 2 Adds AMD FidelityFX Super Resolution]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dota-2-FidelityFX-Super-Res</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dota-2-FidelityFX-Super-Res"/>
+        <updated>2021-06-24T10:01:05.000Z</updated>
+        <summary type="html"><![CDATA[Valve's Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XMM-Fast-Hypercalls-KVM-5.14</id>
@@ -13,6 +113,44 @@
         <summary type="html"><![CDATA[With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.0.1]]></title>
+        <id>https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/"/>
+        <updated>2021-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.0.1 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 14.0 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Update Geo UI screenshots in docs page
+Update admin docs with new admin area access info
+Add Helm-2to3.gitlab-ci.yml to Auto DevOps
+Update docs for new Members page location on GitLab navigation
+DevOps Adoption - ensure displayNamespaceId is included
+Remove add button from Devops Adoption
+Geo: Add Terraform Module to datatypes doc
+Create 14.0 What's New entry
+Toggle codequality diff annotations flag
+Bump kas to v14.0.1
+Exempt unicorn 'svlogd_prefix' from deprecation check
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -283,66 +421,6 @@ With GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolch
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Running The New Intel OpenGL "Crocus" Gallium3D Driver On Sandy Bridge]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30276</id>
-        <link href="https://www.phoronix.com/vr.php?view=30276"/>
-        <updated>2021-06-21T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Merged this past week was Crocus as the new open-source Intel Gallium3D driver developed by the community and used for Gen4/i965 through Gen7/Haswell generations of Intel graphics. This week I ran some Crocus benchmarks on Intel Haswell comparing against the existing i965 classic Mesa DRI driver while in this article are some comparison driver benchmarks using Intel Sandy Bridge graphics for those still running those once popular processors.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rocky Linux 8.4 Released For RHEL 8.4 / CentOS Alternative]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rocky-Linux-8.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rocky-Linux-8.4"/>
-        <updated>2021-06-21T13:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Stemming from last month's Red Hat Enterprise Linux 8.4 release and then the RHEL 8.4 based updates to Alma Linux, Oracle Linux, and CentOS 8, RockyLinux has today reached general availability on its v8.4 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 To Add Driver For A $10 Open-Source Joystick For DIY Electronics Projects]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SparkFun-Qwiic</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SparkFun-Qwiic"/>
-        <updated>2021-06-21T12:10:31.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.14 is bringing a new input driver to support an open-source joystick that can be used for DIY electronics purposes and other use-cases. The schematics and firmware are open-source for building the joystick device yourself or can be purchased for about $10 USD...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Graphics Compiler 1.0.7683 Ships With Many Changes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-1.0.7683</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-1.0.7683"/>
-        <updated>2021-06-21T09:44:04.000Z</updated>
-        <summary type="html"><![CDATA[Last week Intel shipped a big update to their open-source Intel Graphics Compiler "IGC" that is used currently by their Windows driver, their Linux compute stack, and potentially their Linux graphics drivers moving ahead...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.182 Released With Some Prominent Extensions Added]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.182-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.182-Released"/>
-        <updated>2021-06-21T09:20:03.000Z</updated>
-        <summary type="html"><![CDATA[Vulkan 1.2.182 is out and on top of various documentation fixes/clarifications, there are a few new extensions added with this revision...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unvanquished 0.52.1 Brings Rendering Fixes, Flatpak For This Promising Open-Source Game]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Unvanquished-0.52.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Unvanquished-0.52.1-Released"/>
-        <updated>2021-06-21T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Following last month's Unvanquished 0.52 beta for this open-source game that has long been in development, Sunday marked the release of Unvanquished 0.52.1...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Usage Ping configuration bug for self-managed instances]]></title>
         <id>https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/</id>
         <link href="https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/"/>
@@ -400,46 +478,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.13-rc7 Released Following A Very Calm Week]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rc7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rc7"/>
-        <updated>2021-06-20T22:51:28.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds is celebrating Father's Day by releasing Linux 5.13-rc7. Kernel maintainers and testers managed to keep him happy the father of Linux happy this week by keeping to a small change set for this late-stage release candidate...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Continues Working To Mainline Their PTDMA Driver For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-Driver-v10</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-Driver-v10"/>
-        <updated>2021-06-20T19:25:44.000Z</updated>
-        <summary type="html"><![CDATA[Published all the way back in September 2019 was a Linux driver for supporting the Pass-Through DMA controller for EPYC processors. The PTDMA hardware allows for high bandwidth memory-to-memory and I/O copy operations. Now mid-way through 2021 that AMD PTDMA Linux driver remains in the works and is up to its tenth driver revision while waiting to see if it's now ready for mainline or further changes are still deemed necessary...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Experimental Reiser5 File-System Patch Updated For Linux 5.12]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser5-Unstable-For-Linux-5.12</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser5-Unstable-For-Linux-5.12"/>
-        <updated>2021-06-20T15:40:01.000Z</updated>
-        <summary type="html"><![CDATA[Back in April the out-of-tree Reiser4 file-system was updated for Linux 5.12 compatibility while now with Linux 5.13 being right around the corner, Edward Shishkin has updated the experimental Reiser5 file-system code for v5.12 compatibility...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.13 Lands More Fixes To The Mucked Up FPU/XSTATE Handling Mess]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-More-XSTATE-Mess</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-More-XSTATE-Mess"/>
-        <updated>2021-06-20T11:23:36.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this month Linux 5.13 disabled Intel's ENQCMD functionality for upcoming Xeon "Sapphire Rapids" processors as the kernel software code around it was deemed "broken beyond repair". More of the recent Intel-submitted patches around reworking kernel code in preparation for upcoming CPU features has been found to be rather hairy after already being mainlined and thus another batch of urgent x86 fixes were sent in this morning...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -685,23 +723,6 @@ So how do we protect our customers and product?
 We're doing deep dives and making improvements across our product, processes, and practices as well as the controls we have in place for our…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.9.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0"/>
-        <updated>2021-05-26T06:02:55.000Z</updated>
-        <summary type="html"><![CDATA[Added: experimental support for iTunes podcast feed: Demo | Source. With this new release, you can render an audio control to play the mp3 file and display iTunes episode duration. It is "experimental" due to these caveats:
-
-This feature is currently only available through custom template.
-iTunes has no strict format requirement for duration. The unit is most likely seconds but can be "hh:mm:ss" or "mm:ss" for some sources. A future version may expose a human readable string to the template.
-No image support yet. Some shows might have disabled CORS or use a relative URL for image, which forces osmosfeed to download the image during build. A future version may support it.
-You can't republish the podcast in the feed output. Supporting this goes beyond the scope of the project at the moment.
-Fixed: the articles in template data were not sorted.
-Thank you @Zenigata]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
         </author>
     </entry>
 </feed>
