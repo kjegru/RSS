@@ -1,16 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-25T00:21:58.580Z</id>
+    <id>urn:2021-06-26T00:18:25.125Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-25T00:21:58.580Z</updated>
+    <updated>2021-06-26T00:18:25.125Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Coreboot Is Ridding Its Need For Intel's FSP-T Blob]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-FSP-T-Not-Needed</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-FSP-T-Not-Needed"/>
+        <updated>2021-06-25T19:45:27.000Z</updated>
+        <summary type="html"><![CDATA[Coreboot making progress on its temporary RAM initialization code (cache as RAM) means that its usage of the FSP-T binary blob is increasingly unnecessary...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proton 6.3-5 Released  With A Number Of Improvements For Windows Games On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-5-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-5-Released"/>
+        <updated>2021-06-25T18:40:12.000Z</updated>
+        <summary type="html"><![CDATA[Valve and their partners have issued a new version of Proton for powering Steam Play to enjoy Windows games on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM Clang 12 Benchmarks At Varying Optimization Levels, LTO]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30294</id>
+        <link href="https://www.phoronix.com/vr.php?view=30294"/>
+        <updated>2021-06-25T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month were benchmarks looking at GCC 11 performance with varying optimization levels and features like link-time optimizations. Stemming from reader requests, here are now similar reference benchmarks off LLVM Clang 12.0 on the same system with going from -O0 to -Ofast and toggling -march=native and LTO usage.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[systemd 249-rc2 Released With New "ConditionOSRelease" Directive]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-rc2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-rc2"/>
+        <updated>2021-06-25T15:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month systemd 249-rc1 arrived with a variety of new features and improvements. Now for closing out the month is a second release candidate...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 13 Most Interesting Changes Of Linux 5.13 From Apple M1 To Security Enhancements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Features</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Features"/>
+        <updated>2021-06-25T14:07:33.000Z</updated>
+        <summary type="html"><![CDATA[If all is looking well on Sunday, Linus Torvalds will be releasing Linux 5.13 as stable rather than going with a 5.13-rc8 test release and pushing the final version back by an additional release. In either case, Linux 5.13 is coming out soon and with many new features in tow...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MyGNUHealth 1.0 - GNU Looks To Get More Involved With Personal Health Records]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=MyGNUHealth-1.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=MyGNUHealth-1.0"/>
+        <updated>2021-06-25T12:44:42.000Z</updated>
+        <summary type="html"><![CDATA[Among the many projects under the GNU umbrella, the GNU Health official project has been about working on the libre digital health ecosystem and their most recent effort is on MyGNUHealth as an effort around libre personal health records...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q2.6 Vulkan Driver Released - Removes Pre-Polaris / Pre-Raven Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q2.6</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q2.6"/>
+        <updated>2021-06-25T10:08:08.000Z</updated>
+        <summary type="html"><![CDATA[Following the announcement this week that AMD is dropping pre-Polaris GPU support (or pre-Raven Ridge support for APUs) from their mainline Radeon Software driver on Windows, the AMDVLK open-source Vulkan driver has also now similarly discontinued that older GPU support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AMD SFH Linux Driver Updated For "Next Gen" Ryzen Laptops]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches"/>
-        <updated>2021-06-24T22:50:05.000Z</updated>
+        <updated>2021-06-25T05:02:05.000Z</updated>
         <summary type="html"><![CDATA[There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sway 1.6.1 Wayland Compositor Released With WLROOTS 0.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sway-1.6.1-Wayland-Compositor</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sway-1.6.1-Wayland-Compositor"/>
+        <updated>2021-06-25T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Ser has released Sway 1.6.1 as the newest version of this popular i3-inspired Wayland compositor...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -316,66 +396,6 @@ In the follow…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AMD FidelityFX Super Resolution Source Code Coming Next Month]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-FXSR-Source-Next-Month</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-FXSR-Source-Next-Month"/>
-        <updated>2021-06-22T13:17:32.000Z</updated>
-        <summary type="html"><![CDATA[AMD today released FidelityFX Super Resolution that was announced earlier this month at Computex. Today it's Windows-only with no Linux support being introduced. FidelityFX Super Resolution is open-source but the code drop will not be until next month...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SiFive Announces The Performance P550 As The Fastest RISC-V Processor Yet]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-Performance-P550-P270</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-Performance-P550-P270"/>
-        <updated>2021-06-22T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SiFive today is announcing the Performance P550 as the fastest RISC-V processor yet while also announcing the Performance P270 too...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeBSD 13.0 vs. DragonFlyBSD 6.0 vs. Linux On AMD EPYC 7003 Series "Milan"]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30284</id>
-        <link href="https://www.phoronix.com/vr.php?view=30284"/>
-        <updated>2021-06-22T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[For those wondering how well the likes of FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD's EPYC 7003 "Milan" processors launched earlier this year, here are some initial benchmarks of those BSDs alongside a few Linux distributions. With recently having a Tyan 1U server in the lab with EPYC 7543 32-core processor, I've been running a number of BSD benchmarks on it given these recent BSD releases have been running well on this 1P server.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Drops Pre-Polaris GPU Support From Their Mainline Radeon Software Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Pre-Polaris-Now-Legacy</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Pre-Polaris-Now-Legacy"/>
-        <updated>2021-06-22T10:04:22.000Z</updated>
-        <summary type="html"><![CDATA[AMD has shifted all their graphics processors and APUs prior to Polaris / GCN 1.4 to being legacy and will not be supported by their new Radeon Software Adrenalin releases...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[W3C Publishes Working Draft For Web Neural Network API]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=W3C-Neural-Network-API-Draft</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=W3C-Neural-Network-API-Draft"/>
-        <updated>2021-06-22T09:27:15.000Z</updated>
-        <summary type="html"><![CDATA[The latest JavaScript API to see a public working draft out of the W3C is for a Web Neural Network API...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haiku R1 Beta 3 Aims For Release In About One Month]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3-Release-Plan</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3-Release-Plan"/>
-        <updated>2021-06-22T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Haiku open-source operating system inspired by BeOS has been in development since 2001. It took until September 2018 for the Haiku R1 Beta and then last summer was succeeded by Haiku R1 Beta 2. Now a year later the third beta for this inaugural release is now approaching...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab 14 signals shift to modern DevOps: A DevOps platform with velocity, trust, and visibility]]></title>
         <id>https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/</id>
         <link href="https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/"/>
@@ -398,26 +418,6 @@ We use semantic versioning so a point release, like 14.0, represents everything 
 With GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD SEV/SEV-ES Local Migration Support Patches For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-Local-Migration</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-Local-Migration"/>
-        <updated>2021-06-21T18:56:47.000Z</updated>
-        <summary type="html"><![CDATA[Google engineers have prepared a set of Linux kernel patches allowing for AMD Secure Encrypted Virtualization (SEV) / SEV-ES encrypted state to allow for local migration support of these encrypted virtual machines on the same host...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Releasing DLSS Support For Vulkan API Games On Linux Tomorrow]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-DLSS-For-Linux-Tomorrow</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-DLSS-For-Linux-Tomorrow"/>
-        <updated>2021-06-21T17:10:16.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA announced earlier this month that they would be bringing DLSS to Linux / Steam Play and tomorrow they will be introducing that initial driver support...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -708,19 +708,6 @@ Our DevSecOps platform is the end-to-end secure software solution that helps you
         <summary type="html"><![CDATA[Today we are releasing versions 13.12.2, 13.11.5, and 13.10.5 for GitLab Community Edition (CE) and Enterprise Edition (EE).
 These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 day…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A deep dive into how we investigate and secure GitLab packages]]></title>
-        <id>https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/</id>
-        <link href="https://about.gitlab.com/blog/2021/05/27/deep-dive-investigation-of-gitlab-packages/"/>
-        <updated>2021-05-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Recent high-profile supply chain and dependency confusion attacks have been a cross-industry wake-up call on the impact breadth and depth these value-chain or third-party attacks can have on customers, business operations, and brand reputation.
-Security teams know supply chain attacks aren't new – they've been around for decades. But, what may have once been considered mainly nation-state threats have now increased in prevalence and sophistication. Malicious actors are now setting their sights on widely used technology like software applications and code repositories to compromise unsuspecting suppliers.
-So how do we protect our customers and product?
-We're doing deep dives and making improvements across our product, processes, and practices as well as the controls we have in place for our…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
