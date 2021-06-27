@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-26T00:18:25.125Z</id>
+    <id>urn:2021-06-27T00:23:08.653Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-26T00:18:25.125Z</updated>
+    <updated>2021-06-27T00:23:08.653Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Set To See Many New Features, New GPU Support, Other Exciting Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Early-Look</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Early-Look"/>
+        <updated>2021-06-26T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.13 will debut tomorrow if Linus Torvalds is comfortable with the state of the code-base, which in turn will mark the opening of the Linux 5.14 merge window. Here is a look at what is on the table for this next follow-on version of the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Proposes The Linux Hardware Timestamping Engine]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Hardware-Timestamp</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Hardware-Timestamp"/>
+        <updated>2021-06-26T13:45:11.000Z</updated>
+        <summary type="html"><![CDATA[A proposal by NVIDIA engineers for the mainline Linux kernel would introduce the Hardware Timestamping Engine (HTE) subsystem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DragonFlyBSD To See Better Low-Level Lock Performance When Heavily Contested]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-Better-LL-Perf</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-Better-LL-Perf"/>
+        <updated>2021-06-26T11:17:17.000Z</updated>
+        <summary type="html"><![CDATA[Software running on DragonFlyBSD and making use of pthreads is set to see better performance around low-level locks when heavily contested...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Huawei Proposes In-Kernel Transactional Database For Security Purposes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Huawei-In-Kernel-Trans-DB</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Huawei-In-Kernel-Trans-DB"/>
+        <updated>2021-06-26T10:28:54.000Z</updated>
+        <summary type="html"><![CDATA[While some Huawei engineers are currently facing criticism for submitting superfluous kernel patches in an effort to boost their own or the company's standing in the kernel community, other engineers at Huawei are working on more substantive kernel patches. Here's a rather peculiar new patch series out on Friday where a Huawei engineer is effectively proposing an in-kernel transactional database...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Pushes More Plasma Wayland Improvements, Plug-in System For The Konsole]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Akademy-2021-Week</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Akademy-2021-Week"/>
+        <updated>2021-06-26T10:00:16.000Z</updated>
+        <summary type="html"><![CDATA[Even with Akademy 2021 this week as the annual KDE developer conference, thanks in part to it being a virtual event the KDE developers still managed to remain quite productive on new code changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Coreboot Is Ridding Its Need For Intel's FSP-T Blob]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-FSP-T-Not-Needed</id>
@@ -343,56 +393,6 @@ In this approach, an agent is installed in your infrastructure components to pul
 In the follow…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Lands More Open-Source Vulkan Driver Changes For Ray-Tracing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-Pipelines</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-Pipelines"/>
-        <updated>2021-06-22T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Even though Vulkan ray-tracing support on Intel graphics hardware isn't coming until Xe HPG avaiability, Intel's Linux graphics driver developers have been preparing since last year. In preparation for the Xe HPG launch, Intel's open-source talent have for many months already been preparing the Vulkan ray-tracing functionality wither another batch of code being merged today...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Announces New Leadership Roles, Business Unit Changes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-New-Leadership-BUs</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-New-Leadership-BUs"/>
-        <updated>2021-06-22T20:13:47.000Z</updated>
-        <summary type="html"><![CDATA[Intel CEO Pat Gelsinger continues working on restructuring the company and today announced some new leadership as well as business unit changes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel's Latest CPU Microcode Update Isn't All That Scary]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ucode-June-2021-Not-Bad</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ucode-June-2021-Not-Bad"/>
-        <updated>2021-06-22T17:44:38.000Z</updated>
-        <summary type="html"><![CDATA[While in the past we have seen Intel CPU microcode updates lead to measurable performance differences on multiple occasions, this month's CPU microcode update doesn't end up being all that concerning for real-world performance...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PanVK Merged Into Mesa 21.2 For Open-Source Vulkan Driver With Arm Mali GPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PanVK-Lands-In-Mesa</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PanVK-Lands-In-Mesa"/>
-        <updated>2021-06-22T17:13:14.000Z</updated>
-        <summary type="html"><![CDATA[Hitting mainline Mesa today for Mesa 21.2 next quarter is PanVK as the open-source Vulkan driver in development for newer Arm Mali GPUs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Posts 470 Linux Driver Beta With Better Wayland Support, DLSS + Improved PRIME]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Releases-DLSS-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Releases-DLSS-Linux"/>
-        <updated>2021-06-22T13:54:40.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA announced yesterday they would be releasing DLSS Linux support tomorrow and indeed they have delivered on that first milestone of Deep Learning Super Sampling support for Linux gamers. NVIDIA has published their first 470 driver series beta in the form of the NVIDIA 470.42.01 build...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
