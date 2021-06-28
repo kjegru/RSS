@@ -218,12 +218,75 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
+          "author": null,
+          "description": "Linus Torvalds has just released the Linux 5.13 kernel as stable...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
+          "publishedOn": "2021-06-27T22:34:50.000Z",
+          "wordCount": 885,
+          "title": "Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
+          "author": null,
+          "description": "Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
+          "publishedOn": "2021-06-27T14:00:00.000Z",
+          "wordCount": 995,
+          "title": "Linux's New \"randomize_kstack_offset\" Security Feature Having Minimal Performance Impact"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
+          "author": null,
+          "description": "With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
+          "publishedOn": "2021-06-27T13:37:34.000Z",
+          "wordCount": 1574,
+          "title": "Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Block-Global-Counter",
+          "author": null,
+          "description": "Microsoft and systemd developers are proposing a global counter for block device changes for the Linux kernel to better track changes and having a unique system-wide number for disk and other block device changes rather than on a per-disk basis...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Block-Global-Counter",
+          "publishedOn": "2021-06-27T11:40:57.000Z",
+          "wordCount": 948,
+          "title": "Linux Developers Discuss A Global Counter For Block/Disk Changes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-HID-Programmable-Buttons",
+          "author": null,
+          "description": "The hid-input kernel driver with Linux 5.14 is set to see support for \"Programmable Buttons\" as outlined by the USB HID specification...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-HID-Programmable-Buttons",
+          "publishedOn": "2021-06-27T10:35:11.000Z",
+          "wordCount": 756,
+          "title": "Linux 5.14 HID Input Driver To Handle Programmable Buttons"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=More-XeHP-Mesa-21.2",
+          "author": null,
+          "description": "Back in April was the last time we saw much XeHP specificc ode land in the open-source Mesa driver code while this week there was a fresh batch of code merged...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=More-XeHP-Mesa-21.2",
+          "publishedOn": "2021-06-27T10:08:01.000Z",
+          "wordCount": 873,
+          "title": "More Intel Xe-HP Enablement Code Lands In Mesa 21.2"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Crypt-Optimal-Size",
+          "author": null,
+          "description": "With this autumn's Fedora 35 release there should be better performance out-of-the-box for those employing LUKS/dm-crypt encryption while using 4K sector size based storage...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Crypt-Optimal-Size",
+          "publishedOn": "2021-06-27T00:25:13.000Z",
+          "wordCount": 797,
+          "title": "Fedora 35 To Automatically Use Optimal Encryption Sector Size For Better I/O Performance"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Early-Look",
           "author": null,
           "description": "Linux 5.13 will debut tomorrow if Linus Torvalds is comfortable with the state of the code-base, which in turn will mark the opening of the Linux 5.14 merge window. Here is a look at what is on the table for this next follow-on version of the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Early-Look",
           "publishedOn": "2021-06-26T14:00:00.000Z",
-          "wordCount": 1202,
+          "wordCount": 1123,
           "title": "Linux 5.14 Set To See Many New Features, New GPU Support, Other Exciting Changes"
         },
         {
@@ -232,7 +295,7 @@
           "description": "A proposal by NVIDIA engineers for the mainline Linux kernel would introduce the Hardware Timestamping Engine (HTE) subsystem...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Hardware-Timestamp",
           "publishedOn": "2021-06-26T13:45:11.000Z",
-          "wordCount": 919,
+          "wordCount": 838,
           "title": "NVIDIA Proposes The Linux Hardware Timestamping Engine"
         },
         {
@@ -241,7 +304,7 @@
           "description": "Software running on DragonFlyBSD and making use of pthreads is set to see better performance around low-level locks when heavily contested...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-Better-LL-Perf",
           "publishedOn": "2021-06-26T11:17:17.000Z",
-          "wordCount": 711,
+          "wordCount": 788,
           "title": "DragonFlyBSD To See Better Low-Level Lock Performance When Heavily Contested"
         },
         {
@@ -250,7 +313,7 @@
           "description": "While some Huawei engineers are currently facing criticism for submitting superfluous kernel patches in an effort to boost their own or the company's standing in the kernel community, other engineers at Huawei are working on more substantive kernel patches. Here's a rather peculiar new patch series out on Friday where a Huawei engineer is effectively proposing an in-kernel transactional database...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Huawei-In-Kernel-Trans-DB",
           "publishedOn": "2021-06-26T10:28:54.000Z",
-          "wordCount": 773,
+          "wordCount": 768,
           "title": "Huawei Proposes In-Kernel Transactional Database For Security Purposes"
         },
         {
@@ -259,7 +322,7 @@
           "description": "Even with Akademy 2021 this week as the annual KDE developer conference, thanks in part to it being a virtual event the KDE developers still managed to remain quite productive on new code changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Akademy-2021-Week",
           "publishedOn": "2021-06-26T10:00:16.000Z",
-          "wordCount": 820,
+          "wordCount": 794,
           "title": "KDE Pushes More Plasma Wayland Improvements, Plug-in System For The Konsole"
         },
         {
@@ -268,7 +331,7 @@
           "description": "Coreboot making progress on its temporary RAM initialization code (cache as RAM) means that its usage of the FSP-T binary blob is increasingly unnecessary...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-FSP-T-Not-Needed",
           "publishedOn": "2021-06-25T19:45:27.000Z",
-          "wordCount": 939,
+          "wordCount": 972,
           "title": "Coreboot Is Ridding Its Need For Intel's FSP-T Blob"
         },
         {
@@ -277,7 +340,7 @@
           "description": "Valve and their partners have issued a new version of Proton for powering Steam Play to enjoy Windows games on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Proton-6.3-5-Released",
           "publishedOn": "2021-06-25T18:40:12.000Z",
-          "wordCount": 886,
+          "wordCount": 805,
           "title": "Proton 6.3-5 Released  With A Number Of Improvements For Windows Games On Linux"
         },
         {
@@ -286,7 +349,7 @@
           "description": "Earlier this month were benchmarks looking at GCC 11 performance with varying optimization levels and features like link-time optimizations. Stemming from reader requests, here are now similar reference benchmarks off LLVM Clang 12.0 on the same system with going from -O0 to -Ofast and toggling -march=native and LTO usage.",
           "link": "https://www.phoronix.com/vr.php?view=30294",
           "publishedOn": "2021-06-25T16:00:00.000Z",
-          "wordCount": 733,
+          "wordCount": 808,
           "title": "LLVM Clang 12 Benchmarks At Varying Optimization Levels, LTO"
         },
         {
@@ -295,7 +358,7 @@
           "description": "Earlier this month systemd 249-rc1 arrived with a variety of new features and improvements. Now for closing out the month is a second release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-249-rc2",
           "publishedOn": "2021-06-25T15:00:55.000Z",
-          "wordCount": 725,
+          "wordCount": 719,
           "title": "systemd 249-rc2 Released With New \"ConditionOSRelease\" Directive"
         },
         {
@@ -304,7 +367,7 @@
           "description": "If all is looking well on Sunday, Linus Torvalds will be releasing Linux 5.13 as stable rather than going with a 5.13-rc8 test release and pushing the final version back by an additional release. In either case, Linux 5.13 is coming out soon and with many new features in tow...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Features",
           "publishedOn": "2021-06-25T14:07:33.000Z",
-          "wordCount": 950,
+          "wordCount": 1031,
           "title": "The 13 Most Interesting Changes Of Linux 5.13 From Apple M1 To Security Enhancements"
         },
         {
@@ -313,7 +376,7 @@
           "description": "Among the many projects under the GNU umbrella, the GNU Health official project has been about working on the libre digital health ecosystem and their most recent effort is on MyGNUHealth as an effort around libre personal health records...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=MyGNUHealth-1.0",
           "publishedOn": "2021-06-25T12:44:42.000Z",
-          "wordCount": 785,
+          "wordCount": 798,
           "title": "MyGNUHealth 1.0 - GNU Looks To Get More Involved With Personal Health Records"
         },
         {
@@ -322,7 +385,7 @@
           "description": "Following the announcement this week that AMD is dropping pre-Polaris GPU support (or pre-Raven Ridge support for APUs) from their mainline Radeon Software driver on Windows, the AMDVLK open-source Vulkan driver has also now similarly discontinued that older GPU support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q2.6",
           "publishedOn": "2021-06-25T10:08:08.000Z",
-          "wordCount": 890,
+          "wordCount": 969,
           "title": "AMDVLK 2021.Q2.6 Vulkan Driver Released - Removes Pre-Polaris / Pre-Raven Support"
         },
         {
@@ -331,7 +394,7 @@
           "description": "There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SFH-Next-Gen-Patches",
           "publishedOn": "2021-06-25T05:02:05.000Z",
-          "wordCount": 1033,
+          "wordCount": 1032,
           "title": "AMD SFH Linux Driver Updated For \"Next Gen\" Ryzen Laptops"
         },
         {
@@ -340,7 +403,7 @@
           "description": "Simon Ser has released Sway 1.6.1 as the newest version of this popular i3-inspired Wayland compositor...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sway-1.6.1-Wayland-Compositor",
           "publishedOn": "2021-06-25T04:00:00.000Z",
-          "wordCount": 716,
+          "wordCount": 781,
           "title": "Sway 1.6.1 Wayland Compositor Released With WLROOTS 0.14"
         },
         {
@@ -349,7 +412,7 @@
           "description": "Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today's testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.",
           "link": "https://www.phoronix.com/vr.php?view=30288",
           "publishedOn": "2021-06-24T20:00:00.000Z",
-          "wordCount": 822,
+          "wordCount": 737,
           "title": "Another Test Drive With Crocus Gallium3D On Old Intel Hardware"
         },
         {
@@ -358,7 +421,7 @@
           "description": "For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-BIOS-Disconnect-Vuln",
           "publishedOn": "2021-06-24T16:07:36.000Z",
-          "wordCount": 756,
+          "wordCount": 835,
           "title": "Dell BIOS/UEFI Under Attack From New Vulnerabilities - Use FWUPD For The Latest Updates"
         },
         {
@@ -367,7 +430,7 @@
           "description": "As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Windows-11-Announcement",
           "publishedOn": "2021-06-24T16:00:00.000Z",
-          "wordCount": 886,
+          "wordCount": 805,
           "title": "Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon"
         },
         {
@@ -376,7 +439,7 @@
           "description": "Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AWS-BugBust",
           "publishedOn": "2021-06-24T15:30:00.000Z",
-          "wordCount": 813,
+          "wordCount": 766,
           "title": "Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs"
         },
         {
@@ -385,7 +448,7 @@
           "description": "As part of Google's latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Vulnerability-Schema",
           "publishedOn": "2021-06-24T13:15:25.000Z",
-          "wordCount": 735,
+          "wordCount": 810,
           "title": "Google Proposes An Open-Source Vulnerability Interchange Schema"
         },
         {
@@ -394,7 +457,7 @@
           "description": "With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel's  BPF subsystem has been addressed...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-BPF-Spectre-33624",
           "publishedOn": "2021-06-24T13:00:18.000Z",
-          "wordCount": 789,
+          "wordCount": 864,
           "title": "Linux Kernel's BPF Fixed Up Against Spectre Vulnerability Bypass"
         },
         {
@@ -403,7 +466,7 @@
           "description": "Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SM4-AVX-AES-NI-Kernel",
           "publishedOn": "2021-06-24T11:00:01.000Z",
-          "wordCount": 826,
+          "wordCount": 741,
           "title": "~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code"
         },
         {
@@ -412,7 +475,7 @@
           "description": "The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=ODF-1.3-OASIS-Approved",
           "publishedOn": "2021-06-24T10:14:45.000Z",
-          "wordCount": 712,
+          "wordCount": 791,
           "title": "OpenDocument Format 1.3 Approved As OASIS Standard"
         },
         {
@@ -421,7 +484,7 @@
           "description": "Valve's Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dota-2-FidelityFX-Super-Res",
           "publishedOn": "2021-06-24T10:01:05.000Z",
-          "wordCount": 897,
+          "wordCount": 896,
           "title": "Valve's Dota 2 Adds AMD FidelityFX Super Resolution"
         },
         {
@@ -430,7 +493,7 @@
           "description": "With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
           "publishedOn": "2021-06-24T04:00:00.000Z",
-          "wordCount": 747,
+          "wordCount": 746,
           "title": "Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM"
         },
         {
@@ -439,71 +502,8 @@
           "description": "It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
           "publishedOn": "2021-06-23T17:45:54.000Z",
-          "wordCount": 1067,
+          "wordCount": 1112,
           "title": "AMD PSF Control Support Still Awaiting The Mainline Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Nine-Double-Perf",
-          "author": null,
-          "description": "While Valve has been working on Vulkan-based rendering for Source Engine games by making use of DXVK for translating the game engine's native Direct3D calls to the Vulkan API, with some yet-to-be-merged Mesa patches around Gallium Nine there is much better performance to see with Gallium Nine at least for the RadeonSI driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Nine-Double-Perf",
-          "publishedOn": "2021-06-23T15:27:10.000Z",
-          "wordCount": 862,
-          "title": "Work-In-Progress RadeonSI+Nine Showing Big Performance Win For Source Engine Games"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-Blender-LTS",
-          "author": null,
-          "description": "Ubuntu maker Canonical has partnered up with the Blender Foundation to offer paid enterprise support around the long-term support versions of Blender...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-Blender-LTS",
-          "publishedOn": "2021-06-23T14:31:19.000Z",
-          "wordCount": 690,
-          "title": "Canonical Partners With Blender Around Paid LTS Application Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Alpha-Released",
-          "author": null,
-          "description": "The Qt Company has announced the debut of Qt 6.2 Alpha as it prepares for its September release with many more modules finally making the transition from Qt5 to Qt6...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Alpha-Released",
-          "publishedOn": "2021-06-23T12:09:02.000Z",
-          "wordCount": 726,
-          "title": "Qt 6.2 Alpha Released With Many More Modules Ported From Qt5"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenPOWER-Microwatt-5.14",
-          "author": null,
-          "description": "Announced two years ago was the OpenPOWER Microwatt as an FPGA-based soft CPU core...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenPOWER-Microwatt-5.14",
-          "publishedOn": "2021-06-23T11:00:00.000Z",
-          "wordCount": 852,
-          "title": "Linux 5.14 To Support The OpenPOWER Microwatt Soft CPU Core"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30287",
-          "author": null,
-          "description": "Last week Valve introduced Vulkan rendering support for Left 4 Dead 2. The L4D2 Vulkan support is similar to that of Portal 2 where DXVK is being leveraged for translating the Direct3D calls to Vulkan rather than relying on their OpenGL translations. For those wondering what this means for L4D2 performance on Linux with modern GPUs, here are some benchmarks of Left 4 Dead 2 when testing the OpenGL and Vulkan rendering options.",
-          "link": "https://www.phoronix.com/vr.php?view=30287",
-          "publishedOn": "2021-06-23T09:45:18.000Z",
-          "wordCount": 787,
-          "title": "Left 4 Dead 2 Vulkan Performance With Radeon Graphics On Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Gallium3D-Gen8",
-          "author": null,
-          "description": "Landing in mainline Mesa 21.2 development code last week was the \"Crocus\" Gallium3D driver for old Intel hardware spanning from the Intel 965 chipset days \"Gen4\" up through Crocus supporting Haswell \"Gen7\" graphics. The i965 to Haswell span has been the focus since the official Intel \"Iris\" Gallium3D driver already in Mesa supports the Broadwell \"Gen8\" up through all current Intel UHD/Xe Graphics. But now Crocus with the latest Mesa code has added Gen8 support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Gallium3D-Gen8",
-          "publishedOn": "2021-06-23T07:30:00.000Z",
-          "wordCount": 774,
-          "title": "Crocus Gallium3D Adds Experimental Intel Gen8 Graphics, Overlapping With Iris Driver"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.14",
-          "author": null,
-          "description": "Intel-owned Habana Labs has submitted their set of driver updates to char/misc ahead of the upcoming Linux 5.14 merge window...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.14",
-          "publishedOn": "2021-06-23T04:00:00.000Z",
-          "wordCount": 924,
-          "title": "Habana Labs Driver Drops Default Memory Scrubbing For Better Performance, Other Changes"
         }
       ]
     }

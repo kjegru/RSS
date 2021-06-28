@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-27T00:23:08.653Z</id>
+    <id>urn:2021-06-28T00:21:08.172Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-27T00:23:08.653Z</updated>
+    <updated>2021-06-28T00:21:08.172Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Released"/>
+        <updated>2021-06-27T22:34:50.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds has just released the Linux 5.13 kernel as stable...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux's New "randomize_kstack_offset" Security Feature Having Minimal Performance Impact]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=randomize_kstack_offset-perf</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=randomize_kstack_offset-perf"/>
+        <updated>2021-06-27T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-2021-H1-Highlights</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-2021-H1-Highlights"/>
+        <updated>2021-06-27T13:37:34.000Z</updated>
+        <summary type="html"><![CDATA[With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Developers Discuss A Global Counter For Block/Disk Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Block-Global-Counter</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Block-Global-Counter"/>
+        <updated>2021-06-27T11:40:57.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft and systemd developers are proposing a global counter for block device changes for the Linux kernel to better track changes and having a unique system-wide number for disk and other block device changes rather than on a per-disk basis...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 HID Input Driver To Handle Programmable Buttons]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-HID-Programmable-Buttons</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-HID-Programmable-Buttons"/>
+        <updated>2021-06-27T10:35:11.000Z</updated>
+        <summary type="html"><![CDATA[The hid-input kernel driver with Linux 5.14 is set to see support for "Programmable Buttons" as outlined by the USB HID specification...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Intel Xe-HP Enablement Code Lands In Mesa 21.2]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=More-XeHP-Mesa-21.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=More-XeHP-Mesa-21.2"/>
+        <updated>2021-06-27T10:08:01.000Z</updated>
+        <summary type="html"><![CDATA[Back in April was the last time we saw much XeHP specificc ode land in the open-source Mesa driver code while this week there was a fresh batch of code merged...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora 35 To Automatically Use Optimal Encryption Sector Size For Better I/O Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Crypt-Optimal-Size</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Crypt-Optimal-Size"/>
+        <updated>2021-06-27T00:25:13.000Z</updated>
+        <summary type="html"><![CDATA[With this autumn's Fedora 35 release there should be better performance out-of-the-box for those employing LUKS/dm-crypt encryption while using 4K sector size based storage...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14 Set To See Many New Features, New GPU Support, Other Exciting Changes]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Early-Look</id>
@@ -294,66 +364,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Work-In-Progress RadeonSI+Nine Showing Big Performance Win For Source Engine Games]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Nine-Double-Perf</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Nine-Double-Perf"/>
-        <updated>2021-06-23T15:27:10.000Z</updated>
-        <summary type="html"><![CDATA[While Valve has been working on Vulkan-based rendering for Source Engine games by making use of DXVK for translating the game engine's native Direct3D calls to the Vulkan API, with some yet-to-be-merged Mesa patches around Gallium Nine there is much better performance to see with Gallium Nine at least for the RadeonSI driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canonical Partners With Blender Around Paid LTS Application Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-Blender-LTS</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-Blender-LTS"/>
-        <updated>2021-06-23T14:31:19.000Z</updated>
-        <summary type="html"><![CDATA[Ubuntu maker Canonical has partnered up with the Blender Foundation to offer paid enterprise support around the long-term support versions of Blender...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qt 6.2 Alpha Released With Many More Modules Ported From Qt5]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Alpha-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Alpha-Released"/>
-        <updated>2021-06-23T12:09:02.000Z</updated>
-        <summary type="html"><![CDATA[The Qt Company has announced the debut of Qt 6.2 Alpha as it prepares for its September release with many more modules finally making the transition from Qt5 to Qt6...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 To Support The OpenPOWER Microwatt Soft CPU Core]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenPOWER-Microwatt-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenPOWER-Microwatt-5.14"/>
-        <updated>2021-06-23T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Announced two years ago was the OpenPOWER Microwatt as an FPGA-based soft CPU core...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Left 4 Dead 2 Vulkan Performance With Radeon Graphics On Linux]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30287</id>
-        <link href="https://www.phoronix.com/vr.php?view=30287"/>
-        <updated>2021-06-23T09:45:18.000Z</updated>
-        <summary type="html"><![CDATA[Last week Valve introduced Vulkan rendering support for Left 4 Dead 2. The L4D2 Vulkan support is similar to that of Portal 2 where DXVK is being leveraged for translating the Direct3D calls to Vulkan rather than relying on their OpenGL translations. For those wondering what this means for L4D2 performance on Linux with modern GPUs, here are some benchmarks of Left 4 Dead 2 when testing the OpenGL and Vulkan rendering options.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crocus Gallium3D Adds Experimental Intel Gen8 Graphics, Overlapping With Iris Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Gallium3D-Gen8</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Gallium3D-Gen8"/>
-        <updated>2021-06-23T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Landing in mainline Mesa 21.2 development code last week was the "Crocus" Gallium3D driver for old Intel hardware spanning from the Intel 965 chipset days "Gen4" up through Crocus supporting Haswell "Gen7" graphics. The i965 to Haswell span has been the focus since the official Intel "Iris" Gallium3D driver already in Mesa supports the Broadwell "Gen8" up through all current Intel UHD/Xe Graphics. But now Crocus with the latest Mesa code has added Gen8 support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[v1.11.0]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0</id>
         <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0"/>
@@ -370,16 +380,6 @@ Changed: sources in template data is now ordered by last update timestamp (as op
 Thank you @PiyushLosalka]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Habana Labs Driver Drops Default Memory Scrubbing For Better Performance, Other Changes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.14"/>
-        <updated>2021-06-23T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel-owned Habana Labs has submitted their set of driver updates to char/misc ahead of the upcoming Linux 5.14 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
