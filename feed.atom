@@ -1,10 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-28T00:21:08.172Z</id>
+    <id>urn:2021-06-29T00:20:46.249Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-28T00:21:08.172Z</updated>
+    <updated>2021-06-29T00:20:46.249Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Glibc 2.34 Adds "_Fork" Function Ahead Of Future POSIX Revision]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-Adds_Fork</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-Adds_Fork"/>
+        <updated>2021-06-28T22:55:57.000Z</updated>
+        <summary type="html"><![CDATA[The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.31-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.31-Released"/>
+        <updated>2021-06-28T22:21:29.000Z</updated>
+        <summary type="html"><![CDATA[PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Lyra-0.0.2-Codec</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Lyra-0.0.2-Codec"/>
+        <updated>2021-06-28T18:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel To Disable TSX By Default On More CPUs With New Microcode]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-TSX-Off-New-Microcode</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-TSX-Off-New-Microcode"/>
+        <updated>2021-06-28T16:18:23.000Z</updated>
+        <summary type="html"><![CDATA[Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.13</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.13"/>
+        <updated>2021-06-28T14:35:59.000Z</updated>
+        <summary type="html"><![CDATA[Following yesterday's release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Scheduling</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Scheduling"/>
+        <updated>2021-06-28T14:26:28.000Z</updated>
+        <summary type="html"><![CDATA[Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hantro-Linux-5.14-G2-HEVC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hantro-Linux-5.14-G2-HEVC"/>
+        <updated>2021-06-28T14:25:54.000Z</updated>
+        <summary type="html"><![CDATA[The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FESCo Says "Yes" To Fedora 35 Using Yescrypt For Hashing Shadow Passwords]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Yescrypt-Yes</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Yescrypt-Yes"/>
+        <updated>2021-06-28T10:21:44.000Z</updated>
+        <summary type="html"><![CDATA[The Fedora Engineering and Steering Committee has said "yes" to using Yescrypt for hashing shadow passwords with this distribution's next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-KVM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-KVM"/>
+        <updated>2021-06-28T08:23:20.000Z</updated>
+        <summary type="html"><![CDATA[The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab extends Omnibus package signing key expiration by one year]]></title>
+        <id>https://about.gitlab.com/blog/2021/06/28/package-key-extension/</id>
+        <link href="https://about.gitlab.com/blog/2021/06/28/package-key-extension/"/>
+        <updated>2021-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab uses a GPG key to sign all Omnibus packages created within the CI pipelines to insure that the packages have not been tampered with. This key is seperate from the repository metadata signing key used by package managers and the GPG signing key for the GitLab Runner. The Omnibus package signing key is set to expire on July 1, 2021 and will be extended to expire on July 1, 2022 instead.
+Why are we extending the deadline?
+The Omnibus package signing key's expiration is extended each year to comply with GitLab security policies and to limit the exposure should the key become compromised. The key's expiration is extended instead of rotating to a new key to be less disruptive for users that do verify package integrity checks prior to installing the package.
+What do I need to do?
+The only action that needs to be taken is to update your copy of the package signing key if you validate the signatures on the Omnibus packages that GitLab distributes.
+The package signing key is not the key that signs the repository metadata used by the OS package managers like apt or yum. Unless you are specifically verifying the package signatures or have configured your package manager to verify the package signatures, there is no action needed on your part to continue installing Omnibus packages.
+More information concerning verification of the package signatures
+is available in the Omnibus documentation. If you just need to refresh a copy
+of the public key, then you can find it on any of the GPG keyservers by
+searching for support@gitlab.com or using the key ID of
+DBEF 8977 4DDB 9EB3 7D9F  C3A0 3CFC F9BA F27E AB47. Alternatively you could
+download it directly from packages.gitlab.com using the URL:
+https://packages.gitlab.com/gitlab/nightly-builds/gpgkey/gitlab-nightly-builds-3D645A26AB9FBD22.pub.gpg
+
+
+What do I do if I still have problems?
+Please open an issue in the omnibus-gitlab issue tracker.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Released</id>
@@ -236,86 +352,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-11-Announcement</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-11-Announcement"/>
-        <updated>2021-06-24T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AWS-BugBust</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AWS-BugBust"/>
-        <updated>2021-06-24T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Proposes An Open-Source Vulnerability Interchange Schema]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Vulnerability-Schema</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Vulnerability-Schema"/>
-        <updated>2021-06-24T13:15:25.000Z</updated>
-        <summary type="html"><![CDATA[As part of Google's latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Kernel's BPF Fixed Up Against Spectre Vulnerability Bypass]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Spectre-33624</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Spectre-33624"/>
-        <updated>2021-06-24T13:00:18.000Z</updated>
-        <summary type="html"><![CDATA[With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel's  BPF subsystem has been addressed...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SM4-AVX-AES-NI-Kernel</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SM4-AVX-AES-NI-Kernel"/>
-        <updated>2021-06-24T11:00:01.000Z</updated>
-        <summary type="html"><![CDATA[Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenDocument Format 1.3 Approved As OASIS Standard]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ODF-1.3-OASIS-Approved</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ODF-1.3-OASIS-Approved"/>
-        <updated>2021-06-24T10:14:45.000Z</updated>
-        <summary type="html"><![CDATA[The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Valve's Dota 2 Adds AMD FidelityFX Super Resolution]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dota-2-FidelityFX-Super-Res</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dota-2-FidelityFX-Super-Res"/>
-        <updated>2021-06-24T10:01:05.000Z</updated>
-        <summary type="html"><![CDATA[Valve's Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XMM-Fast-Hypercalls-KVM-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XMM-Fast-Hypercalls-KVM-5.14"/>
-        <updated>2021-06-24T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Patch Release: 14.0.1]]></title>
         <id>https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/</id>
         <link href="https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/"/>
@@ -351,16 +387,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD PSF Control Support Still Awaiting The Mainline Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-Still-Waiting</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-Still-Waiting"/>
-        <updated>2021-06-23T17:45:54.000Z</updated>
-        <summary type="html"><![CDATA[It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>

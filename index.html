@@ -16,6 +16,149 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-28">2021-06-28</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitLab extends Omnibus package signing key expiration by one year</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/06/28/package-key-extension/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>GitLab uses a GPG key to sign all Omnibus packages created within the CI pipelines to insure that the packages have not been tampered with. This key is seperate from the repository metadata signing key used by package managers and the GPG signing key for the GitLab Runner. The Omnibus package signing key is set to expire on July 1, 2021 and will be extended to expire on July 1, 2022 instead.
+Why are we extending the deadline?
+The Omnibus package signing key&#x27;s expiration is extended each year to comply with GitLab security policies and to limit the exposure should the key become compromised. The key&#x27;s expiration is extended instead of rotating to a new key to be less disruptive for users that do verify package integrity checks prior to installing the package.
+What do I need to do?
+The only action that needs to be taken is to update your copy of the package signing key if you validate the signatures on the Omnibus packages that GitLab distributes.
+The package signing key is not the key that signs the repository metadata used by the OS package managers like apt or yum. Unless you are specifically verifying the package signatures or have configured your package manager to verify the package signatures, there is no action needed on your part to continue installing Omnibus packages.
+More information concerning verification of the package signatures
+is available in the Omnibus documentation. If you just need to refresh a copy
+of the public key, then you can find it on any of the GPG keyservers by
+searching for support@gitlab.com or using the key ID of
+DBEF 8977 4DDB 9EB3 7D9F  C3A0 3CFC F9BA F27E AB47. Alternatively you could
+download it directly from packages.gitlab.com using the URL:
+https://packages.gitlab.com/gitlab/nightly-builds/gpgkey/gitlab-nightly-builds-3D645A26AB9FBD22.pub.gpg
+
+
+What do I do if I still have problems?
+Please open an issue in the omnibus-gitlab issue tracker.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Glibc 2.34 Adds &quot;_Fork&quot; Function Ahead Of Future POSIX Revision</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Glibc-Adds_Fork">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;PipeWire-0.3.31-Released">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google&#x27;s Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Google-Lyra-0.0.2-Codec">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Intel To Disable TSX By Default On More CPUs With New Microcode</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Intel-TSX-Off-New-Microcode">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;GNU-Linux-Libre-5.13">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Following yesterday&#x27;s release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.14-Core-Scheduling">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Hantro-Linux-5.14-G2-HEVC">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">FESCo Says &quot;Yes&quot; To Fedora 35 Using Yescrypt For Hashing Shadow Passwords</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Fedora-35-Yescrypt-Yes">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The Fedora Engineering and Steering Committee has said &quot;yes&quot; to using Yescrypt for hashing shadow passwords with this distribution&#x27;s next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.14-KVM">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-06-27">2021-06-27</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -137,7 +280,7 @@
                 <summary class="article-expander__title">DragonFlyBSD To See Better Low-Level Lock Performance When Heavily Contested</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;DragonFlyBSD-Better-LL-Perf">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>Software running on DragonFlyBSD and making use of pthreads is set to see better performance around low-level locks when heavily contested...</span>
                   </div>
                 </a>
@@ -236,7 +379,7 @@
                 <summary class="article-expander__title">MyGNUHealth 1.0 - GNU Looks To Get More Involved With Personal Health Records</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;MyGNUHealth-1.0">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>Among the many projects under the GNU umbrella, the GNU Health official project has been about working on the libre digital health ecosystem and their most recent effort is on MyGNUHealth as an effort around libre personal health records...</span>
                   </div>
                 </a>
@@ -336,7 +479,7 @@ to use GitLab&#x27;s own infrastructure.</span>
                 <summary class="article-expander__title">Another Test Drive With Crocus Gallium3D On Old Intel Hardware</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30288">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
+                    <span class="article-reading-time">(3 min)</span>
                     <span>Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today&#x27;s testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.</span>
                   </div>
                 </a>
@@ -349,94 +492,6 @@ to use GitLab&#x27;s own infrastructure.</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Windows-11-Announcement">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;AWS-BugBust">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google Proposes An Open-Source Vulnerability Interchange Schema</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Google-Vulnerability-Schema">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>As part of Google&#x27;s latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linux Kernel&#x27;s BPF Fixed Up Against Spectre Vulnerability Bypass</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-BPF-Spectre-33624">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel&#x27;s  BPF subsystem has been addressed...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;SM4-AVX-AES-NI-Kernel">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">OpenDocument Format 1.3 Approved As OASIS Standard</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;ODF-1.3-OASIS-Approved">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Valve&#x27;s Dota 2 Adds AMD FidelityFX Super Resolution</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Dota-2-FidelityFX-Super-Res">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Valve&#x27;s Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;XMM-Fast-Hypercalls-KVM-5.14">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...</span>
                   </div>
                 </a>
               </details>
@@ -488,23 +543,6 @@ Caveat: the template works only with YouTube content. You cannot mix textual RSS
 Changed: Default HTML template meta tag adjusted to match convention
 Changed: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)
 Thank you @PiyushLosalka</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">AMD PSF Control Support Still Awaiting The Mainline Linux Kernel</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;AMD-PSF-Control-Still-Waiting">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>It&#x27;s been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn&#x27;t been picked up for the mainline Linux kernel...</span>
                   </div>
                 </a>
               </details>
@@ -978,7 +1016,7 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-06-28T00:21:08.151Z">2021-06-28T00:21:08.151Z</time>
+    <time id="build-timestamp" datetime="2021-06-29T00:20:46.232Z">2021-06-29T00:20:46.232Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

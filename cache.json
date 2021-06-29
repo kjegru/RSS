@@ -31,6 +31,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/06/28/package-key-extension/",
+          "author": null,
+          "description": "GitLab uses a GPG key to sign all Omnibus packages created within the CI pipelines to insure that the packages have not been tampered with. This key is seperate from the repository metadata signing key used by package managers and the GPG signing key for the GitLab Runner. The Omnibus package signing key is set to expire on July 1, 2021 and will be extended to expire on July 1, 2022 instead.\nWhy are we extending the deadline?\nThe Omnibus package signing key's expiration is extended each year to comply with GitLab security policies and to limit the exposure should the key become compromised. The key's expiration is extended instead of rotating to a new key to be less disruptive for users that do verify package integrity checks prior to installing the package.\nWhat do I need to do?\nThe only action that needs to be taken is to update your copy of the package signing key if you validate the signatures on the Omnibus packages that GitLab distributes.\nThe package signing key is not the key that signs the repository metadata used by the OS package managers like apt or yum. Unless you are specifically verifying the package signatures or have configured your package manager to verify the package signatures, there is no action needed on your part to continue installing Omnibus packages.\nMore information concerning verification of the package signatures\nis available in the Omnibus documentation. If you just need to refresh a copy\nof the public key, then you can find it on any of the GPG keyservers by\nsearching for support@gitlab.com or using the key ID of\nDBEF 8977 4DDB 9EB3 7D9F  C3A0 3CFC F9BA F27E AB47. Alternatively you could\ndownload it directly from packages.gitlab.com using the URL:\nhttps://packages.gitlab.com/gitlab/nightly-builds/gpgkey/gitlab-nightly-builds-3D645A26AB9FBD22.pub.gpg\n\n\nWhat do I do if I still have problems?\nPlease open an issue in the omnibus-gitlab issue tracker.",
+          "link": "https://about.gitlab.com/blog/2021/06/28/package-key-extension/",
+          "publishedOn": "2021-06-28T00:00:00.000Z",
+          "wordCount": 1396,
+          "title": "GitLab extends Omnibus package signing key expiration by one year"
+        },
+        {
           "id": "https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/",
           "author": null,
           "description": "Today we are releasing version 14.0.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nUpdate Geo UI screenshots in docs page\nUpdate admin docs with new admin area access info\nAdd Helm-2to3.gitlab-ci.yml to Auto DevOps\nUpdate docs for new Members page location on GitLab navigation\nDevOps Adoption - ensure displayNamespaceId is included\nRemove add button from Devops Adoption\nGeo: Add Terraform Module to datatypes doc\nCreate 14.0 What's New entry\nToggle codequality diff annotations flag\nBump kas to v14.0.1\nExempt unicorn 'svlogd_prefix' from deprecation check\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
@@ -72,7 +81,7 @@
           "description": "We recently discovered a Usage Ping  configuration bug for self-managed instances and have since published a patch release to fix the bug. The issue affects the ability to disable Usage Ping for self-managed GitLab via text configuration files, resulting in the collection and transmission of Usage Ping events from the instance. This bug affects any instance running GitLab version 9.3 to version 13.12.3, and was patched in 13.12.4.\nWhat does this mean for existing users?\nThis issue does not affect customers who have disabled Usage Ping via the user interface or any users of our SaaS product.\nYou can check your instance configuration settings to see if this issue may have affected you. We’ve published more detailed instructions here.\nWhat should I do?\nSince we do not collect any configuration data from your instance, we have no way to detect if you unintentionally shared data with GitLab. Out of an abundance of caution, we ask that you fill out this form if you suspect that Usage Ping data was shared after taking steps to opt-out in your GitLab configuration file. We will purge data from our systems and follow up with confirmation.\nPlease share your questions and feedback with us on the community forum.",
           "link": "https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/",
           "publishedOn": "2021-06-21T00:00:00.000Z",
-          "wordCount": 1152,
+          "wordCount": 1155,
           "title": "Usage Ping configuration bug for self-managed instances"
         },
         {
@@ -99,7 +108,7 @@
           "description": "GitLab uses a GPG key to sign official GitLab Runner packages. We recently became aware of an instance where this key and other tokens used to distribute official GitLab Runner packages and binaries were not secured according to GitLab’s security policies.\nWe have not found any evidence of unauthorized modification of the packages or access to the services storing them. Our team has audited and investigated integrity hashes, bucket logs and versioning, and pipeline history and concluded that the unauthorized modification of any packages is exceedingly unlikely.\nOut of an abundance of caution, the GPG key used for release signing and verification has been rotated along with all other tokens that were improperly secured.\nIf you use GitLab.com shared runners, this does not impact you.\nAs of J…",
           "link": "https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/",
           "publishedOn": "2021-06-16T00:00:00.000Z",
-          "wordCount": 1579,
+          "wordCount": 1582,
           "title": "The GPG key used to sign GitLab Runner packages has been rotated"
         },
         {
@@ -218,12 +227,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-Adds_Fork",
+          "author": null,
+          "description": "The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-Adds_Fork",
+          "publishedOn": "2021-06-28T22:55:57.000Z",
+          "wordCount": 905,
+          "title": "Glibc 2.34 Adds \"_Fork\" Function Ahead Of Future POSIX Revision"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.31-Released",
+          "author": null,
+          "description": "PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.31-Released",
+          "publishedOn": "2021-06-28T22:21:29.000Z",
+          "wordCount": 832,
+          "title": "PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Lyra-0.0.2-Codec",
+          "author": null,
+          "description": "Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Lyra-0.0.2-Codec",
+          "publishedOn": "2021-06-28T18:20:00.000Z",
+          "wordCount": 825,
+          "title": "Google's Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-TSX-Off-New-Microcode",
+          "author": null,
+          "description": "Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-TSX-Off-New-Microcode",
+          "publishedOn": "2021-06-28T16:18:23.000Z",
+          "wordCount": 1337,
+          "title": "Intel To Disable TSX By Default On More CPUs With New Microcode"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.13",
+          "author": null,
+          "description": "Following yesterday's release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.13",
+          "publishedOn": "2021-06-28T14:35:59.000Z",
+          "wordCount": 816,
+          "title": "GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Scheduling",
+          "author": null,
+          "description": "Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Scheduling",
+          "publishedOn": "2021-06-28T14:26:28.000Z",
+          "wordCount": 880,
+          "title": "Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Hantro-Linux-5.14-G2-HEVC",
+          "author": null,
+          "description": "The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hantro-Linux-5.14-G2-HEVC",
+          "publishedOn": "2021-06-28T14:25:54.000Z",
+          "wordCount": 866,
+          "title": "Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Yescrypt-Yes",
+          "author": null,
+          "description": "The Fedora Engineering and Steering Committee has said \"yes\" to using Yescrypt for hashing shadow passwords with this distribution's next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Yescrypt-Yes",
+          "publishedOn": "2021-06-28T10:21:44.000Z",
+          "wordCount": 728,
+          "title": "FESCo Says \"Yes\" To Fedora 35 Using Yescrypt For Hashing Shadow Passwords"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-KVM",
+          "author": null,
+          "description": "The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-KVM",
+          "publishedOn": "2021-06-28T08:23:20.000Z",
+          "wordCount": 745,
+          "title": "KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
           "author": null,
           "description": "Linus Torvalds has just released the Linux 5.13 kernel as stable...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
           "publishedOn": "2021-06-27T22:34:50.000Z",
-          "wordCount": 885,
+          "wordCount": 896,
           "title": "Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More"
         },
         {
@@ -232,7 +322,7 @@
           "description": "Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
           "publishedOn": "2021-06-27T14:00:00.000Z",
-          "wordCount": 995,
+          "wordCount": 1022,
           "title": "Linux's New \"randomize_kstack_offset\" Security Feature Having Minimal Performance Impact"
         },
         {
@@ -241,7 +331,7 @@
           "description": "With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
           "publishedOn": "2021-06-27T13:37:34.000Z",
-          "wordCount": 1574,
+          "wordCount": 1587,
           "title": "Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work"
         },
         {
@@ -250,7 +340,7 @@
           "description": "Microsoft and systemd developers are proposing a global counter for block device changes for the Linux kernel to better track changes and having a unique system-wide number for disk and other block device changes rather than on a per-disk basis...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Block-Global-Counter",
           "publishedOn": "2021-06-27T11:40:57.000Z",
-          "wordCount": 948,
+          "wordCount": 961,
           "title": "Linux Developers Discuss A Global Counter For Block/Disk Changes"
         },
         {
@@ -259,7 +349,7 @@
           "description": "The hid-input kernel driver with Linux 5.14 is set to see support for \"Programmable Buttons\" as outlined by the USB HID specification...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-HID-Programmable-Buttons",
           "publishedOn": "2021-06-27T10:35:11.000Z",
-          "wordCount": 756,
+          "wordCount": 769,
           "title": "Linux 5.14 HID Input Driver To Handle Programmable Buttons"
         },
         {
@@ -268,7 +358,7 @@
           "description": "Back in April was the last time we saw much XeHP specificc ode land in the open-source Mesa driver code while this week there was a fresh batch of code merged...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=More-XeHP-Mesa-21.2",
           "publishedOn": "2021-06-27T10:08:01.000Z",
-          "wordCount": 873,
+          "wordCount": 886,
           "title": "More Intel Xe-HP Enablement Code Lands In Mesa 21.2"
         },
         {
@@ -277,7 +367,7 @@
           "description": "With this autumn's Fedora 35 release there should be better performance out-of-the-box for those employing LUKS/dm-crypt encryption while using 4K sector size based storage...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Crypt-Optimal-Size",
           "publishedOn": "2021-06-27T00:25:13.000Z",
-          "wordCount": 797,
+          "wordCount": 881,
           "title": "Fedora 35 To Automatically Use Optimal Encryption Sector Size For Better I/O Performance"
         },
         {
@@ -286,7 +376,7 @@
           "description": "Linux 5.13 will debut tomorrow if Linus Torvalds is comfortable with the state of the code-base, which in turn will mark the opening of the Linux 5.14 merge window. Here is a look at what is on the table for this next follow-on version of the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Early-Look",
           "publishedOn": "2021-06-26T14:00:00.000Z",
-          "wordCount": 1123,
+          "wordCount": 1136,
           "title": "Linux 5.14 Set To See Many New Features, New GPU Support, Other Exciting Changes"
         },
         {
@@ -295,7 +385,7 @@
           "description": "A proposal by NVIDIA engineers for the mainline Linux kernel would introduce the Hardware Timestamping Engine (HTE) subsystem...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Hardware-Timestamp",
           "publishedOn": "2021-06-26T13:45:11.000Z",
-          "wordCount": 838,
+          "wordCount": 851,
           "title": "NVIDIA Proposes The Linux Hardware Timestamping Engine"
         },
         {
@@ -304,7 +394,7 @@
           "description": "Software running on DragonFlyBSD and making use of pthreads is set to see better performance around low-level locks when heavily contested...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-Better-LL-Perf",
           "publishedOn": "2021-06-26T11:17:17.000Z",
-          "wordCount": 788,
+          "wordCount": 721,
           "title": "DragonFlyBSD To See Better Low-Level Lock Performance When Heavily Contested"
         },
         {
@@ -313,7 +403,7 @@
           "description": "While some Huawei engineers are currently facing criticism for submitting superfluous kernel patches in an effort to boost their own or the company's standing in the kernel community, other engineers at Huawei are working on more substantive kernel patches. Here's a rather peculiar new patch series out on Friday where a Huawei engineer is effectively proposing an in-kernel transactional database...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Huawei-In-Kernel-Trans-DB",
           "publishedOn": "2021-06-26T10:28:54.000Z",
-          "wordCount": 768,
+          "wordCount": 852,
           "title": "Huawei Proposes In-Kernel Transactional Database For Security Purposes"
         },
         {
@@ -322,7 +412,7 @@
           "description": "Even with Akademy 2021 this week as the annual KDE developer conference, thanks in part to it being a virtual event the KDE developers still managed to remain quite productive on new code changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Akademy-2021-Week",
           "publishedOn": "2021-06-26T10:00:16.000Z",
-          "wordCount": 794,
+          "wordCount": 827,
           "title": "KDE Pushes More Plasma Wayland Improvements, Plug-in System For The Konsole"
         },
         {
@@ -331,7 +421,7 @@
           "description": "Coreboot making progress on its temporary RAM initialization code (cache as RAM) means that its usage of the FSP-T binary blob is increasingly unnecessary...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-FSP-T-Not-Needed",
           "publishedOn": "2021-06-25T19:45:27.000Z",
-          "wordCount": 972,
+          "wordCount": 985,
           "title": "Coreboot Is Ridding Its Need For Intel's FSP-T Blob"
         },
         {
@@ -340,7 +430,7 @@
           "description": "Valve and their partners have issued a new version of Proton for powering Steam Play to enjoy Windows games on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Proton-6.3-5-Released",
           "publishedOn": "2021-06-25T18:40:12.000Z",
-          "wordCount": 805,
+          "wordCount": 818,
           "title": "Proton 6.3-5 Released  With A Number Of Improvements For Windows Games On Linux"
         },
         {
@@ -349,7 +439,7 @@
           "description": "Earlier this month were benchmarks looking at GCC 11 performance with varying optimization levels and features like link-time optimizations. Stemming from reader requests, here are now similar reference benchmarks off LLVM Clang 12.0 on the same system with going from -O0 to -Ofast and toggling -march=native and LTO usage.",
           "link": "https://www.phoronix.com/vr.php?view=30294",
           "publishedOn": "2021-06-25T16:00:00.000Z",
-          "wordCount": 808,
+          "wordCount": 815,
           "title": "LLVM Clang 12 Benchmarks At Varying Optimization Levels, LTO"
         },
         {
@@ -358,7 +448,7 @@
           "description": "Earlier this month systemd 249-rc1 arrived with a variety of new features and improvements. Now for closing out the month is a second release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-249-rc2",
           "publishedOn": "2021-06-25T15:00:55.000Z",
-          "wordCount": 719,
+          "wordCount": 732,
           "title": "systemd 249-rc2 Released With New \"ConditionOSRelease\" Directive"
         },
         {
@@ -367,7 +457,7 @@
           "description": "If all is looking well on Sunday, Linus Torvalds will be releasing Linux 5.13 as stable rather than going with a 5.13-rc8 test release and pushing the final version back by an additional release. In either case, Linux 5.13 is coming out soon and with many new features in tow...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Features",
           "publishedOn": "2021-06-25T14:07:33.000Z",
-          "wordCount": 1031,
+          "wordCount": 964,
           "title": "The 13 Most Interesting Changes Of Linux 5.13 From Apple M1 To Security Enhancements"
         },
         {
@@ -376,7 +466,7 @@
           "description": "Among the many projects under the GNU umbrella, the GNU Health official project has been about working on the libre digital health ecosystem and their most recent effort is on MyGNUHealth as an effort around libre personal health records...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=MyGNUHealth-1.0",
           "publishedOn": "2021-06-25T12:44:42.000Z",
-          "wordCount": 798,
+          "wordCount": 730,
           "title": "MyGNUHealth 1.0 - GNU Looks To Get More Involved With Personal Health Records"
         },
         {
@@ -385,7 +475,7 @@
           "description": "Following the announcement this week that AMD is dropping pre-Polaris GPU support (or pre-Raven Ridge support for APUs) from their mainline Radeon Software driver on Windows, the AMDVLK open-source Vulkan driver has also now similarly discontinued that older GPU support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q2.6",
           "publishedOn": "2021-06-25T10:08:08.000Z",
-          "wordCount": 969,
+          "wordCount": 902,
           "title": "AMDVLK 2021.Q2.6 Vulkan Driver Released - Removes Pre-Polaris / Pre-Raven Support"
         },
         {
@@ -394,7 +484,7 @@
           "description": "There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SFH-Next-Gen-Patches",
           "publishedOn": "2021-06-25T05:02:05.000Z",
-          "wordCount": 1032,
+          "wordCount": 1045,
           "title": "AMD SFH Linux Driver Updated For \"Next Gen\" Ryzen Laptops"
         },
         {
@@ -403,7 +493,7 @@
           "description": "Simon Ser has released Sway 1.6.1 as the newest version of this popular i3-inspired Wayland compositor...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sway-1.6.1-Wayland-Compositor",
           "publishedOn": "2021-06-25T04:00:00.000Z",
-          "wordCount": 781,
+          "wordCount": 808,
           "title": "Sway 1.6.1 Wayland Compositor Released With WLROOTS 0.14"
         },
         {
@@ -412,7 +502,7 @@
           "description": "Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today's testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.",
           "link": "https://www.phoronix.com/vr.php?view=30288",
           "publishedOn": "2021-06-24T20:00:00.000Z",
-          "wordCount": 737,
+          "wordCount": 753,
           "title": "Another Test Drive With Crocus Gallium3D On Old Intel Hardware"
         },
         {
@@ -421,89 +511,8 @@
           "description": "For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-BIOS-Disconnect-Vuln",
           "publishedOn": "2021-06-24T16:07:36.000Z",
-          "wordCount": 835,
+          "wordCount": 768,
           "title": "Dell BIOS/UEFI Under Attack From New Vulnerabilities - Use FWUPD For The Latest Updates"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Windows-11-Announcement",
-          "author": null,
-          "description": "As expected this morning Microsoft officially lifted the curtain on Windows 11 as the latest evolutionary step to their operating system past Windows 10...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Windows-11-Announcement",
-          "publishedOn": "2021-06-24T16:00:00.000Z",
-          "wordCount": 805,
-          "title": "Microsoft Announces Windows 11 - Benchmarks Against Linux To Begin Soon"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AWS-BugBust",
-          "author": null,
-          "description": "Amazon today launched AWS BugBust as a global coding challenge where they are hoping to see one million software bugs addressed and to reduce technical debt by over $100 million USD...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AWS-BugBust",
-          "publishedOn": "2021-06-24T15:30:00.000Z",
-          "wordCount": 766,
-          "title": "Amazon Launches AWS BugBust With A Goal To Fix One Million Software Bugs"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Vulnerability-Schema",
-          "author": null,
-          "description": "As part of Google's latest work on trying to enhance open-source software security, months after starting their own open-source vulnerability database they are now looking to push an open-source vulnerability interchange schema to make it easier to exchange information on vulnerabilities and making it easier for automated analysis...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Vulnerability-Schema",
-          "publishedOn": "2021-06-24T13:15:25.000Z",
-          "wordCount": 810,
-          "title": "Google Proposes An Open-Source Vulnerability Interchange Schema"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-BPF-Spectre-33624",
-          "author": null,
-          "description": "With the latest mainline Git kernel as well as the newest stable point releases as of Wednesday, a Spectre issue with the kernel's  BPF subsystem has been addressed...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-BPF-Spectre-33624",
-          "publishedOn": "2021-06-24T13:00:18.000Z",
-          "wordCount": 864,
-          "title": "Linux Kernel's BPF Fixed Up Against Spectre Vulnerability Bypass"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SM4-AVX-AES-NI-Kernel",
-          "author": null,
-          "description": "Alibaba engineers are looking to mainline an x86_64 tuned version of the SM4 cipher that with making use of AVX and AES-NI can allow for a dramatic performance speed-up...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SM4-AVX-AES-NI-Kernel",
-          "publishedOn": "2021-06-24T11:00:01.000Z",
-          "wordCount": 741,
-          "title": "~5x Faster SM4 Cipher Performance With AVX/AES-NI Tuned Linux Kernel Code"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ODF-1.3-OASIS-Approved",
-          "author": null,
-          "description": "The OASIS standards organization has now officially approved of the ODF 1.3 revision of the OpenDocument Format as their newest ratified standard...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ODF-1.3-OASIS-Approved",
-          "publishedOn": "2021-06-24T10:14:45.000Z",
-          "wordCount": 791,
-          "title": "OpenDocument Format 1.3 Approved As OASIS Standard"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Dota-2-FidelityFX-Super-Res",
-          "author": null,
-          "description": "Valve's Dota 2 game is the latest adding support for AMD FidelityFX Super Resolution and the first time having a Linux-native game support FSR for enhanced image upscaling...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dota-2-FidelityFX-Super-Res",
-          "publishedOn": "2021-06-24T10:01:05.000Z",
-          "wordCount": 896,
-          "title": "Valve's Dota 2 Adds AMD FidelityFX Super Resolution"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
-          "author": null,
-          "description": "With the KVM code set to be merged in the coming weeks for the Linux 5.14 kernel, support for fast XMM hypercalls is coming for its Hyper-V guest support in allowing for some performance benefits...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=XMM-Fast-Hypercalls-KVM-5.14",
-          "publishedOn": "2021-06-24T04:00:00.000Z",
-          "wordCount": 746,
-          "title": "Linux 5.14 To Support XMM Fast Hypercalls For Hyper-V On KVM"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
-          "author": null,
-          "description": "It's been three months since AMD published a security whitepaper outlining the possibility of a side channel attack with PSF. The Predictive Store Forwarding functionality is new to AMD Zen 3 (Ryzen 5000 / EPYC 7003 series) processors and as part of their security analysis they are allowing users the ability to opt-out of using this feature in the name of greater security but the feature still hasn't been picked up for the mainline Linux kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-Still-Waiting",
-          "publishedOn": "2021-06-23T17:45:54.000Z",
-          "wordCount": 1112,
-          "title": "AMD PSF Control Support Still Awaiting The Mainline Linux Kernel"
         }
       ]
     }
