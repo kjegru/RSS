@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-29T00:20:46.249Z</id>
+    <id>urn:2021-06-30T00:19:47.257Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-29T00:20:46.249Z</updated>
+    <updated>2021-06-30T00:19:47.258Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Laptop Improvements With Linux 5.14 Benefit Lenovo, Dell, Microsoft Surface Devices]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Laptops</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Laptops"/>
+        <updated>2021-06-29T19:45:24.000Z</updated>
+        <summary type="html"><![CDATA[The x86 platform driver updates have been submitted for the in-development Linux 5.14 kernel. This area of the kernel principally benefits x86 laptop support on Linux but also has other drivers like around the Intel Speed Select Technology and more...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Formerly Affected By An AMD KVM Guest-To-Host Breakout Code Vulnerability]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-EPYC-Breakout-KVM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-EPYC-Breakout-KVM"/>
+        <updated>2021-06-29T18:00:02.000Z</updated>
+        <summary type="html"><![CDATA[AMD-specific code within Linux's KVM virtualization component previously could allow a KVM guest to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD EPYC Milan Performance Across 11 Different 2021 Linux Distributions]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30303</id>
+        <link href="https://www.phoronix.com/vr.php?view=30303"/>
+        <updated>2021-06-29T15:07:17.000Z</updated>
+        <summary type="html"><![CDATA[After looking recently at the FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD EPYC 7003 "Milan" using a Tyan Transport CX GC68-B8036-LE server, the next round of benchmarking from this server with AMD EPYC 7543 32-core processor was looking at its support (all tested 2021 Linux distributions were running fine on this latest-generation AMD server) and performance across 11 current Linux distribution releases from Arch, CentOS, Clear Linux, Debian, Fedora, Rocky Linux, Ubuntu, and openSUSE.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Confirms Q2'22 Ramp For Xeon Sapphire Rapids As Good News For Their Linux Bring-Up]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sapphire-Rapids-2022-Q2-Ramp</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sapphire-Rapids-2022-Q2-Ramp"/>
+        <updated>2021-06-29T14:27:11.000Z</updated>
+        <summary type="html"><![CDATA[While Xeon Scalable "Sapphire Rapids" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon Software for Linux 21.20 Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.20</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.20"/>
+        <updated>2021-06-29T12:37:14.000Z</updated>
+        <summary type="html"><![CDATA[Quietly released last week by AMD was their Radeon Software for Linux 21.20 driver providing the latest packaged "Open" and "PRO" (Closed) driver components for use within enterprise Linux environments...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Drops Its Legacy IDE Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Legacy-IDE-Dropped</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Legacy-IDE-Dropped"/>
+        <updated>2021-06-29T11:17:23.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.14 has cleared out its legacy IDE code from the kernel that means dropping more than forty thousand lines of code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firewalld Prepares For Its Major 1.0 Release For Linux Firewall Management]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0-Coming"/>
+        <updated>2021-06-29T10:16:43.000Z</updated>
+        <summary type="html"><![CDATA[The Firewalld firewall management tool for Linux that is built around Netfilter/Nftables is preparing for its long awaited 1.0 release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Btrfs With Linux 5.14 Has More Performance Tuning, Other Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.14"/>
+        <updated>2021-06-29T10:01:25.000Z</updated>
+        <summary type="html"><![CDATA[With Btrfs continuing to see new adoption by various enterprises, Linux distributions like Fedora Workstation/Cloud and SUSE/openSUSE embracing it, and there continuing to be nice upstream improvements to this file-system driver, Btrfs continues on a nice trajectory in 2021...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clang Profile Guided Optimizations Support Sent In For Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-5.14"/>
+        <updated>2021-06-29T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Compiling the Linux kernel with LLVM's Clang code compiler continues to be more featureful with plumbing now being added to handle profile-guided optimizations (PGO) to help in achieving greater performance for optimizing kernel builds for targeted workloads...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Glibc 2.34 Adds "_Fork" Function Ahead Of Future POSIX Revision]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-Adds_Fork</id>
@@ -252,101 +342,11 @@ Please open an issue in the omnibus-gitlab issue tracker.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Proton 6.3-5 Released  With A Number Of Improvements For Windows Games On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-5-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-5-Released"/>
-        <updated>2021-06-25T18:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Valve and their partners have issued a new version of Proton for powering Steam Play to enjoy Windows games on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[LLVM Clang 12 Benchmarks At Varying Optimization Levels, LTO]]></title>
         <id>https://www.phoronix.com/vr.php?view=30294</id>
         <link href="https://www.phoronix.com/vr.php?view=30294"/>
         <updated>2021-06-25T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[Earlier this month were benchmarks looking at GCC 11 performance with varying optimization levels and features like link-time optimizations. Stemming from reader requests, here are now similar reference benchmarks off LLVM Clang 12.0 on the same system with going from -O0 to -Ofast and toggling -march=native and LTO usage.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[systemd 249-rc2 Released With New "ConditionOSRelease" Directive]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-rc2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-rc2"/>
-        <updated>2021-06-25T15:00:55.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this month systemd 249-rc1 arrived with a variety of new features and improvements. Now for closing out the month is a second release candidate...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 13 Most Interesting Changes Of Linux 5.13 From Apple M1 To Security Enhancements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Features</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Features"/>
-        <updated>2021-06-25T14:07:33.000Z</updated>
-        <summary type="html"><![CDATA[If all is looking well on Sunday, Linus Torvalds will be releasing Linux 5.13 as stable rather than going with a 5.13-rc8 test release and pushing the final version back by an additional release. In either case, Linux 5.13 is coming out soon and with many new features in tow...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MyGNUHealth 1.0 - GNU Looks To Get More Involved With Personal Health Records]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=MyGNUHealth-1.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=MyGNUHealth-1.0"/>
-        <updated>2021-06-25T12:44:42.000Z</updated>
-        <summary type="html"><![CDATA[Among the many projects under the GNU umbrella, the GNU Health official project has been about working on the libre digital health ecosystem and their most recent effort is on MyGNUHealth as an effort around libre personal health records...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q2.6 Vulkan Driver Released - Removes Pre-Polaris / Pre-Raven Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q2.6</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q2.6"/>
-        <updated>2021-06-25T10:08:08.000Z</updated>
-        <summary type="html"><![CDATA[Following the announcement this week that AMD is dropping pre-Polaris GPU support (or pre-Raven Ridge support for APUs) from their mainline Radeon Software driver on Windows, the AMDVLK open-source Vulkan driver has also now similarly discontinued that older GPU support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD SFH Linux Driver Updated For "Next Gen" Ryzen Laptops]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SFH-Next-Gen-Patches"/>
-        <updated>2021-06-25T05:02:05.000Z</updated>
-        <summary type="html"><![CDATA[There's the next chapter to the unfortunately rather sad state of the AMD Sensor Fusion Hub (SFH) driver support under Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sway 1.6.1 Wayland Compositor Released With WLROOTS 0.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sway-1.6.1-Wayland-Compositor</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sway-1.6.1-Wayland-Compositor"/>
-        <updated>2021-06-25T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Simon Ser has released Sway 1.6.1 as the newest version of this popular i3-inspired Wayland compositor...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another Test Drive With Crocus Gallium3D On Old Intel Hardware]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30288</id>
-        <link href="https://www.phoronix.com/vr.php?view=30288"/>
-        <updated>2021-06-24T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since Crocus was merged into mainline Mesa last week we have been looking at benchmarks of this new open-source Intel Gallium3D driver designed exclusively for older Intel graphics hardware (i965 Gen4 through Haswell Gen7, plus Cherrvyiew and experimental Gen8 Broadwell) compared to the existing open-source i965 classic driver. Prior articles have looked at the quite good performance with Haswell while Sandy Bridge is in somewhat rough shape. Today's testing is going in the middle and looking at the Crocus vs. i965 OpenGL driver performance for Ivy Bridge with the once great Core i7 3770K.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dell BIOS/UEFI Under Attack From New Vulnerabilities - Use FWUPD For The Latest Updates]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-BIOS-Disconnect-Vuln</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-BIOS-Disconnect-Vuln"/>
-        <updated>2021-06-24T16:07:36.000Z</updated>
-        <summary type="html"><![CDATA[For those wondering about the recent skyrocketing in LVFS/FWUPD usage for Linux firmware updates, it appears to be attributed to Dell pushing out a massive number of updates with more than one hundred models impacted by newly-disclosed BIOS/UEFI vulnerabilities...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
