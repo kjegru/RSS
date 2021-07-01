@@ -13,15 +13,6 @@
           "publishedOn": "2021-06-23T05:57:59.000Z",
           "wordCount": 370,
           "title": "v1.11.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
-          "author": null,
-          "description": "Added: testing and CI/CD workflows",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
-          "publishedOn": "2021-06-01T04:39:30.000Z",
-          "wordCount": 263,
-          "title": "v1.10.2"
         }
       ]
     },
@@ -30,6 +21,15 @@
       "feedUrl": "https://about.gitlab.com/atom.xml",
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
+        {
+          "id": "https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/",
+          "author": null,
+          "description": "In this guide we will learn how to spin up GitLab in the AWS Marketplace:\nPre requisites for this lab are having an account in AWS and an accessible and working VPC.\nWe will learn the following steps:\nStand up a self-managed instance of GitLab.\nInstall Runner and Docker Engine.\nStep-by-step Instructions\nStep 1 - Stand up GitLab instance in AWS\nOpen GitLab Ultimate in AWS Marketplace.\nClick on Continue to Subscribe\n\nSign in with your IAM user.\n\nClick on Continue to Configuration.\n\nLeave the default value for Delivery Method, select the latest version in Software Version, select your Region, click Continue to Launch.\n\nIn Launch this software page, scroll down.\n\nUnder Security Group Settings click Create New Based On Seller Settings .\n\nName your security group, add a description, and save it.…",
+          "link": "https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/",
+          "publishedOn": "2021-06-30T00:00:00.000Z",
+          "wordCount": 2162,
+          "title": "How to stand-up a GitLab instance in AWS Marketplace"
+        },
         {
           "id": "https://about.gitlab.com/blog/2021/06/28/package-key-extension/",
           "author": null,
@@ -180,7 +180,7 @@
           "description": "I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.\nGlobal distribution as an advantage\nMany managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…",
           "link": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
           "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 2351,
+          "wordCount": 2350,
           "title": "How to leverage distributed engineering teams for rapid response"
         },
         {
@@ -191,33 +191,6 @@
           "publishedOn": "2021-06-04T00:00:00.000Z",
           "wordCount": 6797,
           "title": "GitLab.com is moving to 14.0 with a few breaking changes"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/",
-          "author": null,
-          "description": "For some time now, GitLab has been working on enabling the Elasticsearch\nintegration on GitLab.com to allow as many GitLab.com users as possible access\nto the Advanced Global Search\nfeatures. Last year, after enabling Advanced Search for all licensed customers on\nGitLab.com we were thinking how to simplify the rollout of some Advanced Search\nfeatures that require changing the data in Elasticsearch.\n(If you're interested in the lessons we learned on our road to Enabling\nElasticsearch for GitLab.com, you can read all about it.\nThe data migration process problem\nSometimes we need to change mappings of an index or backfill a field, and\nreindexing everything from scratch or using Zero downtime reindexing\nmight seem like an obvious solution. However, this is not a scalable option for\nbig GitLab …",
-          "link": "https://about.gitlab.com/blog/2021/06/01/advanced-search-data-migrations/",
-          "publishedOn": "2021-06-01T00:00:00.000Z",
-          "wordCount": 3507,
-          "title": "GitLab's data migration process for Advanced Search"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/",
-          "author": null,
-          "description": "Debate always swirls over what term is best: DevSecOps, SecDevOps, or even to drop “sec” altogether since it should be ubiquitous. At GitLab, we have a strong point of view on this: DevSecOps places security in the middle of the DevOps effort, which is where it rightly belongs. While transparent and a natural part of the process, it should be top of mind and not buried. Security needs to be everyone’s responsibility. With automation of processes and policies, it can be much easier to arm developers and security pros alike with the information they need in order to meet this responsibility.\nOur DevSecOps platform is the end-to-end secure software solution that helps you plan, create, deploy, secure, and manage your modern software and the infrastructure upon which it relies. GitLab provides…",
-          "link": "https://about.gitlab.com/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/",
-          "publishedOn": "2021-06-01T00:00:00.000Z",
-          "wordCount": 2891,
-          "title": "GitLab is setting the standard for DevSecOps"
-        },
-        {
-          "id": "https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/",
-          "author": null,
-          "description": "Today we are releasing versions 13.12.2, 13.11.5, and 13.10.5 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 day…",
-          "link": "https://about.gitlab.com/releases/2021/06/01/security-release-gitlab-13-12-2-released/",
-          "publishedOn": "2021-06-01T00:00:00.000Z",
-          "wordCount": 2454,
-          "title": "GitLab Security Release: 13.12.2, 13.11.5, and 13.10.5"
         }
       ]
     },
@@ -227,22 +200,121 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-Q2-2021",
+          "author": null,
+          "description": "One of the exciting initiatives taking place recently within the CentOS camp has been the CentOS Hyperscale special interest group that is backed by engineers from Twitter and Facebook along with other organizations. They've been making more progress on offering their hyperscaler-focused packages/updates and even onto publishing a CentOS Hyperscale Workstation operating system image for testing...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-Q2-2021",
+          "publishedOn": "2021-06-30T19:16:19.000Z",
+          "wordCount": 933,
+          "title": "CentOS Hyperscale Workstation Sees Experimental OS Builds, More Changes Coming"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30304",
+          "author": null,
+          "description": "With the recent NVIDIA 470 series Linux driver beta this R470 branch is the point at which NVIDIA is ending its GeForce 600/700 series \"Kepler\" support. The 470 driver series will be maintained as a long-lived driver that will continue to see security updates and Linux kernel / X.Org Server compatibility updates for another three years. If this end-of-life status has you thinking about trying out the open-source \"Nouveau\" Linux driver with Kepler, here are some current benchmarks.",
+          "link": "https://www.phoronix.com/vr.php?view=30304",
+          "publishedOn": "2021-06-30T19:00:00.000Z",
+          "wordCount": 1180,
+          "title": "NVIDIA 470 EOL Drivers For Kepler Still Obliterating Open-Source Alternative"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-AMD-EDAC-HBM2-Aldebaran",
+          "author": null,
+          "description": "The latest public code patches on the mailing list today are preparing for newer AMD heterogeneous servers that will have Aldebaran GPU nodes connected via xGMI links to the CPU(s) and the GPU dies in turn having HBM2 memory...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-AMD-EDAC-HBM2-Aldebaran",
+          "publishedOn": "2021-06-30T18:45:48.000Z",
+          "wordCount": 1002,
+          "title": "Linux Prepares For AMD Servers With Aldebaran GPU Nodes Sporting HBM2"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.2-RC",
+          "author": null,
+          "description": "Michel Dänzer of Red Hat is preparing the release of XWayland 21.1.2 as the newest update to this standalone XWayland package separate from a whole X.Org Server release for running X11 clients within a Wayland environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.2-RC",
+          "publishedOn": "2021-06-30T16:21:39.000Z",
+          "wordCount": 911,
+          "title": "XWayland 21.1.2 Nears With NVIDIA Hardware Acceleration"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-HID",
+          "author": null,
+          "description": "The HID subsystem updates for Linux 5.14 continue improving consumer device support from newer AMD Ryzen laptops to multi-touch improvements...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-HID",
+          "publishedOn": "2021-06-30T15:12:15.000Z",
+          "wordCount": 966,
+          "title": "Linux 5.14 Ready With Light Sensor + Human Presence Detection For Newer AMD Laptops"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-21.Q2-Linux-Driver",
+          "author": null,
+          "description": "AMD has issued their Radeon Pro Software for Enterprise 21.Q2 for Linux driver update as their quarterly packaged driver update intended for use with Radeon Pro graphics cards and former FirePro line-up...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-21.Q2-Linux-Driver",
+          "publishedOn": "2021-06-30T14:18:59.000Z",
+          "wordCount": 837,
+          "title": "Radeon Pro Software for Enterprise 21.Q2 for Linux Driver Released"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Networking",
+          "author": null,
+          "description": "Given the dominance of Linux-based devices from embedded/mobile (Android) through data centers and Linux powering all sorts of equipment, the networking subsystem updates for new Linux kernel merge windows continues to be very lively with new hardware support and never-ending improvements and new features...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Networking",
+          "publishedOn": "2021-06-30T11:15:00.000Z",
+          "wordCount": 850,
+          "title": "The Big Set Of Networking Changes For Linux 5.14"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Media-Driver-2021Q2",
+          "author": null,
+          "description": "In preparing to close out the second quarter, the Intel Media Driver 2021Q2 was released today as the company's open-source stack for supporting GPU-accelerated video encode/decode on Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Media-Driver-2021Q2",
+          "publishedOn": "2021-06-30T10:15:51.000Z",
+          "wordCount": 799,
+          "title": "Intel Media Driver 2021Q2 Focuses On Gen12 Enhancements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Power-Management",
+          "author": null,
+          "description": "Headlining the power management updates for the Linux 5.14 merge window is the Intel P-State CPU frequency scaling driver now being adapted to handle hybrid processors...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Power-Management",
+          "publishedOn": "2021-06-30T09:45:22.000Z",
+          "wordCount": 874,
+          "title": "Intel P-State Driver Ready To Take On Alder Lake Hybrid Processors"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1-rc8",
+          "author": null,
+          "description": "The release candidates for OpenZFS 2.1 continue dragging on with Tuesday marking the eighth such test version while bringing Linux 5.13 compatibility and other fixes...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1-rc8",
+          "publishedOn": "2021-06-30T04:00:00.000Z",
+          "wordCount": 839,
+          "title": "OpenZFS 2.1-rc8 Brings Linux 5.13 Compatibility, More Fixes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=System76-Pop-OS-21.04",
+          "author": null,
+          "description": "Linux PC hardware manufacturer System76 has released Pop!_OS 21.04 as the newest version of their Ubuntu downstream that also features their new GNOME-based COSMIC desktop...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=System76-Pop-OS-21.04",
+          "publishedOn": "2021-06-30T00:25:25.000Z",
+          "wordCount": 714,
+          "title": "System76 Releases Pop!_OS 21.04 With New COSMIC Desktop"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Laptops",
           "author": null,
           "description": "The x86 platform driver updates have been submitted for the in-development Linux 5.14 kernel. This area of the kernel principally benefits x86 laptop support on Linux but also has other drivers like around the Intel Speed Select Technology and more...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Laptops",
           "publishedOn": "2021-06-29T19:45:24.000Z",
-          "wordCount": 975,
+          "wordCount": 936,
           "title": "Laptop Improvements With Linux 5.14 Benefit Lenovo, Dell, Microsoft Surface Devices"
         },
         {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-EPYC-Breakout-KVM",
           "author": null,
-          "description": "AMD-specific code within Linux's KVM virtualization component previously could allow a KVM guest to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...",
+          "description": "Linux's KVM virtualization component previously could allow a virtual machine guest relying on AMD SVM virtualization to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-EPYC-Breakout-KVM",
           "publishedOn": "2021-06-29T18:00:02.000Z",
-          "wordCount": 1075,
-          "title": "Linux Formerly Affected By An AMD KVM Guest-To-Host Breakout Code Vulnerability"
+          "wordCount": 992,
+          "title": "Linux Formerly Affected By A KVM SVM Guest-To-Host Breakout Code Vulnerability"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30303",
@@ -250,7 +322,7 @@
           "description": "After looking recently at the FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD EPYC 7003 \"Milan\" using a Tyan Transport CX GC68-B8036-LE server, the next round of benchmarking from this server with AMD EPYC 7543 32-core processor was looking at its support (all tested 2021 Linux distributions were running fine on this latest-generation AMD server) and performance across 11 current Linux distribution releases from Arch, CentOS, Clear Linux, Debian, Fedora, Rocky Linux, Ubuntu, and openSUSE.",
           "link": "https://www.phoronix.com/vr.php?view=30303",
           "publishedOn": "2021-06-29T15:07:17.000Z",
-          "wordCount": 862,
+          "wordCount": 928,
           "title": "AMD EPYC Milan Performance Across 11 Different 2021 Linux Distributions"
         },
         {
@@ -259,7 +331,7 @@
           "description": "While Xeon Scalable \"Sapphire Rapids\" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sapphire-Rapids-2022-Q2-Ramp",
           "publishedOn": "2021-06-29T14:27:11.000Z",
-          "wordCount": 1120,
+          "wordCount": 1030,
           "title": "Intel Confirms Q2'22 Ramp For Xeon Sapphire Rapids As Good News For Their Linux Bring-Up"
         },
         {
@@ -268,7 +340,7 @@
           "description": "Quietly released last week by AMD was their Radeon Software for Linux 21.20 driver providing the latest packaged \"Open\" and \"PRO\" (Closed) driver components for use within enterprise Linux environments...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Software-Linux-21.20",
           "publishedOn": "2021-06-29T12:37:14.000Z",
-          "wordCount": 911,
+          "wordCount": 888,
           "title": "Radeon Software for Linux 21.20 Released"
         },
         {
@@ -277,7 +349,7 @@
           "description": "Linux 5.14 has cleared out its legacy IDE code from the kernel that means dropping more than forty thousand lines of code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Legacy-IDE-Dropped",
           "publishedOn": "2021-06-29T11:17:23.000Z",
-          "wordCount": 844,
+          "wordCount": 775,
           "title": "Linux 5.14 Drops Its Legacy IDE Code"
         },
         {
@@ -286,7 +358,7 @@
           "description": "The Firewalld firewall management tool for Linux that is built around Netfilter/Nftables is preparing for its long awaited 1.0 release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firewalld-1.0-Coming",
           "publishedOn": "2021-06-29T10:16:43.000Z",
-          "wordCount": 810,
+          "wordCount": 788,
           "title": "Firewalld Prepares For Its Major 1.0 Release For Linux Firewall Management"
         },
         {
@@ -295,7 +367,7 @@
           "description": "With Btrfs continuing to see new adoption by various enterprises, Linux distributions like Fedora Workstation/Cloud and SUSE/openSUSE embracing it, and there continuing to be nice upstream improvements to this file-system driver, Btrfs continues on a nice trajectory in 2021...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Linux-5.14",
           "publishedOn": "2021-06-29T10:01:25.000Z",
-          "wordCount": 793,
+          "wordCount": 770,
           "title": "Btrfs With Linux 5.14 Has More Performance Tuning, Other Improvements"
         },
         {
@@ -304,7 +376,7 @@
           "description": "Compiling the Linux kernel with LLVM's Clang code compiler continues to be more featureful with plumbing now being added to handle profile-guided optimizations (PGO) to help in achieving greater performance for optimizing kernel builds for targeted workloads...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-PGO-Linux-5.14",
           "publishedOn": "2021-06-29T04:00:00.000Z",
-          "wordCount": 1016,
+          "wordCount": 913,
           "title": "Clang Profile Guided Optimizations Support Sent In For Linux 5.14"
         },
         {
@@ -313,7 +385,7 @@
           "description": "The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-Adds_Fork",
           "publishedOn": "2021-06-28T22:55:57.000Z",
-          "wordCount": 907,
+          "wordCount": 813,
           "title": "Glibc 2.34 Adds \"_Fork\" Function Ahead Of Future POSIX Revision"
         },
         {
@@ -322,7 +394,7 @@
           "description": "PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.31-Released",
           "publishedOn": "2021-06-28T22:21:29.000Z",
-          "wordCount": 779,
+          "wordCount": 756,
           "title": "PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes"
         },
         {
@@ -331,7 +403,7 @@
           "description": "Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Lyra-0.0.2-Codec",
           "publishedOn": "2021-06-28T18:20:00.000Z",
-          "wordCount": 838,
+          "wordCount": 815,
           "title": "Google's Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob"
         },
         {
@@ -340,7 +412,7 @@
           "description": "Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-TSX-Off-New-Microcode",
           "publishedOn": "2021-06-28T16:18:23.000Z",
-          "wordCount": 1277,
+          "wordCount": 1253,
           "title": "Intel To Disable TSX By Default On More CPUs With New Microcode"
         },
         {
@@ -349,7 +421,7 @@
           "description": "Following yesterday's release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.13",
           "publishedOn": "2021-06-28T14:35:59.000Z",
-          "wordCount": 910,
+          "wordCount": 887,
           "title": "GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing"
         },
         {
@@ -358,7 +430,7 @@
           "description": "Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Scheduling",
           "publishedOn": "2021-06-28T14:26:28.000Z",
-          "wordCount": 894,
+          "wordCount": 871,
           "title": "Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels"
         },
         {
@@ -367,7 +439,7 @@
           "description": "The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hantro-Linux-5.14-G2-HEVC",
           "publishedOn": "2021-06-28T14:25:54.000Z",
-          "wordCount": 877,
+          "wordCount": 854,
           "title": "Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC"
         },
         {
@@ -376,7 +448,7 @@
           "description": "The Fedora Engineering and Steering Committee has said \"yes\" to using Yescrypt for hashing shadow passwords with this distribution's next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Yescrypt-Yes",
           "publishedOn": "2021-06-28T10:21:44.000Z",
-          "wordCount": 741,
+          "wordCount": 798,
           "title": "FESCo Says \"Yes\" To Fedora 35 Using Yescrypt For Hashing Shadow Passwords"
         },
         {
@@ -385,7 +457,7 @@
           "description": "The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-KVM",
           "publishedOn": "2021-06-28T08:23:20.000Z",
-          "wordCount": 838,
+          "wordCount": 735,
           "title": "KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations"
         },
         {
@@ -394,7 +466,7 @@
           "description": "Linus Torvalds has just released the Linux 5.13 kernel as stable...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
           "publishedOn": "2021-06-27T22:34:50.000Z",
-          "wordCount": 910,
+          "wordCount": 887,
           "title": "Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More"
         },
         {
@@ -403,7 +475,7 @@
           "description": "Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
           "publishedOn": "2021-06-27T14:00:00.000Z",
-          "wordCount": 1035,
+          "wordCount": 1012,
           "title": "Linux's New \"randomize_kstack_offset\" Security Feature Having Minimal Performance Impact"
         },
         {
@@ -412,107 +484,8 @@
           "description": "With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
           "publishedOn": "2021-06-27T13:37:34.000Z",
-          "wordCount": 1680,
+          "wordCount": 1577,
           "title": "Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Block-Global-Counter",
-          "author": null,
-          "description": "Microsoft and systemd developers are proposing a global counter for block device changes for the Linux kernel to better track changes and having a unique system-wide number for disk and other block device changes rather than on a per-disk basis...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Block-Global-Counter",
-          "publishedOn": "2021-06-27T11:40:57.000Z",
-          "wordCount": 894,
-          "title": "Linux Developers Discuss A Global Counter For Block/Disk Changes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-HID-Programmable-Buttons",
-          "author": null,
-          "description": "The hid-input kernel driver with Linux 5.14 is set to see support for \"Programmable Buttons\" as outlined by the USB HID specification...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-HID-Programmable-Buttons",
-          "publishedOn": "2021-06-27T10:35:11.000Z",
-          "wordCount": 783,
-          "title": "Linux 5.14 HID Input Driver To Handle Programmable Buttons"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=More-XeHP-Mesa-21.2",
-          "author": null,
-          "description": "Back in April was the last time we saw much XeHP specificc ode land in the open-source Mesa driver code while this week there was a fresh batch of code merged...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=More-XeHP-Mesa-21.2",
-          "publishedOn": "2021-06-27T10:08:01.000Z",
-          "wordCount": 899,
-          "title": "More Intel Xe-HP Enablement Code Lands In Mesa 21.2"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Crypt-Optimal-Size",
-          "author": null,
-          "description": "With this autumn's Fedora 35 release there should be better performance out-of-the-box for those employing LUKS/dm-crypt encryption while using 4K sector size based storage...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Crypt-Optimal-Size",
-          "publishedOn": "2021-06-27T00:25:13.000Z",
-          "wordCount": 823,
-          "title": "Fedora 35 To Automatically Use Optimal Encryption Sector Size For Better I/O Performance"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Early-Look",
-          "author": null,
-          "description": "Linux 5.13 will debut tomorrow if Linus Torvalds is comfortable with the state of the code-base, which in turn will mark the opening of the Linux 5.14 merge window. Here is a look at what is on the table for this next follow-on version of the Linux kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Early-Look",
-          "publishedOn": "2021-06-26T14:00:00.000Z",
-          "wordCount": 1150,
-          "title": "Linux 5.14 Set To See Many New Features, New GPU Support, Other Exciting Changes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Hardware-Timestamp",
-          "author": null,
-          "description": "A proposal by NVIDIA engineers for the mainline Linux kernel would introduce the Hardware Timestamping Engine (HTE) subsystem...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Hardware-Timestamp",
-          "publishedOn": "2021-06-26T13:45:11.000Z",
-          "wordCount": 864,
-          "title": "NVIDIA Proposes The Linux Hardware Timestamping Engine"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-Better-LL-Perf",
-          "author": null,
-          "description": "Software running on DragonFlyBSD and making use of pthreads is set to see better performance around low-level locks when heavily contested...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-Better-LL-Perf",
-          "publishedOn": "2021-06-26T11:17:17.000Z",
-          "wordCount": 734,
-          "title": "DragonFlyBSD To See Better Low-Level Lock Performance When Heavily Contested"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Huawei-In-Kernel-Trans-DB",
-          "author": null,
-          "description": "While some Huawei engineers are currently facing criticism for submitting superfluous kernel patches in an effort to boost their own or the company's standing in the kernel community, other engineers at Huawei are working on more substantive kernel patches. Here's a rather peculiar new patch series out on Friday where a Huawei engineer is effectively proposing an in-kernel transactional database...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Huawei-In-Kernel-Trans-DB",
-          "publishedOn": "2021-06-26T10:28:54.000Z",
-          "wordCount": 794,
-          "title": "Huawei Proposes In-Kernel Transactional Database For Security Purposes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Akademy-2021-Week",
-          "author": null,
-          "description": "Even with Akademy 2021 this week as the annual KDE developer conference, thanks in part to it being a virtual event the KDE developers still managed to remain quite productive on new code changes...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Akademy-2021-Week",
-          "publishedOn": "2021-06-26T10:00:16.000Z",
-          "wordCount": 774,
-          "title": "KDE Pushes More Plasma Wayland Improvements, Plug-in System For The Konsole"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-FSP-T-Not-Needed",
-          "author": null,
-          "description": "Coreboot making progress on its temporary RAM initialization code (cache as RAM) means that its usage of the FSP-T binary blob is increasingly unnecessary...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-FSP-T-Not-Needed",
-          "publishedOn": "2021-06-25T19:45:27.000Z",
-          "wordCount": 918,
-          "title": "Coreboot Is Ridding Its Need For Intel's FSP-T Blob"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30294",
-          "author": null,
-          "description": "Earlier this month were benchmarks looking at GCC 11 performance with varying optimization levels and features like link-time optimizations. Stemming from reader requests, here are now similar reference benchmarks off LLVM Clang 12.0 on the same system with going from -O0 to -Ofast and toggling -march=native and LTO usage.",
-          "link": "https://www.phoronix.com/vr.php?view=30294",
-          "publishedOn": "2021-06-25T16:00:00.000Z",
-          "wordCount": 816,
-          "title": "LLVM Clang 12 Benchmarks At Varying Optimization Levels, LTO"
         }
       ]
     }
