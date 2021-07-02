@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-01T00:21:46.481Z</id>
+    <id>urn:2021-07-02T00:19:40.042Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-01T00:21:46.481Z</updated>
+    <updated>2021-07-02T00:19:40.043Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Intel Begins Bringing Up DG2 Graphics Card, Xe_HP SDV Support For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Linux-Bring-Up</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Linux-Bring-Up"/>
+        <updated>2021-07-01T22:12:20.000Z</updated>
+        <summary type="html"><![CDATA[Following recent reports Intel has begun seeding the Xe-HPG DG2 graphics card to developers and various reported leaks around the next-gen "DG2" graphics card, Intel's open-source Linux driver engineers have begun publishing patches for enabling the DG2 as well as the Xe_HP SDV...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Picks Up Support For A Tiny & Inexpensive MIPS IoT Single Board Computer]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-MIPS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-MIPS"/>
+        <updated>2021-07-01T20:03:55.000Z</updated>
+        <summary type="html"><![CDATA[The MIPS code within the Linux kernel remains in a mature but rather stagnate state while the upstream MIPS architecture development has ceased and most vendors these days using Arm or RISC-V instead or even OpenPOWER prospects. But there still are some ongoing MIPS improvements to the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Discrete Graphics On Linux Nearing The Point Of A Working, Accelerated Desktop]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Nearly-At-Desktop</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Nearly-At-Desktop"/>
+        <updated>2021-07-01T15:21:07.000Z</updated>
+        <summary type="html"><![CDATA[Bringing up Intel discrete graphics on Linux especially when it comes to accelerated 3D rendering has been a very lengthy process for the DG1 graphics card enablement, but it may soon actually start working...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP 8.1 Alpha Releases Get Underway With Enums, Fsync, Fibers, More Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PHP-8.1-Alphas</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PHP-8.1-Alphas"/>
+        <updated>2021-07-01T14:24:13.000Z</updated>
+        <summary type="html"><![CDATA[The PHP 8.1 alpha releases got underway in June in working towards the next annual feature release for the PHP scripting language...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Lands Changes For On-Package HBM Xeons, More Intel CPUs With In-Band ECC]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RAS-EDAC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RAS-EDAC"/>
+        <updated>2021-07-01T13:00:12.000Z</updated>
+        <summary type="html"><![CDATA[The Linux 5.14 RAS (Reliability, Availability and Serviceability) and EDAC (Error Detection And Correction) changes have landed with several improvements this time around on the Intel side...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Posts Big Set of Patches For AVX-512 FP16 Compiler Support For Sapphire Rapids]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AFX-512-FP16-GCC-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AFX-512-FP16-GCC-Patches"/>
+        <updated>2021-07-01T11:08:58.000Z</updated>
+        <summary type="html"><![CDATA[Besides Sapphire Rapids introducing Advanced Matrix Extensions (AMX), new developer documentation has detailed AVX-512 FP16 capabilities coming with the next-generation Xeon processors. Intel has posted initial developer documentation around AVX512FP16 as well as a big set of GCC and LLVM Clang compiler patches for handling the new intrinsics...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clang PGO Shot Down For Now From The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-Shot-Down</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-Shot-Down"/>
+        <updated>2021-07-01T10:13:40.000Z</updated>
+        <summary type="html"><![CDATA[While Clang PGO support was sent in for Linux 5.14 as part of Clang compiler handling updates for this next kernel version, the functionality was subsequently dropped out and a new pull request issued after criticism from Linus Torvalds and others...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 GPU Driver Updates Come In Heavy With ~300k New Lines Of Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DRM-Drivers</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DRM-Drivers"/>
+        <updated>2021-07-01T09:52:49.000Z</updated>
+        <summary type="html"><![CDATA[The Direct Rendering Manager (kernel graphics/display driver) updates for Linux 5.14 are putting on the pounds with nearly 300k lines of new code added (312,187 insertions, 22,367 deletions). The big increase is driven by new AMD Radeon graphics support added, a new Microsoft driver added, and other changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Crocus, Linux 5.13, Other Vendor Happenings Made For An Exciting June]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Highlights</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Highlights"/>
+        <updated>2021-07-01T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[During this past month on Phoronix were 242 original Linux/open-source/hardware related news articles written by your's truly and another 18 featured Linux hardware reviews / featured benchmark articles. This month also marked Phoronix.com turning seventeen years old for delivering Linux hardware reviews and news...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Security Release: 14.0.2, 13.12.6, and 13.11.6]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing versions 14.0.2, 13.12.6, and 13.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).
+These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
+GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CentOS Hyperscale Workstation Sees Experimental OS Builds, More Changes Coming]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Hyperscale-Q2-2021</id>
@@ -266,66 +368,6 @@ Name your security group, add a description, and save it.…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Intel To Disable TSX By Default On More CPUs With New Microcode]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-TSX-Off-New-Microcode</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-TSX-Off-New-Microcode"/>
-        <updated>2021-06-28T16:18:23.000Z</updated>
-        <summary type="html"><![CDATA[Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.13</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.13"/>
-        <updated>2021-06-28T14:35:59.000Z</updated>
-        <summary type="html"><![CDATA[Following yesterday's release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Scheduling</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Scheduling"/>
-        <updated>2021-06-28T14:26:28.000Z</updated>
-        <summary type="html"><![CDATA[Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hantro-Linux-5.14-G2-HEVC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hantro-Linux-5.14-G2-HEVC"/>
-        <updated>2021-06-28T14:25:54.000Z</updated>
-        <summary type="html"><![CDATA[The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FESCo Says "Yes" To Fedora 35 Using Yescrypt For Hashing Shadow Passwords]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Yescrypt-Yes</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Yescrypt-Yes"/>
-        <updated>2021-06-28T10:21:44.000Z</updated>
-        <summary type="html"><![CDATA[The Fedora Engineering and Steering Committee has said "yes" to using Yescrypt for hashing shadow passwords with this distribution's next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-KVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-KVM"/>
-        <updated>2021-06-28T08:23:20.000Z</updated>
-        <summary type="html"><![CDATA[The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab extends Omnibus package signing key expiration by one year]]></title>
         <id>https://about.gitlab.com/blog/2021/06/28/package-key-extension/</id>
         <link href="https://about.gitlab.com/blog/2021/06/28/package-key-extension/"/>
@@ -349,36 +391,6 @@ What do I do if I still have problems?
 Please open an issue in the omnibus-gitlab issue tracker.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-Released"/>
-        <updated>2021-06-27T22:34:50.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds has just released the Linux 5.13 kernel as stable...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux's New "randomize_kstack_offset" Security Feature Having Minimal Performance Impact]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=randomize_kstack_offset-perf</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=randomize_kstack_offset-perf"/>
-        <updated>2021-06-27T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-2021-H1-Highlights</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-2021-H1-Highlights"/>
-        <updated>2021-06-27T13:37:34.000Z</updated>
-        <summary type="html"><![CDATA[With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>

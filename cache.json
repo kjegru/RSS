@@ -22,12 +22,21 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/",
+          "author": null,
+          "description": "Today we are releasing versions 14.0.2, 13.12.6, and 13.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…",
+          "link": "https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/",
+          "publishedOn": "2021-07-01T00:00:00.000Z",
+          "wordCount": 2664,
+          "title": "GitLab Security Release: 14.0.2, 13.12.6, and 13.11.6"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/",
           "author": null,
           "description": "In this guide we will learn how to spin up GitLab in the AWS Marketplace:\nPre requisites for this lab are having an account in AWS and an accessible and working VPC.\nWe will learn the following steps:\nStand up a self-managed instance of GitLab.\nInstall Runner and Docker Engine.\nStep-by-step Instructions\nStep 1 - Stand up GitLab instance in AWS\nOpen GitLab Ultimate in AWS Marketplace.\nClick on Continue to Subscribe\n\nSign in with your IAM user.\n\nClick on Continue to Configuration.\n\nLeave the default value for Delivery Method, select the latest version in Software Version, select your Region, click Continue to Launch.\n\nIn Launch this software page, scroll down.\n\nUnder Security Group Settings click Create New Based On Seller Settings .\n\nName your security group, add a description, and save it.…",
           "link": "https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/",
           "publishedOn": "2021-06-30T00:00:00.000Z",
-          "wordCount": 2162,
+          "wordCount": 2151,
           "title": "How to stand-up a GitLab instance in AWS Marketplace"
         },
         {
@@ -36,7 +45,7 @@
           "description": "GitLab uses a GPG key to sign all Omnibus packages created within the CI pipelines to insure that the packages have not been tampered with. This key is seperate from the repository metadata signing key used by package managers and the GPG signing key for the GitLab Runner. The Omnibus package signing key is set to expire on July 1, 2021 and will be extended to expire on July 1, 2022 instead.\nWhy are we extending the deadline?\nThe Omnibus package signing key's expiration is extended each year to comply with GitLab security policies and to limit the exposure should the key become compromised. The key's expiration is extended instead of rotating to a new key to be less disruptive for users that do verify package integrity checks prior to installing the package.\nWhat do I need to do?\nThe only action that needs to be taken is to update your copy of the package signing key if you validate the signatures on the Omnibus packages that GitLab distributes.\nThe package signing key is not the key that signs the repository metadata used by the OS package managers like apt or yum. Unless you are specifically verifying the package signatures or have configured your package manager to verify the package signatures, there is no action needed on your part to continue installing Omnibus packages.\nMore information concerning verification of the package signatures\nis available in the Omnibus documentation. If you just need to refresh a copy\nof the public key, then you can find it on any of the GPG keyservers by\nsearching for support@gitlab.com or using the key ID of\nDBEF 8977 4DDB 9EB3 7D9F  C3A0 3CFC F9BA F27E AB47. Alternatively you could\ndownload it directly from packages.gitlab.com using the URL:\nhttps://packages.gitlab.com/gitlab/nightly-builds/gpgkey/gitlab-nightly-builds-3D645A26AB9FBD22.pub.gpg\n\n\nWhat do I do if I still have problems?\nPlease open an issue in the omnibus-gitlab issue tracker.",
           "link": "https://about.gitlab.com/blog/2021/06/28/package-key-extension/",
           "publishedOn": "2021-06-28T00:00:00.000Z",
-          "wordCount": 1396,
+          "wordCount": 1385,
           "title": "GitLab extends Omnibus package signing key expiration by one year"
         },
         {
@@ -45,7 +54,7 @@
           "description": "Today we are releasing version 14.0.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nUpdate Geo UI screenshots in docs page\nUpdate admin docs with new admin area access info\nAdd Helm-2to3.gitlab-ci.yml to Auto DevOps\nUpdate docs for new Members page location on GitLab navigation\nDevOps Adoption - ensure displayNamespaceId is included\nRemove add button from Devops Adoption\nGeo: Add Terraform Module to datatypes doc\nCreate 14.0 What's New entry\nToggle codequality diff annotations flag\nBump kas to v14.0.1\nExempt unicorn 'svlogd_prefix' from deprecation check\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/",
           "publishedOn": "2021-06-24T00:00:00.000Z",
-          "wordCount": 1072,
+          "wordCount": 1089,
           "title": "GitLab Patch Release: 14.0.1"
         },
         {
@@ -54,7 +63,7 @@
           "description": "In the previous post, titled 3 ways to approach GitOps, we discussed the many benefits and options that GitLab supports for fulfilling the GitOps requirements of customers, whose IT environments are composed of heterogeneous technologies and infrastructures. This post is a 3-part series, in which we delve deeper into these options. In this first part, we cover the pull-based or agent-based approach.\nAbout a pull-based or agent-based approach\nIn this approach, an agent is installed in your infrastructure components to pull changes whenever there is a drift from the desired configuration, which resides in GitLab. Although the infrastructure components could be anything from a physical server or router to a VM or a database, we will focus on a Kubernetes cluster in this section.\nIn the follow…",
           "link": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
           "publishedOn": "2021-06-23T00:00:00.000Z",
-          "wordCount": 3514,
+          "wordCount": 3503,
           "title": "How to use a pull-based (agent-based) approach for GitOps"
         },
         {
@@ -63,7 +72,7 @@
           "description": "The DevOps era began with a big idea – dissolve silos to deliver better software, faster. In the transition from classic software paradigms, DIY DevOps toolchains were built with parts that were never designed to work together. That DIY DevOps era left many trapped in new silos, without visibility, and mired in maintenance. Business outcomes suffered as the potential of DevOps was never fully realized.\nThe next iteration of DevOps\nThere is a better way to build software. GitLab 14 delivers modern DevOps with a complete DevOps platform, for a streamlined experience that unleashes the power of DevOps. Over the past year, GitLab has shipped advanced DevOps platform capabilities that enable any team to build and deliver software with velocity, trust, and visibility – no matter their size, indu…",
           "link": "https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/",
           "publishedOn": "2021-06-22T00:00:00.000Z",
-          "wordCount": 2659,
+          "wordCount": 2648,
           "title": "GitLab 14 signals shift to modern DevOps: A DevOps platform with velocity, trust, and visibility"
         },
         {
@@ -72,7 +81,7 @@
           "description": "When we think of everything released in the year since GitLab 13.0, we could not be more proud of our community and our team. This month, we celebrate our release of GitLab 14.0 by first taking a step back.\nTogether, we’ve made so much progress over the last year that we want to talk about everything it took to get to GitLab 14.\nWe use semantic versioning so a point release, like 14.0, represents everything new in this month. GitLab 14 is the culmination of the past year. Even more than that, GitLab 14 represents the future of GitLab, and the future of DevOps.\nWith GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …",
           "link": "https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/",
           "publishedOn": "2021-06-22T00:00:00.000Z",
-          "wordCount": 12300,
+          "wordCount": 12289,
           "title": "GitLab 14.0 released with a celebration of GitLab 14"
         },
         {
@@ -81,7 +90,7 @@
           "description": "We recently discovered a Usage Ping  configuration bug for self-managed instances and have since published a patch release to fix the bug. The issue affects the ability to disable Usage Ping for self-managed GitLab via text configuration files, resulting in the collection and transmission of Usage Ping events from the instance. This bug affects any instance running GitLab version 9.3 to version 13.12.3, and was patched in 13.12.4.\nWhat does this mean for existing users?\nThis issue does not affect customers who have disabled Usage Ping via the user interface or any users of our SaaS product.\nYou can check your instance configuration settings to see if this issue may have affected you. We’ve published more detailed instructions here.\nWhat should I do?\nSince we do not collect any configuration data from your instance, we have no way to detect if you unintentionally shared data with GitLab. Out of an abundance of caution, we ask that you fill out this form if you suspect that Usage Ping data was shared after taking steps to opt-out in your GitLab configuration file. We will purge data from our systems and follow up with confirmation.\nPlease share your questions and feedback with us on the community forum.",
           "link": "https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/",
           "publishedOn": "2021-06-21T00:00:00.000Z",
-          "wordCount": 1155,
+          "wordCount": 1144,
           "title": "Usage Ping configuration bug for self-managed instances"
         },
         {
@@ -90,7 +99,7 @@
           "description": "CI/CD pipelines are the preeminent solution to mitigate potential risks while integrating code changes into the repository. CI/CD pipelines help isolate the impact of potential errors, making it easier to fix them. Top that with a tool that provides effective visibility into the running tasks and there you have a recipe for success.\nSince the primary purpose of CI/CD pipelines is to speed up the development process and provide value to the end user faster, there's always room to make the process more efficient. This blog post unpacks some strategies that can help you get the most out of your pipeline definition in GitLab CI.\nHow Directed Acyclic Graphs (DAG) enable concurrent pipelines\n\nBy using the \"Needs\" keyword you can define dependencies for jobs that need to be used from previous sta…",
           "link": "https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/",
           "publishedOn": "2021-06-21T00:00:00.000Z",
-          "wordCount": 2627,
+          "wordCount": 2616,
           "title": "How to become more productive with Gitlab CI"
         },
         {
@@ -99,7 +108,7 @@
           "description": "Today we are releasing version 13.12.5 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nOnly update required instance ci template when the parameter is present\nFix Password expired error on git fetch via SSH for LDAP user\nAdvanced Search Settings page does not load if the ES url is unreachable\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/",
           "publishedOn": "2021-06-21T00:00:00.000Z",
-          "wordCount": 1043,
+          "wordCount": 1051,
           "title": "GitLab Patch Release: 13.12.5"
         },
         {
@@ -108,7 +117,7 @@
           "description": "GitLab uses a GPG key to sign official GitLab Runner packages. We recently became aware of an instance where this key and other tokens used to distribute official GitLab Runner packages and binaries were not secured according to GitLab’s security policies.\nWe have not found any evidence of unauthorized modification of the packages or access to the services storing them. Our team has audited and investigated integrity hashes, bucket logs and versioning, and pipeline history and concluded that the unauthorized modification of any packages is exceedingly unlikely.\nOut of an abundance of caution, the GPG key used for release signing and verification has been rotated along with all other tokens that were improperly secured.\nIf you use GitLab.com shared runners, this does not impact you.\nAs of J…",
           "link": "https://about.gitlab.com/blog/2021/06/16/gpg-key-used-to-sign-gitlab-runner-packages-rotated/",
           "publishedOn": "2021-06-16T00:00:00.000Z",
-          "wordCount": 1582,
+          "wordCount": 1571,
           "title": "The GPG key used to sign GitLab Runner packages has been rotated"
         },
         {
@@ -117,7 +126,7 @@
           "description": "Last year I wrote about how the Quality Engineering Enablement team was building up the performance testing of GitLab with the GitLab Performance Tool (GPT). Last year, the biggest challenge with performance testing wasn't so much the testing but rather setting up the right large scale GitLab environments to test against.\nLike any server application, deploying at scale is challenging. That's why we built another toolkit that automates the deployment of GitLab at scale: The GitLab Environment Toolkit (GET).\n\nGitLab Environment Toolkit logo\nInternally called the \"Performance Environment Builder\" (PEB), GET grew alongside GPT as we continued to expand our performance testing efforts. Over time we built a toolkit that was quite capable in its own right of deploying GitLab at scale, which is wh…",
           "link": "https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/",
           "publishedOn": "2021-06-15T00:00:00.000Z",
-          "wordCount": 4881,
+          "wordCount": 4870,
           "title": "The next step in performance testing? The GitLab Environment Toolkit"
         },
         {
@@ -126,7 +135,7 @@
           "description": "Today we are releasing version 13.12.4 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix double render in project's git URL redirect\nFix MR diff compare with previous version\nAdd alias method usage_ping_enabled?\nDo not show Praefect deprecation if Praefect is disabled\nUpdate Mattermost to 5.34.4\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/06/14/gitlab-13-12-4-released/",
           "publishedOn": "2021-06-14T00:00:00.000Z",
-          "wordCount": 1034,
+          "wordCount": 1042,
           "title": "GitLab Patch Release: 13.12.4"
         },
         {
@@ -135,7 +144,7 @@
           "description": "GitLab is best known as a complete open source DevOps platform, delivered as a single application, but it also offers powerful project management and collaboration capabilities. In fact, every GitLab team uses GitLab to develop, track and collaborate on projects, processes, and programs.\nBut, what about… other uses? Say … hacking, for instance. 🤷‍♀️\nCan GitLab help a hacker fine-tune their craft? Through our Ask a Hacker AMA series we discovered that there are some bug bounty hunters who use GitLab to streamline their research process. And, like so many cool and awesome things, we learned on Twitter about another contributor using GitLab for bug bounty hunting.  So, we followed up to learn more.\nMeet our hackers\nAlex Chapman\n\nAlex has been hacking for 14 years professionally, but his inte…",
           "link": "https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/",
           "publishedOn": "2021-06-11T00:00:00.000Z",
-          "wordCount": 4813,
+          "wordCount": 4802,
           "title": "How do bug bounty hunters use GitLab to help their hack?"
         },
         {
@@ -144,7 +153,7 @@
           "description": "In today's competitive digital era, it is imperative for organizations to undergo a digital transformation to effectively compete. For many, achieving a digital transformation means transitioning toward a DevOps model.\nDevOps has been around for many years, and the development side of the house has benefitted from the core practices of DevOps. However, the infrastructure side of the house has been lagging behind, particularly when it comes to speed. With infrastructure as code (IaC) and GitOps, infrastructure teams have been able to apply the same disciplines and quality gates that are used to manage application code to the infrastructure - to deliver products faster, with more predictability and at scale.\nSecurity slowing down delivery\nWhile the GitOps concept promises faster and more fre…",
           "link": "https://about.gitlab.com/blog/2021/06/10/how-to-get-gitops-right-with-iac-security/",
           "publishedOn": "2021-06-10T00:00:00.000Z",
-          "wordCount": 2150,
+          "wordCount": 2139,
           "title": "How to get GitOps right with infrastructure as code security"
         },
         {
@@ -153,7 +162,7 @@
           "description": "Development teams are building, testing, and shipping code faster than ever before. Today, we know that security has a role to play at the early stages of the DevOps workflow, but these security controls are mostly centered around finding and fixing bugs and vulnerabilities during development.\nIn this tutorial, we will explore the importance of protecting client-side application code at runtime and guide you through implementing it in your GitLab instance using the integration with Jscrambler.\nThe importance of runtime code protection\nWith web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.\nThis concern has been widely covered in NIST, ISO 2…",
           "link": "https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/",
           "publishedOn": "2021-06-09T00:00:00.000Z",
-          "wordCount": 2946,
+          "wordCount": 2935,
           "title": "How to protect your source code with GitLab and Jscrambler"
         },
         {
@@ -162,7 +171,7 @@
           "description": "GitLab's complete DevOps platform comes with built-in continuous integration (CI) and continuous delivery (CD) via GitLab CI/CD. GitLab CI/CD is a great solution to increase developer productivity and motivation to write higher-quality code without sacrificing speed. It runs a series of tests every time a commit is pushed, providing immediate visibility into the results of changes in the codebase. While it is not a hassle to set up a CI using Linux-based machines, iOS and macOS developers may find it is more complicated to have access to a Mac that is connected and available 24 hours a day.\nGitLab Runners, provided on GitLab.com, are the engine that executes CI workflows. Due to various requirements, some users may opt to self-host runners on public cloud VMs. This is super easy if the bui…",
           "link": "https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/",
           "publishedOn": "2021-06-07T00:00:00.000Z",
-          "wordCount": 3295,
+          "wordCount": 3284,
           "title": "How to use Scaleway to self-host your GitLab Runners"
         },
         {
@@ -171,7 +180,7 @@
           "description": "Today we are releasing version 13.12.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nlast month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nFix maven & gradle examples in the docs, enabling line-by-line display of test coverage in merge requests out-of-the-box (for java &\nkotlin)\nFix issue with frames not loading in Safari\nImprove SSH key expiration warning emails\nAdd an option to expose description_html in Release API [RUN ALL RSPEC] [RUN AS-IF-FOSS]\nFix CSP issues related to captchas\nSet CSP back to disabled by default\nFix referrer option passed to Akismet client\nFix passing environment variables for migrations\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/",
           "publishedOn": "2021-06-07T00:00:00.000Z",
-          "wordCount": 1075,
+          "wordCount": 1083,
           "title": "GitLab Patch Release: 13.12.3"
         },
         {
@@ -180,7 +189,7 @@
           "description": "I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.\nGlobal distribution as an advantage\nMany managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…",
           "link": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
           "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 2350,
+          "wordCount": 2339,
           "title": "How to leverage distributed engineering teams for rapid response"
         },
         {
@@ -189,7 +198,7 @@
           "description": "GitLab 14.0: Our annual major release\nGitLab 14.0 is coming to GitLab.com. Along with the exciting new features, it also includes planned deprecations because it is the major version release for 2021. We try to minimize breaking changes, but some changes are needed to improve workflows, performance, scalability, and more.\nThese changes will go live on GitLab.com sometime between May 23 – June 22, through our daily deployments, leading up to the official release of 14.0 on June 22. Keep reading to learn more about these important changes.\nGitLab 14.0 for self-managed users will also be released on June 22, read on for more information about deprecations and removals for self-managed instances.\nPlan\nRemoved deprecated GraphQL fields\nIn accordance with our GraphQL deprecation process, the fol…",
           "link": "https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/",
           "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 6797,
+          "wordCount": 6786,
           "title": "GitLab.com is moving to 14.0 with a few breaking changes"
         }
       ]
@@ -200,12 +209,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Linux-Bring-Up",
+          "author": null,
+          "description": "Following recent reports Intel has begun seeding the Xe-HPG DG2 graphics card to developers and various reported leaks around the next-gen \"DG2\" graphics card, Intel's open-source Linux driver engineers have begun publishing patches for enabling the DG2 as well as the Xe_HP SDV...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Linux-Bring-Up",
+          "publishedOn": "2021-07-01T22:12:20.000Z",
+          "wordCount": 890,
+          "title": "Intel Begins Bringing Up DG2 Graphics Card, Xe_HP SDV Support For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-MIPS",
+          "author": null,
+          "description": "The MIPS code within the Linux kernel remains in a mature but rather stagnate state while the upstream MIPS architecture development has ceased and most vendors these days using Arm or RISC-V instead or even OpenPOWER prospects. But there still are some ongoing MIPS improvements to the Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-MIPS",
+          "publishedOn": "2021-07-01T20:03:55.000Z",
+          "wordCount": 962,
+          "title": "Linux 5.14 Picks Up Support For A Tiny & Inexpensive MIPS IoT Single Board Computer"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG1-Nearly-At-Desktop",
+          "author": null,
+          "description": "Bringing up Intel discrete graphics on Linux especially when it comes to accelerated 3D rendering has been a very lengthy process for the DG1 graphics card enablement, but it may soon actually start working...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG1-Nearly-At-Desktop",
+          "publishedOn": "2021-07-01T15:21:07.000Z",
+          "wordCount": 998,
+          "title": "Intel Discrete Graphics On Linux Nearing The Point Of A Working, Accelerated Desktop"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Alphas",
+          "author": null,
+          "description": "The PHP 8.1 alpha releases got underway in June in working towards the next annual feature release for the PHP scripting language...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Alphas",
+          "publishedOn": "2021-07-01T14:24:13.000Z",
+          "wordCount": 904,
+          "title": "PHP 8.1 Alpha Releases Get Underway With Enums, Fsync, Fibers, More Performance"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-RAS-EDAC",
+          "author": null,
+          "description": "The Linux 5.14 RAS (Reliability, Availability and Serviceability) and EDAC (Error Detection And Correction) changes have landed with several improvements this time around on the Intel side...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-RAS-EDAC",
+          "publishedOn": "2021-07-01T13:00:12.000Z",
+          "wordCount": 930,
+          "title": "Linux 5.14 Lands Changes For On-Package HBM Xeons, More Intel CPUs With In-Band ECC"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AFX-512-FP16-GCC-Patches",
+          "author": null,
+          "description": "Besides Sapphire Rapids introducing Advanced Matrix Extensions (AMX), new developer documentation has detailed AVX-512 FP16 capabilities coming with the next-generation Xeon processors. Intel has posted initial developer documentation around AVX512FP16 as well as a big set of GCC and LLVM Clang compiler patches for handling the new intrinsics...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AFX-512-FP16-GCC-Patches",
+          "publishedOn": "2021-07-01T11:08:58.000Z",
+          "wordCount": 1046,
+          "title": "Intel Posts Big Set of Patches For AVX-512 FP16 Compiler Support For Sapphire Rapids"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-PGO-Linux-Shot-Down",
+          "author": null,
+          "description": "While Clang PGO support was sent in for Linux 5.14 as part of Clang compiler handling updates for this next kernel version, the functionality was subsequently dropped out and a new pull request issued after criticism from Linus Torvalds and others...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-PGO-Linux-Shot-Down",
+          "publishedOn": "2021-07-01T10:13:40.000Z",
+          "wordCount": 991,
+          "title": "Clang PGO Shot Down For Now From The Linux Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-DRM-Drivers",
+          "author": null,
+          "description": "The Direct Rendering Manager (kernel graphics/display driver) updates for Linux 5.14 are putting on the pounds with nearly 300k lines of new code added (312,187 insertions, 22,367 deletions). The big increase is driven by new AMD Radeon graphics support added, a new Microsoft driver added, and other changes...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-DRM-Drivers",
+          "publishedOn": "2021-07-01T09:52:49.000Z",
+          "wordCount": 931,
+          "title": "Linux 5.14 GPU Driver Updates Come In Heavy With ~300k New Lines Of Code"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=June-2021-Highlights",
+          "author": null,
+          "description": "During this past month on Phoronix were 242 original Linux/open-source/hardware related news articles written by your's truly and another 18 featured Linux hardware reviews / featured benchmark articles. This month also marked Phoronix.com turning seventeen years old for delivering Linux hardware reviews and news...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=June-2021-Highlights",
+          "publishedOn": "2021-07-01T00:30:00.000Z",
+          "wordCount": 2704,
+          "title": "Intel Crocus, Linux 5.13, Other Vendor Happenings Made For An Exciting June"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-Q2-2021",
           "author": null,
           "description": "One of the exciting initiatives taking place recently within the CentOS camp has been the CentOS Hyperscale special interest group that is backed by engineers from Twitter and Facebook along with other organizations. They've been making more progress on offering their hyperscaler-focused packages/updates and even onto publishing a CentOS Hyperscale Workstation operating system image for testing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-Q2-2021",
           "publishedOn": "2021-06-30T19:16:19.000Z",
-          "wordCount": 933,
+          "wordCount": 943,
           "title": "CentOS Hyperscale Workstation Sees Experimental OS Builds, More Changes Coming"
         },
         {
@@ -214,7 +304,7 @@
           "description": "With the recent NVIDIA 470 series Linux driver beta this R470 branch is the point at which NVIDIA is ending its GeForce 600/700 series \"Kepler\" support. The 470 driver series will be maintained as a long-lived driver that will continue to see security updates and Linux kernel / X.Org Server compatibility updates for another three years. If this end-of-life status has you thinking about trying out the open-source \"Nouveau\" Linux driver with Kepler, here are some current benchmarks.",
           "link": "https://www.phoronix.com/vr.php?view=30304",
           "publishedOn": "2021-06-30T19:00:00.000Z",
-          "wordCount": 1180,
+          "wordCount": 1123,
           "title": "NVIDIA 470 EOL Drivers For Kepler Still Obliterating Open-Source Alternative"
         },
         {
@@ -223,7 +313,7 @@
           "description": "The latest public code patches on the mailing list today are preparing for newer AMD heterogeneous servers that will have Aldebaran GPU nodes connected via xGMI links to the CPU(s) and the GPU dies in turn having HBM2 memory...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-AMD-EDAC-HBM2-Aldebaran",
           "publishedOn": "2021-06-30T18:45:48.000Z",
-          "wordCount": 1002,
+          "wordCount": 1060,
           "title": "Linux Prepares For AMD Servers With Aldebaran GPU Nodes Sporting HBM2"
         },
         {
@@ -232,7 +322,7 @@
           "description": "Michel Dänzer of Red Hat is preparing the release of XWayland 21.1.2 as the newest update to this standalone XWayland package separate from a whole X.Org Server release for running X11 clients within a Wayland environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.2-RC",
           "publishedOn": "2021-06-30T16:21:39.000Z",
-          "wordCount": 911,
+          "wordCount": 937,
           "title": "XWayland 21.1.2 Nears With NVIDIA Hardware Acceleration"
         },
         {
@@ -241,7 +331,7 @@
           "description": "The HID subsystem updates for Linux 5.14 continue improving consumer device support from newer AMD Ryzen laptops to multi-touch improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-HID",
           "publishedOn": "2021-06-30T15:12:15.000Z",
-          "wordCount": 966,
+          "wordCount": 991,
           "title": "Linux 5.14 Ready With Light Sensor + Human Presence Detection For Newer AMD Laptops"
         },
         {
@@ -250,7 +340,7 @@
           "description": "AMD has issued their Radeon Pro Software for Enterprise 21.Q2 for Linux driver update as their quarterly packaged driver update intended for use with Radeon Pro graphics cards and former FirePro line-up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-21.Q2-Linux-Driver",
           "publishedOn": "2021-06-30T14:18:59.000Z",
-          "wordCount": 837,
+          "wordCount": 863,
           "title": "Radeon Pro Software for Enterprise 21.Q2 for Linux Driver Released"
         },
         {
@@ -259,7 +349,7 @@
           "description": "Given the dominance of Linux-based devices from embedded/mobile (Android) through data centers and Linux powering all sorts of equipment, the networking subsystem updates for new Linux kernel merge windows continues to be very lively with new hardware support and never-ending improvements and new features...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Networking",
           "publishedOn": "2021-06-30T11:15:00.000Z",
-          "wordCount": 850,
+          "wordCount": 922,
           "title": "The Big Set Of Networking Changes For Linux 5.14"
         },
         {
@@ -268,7 +358,7 @@
           "description": "In preparing to close out the second quarter, the Intel Media Driver 2021Q2 was released today as the company's open-source stack for supporting GPU-accelerated video encode/decode on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Media-Driver-2021Q2",
           "publishedOn": "2021-06-30T10:15:51.000Z",
-          "wordCount": 799,
+          "wordCount": 789,
           "title": "Intel Media Driver 2021Q2 Focuses On Gen12 Enhancements"
         },
         {
@@ -277,7 +367,7 @@
           "description": "Headlining the power management updates for the Linux 5.14 merge window is the Intel P-State CPU frequency scaling driver now being adapted to handle hybrid processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Power-Management",
           "publishedOn": "2021-06-30T09:45:22.000Z",
-          "wordCount": 874,
+          "wordCount": 933,
           "title": "Intel P-State Driver Ready To Take On Alder Lake Hybrid Processors"
         },
         {
@@ -286,7 +376,7 @@
           "description": "The release candidates for OpenZFS 2.1 continue dragging on with Tuesday marking the eighth such test version while bringing Linux 5.13 compatibility and other fixes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1-rc8",
           "publishedOn": "2021-06-30T04:00:00.000Z",
-          "wordCount": 839,
+          "wordCount": 785,
           "title": "OpenZFS 2.1-rc8 Brings Linux 5.13 Compatibility, More Fixes"
         },
         {
@@ -295,7 +385,7 @@
           "description": "Linux PC hardware manufacturer System76 has released Pop!_OS 21.04 as the newest version of their Ubuntu downstream that also features their new GNOME-based COSMIC desktop...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=System76-Pop-OS-21.04",
           "publishedOn": "2021-06-30T00:25:25.000Z",
-          "wordCount": 714,
+          "wordCount": 740,
           "title": "System76 Releases Pop!_OS 21.04 With New COSMIC Desktop"
         },
         {
@@ -304,7 +394,7 @@
           "description": "The x86 platform driver updates have been submitted for the in-development Linux 5.14 kernel. This area of the kernel principally benefits x86 laptop support on Linux but also has other drivers like around the Intel Speed Select Technology and more...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Laptops",
           "publishedOn": "2021-06-29T19:45:24.000Z",
-          "wordCount": 936,
+          "wordCount": 976,
           "title": "Laptop Improvements With Linux 5.14 Benefit Lenovo, Dell, Microsoft Surface Devices"
         },
         {
@@ -313,7 +403,7 @@
           "description": "Linux's KVM virtualization component previously could allow a virtual machine guest relying on AMD SVM virtualization to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-EPYC-Breakout-KVM",
           "publishedOn": "2021-06-29T18:00:02.000Z",
-          "wordCount": 992,
+          "wordCount": 1064,
           "title": "Linux Formerly Affected By A KVM SVM Guest-To-Host Breakout Code Vulnerability"
         },
         {
@@ -322,7 +412,7 @@
           "description": "After looking recently at the FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD EPYC 7003 \"Milan\" using a Tyan Transport CX GC68-B8036-LE server, the next round of benchmarking from this server with AMD EPYC 7543 32-core processor was looking at its support (all tested 2021 Linux distributions were running fine on this latest-generation AMD server) and performance across 11 current Linux distribution releases from Arch, CentOS, Clear Linux, Debian, Fedora, Rocky Linux, Ubuntu, and openSUSE.",
           "link": "https://www.phoronix.com/vr.php?view=30303",
           "publishedOn": "2021-06-29T15:07:17.000Z",
-          "wordCount": 928,
+          "wordCount": 917,
           "title": "AMD EPYC Milan Performance Across 11 Different 2021 Linux Distributions"
         },
         {
@@ -331,7 +421,7 @@
           "description": "While Xeon Scalable \"Sapphire Rapids\" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sapphire-Rapids-2022-Q2-Ramp",
           "publishedOn": "2021-06-29T14:27:11.000Z",
-          "wordCount": 1030,
+          "wordCount": 1066,
           "title": "Intel Confirms Q2'22 Ramp For Xeon Sapphire Rapids As Good News For Their Linux Bring-Up"
         },
         {
@@ -340,7 +430,7 @@
           "description": "Quietly released last week by AMD was their Radeon Software for Linux 21.20 driver providing the latest packaged \"Open\" and \"PRO\" (Closed) driver components for use within enterprise Linux environments...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Software-Linux-21.20",
           "publishedOn": "2021-06-29T12:37:14.000Z",
-          "wordCount": 888,
+          "wordCount": 914,
           "title": "Radeon Software for Linux 21.20 Released"
         },
         {
@@ -349,7 +439,7 @@
           "description": "Linux 5.14 has cleared out its legacy IDE code from the kernel that means dropping more than forty thousand lines of code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Legacy-IDE-Dropped",
           "publishedOn": "2021-06-29T11:17:23.000Z",
-          "wordCount": 775,
+          "wordCount": 847,
           "title": "Linux 5.14 Drops Its Legacy IDE Code"
         },
         {
@@ -358,7 +448,7 @@
           "description": "The Firewalld firewall management tool for Linux that is built around Netfilter/Nftables is preparing for its long awaited 1.0 release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firewalld-1.0-Coming",
           "publishedOn": "2021-06-29T10:16:43.000Z",
-          "wordCount": 788,
+          "wordCount": 885,
           "title": "Firewalld Prepares For Its Major 1.0 Release For Linux Firewall Management"
         },
         {
@@ -367,7 +457,7 @@
           "description": "With Btrfs continuing to see new adoption by various enterprises, Linux distributions like Fedora Workstation/Cloud and SUSE/openSUSE embracing it, and there continuing to be nice upstream improvements to this file-system driver, Btrfs continues on a nice trajectory in 2021...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Linux-5.14",
           "publishedOn": "2021-06-29T10:01:25.000Z",
-          "wordCount": 770,
+          "wordCount": 796,
           "title": "Btrfs With Linux 5.14 Has More Performance Tuning, Other Improvements"
         },
         {
@@ -376,7 +466,7 @@
           "description": "Compiling the Linux kernel with LLVM's Clang code compiler continues to be more featureful with plumbing now being added to handle profile-guided optimizations (PGO) to help in achieving greater performance for optimizing kernel builds for targeted workloads...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-PGO-Linux-5.14",
           "publishedOn": "2021-06-29T04:00:00.000Z",
-          "wordCount": 913,
+          "wordCount": 1020,
           "title": "Clang Profile Guided Optimizations Support Sent In For Linux 5.14"
         },
         {
@@ -385,7 +475,7 @@
           "description": "The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-Adds_Fork",
           "publishedOn": "2021-06-28T22:55:57.000Z",
-          "wordCount": 813,
+          "wordCount": 919,
           "title": "Glibc 2.34 Adds \"_Fork\" Function Ahead Of Future POSIX Revision"
         },
         {
@@ -394,7 +484,7 @@
           "description": "PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.31-Released",
           "publishedOn": "2021-06-28T22:21:29.000Z",
-          "wordCount": 756,
+          "wordCount": 782,
           "title": "PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes"
         },
         {
@@ -403,89 +493,8 @@
           "description": "Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Lyra-0.0.2-Codec",
           "publishedOn": "2021-06-28T18:20:00.000Z",
-          "wordCount": 815,
+          "wordCount": 841,
           "title": "Google's Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-TSX-Off-New-Microcode",
-          "author": null,
-          "description": "Intel is going to be disabling Transactional Synchronization Extensions (TSX) by default for various Skylake through Coffee Lake processors with forthcoming microcode updates. Yes, this does mean performance implications for workloads benefiting from TSX. This change has seemingly not been talked about much at all publicly and I just happened to become aware of it when looking through new kernel patches...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-TSX-Off-New-Microcode",
-          "publishedOn": "2021-06-28T16:18:23.000Z",
-          "wordCount": 1253,
-          "title": "Intel To Disable TSX By Default On More CPUs With New Microcode"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.13",
-          "author": null,
-          "description": "Following yesterday's release of the Linux 5.13 kernel, the GNU folks have released GNU Linux-libre 5.13-gnu as their downstream that strips out support for loading binary-only firmware/microcode, blocks the ability to load binary-only kernel modules, and other sanitization work in the name of software freedom...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.13",
-          "publishedOn": "2021-06-28T14:35:59.000Z",
-          "wordCount": 887,
-          "title": "GNU Linux-libre 5.13-gnu Released For The Latest Kernel Deblobbing"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Scheduling",
-          "author": null,
-          "description": "Among the early pull requests for the just-opened Linux 5.14 merge window are the scheduler updates that includes the introduction of Core Scheduling. The Core Scheduling functionality has been in the works for the past few years by multiple vendors for better securing SMT systems following various vulnerabilities coming to light around Hyper Threading...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Scheduling",
-          "publishedOn": "2021-06-28T14:26:28.000Z",
-          "wordCount": 871,
-          "title": "Core-Scheduling For Linux 5.14 To Reduce SMT/HT Information Leak Risks, Side Channels"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Hantro-Linux-5.14-G2-HEVC",
-          "author": null,
-          "description": "The Hantro media driver within the Linux kernel for supporting the Hantro IP-based VPU found in Rockchip and NXP i.MX8M SoCs is seeing improvements with the in-development Linux 5.14 kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hantro-Linux-5.14-G2-HEVC",
-          "publishedOn": "2021-06-28T14:25:54.000Z",
-          "wordCount": 854,
-          "title": "Hantro VPU Driver With Linux 5.14 Adds G2 Decoder Support With HEVC"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Yescrypt-Yes",
-          "author": null,
-          "description": "The Fedora Engineering and Steering Committee has said \"yes\" to using Yescrypt for hashing shadow passwords with this distribution's next release. Using Yescrypt in place of SHA256/SHA512 should lead to greater security for new user accounts...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Yescrypt-Yes",
-          "publishedOn": "2021-06-28T10:21:44.000Z",
-          "wordCount": 798,
-          "title": "FESCo Says \"Yes\" To Fedora 35 Using Yescrypt For Hashing Shadow Passwords"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-KVM",
-          "author": null,
-          "description": "The KVM changes were submitted early ahead of the now-open Linux 5.14 merge window...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-KVM",
-          "publishedOn": "2021-06-28T08:23:20.000Z",
-          "wordCount": 735,
-          "title": "KVM With Linux 5.14 Brings ARM MTE, Hyper-V Optimizations"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
-          "author": null,
-          "description": "Linus Torvalds has just released the Linux 5.13 kernel as stable...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
-          "publishedOn": "2021-06-27T22:34:50.000Z",
-          "wordCount": 887,
-          "title": "Linux 5.13 Released With Apple M1 Bringup, Landlock, FreeSync HDMI + Much More"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
-          "author": null,
-          "description": "Of the many new features in Linux 5.13 one of the prominent security features is the ability to randomize the kernel stack offset at each system call. With Linux 5.13 stable imminent, here are some performance benchmarks of the impact from enabling this security feature...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=randomize_kstack_offset-perf",
-          "publishedOn": "2021-06-27T14:00:00.000Z",
-          "wordCount": 1012,
-          "title": "Linux's New \"randomize_kstack_offset\" Security Feature Having Minimal Performance Impact"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
-          "author": null,
-          "description": "With the half-way point for the year upon us, here is a look back at the most exciting Mesa open-source graphics driver news so far in 2021 with exciting contributions from Microsoft, AMD and Intel continuing to be the most open-source friendly graphics vendors, Zink making remarkable progress for OpenGL over Vulkan, performance optimizations galore, more embedded Vulkan drivers coming about, and other milestones for open-source Linux graphics...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-2021-H1-Highlights",
-          "publishedOn": "2021-06-27T13:37:34.000Z",
-          "wordCount": 1577,
-          "title": "Mesa's Exciting Milestones So Far In 2021 From Zink To Great Intel/AMD Open-Source Work"
         }
       ]
     }
