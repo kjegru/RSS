@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-02T00:19:40.042Z</id>
+    <id>urn:2021-07-03T00:19:39.655Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-02T00:19:40.043Z</updated>
+    <updated>2021-07-03T00:19:39.655Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[OpenZFS 2.1 Released With dRAID, Compatibility Property, Better Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1"/>
+        <updated>2021-07-02T20:39:14.000Z</updated>
+        <summary type="html"><![CDATA[Shipping now as the successor to last November's big OpenZFS 2.0 release is OpenZFS 2.1 as quite a worthy follow-on release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.12 Released With More PE Conversion, New Themes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.12-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.12-Released"/>
+        <updated>2021-07-02T20:05:58.000Z</updated>
+        <summary type="html"><![CDATA[In celebrating the US holiday weekend, Wine 6.12 has arrived for popping in enjoying the latest Windows games and applications on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Bringing SD Cache Ctrl Support, Other SD Card Support Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SD-Improvements</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SD-Improvements"/>
+        <updated>2021-07-02T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The MMC/MEMSTICK updates for Linux 5.14 bring more work on bettering the kernel's Secure Digital card support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Leading Over Early Windows 11 Benchmarks For AMD Ryzen 9 5950X Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30311</id>
+        <link href="https://www.phoronix.com/vr.php?view=30311"/>
+        <updated>2021-07-02T14:23:02.000Z</updated>
+        <summary type="html"><![CDATA[With Microsoft making public this week their early Windows Insider Preview builds of Windows 11, curiosity got the best of me to give it a whirl in looking at the performance of the early Windows 11 preview build compared to Ubuntu Linux.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Overhauls & Replaces Its RDMA Linux Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IRDMA-Replacement-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IRDMA-Replacement-5.14"/>
+        <updated>2021-07-02T10:16:40.000Z</updated>
+        <summary type="html"><![CDATA[Intel has wrapped up a 3+ year effort to overhaul and replace its existing RDMA (Remote Direct Memory Access) driver. With Linux 5.14 is their shiny new "IRDMA" driver while their former driver is being immediately removed...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systemd 249 Has Another Chance For Testing Before Release]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-RC3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-RC3"/>
+        <updated>2021-07-02T09:52:08.000Z</updated>
+        <summary type="html"><![CDATA[Another release candidate of systemd 249 is available for testing while the actual release appears imminent...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steam On Linux Still Tap Dancing Around 0.9% Marketshare]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-On-Linux-Tap-Dance-0.9</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-On-Linux-Tap-Dance-0.9"/>
+        <updated>2021-07-02T09:39:06.000Z</updated>
+        <summary type="html"><![CDATA[Even with Steam Play continuing to get into quite good shape for running recent Windows game releases on Linux with ease thanks to the work Valve has been investing into Proton, DXVK, VKD3D-Proton, and lower-level Linux graphics infrastructure, for now at least the overall marketshare is holding steady at around 0.8~0.9% for the past number of months...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 ARM64 Preps For When Not All The CPU Cores Support 32-bit Execution]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-ARM64</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-ARM64"/>
+        <updated>2021-07-02T09:22:02.000Z</updated>
+        <summary type="html"><![CDATA[The 64-bit ARM architecture changes were submitted this week for the ongoing Linux 5.14...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Intel Begins Bringing Up DG2 Graphics Card, Xe_HP SDV Support For Linux]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Linux-Bring-Up</id>
@@ -283,86 +363,6 @@ Name your security group, add a description, and save it.…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sapphire-Rapids-2022-Q2-Ramp"/>
         <updated>2021-06-29T14:27:11.000Z</updated>
         <summary type="html"><![CDATA[While Xeon Scalable "Sapphire Rapids" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon Software for Linux 21.20 Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.20</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.20"/>
-        <updated>2021-06-29T12:37:14.000Z</updated>
-        <summary type="html"><![CDATA[Quietly released last week by AMD was their Radeon Software for Linux 21.20 driver providing the latest packaged "Open" and "PRO" (Closed) driver components for use within enterprise Linux environments...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Drops Its Legacy IDE Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Legacy-IDE-Dropped</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Legacy-IDE-Dropped"/>
-        <updated>2021-06-29T11:17:23.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.14 has cleared out its legacy IDE code from the kernel that means dropping more than forty thousand lines of code...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firewalld Prepares For Its Major 1.0 Release For Linux Firewall Management]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0-Coming"/>
-        <updated>2021-06-29T10:16:43.000Z</updated>
-        <summary type="html"><![CDATA[The Firewalld firewall management tool for Linux that is built around Netfilter/Nftables is preparing for its long awaited 1.0 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Btrfs With Linux 5.14 Has More Performance Tuning, Other Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.14"/>
-        <updated>2021-06-29T10:01:25.000Z</updated>
-        <summary type="html"><![CDATA[With Btrfs continuing to see new adoption by various enterprises, Linux distributions like Fedora Workstation/Cloud and SUSE/openSUSE embracing it, and there continuing to be nice upstream improvements to this file-system driver, Btrfs continues on a nice trajectory in 2021...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clang Profile Guided Optimizations Support Sent In For Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-5.14"/>
-        <updated>2021-06-29T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Compiling the Linux kernel with LLVM's Clang code compiler continues to be more featureful with plumbing now being added to handle profile-guided optimizations (PGO) to help in achieving greater performance for optimizing kernel builds for targeted workloads...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Glibc 2.34 Adds "_Fork" Function Ahead Of Future POSIX Revision]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-Adds_Fork</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-Adds_Fork"/>
-        <updated>2021-06-28T22:55:57.000Z</updated>
-        <summary type="html"><![CDATA[The GNU C Library (Glibc) has landed its _Fork function implementation as an async-signal-safe fork replacement that is also expected to be made part of the next POSIX standards revision...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PipeWire 0.3.31 Released With Better JACK Support, More Crash Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.31-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.31-Released"/>
-        <updated>2021-06-28T22:21:29.000Z</updated>
-        <summary type="html"><![CDATA[PipeWire 0.3.31 is out today as the newest version of this audio and video streams server for the Linux desktop that is becoming a viable replacement to the likes of JACK and PulseAudio...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google's Lyra v0.0.2 Speech Codec Gets Rid Of The Binary Blob]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Lyra-0.0.2-Codec</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Lyra-0.0.2-Codec"/>
-        <updated>2021-06-28T18:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year Google announced the Lyra voice codec that could work with AV1 video for video chats over 56kbps modems. Google is today shipping its newest Lyra version...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
