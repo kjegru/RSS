@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-03T00:19:39.655Z</id>
+    <id>urn:2021-07-04T00:19:33.014Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-03T00:19:39.655Z</updated>
+    <updated>2021-07-04T00:19:33.014Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[CXL Bring-Up Continues - More Infrastructure For Linux 5.14, "More Meat" For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CXL-For-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CXL-For-Linux-5.14"/>
+        <updated>2021-07-03T15:54:49.000Z</updated>
+        <summary type="html"><![CDATA[Intel open-source engineers continue working on the bring-up around Compute Express Link (CXL) as the new open standard interconnect built off PCIe aiming to empower next-generation servers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XFS Sees A Lot Of Cleanups For Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XFS-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XFS-Linux-5.14"/>
+        <updated>2021-07-03T13:00:25.000Z</updated>
+        <summary type="html"><![CDATA[The XFS file-system continues seeing a lot of work cleaning up the kernel driver code as well as some minor feature improvements heading into Linux 5.14...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New/Updated Benchmarks For June From GravityMark To L4D2 Vulkan, Updated Neural Networks]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Benchmark-Updates</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Benchmark-Updates"/>
+        <updated>2021-07-03T11:13:08.000Z</updated>
+        <summary type="html"><![CDATA[During the past month were a number of updated Phoronix Test Suite test profiles made available on OpenBenchmarking.org as part of our open-source cross-platform benchmarking framework...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 POWERs Up The Microwatt Soft CPU Core]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-POWER</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-POWER"/>
+        <updated>2021-07-03T10:24:37.000Z</updated>
+        <summary type="html"><![CDATA[The POWER architecture updates have been submitted for the ongoing Linux 5.14 merge window with a few changes worth pointing out this round...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Darktable 3.6 Released For This Free Alternative To Adobe Lightroom]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Darktable-3.6-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Darktable-3.6-Released"/>
+        <updated>2021-07-03T10:08:56.000Z</updated>
+        <summary type="html"><![CDATA[Darktable 3.6 is out as this summer's feature update to this open-source RAW photography software package and a great alternative to Adobe Photoshop Lightroom...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Ends June With Wayland Fixes, More Responsive Plasma With Faster SVG Handling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-EO-June-Wayland-Faster-SVG</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-EO-June-Wayland-Faster-SVG"/>
+        <updated>2021-07-03T09:58:50.000Z</updated>
+        <summary type="html"><![CDATA[KDE developers ended June with yet more Plasma Wayland fixes plus a number of other worthwhile fixes too...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenZFS 2.1 Released With dRAID, Compatibility Property, Better Performance]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1</id>
@@ -278,26 +338,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OpenZFS 2.1-rc8 Brings Linux 5.13 Compatibility, More Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1-rc8</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1-rc8"/>
-        <updated>2021-06-30T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The release candidates for OpenZFS 2.1 continue dragging on with Tuesday marking the eighth such test version while bringing Linux 5.13 compatibility and other fixes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[System76 Releases Pop!_OS 21.04 With New COSMIC Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=System76-Pop-OS-21.04</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=System76-Pop-OS-21.04"/>
-        <updated>2021-06-30T00:25:25.000Z</updated>
-        <summary type="html"><![CDATA[Linux PC hardware manufacturer System76 has released Pop!_OS 21.04 as the newest version of their Ubuntu downstream that also features their new GNOME-based COSMIC desktop...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to stand-up a GitLab instance in AWS Marketplace]]></title>
         <id>https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/</id>
         <link href="https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/"/>
@@ -325,46 +365,6 @@ Under Security Group Settings click Create New Based On Seller Settings .
 Name your security group, add a description, and save it.…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laptop Improvements With Linux 5.14 Benefit Lenovo, Dell, Microsoft Surface Devices]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Laptops</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Laptops"/>
-        <updated>2021-06-29T19:45:24.000Z</updated>
-        <summary type="html"><![CDATA[The x86 platform driver updates have been submitted for the in-development Linux 5.14 kernel. This area of the kernel principally benefits x86 laptop support on Linux but also has other drivers like around the Intel Speed Select Technology and more...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Formerly Affected By A KVM SVM Guest-To-Host Breakout Code Vulnerability]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-EPYC-Breakout-KVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-EPYC-Breakout-KVM"/>
-        <updated>2021-06-29T18:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Linux's KVM virtualization component previously could allow a virtual machine guest relying on AMD SVM virtualization to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD EPYC Milan Performance Across 11 Different 2021 Linux Distributions]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30303</id>
-        <link href="https://www.phoronix.com/vr.php?view=30303"/>
-        <updated>2021-06-29T15:07:17.000Z</updated>
-        <summary type="html"><![CDATA[After looking recently at the FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD EPYC 7003 "Milan" using a Tyan Transport CX GC68-B8036-LE server, the next round of benchmarking from this server with AMD EPYC 7543 32-core processor was looking at its support (all tested 2021 Linux distributions were running fine on this latest-generation AMD server) and performance across 11 current Linux distribution releases from Arch, CentOS, Clear Linux, Debian, Fedora, Rocky Linux, Ubuntu, and openSUSE.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Confirms Q2'22 Ramp For Xeon Sapphire Rapids As Good News For Their Linux Bring-Up]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sapphire-Rapids-2022-Q2-Ramp</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sapphire-Rapids-2022-Q2-Ramp"/>
-        <updated>2021-06-29T14:27:11.000Z</updated>
-        <summary type="html"><![CDATA[While Xeon Scalable "Sapphire Rapids" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -693,34 +693,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to leverage distributed engineering teams for rapid response]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/"/>
-        <updated>2021-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.
-Global distribution as an advantage
-Many managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab.com is moving to 14.0 with a few breaking changes]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/"/>
-        <updated>2021-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab 14.0: Our annual major release
-GitLab 14.0 is coming to GitLab.com. Along with the exciting new features, it also includes planned deprecations because it is the major version release for 2021. We try to minimize breaking changes, but some changes are needed to improve workflows, performance, scalability, and more.
-These changes will go live on GitLab.com sometime between May 23 – June 22, through our daily deployments, leading up to the official release of 14.0 on June 22. Keep reading to learn more about these important changes.
-GitLab 14.0 for self-managed users will also be released on June 22, read on for more information about deprecations and removals for self-managed instances.
-Plan
-Removed deprecated GraphQL fields
-In accordance with our GraphQL deprecation process, the fol…]]></summary>
         <author>
             <name>GitLab</name>
         </author>

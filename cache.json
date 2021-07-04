@@ -72,7 +72,7 @@
           "description": "The DevOps era began with a big idea – dissolve silos to deliver better software, faster. In the transition from classic software paradigms, DIY DevOps toolchains were built with parts that were never designed to work together. That DIY DevOps era left many trapped in new silos, without visibility, and mired in maintenance. Business outcomes suffered as the potential of DevOps was never fully realized.\nThe next iteration of DevOps\nThere is a better way to build software. GitLab 14 delivers modern DevOps with a complete DevOps platform, for a streamlined experience that unleashes the power of DevOps. Over the past year, GitLab has shipped advanced DevOps platform capabilities that enable any team to build and deliver software with velocity, trust, and visibility – no matter their size, indu…",
           "link": "https://about.gitlab.com/blog/2021/06/22/gitlab-14-modern-devops/",
           "publishedOn": "2021-06-22T00:00:00.000Z",
-          "wordCount": 2644,
+          "wordCount": 2648,
           "title": "GitLab 14 signals shift to modern DevOps: A DevOps platform with velocity, trust, and visibility"
         },
         {
@@ -171,7 +171,7 @@
           "description": "GitLab's complete DevOps platform comes with built-in continuous integration (CI) and continuous delivery (CD) via GitLab CI/CD. GitLab CI/CD is a great solution to increase developer productivity and motivation to write higher-quality code without sacrificing speed. It runs a series of tests every time a commit is pushed, providing immediate visibility into the results of changes in the codebase. While it is not a hassle to set up a CI using Linux-based machines, iOS and macOS developers may find it is more complicated to have access to a Mac that is connected and available 24 hours a day.\nGitLab Runners, provided on GitLab.com, are the engine that executes CI workflows. Due to various requirements, some users may opt to self-host runners on public cloud VMs. This is super easy if the bui…",
           "link": "https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/",
           "publishedOn": "2021-06-07T00:00:00.000Z",
-          "wordCount": 3280,
+          "wordCount": 3278,
           "title": "How to use Scaleway to self-host your GitLab Runners"
         },
         {
@@ -182,24 +182,6 @@
           "publishedOn": "2021-06-07T00:00:00.000Z",
           "wordCount": 1079,
           "title": "GitLab Patch Release: 13.12.3"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
-          "author": null,
-          "description": "I am an Engineering Manager working on a distributed engineering team at GitLab. Our team is distributed globally, and we have engineers working in India, Germany, Australia, New Zealand, and the United States. I am located in the U.S. in Pacific Standard Time (PST). In coordination with other globally distributed engineering teams, we recently responded to an abuse issue which was causing disruptions for legitimate GitLab.com users, and required a rapid response.\nGlobal distribution as an advantage\nMany managers view global team distribution as a constraint (because synchronous communication becomes more difficult), but it is possible to embrace the constraint and turn it into an advantage. When teams are globally distributed it is possible for work to continue around-the-clock, uninterru…",
-          "link": "https://about.gitlab.com/blog/2021/06/04/managing-global-projects-requiring-rapid-response-continuously/",
-          "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 2335,
-          "title": "How to leverage distributed engineering teams for rapid response"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/",
-          "author": null,
-          "description": "GitLab 14.0: Our annual major release\nGitLab 14.0 is coming to GitLab.com. Along with the exciting new features, it also includes planned deprecations because it is the major version release for 2021. We try to minimize breaking changes, but some changes are needed to improve workflows, performance, scalability, and more.\nThese changes will go live on GitLab.com sometime between May 23 – June 22, through our daily deployments, leading up to the official release of 14.0 on June 22. Keep reading to learn more about these important changes.\nGitLab 14.0 for self-managed users will also be released on June 22, read on for more information about deprecations and removals for self-managed instances.\nPlan\nRemoved deprecated GraphQL fields\nIn accordance with our GraphQL deprecation process, the fol…",
-          "link": "https://about.gitlab.com/blog/2021/06/04/gitlab-moving-to-14-breaking-changes/",
-          "publishedOn": "2021-06-04T00:00:00.000Z",
-          "wordCount": 6782,
-          "title": "GitLab.com is moving to 14.0 with a few breaking changes"
         }
       ]
     },
@@ -209,12 +191,66 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CXL-For-Linux-5.14",
+          "author": null,
+          "description": "Intel open-source engineers continue working on the bring-up around Compute Express Link (CXL) as the new open standard interconnect built off PCIe aiming to empower next-generation servers...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CXL-For-Linux-5.14",
+          "publishedOn": "2021-07-03T15:54:49.000Z",
+          "wordCount": 872,
+          "title": "CXL Bring-Up Continues - More Infrastructure For Linux 5.14, \"More Meat\" For Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=XFS-Linux-5.14",
+          "author": null,
+          "description": "The XFS file-system continues seeing a lot of work cleaning up the kernel driver code as well as some minor feature improvements heading into Linux 5.14...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=XFS-Linux-5.14",
+          "publishedOn": "2021-07-03T13:00:25.000Z",
+          "wordCount": 892,
+          "title": "XFS Sees A Lot Of Cleanups For Linux 5.14"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=June-2021-Benchmark-Updates",
+          "author": null,
+          "description": "During the past month were a number of updated Phoronix Test Suite test profiles made available on OpenBenchmarking.org as part of our open-source cross-platform benchmarking framework...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=June-2021-Benchmark-Updates",
+          "publishedOn": "2021-07-03T11:13:08.000Z",
+          "wordCount": 813,
+          "title": "New/Updated Benchmarks For June From GravityMark To L4D2 Vulkan, Updated Neural Networks"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-POWER",
+          "author": null,
+          "description": "The POWER architecture updates have been submitted for the ongoing Linux 5.14 merge window with a few changes worth pointing out this round...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-POWER",
+          "publishedOn": "2021-07-03T10:24:37.000Z",
+          "wordCount": 755,
+          "title": "Linux 5.14 POWERs Up The Microwatt Soft CPU Core"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Darktable-3.6-Released",
+          "author": null,
+          "description": "Darktable 3.6 is out as this summer's feature update to this open-source RAW photography software package and a great alternative to Adobe Photoshop Lightroom...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Darktable-3.6-Released",
+          "publishedOn": "2021-07-03T10:08:56.000Z",
+          "wordCount": 789,
+          "title": "Darktable 3.6 Released For This Free Alternative To Adobe Lightroom"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-EO-June-Wayland-Faster-SVG",
+          "author": null,
+          "description": "KDE developers ended June with yet more Plasma Wayland fixes plus a number of other worthwhile fixes too...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-EO-June-Wayland-Faster-SVG",
+          "publishedOn": "2021-07-03T09:58:50.000Z",
+          "wordCount": 738,
+          "title": "KDE Ends June With Wayland Fixes, More Responsive Plasma With Faster SVG Handling"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1",
           "author": null,
           "description": "Shipping now as the successor to last November's big OpenZFS 2.0 release is OpenZFS 2.1 as quite a worthy follow-on release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1",
           "publishedOn": "2021-07-02T20:39:14.000Z",
-          "wordCount": 823,
+          "wordCount": 846,
           "title": "OpenZFS 2.1 Released With dRAID, Compatibility Property, Better Performance"
         },
         {
@@ -223,7 +259,7 @@
           "description": "In celebrating the US holiday weekend, Wine 6.12 has arrived for popping in enjoying the latest Windows games and applications on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.12-Released",
           "publishedOn": "2021-07-02T20:05:58.000Z",
-          "wordCount": 755,
+          "wordCount": 814,
           "title": "Wine 6.12 Released With More PE Conversion, New Themes"
         },
         {
@@ -232,7 +268,7 @@
           "description": "The MMC/MEMSTICK updates for Linux 5.14 bring more work on bettering the kernel's Secure Digital card support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-SD-Improvements",
           "publishedOn": "2021-07-02T17:00:00.000Z",
-          "wordCount": 912,
+          "wordCount": 843,
           "title": "Linux 5.14 Bringing SD Cache Ctrl Support, Other SD Card Support Improvements"
         },
         {
@@ -241,7 +277,7 @@
           "description": "With Microsoft making public this week their early Windows Insider Preview builds of Windows 11, curiosity got the best of me to give it a whirl in looking at the performance of the early Windows 11 preview build compared to Ubuntu Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30311",
           "publishedOn": "2021-07-02T14:23:02.000Z",
-          "wordCount": 749,
+          "wordCount": 747,
           "title": "Linux Leading Over Early Windows 11 Benchmarks For AMD Ryzen 9 5950X Performance"
         },
         {
@@ -250,7 +286,7 @@
           "description": "Intel has wrapped up a 3+ year effort to overhaul and replace its existing RDMA (Remote Direct Memory Access) driver. With Linux 5.14 is their shiny new \"IRDMA\" driver while their former driver is being immediately removed...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IRDMA-Replacement-5.14",
           "publishedOn": "2021-07-02T10:16:40.000Z",
-          "wordCount": 958,
+          "wordCount": 951,
           "title": "Intel Overhauls & Replaces Its RDMA Linux Driver"
         },
         {
@@ -259,7 +295,7 @@
           "description": "Another release candidate of systemd 249 is available for testing while the actual release appears imminent...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-249-RC3",
           "publishedOn": "2021-07-02T09:52:08.000Z",
-          "wordCount": 818,
+          "wordCount": 797,
           "title": "Systemd 249 Has Another Chance For Testing Before Release"
         },
         {
@@ -268,7 +304,7 @@
           "description": "Even with Steam Play continuing to get into quite good shape for running recent Windows game releases on Linux with ease thanks to the work Valve has been investing into Proton, DXVK, VKD3D-Proton, and lower-level Linux graphics infrastructure, for now at least the overall marketshare is holding steady at around 0.8~0.9% for the past number of months...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-On-Linux-Tap-Dance-0.9",
           "publishedOn": "2021-07-02T09:39:06.000Z",
-          "wordCount": 930,
+          "wordCount": 909,
           "title": "Steam On Linux Still Tap Dancing Around 0.9% Marketshare"
         },
         {
@@ -277,7 +313,7 @@
           "description": "The 64-bit ARM architecture changes were submitted this week for the ongoing Linux 5.14...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-ARM64",
           "publishedOn": "2021-07-02T09:22:02.000Z",
-          "wordCount": 790,
+          "wordCount": 849,
           "title": "Linux 5.14 ARM64 Preps For When Not All The CPU Cores Support 32-bit Execution"
         },
         {
@@ -286,7 +322,7 @@
           "description": "Following recent reports Intel has begun seeding the Xe-HPG DG2 graphics card to developers and various reported leaks around the next-gen \"DG2\" graphics card, Intel's open-source Linux driver engineers have begun publishing patches for enabling the DG2 as well as the Xe_HP SDV...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Linux-Bring-Up",
           "publishedOn": "2021-07-01T22:12:20.000Z",
-          "wordCount": 877,
+          "wordCount": 856,
           "title": "Intel Begins Bringing Up DG2 Graphics Card, Xe_HP SDV Support For Linux"
         },
         {
@@ -295,7 +331,7 @@
           "description": "The MIPS code within the Linux kernel remains in a mature but rather stagnate state while the upstream MIPS architecture development has ceased and most vendors these days using Arm or RISC-V instead or even OpenPOWER prospects. But there still are some ongoing MIPS improvements to the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-MIPS",
           "publishedOn": "2021-07-01T20:03:55.000Z",
-          "wordCount": 952,
+          "wordCount": 852,
           "title": "Linux 5.14 Picks Up Support For A Tiny & Inexpensive MIPS IoT Single Board Computer"
         },
         {
@@ -304,7 +340,7 @@
           "description": "Bringing up Intel discrete graphics on Linux especially when it comes to accelerated 3D rendering has been a very lengthy process for the DG1 graphics card enablement, but it may soon actually start working...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG1-Nearly-At-Desktop",
           "publishedOn": "2021-07-01T15:21:07.000Z",
-          "wordCount": 1065,
+          "wordCount": 1035,
           "title": "Intel Discrete Graphics On Linux Nearing The Point Of A Working, Accelerated Desktop"
         },
         {
@@ -313,7 +349,7 @@
           "description": "The PHP 8.1 alpha releases got underway in June in working towards the next annual feature release for the PHP scripting language...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Alphas",
           "publishedOn": "2021-07-01T14:24:13.000Z",
-          "wordCount": 965,
+          "wordCount": 944,
           "title": "PHP 8.1 Alpha Releases Get Underway With Enums, Fsync, Fibers, More Performance"
         },
         {
@@ -322,7 +358,7 @@
           "description": "The Linux 5.14 RAS (Reliability, Availability and Serviceability) and EDAC (Error Detection And Correction) changes have landed with several improvements this time around on the Intel side...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-RAS-EDAC",
           "publishedOn": "2021-07-01T13:00:12.000Z",
-          "wordCount": 1000,
+          "wordCount": 899,
           "title": "Linux 5.14 Lands Changes For On-Package HBM Xeons, More Intel CPUs With In-Band ECC"
         },
         {
@@ -331,7 +367,7 @@
           "description": "Besides Sapphire Rapids introducing Advanced Matrix Extensions (AMX), new developer documentation has detailed AVX-512 FP16 capabilities coming with the next-generation Xeon processors. Intel has posted initial developer documentation around AVX512FP16 as well as a big set of GCC and LLVM Clang compiler patches for handling the new intrinsics...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AFX-512-FP16-GCC-Patches",
           "publishedOn": "2021-07-01T11:08:58.000Z",
-          "wordCount": 1113,
+          "wordCount": 1012,
           "title": "Intel Posts Big Set of Patches For AVX-512 FP16 Compiler Support For Sapphire Rapids"
         },
         {
@@ -340,7 +376,7 @@
           "description": "While Clang PGO support was sent in for Linux 5.14 as part of Clang compiler handling updates for this next kernel version, the functionality was subsequently dropped out and a new pull request issued after criticism from Linus Torvalds and others...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-PGO-Linux-Shot-Down",
           "publishedOn": "2021-07-01T10:13:40.000Z",
-          "wordCount": 981,
+          "wordCount": 880,
           "title": "Clang PGO Shot Down For Now From The Linux Kernel"
         },
         {
@@ -349,7 +385,7 @@
           "description": "The Direct Rendering Manager (kernel graphics/display driver) updates for Linux 5.14 are putting on the pounds with nearly 300k lines of new code added (312,187 insertions, 22,367 deletions). The big increase is driven by new AMD Radeon graphics support added, a new Microsoft driver added, and other changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-DRM-Drivers",
           "publishedOn": "2021-07-01T09:52:49.000Z",
-          "wordCount": 1001,
+          "wordCount": 900,
           "title": "Linux 5.14 GPU Driver Updates Come In Heavy With ~300k New Lines Of Code"
         },
         {
@@ -358,7 +394,7 @@
           "description": "During this past month on Phoronix were 242 original Linux/open-source/hardware related news articles written by your's truly and another 18 featured Linux hardware reviews / featured benchmark articles. This month also marked Phoronix.com turning seventeen years old for delivering Linux hardware reviews and news...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=June-2021-Highlights",
           "publishedOn": "2021-07-01T00:30:00.000Z",
-          "wordCount": 2694,
+          "wordCount": 2719,
           "title": "Intel Crocus, Linux 5.13, Other Vendor Happenings Made For An Exciting June"
         },
         {
@@ -367,7 +403,7 @@
           "description": "One of the exciting initiatives taking place recently within the CentOS camp has been the CentOS Hyperscale special interest group that is backed by engineers from Twitter and Facebook along with other organizations. They've been making more progress on offering their hyperscaler-focused packages/updates and even onto publishing a CentOS Hyperscale Workstation operating system image for testing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-Q2-2021",
           "publishedOn": "2021-06-30T19:16:19.000Z",
-          "wordCount": 947,
+          "wordCount": 926,
           "title": "CentOS Hyperscale Workstation Sees Experimental OS Builds, More Changes Coming"
         },
         {
@@ -376,7 +412,7 @@
           "description": "With the recent NVIDIA 470 series Linux driver beta this R470 branch is the point at which NVIDIA is ending its GeForce 600/700 series \"Kepler\" support. The 470 driver series will be maintained as a long-lived driver that will continue to see security updates and Linux kernel / X.Org Server compatibility updates for another three years. If this end-of-life status has you thinking about trying out the open-source \"Nouveau\" Linux driver with Kepler, here are some current benchmarks.",
           "link": "https://www.phoronix.com/vr.php?view=30304",
           "publishedOn": "2021-06-30T19:00:00.000Z",
-          "wordCount": 1103,
+          "wordCount": 1167,
           "title": "NVIDIA 470 EOL Drivers For Kepler Still Obliterating Open-Source Alternative"
         },
         {
@@ -385,7 +421,7 @@
           "description": "The latest public code patches on the mailing list today are preparing for newer AMD heterogeneous servers that will have Aldebaran GPU nodes connected via xGMI links to the CPU(s) and the GPU dies in turn having HBM2 memory...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-AMD-EDAC-HBM2-Aldebaran",
           "publishedOn": "2021-06-30T18:45:48.000Z",
-          "wordCount": 1050,
+          "wordCount": 1029,
           "title": "Linux Prepares For AMD Servers With Aldebaran GPU Nodes Sporting HBM2"
         },
         {
@@ -394,7 +430,7 @@
           "description": "Michel Dänzer of Red Hat is preparing the release of XWayland 21.1.2 as the newest update to this standalone XWayland package separate from a whole X.Org Server release for running X11 clients within a Wayland environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.2-RC",
           "publishedOn": "2021-06-30T16:21:39.000Z",
-          "wordCount": 847,
+          "wordCount": 826,
           "title": "XWayland 21.1.2 Nears With NVIDIA Hardware Acceleration"
         },
         {
@@ -403,7 +439,7 @@
           "description": "The HID subsystem updates for Linux 5.14 continue improving consumer device support from newer AMD Ryzen laptops to multi-touch improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-HID",
           "publishedOn": "2021-06-30T15:12:15.000Z",
-          "wordCount": 972,
+          "wordCount": 961,
           "title": "Linux 5.14 Ready With Light Sensor + Human Presence Detection For Newer AMD Laptops"
         },
         {
@@ -412,7 +448,7 @@
           "description": "AMD has issued their Radeon Pro Software for Enterprise 21.Q2 for Linux driver update as their quarterly packaged driver update intended for use with Radeon Pro graphics cards and former FirePro line-up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-21.Q2-Linux-Driver",
           "publishedOn": "2021-06-30T14:18:59.000Z",
-          "wordCount": 853,
+          "wordCount": 898,
           "title": "Radeon Pro Software for Enterprise 21.Q2 for Linux Driver Released"
         },
         {
@@ -421,7 +457,7 @@
           "description": "Given the dominance of Linux-based devices from embedded/mobile (Android) through data centers and Linux powering all sorts of equipment, the networking subsystem updates for new Linux kernel merge windows continues to be very lively with new hardware support and never-ending improvements and new features...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Networking",
           "publishedOn": "2021-06-30T11:15:00.000Z",
-          "wordCount": 937,
+          "wordCount": 925,
           "title": "The Big Set Of Networking Changes For Linux 5.14"
         },
         {
@@ -430,7 +466,7 @@
           "description": "In preparing to close out the second quarter, the Intel Media Driver 2021Q2 was released today as the company's open-source stack for supporting GPU-accelerated video encode/decode on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Media-Driver-2021Q2",
           "publishedOn": "2021-06-30T10:15:51.000Z",
-          "wordCount": 776,
+          "wordCount": 755,
           "title": "Intel Media Driver 2021Q2 Focuses On Gen12 Enhancements"
         },
         {
@@ -439,62 +475,8 @@
           "description": "Headlining the power management updates for the Linux 5.14 merge window is the Intel P-State CPU frequency scaling driver now being adapted to handle hybrid processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Power-Management",
           "publishedOn": "2021-06-30T09:45:22.000Z",
-          "wordCount": 843,
+          "wordCount": 823,
           "title": "Intel P-State Driver Ready To Take On Alder Lake Hybrid Processors"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1-rc8",
-          "author": null,
-          "description": "The release candidates for OpenZFS 2.1 continue dragging on with Tuesday marking the eighth such test version while bringing Linux 5.13 compatibility and other fixes...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.1-rc8",
-          "publishedOn": "2021-06-30T04:00:00.000Z",
-          "wordCount": 778,
-          "title": "OpenZFS 2.1-rc8 Brings Linux 5.13 Compatibility, More Fixes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=System76-Pop-OS-21.04",
-          "author": null,
-          "description": "Linux PC hardware manufacturer System76 has released Pop!_OS 21.04 as the newest version of their Ubuntu downstream that also features their new GNOME-based COSMIC desktop...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=System76-Pop-OS-21.04",
-          "publishedOn": "2021-06-30T00:25:25.000Z",
-          "wordCount": 730,
-          "title": "System76 Releases Pop!_OS 21.04 With New COSMIC Desktop"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Laptops",
-          "author": null,
-          "description": "The x86 platform driver updates have been submitted for the in-development Linux 5.14 kernel. This area of the kernel principally benefits x86 laptop support on Linux but also has other drivers like around the Intel Speed Select Technology and more...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Laptops",
-          "publishedOn": "2021-06-29T19:45:24.000Z",
-          "wordCount": 886,
-          "title": "Laptop Improvements With Linux 5.14 Benefit Lenovo, Dell, Microsoft Surface Devices"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-EPYC-Breakout-KVM",
-          "author": null,
-          "description": "Linux's KVM virtualization component previously could allow a virtual machine guest relying on AMD SVM virtualization to breakout into the host. This bug persisted in the Linux kernel from late 2020 to March 2021 before being addressed and is the first known issue of such a guest-to-host breakout that didn't also depend upon bugs within user-space components...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-EPYC-Breakout-KVM",
-          "publishedOn": "2021-06-29T18:00:02.000Z",
-          "wordCount": 1088,
-          "title": "Linux Formerly Affected By A KVM SVM Guest-To-Host Breakout Code Vulnerability"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30303",
-          "author": null,
-          "description": "After looking recently at the FreeBSD 13.0 and DragonFlyBSD 6.0 performance on AMD EPYC 7003 \"Milan\" using a Tyan Transport CX GC68-B8036-LE server, the next round of benchmarking from this server with AMD EPYC 7543 32-core processor was looking at its support (all tested 2021 Linux distributions were running fine on this latest-generation AMD server) and performance across 11 current Linux distribution releases from Arch, CentOS, Clear Linux, Debian, Fedora, Rocky Linux, Ubuntu, and openSUSE.",
-          "link": "https://www.phoronix.com/vr.php?view=30303",
-          "publishedOn": "2021-06-29T15:07:17.000Z",
-          "wordCount": 927,
-          "title": "AMD EPYC Milan Performance Across 11 Different 2021 Linux Distributions"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Sapphire-Rapids-2022-Q2-Ramp",
-          "author": null,
-          "description": "While Xeon Scalable \"Sapphire Rapids\" was talked about for launching in late 2021, that was widely expected to be delayed. Intel today proactively confirmed that Sapphire Rapids will now begin production in Q1'2022 with their ramp beginning in Q2'2022...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sapphire-Rapids-2022-Q2-Ramp",
-          "publishedOn": "2021-06-29T14:27:11.000Z",
-          "wordCount": 1053,
-          "title": "Intel Confirms Q2'22 Ramp For Xeon Sapphire Rapids As Good News For Their Linux Bring-Up"
         }
       ]
     }
