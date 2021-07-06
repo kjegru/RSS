@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-05T00:18:59.834Z</id>
+    <id>urn:2021-07-06T00:21:19.725Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-05T00:18:59.834Z</updated>
+    <updated>2021-07-06T00:21:19.725Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[X.Org Server 21.1 Development Snapshot Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-21.0.99.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-21.0.99.1"/>
+        <updated>2021-07-05T22:33:42.000Z</updated>
+        <summary type="html"><![CDATA[There hasn't been a major X.Org Server release since v1.20 three years ago and not much interest in seeing a new release with more Linux distributions switching to Wayland-based desktops and XWayland recently seeing its own standalone releases. But now there is an X.Org Server 21.1 development release as the first step towards a possible new stable release in the future...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Compressing Debian Packages With Zstd]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Zstd-Debs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Zstd-Debs"/>
+        <updated>2021-07-05T21:27:38.000Z</updated>
+        <summary type="html"><![CDATA[It's coming three years later than originally planned but with Ubuntu 21.10 this autumn the Debian packages will now be compressed via Zstd for offering speedier decompression speeds...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS Laptop dGPU Toggling, eGPU Handling, Panel Overdrive Patches For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Laptop-GPU-Panel-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Laptop-GPU-Panel-Patches"/>
+        <updated>2021-07-05T18:05:40.000Z</updated>
+        <summary type="html"><![CDATA[A set of Linux kernel patches to the asus-wmi driver are pending that improve the support for newer ASUS gaming laptops...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.184 Includes NVIDIA Extension For RDMA Usage]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.184</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.184"/>
+        <updated>2021-07-05T13:31:04.000Z</updated>
+        <summary type="html"><![CDATA[Last year I wrote about NVIDIA working on Vulkan support for RDMA memory. That work around RDMA (Remote Direct Memory Access) memory usage in the Vulkan context is now available with today's Vulkan 1.2.184 specification update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Linux 5.14 Tracer To Help With Measuring Operating System Noise]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Tracers</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Tracers"/>
+        <updated>2021-07-05T11:33:26.000Z</updated>
+        <summary type="html"><![CDATA[The tracing subsystem within the Linux kernel is seeing some exciting improvements with Linux 5.14 to help with low-latency analysis and also measuring operating system noise...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14's Perf Tooling Makes Preparations For Intel Alder Lake]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Perf-Tooling</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Perf-Tooling"/>
+        <updated>2021-07-05T10:25:49.000Z</updated>
+        <summary type="html"><![CDATA[The Linux kernel's tooling around the perf subsystem is the latest area seeing a lot of work for Intel's upcoming Alder Lake processors with a mix of high performance and low power processor cores...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Works Around Compatibility With Some Digital Camera exFAT File-Systems]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-exFAT</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-exFAT"/>
+        <updated>2021-07-05T10:16:54.000Z</updated>
+        <summary type="html"><![CDATA[Merged back in Linux 5.4 in late 2019 was the exFAT file-system driver that has proven to be quite mature at this stage with the work led by Samsung under the blessing of Microsoft. There hasn't been much in the way of exFAT file-system driver changes in recent kernel releases given its maturity. Even with Linux 5.14 there are just two exFAT patches but end up being notable at least for some users due to fixing file-system compatibility with some digital cameras...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 13.12.7]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/"/>
+        <updated>2021-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 13.12.7 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Fix pages deployment storage migration
+Reintroduce recursive_approach_for_all_projects default-enabled
+Exempt unicorn['svlogd_prefix'] from deprecation check
+Gitaly: fixes to issues with strong consistency/transactional voting
+Geo - Fix state value in the lfs_object_registry table
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Latest Patches Sent Out For Adding Rust Support To The Linux Kernel]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Independence-Linux-Kernel</id>
@@ -241,76 +343,6 @@
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-MIPS"/>
         <updated>2021-07-01T20:03:55.000Z</updated>
         <summary type="html"><![CDATA[The MIPS code within the Linux kernel remains in a mature but rather stagnate state while the upstream MIPS architecture development has ceased and most vendors these days using Arm or RISC-V instead or even OpenPOWER prospects. But there still are some ongoing MIPS improvements to the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Discrete Graphics On Linux Nearing The Point Of A Working, Accelerated Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Nearly-At-Desktop</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Nearly-At-Desktop"/>
-        <updated>2021-07-01T15:21:07.000Z</updated>
-        <summary type="html"><![CDATA[Bringing up Intel discrete graphics on Linux especially when it comes to accelerated 3D rendering has been a very lengthy process for the DG1 graphics card enablement, but it may soon actually start working...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PHP 8.1 Alpha Releases Get Underway With Enums, Fsync, Fibers, More Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PHP-8.1-Alphas</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PHP-8.1-Alphas"/>
-        <updated>2021-07-01T14:24:13.000Z</updated>
-        <summary type="html"><![CDATA[The PHP 8.1 alpha releases got underway in June in working towards the next annual feature release for the PHP scripting language...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Lands Changes For On-Package HBM Xeons, More Intel CPUs With In-Band ECC]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RAS-EDAC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RAS-EDAC"/>
-        <updated>2021-07-01T13:00:12.000Z</updated>
-        <summary type="html"><![CDATA[The Linux 5.14 RAS (Reliability, Availability and Serviceability) and EDAC (Error Detection And Correction) changes have landed with several improvements this time around on the Intel side...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts Big Set of Patches For AVX-512 FP16 Compiler Support For Sapphire Rapids]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AFX-512-FP16-GCC-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AFX-512-FP16-GCC-Patches"/>
-        <updated>2021-07-01T11:08:58.000Z</updated>
-        <summary type="html"><![CDATA[Besides Sapphire Rapids introducing Advanced Matrix Extensions (AMX), new developer documentation has detailed AVX-512 FP16 capabilities coming with the next-generation Xeon processors. Intel has posted initial developer documentation around AVX512FP16 as well as a big set of GCC and LLVM Clang compiler patches for handling the new intrinsics...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clang PGO Shot Down For Now From The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-Shot-Down</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-PGO-Linux-Shot-Down"/>
-        <updated>2021-07-01T10:13:40.000Z</updated>
-        <summary type="html"><![CDATA[While Clang PGO support was sent in for Linux 5.14 as part of Clang compiler handling updates for this next kernel version, the functionality was subsequently dropped out and a new pull request issued after criticism from Linus Torvalds and others...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 GPU Driver Updates Come In Heavy With ~300k New Lines Of Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DRM-Drivers</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DRM-Drivers"/>
-        <updated>2021-07-01T09:52:49.000Z</updated>
-        <summary type="html"><![CDATA[The Direct Rendering Manager (kernel graphics/display driver) updates for Linux 5.14 are putting on the pounds with nearly 300k lines of new code added (312,187 insertions, 22,367 deletions). The big increase is driven by new AMD Radeon graphics support added, a new Microsoft driver added, and other changes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Crocus, Linux 5.13, Other Vendor Happenings Made For An Exciting June]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Highlights</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Highlights"/>
-        <updated>2021-07-01T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[During this past month on Phoronix were 242 original Linux/open-source/hardware related news articles written by your's truly and another 18 featured Linux hardware reviews / featured benchmark articles. This month also marked Phoronix.com turning seventeen years old for delivering Linux hardware reviews and news...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
