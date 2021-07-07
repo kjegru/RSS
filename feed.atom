@@ -1,10 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-06T00:21:19.725Z</id>
+    <id>urn:2021-07-07T00:20:15.194Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-06T00:21:19.725Z</updated>
+    <updated>2021-07-07T00:20:15.194Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Staging Drops A Set Of Drivers For The Second Time, Intel QEP Added]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Staging</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Staging"/>
+        <updated>2021-07-06T22:41:23.000Z</updated>
+        <summary type="html"><![CDATA[The staging changes were submitted on Monday for the ongoing Linux 5.14 for this area of the kernel where immature / yet-to-be-cleaned-up code lives to prove itself before being ready to graduate to the proper mainline kernel area...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Foundation Launches Open 3D Foundation, Amazon Lumberyard Spun As Open 3D Engine]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30314</id>
+        <link href="https://www.phoronix.com/vr.php?view=30314"/>
+        <updated>2021-07-06T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Linux Foundation and their partners are today announcing their intent to form the Open 3D Foundation to help foster 3D game and simulation technologies. As a key part of this new Open 3D Foundation, Amazon's Lumberyard game engine that started off based on CryEngine is going to see an Apache 2.0 licensed copy made available as the Open 3D Engine (O3DE).]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Early Look At Windows 11 WSL2 Performance Against Ubuntu Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30312</id>
+        <link href="https://www.phoronix.com/vr.php?view=30312"/>
+        <updated>2021-07-06T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For those making use of Microsoft's Windows Subsystem for Linux (WSL2) for enjoying Linux application support within Windows, here are some early benchmarks of the inaugural Windows Insider Preview build of Windows 11 with WSL2 against Windows 10 and then Ubuntu Linux bare metal on the same hardware.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qt 6.2 Beta Released As The First Qt6 LTS Release Moves Closer]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-Beta"/>
+        <updated>2021-07-06T13:02:15.000Z</updated>
+        <summary type="html"><![CDATA[The Qt Company today issued the first of several expected betas for the upcoming Qt 6.2 toolkit release that will also be their first Qt 6 long-term support version...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More OpenRISC LiteX Drivers Expected To Be Upstreamed In Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-LiteX-Drivers-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-LiteX-Drivers-Coming"/>
+        <updated>2021-07-06T10:19:17.000Z</updated>
+        <summary type="html"><![CDATA[While RISC-V secures much of the spotlight these days when it comes to open-source processor instruction set architectures, OpenRISC is still moving along and soon should see more OpenRISC LiteX drivers upstreamed...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS Stream 9 Builds Flowing, Opened Up For Contributors]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Stream-9-Builds</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Stream-9-Builds"/>
+        <updated>2021-07-06T10:00:01.000Z</updated>
+        <summary type="html"><![CDATA[More build artifacts of CentOS Stream 9 are being published now while more OS images are still on the way. CentOS Stream 9 is open for contributions as RHEL's future upstream...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Continues Work On USB4 Support Bring-Up]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Continues-USB4-TB</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Continues-USB4-TB"/>
+        <updated>2021-07-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Greg Kroah-Hartman on mailed in the USB/Thunderbolt changes targeting the Linux 5.14 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Following NetBSD, DragonFlyBSD Now Has "COVID"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-COVID</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-COVID"/>
+        <updated>2021-07-06T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There is now covid going around the BSDs... DragonFlyBSD has ported it from NetBSD...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.0.3]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/"/>
+        <updated>2021-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.0.3 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 14.0 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Reintroduce recursive_approach_for_all_projects default-enabled
+Fix pages deployment storage migration
+Fix frequent items timestamps not updated
+Fix bug where Milestone page led to console error
+Fix broken Time Tracking Reports on Issuable sidebar
+Geo - Fix state value in the lfs_object_registry table
+Revert a 14.0 change in the deployments API
+DevOps Adoption - ensure displayNamespaceId is included
+Geo - Move migration to a pre-deployment migration
+Run batched migrations on self-managed instances
+Fix deploy keys not working with LFS auth check
+Repository: Fix repo replication with transactions
+Repository: Fix excessive voting in CreateRepositoryFromBundle
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[X.Org Server 21.1 Development Snapshot Released]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-21.0.99.1</id>
@@ -278,76 +397,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux Leading Over Early Windows 11 Benchmarks For AMD Ryzen 9 5950X Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30311</id>
-        <link href="https://www.phoronix.com/vr.php?view=30311"/>
-        <updated>2021-07-02T14:23:02.000Z</updated>
-        <summary type="html"><![CDATA[With Microsoft making public this week their early Windows Insider Preview builds of Windows 11, curiosity got the best of me to give it a whirl in looking at the performance of the early Windows 11 preview build compared to Ubuntu Linux.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Overhauls & Replaces Its RDMA Linux Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IRDMA-Replacement-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IRDMA-Replacement-5.14"/>
-        <updated>2021-07-02T10:16:40.000Z</updated>
-        <summary type="html"><![CDATA[Intel has wrapped up a 3+ year effort to overhaul and replace its existing RDMA (Remote Direct Memory Access) driver. With Linux 5.14 is their shiny new "IRDMA" driver while their former driver is being immediately removed...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Systemd 249 Has Another Chance For Testing Before Release]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-RC3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249-RC3"/>
-        <updated>2021-07-02T09:52:08.000Z</updated>
-        <summary type="html"><![CDATA[Another release candidate of systemd 249 is available for testing while the actual release appears imminent...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam On Linux Still Tap Dancing Around 0.9% Marketshare]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-On-Linux-Tap-Dance-0.9</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-On-Linux-Tap-Dance-0.9"/>
-        <updated>2021-07-02T09:39:06.000Z</updated>
-        <summary type="html"><![CDATA[Even with Steam Play continuing to get into quite good shape for running recent Windows game releases on Linux with ease thanks to the work Valve has been investing into Proton, DXVK, VKD3D-Proton, and lower-level Linux graphics infrastructure, for now at least the overall marketshare is holding steady at around 0.8~0.9% for the past number of months...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 ARM64 Preps For When Not All The CPU Cores Support 32-bit Execution]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-ARM64</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-ARM64"/>
-        <updated>2021-07-02T09:22:02.000Z</updated>
-        <summary type="html"><![CDATA[The 64-bit ARM architecture changes were submitted this week for the ongoing Linux 5.14...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Begins Bringing Up DG2 Graphics Card, Xe_HP SDV Support For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Linux-Bring-Up</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Linux-Bring-Up"/>
-        <updated>2021-07-01T22:12:20.000Z</updated>
-        <summary type="html"><![CDATA[Following recent reports Intel has begun seeding the Xe-HPG DG2 graphics card to developers and various reported leaks around the next-gen "DG2" graphics card, Intel's open-source Linux driver engineers have begun publishing patches for enabling the DG2 as well as the Xe_HP SDV...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Picks Up Support For A Tiny & Inexpensive MIPS IoT Single Board Computer]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-MIPS</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-MIPS"/>
-        <updated>2021-07-01T20:03:55.000Z</updated>
-        <summary type="html"><![CDATA[The MIPS code within the Linux kernel remains in a mature but rather stagnate state while the upstream MIPS architecture development has ceased and most vendors these days using Arm or RISC-V instead or even OpenPOWER prospects. But there still are some ongoing MIPS improvements to the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Security Release: 14.0.2, 13.12.6, and 13.11.6]]></title>
         <id>https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/</id>
         <link href="https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/"/>
@@ -357,16 +406,6 @@ These versions contain important security fixes, and we strongly recommend that 
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA 470 EOL Drivers For Kepler Still Obliterating Open-Source Alternative]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30304</id>
-        <link href="https://www.phoronix.com/vr.php?view=30304"/>
-        <updated>2021-06-30T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the recent NVIDIA 470 series Linux driver beta this R470 branch is the point at which NVIDIA is ending its GeForce 600/700 series "Kepler" support. The 470 driver series will be maintained as a long-lived driver that will continue to see security updates and Linux kernel / X.Org Server compatibility updates for another three years. If this end-of-life status has you thinking about trying out the open-source "Nouveau" Linux driver with Kepler, here are some current benchmarks.]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -679,52 +718,6 @@ In this tutorial, we will explore the importance of protecting client-side appli
 The importance of runtime code protection
 With web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.
 This concern has been widely covered in NIST, ISO 2…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Scaleway to self-host your GitLab Runners]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/07/tuto-mac-m1-gitlab-ci/"/>
-        <updated>2021-06-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab's complete DevOps platform comes with built-in continuous integration (CI) and continuous delivery (CD) via GitLab CI/CD. GitLab CI/CD is a great solution to increase developer productivity and motivation to write higher-quality code without sacrificing speed. It runs a series of tests every time a commit is pushed, providing immediate visibility into the results of changes in the codebase. While it is not a hassle to set up a CI using Linux-based machines, iOS and macOS developers may find it is more complicated to have access to a Mac that is connected and available 24 hours a day.
-GitLab Runners, provided on GitLab.com, are the engine that executes CI workflows. Due to various requirements, some users may opt to self-host runners on public cloud VMs. This is super easy if the bui…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 13.12.3]]></title>
-        <id>https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/06/07/gitlab-13-12-3-released/"/>
-        <updated>2021-06-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 13.12.3 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-last month's 13.12 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Fix maven & gradle examples in the docs, enabling line-by-line display of test coverage in merge requests out-of-the-box (for java &
-kotlin)
-Fix issue with frames not loading in Safari
-Improve SSH key expiration warning emails
-Add an option to expose description_html in Release API [RUN ALL RSPEC] [RUN AS-IF-FOSS]
-Fix CSP issues related to captchas
-Set CSP back to disabled by default
-Fix referrer option passed to Akismet client
-Fix passing environment variables for migrations
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
