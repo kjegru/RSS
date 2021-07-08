@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-07T00:20:15.194Z</id>
+    <id>urn:2021-07-08T00:18:51.770Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-07T00:20:15.194Z</updated>
+    <updated>2021-07-08T00:18:51.770Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[F2FS Brings Compression Improvements To Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=F2FS-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=F2FS-Linux-5.14"/>
+        <updated>2021-07-07T22:43:05.000Z</updated>
+        <summary type="html"><![CDATA[The Flash-Friendly File-System (F2FS) continues seeing new features and improvements to this file-system that is increasingly used by Android devices and other flash/SSD-focused systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel's Mesa Drivers Using The IGC Compiler Delayed]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Mesa-2022</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Mesa-2022"/>
+        <updated>2021-07-07T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last summer I wrote about Intel prototyping their Mesa drivers to use the IGC compiler, which followed Intel transitioning their Windows driver to use this compiler that was originally written for their open-source Linux compute stack. While they were making good progress last year on having their Mesa drivers use the IGC compiler, the project has been pushed back...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systemd 249 Released With New Option For Simple Whole-File-System A/B Updates]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-249"/>
+        <updated>2021-07-07T18:12:59.000Z</updated>
+        <summary type="html"><![CDATA[Systemd 249 has been promoted to stable as the newest version of this Linux init system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung Posts Newest "KSMBD" Linux Patches For In-Kernel SMB3 Server]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KSMBD-In-Kernel-SMB3-v5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KSMBD-In-Kernel-SMB3-v5"/>
+        <updated>2021-07-07T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[For quite a while now Samsung engineers have been developing an in-kernel SMB3 file sharing server for the Linux kernel. In recent months that code has been maturing more and now the latest version of this KSMBD kernel code has been published...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Now Handles The Microsoft Xbox One Select/Share Button On Its Controllers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Input</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Input"/>
+        <updated>2021-07-07T14:45:37.000Z</updated>
+        <summary type="html"><![CDATA[The Linux 5.14 input subsystem updates have landed with new hardware support and other changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2 Lands NVIDIA's Code For Handling Alternate GBM Backends]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Alternate-GBM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Alternate-GBM"/>
+        <updated>2021-07-07T13:01:01.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year was the proposed NVIDIA code from NVIDIA for allowing Mesa's GBM to support alternative back-ends. This support is notable given that most Wayland compositors are catering to using Mesa's Generic Buffer Manager (GBM) rather than EGLStreams or other options for buffer management. That support code has now been merged into Mesa 21.2...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Sapphire Rapids To Have Experimental "RAR" Feature]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-RAR-Remote-Action-Request</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-RAR-Remote-Action-Request"/>
+        <updated>2021-07-07T10:18:25.000Z</updated>
+        <summary type="html"><![CDATA[Adding to the lengthy list of features for Intel's next-gen Xeon "Sapphire Rapids" processors next year is an admittedly experimental feature called RAR, or Remote Action Requests...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Bringing A Major Cleanup To The x86 FPU Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-x86-FPU-Cleanup</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-x86-FPU-Cleanup"/>
+        <updated>2021-07-07T09:50:33.000Z</updated>
+        <summary type="html"><![CDATA[The Linux 5.14 kernel so far is running smoothly in my early tests across a variety of systems but coming in this morning is a pull request having the potential to cause some fall-out on x86/x86_64 systems but hopefully will not...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm Proposes ASF As Their Framework Building Off Linux's CPUFreq + CPUIdle]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-ASF</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-ASF"/>
+        <updated>2021-07-07T09:35:42.000Z</updated>
+        <summary type="html"><![CDATA[Arm engineers are working on the Active Stats Framework (ASF) that is a new kernel framework for Linux effectively combining the current roles of CPUFreq and CPUIdle...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/"/>
+        <updated>2021-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).
+These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
+GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14 Staging Drops A Set Of Drivers For The Second Time, Intel QEP Added]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Staging</id>
@@ -302,96 +404,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-EXT4"/>
         <updated>2021-07-04T00:32:10.000Z</updated>
         <summary type="html"><![CDATA[The EXT4 file-system updates have been sent in for the ongoing Linux 5.14 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CXL Bring-Up Continues - More Infrastructure For Linux 5.14, "More Meat" For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CXL-For-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CXL-For-Linux-5.14"/>
-        <updated>2021-07-03T15:54:49.000Z</updated>
-        <summary type="html"><![CDATA[Intel open-source engineers continue working on the bring-up around Compute Express Link (CXL) as the new open standard interconnect built off PCIe aiming to empower next-generation servers...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XFS Sees A Lot Of Cleanups For Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XFS-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XFS-Linux-5.14"/>
-        <updated>2021-07-03T13:00:25.000Z</updated>
-        <summary type="html"><![CDATA[The XFS file-system continues seeing a lot of work cleaning up the kernel driver code as well as some minor feature improvements heading into Linux 5.14...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New/Updated Benchmarks For June From GravityMark To L4D2 Vulkan, Updated Neural Networks]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Benchmark-Updates</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=June-2021-Benchmark-Updates"/>
-        <updated>2021-07-03T11:13:08.000Z</updated>
-        <summary type="html"><![CDATA[During the past month were a number of updated Phoronix Test Suite test profiles made available on OpenBenchmarking.org as part of our open-source cross-platform benchmarking framework...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 POWERs Up The Microwatt Soft CPU Core]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-POWER</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-POWER"/>
-        <updated>2021-07-03T10:24:37.000Z</updated>
-        <summary type="html"><![CDATA[The POWER architecture updates have been submitted for the ongoing Linux 5.14 merge window with a few changes worth pointing out this round...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Darktable 3.6 Released For This Free Alternative To Adobe Lightroom]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Darktable-3.6-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Darktable-3.6-Released"/>
-        <updated>2021-07-03T10:08:56.000Z</updated>
-        <summary type="html"><![CDATA[Darktable 3.6 is out as this summer's feature update to this open-source RAW photography software package and a great alternative to Adobe Photoshop Lightroom...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Ends June With Wayland Fixes, More Responsive Plasma With Faster SVG Handling]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-EO-June-Wayland-Faster-SVG</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-EO-June-Wayland-Faster-SVG"/>
-        <updated>2021-07-03T09:58:50.000Z</updated>
-        <summary type="html"><![CDATA[KDE developers ended June with yet more Plasma Wayland fixes plus a number of other worthwhile fixes too...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenZFS 2.1 Released With dRAID, Compatibility Property, Better Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1"/>
-        <updated>2021-07-02T20:39:14.000Z</updated>
-        <summary type="html"><![CDATA[Shipping now as the successor to last November's big OpenZFS 2.0 release is OpenZFS 2.1 as quite a worthy follow-on release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.12 Released With More PE Conversion, New Themes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.12-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.12-Released"/>
-        <updated>2021-07-02T20:05:58.000Z</updated>
-        <summary type="html"><![CDATA[In celebrating the US holiday weekend, Wine 6.12 has arrived for popping in enjoying the latest Windows games and applications on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Bringing SD Cache Ctrl Support, Other SD Card Support Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SD-Improvements</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-SD-Improvements"/>
-        <updated>2021-07-02T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The MMC/MEMSTICK updates for Linux 5.14 bring more work on bettering the kernel's Secure Digital card support...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
