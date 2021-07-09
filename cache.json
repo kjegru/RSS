@@ -22,12 +22,30 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/",
+          "author": null,
+          "description": "While looking at GitLab's Gitpod integration, I came across two rather critical flaws in Gitpod itself. In this post, I'll cover the process of identifying the vulnerabilities and some background on Gitpod. The more critical issue was fixed and the fix was pushed to production by the Gitpod team in less than five hours from my initial report. Huge kudos to the Gitpod team for that quick turnaround.\nWhat is Gitpod?\nFirst, let's see what Gitpod actually is – taken straight from gitpod.io:\nSpin up fresh, automated dev environments for each task, in the cloud, in seconds.\nThat quote sums it up really well. You can login to Gitpod with your GitLab, GitHub, or Bitbucket account and then use a pretty full-blown, web-based development environment to work on your code, run tests, or even spin up se…",
+          "link": "https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/",
+          "publishedOn": "2021-07-08T00:00:00.000Z",
+          "wordCount": 2917,
+          "title": "A brief look at Gitpod, two bugs, and a quick fix"
+        },
+        {
+          "id": "https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/",
+          "author": null,
+          "description": "Today we are releasing version 14.0.5 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nResolve \"404 for package details link under Infrastructure Registry for projects nested under 2 group levels\"\nResolve \"Terraform module usage instructions are incorrect\"\nAdd documentation for boards epic create\nInitialize conversion of ci_builds_metadata.id for bigint migration\nFix git clone for projects with a trailing dot over HTTP\nDo not create audit event for failed logins on read-only DB\nAdd prefix to autocomplete path\nReturn empty strings for Jira links when URL is not set\nFix libmagic not being able to find magic files\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/",
+          "publishedOn": "2021-07-08T00:00:00.000Z",
+          "wordCount": 1071,
+          "title": "GitLab Patch Release: 14.0.5"
+        },
+        {
           "id": "https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/",
           "author": null,
           "description": "Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…",
           "link": "https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/",
           "publishedOn": "2021-07-07T00:00:00.000Z",
-          "wordCount": 1252,
+          "wordCount": 1239,
           "title": "GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7"
         },
         {
@@ -36,7 +54,7 @@
           "description": "Today we are releasing version 14.0.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nReintroduce recursive_approach_for_all_projects default-enabled\nFix pages deployment storage migration\nFix frequent items timestamps not updated\nFix bug where Milestone page led to console error\nFix broken Time Tracking Reports on Issuable sidebar\nGeo - Fix state value in the lfs_object_registry table\nRevert a 14.0 change in the deployments API\nDevOps Adoption - ensure displayNamespaceId is included\nGeo - Move migration to a pre-deployment migration\nRun batched migrations on self-managed instances\nFix deploy keys not working with LFS auth check\nRepository: Fix repo replication with transactions\nRepository: Fix excessive voting in CreateRepositoryFromBundle\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/",
           "publishedOn": "2021-07-06T00:00:00.000Z",
-          "wordCount": 1103,
+          "wordCount": 1084,
           "title": "GitLab Patch Release: 14.0.3"
         },
         {
@@ -45,7 +63,7 @@
           "description": "Today we are releasing version 13.12.7 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix pages deployment storage migration\nReintroduce recursive_approach_for_all_projects default-enabled\nExempt unicorn['svlogd_prefix'] from deprecation check\nGitaly: fixes to issues with strong consistency/transactional voting\nGeo - Fix state value in the lfs_object_registry table\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/",
           "publishedOn": "2021-07-05T00:00:00.000Z",
-          "wordCount": 1049,
+          "wordCount": 1030,
           "title": "GitLab Patch Release: 13.12.7"
         },
         {
@@ -182,15 +200,6 @@
           "publishedOn": "2021-06-10T00:00:00.000Z",
           "wordCount": 2135,
           "title": "How to get GitOps right with infrastructure as code security"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/",
-          "author": null,
-          "description": "Development teams are building, testing, and shipping code faster than ever before. Today, we know that security has a role to play at the early stages of the DevOps workflow, but these security controls are mostly centered around finding and fixing bugs and vulnerabilities during development.\nIn this tutorial, we will explore the importance of protecting client-side application code at runtime and guide you through implementing it in your GitLab instance using the integration with Jscrambler.\nThe importance of runtime code protection\nWith web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.\nThis concern has been widely covered in NIST, ISO 2…",
-          "link": "https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/",
-          "publishedOn": "2021-06-09T00:00:00.000Z",
-          "wordCount": 2931,
-          "title": "How to protect your source code with GitLab and Jscrambler"
         }
       ]
     },
@@ -200,12 +209,102 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-SNP-Linux-v4",
+          "author": null,
+          "description": "AMD engineers and their partners continue work towards upstreaming Secure Encrypted Virtualization's Secure Nested Paging (SEV-SNP) support for the mainline Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-SNP-Linux-v4",
+          "publishedOn": "2021-07-08T19:30:00.000Z",
+          "wordCount": 1080,
+          "title": "AMD SEV-SNP Support Revised For Linux + Updated Hyper-V Isolation VM Code"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30322",
+          "author": null,
+          "description": "For today's benchmarking is a look at how the GNU Compiler Collection has performed over the past few years going from the GCC 8 stable series introduced in 2018 through the recently released GCC 11.1 stable feature release plus also including the current early development snapshot of GCC 12.",
+          "link": "https://www.phoronix.com/vr.php?view=30322",
+          "publishedOn": "2021-07-08T16:00:00.000Z",
+          "wordCount": 693,
+          "title": "GCC 8 Through GCC 11 Stable Plus GCC 12 Compiler Benchmarks"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.4",
+          "author": null,
+          "description": "VKD3D-Proton 2.4 is now available as the latest feature release for this Direct3D 12 over Vulkan implementation that is part of Valve's Proton / Steam Play for running modern Windows games on Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.4",
+          "publishedOn": "2021-07-08T15:17:45.000Z",
+          "wordCount": 813,
+          "title": "VKD3D-Proton 2.4 Released With Better Performance, Sparse 3D Textures"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Libre-SOC-Test-ASIC-180nm",
+          "author": null,
+          "description": "Libre-SOC that started out as Libre RISC-V in aspiring to be an open-source software/hardware Vulkan accelerator but then renamed to Libre-SOC after changing over to the OpenPOWER architecture is now seeing test fabrication done using TSMC's 180nm process...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Libre-SOC-Test-ASIC-180nm",
+          "publishedOn": "2021-07-08T14:30:22.000Z",
+          "wordCount": 789,
+          "title": "Libre-SOC Test ASIC Going To Fabrication, Using TSMC 180nm Process"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Graphics-Panel-2021",
+          "author": null,
+          "description": "At the end of last year we reported on the possibility of an Intel Command Center / graphics driver control panel for Linux but not set in stone. The latest to report on the matter of an Intel Linux graphics GUI solution is that it's still being evaluated by the company...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Graphics-Panel-2021",
+          "publishedOn": "2021-07-08T13:20:00.000Z",
+          "wordCount": 949,
+          "title": "A Control Panel / UI For Intel's Linux Graphics Drivers Is Still Under Evaluation"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Mint-20.2",
+          "author": null,
+          "description": "Linux Mint 20.2 \"Uma\" is now available as the latest update to this popular desktop Linux distribution built off Ubuntu LTS releases...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Mint-20.2",
+          "publishedOn": "2021-07-08T11:22:28.000Z",
+          "wordCount": 736,
+          "title": "Linux Mint 20.2 Released With Cinnamon 5.0 Desktop"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rt1",
+          "author": null,
+          "description": "Thomas Gleixner has announced the release of the real-time \"RT\" patches for the Linux 5.13, the first update since the patches were re-based early on back during the 5.12 release candidates...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-rt1",
+          "publishedOn": "2021-07-08T10:14:34.000Z",
+          "wordCount": 770,
+          "title": "Real-Time Patches Updated For The Linux 5.13 Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-5.0-Beta",
+          "author": null,
+          "description": "In addition to The Qt Company being busy at work on the Qt 6.2 toolkit, they have also been busy preparing Qt Creator 5.0 as their Qt/C++ focused integrated development environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-5.0-Beta",
+          "publishedOn": "2021-07-08T09:55:49.000Z",
+          "wordCount": 842,
+          "title": "Qt Creator 5.0 Beta Brings Experimental Support For Clangd, Building Code In Docker"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-Highlights-H1-2021",
+          "author": null,
+          "description": "As part of our various end-of-Q2/H1'2021 recaps, here is a look back at the most popular Intel Linux/open-source news so far this year...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-Highlights-H1-2021",
+          "publishedOn": "2021-07-08T07:30:00.000Z",
+          "wordCount": 2786,
+          "title": "The Most Popular Intel Linux/Open-Source News From H1'2021"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ACPI-CPPC-Freq-Invariance-5.14",
+          "author": null,
+          "description": "Frequency invariance support for the ACPI CPPC CPUFreq driver originally landed in Linux 5.13 but was reverted late in the cycle due to problems (possible kernel oops) while now that's been cleaned up and is trying again for Linux 5.14 with this functionality striving for more accurate load tracking...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ACPI-CPPC-Freq-Invariance-5.14",
+          "publishedOn": "2021-07-08T04:00:00.000Z",
+          "wordCount": 892,
+          "title": "ACPI CPPC CPUFreq Will Try Frequency Invariance Again For Linux 5.14"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=F2FS-Linux-5.14",
           "author": null,
           "description": "The Flash-Friendly File-System (F2FS) continues seeing new features and improvements to this file-system that is increasingly used by Android devices and other flash/SSD-focused systems...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=F2FS-Linux-5.14",
           "publishedOn": "2021-07-07T22:43:05.000Z",
-          "wordCount": 816,
+          "wordCount": 812,
           "title": "F2FS Brings Compression Improvements To Linux 5.14"
         },
         {
@@ -214,7 +313,7 @@
           "description": "Last summer I wrote about Intel prototyping their Mesa drivers to use the IGC compiler, which followed Intel transitioning their Windows driver to use this compiler that was originally written for their open-source Linux compute stack. While they were making good progress last year on having their Mesa drivers use the IGC compiler, the project has been pushed back...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IGC-Mesa-2022",
           "publishedOn": "2021-07-07T20:00:00.000Z",
-          "wordCount": 997,
+          "wordCount": 1071,
           "title": "Intel's Mesa Drivers Using The IGC Compiler Delayed"
         },
         {
@@ -223,7 +322,7 @@
           "description": "Systemd 249 has been promoted to stable as the newest version of this Linux init system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-249",
           "publishedOn": "2021-07-07T18:12:59.000Z",
-          "wordCount": 885,
+          "wordCount": 883,
           "title": "Systemd 249 Released With New Option For Simple Whole-File-System A/B Updates"
         },
         {
@@ -232,7 +331,7 @@
           "description": "For quite a while now Samsung engineers have been developing an in-kernel SMB3 file sharing server for the Linux kernel. In recent months that code has been maturing more and now the latest version of this KSMBD kernel code has been published...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KSMBD-In-Kernel-SMB3-v5",
           "publishedOn": "2021-07-07T15:30:00.000Z",
-          "wordCount": 936,
+          "wordCount": 934,
           "title": "Samsung Posts Newest \"KSMBD\" Linux Patches For In-Kernel SMB3 Server"
         },
         {
@@ -241,7 +340,7 @@
           "description": "The Linux 5.14 input subsystem updates have landed with new hardware support and other changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Input",
           "publishedOn": "2021-07-07T14:45:37.000Z",
-          "wordCount": 822,
+          "wordCount": 814,
           "title": "Linux 5.14 Now Handles The Microsoft Xbox One Select/Share Button On Its Controllers"
         },
         {
@@ -250,7 +349,7 @@
           "description": "Earlier this year was the proposed NVIDIA code from NVIDIA for allowing Mesa's GBM to support alternative back-ends. This support is notable given that most Wayland compositors are catering to using Mesa's Generic Buffer Manager (GBM) rather than EGLStreams or other options for buffer management. That support code has now been merged into Mesa 21.2...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-Alternate-GBM",
           "publishedOn": "2021-07-07T13:01:01.000Z",
-          "wordCount": 811,
+          "wordCount": 729,
           "title": "Mesa 21.2 Lands NVIDIA's Code For Handling Alternate GBM Backends"
         },
         {
@@ -259,7 +358,7 @@
           "description": "Adding to the lengthy list of features for Intel's next-gen Xeon \"Sapphire Rapids\" processors next year is an admittedly experimental feature called RAR, or Remote Action Requests...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-RAR-Remote-Action-Request",
           "publishedOn": "2021-07-07T10:18:25.000Z",
-          "wordCount": 793,
+          "wordCount": 786,
           "title": "Intel Sapphire Rapids To Have Experimental \"RAR\" Feature"
         },
         {
@@ -268,7 +367,7 @@
           "description": "The Linux 5.14 kernel so far is running smoothly in my early tests across a variety of systems but coming in this morning is a pull request having the potential to cause some fall-out on x86/x86_64 systems but hopefully will not...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-x86-FPU-Cleanup",
           "publishedOn": "2021-07-07T09:50:33.000Z",
-          "wordCount": 880,
+          "wordCount": 832,
           "title": "Linux 5.14 Bringing A Major Cleanup To The x86 FPU Code"
         },
         {
@@ -277,7 +376,7 @@
           "description": "Arm engineers are working on the Active Stats Framework (ASF) that is a new kernel framework for Linux effectively combining the current roles of CPUFreq and CPUIdle...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-ASF",
           "publishedOn": "2021-07-07T09:35:42.000Z",
-          "wordCount": 789,
+          "wordCount": 792,
           "title": "Arm Proposes ASF As Their Framework Building Off Linux's CPUFreq + CPUIdle"
         },
         {
@@ -286,7 +385,7 @@
           "description": "The staging changes were submitted on Monday for the ongoing Linux 5.14 for this area of the kernel where immature / yet-to-be-cleaned-up code lives to prove itself before being ready to graduate to the proper mainline kernel area...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Staging",
           "publishedOn": "2021-07-06T22:41:23.000Z",
-          "wordCount": 835,
+          "wordCount": 833,
           "title": "Linux 5.14 Staging Drops A Set Of Drivers For The Second Time, Intel QEP Added"
         },
         {
@@ -295,7 +394,7 @@
           "description": "The Linux Foundation and their partners are today announcing their intent to form the Open 3D Foundation to help foster 3D game and simulation technologies. As a key part of this new Open 3D Foundation, Amazon's Lumberyard game engine that started off based on CryEngine is going to see an Apache 2.0 licensed copy made available as the Open 3D Engine (O3DE).",
           "link": "https://www.phoronix.com/vr.php?view=30314",
           "publishedOn": "2021-07-06T16:00:00.000Z",
-          "wordCount": 1076,
+          "wordCount": 1135,
           "title": "Linux Foundation Launches Open 3D Foundation, Amazon Lumberyard Spun As Open 3D Engine"
         },
         {
@@ -304,7 +403,7 @@
           "description": "For those making use of Microsoft's Windows Subsystem for Linux (WSL2) for enjoying Linux application support within Windows, here are some early benchmarks of the inaugural Windows Insider Preview build of Windows 11 with WSL2 against Windows 10 and then Ubuntu Linux bare metal on the same hardware.",
           "link": "https://www.phoronix.com/vr.php?view=30312",
           "publishedOn": "2021-07-06T15:00:00.000Z",
-          "wordCount": 795,
+          "wordCount": 774,
           "title": "An Early Look At Windows 11 WSL2 Performance Against Ubuntu Linux"
         },
         {
@@ -313,7 +412,7 @@
           "description": "The Qt Company today issued the first of several expected betas for the upcoming Qt 6.2 toolkit release that will also be their first Qt 6 long-term support version...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-Beta",
           "publishedOn": "2021-07-06T13:02:15.000Z",
-          "wordCount": 840,
+          "wordCount": 834,
           "title": "Qt 6.2 Beta Released As The First Qt6 LTS Release Moves Closer"
         },
         {
@@ -322,7 +421,7 @@
           "description": "While RISC-V secures much of the spotlight these days when it comes to open-source processor instruction set architectures, OpenRISC is still moving along and soon should see more OpenRISC LiteX drivers upstreamed...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenRISC-LiteX-Drivers-Coming",
           "publishedOn": "2021-07-06T10:19:17.000Z",
-          "wordCount": 778,
+          "wordCount": 856,
           "title": "More OpenRISC LiteX Drivers Expected To Be Upstreamed In Linux"
         },
         {
@@ -331,7 +430,7 @@
           "description": "More build artifacts of CentOS Stream 9 are being published now while more OS images are still on the way. CentOS Stream 9 is open for contributions as RHEL's future upstream...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Stream-9-Builds",
           "publishedOn": "2021-07-06T10:00:01.000Z",
-          "wordCount": 723,
+          "wordCount": 801,
           "title": "CentOS Stream 9 Builds Flowing, Opened Up For Contributors"
         },
         {
@@ -340,7 +439,7 @@
           "description": "Greg Kroah-Hartman on mailed in the USB/Thunderbolt changes targeting the Linux 5.14 merge window...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Continues-USB4-TB",
           "publishedOn": "2021-07-06T07:00:00.000Z",
-          "wordCount": 713,
+          "wordCount": 711,
           "title": "Linux 5.14 Continues Work On USB4 Support Bring-Up"
         },
         {
@@ -349,7 +448,7 @@
           "description": "There is now covid going around the BSDs... DragonFlyBSD has ported it from NetBSD...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-COVID",
           "publishedOn": "2021-07-06T04:00:00.000Z",
-          "wordCount": 721,
+          "wordCount": 799,
           "title": "Following NetBSD, DragonFlyBSD Now Has \"COVID\""
         },
         {
@@ -358,7 +457,7 @@
           "description": "There hasn't been a major X.Org Server release since v1.20 three years ago and not much interest in seeing a new release with more Linux distributions switching to Wayland-based desktops and XWayland recently seeing its own standalone releases. But now there is an X.Org Server 21.1 development release as the first step towards a possible new stable release in the future...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-21.0.99.1",
           "publishedOn": "2021-07-05T22:33:42.000Z",
-          "wordCount": 895,
+          "wordCount": 893,
           "title": "X.Org Server 21.1 Development Snapshot Released"
         },
         {
@@ -367,7 +466,7 @@
           "description": "It's coming three years later than originally planned but with Ubuntu 21.10 this autumn the Debian packages will now be compressed via Zstd for offering speedier decompression speeds...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-Zstd-Debs",
           "publishedOn": "2021-07-05T21:27:38.000Z",
-          "wordCount": 698,
+          "wordCount": 776,
           "title": "Ubuntu 21.10 Compressing Debian Packages With Zstd"
         },
         {
@@ -376,7 +475,7 @@
           "description": "A set of Linux kernel patches to the asus-wmi driver are pending that improve the support for newer ASUS gaming laptops...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-Laptop-GPU-Panel-Patches",
           "publishedOn": "2021-07-05T18:05:40.000Z",
-          "wordCount": 818,
+          "wordCount": 816,
           "title": "ASUS Laptop dGPU Toggling, eGPU Handling, Panel Overdrive Patches For Linux"
         },
         {
@@ -385,7 +484,7 @@
           "description": "Last year I wrote about NVIDIA working on Vulkan support for RDMA memory. That work around RDMA (Remote Direct Memory Access) memory usage in the Vulkan context is now available with today's Vulkan 1.2.184 specification update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.184",
           "publishedOn": "2021-07-05T13:31:04.000Z",
-          "wordCount": 719,
+          "wordCount": 717,
           "title": "Vulkan 1.2.184 Includes NVIDIA Extension For RDMA Usage"
         },
         {
@@ -394,98 +493,8 @@
           "description": "The tracing subsystem within the Linux kernel is seeing some exciting improvements with Linux 5.14 to help with low-latency analysis and also measuring operating system noise...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Tracers",
           "publishedOn": "2021-07-05T11:33:26.000Z",
-          "wordCount": 828,
+          "wordCount": 746,
           "title": "New Linux 5.14 Tracer To Help With Measuring Operating System Noise"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Perf-Tooling",
-          "author": null,
-          "description": "The Linux kernel's tooling around the perf subsystem is the latest area seeing a lot of work for Intel's upcoming Alder Lake processors with a mix of high performance and low power processor cores...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Perf-Tooling",
-          "publishedOn": "2021-07-05T10:25:49.000Z",
-          "wordCount": 781,
-          "title": "Linux 5.14's Perf Tooling Makes Preparations For Intel Alder Lake"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-exFAT",
-          "author": null,
-          "description": "Merged back in Linux 5.4 in late 2019 was the exFAT file-system driver that has proven to be quite mature at this stage with the work led by Samsung under the blessing of Microsoft. There hasn't been much in the way of exFAT file-system driver changes in recent kernel releases given its maturity. Even with Linux 5.14 there are just two exFAT patches but end up being notable at least for some users due to fixing file-system compatibility with some digital cameras...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-exFAT",
-          "publishedOn": "2021-07-05T10:16:54.000Z",
-          "wordCount": 913,
-          "title": "Linux 5.14 Works Around Compatibility With Some Digital Camera exFAT File-Systems"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Independence-Linux-Kernel",
-          "author": null,
-          "description": "This US Independence Day a revised set of patches were mailed out providing support for Rust as a secondary programming language within the Linux kernel for areas where increased security and memory safety are of utmost importance. The set of 17 patches plumb the Linux kernel with initial support, an example driver, and in total amount to more than 33k lines of new code in its early form...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Independence-Linux-Kernel",
-          "publishedOn": "2021-07-04T21:33:48.000Z",
-          "wordCount": 994,
-          "title": "Latest Patches Sent Out For Adding Rust Support To The Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Sound",
-          "author": null,
-          "description": "Linux 5.14 is ready to begin supporting some new sound hardware while some recently proposed USB audio latency improvements were rejected for now...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Sound",
-          "publishedOn": "2021-07-04T20:16:33.000Z",
-          "wordCount": 805,
-          "title": "Linux 5.14 Picks Up Support For New Sound Hardware, Including Alder Lake M"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-H1-2021",
-          "author": null,
-          "description": "As part of our various Q2'21 and H1'21 Linux/open-source recaps, here is a look back at the most popular AMD Linux/open-source news so far this calendar year...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-H1-2021",
-          "publishedOn": "2021-07-04T16:36:25.000Z",
-          "wordCount": 2578,
-          "title": "AMD's Linux Strides In H1'21 From FreeSync HDMI To PyTorch ROCm"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-int340x-Alder-Lake",
-          "author": null,
-          "description": "The thermal subsystem updates for the Linux 5.14 kernel include more work on Intel's int340x driver that is used by newer Intel laptops for dealing with their varying thermal control capabilities and exposing more thermal information to user-space for use by Intel's Thermal Daemon (Thermald). This cycle the work includes a new driver that will be used by next-gen Alder Lake SoCs...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-int340x-Alder-Lake",
-          "publishedOn": "2021-07-04T13:14:41.000Z",
-          "wordCount": 831,
-          "title": "Linux Gets New Thermal Driver Code Ahead of Alder Lake"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-2.37",
-          "author": null,
-          "description": "GNU Binutils 2.37 has been branched and the release process initiated for these low-level GNU components likely seeing their v2.37 release later this month...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-2.37",
-          "publishedOn": "2021-07-04T11:16:45.000Z",
-          "wordCount": 778,
-          "title": "GNU Binutils 2.37 Is On The Way - Finally Drops ARM Symbian OS Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Sched-Off",
-          "author": null,
-          "description": "Among the many new features that were sent in so far this week for the Linux 5.14 merge window was the long in-development work on \"core scheduling\" to reduce the Hyper Threading information leakage risks from side channels and help ensuring deterministic performance on such HT/SMT systems by controlling the resources that can run on a sibling thread. As a follow-up to that article from a few days ago, core scheduling will now be disabled by default...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Core-Sched-Off",
-          "publishedOn": "2021-07-04T10:29:25.000Z",
-          "wordCount": 959,
-          "title": "Linux Will Keep Core Scheduling Disabled By Default"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-DLM",
-          "author": null,
-          "description": "The Linux kernel's Distributed Lock Manager as a general purpose DLM for kernel and user-space applications with cluster computing systems is seeing a useful reliability improvement with Linux 5.14...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-DLM",
-          "publishedOn": "2021-07-04T10:04:11.000Z",
-          "wordCount": 685,
-          "title": "Linux 5.14 Improving Its Distributed Lock Manager To Allow Message Re-Transmission"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-EXT4",
-          "author": null,
-          "description": "The EXT4 file-system updates have been sent in for the ongoing Linux 5.14 merge window...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-EXT4",
-          "publishedOn": "2021-07-04T00:32:10.000Z",
-          "wordCount": 865,
-          "title": "Linux 5.14 With EXT4 Adds Interface To Help Prevent Information Leakage From The Journal"
         }
       ]
     }

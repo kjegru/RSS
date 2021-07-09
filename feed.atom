@@ -1,10 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-08T00:18:51.770Z</id>
+    <id>urn:2021-07-09T00:21:13.430Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-08T00:18:51.770Z</updated>
+    <updated>2021-07-09T00:21:13.430Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD SEV-SNP Support Revised For Linux + Updated Hyper-V Isolation VM Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Linux-v4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Linux-v4"/>
+        <updated>2021-07-08T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[AMD engineers and their partners continue work towards upstreaming Secure Encrypted Virtualization's Secure Nested Paging (SEV-SNP) support for the mainline Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GCC 8 Through GCC 11 Stable Plus GCC 12 Compiler Benchmarks]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30322</id>
+        <link href="https://www.phoronix.com/vr.php?view=30322"/>
+        <updated>2021-07-08T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For today's benchmarking is a look at how the GNU Compiler Collection has performed over the past few years going from the GCC 8 stable series introduced in 2018 through the recently released GCC 11.1 stable feature release plus also including the current early development snapshot of GCC 12.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VKD3D-Proton 2.4 Released With Better Performance, Sparse 3D Textures]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.4"/>
+        <updated>2021-07-08T15:17:45.000Z</updated>
+        <summary type="html"><![CDATA[VKD3D-Proton 2.4 is now available as the latest feature release for this Direct3D 12 over Vulkan implementation that is part of Valve's Proton / Steam Play for running modern Windows games on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libre-SOC Test ASIC Going To Fabrication, Using TSMC 180nm Process]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SOC-Test-ASIC-180nm</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SOC-Test-ASIC-180nm"/>
+        <updated>2021-07-08T14:30:22.000Z</updated>
+        <summary type="html"><![CDATA[Libre-SOC that started out as Libre RISC-V in aspiring to be an open-source software/hardware Vulkan accelerator but then renamed to Libre-SOC after changing over to the OpenPOWER architecture is now seeing test fabrication done using TSMC's 180nm process...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Control Panel / UI For Intel's Linux Graphics Drivers Is Still Under Evaluation]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Graphics-Panel-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Graphics-Panel-2021"/>
+        <updated>2021-07-08T13:20:00.000Z</updated>
+        <summary type="html"><![CDATA[At the end of last year we reported on the possibility of an Intel Command Center / graphics driver control panel for Linux but not set in stone. The latest to report on the matter of an Intel Linux graphics GUI solution is that it's still being evaluated by the company...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Mint 20.2 Released With Cinnamon 5.0 Desktop]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Mint-20.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Mint-20.2"/>
+        <updated>2021-07-08T11:22:28.000Z</updated>
+        <summary type="html"><![CDATA[Linux Mint 20.2 "Uma" is now available as the latest update to this popular desktop Linux distribution built off Ubuntu LTS releases...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-Time Patches Updated For The Linux 5.13 Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rt1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rt1"/>
+        <updated>2021-07-08T10:14:34.000Z</updated>
+        <summary type="html"><![CDATA[Thomas Gleixner has announced the release of the real-time "RT" patches for the Linux 5.13, the first update since the patches were re-based early on back during the 5.12 release candidates...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qt Creator 5.0 Beta Brings Experimental Support For Clangd, Building Code In Docker]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-Beta"/>
+        <updated>2021-07-08T09:55:49.000Z</updated>
+        <summary type="html"><![CDATA[In addition to The Qt Company being busy at work on the Qt 6.2 toolkit, they have also been busy preparing Qt Creator 5.0 as their Qt/C++ focused integrated development environment...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Most Popular Intel Linux/Open-Source News From H1'2021]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-Highlights-H1-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-Highlights-H1-2021"/>
+        <updated>2021-07-08T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[As part of our various end-of-Q2/H1'2021 recaps, here is a look back at the most popular Intel Linux/open-source news so far this year...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ACPI CPPC CPUFreq Will Try Frequency Invariance Again For Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ACPI-CPPC-Freq-Invariance-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ACPI-CPPC-Freq-Invariance-5.14"/>
+        <updated>2021-07-08T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frequency invariance support for the ACPI CPPC CPUFreq driver originally landed in Linux 5.13 but was reverted late in the cycle due to problems (possible kernel oops) while now that's been cleaned up and is trying again for Linux 5.14 with this functionality striving for more accurate load tracking...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A brief look at Gitpod, two bugs, and a quick fix]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/"/>
+        <updated>2021-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While looking at GitLab's Gitpod integration, I came across two rather critical flaws in Gitpod itself. In this post, I'll cover the process of identifying the vulnerabilities and some background on Gitpod. The more critical issue was fixed and the fix was pushed to production by the Gitpod team in less than five hours from my initial report. Huge kudos to the Gitpod team for that quick turnaround.
+What is Gitpod?
+First, let's see what Gitpod actually is – taken straight from gitpod.io:
+Spin up fresh, automated dev environments for each task, in the cloud, in seconds.
+That quote sums it up really well. You can login to Gitpod with your GitLab, GitHub, or Bitbucket account and then use a pretty full-blown, web-based development environment to work on your code, run tests, or even spin up se…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.0.5]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/"/>
+        <updated>2021-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.0.5 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 14.0 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Resolve "404 for package details link under Infrastructure Registry for projects nested under 2 group levels"
+Resolve "Terraform module usage instructions are incorrect"
+Add documentation for boards epic create
+Initialize conversion of ci_builds_metadata.id for bigint migration
+Fix git clone for projects with a trailing dot over HTTP
+Do not create audit event for failed logins on read-only DB
+Add prefix to autocomplete path
+Return empty strings for Jira links when URL is not set
+Fix libmagic not being able to find magic files
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[F2FS Brings Compression Improvements To Linux 5.14]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=F2FS-Linux-5.14</id>
@@ -277,26 +426,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.14's Perf Tooling Makes Preparations For Intel Alder Lake]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Perf-Tooling</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Perf-Tooling"/>
-        <updated>2021-07-05T10:25:49.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel's tooling around the perf subsystem is the latest area seeing a lot of work for Intel's upcoming Alder Lake processors with a mix of high performance and low power processor cores...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Works Around Compatibility With Some Digital Camera exFAT File-Systems]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-exFAT</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-exFAT"/>
-        <updated>2021-07-05T10:16:54.000Z</updated>
-        <summary type="html"><![CDATA[Merged back in Linux 5.4 in late 2019 was the exFAT file-system driver that has proven to be quite mature at this stage with the work led by Samsung under the blessing of Microsoft. There hasn't been much in the way of exFAT file-system driver changes in recent kernel releases given its maturity. Even with Linux 5.14 there are just two exFAT patches but end up being notable at least for some users due to fixing file-system compatibility with some digital cameras...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Patch Release: 13.12.7]]></title>
         <id>https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/</id>
         <link href="https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/"/>
@@ -326,86 +455,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Latest Patches Sent Out For Adding Rust Support To The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Independence-Linux-Kernel</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Independence-Linux-Kernel"/>
-        <updated>2021-07-04T21:33:48.000Z</updated>
-        <summary type="html"><![CDATA[This US Independence Day a revised set of patches were mailed out providing support for Rust as a secondary programming language within the Linux kernel for areas where increased security and memory safety are of utmost importance. The set of 17 patches plumb the Linux kernel with initial support, an example driver, and in total amount to more than 33k lines of new code in its early form...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Picks Up Support For New Sound Hardware, Including Alder Lake M]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Sound</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Sound"/>
-        <updated>2021-07-04T20:16:33.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.14 is ready to begin supporting some new sound hardware while some recently proposed USB audio latency improvements were rejected for now...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD's Linux Strides In H1'21 From FreeSync HDMI To PyTorch ROCm]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-H1-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-H1-2021"/>
-        <updated>2021-07-04T16:36:25.000Z</updated>
-        <summary type="html"><![CDATA[As part of our various Q2'21 and H1'21 Linux/open-source recaps, here is a look back at the most popular AMD Linux/open-source news so far this calendar year...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Gets New Thermal Driver Code Ahead of Alder Lake]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-int340x-Alder-Lake</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-int340x-Alder-Lake"/>
-        <updated>2021-07-04T13:14:41.000Z</updated>
-        <summary type="html"><![CDATA[The thermal subsystem updates for the Linux 5.14 kernel include more work on Intel's int340x driver that is used by newer Intel laptops for dealing with their varying thermal control capabilities and exposing more thermal information to user-space for use by Intel's Thermal Daemon (Thermald). This cycle the work includes a new driver that will be used by next-gen Alder Lake SoCs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Binutils 2.37 Is On The Way - Finally Drops ARM Symbian OS Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37"/>
-        <updated>2021-07-04T11:16:45.000Z</updated>
-        <summary type="html"><![CDATA[GNU Binutils 2.37 has been branched and the release process initiated for these low-level GNU components likely seeing their v2.37 release later this month...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Will Keep Core Scheduling Disabled By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Sched-Off</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Core-Sched-Off"/>
-        <updated>2021-07-04T10:29:25.000Z</updated>
-        <summary type="html"><![CDATA[Among the many new features that were sent in so far this week for the Linux 5.14 merge window was the long in-development work on "core scheduling" to reduce the Hyper Threading information leakage risks from side channels and help ensuring deterministic performance on such HT/SMT systems by controlling the resources that can run on a sibling thread. As a follow-up to that article from a few days ago, core scheduling will now be disabled by default...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Improving Its Distributed Lock Manager To Allow Message Re-Transmission]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DLM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-DLM"/>
-        <updated>2021-07-04T10:04:11.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel's Distributed Lock Manager as a general purpose DLM for kernel and user-space applications with cluster computing systems is seeing a useful reliability improvement with Linux 5.14...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 With EXT4 Adds Interface To Help Prevent Information Leakage From The Journal]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-EXT4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-EXT4"/>
-        <updated>2021-07-04T00:32:10.000Z</updated>
-        <summary type="html"><![CDATA[The EXT4 file-system updates have been sent in for the ongoing Linux 5.14 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -716,20 +765,6 @@ Alex has been hacking for 14 years professionally, but his inte…]]></summary>
 DevOps has been around for many years, and the development side of the house has benefitted from the core practices of DevOps. However, the infrastructure side of the house has been lagging behind, particularly when it comes to speed. With infrastructure as code (IaC) and GitOps, infrastructure teams have been able to apply the same disciplines and quality gates that are used to manage application code to the infrastructure - to deliver products faster, with more predictability and at scale.
 Security slowing down delivery
 While the GitOps concept promises faster and more fre…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to protect your source code with GitLab and Jscrambler]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/09/how-to-protect-your-source-code-with-gitlab-and-jscrambler/"/>
-        <updated>2021-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Development teams are building, testing, and shipping code faster than ever before. Today, we know that security has a role to play at the early stages of the DevOps workflow, but these security controls are mostly centered around finding and fixing bugs and vulnerabilities during development.
-In this tutorial, we will explore the importance of protecting client-side application code at runtime and guide you through implementing it in your GitLab instance using the integration with Jscrambler.
-The importance of runtime code protection
-With web and mobile applications dealing with increasingly sensitive data, addressing the application's attack surface requires considering additional threats that are not directly linked to vulnerabilities.
-This concern has been widely covered in NIST, ISO 2…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
