@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-10T00:20:28.772Z</id>
+    <id>urn:2021-07-11T00:20:18.211Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-10T00:20:28.772Z</updated>
+    <updated>2021-07-11T00:20:18.211Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[RISC-V Supports Some Exciting Features With Linux 5.14]]></title>
+        <title type="html"><![CDATA[Intel Posts Newest Advanced Matrix Extensions Patches For Linux (AMX Patches v7)]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-For-Linux-v7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-For-Linux-v7"/>
+        <updated>2021-07-10T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For over one year now since Advanced Matrix Extensions (AMX) was first disclosed as a future feature with Xeon "Sapphire Rapids", Intel engineers have been posting AMX patches for enabling the new support for changes needed from the kernel to code compiler stacks. The Linux kernel support for AMX hasn't yet landed but has now been revised its seventh time for public review...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Working On Implementing GuC Firmware Based Power Management For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GuC-Power-Management-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GuC-Power-Management-2021"/>
+        <updated>2021-07-10T11:15:16.000Z</updated>
+        <summary type="html"><![CDATA[Going back to 2017 was work on firmware-based power management for Intel graphics with its GuC implementation. That work didn't advance with the time but now with Intel renewing their work around GuC and with future hardware may mandate this binary-only firmware, they are again revisiting the GuC power management...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB Low Latency Audio Support Re-Submitted For Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=USB-Low-Latency-5.14-Try-2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=USB-Low-Latency-5.14-Try-2"/>
+        <updated>2021-07-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.14 has re-landed support for improvements to lower the latency of its USB audio driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GStreamer Making Progress On Vulkan Video Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-GStreamer-Igalia</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-GStreamer-Igalia"/>
+        <updated>2021-07-10T09:39:49.000Z</updated>
+        <summary type="html"><![CDATA[Back in April was the release of Vulkan Video extensions for GPU-accelerated video encode/decode using this cross-platform API. NVIDIA was quick to publish a beta driver with Vulkan Video support while adoption beyond that by drivers or multimedia software has been rather limited so far. Fortunately, the popular GStreamer multimedia framework for Linux users is working in the direction of supporting Vulkan Video...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Arm Hardware Support In Linux 5.14 From Raspberry Pi 400 To Qualcomm Auto Bits]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SoC-DT-Platform-Linux-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SoC-DT-Platform-Linux-5.14"/>
+        <updated>2021-07-10T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Arriving late for the Linux 5.14 merge window that is closing this weekend are all of the Arm SoC and platform changes for this next kernel version...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Supports Some Exciting Features With RISC-V]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-More-With-Linux-5.14</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-More-With-Linux-5.14"/>
         <updated>2021-07-09T18:00:00.000Z</updated>
@@ -329,46 +379,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mesa 21.2 Lands NVIDIA's Code For Handling Alternate GBM Backends]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Alternate-GBM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Alternate-GBM"/>
-        <updated>2021-07-07T13:01:01.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year was the proposed NVIDIA code from NVIDIA for allowing Mesa's GBM to support alternative back-ends. This support is notable given that most Wayland compositors are catering to using Mesa's Generic Buffer Manager (GBM) rather than EGLStreams or other options for buffer management. That support code has now been merged into Mesa 21.2...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Sapphire Rapids To Have Experimental "RAR" Feature]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-RAR-Remote-Action-Request</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-RAR-Remote-Action-Request"/>
-        <updated>2021-07-07T10:18:25.000Z</updated>
-        <summary type="html"><![CDATA[Adding to the lengthy list of features for Intel's next-gen Xeon "Sapphire Rapids" processors next year is an admittedly experimental feature called RAR, or Remote Action Requests...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Bringing A Major Cleanup To The x86 FPU Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-x86-FPU-Cleanup</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-x86-FPU-Cleanup"/>
-        <updated>2021-07-07T09:50:33.000Z</updated>
-        <summary type="html"><![CDATA[The Linux 5.14 kernel so far is running smoothly in my early tests across a variety of systems but coming in this morning is a pull request having the potential to cause some fall-out on x86/x86_64 systems but hopefully will not...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm Proposes ASF As Their Framework Building Off Linux's CPUFreq + CPUIdle]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-ASF</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-ASF"/>
-        <updated>2021-07-07T09:35:42.000Z</updated>
-        <summary type="html"><![CDATA[Arm engineers are working on the Active Stats Framework (ASF) that is a new kernel framework for Linux effectively combining the current roles of CPUFreq and CPUIdle...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7]]></title>
         <id>https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/</id>
         <link href="https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/"/>
@@ -378,16 +388,6 @@ These versions contain important security fixes, and we strongly recommend that 
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Staging Drops A Set Of Drivers For The Second Time, Intel QEP Added]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Staging</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Staging"/>
-        <updated>2021-07-06T22:41:23.000Z</updated>
-        <summary type="html"><![CDATA[The staging changes were submitted on Monday for the ongoing Linux 5.14 for this area of the kernel where immature / yet-to-be-cleaned-up code lives to prove itself before being ready to graduate to the proper mainline kernel area...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -750,22 +750,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How do bug bounty hunters use GitLab to help their hack?]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/"/>
-        <updated>2021-06-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab is best known as a complete open source DevOps platform, delivered as a single application, but it also offers powerful project management and collaboration capabilities. In fact, every GitLab team uses GitLab to develop, track and collaborate on projects, processes, and programs.
-But, what about… other uses? Say … hacking, for instance. 🤷‍♀️
-Can GitLab help a hacker fine-tune their craft? Through our Ask a Hacker AMA series we discovered that there are some bug bounty hunters who use GitLab to streamline their research process. And, like so many cool and awesome things, we learned on Twitter about another contributor using GitLab for bug bounty hunting.  So, we followed up to learn more.
-Meet our hackers
-Alex Chapman
-
-Alex has been hacking for 14 years professionally, but his inte…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
