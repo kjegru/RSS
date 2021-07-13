@@ -1,10 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-12T00:21:22.671Z</id>
+    <id>urn:2021-07-13T00:19:48.373Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-12T00:21:22.671Z</updated>
+    <updated>2021-07-13T00:19:48.373Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Intel Gets Back To Years-Long Journey Upstreaming PECI]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PECI-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PECI-2021"/>
+        <updated>2021-07-12T22:47:26.000Z</updated>
+        <summary type="html"><![CDATA[Intel open-source engineers are back around with a new take on introducing a PECI subsystem for the Linux kernel to ultimately make their Xeon servers more attractive and friendly for OpenBMC usage...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenCL 3.0.8 Released With New Extension To Help AI Inferencing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.8-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.8-Released"/>
+        <updated>2021-07-12T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Khronos Group recently released a new minor point release to the OpenCL 3.0 specification...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Features From Secret Memory Areas To New Hardware, Core Scheduling, Legacy IDE Dropped]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30329</id>
+        <link href="https://www.phoronix.com/vr.php?view=30329"/>
+        <updated>2021-07-12T18:42:54.000Z</updated>
+        <summary type="html"><![CDATA[With last night's release of Linux 5.14-rc1 the merge window is officially over for this next version of the Linux kernel. With that, here is a look at the highlights for the forthcoming Linux 5.14 kernel based upon our original reporting during the merge window.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[digiKam 7.3 Brings Multi-Threaded Image Duplication Search, File Format Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=digiKam-7.3-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=digiKam-7.3-Released"/>
+        <updated>2021-07-12T17:38:25.000Z</updated>
+        <summary type="html"><![CDATA[DigiKam as the popular open-source image organizer is out with its version 7.3 feature release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenBLAS 0.3.16 Brings Various CPU Fixes, More Optimizations]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.16-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.16-Released"/>
+        <updated>2021-07-12T13:00:02.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLAS as the popular open-source high performance BLAS/LAPACK implementation has seen a new release with more CPU/architecture specific work as well as some new common optimizations...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu Developer Still Pursuing Triple Buffering, Deep Color For GNOME]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-DC-TB-Still-WIP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-DC-TB-Still-WIP"/>
+        <updated>2021-07-12T11:15:03.000Z</updated>
+        <summary type="html"><![CDATA[Triple buffering and deep color support are two of the features still being worked on for GNOME by Ubuntu maker Canonical...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi's V3DV Vulkan Driver Now Supports Geometry Shaders]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Geometry-Shaders</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Geometry-Shaders"/>
+        <updated>2021-07-12T09:56:34.000Z</updated>
+        <summary type="html"><![CDATA[Mesa's V3DV Vulkan driver for newer Broadcom VideoCore graphics IP that is most notably used by the newer Raspberry Pi single board computers now has support for geometry shaders as its latest feature...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Process_Reap Syscall Proposed For Linux To More Quickly Reclaim Memory Under Pressure]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-process_reap-syscall</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-process_reap-syscall"/>
+        <updated>2021-07-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While there are the likes of OOMD / systemd-oomd gaining acceptance as a daemon for Linux systems to deal with killing off processes and other behavior under system memory (RAM) pressure, there still is an issue of the time it takes until the memory is reclaimed by those dying processes. Google engineers at the end of June proposed "process_reap" as a new system call to help in that memory recovery...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's Internal Linux Distribution "CBL-Mariner" Continues Maturing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-CBL-Mariner-1.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-CBL-Mariner-1.0"/>
+        <updated>2021-07-12T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Besides Azure Cloud Switch as a Linux platform created by Microsoft, the Windows company has also been developing CBL-Mariner (Common Base Linux) as their own internal albeit public and open-source Linux distribution...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc1 Released - Big GPU Drivers Update, Secret Memory Option + Core Scheduling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc1-Released"/>
+        <updated>2021-07-12T00:35:30.000Z</updated>
+        <summary type="html"><![CDATA[Following the two-week long merge window, the first release candidate to Linux 5.14 is now available with all the shiny new features to be found in this next kernel release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitOps viewed as part of the Ops evolution]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/"/>
+        <updated>2021-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitOps is a hot topic in the world of operations, but what does it provide to workflows that we didn’t have already? Looking at the evolution of the operations space, there have been many big changes in the past 20 years, and I argue that GitOps is not a change, rather a summary of best practices. So, how do we describe the major phenomenon in Ops over the past 20 years?
+Before 2000, the primary approach to operations was to hire a System Administrator or empower Lead Developers to do Ops work. System Administrators knew a lot about networking and server optimisations, and a good sysadmin can do most of their work through code, using Bash, Perl or Python scripts. While every software engineer likely knows at least the basics of shell scripting, even many backend engineers would not be comf…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[China's Alternative To GSoC Is Seeing Some Interesting Summer Open-Source Projects]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=China-GSoC-Alternative-Projects</id>
@@ -26,21 +137,21 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Haiku Marching Towards R1 Beta 3, RISC-V Bring-Up, Intel Display work]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021"/>
-        <updated>2021-07-11T12:55:57.000Z</updated>
-        <summary type="html"><![CDATA[The Haiku open-source operating system building off the inspiration and work of BeOS is continuing strong over the summer months...]]></summary>
+        <title type="html"><![CDATA[Linux 5.14 Can Create Secret Memory Areas With memfd_secret]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-memfd_secret</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-memfd_secret"/>
+        <updated>2021-07-11T13:53:54.000Z</updated>
+        <summary type="html"><![CDATA[The "memfd_secret" system call is being added to the Linux 5.14 kernel to provide the ability to create memory areas that are visible only in the context of the owning process and these "secret" memory regions are not mapped by other processes or the kernel page tables...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.14 Can Create Secret Memory Areas With memfd_secret]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-memfd_secret</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-memfd_secret"/>
-        <updated>2021-07-11T09:53:54.000Z</updated>
-        <summary type="html"><![CDATA[The "memfd_secret" system call is being added to the Linux 5.14 kernel to provide the ability to create memory areas that are visible only in the context of the owning process and these "secret" memory regions are not mapped by other processes or the kernel page tables...]]></summary>
+        <title type="html"><![CDATA[Haiku Marching Towards R1 Beta 3, RISC-V Bring-Up, Intel Display work]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021"/>
+        <updated>2021-07-11T12:55:57.000Z</updated>
+        <summary type="html"><![CDATA[The Haiku open-source operating system building off the inspiration and work of BeOS is continuing strong over the summer months...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -216,16 +327,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Google Makes New Attempt At "UMCG" As Part Of Their Open-Sourcing Effort Around Fibers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-UMCG-0.2-Fibers</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-UMCG-0.2-Fibers"/>
-        <updated>2021-07-09T00:24:42.000Z</updated>
-        <summary type="html"><![CDATA[Since 2013 Google has been working on Fibers as a promising user-space scheduling framework. Fibers has been in use at Google and delivering great results while recently they began work on open-sourcing this framework for Linux and as part of that working on the new "UMCG" code...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How we’re creating a threat model framework that works for GitLab]]></title>
         <id>https://about.gitlab.com/blog/2021/07/09/creating-a-threat-model-that-works-for-gitlab/</id>
         <link href="https://about.gitlab.com/blog/2021/07/09/creating-a-threat-model-that-works-for-gitlab/"/>
@@ -240,91 +341,11 @@ As assessing risk has historically been the domain of the security department of
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AMD SEV-SNP Support Revised For Linux + Updated Hyper-V Isolation VM Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Linux-v4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Linux-v4"/>
-        <updated>2021-07-08T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[AMD engineers and their partners continue work towards upstreaming Secure Encrypted Virtualization's Secure Nested Paging (SEV-SNP) support for the mainline Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GCC 8 Through GCC 11 Stable Plus GCC 12 Compiler Benchmarks]]></title>
         <id>https://www.phoronix.com/vr.php?view=30322</id>
         <link href="https://www.phoronix.com/vr.php?view=30322"/>
         <updated>2021-07-08T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[For today's benchmarking is a look at how the GNU Compiler Collection has performed over the past few years going from the GCC 8 stable series introduced in 2018 through the recently released GCC 11.1 stable feature release plus also including the current early development snapshot of GCC 12.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VKD3D-Proton 2.4 Released With Better Performance, Sparse 3D Textures]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.4"/>
-        <updated>2021-07-08T15:17:45.000Z</updated>
-        <summary type="html"><![CDATA[VKD3D-Proton 2.4 is now available as the latest feature release for this Direct3D 12 over Vulkan implementation that is part of Valve's Proton / Steam Play for running modern Windows games on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Libre-SOC Test ASIC Going To Fabrication, Using TSMC 180nm Process]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SOC-Test-ASIC-180nm</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SOC-Test-ASIC-180nm"/>
-        <updated>2021-07-08T14:30:22.000Z</updated>
-        <summary type="html"><![CDATA[Libre-SOC that started out as Libre RISC-V in aspiring to be an open-source software/hardware Vulkan accelerator but then renamed to Libre-SOC after changing over to the OpenPOWER architecture is now seeing test fabrication done using TSMC's 180nm process...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Control Panel / UI For Intel's Linux Graphics Drivers Is Still Under Evaluation]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Graphics-Panel-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Graphics-Panel-2021"/>
-        <updated>2021-07-08T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[At the end of last year we reported on the possibility of an Intel Command Center / graphics driver control panel for Linux but not set in stone. The latest to report on the matter of an Intel Linux graphics GUI solution is that it's still being evaluated by the company...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Mint 20.2 Released With Cinnamon 5.0 Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Mint-20.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Mint-20.2"/>
-        <updated>2021-07-08T11:22:28.000Z</updated>
-        <summary type="html"><![CDATA[Linux Mint 20.2 "Uma" is now available as the latest update to this popular desktop Linux distribution built off Ubuntu LTS releases...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Real-Time Patches Updated For The Linux 5.13 Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rt1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.13-rt1"/>
-        <updated>2021-07-08T10:14:34.000Z</updated>
-        <summary type="html"><![CDATA[Thomas Gleixner has announced the release of the real-time "RT" patches for the Linux 5.13, the first update since the patches were re-based early on back during the 5.12 release candidates...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qt Creator 5.0 Beta Brings Experimental Support For Clangd, Building Code In Docker]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-Beta"/>
-        <updated>2021-07-08T09:55:49.000Z</updated>
-        <summary type="html"><![CDATA[In addition to The Qt Company being busy at work on the Qt 6.2 toolkit, they have also been busy preparing Qt Creator 5.0 as their Qt/C++ focused integrated development environment...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Most Popular Intel Linux/Open-Source News From H1'2021]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-Highlights-H1-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-Highlights-H1-2021"/>
-        <updated>2021-07-08T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of our various end-of-Q2/H1'2021 recaps, here is a look back at the most popular Intel Linux/open-source news so far this year...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -388,16 +409,6 @@ These versions contain important security fixes, and we strongly recommend that 
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Foundation Launches Open 3D Foundation, Amazon Lumberyard Spun As Open 3D Engine]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30314</id>
-        <link href="https://www.phoronix.com/vr.php?view=30314"/>
-        <updated>2021-07-06T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Linux Foundation and their partners are today announcing their intent to form the Open 3D Foundation to help foster 3D game and simulation technologies. As a key part of this new Open 3D Foundation, Amazon's Lumberyard game engine that started off based on CryEngine is going to see an Apache 2.0 licensed copy made available as the Open 3D Engine (O3DE).]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
