@@ -182,15 +182,6 @@
           "publishedOn": "2021-06-16T00:00:00.000Z",
           "wordCount": 1565,
           "title": "The GPG key used to sign GitLab Runner packages has been rotated"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/",
-          "author": null,
-          "description": "Last year I wrote about how the Quality Engineering Enablement team was building up the performance testing of GitLab with the GitLab Performance Tool (GPT). Last year, the biggest challenge with performance testing wasn't so much the testing but rather setting up the right large scale GitLab environments to test against.\nLike any server application, deploying at scale is challenging. That's why we built another toolkit that automates the deployment of GitLab at scale: The GitLab Environment Toolkit (GET).\n\nGitLab Environment Toolkit logo\nInternally called the \"Performance Environment Builder\" (PEB), GET grew alongside GPT as we continued to expand our performance testing efforts. Over time we built a toolkit that was quite capable in its own right of deploying GitLab at scale, which is wh…",
-          "link": "https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/",
-          "publishedOn": "2021-06-15T00:00:00.000Z",
-          "wordCount": 4864,
-          "title": "The next step in performance testing? The GitLab Environment Toolkit"
         }
       ]
     },
@@ -200,12 +191,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Zen-3-APU-Temp-hwmon",
+          "author": null,
+          "description": "Landing into \"hwmon-next\" just after the Linux 5.14-rc1 tagging that marks the formal end to feature work for the current cycle was the k10temp driver adding support for AMD Zen 3 APU temperature monitoring under Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Zen-3-APU-Temp-hwmon",
+          "publishedOn": "2021-07-14T21:30:00.000Z",
+          "wordCount": 880,
+          "title": "AMD Zen 3 APU Temperature Monitoring Narrowly Misses Linux 5.14"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc1-Released",
+          "author": null,
+          "description": "Mesa 21.2 feature development is now over and the first release candidate issued for this next quarterly feature release to these open-source OpenGL/Vulkan Linux drivers...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc1-Released",
+          "publishedOn": "2021-07-14T19:05:41.000Z",
+          "wordCount": 818,
+          "title": "Mesa 21.2-rc1 Released With Early Apple M1 Code, Crocus Gallium3D"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-18",
+          "author": null,
+          "description": "The UBports folks have released Ubuntu Touch OTA-18 as their latest over-the-air update for this mobile Linux platform. Notable with this release is what isn't there - the Ubuntu 20.04 base. Ubuntu Touch OTA-18 continues using now the five year old Ubuntu 16.04 LTS base while the migration to 20.04 is still in progress...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-18",
+          "publishedOn": "2021-07-14T17:26:36.000Z",
+          "wordCount": 756,
+          "title": "Ubuntu Touch OTA-18 Released - Still Using Ubuntu 16.04, 20.04 Migration Ongoing"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=le9-Linux-Low-RAM",
+          "author": null,
+          "description": "It's well known that the Linux desktop can be quite unbearable when under heavy memory pressure as has been showcased over the years and more attention these days turning to the likes of OOMD/systemd-oomd and other alternatives to better deal with Linux low/out-of-memory scenarios especially with today's desktop software and web browsers consuming increasing amounts of memory. Another effort coming to fruition for helping this scenario is the \"le9\" Linux kernel patches...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=le9-Linux-Low-RAM",
+          "publishedOn": "2021-07-14T13:30:00.000Z",
+          "wordCount": 984,
+          "title": "\"le9\" Strives To Make Linux Very Usable On Systems With Small Amounts Of RAM"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Lands-NGG-Culling",
+          "author": null,
+          "description": "Mesa's open-source Radeon Vulkan driver \"RADV\" has landed support for Next-Gen Geometry (NGG) culling support as ultimately what should provide another performance win for some workloads...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Lands-NGG-Culling",
+          "publishedOn": "2021-07-14T11:07:45.000Z",
+          "wordCount": 741,
+          "title": "RADV Radeon Driver Lands NGG Culling Support As Another Performance Win"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Xe_HP-SDV-v2",
+          "author": null,
+          "description": "Now that the DG1 graphics support is beginning to get squared away and with Linux 5.15 will likely be able to boot to an accelerated desktop, bring-up on the DG2 graphics card has begun along with the Xe_HP software development vehicle...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Xe_HP-SDV-v2",
+          "publishedOn": "2021-07-14T10:16:12.000Z",
+          "wordCount": 931,
+          "title": "Intel Posts Revised Linux Driver Patches For DG2 Graphics, Xe_HP SDV Accelerator"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LRNG-Random-2021-v41",
+          "author": null,
+          "description": "The \"Linux Random Number Generator\" (LRNG) effort as a new drop-in replacement for /dev/random is now up to its 41st revision and in development for more than five years...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LRNG-Random-2021-v41",
+          "publishedOn": "2021-07-14T09:48:14.000Z",
+          "wordCount": 783,
+          "title": "More Than Five Years In The Making: Creating A New Linux Random Number Generator"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Adreno-635-660-Mesa",
+          "author": null,
+          "description": "For going along with the newly added support in the MSM DRM kernel driver, Mesa's Freedreno Gallium3D OpenGL and Turnip Vulkan drivers have landed support for the Adreno 660 and Adreno 635 graphics processors...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Adreno-635-660-Mesa",
+          "publishedOn": "2021-07-14T09:30:14.000Z",
+          "wordCount": 826,
+          "title": "Adreno 660 + 635 Now Supported By The Open-Source OpenGL/Vulkan Drivers"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-2021-Still-Per-Client-WIP",
+          "author": null,
+          "description": "One of the patch series I have been looking forward to see land going back to 2018 has been the per-process GPU load statistics or as it's known officially the \"per client engine busyness\" series. The work didn't land for Linux 5.14 but at least this week the latest revision was posted...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-2021-Still-Per-Client-WIP",
+          "publishedOn": "2021-07-14T04:00:00.000Z",
+          "wordCount": 883,
+          "title": "Intel Still Hasn't Gotten To Landing Per-Client Engine Busyness Reporting For Linux"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-13-July-2021",
           "author": null,
           "description": "Valve today pushed out their newest stable update to the Steam client for Windows, macOS, and Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-13-July-2021",
           "publishedOn": "2021-07-14T00:14:56.000Z",
-          "wordCount": 765,
+          "wordCount": 842,
           "title": "Steam Client Update Brings Numerous Linux Fixes, More Controller Additions"
         },
         {
@@ -214,7 +286,7 @@
           "description": "For those making use of VirtualBox virtualization and rely on the shared folder functionality via the mainline \"VBOXSF\" driver for exchanging files between VMs and the host, the in-development Linux 5.14 kernel has an important fix/improvement...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-VBOXSF",
           "publishedOn": "2021-07-13T20:00:00.000Z",
-          "wordCount": 871,
+          "wordCount": 945,
           "title": "VirtualBox Shared Folder With Linux 5.14 Will Open New Files Faster, Fixes \"git clone\""
         },
         {
@@ -223,7 +295,7 @@
           "description": "Thanks to one of VMware's Linux engineers there are improvements pending to the AMD IOMMU support code to help with performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-More-AMD-IOMMU-Opt",
           "publishedOn": "2021-07-13T18:42:38.000Z",
-          "wordCount": 855,
+          "wordCount": 783,
           "title": "More AMD IOMMU Optimization Work Is On The Way For Linux"
         },
         {
@@ -232,7 +304,7 @@
           "description": "LibreOffice 7.2 is expected for release before the end of August while today marks the availability of the first release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-RC1-Released",
           "publishedOn": "2021-07-13T17:46:40.000Z",
-          "wordCount": 777,
+          "wordCount": 856,
           "title": "LibreOffice 7.2 RC1 Released Ahead Of Official Debut Next Month"
         },
         {
@@ -241,7 +313,7 @@
           "description": "With having hands on with a Dell XPS 13 9310 (Dell 0DXP1F) with the Core i7 1185G7 Tiger Lake processor (compared to prior Linux tests with the i7-1165G7), here is a fresh look at the performance of Microsoft Windows 10 Pro as shipped by Dell with all available stable updates versus a clean install of Ubuntu 21.04 Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30331",
           "publishedOn": "2021-07-13T13:30:00.000Z",
-          "wordCount": 775,
+          "wordCount": 782,
           "title": "Intel Tiger Lake Performance Between Windows 10 vs. Ubuntu 21.04 Linux"
         },
         {
@@ -250,7 +322,7 @@
           "description": "Mozilla has officially released Firefox 90.0 as the latest monthly update to their cross-platform web browser...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-90-Released",
           "publishedOn": "2021-07-13T13:18:42.000Z",
-          "wordCount": 709,
+          "wordCount": 717,
           "title": "Firefox 90 Released With FTP Support Removed, Better WebRender Software Performance"
         },
         {
@@ -259,7 +331,7 @@
           "description": "Being worked on for quite a while now by longtime kernel developer Matthew Wilcox of Oracle is memory folios to improve Linux's memory management and allow for greater efficiency. Benchmarks with memory folios have shown for example kernel builds can be up to 7% faster. It's looking like there is a desire to see at least some of this folios code land for Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Folios-Sought-Linux-5.15",
           "publishedOn": "2021-07-13T11:00:00.000Z",
-          "wordCount": 879,
+          "wordCount": 887,
           "title": "Memory Folios Being Sought For Linux 5.15"
         },
         {
@@ -268,7 +340,7 @@
           "description": "For several years already the AMDGPU kernel driver has supported virtual display functionality for cases like headless GPUs, pre-silicon hardware bring-up, GPUs/accelerators that lack physical display outputs, and other similar use-cases. That virtual display code is now being overhauled by re-using the existing VKMS DRM driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Using-VKMS",
           "publishedOn": "2021-07-13T09:57:35.000Z",
-          "wordCount": 806,
+          "wordCount": 814,
           "title": "AMD Leveraging VKMS Driver To Improve Its Virtual Display Support"
         },
         {
@@ -277,7 +349,7 @@
           "description": "Long running work by Ivan Molodetskikh to reduce the input latency for GNOME's Mutter compositor was merged today...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-Mutter-Latency-2021",
           "publishedOn": "2021-07-13T09:38:38.000Z",
-          "wordCount": 752,
+          "wordCount": 760,
           "title": "GNOME Mutter Lands New Work To Reduce Input Latency"
         },
         {
@@ -286,7 +358,7 @@
           "description": "Mesa's independent Crocus Gallium3D driver providing a modern OpenGL driver alternative for Haswell and older graphics hardware continues seeing improvements following its recent mainlining...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Shader4-Gen45-Gen5",
           "publishedOn": "2021-07-13T04:00:00.000Z",
-          "wordCount": 901,
+          "wordCount": 917,
           "title": "Older Intel Graphics With Crocus Enjoy EXT_gpu_shader4, GLAMOR 2D Improvements"
         },
         {
@@ -295,7 +367,7 @@
           "description": "Intel open-source engineers are back around with a new take on introducing a PECI subsystem for the Linux kernel to ultimately make their Xeon servers more attractive and friendly for OpenBMC usage...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-PECI-2021",
           "publishedOn": "2021-07-12T22:47:26.000Z",
-          "wordCount": 843,
+          "wordCount": 925,
           "title": "Intel Gets Back To Years-Long Journey Upstreaming PECI"
         },
         {
@@ -304,7 +376,7 @@
           "description": "The Khronos Group recently released a new minor point release to the OpenCL 3.0 specification...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.8-Released",
           "publishedOn": "2021-07-12T20:00:00.000Z",
-          "wordCount": 697,
+          "wordCount": 705,
           "title": "OpenCL 3.0.8 Released With New Extension To Help AI Inferencing"
         },
         {
@@ -313,7 +385,7 @@
           "description": "With last night's release of Linux 5.14-rc1 the merge window is officially over for this next version of the Linux kernel. With that, here is a look at the highlights for the forthcoming Linux 5.14 kernel based upon our original reporting during the merge window.",
           "link": "https://www.phoronix.com/vr.php?view=30329",
           "publishedOn": "2021-07-12T18:42:54.000Z",
-          "wordCount": 1056,
+          "wordCount": 1063,
           "title": "Linux 5.14 Features From Secret Memory Areas To New Hardware, Core Scheduling, Legacy IDE Dropped"
         },
         {
@@ -322,7 +394,7 @@
           "description": "DigiKam as the popular open-source image organizer is out with its version 7.3 feature release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=digiKam-7.3-Released",
           "publishedOn": "2021-07-12T17:38:25.000Z",
-          "wordCount": 710,
+          "wordCount": 789,
           "title": "digiKam 7.3 Brings Multi-Threaded Image Duplication Search, File Format Improvements"
         },
         {
@@ -331,7 +403,7 @@
           "description": "OpenBLAS as the popular open-source high performance BLAS/LAPACK implementation has seen a new release with more CPU/architecture specific work as well as some new common optimizations...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBLAS-0.3.16-Released",
           "publishedOn": "2021-07-12T13:00:02.000Z",
-          "wordCount": 735,
+          "wordCount": 789,
           "title": "OpenBLAS 0.3.16 Brings Various CPU Fixes, More Optimizations"
         },
         {
@@ -340,7 +412,7 @@
           "description": "Triple buffering and deep color support are two of the features still being worked on for GNOME by Ubuntu maker Canonical...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-DC-TB-Still-WIP",
           "publishedOn": "2021-07-12T11:15:03.000Z",
-          "wordCount": 777,
+          "wordCount": 851,
           "title": "Ubuntu Developer Still Pursuing Triple Buffering, Deep Color For GNOME"
         },
         {
@@ -349,7 +421,7 @@
           "description": "Mesa's V3DV Vulkan driver for newer Broadcom VideoCore graphics IP that is most notably used by the newer Raspberry Pi single board computers now has support for geometry shaders as its latest feature...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-Geometry-Shaders",
           "publishedOn": "2021-07-12T09:56:34.000Z",
-          "wordCount": 721,
+          "wordCount": 729,
           "title": "Raspberry Pi's V3DV Vulkan Driver Now Supports Geometry Shaders"
         },
         {
@@ -358,7 +430,7 @@
           "description": "While there are the likes of OOMD / systemd-oomd gaining acceptance as a daemon for Linux systems to deal with killing off processes and other behavior under system memory (RAM) pressure, there still is an issue of the time it takes until the memory is reclaimed by those dying processes. Google engineers at the end of June proposed \"process_reap\" as a new system call to help in that memory recovery...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-process_reap-syscall",
           "publishedOn": "2021-07-12T07:00:00.000Z",
-          "wordCount": 904,
+          "wordCount": 932,
           "title": "Process_Reap Syscall Proposed For Linux To More Quickly Reclaim Memory Under Pressure"
         },
         {
@@ -367,7 +439,7 @@
           "description": "Besides Azure Cloud Switch as a Linux platform created by Microsoft, the Windows company has also been developing CBL-Mariner (Common Base Linux) as their own internal albeit public and open-source Linux distribution...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-CBL-Mariner-1.0",
           "publishedOn": "2021-07-12T04:00:00.000Z",
-          "wordCount": 795,
+          "wordCount": 803,
           "title": "Microsoft's Internal Linux Distribution \"CBL-Mariner\" Continues Maturing"
         },
         {
@@ -376,7 +448,7 @@
           "description": "Following the two-week long merge window, the first release candidate to Linux 5.14 is now available with all the shiny new features to be found in this next kernel release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc1-Released",
           "publishedOn": "2021-07-12T00:35:30.000Z",
-          "wordCount": 915,
+          "wordCount": 843,
           "title": "Linux 5.14-rc1 Released - Big GPU Drivers Update, Secret Memory Option + Core Scheduling"
         },
         {
@@ -385,7 +457,7 @@
           "description": "Back in May we wrote about China launching an alternative to Google Summer of Code and Outreachy. This global open-source program hosted by the Institute of Software Chinese Academy of Sciences is running \"Summer 2021\" for encouraging university-aged students regardless of gender or nationality to get involved in open-source development...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=China-GSoC-Alternative-Projects",
           "publishedOn": "2021-07-11T19:27:21.000Z",
-          "wordCount": 934,
+          "wordCount": 908,
           "title": "China's Alternative To GSoC Is Seeing Some Interesting Summer Open-Source Projects"
         },
         {
@@ -394,7 +466,7 @@
           "description": "Last week marked a X.Org Server 21.1 development snapshot being released. While that snapshot noted there will \"most likely be no proper release\", there is discussion now over creating such a X.Org-Server-Without-XWayland release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RFC-Possible-2021-Xorg-Server",
           "publishedOn": "2021-07-11T16:00:21.000Z",
-          "wordCount": 968,
+          "wordCount": 976,
           "title": "New X.Org Server Release While Maintaining Separate XWayland Being Discussed"
         },
         {
@@ -403,89 +475,8 @@
           "description": "The \"memfd_secret\" system call is being added to the Linux 5.14 kernel to provide the ability to create memory areas that are visible only in the context of the owning process and these \"secret\" memory regions are not mapped by other processes or the kernel page tables...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-memfd_secret",
           "publishedOn": "2021-07-11T13:53:54.000Z",
-          "wordCount": 799,
+          "wordCount": 807,
           "title": "Linux 5.14 Can Create Secret Memory Areas With memfd_secret"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-OS-For-June-2021",
-          "author": null,
-          "description": "The Haiku open-source operating system building off the inspiration and work of BeOS is continuing strong over the summer months...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-OS-For-June-2021",
-          "publishedOn": "2021-07-11T12:55:57.000Z",
-          "wordCount": 784,
-          "title": "Haiku Marching Towards R1 Beta 3, RISC-V Bring-Up, Intel Display work"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Kmods-Approved",
-          "author": null,
-          "description": "The CentOS Board of Directors has approved the formation of the CentOS Kmods special interest group for expanding the selection of kernel modules available to this distribution...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Kmods-Approved",
-          "publishedOn": "2021-07-11T09:35:05.000Z",
-          "wordCount": 892,
-          "title": "CentOS Forms A Group To Flip On Old, Deprecated Or Out-Of-Tree Kernel Modules"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-IOMMU",
-          "author": null,
-          "description": "The VirtIO-IOMMU driver now works on x86/x86_64 hardware with the Linux 5.14 kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-IOMMU",
-          "publishedOn": "2021-07-11T09:08:28.000Z",
-          "wordCount": 793,
-          "title": "VirtIO-IOMMU Comes To x86 With Linux 5.14"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-For-Linux-v7",
-          "author": null,
-          "description": "For over one year now since Advanced Matrix Extensions (AMX) was first disclosed as a future feature with Xeon \"Sapphire Rapids\", Intel engineers have been posting AMX patches for enabling the new support for changes needed from the kernel to code compiler stacks. The Linux kernel support for AMX hasn't yet landed but has now been revised its seventh time for public review...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-For-Linux-v7",
-          "publishedOn": "2021-07-10T18:00:00.000Z",
-          "wordCount": 909,
-          "title": "Intel Posts Newest Advanced Matrix Extensions Patches For Linux (AMX Patches v7)"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GuC-Power-Management-2021",
-          "author": null,
-          "description": "Going back to 2017 was work on firmware-based power management for Intel graphics with its GuC implementation. That work didn't advance with the time but now with Intel renewing their work around GuC and with future hardware may mandate this binary-only firmware, they are again revisiting the GuC power management...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GuC-Power-Management-2021",
-          "publishedOn": "2021-07-10T11:15:16.000Z",
-          "wordCount": 1033,
-          "title": "Intel Working On Implementing GuC Firmware Based Power Management For Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=USB-Low-Latency-5.14-Try-2",
-          "author": null,
-          "description": "Linux 5.14 has re-landed support for improvements to lower the latency of its USB audio driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=USB-Low-Latency-5.14-Try-2",
-          "publishedOn": "2021-07-10T10:00:00.000Z",
-          "wordCount": 733,
-          "title": "USB Low Latency Audio Support Re-Submitted For Linux 5.14"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-Video-GStreamer-Igalia",
-          "author": null,
-          "description": "Back in April was the release of Vulkan Video extensions for GPU-accelerated video encode/decode using this cross-platform API. NVIDIA was quick to publish a beta driver with Vulkan Video support while adoption beyond that by drivers or multimedia software has been rather limited so far. Fortunately, the popular GStreamer multimedia framework for Linux users is working in the direction of supporting Vulkan Video...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-Video-GStreamer-Igalia",
-          "publishedOn": "2021-07-10T09:39:49.000Z",
-          "wordCount": 732,
-          "title": "GStreamer Making Progress On Vulkan Video Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-SoC-DT-Platform-Linux-5.14",
-          "author": null,
-          "description": "Arriving late for the Linux 5.14 merge window that is closing this weekend are all of the Arm SoC and platform changes for this next kernel version...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-SoC-DT-Platform-Linux-5.14",
-          "publishedOn": "2021-07-10T04:00:00.000Z",
-          "wordCount": 836,
-          "title": "New Arm Hardware Support In Linux 5.14 From Raspberry Pi 400 To Qualcomm Auto Bits"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RISC-V-More-With-Linux-5.14",
-          "author": null,
-          "description": "The RISC-V architecture code supports more functionality with the in-development Linux 5.14 kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RISC-V-More-With-Linux-5.14",
-          "publishedOn": "2021-07-09T18:00:00.000Z",
-          "wordCount": 837,
-          "title": "Linux 5.14 Supports Some Exciting Features With RISC-V"
         }
       ]
     }

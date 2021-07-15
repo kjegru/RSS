@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-14T00:18:54.753Z</id>
+    <id>urn:2021-07-15T00:19:12.774Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-14T00:18:54.753Z</updated>
+    <updated>2021-07-15T00:19:12.774Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD Zen 3 APU Temperature Monitoring Narrowly Misses Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Zen-3-APU-Temp-hwmon</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Zen-3-APU-Temp-hwmon"/>
+        <updated>2021-07-14T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Landing into "hwmon-next" just after the Linux 5.14-rc1 tagging that marks the formal end to feature work for the current cycle was the k10temp driver adding support for AMD Zen 3 APU temperature monitoring under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2-rc1 Released With Early Apple M1 Code, Crocus Gallium3D]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc1-Released"/>
+        <updated>2021-07-14T19:05:41.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.2 feature development is now over and the first release candidate issued for this next quarterly feature release to these open-source OpenGL/Vulkan Linux drivers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu Touch OTA-18 Released - Still Using Ubuntu 16.04, 20.04 Migration Ongoing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-Touch-OTA-18</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-Touch-OTA-18"/>
+        <updated>2021-07-14T17:26:36.000Z</updated>
+        <summary type="html"><![CDATA[The UBports folks have released Ubuntu Touch OTA-18 as their latest over-the-air update for this mobile Linux platform. Notable with this release is what isn't there - the Ubuntu 20.04 base. Ubuntu Touch OTA-18 continues using now the five year old Ubuntu 16.04 LTS base while the migration to 20.04 is still in progress...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["le9" Strives To Make Linux Very Usable On Systems With Small Amounts Of RAM]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=le9-Linux-Low-RAM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=le9-Linux-Low-RAM"/>
+        <updated>2021-07-14T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[It's well known that the Linux desktop can be quite unbearable when under heavy memory pressure as has been showcased over the years and more attention these days turning to the likes of OOMD/systemd-oomd and other alternatives to better deal with Linux low/out-of-memory scenarios especially with today's desktop software and web browsers consuming increasing amounts of memory. Another effort coming to fruition for helping this scenario is the "le9" Linux kernel patches...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RADV Radeon Driver Lands NGG Culling Support As Another Performance Win]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Lands-NGG-Culling</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Lands-NGG-Culling"/>
+        <updated>2021-07-14T11:07:45.000Z</updated>
+        <summary type="html"><![CDATA[Mesa's open-source Radeon Vulkan driver "RADV" has landed support for Next-Gen Geometry (NGG) culling support as ultimately what should provide another performance win for some workloads...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Posts Revised Linux Driver Patches For DG2 Graphics, Xe_HP SDV Accelerator]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Xe_HP-SDV-v2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Xe_HP-SDV-v2"/>
+        <updated>2021-07-14T10:16:12.000Z</updated>
+        <summary type="html"><![CDATA[Now that the DG1 graphics support is beginning to get squared away and with Linux 5.15 will likely be able to boot to an accelerated desktop, bring-up on the DG2 graphics card has begun along with the Xe_HP software development vehicle...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Than Five Years In The Making: Creating A New Linux Random Number Generator]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LRNG-Random-2021-v41</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LRNG-Random-2021-v41"/>
+        <updated>2021-07-14T09:48:14.000Z</updated>
+        <summary type="html"><![CDATA[The "Linux Random Number Generator" (LRNG) effort as a new drop-in replacement for /dev/random is now up to its 41st revision and in development for more than five years...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adreno 660 + 635 Now Supported By The Open-Source OpenGL/Vulkan Drivers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Adreno-635-660-Mesa</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Adreno-635-660-Mesa"/>
+        <updated>2021-07-14T09:30:14.000Z</updated>
+        <summary type="html"><![CDATA[For going along with the newly added support in the MSM DRM kernel driver, Mesa's Freedreno Gallium3D OpenGL and Turnip Vulkan drivers have landed support for the Adreno 660 and Adreno 635 graphics processors...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Still Hasn't Gotten To Landing Per-Client Engine Busyness Reporting For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-2021-Still-Per-Client-WIP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-2021-Still-Per-Client-WIP"/>
+        <updated>2021-07-14T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the patch series I have been looking forward to see land going back to 2018 has been the per-process GPU load statistics or as it's known officially the "per client engine busyness" series. The work didn't land for Linux 5.14 but at least this week the latest revision was posted...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Steam Client Update Brings Numerous Linux Fixes, More Controller Additions]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-13-July-2021</id>
@@ -242,96 +332,6 @@ Before 2000, the primary approach to operations was to hire a System Administrat
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-memfd_secret"/>
         <updated>2021-07-11T13:53:54.000Z</updated>
         <summary type="html"><![CDATA[The "memfd_secret" system call is being added to the Linux 5.14 kernel to provide the ability to create memory areas that are visible only in the context of the owning process and these "secret" memory regions are not mapped by other processes or the kernel page tables...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haiku Marching Towards R1 Beta 3, RISC-V Bring-Up, Intel Display work]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-OS-For-June-2021"/>
-        <updated>2021-07-11T12:55:57.000Z</updated>
-        <summary type="html"><![CDATA[The Haiku open-source operating system building off the inspiration and work of BeOS is continuing strong over the summer months...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CentOS Forms A Group To Flip On Old, Deprecated Or Out-Of-Tree Kernel Modules]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-Approved</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-Approved"/>
-        <updated>2021-07-11T09:35:05.000Z</updated>
-        <summary type="html"><![CDATA[The CentOS Board of Directors has approved the formation of the CentOS Kmods special interest group for expanding the selection of kernel modules available to this distribution...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VirtIO-IOMMU Comes To x86 With Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-IOMMU</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-IOMMU"/>
-        <updated>2021-07-11T09:08:28.000Z</updated>
-        <summary type="html"><![CDATA[The VirtIO-IOMMU driver now works on x86/x86_64 hardware with the Linux 5.14 kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts Newest Advanced Matrix Extensions Patches For Linux (AMX Patches v7)]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-For-Linux-v7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-For-Linux-v7"/>
-        <updated>2021-07-10T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For over one year now since Advanced Matrix Extensions (AMX) was first disclosed as a future feature with Xeon "Sapphire Rapids", Intel engineers have been posting AMX patches for enabling the new support for changes needed from the kernel to code compiler stacks. The Linux kernel support for AMX hasn't yet landed but has now been revised its seventh time for public review...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Working On Implementing GuC Firmware Based Power Management For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GuC-Power-Management-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GuC-Power-Management-2021"/>
-        <updated>2021-07-10T11:15:16.000Z</updated>
-        <summary type="html"><![CDATA[Going back to 2017 was work on firmware-based power management for Intel graphics with its GuC implementation. That work didn't advance with the time but now with Intel renewing their work around GuC and with future hardware may mandate this binary-only firmware, they are again revisiting the GuC power management...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USB Low Latency Audio Support Re-Submitted For Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=USB-Low-Latency-5.14-Try-2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=USB-Low-Latency-5.14-Try-2"/>
-        <updated>2021-07-10T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.14 has re-landed support for improvements to lower the latency of its USB audio driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GStreamer Making Progress On Vulkan Video Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-GStreamer-Igalia</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-GStreamer-Igalia"/>
-        <updated>2021-07-10T09:39:49.000Z</updated>
-        <summary type="html"><![CDATA[Back in April was the release of Vulkan Video extensions for GPU-accelerated video encode/decode using this cross-platform API. NVIDIA was quick to publish a beta driver with Vulkan Video support while adoption beyond that by drivers or multimedia software has been rather limited so far. Fortunately, the popular GStreamer multimedia framework for Linux users is working in the direction of supporting Vulkan Video...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Arm Hardware Support In Linux 5.14 From Raspberry Pi 400 To Qualcomm Auto Bits]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SoC-DT-Platform-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SoC-DT-Platform-Linux-5.14"/>
-        <updated>2021-07-10T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Arriving late for the Linux 5.14 merge window that is closing this weekend are all of the Arm SoC and platform changes for this next kernel version...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Supports Some Exciting Features With RISC-V]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-More-With-Linux-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-More-With-Linux-5.14"/>
-        <updated>2021-07-09T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The RISC-V architecture code supports more functionality with the in-development Linux 5.14 kernel...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -715,20 +715,6 @@ We have not found any evidence of unauthorized modification of the packages or a
 Out of an abundance of caution, the GPG key used for release signing and verification has been rotated along with all other tokens that were improperly secured.
 If you use GitLab.com shared runners, this does not impact you.
 As of J…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next step in performance testing? The GitLab Environment Toolkit]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/15/why-we-are-building-the-gitlab-environment-toolkit-to-help-deploy-gitlab-at-scale/"/>
-        <updated>2021-06-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year I wrote about how the Quality Engineering Enablement team was building up the performance testing of GitLab with the GitLab Performance Tool (GPT). Last year, the biggest challenge with performance testing wasn't so much the testing but rather setting up the right large scale GitLab environments to test against.
-Like any server application, deploying at scale is challenging. That's why we built another toolkit that automates the deployment of GitLab at scale: The GitLab Environment Toolkit (GET).
-
-GitLab Environment Toolkit logo
-Internally called the "Performance Environment Builder" (PEB), GET grew alongside GPT as we continued to expand our performance testing efforts. Over time we built a toolkit that was quite capable in its own right of deploying GitLab at scale, which is wh…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
