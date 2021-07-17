@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-16T00:20:40.215Z</id>
+    <id>urn:2021-07-17T00:19:54.284Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-16T00:20:40.215Z</updated>
+    <updated>2021-07-17T00:19:54.284Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[O3DE Game Engine Seeing Progress On Linux Editor]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Editor-Progress</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Editor-Progress"/>
+        <updated>2021-07-16T18:39:52.000Z</updated>
+        <summary type="html"><![CDATA[The Open 3D Engine spun out of Amazon's Lumberyard game engine has been seeing progress on Vulkan 1.2 API work as well as Linux porting at large, including the bringing up of the game engine's editor on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KWinFT Lands Code To Now Use WLROOTS For Wayland]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-Lands-WLROOTS-Usage</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-Lands-WLROOTS-Usage"/>
+        <updated>2021-07-16T18:24:52.000Z</updated>
+        <summary type="html"><![CDATA[The KWinFT fork of KDE's KWin compositor has landed its support for using the WLROOTS Wayland library...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Gaming Performance With Radeon Vulkan NGG Culling]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30342</id>
+        <link href="https://www.phoronix.com/vr.php?view=30342"/>
+        <updated>2021-07-16T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The newest performance optimization merged this week for Mesa's "RADV" Radeon Vulkan open-source driver is NGG culling for Navi 1x/2x graphics cards. NGG Culling "NGGC" isn't enabled by default at this time but can be easily activated and depending upon the software under test can provide some minor performance gains on top of all the other optimizations seen in recent times for RADV.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graphics Driver Changes Begin Queuing For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-Misc-Next-First-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-Misc-Next-First-5.15"/>
+        <updated>2021-07-16T11:24:02.000Z</updated>
+        <summary type="html"><![CDATA[An early batch of "drm-misc-next" changes has been sent to DRM-Next for queuing to ultimately land with the Linux 5.15 kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coreboot Making Progress On Running More Of It In 64-bit Mode]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-More-64-bit-Mode</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-More-64-bit-Mode"/>
+        <updated>2021-07-16T09:52:26.000Z</updated>
+        <summary type="html"><![CDATA[Recently in Coreboot Git has been more work on expanding its (experimental) 64-bit mode for execution...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon's DAMON Might Finally Be Ready For Upstreaming Into The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Amazon-DAMON-v34</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Amazon-DAMON-v34"/>
+        <updated>2021-07-16T09:37:27.000Z</updated>
+        <summary type="html"><![CDATA[At the start of 2020 Amazon engineers sent out a "request for comments" around DAMON as a new kernel feature to monitor data accesses and can be used for purposes like analyzing over-committed memory use, debugging, and other optimizations. DAMON has now seen thirty-four revisions to the patches but it looks like it could finally be in a state for mainlining in the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Reported To Be Looking At Acquiring GlobalFoundries]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GloFo-30B-Deal-Talk</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GloFo-30B-Deal-Talk"/>
+        <updated>2021-07-16T00:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest surprise news under Intel's new leadership is that they are reported to be exploring a deal to acquire GlobalFoundries, the company ultimately formed when AMD decided in 2008 to spin off their semiconductor manufacturing business...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple Magic Mouse To Support High Resolution Scrolling With Linux 5.15]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Magic-Mouse-High-Res-Linux-5.15</id>
@@ -251,76 +321,6 @@
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Folios-Sought-Linux-5.15"/>
         <updated>2021-07-13T11:00:00.000Z</updated>
         <summary type="html"><![CDATA[Being worked on for quite a while now by longtime kernel developer Matthew Wilcox of Oracle is memory folios to improve Linux's memory management and allow for greater efficiency. Benchmarks with memory folios have shown for example kernel builds can be up to 7% faster. It's looking like there is a desire to see at least some of this folios code land for Linux 5.15...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Leveraging VKMS Driver To Improve Its Virtual Display Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Using-VKMS</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Using-VKMS"/>
-        <updated>2021-07-13T09:57:35.000Z</updated>
-        <summary type="html"><![CDATA[For several years already the AMDGPU kernel driver has supported virtual display functionality for cases like headless GPUs, pre-silicon hardware bring-up, GPUs/accelerators that lack physical display outputs, and other similar use-cases. That virtual display code is now being overhauled by re-using the existing VKMS DRM driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNOME Mutter Lands New Work To Reduce Input Latency]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Mutter-Latency-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Mutter-Latency-2021"/>
-        <updated>2021-07-13T09:38:38.000Z</updated>
-        <summary type="html"><![CDATA[Long running work by Ivan Molodetskikh to reduce the input latency for GNOME's Mutter compositor was merged today...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Older Intel Graphics With Crocus Enjoy EXT_gpu_shader4, GLAMOR 2D Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Shader4-Gen45-Gen5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Shader4-Gen45-Gen5"/>
-        <updated>2021-07-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mesa's independent Crocus Gallium3D driver providing a modern OpenGL driver alternative for Haswell and older graphics hardware continues seeing improvements following its recent mainlining...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Gets Back To Years-Long Journey Upstreaming PECI]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PECI-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PECI-2021"/>
-        <updated>2021-07-12T22:47:26.000Z</updated>
-        <summary type="html"><![CDATA[Intel open-source engineers are back around with a new take on introducing a PECI subsystem for the Linux kernel to ultimately make their Xeon servers more attractive and friendly for OpenBMC usage...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenCL 3.0.8 Released With New Extension To Help AI Inferencing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.8-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.8-Released"/>
-        <updated>2021-07-12T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Khronos Group recently released a new minor point release to the OpenCL 3.0 specification...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Features From Secret Memory Areas To New Hardware, Core Scheduling, Legacy IDE Dropped]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30329</id>
-        <link href="https://www.phoronix.com/vr.php?view=30329"/>
-        <updated>2021-07-12T18:42:54.000Z</updated>
-        <summary type="html"><![CDATA[With last night's release of Linux 5.14-rc1 the merge window is officially over for this next version of the Linux kernel. With that, here is a look at the highlights for the forthcoming Linux 5.14 kernel based upon our original reporting during the merge window.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[digiKam 7.3 Brings Multi-Threaded Image Duplication Search, File Format Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=digiKam-7.3-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=digiKam-7.3-Released"/>
-        <updated>2021-07-12T17:38:25.000Z</updated>
-        <summary type="html"><![CDATA[DigiKam as the popular open-source image organizer is out with its version 7.3 feature release...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>

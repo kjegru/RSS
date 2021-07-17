@@ -27,7 +27,7 @@
           "description": "GitOps is a hot topic in the world of operations, but what does it provide to workflows that we didn’t have already? Looking at the evolution of the operations space, there have been many big changes in the past 20 years, and I argue that GitOps is not a change, rather a summary of best practices. So, how do we describe the major phenomenon in Ops over the past 20 years?\nBefore 2000, the primary approach to operations was to hire a System Administrator or empower Lead Developers to do Ops work. System Administrators knew a lot about networking and server optimisations, and a good sysadmin can do most of their work through code, using Bash, Perl or Python scripts. While every software engineer likely knows at least the basics of shell scripting, even many backend engineers would not be comf…",
           "link": "https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/",
           "publishedOn": "2021-07-12T00:00:00.000Z",
-          "wordCount": 3712,
+          "wordCount": 3710,
           "title": "GitOps viewed as part of the Ops evolution"
         },
         {
@@ -182,12 +182,75 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=O3DE-Linux-Editor-Progress",
+          "author": null,
+          "description": "The Open 3D Engine spun out of Amazon's Lumberyard game engine has been seeing progress on Vulkan 1.2 API work as well as Linux porting at large, including the bringing up of the game engine's editor on Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=O3DE-Linux-Editor-Progress",
+          "publishedOn": "2021-07-16T18:39:52.000Z",
+          "wordCount": 777,
+          "title": "O3DE Game Engine Seeing Progress On Linux Editor"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KWinFT-Lands-WLROOTS-Usage",
+          "author": null,
+          "description": "The KWinFT fork of KDE's KWin compositor has landed its support for using the WLROOTS Wayland library...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KWinFT-Lands-WLROOTS-Usage",
+          "publishedOn": "2021-07-16T18:24:52.000Z",
+          "wordCount": 801,
+          "title": "KWinFT Lands Code To Now Use WLROOTS For Wayland"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30342",
+          "author": null,
+          "description": "The newest performance optimization merged this week for Mesa's \"RADV\" Radeon Vulkan open-source driver is NGG culling for Navi 1x/2x graphics cards. NGG Culling \"NGGC\" isn't enabled by default at this time but can be easily activated and depending upon the software under test can provide some minor performance gains on top of all the other optimizations seen in recent times for RADV.",
+          "link": "https://www.phoronix.com/vr.php?view=30342",
+          "publishedOn": "2021-07-16T13:30:00.000Z",
+          "wordCount": 834,
+          "title": "Linux Gaming Performance With Radeon Vulkan NGG Culling"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-Misc-Next-First-5.15",
+          "author": null,
+          "description": "An early batch of \"drm-misc-next\" changes has been sent to DRM-Next for queuing to ultimately land with the Linux 5.15 kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-Misc-Next-First-5.15",
+          "publishedOn": "2021-07-16T11:24:02.000Z",
+          "wordCount": 785,
+          "title": "Graphics Driver Changes Begin Queuing For Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-More-64-bit-Mode",
+          "author": null,
+          "description": "Recently in Coreboot Git has been more work on expanding its (experimental) 64-bit mode for execution...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-More-64-bit-Mode",
+          "publishedOn": "2021-07-16T09:52:26.000Z",
+          "wordCount": 776,
+          "title": "Coreboot Making Progress On Running More Of It In 64-bit Mode"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Amazon-DAMON-v34",
+          "author": null,
+          "description": "At the start of 2020 Amazon engineers sent out a \"request for comments\" around DAMON as a new kernel feature to monitor data accesses and can be used for purposes like analyzing over-committed memory use, debugging, and other optimizations. DAMON has now seen thirty-four revisions to the patches but it looks like it could finally be in a state for mainlining in the Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Amazon-DAMON-v34",
+          "publishedOn": "2021-07-16T09:37:27.000Z",
+          "wordCount": 861,
+          "title": "Amazon's DAMON Might Finally Be Ready For Upstreaming Into The Linux Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-GloFo-30B-Deal-Talk",
+          "author": null,
+          "description": "The latest surprise news under Intel's new leadership is that they are reported to be exploring a deal to acquire GlobalFoundries, the company ultimately formed when AMD decided in 2008 to spin off their semiconductor manufacturing business...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-GloFo-30B-Deal-Talk",
+          "publishedOn": "2021-07-16T00:20:00.000Z",
+          "wordCount": 891,
+          "title": "Intel Reported To Be Looking At Acquiring GlobalFoundries"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Magic-Mouse-High-Res-Linux-5.15",
           "author": null,
           "description": "For those that find themselves using an Apple Magic Mouse, the finger-sliding scrolling experience should be improved come Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Magic-Mouse-High-Res-Linux-5.15",
           "publishedOn": "2021-07-15T22:27:54.000Z",
-          "wordCount": 835,
+          "wordCount": 806,
           "title": "Apple Magic Mouse To Support High Resolution Scrolling With Linux 5.15"
         },
         {
@@ -196,7 +259,7 @@
           "description": "For nearly one year already we've been delivering many Intel Tiger Lake Linux benchmarks using the Core i7 1165G7 while for those curious about the i7-1185G7 that is becoming more common with newer notebooks, here are some benchmarks of the Core i7 1185G7 Tiger Lake against various other notebooks/processors on hand for comparison.",
           "link": "https://www.phoronix.com/vr.php?view=30340",
           "publishedOn": "2021-07-15T20:30:00.000Z",
-          "wordCount": 919,
+          "wordCount": 907,
           "title": "Intel Core i7 1185G7 Linux Performance"
         },
         {
@@ -205,7 +268,7 @@
           "description": "For those wanting to get into open-source firmware development or even just to have a small SOHO x86_64 low-cost Intel server platform that is as open as possible, ASRock Rack happens to now boast one of the best solutions...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=E3C246D4I-OpenBMC-Coreboot",
           "publishedOn": "2021-07-15T18:27:29.000Z",
-          "wordCount": 1028,
+          "wordCount": 1011,
           "title": "ASRock Rack Has One Of The Best, Most Open-Source Firmware x86 Server Motherboards"
         },
         {
@@ -214,7 +277,7 @@
           "description": "Following months of rumors about new gaming hardware from Valve, today they announced Steam Deck as a new handheld PC gaming device starting at $399...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck",
           "publishedOn": "2021-07-15T17:21:29.000Z",
-          "wordCount": 733,
+          "wordCount": 715,
           "title": "Valve Announces Steam Deck As Portable SteamOS + AMD Powered Portable PC"
         },
         {
@@ -223,7 +286,7 @@
           "description": "After AMD posted FidelityFX Super Resolution last month with various initial launch titles, the source code to this NVIDIA DLSS alternative is now publicly available...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FidelityFX-Super-Res-Source",
           "publishedOn": "2021-07-15T16:33:47.000Z",
-          "wordCount": 815,
+          "wordCount": 797,
           "title": "AMD Posts FidelityFX Super Resolution Source Code"
         },
         {
@@ -232,7 +295,7 @@
           "description": "Each PHP release continues to improve in the department of performance. Even after the sizable performance improvements made with PHP 7, PHP 8 is continuing to further optimize the performance regardless of using its new JIT. While there still are several months to go until the official PHP 8.1 release, here are a few early benchmarks looking at the PHP CLI performance of PHP 8.1 and prior PHP releases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Benchmarks-Perf-Early",
           "publishedOn": "2021-07-15T11:20:00.000Z",
-          "wordCount": 924,
+          "wordCount": 906,
           "title": "PHP 8.1 Performance Is Continuing To Improve With Early Benchmarks"
         },
         {
@@ -241,7 +304,7 @@
           "description": "It was just four years ago the AMDGPU kernel driver was nearly one million lines of code and earlier this year began nearing three million lines. Now with Linux 5.14-rc1 released this week it is at over 3.3 million lines for this kernel graphics driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.14-rc1-Size",
           "publishedOn": "2021-07-15T10:33:47.000Z",
-          "wordCount": 977,
+          "wordCount": 959,
           "title": "AMD's Modern Graphics Driver In Linux 5.14 Exceeds 3.3 Million Lines Of Code"
         },
         {
@@ -250,7 +313,7 @@
           "description": "Matthew Wilcox of Oracle has sent out his 14th revision to the memory \"folios\" patch-set for this new struct that aims to improve Linux's memory management code and ultimately better performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Memory-Folios-14",
           "publishedOn": "2021-07-15T10:00:00.000Z",
-          "wordCount": 923,
+          "wordCount": 982,
           "title": "Memory Folios Updated A 14th Time For Improving Linux Memory Management"
         },
         {
@@ -259,7 +322,7 @@
           "description": "Patches have been posted for wiring up Display Stream Compression (DSC) support for the Qualcomm MSM Direct Rendering Manager driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=MSM-DRM-DSC",
           "publishedOn": "2021-07-15T09:45:20.000Z",
-          "wordCount": 827,
+          "wordCount": 726,
           "title": "Display Stream Compression Prepped For Qualcomm's MSM DRM Driver"
         },
         {
@@ -268,7 +331,7 @@
           "description": "Landing into \"hwmon-next\" just after the Linux 5.14-rc1 tagging that marks the formal end to feature work for the current cycle was the k10temp driver adding support for AMD Zen 3 APU temperature monitoring under Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Zen-3-APU-Temp-hwmon",
           "publishedOn": "2021-07-14T21:30:00.000Z",
-          "wordCount": 948,
+          "wordCount": 921,
           "title": "AMD Zen 3 APU Temperature Monitoring Narrowly Misses Linux 5.14"
         },
         {
@@ -277,7 +340,7 @@
           "description": "Mesa 21.2 feature development is now over and the first release candidate issued for this next quarterly feature release to these open-source OpenGL/Vulkan Linux drivers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc1-Released",
           "publishedOn": "2021-07-14T19:05:41.000Z",
-          "wordCount": 764,
+          "wordCount": 746,
           "title": "Mesa 21.2-rc1 Released With Early Apple M1 Code, Crocus Gallium3D"
         },
         {
@@ -286,7 +349,7 @@
           "description": "The UBports folks have released Ubuntu Touch OTA-18 as their latest over-the-air update for this mobile Linux platform. Notable with this release is what isn't there - the Ubuntu 20.04 base. Ubuntu Touch OTA-18 continues using now the five year old Ubuntu 16.04 LTS base while the migration to 20.04 is still in progress...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-18",
           "publishedOn": "2021-07-14T17:26:36.000Z",
-          "wordCount": 828,
+          "wordCount": 730,
           "title": "Ubuntu Touch OTA-18 Released - Still Using Ubuntu 16.04, 20.04 Migration Ongoing"
         },
         {
@@ -295,7 +358,7 @@
           "description": "It's well known that the Linux desktop can be quite unbearable when under heavy memory pressure as has been showcased over the years and more attention these days turning to the likes of OOMD/systemd-oomd and other alternatives to better deal with Linux low/out-of-memory scenarios especially with today's desktop software and web browsers consuming increasing amounts of memory. Another effort coming to fruition for helping this scenario is the \"le9\" Linux kernel patches...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=le9-Linux-Low-RAM",
           "publishedOn": "2021-07-14T13:30:00.000Z",
-          "wordCount": 972,
+          "wordCount": 951,
           "title": "\"le9\" Strives To Make Linux Very Usable On Systems With Small Amounts Of RAM"
         },
         {
@@ -304,7 +367,7 @@
           "description": "Mesa's open-source Radeon Vulkan driver \"RADV\" has landed support for Next-Gen Geometry (NGG) culling support as ultimately what should provide another performance win for some workloads...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Lands-NGG-Culling",
           "publishedOn": "2021-07-14T11:07:45.000Z",
-          "wordCount": 779,
+          "wordCount": 715,
           "title": "RADV Radeon Driver Lands NGG Culling Support As Another Performance Win"
         },
         {
@@ -313,7 +376,7 @@
           "description": "Now that the DG1 graphics support is beginning to get squared away and with Linux 5.15 will likely be able to boot to an accelerated desktop, bring-up on the DG2 graphics card has begun along with the Xe_HP software development vehicle...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Xe_HP-SDV-v2",
           "publishedOn": "2021-07-14T10:16:12.000Z",
-          "wordCount": 923,
+          "wordCount": 899,
           "title": "Intel Posts Revised Linux Driver Patches For DG2 Graphics, Xe_HP SDV Accelerator"
         },
         {
@@ -322,7 +385,7 @@
           "description": "The \"Linux Random Number Generator\" (LRNG) effort as a new drop-in replacement for /dev/random is now up to its 41st revision and in development for more than five years...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LRNG-Random-2021-v41",
           "publishedOn": "2021-07-14T09:48:14.000Z",
-          "wordCount": 775,
+          "wordCount": 757,
           "title": "More Than Five Years In The Making: Creating A New Linux Random Number Generator"
         },
         {
@@ -331,7 +394,7 @@
           "description": "For going along with the newly added support in the MSM DRM kernel driver, Mesa's Freedreno Gallium3D OpenGL and Turnip Vulkan drivers have landed support for the Adreno 660 and Adreno 635 graphics processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Adreno-635-660-Mesa",
           "publishedOn": "2021-07-14T09:30:14.000Z",
-          "wordCount": 818,
+          "wordCount": 720,
           "title": "Adreno 660 + 635 Now Supported By The Open-Source OpenGL/Vulkan Drivers"
         },
         {
@@ -340,7 +403,7 @@
           "description": "One of the patch series I have been looking forward to see land going back to 2018 has been the per-process GPU load statistics or as it's known officially the \"per client engine busyness\" series. The work didn't land for Linux 5.14 but at least this week the latest revision was posted...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-2021-Still-Per-Client-WIP",
           "publishedOn": "2021-07-14T04:00:00.000Z",
-          "wordCount": 955,
+          "wordCount": 897,
           "title": "Intel Still Hasn't Gotten To Landing Per-Client Engine Busyness Reporting For Linux"
         },
         {
@@ -349,7 +412,7 @@
           "description": "Valve today pushed out their newest stable update to the Steam client for Windows, macOS, and Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-13-July-2021",
           "publishedOn": "2021-07-14T00:14:56.000Z",
-          "wordCount": 768,
+          "wordCount": 750,
           "title": "Steam Client Update Brings Numerous Linux Fixes, More Controller Additions"
         },
         {
@@ -358,7 +421,7 @@
           "description": "For those making use of VirtualBox virtualization and rely on the shared folder functionality via the mainline \"VBOXSF\" driver for exchanging files between VMs and the host, the in-development Linux 5.14 kernel has an important fix/improvement...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-VBOXSF",
           "publishedOn": "2021-07-13T20:00:00.000Z",
-          "wordCount": 951,
+          "wordCount": 933,
           "title": "VirtualBox Shared Folder With Linux 5.14 Will Open New Files Faster, Fixes \"git clone\""
         },
         {
@@ -367,7 +430,7 @@
           "description": "Thanks to one of VMware's Linux engineers there are improvements pending to the AMD IOMMU support code to help with performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-More-AMD-IOMMU-Opt",
           "publishedOn": "2021-07-13T18:42:38.000Z",
-          "wordCount": 851,
+          "wordCount": 833,
           "title": "More AMD IOMMU Optimization Work Is On The Way For Linux"
         },
         {
@@ -376,7 +439,7 @@
           "description": "LibreOffice 7.2 is expected for release before the end of August while today marks the availability of the first release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-RC1-Released",
           "publishedOn": "2021-07-13T17:46:40.000Z",
-          "wordCount": 777,
+          "wordCount": 830,
           "title": "LibreOffice 7.2 RC1 Released Ahead Of Official Debut Next Month"
         },
         {
@@ -385,7 +448,7 @@
           "description": "With having hands on with a Dell XPS 13 9310 (Dell 0DXP1F) with the Core i7 1185G7 Tiger Lake processor (compared to prior Linux tests with the i7-1165G7), here is a fresh look at the performance of Microsoft Windows 10 Pro as shipped by Dell with all available stable updates versus a clean install of Ubuntu 21.04 Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30331",
           "publishedOn": "2021-07-13T13:30:00.000Z",
-          "wordCount": 775,
+          "wordCount": 809,
           "title": "Intel Tiger Lake Performance Between Windows 10 vs. Ubuntu 21.04 Linux"
         },
         {
@@ -394,7 +457,7 @@
           "description": "Mozilla has officially released Firefox 90.0 as the latest monthly update to their cross-platform web browser...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-90-Released",
           "publishedOn": "2021-07-13T13:18:42.000Z",
-          "wordCount": 709,
+          "wordCount": 691,
           "title": "Firefox 90 Released With FTP Support Removed, Better WebRender Software Performance"
         },
         {
@@ -403,71 +466,8 @@
           "description": "Being worked on for quite a while now by longtime kernel developer Matthew Wilcox of Oracle is memory folios to improve Linux's memory management and allow for greater efficiency. Benchmarks with memory folios have shown for example kernel builds can be up to 7% faster. It's looking like there is a desire to see at least some of this folios code land for Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Folios-Sought-Linux-5.15",
           "publishedOn": "2021-07-13T11:00:00.000Z",
-          "wordCount": 875,
+          "wordCount": 854,
           "title": "Memory Folios Being Sought For Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Using-VKMS",
-          "author": null,
-          "description": "For several years already the AMDGPU kernel driver has supported virtual display functionality for cases like headless GPUs, pre-silicon hardware bring-up, GPUs/accelerators that lack physical display outputs, and other similar use-cases. That virtual display code is now being overhauled by re-using the existing VKMS DRM driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Using-VKMS",
-          "publishedOn": "2021-07-13T09:57:35.000Z",
-          "wordCount": 806,
-          "title": "AMD Leveraging VKMS Driver To Improve Its Virtual Display Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-Mutter-Latency-2021",
-          "author": null,
-          "description": "Long running work by Ivan Molodetskikh to reduce the input latency for GNOME's Mutter compositor was merged today...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-Mutter-Latency-2021",
-          "publishedOn": "2021-07-13T09:38:38.000Z",
-          "wordCount": 798,
-          "title": "GNOME Mutter Lands New Work To Reduce Input Latency"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Shader4-Gen45-Gen5",
-          "author": null,
-          "description": "Mesa's independent Crocus Gallium3D driver providing a modern OpenGL driver alternative for Haswell and older graphics hardware continues seeing improvements following its recent mainlining...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Crocus-Shader4-Gen45-Gen5",
-          "publishedOn": "2021-07-13T04:00:00.000Z",
-          "wordCount": 829,
-          "title": "Older Intel Graphics With Crocus Enjoy EXT_gpu_shader4, GLAMOR 2D Improvements"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-PECI-2021",
-          "author": null,
-          "description": "Intel open-source engineers are back around with a new take on introducing a PECI subsystem for the Linux kernel to ultimately make their Xeon servers more attractive and friendly for OpenBMC usage...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-PECI-2021",
-          "publishedOn": "2021-07-12T22:47:26.000Z",
-          "wordCount": 851,
-          "title": "Intel Gets Back To Years-Long Journey Upstreaming PECI"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.8-Released",
-          "author": null,
-          "description": "The Khronos Group recently released a new minor point release to the OpenCL 3.0 specification...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.8-Released",
-          "publishedOn": "2021-07-12T20:00:00.000Z",
-          "wordCount": 743,
-          "title": "OpenCL 3.0.8 Released With New Extension To Help AI Inferencing"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30329",
-          "author": null,
-          "description": "With last night's release of Linux 5.14-rc1 the merge window is officially over for this next version of the Linux kernel. With that, here is a look at the highlights for the forthcoming Linux 5.14 kernel based upon our original reporting during the merge window.",
-          "link": "https://www.phoronix.com/vr.php?view=30329",
-          "publishedOn": "2021-07-12T18:42:54.000Z",
-          "wordCount": 1056,
-          "title": "Linux 5.14 Features From Secret Memory Areas To New Hardware, Core Scheduling, Legacy IDE Dropped"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=digiKam-7.3-Released",
-          "author": null,
-          "description": "DigiKam as the popular open-source image organizer is out with its version 7.3 feature release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=digiKam-7.3-Released",
-          "publishedOn": "2021-07-12T17:38:25.000Z",
-          "wordCount": 710,
-          "title": "digiKam 7.3 Brings Multi-Threaded Image Duplication Search, File Format Improvements"
         }
       ]
     }
