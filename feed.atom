@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-18T00:21:07.259Z</id>
+    <id>urn:2021-07-19T00:20:28.754Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-18T00:21:07.259Z</updated>
+    <updated>2021-07-19T00:20:28.754Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc2 Released & It's Much Bigger Than Usual]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc2"/>
+        <updated>2021-07-18T21:49:14.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds just released Linux 5.14-rc2 as the latest weekly test candidate of the maturing Linux 5.14 kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Binutils 2.37 Released With Support for ARMv9's Realm Management Extension]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37-Released"/>
+        <updated>2021-07-18T19:39:30.000Z</updated>
+        <summary type="html"><![CDATA[Out this Sunday is the latest update to GNU Binutils as this important collection of binary utilities common to Linux and other platforms...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Godot 4 Is Focusing On Vulkan + OpenGL ES 3.0, OpenGL Likely For Godot 4.1]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Godot-4-GLES3-Vulkan-Focus</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Godot-4-GLES3-Vulkan-Focus"/>
+        <updated>2021-07-18T14:39:37.000Z</updated>
+        <summary type="html"><![CDATA[With the alpha release of the Godot 4.0 open-source game engine approaching, a blog post today detailed the current graphics API support plans around this major game engine update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canonical Has Been Weathering The Pandemic Well: Turned A Profit, Back Above 500 Employees]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-2020-Filing</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Canonical-2020-Filing"/>
+        <updated>2021-07-18T13:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to Canonical's distributed workforce with most of their employees working from home even pre-pandemic and the booming Linux ecosystem, the Ubuntu maker performed very well over 2020 and even grew its headcount back above 500 employees and managed to swing from a loss in 2019 to a profit in 2020...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Squeezing More Performance Out Of Intel Tiger Lake Xe Graphics By Using Mesa Git]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=TGL-Xe-Graphics-More-Mesa-Git</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=TGL-Xe-Graphics-More-Mesa-Git"/>
+        <updated>2021-07-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For those that may have upgraded to an Intel Tiger Lake notebook and making use of the Gen12 Xe Graphics while running a distribution like Ubuntu 21.04, if you are wondering whether upgrading the kernel or Mesa are worthwhile here are some benchmarks...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coreboot Starts Seeing Bits For AMD Barcelo]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Barcelo-Coreboot-Starts</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Barcelo-Coreboot-Starts"/>
+        <updated>2021-07-18T10:08:18.000Z</updated>
+        <summary type="html"><![CDATA[Early work is underway on Coreboot for AMD's Barcelo as the successor to Lucienne...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 To Bring More Scalable + Reliable Open vSwitch]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Better-Open-vSwitch</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Better-Open-vSwitch"/>
+        <updated>2021-07-18T09:45:15.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.15 later this year will bring improvements to the kernel side of Open vSwitch, the open-source virtual multi-layer switch implementation that is commonly used in large virtualized environments...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Debian 11.0 "Bullseye" Is Very Close To Release - Now Under A Full Freeze]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Full-Freeze</id>
@@ -251,76 +321,6 @@
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-Touch-OTA-18"/>
         <updated>2021-07-14T17:26:36.000Z</updated>
         <summary type="html"><![CDATA[The UBports folks have released Ubuntu Touch OTA-18 as their latest over-the-air update for this mobile Linux platform. Notable with this release is what isn't there - the Ubuntu 20.04 base. Ubuntu Touch OTA-18 continues using now the five year old Ubuntu 16.04 LTS base while the migration to 20.04 is still in progress...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["le9" Strives To Make Linux Very Usable On Systems With Small Amounts Of RAM]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=le9-Linux-Low-RAM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=le9-Linux-Low-RAM"/>
-        <updated>2021-07-14T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[It's well known that the Linux desktop can be quite unbearable when under heavy memory pressure as has been showcased over the years and more attention these days turning to the likes of OOMD/systemd-oomd and other alternatives to better deal with Linux low/out-of-memory scenarios especially with today's desktop software and web browsers consuming increasing amounts of memory. Another effort coming to fruition for helping this scenario is the "le9" Linux kernel patches...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RADV Radeon Driver Lands NGG Culling Support As Another Performance Win]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Lands-NGG-Culling</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Lands-NGG-Culling"/>
-        <updated>2021-07-14T11:07:45.000Z</updated>
-        <summary type="html"><![CDATA[Mesa's open-source Radeon Vulkan driver "RADV" has landed support for Next-Gen Geometry (NGG) culling support as ultimately what should provide another performance win for some workloads...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts Revised Linux Driver Patches For DG2 Graphics, Xe_HP SDV Accelerator]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Xe_HP-SDV-v2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Xe_HP-SDV-v2"/>
-        <updated>2021-07-14T10:16:12.000Z</updated>
-        <summary type="html"><![CDATA[Now that the DG1 graphics support is beginning to get squared away and with Linux 5.15 will likely be able to boot to an accelerated desktop, bring-up on the DG2 graphics card has begun along with the Xe_HP software development vehicle...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More Than Five Years In The Making: Creating A New Linux Random Number Generator]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LRNG-Random-2021-v41</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LRNG-Random-2021-v41"/>
-        <updated>2021-07-14T09:48:14.000Z</updated>
-        <summary type="html"><![CDATA[The "Linux Random Number Generator" (LRNG) effort as a new drop-in replacement for /dev/random is now up to its 41st revision and in development for more than five years...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adreno 660 + 635 Now Supported By The Open-Source OpenGL/Vulkan Drivers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Adreno-635-660-Mesa</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Adreno-635-660-Mesa"/>
-        <updated>2021-07-14T09:30:14.000Z</updated>
-        <summary type="html"><![CDATA[For going along with the newly added support in the MSM DRM kernel driver, Mesa's Freedreno Gallium3D OpenGL and Turnip Vulkan drivers have landed support for the Adreno 660 and Adreno 635 graphics processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Still Hasn't Gotten To Landing Per-Client Engine Busyness Reporting For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-2021-Still-Per-Client-WIP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-2021-Still-Per-Client-WIP"/>
-        <updated>2021-07-14T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the patch series I have been looking forward to see land going back to 2018 has been the per-process GPU load statistics or as it's known officially the "per client engine busyness" series. The work didn't land for Linux 5.14 but at least this week the latest revision was posted...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam Client Update Brings Numerous Linux Fixes, More Controller Additions]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-13-July-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-13-July-2021"/>
-        <updated>2021-07-14T00:14:56.000Z</updated>
-        <summary type="html"><![CDATA[Valve today pushed out their newest stable update to the Steam client for Windows, macOS, and Linux...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
