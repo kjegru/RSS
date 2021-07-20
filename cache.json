@@ -22,6 +22,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/",
+          "author": null,
+          "description": "Turn back time a bit and try to remember the first project you started or joined, and the onboarding experience. How long did it take to install the development environment on your local machine?\nWe talked about our own onboarding experiences into software development, and thought about sharing our favorite tips with GitLab users.\nA developer's tale\nEveryone starts fresh, and often best practices are just \"learning by doing,\" requiring documentation in the same moment. Programming languages and application architectures are also different - a C++ backend environment has different requirements than a Ruby on Rails web application.\nStart with defining the requirements and stages. Oftentimes they are equivalent to CI/CD pipeline stages but executed in your own environment.\nCompile/build the a…",
+          "link": "https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/",
+          "publishedOn": "2021-07-19T00:00:00.000Z",
+          "wordCount": 5481,
+          "title": "How teams can use the Gitpod integration in GitLab to speed up their development process"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/",
           "author": null,
           "description": "GitOps is a hot topic in the world of operations, but what does it provide to workflows that we didn’t have already? Looking at the evolution of the operations space, there have been many big changes in the past 20 years, and I argue that GitOps is not a change, rather a summary of best practices. So, how do we describe the major phenomenon in Ops over the past 20 years?\nBefore 2000, the primary approach to operations was to hire a System Administrator or empower Lead Developers to do Ops work. System Administrators knew a lot about networking and server optimisations, and a good sysadmin can do most of their work through code, using Bash, Perl or Python scripts. While every software engineer likely knows at least the basics of shell scripting, even many backend engineers would not be comf…",
@@ -99,7 +108,7 @@
           "description": "In this guide we will learn how to spin up GitLab in the AWS Marketplace:\nPre requisites for this lab are having an account in AWS and an accessible and working VPC.\nWe will learn the following steps:\nStand up a self-managed instance of GitLab.\nInstall Runner and Docker Engine.\nStep-by-step Instructions\nStep 1 - Stand up GitLab instance in AWS\nOpen GitLab Ultimate in AWS Marketplace.\nClick on Continue to Subscribe\n\nSign in with your IAM user.\n\nClick on Continue to Configuration.\n\nLeave the default value for Delivery Method, select the latest version in Software Version, select your Region, click Continue to Launch.\n\nIn Launch this software page, scroll down.\n\nUnder Security Group Settings click Create New Based On Seller Settings .\n\nName your security group, add a description, and save it.…",
           "link": "https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/",
           "publishedOn": "2021-06-30T00:00:00.000Z",
-          "wordCount": 2147,
+          "wordCount": 2152,
           "title": "How to stand-up a GitLab instance in AWS Marketplace"
         },
         {
@@ -182,12 +191,102 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Alpha",
+          "author": null,
+          "description": "The GNOME project is out today with their first alpha release of the forthcoming GNOME 41 desktop environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Alpha",
+          "publishedOn": "2021-07-19T23:12:34.000Z",
+          "wordCount": 849,
+          "title": "GNOME 41 Alpha Released With Many Desktop Changes Accumulating"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=FreeType-2.11",
+          "author": null,
+          "description": "FreeType 2.11 is out as the newest version of this widely-used library for font rasterization...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=FreeType-2.11",
+          "publishedOn": "2021-07-19T22:20:00.000Z",
+          "wordCount": 737,
+          "title": "FreeType 2.11 Released With New Rendering Module, Smooth Rasterizer Is Faster"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-More-OSS-GameWorks",
+          "author": null,
+          "description": "It looks like NVIDIA could be feeling the pressure from AMD's GPUOpen efforts with NVIDIA now publishing more GameWorks projects as open-source for both Linux and Windows...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-More-OSS-GameWorks",
+          "publishedOn": "2021-07-19T17:38:33.000Z",
+          "wordCount": 815,
+          "title": "NVIDIA Releases More GameWorks Projects As Open-Source With Linux Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.57.02-Linux",
+          "author": null,
+          "description": "In addition to showcasing NVIDIA RTX support on Arm, NVIDIA also used this first day of GDC week to release their 470.57.02 stable Linux driver as well as official DLSS SDK support for Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.57.02-Linux",
+          "publishedOn": "2021-07-19T14:48:17.000Z",
+          "wordCount": 729,
+          "title": "NVIDIA Releases 470.57.02 Linux Driver, DLSS SDK Adds Official Linux Support"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30349",
+          "author": null,
+          "description": "Most Linux distributions including the likes of Ubuntu and Fedora have been shipping Intel's Thermald daemon the past few years as it's important to achieving good thermal/power behavior on modern Intel SoCs. For those curious about its impact, here are some benchmarks carried out with Intel Thermald or not when using an Intel Core i7 1185G7 Tiger Lake notebook.",
+          "link": "https://www.phoronix.com/vr.php?view=30349",
+          "publishedOn": "2021-07-19T14:00:00.000Z",
+          "wordCount": 878,
+          "title": "The Importance Of Thermald On Linux For Modern Intel Tiger Lake Laptops"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-RTX-On-ARM",
+          "author": null,
+          "description": "NVIDIA announced from the Game Developers Conference this week that they have been working to bring RTX ray-tracing support with their graphics cards to also work on Arm hardware running Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-RTX-On-ARM",
+          "publishedOn": "2021-07-19T13:20:00.000Z",
+          "wordCount": 805,
+          "title": "NVIDIA Talks Up RTX Capabilities On Arm - Showcased Using Arch Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Alpha-Builds-July",
+          "author": null,
+          "description": "Back in April Devuan 4.0 alpha builds began for this Debian fork/downstream that aims for init system freedom by allowing Debian GNU/Linux to work without a dependence on systemd. Devuan 4.0 is tracking upstream Debian 11 quite closely with its changes...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Alpha-Builds-July",
+          "publishedOn": "2021-07-19T12:00:00.000Z",
+          "wordCount": 722,
+          "title": "Devuan 4.0 Alpha Builds Updated For Debian 11 Stripped Of systemd"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-More-Changes",
+          "author": null,
+          "description": "The Fedora Engineering and Steering Committee (FESCo) has unanimously approved a large number of new Fedora 35 features this week...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-More-Changes",
+          "publishedOn": "2021-07-19T10:00:00.000Z",
+          "wordCount": 993,
+          "title": "Fedora 35 Approved For Third-Party Repo Changes, More Optimal Encryption Default"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.59-Build-System",
+          "author": null,
+          "description": "The open-source Meson build system that continues to be increasingly used by open-source projects and other software is out with version 0.59, which continues tacking on more features...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.59-Build-System",
+          "publishedOn": "2021-07-19T08:00:00.000Z",
+          "wordCount": 827,
+          "title": "Meson 0.59 Build System Adds First Class Cython, Wine Resource Compiler Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ultra-App-Kit-1.1",
+          "author": null,
+          "description": "Ultra App Kit is a new cross-platform, user interface toolkit option focused on satisfying the needs of game engines/tooling but also covering needs for other desktop GUI applications...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ultra-App-Kit-1.1",
+          "publishedOn": "2021-07-19T04:00:00.000Z",
+          "wordCount": 902,
+          "title": "Ultra App Kit 1.1 Released As New Cross-Platform UI Toolkit"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc2",
           "author": null,
           "description": "Linus Torvalds just released Linux 5.14-rc2 as the latest weekly test candidate of the maturing Linux 5.14 kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc2",
           "publishedOn": "2021-07-18T21:49:14.000Z",
-          "wordCount": 929,
+          "wordCount": 855,
           "title": "Linux 5.14-rc2 Released & It's Much Bigger Than Usual"
         },
         {
@@ -196,7 +295,7 @@
           "description": "Out this Sunday is the latest update to GNU Binutils as this important collection of binary utilities common to Linux and other platforms...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-2.37-Released",
           "publishedOn": "2021-07-18T19:39:30.000Z",
-          "wordCount": 832,
+          "wordCount": 772,
           "title": "GNU Binutils 2.37 Released With Support for ARMv9's Realm Management Extension"
         },
         {
@@ -205,7 +304,7 @@
           "description": "With the alpha release of the Godot 4.0 open-source game engine approaching, a blog post today detailed the current graphics API support plans around this major game engine update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Godot-4-GLES3-Vulkan-Focus",
           "publishedOn": "2021-07-18T14:39:37.000Z",
-          "wordCount": 890,
+          "wordCount": 975,
           "title": "Godot 4 Is Focusing On Vulkan + OpenGL ES 3.0, OpenGL Likely For Godot 4.1"
         },
         {
@@ -214,7 +313,7 @@
           "description": "Thanks to Canonical's distributed workforce with most of their employees working from home even pre-pandemic and the booming Linux ecosystem, the Ubuntu maker performed very well over 2020 and even grew its headcount back above 500 employees and managed to swing from a loss in 2019 to a profit in 2020...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Canonical-2020-Filing",
           "publishedOn": "2021-07-18T13:50:00.000Z",
-          "wordCount": 972,
+          "wordCount": 898,
           "title": "Canonical Has Been Weathering The Pandemic Well: Turned A Profit, Back Above 500 Employees"
         },
         {
@@ -223,7 +322,7 @@
           "description": "For those that may have upgraded to an Intel Tiger Lake notebook and making use of the Gen12 Xe Graphics while running a distribution like Ubuntu 21.04, if you are wondering whether upgrading the kernel or Mesa are worthwhile here are some benchmarks...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=TGL-Xe-Graphics-More-Mesa-Git",
           "publishedOn": "2021-07-18T11:00:00.000Z",
-          "wordCount": 989,
+          "wordCount": 1027,
           "title": "Squeezing More Performance Out Of Intel Tiger Lake Xe Graphics By Using Mesa Git"
         },
         {
@@ -232,7 +331,7 @@
           "description": "Early work is underway on Coreboot for AMD's Barcelo as the successor to Lucienne...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Barcelo-Coreboot-Starts",
           "publishedOn": "2021-07-18T10:08:18.000Z",
-          "wordCount": 773,
+          "wordCount": 779,
           "title": "Coreboot Starts Seeing Bits For AMD Barcelo"
         },
         {
@@ -241,7 +340,7 @@
           "description": "Linux 5.15 later this year will bring improvements to the kernel side of Open vSwitch, the open-source virtual multi-layer switch implementation that is commonly used in large virtualized environments...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Better-Open-vSwitch",
           "publishedOn": "2021-07-18T09:45:15.000Z",
-          "wordCount": 772,
+          "wordCount": 844,
           "title": "Linux 5.15 To Bring More Scalable + Reliable Open vSwitch"
         },
         {
@@ -250,7 +349,7 @@
           "description": "Following the soft freeze and hard freeze, Debian 11 \"Bullseye\" is now under a full freeze ahead of its official Debian 11 stable release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-Full-Freeze",
           "publishedOn": "2021-07-17T20:34:34.000Z",
-          "wordCount": 710,
+          "wordCount": 789,
           "title": "Debian 11.0 \"Bullseye\" Is Very Close To Release - Now Under A Full Freeze"
         },
         {
@@ -259,7 +358,7 @@
           "description": "Released on Friday was a new version of the Hashcat open-source password recovery tool that now adds an AMD HIP back-end...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hashcat-6.2.3-HIP",
           "publishedOn": "2021-07-17T18:00:00.000Z",
-          "wordCount": 796,
+          "wordCount": 880,
           "title": "Hashcat 6.2.3 Introduces AMD HIP Backend"
         },
         {
@@ -268,7 +367,7 @@
           "description": "With the recent release of System76's Pop!_OS 21.04 if you are thinking about upgrading to this release from Pop!_OS 20.04 LTS or choosing between the two, here are some benchmarks from the AMD Ryzen Threadripper powered System76 Thelio Major.",
           "link": "https://www.phoronix.com/vr.php?view=30346",
           "publishedOn": "2021-07-17T17:00:00.000Z",
-          "wordCount": 1065,
+          "wordCount": 1056,
           "title": "Pop!_OS 20.04 LTS vs. Pop!_OS 21.04 Performance Benchmarks"
         },
         {
@@ -277,7 +376,7 @@
           "description": "One year ago was the surprise of Paragon Software wanting to mainline their NTFS Linux kernel driver. The Paragon \"NTFS3\" kernel driver provides much better read/write support for Microsoft's NTFS file-system than what is available with other kernel or FUSE options for this file-system support on Linux. It looks like this driver might finally be mainlined soon...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Torvalds-PR-For-NTFS3",
           "publishedOn": "2021-07-17T16:06:42.000Z",
-          "wordCount": 1046,
+          "wordCount": 972,
           "title": "Linus Torvalds Calls On Paragon To Send In The New NTFS Driver"
         },
         {
@@ -286,7 +385,7 @@
           "description": "AMD's PMC Linux driver with Linux 5.15 is expected to offer more debugging information for diagnosing S0ix power states behavior to analyze if an AMD SoC is hitting or not the desired low-power states...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Debug-S0ix-PMC",
           "publishedOn": "2021-07-17T11:13:04.000Z",
-          "wordCount": 835,
+          "wordCount": 887,
           "title": "AMD Pushes Improvements To Help Debug S0ix Power States On Linux"
         },
         {
@@ -295,7 +394,7 @@
           "description": "In between celebrating the fact that Valve's newly announced Steam Deck runs KDE Plasma when exiting the Steam confines, KDE developers had a very busy week with a number of different improvements to their open-source desktop...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-KWin-DRM-Overhaul",
           "publishedOn": "2021-07-17T10:03:39.000Z",
-          "wordCount": 780,
+          "wordCount": 857,
           "title": "KDE's KWin Reworks Its DRM Code, Many Other Improvements"
         },
         {
@@ -304,7 +403,7 @@
           "description": "The Open 3D Engine spun out of Amazon's Lumberyard game engine has been seeing progress on Vulkan 1.2 API work as well as Linux porting at large, including the bringing up of the game engine's editor on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=O3DE-Linux-Editor-Progress",
           "publishedOn": "2021-07-16T18:39:52.000Z",
-          "wordCount": 851,
+          "wordCount": 890,
           "title": "O3DE Game Engine Seeing Progress On Linux Editor"
         },
         {
@@ -313,7 +412,7 @@
           "description": "The KWinFT fork of KDE's KWin compositor has landed its support for using the WLROOTS Wayland library...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KWinFT-Lands-WLROOTS-Usage",
           "publishedOn": "2021-07-16T18:24:52.000Z",
-          "wordCount": 802,
+          "wordCount": 762,
           "title": "KWinFT Lands Code To Now Use WLROOTS For Wayland"
         },
         {
@@ -322,7 +421,7 @@
           "description": "The newest performance optimization merged this week for Mesa's \"RADV\" Radeon Vulkan open-source driver is NGG culling for Navi 1x/2x graphics cards. NGG Culling \"NGGC\" isn't enabled by default at this time but can be easily activated and depending upon the software under test can provide some minor performance gains on top of all the other optimizations seen in recent times for RADV.",
           "link": "https://www.phoronix.com/vr.php?view=30342",
           "publishedOn": "2021-07-16T13:30:00.000Z",
-          "wordCount": 916,
+          "wordCount": 907,
           "title": "Linux Gaming Performance With Radeon Vulkan NGG Culling"
         },
         {
@@ -331,7 +430,7 @@
           "description": "An early batch of \"drm-misc-next\" changes has been sent to DRM-Next for queuing to ultimately land with the Linux 5.15 kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-Misc-Next-First-5.15",
           "publishedOn": "2021-07-16T11:24:02.000Z",
-          "wordCount": 872,
+          "wordCount": 892,
           "title": "Graphics Driver Changes Begin Queuing For Linux 5.15"
         },
         {
@@ -340,7 +439,7 @@
           "description": "Recently in Coreboot Git has been more work on expanding its (experimental) 64-bit mode for execution...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Coreboot-More-64-bit-Mode",
           "publishedOn": "2021-07-16T09:52:26.000Z",
-          "wordCount": 800,
+          "wordCount": 792,
           "title": "Coreboot Making Progress On Running More Of It In 64-bit Mode"
         },
         {
@@ -349,7 +448,7 @@
           "description": "At the start of 2020 Amazon engineers sent out a \"request for comments\" around DAMON as a new kernel feature to monitor data accesses and can be used for purposes like analyzing over-committed memory use, debugging, and other optimizations. DAMON has now seen thirty-four revisions to the patches but it looks like it could finally be in a state for mainlining in the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Amazon-DAMON-v34",
           "publishedOn": "2021-07-16T09:37:27.000Z",
-          "wordCount": 964,
+          "wordCount": 890,
           "title": "Amazon's DAMON Might Finally Be Ready For Upstreaming Into The Linux Kernel"
         },
         {
@@ -358,7 +457,7 @@
           "description": "The latest surprise news under Intel's new leadership is that they are reported to be exploring a deal to acquire GlobalFoundries, the company ultimately formed when AMD decided in 2008 to spin off their semiconductor manufacturing business...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-GloFo-30B-Deal-Talk",
           "publishedOn": "2021-07-16T00:20:00.000Z",
-          "wordCount": 919,
+          "wordCount": 916,
           "title": "Intel Reported To Be Looking At Acquiring GlobalFoundries"
         },
         {
@@ -367,7 +466,7 @@
           "description": "For those that find themselves using an Apple Magic Mouse, the finger-sliding scrolling experience should be improved come Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Magic-Mouse-High-Res-Linux-5.15",
           "publishedOn": "2021-07-15T22:27:54.000Z",
-          "wordCount": 761,
+          "wordCount": 767,
           "title": "Apple Magic Mouse To Support High Resolution Scrolling With Linux 5.15"
         },
         {
@@ -376,98 +475,8 @@
           "description": "For nearly one year already we've been delivering many Intel Tiger Lake Linux benchmarks using the Core i7 1165G7 while for those curious about the i7-1185G7 that is becoming more common with newer notebooks, here are some benchmarks of the Core i7 1185G7 Tiger Lake against various other notebooks/processors on hand for comparison.",
           "link": "https://www.phoronix.com/vr.php?view=30340",
           "publishedOn": "2021-07-15T20:30:00.000Z",
-          "wordCount": 918,
+          "wordCount": 989,
           "title": "Intel Core i7 1185G7 Linux Performance"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=E3C246D4I-OpenBMC-Coreboot",
-          "author": null,
-          "description": "For those wanting to get into open-source firmware development or even just to have a small SOHO x86_64 low-cost Intel server platform that is as open as possible, ASRock Rack happens to now boast one of the best solutions...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=E3C246D4I-OpenBMC-Coreboot",
-          "publishedOn": "2021-07-15T18:27:29.000Z",
-          "wordCount": 1046,
-          "title": "ASRock Rack Has One Of The Best, Most Open-Source Firmware x86 Server Motherboards"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck",
-          "author": null,
-          "description": "Following months of rumors about new gaming hardware from Valve, today they announced Steam Deck as a new handheld PC gaming device starting at $399...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck",
-          "publishedOn": "2021-07-15T17:21:29.000Z",
-          "wordCount": 741,
-          "title": "Valve Announces Steam Deck As Portable SteamOS + AMD Powered Portable PC"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FidelityFX-Super-Res-Source",
-          "author": null,
-          "description": "After AMD posted FidelityFX Super Resolution last month with various initial launch titles, the source code to this NVIDIA DLSS alternative is now publicly available...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-FidelityFX-Super-Res-Source",
-          "publishedOn": "2021-07-15T16:33:47.000Z",
-          "wordCount": 819,
-          "title": "AMD Posts FidelityFX Super Resolution Source Code"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Benchmarks-Perf-Early",
-          "author": null,
-          "description": "Each PHP release continues to improve in the department of performance. Even after the sizable performance improvements made with PHP 7, PHP 8 is continuing to further optimize the performance regardless of using its new JIT. While there still are several months to go until the official PHP 8.1 release, here are a few early benchmarks looking at the PHP CLI performance of PHP 8.1 and prior PHP releases...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PHP-8.1-Benchmarks-Perf-Early",
-          "publishedOn": "2021-07-15T11:20:00.000Z",
-          "wordCount": 852,
-          "title": "PHP 8.1 Performance Is Continuing To Improve With Early Benchmarks"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.14-rc1-Size",
-          "author": null,
-          "description": "It was just four years ago the AMDGPU kernel driver was nearly one million lines of code and earlier this year began nearing three million lines. Now with Linux 5.14-rc1 released this week it is at over 3.3 million lines for this kernel graphics driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.14-rc1-Size",
-          "publishedOn": "2021-07-15T10:33:47.000Z",
-          "wordCount": 985,
-          "title": "AMD's Modern Graphics Driver In Linux 5.14 Exceeds 3.3 Million Lines Of Code"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Memory-Folios-14",
-          "author": null,
-          "description": "Matthew Wilcox of Oracle has sent out his 14th revision to the memory \"folios\" patch-set for this new struct that aims to improve Linux's memory management code and ultimately better performance...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Memory-Folios-14",
-          "publishedOn": "2021-07-15T10:00:00.000Z",
-          "wordCount": 1005,
-          "title": "Memory Folios Updated A 14th Time For Improving Linux Memory Management"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=MSM-DRM-DSC",
-          "author": null,
-          "description": "Patches have been posted for wiring up Display Stream Compression (DSC) support for the Qualcomm MSM Direct Rendering Manager driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=MSM-DRM-DSC",
-          "publishedOn": "2021-07-15T09:45:20.000Z",
-          "wordCount": 829,
-          "title": "Display Stream Compression Prepped For Qualcomm's MSM DRM Driver"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Zen-3-APU-Temp-hwmon",
-          "author": null,
-          "description": "Landing into \"hwmon-next\" just after the Linux 5.14-rc1 tagging that marks the formal end to feature work for the current cycle was the k10temp driver adding support for AMD Zen 3 APU temperature monitoring under Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Zen-3-APU-Temp-hwmon",
-          "publishedOn": "2021-07-14T21:30:00.000Z",
-          "wordCount": 952,
-          "title": "AMD Zen 3 APU Temperature Monitoring Narrowly Misses Linux 5.14"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc1-Released",
-          "author": null,
-          "description": "Mesa 21.2 feature development is now over and the first release candidate issued for this next quarterly feature release to these open-source OpenGL/Vulkan Linux drivers...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc1-Released",
-          "publishedOn": "2021-07-14T19:05:41.000Z",
-          "wordCount": 772,
-          "title": "Mesa 21.2-rc1 Released With Early Apple M1 Code, Crocus Gallium3D"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-18",
-          "author": null,
-          "description": "The UBports folks have released Ubuntu Touch OTA-18 as their latest over-the-air update for this mobile Linux platform. Notable with this release is what isn't there - the Ubuntu 20.04 base. Ubuntu Touch OTA-18 continues using now the five year old Ubuntu 16.04 LTS base while the migration to 20.04 is still in progress...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-18",
-          "publishedOn": "2021-07-14T17:26:36.000Z",
-          "wordCount": 764,
-          "title": "Ubuntu Touch OTA-18 Released - Still Using Ubuntu 16.04, 20.04 Migration Ongoing"
         }
       ]
     }
