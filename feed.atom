@@ -1,10 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-20T00:22:12.562Z</id>
+    <id>urn:2021-07-21T00:22:03.957Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-20T00:22:12.562Z</updated>
+    <updated>2021-07-21T00:22:03.957Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Chrome 92 Released With crypto.randomUUID, Security Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-92</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-92"/>
+        <updated>2021-07-20T22:36:33.000Z</updated>
+        <summary type="html"><![CDATA[Google today released Chrome 92 as their newest release on the browser's four-week release regiment...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.13 Released With Proper Scrollbar Theming, More PE Conversion]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.13-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.13-Released"/>
+        <updated>2021-07-20T20:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wine project usually puts out new open-source development releases reliably every other week, but as is sometimes the case during the summer months, last Friday's was missed due to summer holidays. That update -- Wine 6.13 -- has now shipped today...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm Mali "Valhall" Reverse-Engineering Started]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Valhall-RE-Started</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Valhall-RE-Started"/>
+        <updated>2021-07-20T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Panfrost open-source Linux graphics driver stack has matured nicely for Arm Mali  Midgard and Bifrost generations but for the past two years now there has been Valhall as the latest-generation Arm Mali microarchitecture. There is now work underway on reverse-engineering Valhall for ultimately wiring up with open-source graphics driver support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Posts Linux Graphics Driver Patches For "Cyan Skillfish"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Cyan-Skillfish</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Cyan-Skillfish"/>
+        <updated>2021-07-20T17:45:14.000Z</updated>
+        <summary type="html"><![CDATA[AMD posted a new patch series bringing up a new graphics processor, Cyan Skillfish...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DXVK-NVAPI 0.4 Released For Improving NVIDIA Integration Atop DXVK]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-NVAPI-0.4-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-NVAPI-0.4-Released"/>
+        <updated>2021-07-20T16:53:40.000Z</updated>
+        <summary type="html"><![CDATA[DXVK-NVAPI as the effort for exposing more NVIDIA driver/GPU features within DXVK for Steam Play (Proton) usage is out with a new feature release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gentoo Spins Up More Stage Downloads For Musl libc, Systemd Init]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gentoo-More-Stage-Options</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gentoo-More-Stage-Options"/>
+        <updated>2021-07-20T13:09:36.000Z</updated>
+        <summary type="html"><![CDATA[The Gentoo project has announced the availability of a greater selection of stage files for download in kicking off the Gentoo Linux installation process...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Releases TensorRT 8.0 With Big Performance Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-TensorRT-8</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-TensorRT-8"/>
+        <updated>2021-07-20T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA today is making available a much faster version of TensorRT, its SDK for optimized deep learning inference on their GPUs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.185 Introduces Several New Extensions - Includes Presentation Work Led By Valve]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.185-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.185-Released"/>
+        <updated>2021-07-20T10:48:57.000Z</updated>
+        <summary type="html"><![CDATA[Vulkan 1.2.185 was christened this morning with several new extensions being introduced...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS In Your Car? Automotive SIG Approved]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Automotive-SIG</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Automotive-SIG"/>
+        <updated>2021-07-20T10:13:18.000Z</updated>
+        <summary type="html"><![CDATA[The newest special interest group (SIG) approved by the CentOS Board of Directors is around the automotive space for in-vehicle automotive use-cases...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma Mobile 21.07 Released With More Responsive Shell, Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-Mobile-21.07</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-Mobile-21.07"/>
+        <updated>2021-07-20T09:57:41.000Z</updated>
+        <summary type="html"><![CDATA[The folks working on KDE's mobile efforts have released Plasma Mobile 21.07 as the newest feature release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora 35 Looking To Employ WirePlumber For Managing PipeWire]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-WirePlumber-Plan</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-WirePlumber-Plan"/>
+        <updated>2021-07-20T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Fedora 34 successfully shipped with PipeWire for managing audio/video streams and replacing PulseAudio use-cases, with Fedora 35 this autumn the integration around PipeWire should be even better...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are you ready for the newest era of DevSecOps?]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/20/are-you-ready-for-the-newest-era-of-devsecops/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/20/are-you-ready-for-the-newest-era-of-devsecops/"/>
+        <updated>2021-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security is on everyone's radar, from board members to inquisitive grandparents. Everyone wants to know what software development teams are doing to protect their applications from attacks like that of Colonial Pipeline, Solarwinds, and others. With the launch of GitLab 14, we accelerated modern DevOps by bringing velocity with confidence, built-in security, and visibility, into DevOps success.
+The modern DevOps solution is platform-driven, has a unified data store, and has security embedded throughout the software development lifecycle (SDLC). We find that it is these three attributes that drive demand for a modern DevOps solution among many different types of businesses.
+Security in the modern DevOps solution goes beyond just shifting security features left to empower the developers to f…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab introduces updates to paid tiers for improved billing and subscription management]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/20/improved-billing-and-subscription-management/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/20/improved-billing-and-subscription-management/"/>
+        <updated>2021-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What you need to know
+GitLab moves from annual true-ups to quarterly subscription reconciliation
+Introduces cloud licensing and auto-renewals for improved license management
+Requires collection of operational data for customer success services
+Applicable to new customers from August 1, 2021 and existing customers at their next renewal
+Today, we are announcing changes to improve the billing and subscription management experience for customers. While quarterly subscription reconciliation benefits both our SaaS and self-managed customers, the three other improvements, including the collection of operational data for customer success services, auto-renewals, and cloud licensing, will enhance the product and service experience for self-managed customers.
+While other vendors are shifting to only…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.0.6]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/"/>
+        <updated>2021-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.0.6 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 14.0 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Replace Excon with Faraday for requesting object storage
+Fix LFS objects not downloading with Bitbucket
+Resolve "Terraform module usage instructions are incorrect"
+Geo: Fix snippet verification by replicating the HEAD ref
+Fix validation method regarding MIME type keys
+coordinator: Fix repo creation/removal race for up-to-date secondaries for 14-0-stable
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME 41 Alpha Released With Many Desktop Changes Accumulating]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-Alpha</id>
@@ -226,116 +397,6 @@ Compile/build the a…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Torvalds-PR-For-NTFS3"/>
         <updated>2021-07-17T16:06:42.000Z</updated>
         <summary type="html"><![CDATA[One year ago was the surprise of Paragon Software wanting to mainline their NTFS Linux kernel driver. The Paragon "NTFS3" kernel driver provides much better read/write support for Microsoft's NTFS file-system than what is available with other kernel or FUSE options for this file-system support on Linux. It looks like this driver might finally be mainlined soon...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Pushes Improvements To Help Debug S0ix Power States On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Debug-S0ix-PMC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Debug-S0ix-PMC"/>
-        <updated>2021-07-17T11:13:04.000Z</updated>
-        <summary type="html"><![CDATA[AMD's PMC Linux driver with Linux 5.15 is expected to offer more debugging information for diagnosing S0ix power states behavior to analyze if an AMD SoC is hitting or not the desired low-power states...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE's KWin Reworks Its DRM Code, Many Other Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-KWin-DRM-Overhaul</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-KWin-DRM-Overhaul"/>
-        <updated>2021-07-17T10:03:39.000Z</updated>
-        <summary type="html"><![CDATA[In between celebrating the fact that Valve's newly announced Steam Deck runs KDE Plasma when exiting the Steam confines, KDE developers had a very busy week with a number of different improvements to their open-source desktop...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[O3DE Game Engine Seeing Progress On Linux Editor]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Editor-Progress</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Editor-Progress"/>
-        <updated>2021-07-16T18:39:52.000Z</updated>
-        <summary type="html"><![CDATA[The Open 3D Engine spun out of Amazon's Lumberyard game engine has been seeing progress on Vulkan 1.2 API work as well as Linux porting at large, including the bringing up of the game engine's editor on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KWinFT Lands Code To Now Use WLROOTS For Wayland]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-Lands-WLROOTS-Usage</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-Lands-WLROOTS-Usage"/>
-        <updated>2021-07-16T18:24:52.000Z</updated>
-        <summary type="html"><![CDATA[The KWinFT fork of KDE's KWin compositor has landed its support for using the WLROOTS Wayland library...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Gaming Performance With Radeon Vulkan NGG Culling]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30342</id>
-        <link href="https://www.phoronix.com/vr.php?view=30342"/>
-        <updated>2021-07-16T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The newest performance optimization merged this week for Mesa's "RADV" Radeon Vulkan open-source driver is NGG culling for Navi 1x/2x graphics cards. NGG Culling "NGGC" isn't enabled by default at this time but can be easily activated and depending upon the software under test can provide some minor performance gains on top of all the other optimizations seen in recent times for RADV.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graphics Driver Changes Begin Queuing For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-Misc-Next-First-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-Misc-Next-First-5.15"/>
-        <updated>2021-07-16T11:24:02.000Z</updated>
-        <summary type="html"><![CDATA[An early batch of "drm-misc-next" changes has been sent to DRM-Next for queuing to ultimately land with the Linux 5.15 kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coreboot Making Progress On Running More Of It In 64-bit Mode]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-More-64-bit-Mode</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Coreboot-More-64-bit-Mode"/>
-        <updated>2021-07-16T09:52:26.000Z</updated>
-        <summary type="html"><![CDATA[Recently in Coreboot Git has been more work on expanding its (experimental) 64-bit mode for execution...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon's DAMON Might Finally Be Ready For Upstreaming Into The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Amazon-DAMON-v34</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Amazon-DAMON-v34"/>
-        <updated>2021-07-16T09:37:27.000Z</updated>
-        <summary type="html"><![CDATA[At the start of 2020 Amazon engineers sent out a "request for comments" around DAMON as a new kernel feature to monitor data accesses and can be used for purposes like analyzing over-committed memory use, debugging, and other optimizations. DAMON has now seen thirty-four revisions to the patches but it looks like it could finally be in a state for mainlining in the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Reported To Be Looking At Acquiring GlobalFoundries]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GloFo-30B-Deal-Talk</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GloFo-30B-Deal-Talk"/>
-        <updated>2021-07-16T00:20:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest surprise news under Intel's new leadership is that they are reported to be exploring a deal to acquire GlobalFoundries, the company ultimately formed when AMD decided in 2008 to spin off their semiconductor manufacturing business...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Magic Mouse To Support High Resolution Scrolling With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Magic-Mouse-High-Res-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Magic-Mouse-High-Res-Linux-5.15"/>
-        <updated>2021-07-15T22:27:54.000Z</updated>
-        <summary type="html"><![CDATA[For those that find themselves using an Apple Magic Mouse, the finger-sliding scrolling experience should be improved come Linux 5.15...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Core i7 1185G7 Linux Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30340</id>
-        <link href="https://www.phoronix.com/vr.php?view=30340"/>
-        <updated>2021-07-15T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[For nearly one year already we've been delivering many Intel Tiger Lake Linux benchmarks using the Core i7 1165G7 while for those curious about the i7-1185G7 that is becoming more common with newer notebooks, here are some benchmarks of the Core i7 1185G7 Tiger Lake against various other notebooks/processors on hand for comparison.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -656,66 +717,6 @@ There is a better way to build software. GitLab 14 delivers modern DevOps with a
 Together, we’ve made so much progress over the last year that we want to talk about everything it took to get to GitLab 14.
 We use semantic versioning so a point release, like 14.0, represents everything new in this month. GitLab 14 is the culmination of the past year. Even more than that, GitLab 14 represents the future of GitLab, and the future of DevOps.
 With GitLab 14, teams of all sizes are moving from maintaining DIY DevOps toolchains to adopting modern DevOps. GitLab 14 is a complete DevOps platform with security embedded in its DNA, visibility and insights enabled by its single …]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Usage Ping configuration bug for self-managed instances]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/21/usage-ping-configuration-bug-for-self-managed-instances/"/>
-        <updated>2021-06-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We recently discovered a Usage Ping  configuration bug for self-managed instances and have since published a patch release to fix the bug. The issue affects the ability to disable Usage Ping for self-managed GitLab via text configuration files, resulting in the collection and transmission of Usage Ping events from the instance. This bug affects any instance running GitLab version 9.3 to version 13.12.3, and was patched in 13.12.4.
-What does this mean for existing users?
-This issue does not affect customers who have disabled Usage Ping via the user interface or any users of our SaaS product.
-You can check your instance configuration settings to see if this issue may have affected you. We’ve published more detailed instructions here.
-What should I do?
-Since we do not collect any configuration data from your instance, we have no way to detect if you unintentionally shared data with GitLab. Out of an abundance of caution, we ask that you fill out this form if you suspect that Usage Ping data was shared after taking steps to opt-out in your GitLab configuration file. We will purge data from our systems and follow up with confirmation.
-Please share your questions and feedback with us on the community forum.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to become more productive with Gitlab CI]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/21/how-to-become-more-productive-with-gitlab-ci/"/>
-        <updated>2021-06-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CI/CD pipelines are the preeminent solution to mitigate potential risks while integrating code changes into the repository. CI/CD pipelines help isolate the impact of potential errors, making it easier to fix them. Top that with a tool that provides effective visibility into the running tasks and there you have a recipe for success.
-Since the primary purpose of CI/CD pipelines is to speed up the development process and provide value to the end user faster, there's always room to make the process more efficient. This blog post unpacks some strategies that can help you get the most out of your pipeline definition in GitLab CI.
-How Directed Acyclic Graphs (DAG) enable concurrent pipelines
-
-By using the "Needs" keyword you can define dependencies for jobs that need to be used from previous sta…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 13.12.5]]></title>
-        <id>https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/06/21/gitlab-13-12-5-released/"/>
-        <updated>2021-06-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 13.12.5 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 13.12 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Only update required instance ci template when the parameter is present
-Fix Password expired error on git fetch via SSH for LDAP user
-Advanced Search Settings page does not load if the ES url is unreachable
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
