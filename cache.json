@@ -4,23 +4,22 @@
       "title": "Release notes from osmosfeed",
       "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": [
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
-          "author": null,
-          "description": "Added: support an experimental template for YouTube feed 📺 Demo | Source\n\nAggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>\nVideos are embedded via iframe and loading accelerated by youtube-lite-embed\nAds are reduced thanks to YouTube's policy for embedded videos 🙃\nWorks on mobile devices with butter smooth horizontal scroll.\nCaveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.\nChanged: Default HTML template meta tag adjusted to match convention\nChanged: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)\nThank you @PiyushLosalka",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
-          "publishedOn": "2021-06-23T05:57:59.000Z",
-          "wordCount": 370,
-          "title": "v1.11.0"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "GitLab",
       "feedUrl": "https://about.gitlab.com/atom.xml",
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
+        {
+          "id": "https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/",
+          "author": null,
+          "description": "Today, we are excited to announce the release of GitLab 14.1 with the ability to build, publish, and share Helm charts, create escalation policies to page responders, connect GitLab Runners to your Kubernetes clusters, enforce code coverage decisions, and much more!\nThese are just a few highlights from the 50+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.2 release kickoff video.\nJoin us for GitLab Commit Virtual to learn how DevOps teams increase collaboration.\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nAndrew Smith\n\nAndrew actively contributed numerous merge requests in the GitLab 14.1 release to help improve GitLab’s planning capabil…",
+          "link": "https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/",
+          "publishedOn": "2021-07-22T00:00:00.000Z",
+          "wordCount": 7908,
+          "title": "GitLab 14.1 released with Helm Chart Registry and Escalation Policies"
+        },
         {
           "id": "https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/",
           "author": null,
@@ -54,7 +53,7 @@
           "description": "Today we are releasing version 14.0.6 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nReplace Excon with Faraday for requesting object storage\nFix LFS objects not downloading with Bitbucket\nResolve \"Terraform module usage instructions are incorrect\"\nGeo: Fix snippet verification by replicating the HEAD ref\nFix validation method regarding MIME type keys\ncoordinator: Fix repo creation/removal race for up-to-date secondaries for 14-0-stable\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/",
           "publishedOn": "2021-07-20T00:00:00.000Z",
-          "wordCount": 1037,
+          "wordCount": 1084,
           "title": "GitLab Patch Release: 14.0.6"
         },
         {
@@ -99,7 +98,7 @@
           "description": "Today we are releasing version 14.0.5 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nResolve \"404 for package details link under Infrastructure Registry for projects nested under 2 group levels\"\nResolve \"Terraform module usage instructions are incorrect\"\nAdd documentation for boards epic create\nInitialize conversion of ci_builds_metadata.id for bigint migration\nFix git clone for projects with a trailing dot over HTTP\nDo not create audit event for failed logins on read-only DB\nAdd prefix to autocomplete path\nReturn empty strings for Jira links when URL is not set\nFix libmagic not being able to find magic files\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/",
           "publishedOn": "2021-07-08T00:00:00.000Z",
-          "wordCount": 1075,
+          "wordCount": 1111,
           "title": "GitLab Patch Release: 14.0.5"
         },
         {
@@ -108,7 +107,7 @@
           "description": "Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…",
           "link": "https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/",
           "publishedOn": "2021-07-07T00:00:00.000Z",
-          "wordCount": 1237,
+          "wordCount": 1273,
           "title": "GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7"
         },
         {
@@ -117,7 +116,7 @@
           "description": "Today we are releasing version 14.0.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nReintroduce recursive_approach_for_all_projects default-enabled\nFix pages deployment storage migration\nFix frequent items timestamps not updated\nFix bug where Milestone page led to console error\nFix broken Time Tracking Reports on Issuable sidebar\nGeo - Fix state value in the lfs_object_registry table\nRevert a 14.0 change in the deployments API\nDevOps Adoption - ensure displayNamespaceId is included\nGeo - Move migration to a pre-deployment migration\nRun batched migrations on self-managed instances\nFix deploy keys not working with LFS auth check\nRepository: Fix repo replication with transactions\nRepository: Fix excessive voting in CreateRepositoryFromBundle\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/",
           "publishedOn": "2021-07-06T00:00:00.000Z",
-          "wordCount": 1082,
+          "wordCount": 1097,
           "title": "GitLab Patch Release: 14.0.3"
         },
         {
@@ -126,7 +125,7 @@
           "description": "Today we are releasing version 13.12.7 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix pages deployment storage migration\nReintroduce recursive_approach_for_all_projects default-enabled\nExempt unicorn['svlogd_prefix'] from deprecation check\nGitaly: fixes to issues with strong consistency/transactional voting\nGeo - Fix state value in the lfs_object_registry table\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/",
           "publishedOn": "2021-07-05T00:00:00.000Z",
-          "wordCount": 1028,
+          "wordCount": 1043,
           "title": "GitLab Patch Release: 13.12.7"
         },
         {
@@ -135,7 +134,7 @@
           "description": "Today we are releasing versions 14.0.2, 13.12.6, and 13.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…",
           "link": "https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/",
           "publishedOn": "2021-07-01T00:00:00.000Z",
-          "wordCount": 2674,
+          "wordCount": 2689,
           "title": "GitLab Security Release: 14.0.2, 13.12.6, and 13.11.6"
         },
         {
@@ -162,17 +161,8 @@
           "description": "Today we are releasing version 14.0.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nUpdate Geo UI screenshots in docs page\nUpdate admin docs with new admin area access info\nAdd Helm-2to3.gitlab-ci.yml to Auto DevOps\nUpdate docs for new Members page location on GitLab navigation\nDevOps Adoption - ensure displayNamespaceId is included\nRemove add button from Devops Adoption\nGeo: Add Terraform Module to datatypes doc\nCreate 14.0 What's New entry\nToggle codequality diff annotations flag\nBump kas to v14.0.1\nExempt unicorn 'svlogd_prefix' from deprecation check\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/06/24/gitlab-14-0-1-released/",
           "publishedOn": "2021-06-24T00:00:00.000Z",
-          "wordCount": 1074,
+          "wordCount": 1089,
           "title": "GitLab Patch Release: 14.0.1"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
-          "author": null,
-          "description": "In the previous post, titled 3 ways to approach GitOps, we discussed the many benefits and options that GitLab supports for fulfilling the GitOps requirements of customers, whose IT environments are composed of heterogeneous technologies and infrastructures. This post is a 3-part series, in which we delve deeper into these options. In this first part, we cover the pull-based or agent-based approach.\nAbout a pull-based or agent-based approach\nIn this approach, an agent is installed in your infrastructure components to pull changes whenever there is a drift from the desired configuration, which resides in GitLab. Although the infrastructure components could be anything from a physical server or router to a VM or a database, we will focus on a Kubernetes cluster in this section.\nIn the follow…",
-          "link": "https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/",
-          "publishedOn": "2021-06-23T00:00:00.000Z",
-          "wordCount": 3501,
-          "title": "How to use a pull-based (agent-based) approach for GitOps"
         }
       ]
     },
@@ -182,12 +172,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Firewalld-1.0",
+          "author": null,
+          "description": "Firewalld was started by Red Hat a decade ago for managing Linux firewall functionality with Netfilter. Ten and a half years after the first release, Firewalld 1.0 was released this afternoon...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firewalld-1.0",
+          "publishedOn": "2021-07-22T22:30:25.000Z",
+          "wordCount": 811,
+          "title": "Firewalld 1.0 Released With Big Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Audio-SDK-4.0",
+          "author": null,
+          "description": "Valve has just released Steam Audio SDK 4.0 as a big feature update to this cross-platform audio SDK that can work with Unity, Unreal Engine, and other game engines..",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Audio-SDK-4.0",
+          "publishedOn": "2021-07-22T19:10:12.000Z",
+          "wordCount": 848,
+          "title": "Steam Audio SDK 4.0 Released With Big Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30357",
+          "author": null,
+          "description": "With an AMD Ryzen 9 5900HX Zen 3 processor and Radeon RX 6800M graphics, the ASUS ROG Strix G15 laptop may be promising for those wanting high performance and graphics backed by AMD's much enjoyed open-source Linux GPU driver stack. Plus this ASUS ROG Strix G15 (G513QY) is one of the first two \"AMD Advantage\" laptops. But when it comes to using it on Linux, it's not without some struggles before being able to enjoy the compelling performance.",
+          "link": "https://www.phoronix.com/vr.php?view=30357",
+          "publishedOn": "2021-07-22T17:30:00.000Z",
+          "wordCount": 882,
+          "title": "AMD Ryzen 9 5900HX / ASUS ROG Strix G15 AMD Advantage On Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.2",
+          "author": null,
+          "description": "AMD engineers today published their latest code drop of the AMDVLK official open-source Radeon Vulkan driver for Linux systems...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.2",
+          "publishedOn": "2021-07-22T11:04:16.000Z",
+          "wordCount": 750,
+          "title": "AMDVLK 2021.Q3.2 Released With New Extensions, Implicit External Sync For All GPUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Thunder-Bay-SoC-Linux",
+          "author": null,
+          "description": "More details are coming to light on \"Thunder Bay\" as a forthcoming Intel SoC now that the open-source Linux driver enablement patches have begun...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Thunder-Bay-SoC-Linux",
+          "publishedOn": "2021-07-22T10:00:00.000Z",
+          "wordCount": 977,
+          "title": "Intel Starts Bringing Up Thunder Bay Full + Prime SoC Support For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc2",
+          "author": null,
+          "description": "Mesa 21.2 continues stabilizing for a planned release in August while released overnight was Mesa 21.2-rc2 as the newest weekly release candidate...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc2",
+          "publishedOn": "2021-07-22T09:45:01.000Z",
+          "wordCount": 722,
+          "title": "Mesa 21.2-rc2 Released With An Initial Batch Of Fixes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=QEMU-6.1-rc0-Released",
+          "author": null,
+          "description": "Released on Tuesday was QEMU 6.1.0-rc0 as the first test release working towards QEMU 6.1's stable debut before the end of August...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=QEMU-6.1-rc0-Released",
+          "publishedOn": "2021-07-22T07:00:00.000Z",
+          "wordCount": 825,
+          "title": "QEMU 6.1 Is On The Way For The Open-Source Linux Virtualization Stack"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Lunar-Lake-e1000e-Linux-5.15",
+          "author": null,
+          "description": "Back in March I wrote about Intel open-source engineers already beginning Linux bring-up for \"Lunar Lake\" as a future client platform not due out until 2023 at least. That work began with enabling Lunar Lake within the existing e1000e network driver and that hardware enablment work will finally be mainlined this autumn with Linux 5.15...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lunar-Lake-e1000e-Linux-5.15",
+          "publishedOn": "2021-07-22T04:00:00.000Z",
+          "wordCount": 931,
+          "title": "Networking Support For Intel's Lunar Lake Coming With Linux 5.15"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-11.2-RC1",
           "author": null,
           "description": "Three months after GCC 11.1 arrived as the first stable release of GCC 11, GCC 11.2 is set to be released soon while out today is the first and only planned release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-11.2-RC1",
           "publishedOn": "2021-07-22T00:15:57.000Z",
-          "wordCount": 760,
+          "wordCount": 813,
           "title": "GCC 11.2 RC1 Compiler Punted For Testing"
         },
         {
@@ -196,7 +258,7 @@
           "description": "DragonFlyBSD has integrated the NetBSD Virtual Machine Monitor (NVMM) hypervisor that can be used with QEMU...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-NVMM",
           "publishedOn": "2021-07-21T19:30:24.000Z",
-          "wordCount": 661,
+          "wordCount": 730,
           "title": "NVMM Ported To DragonFlyBSD For Virtualization"
         },
         {
@@ -205,7 +267,7 @@
           "description": "In addition to NVIDIA releasing new open-source GameWorks projects this week for the Game Developers Conference, AMD with their GPUOpen initiative has released several updated Radeon Windows/Linux tools...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-GPUOpen-GDC21",
           "publishedOn": "2021-07-21T18:09:44.000Z",
-          "wordCount": 712,
+          "wordCount": 779,
           "title": "Open-Source Radeon Tools Updated With Expanded RDNA(2) Support, Other Features"
         },
         {
@@ -214,7 +276,7 @@
           "description": "AMD earlier this week quietly published a new version of its AOCC code compiler that is now rebased against the upstream LLVM/Clang 12.0 compiler state...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-AOCC-3.1-Released",
           "publishedOn": "2021-07-21T15:00:00.000Z",
-          "wordCount": 774,
+          "wordCount": 798,
           "title": "AMD AOCC 3.1 Compiler Released - Rebased On LLVM 12.0"
         },
         {
@@ -223,7 +285,7 @@
           "description": "With the Linux 5.12 kernel bringing support for building the kernel with link-time optimizations (LTO) when using the LLVM Clang compiler, here are some benchmarks looking at that performance impact as well as more generally seeing how the LLVM Clang compiler performance is looking when building the Linux kernel relative to GCC.",
           "link": "https://www.phoronix.com/vr.php?view=30351",
           "publishedOn": "2021-07-21T13:00:00.000Z",
-          "wordCount": 837,
+          "wordCount": 774,
           "title": "Squeezing More Performance Out Of The Linux Kernel With Clang + LTO"
         },
         {
@@ -232,7 +294,7 @@
           "description": "The LLVMpipe software OpenGL driver in Gallium3D as well as the Lavapipe Vulkan software implementation now have anisotropic texture filtering support with Mesa 21.3 development code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVMpipe-Lands-AF",
           "publishedOn": "2021-07-21T10:00:00.000Z",
-          "wordCount": 760,
+          "wordCount": 780,
           "title": "LLVMpipe Effectively At OpenGL 4.6 With Anistropic Filtering Now Supported"
         },
         {
@@ -241,7 +303,7 @@
           "description": "Amazon's DAMON is looking like it might be near for mainlining into the Linux kernel for this \"Data Access Monitor\". One of the follow-up patches that builds off DAMON that is also being pursued by Amazon engineers for proactive reclamation of memory pages...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Reclaim-v3",
           "publishedOn": "2021-07-21T09:00:00.000Z",
-          "wordCount": 874,
+          "wordCount": 893,
           "title": "DAMON-Powered Proactive Reclamation Revised For Linux Memory Savings"
         },
         {
@@ -250,7 +312,7 @@
           "description": "Oracle has published a new version of GraalVM, its open-source Java JVM/JDK implemented in Java that also supports other programming languages and execution modes. GraalVM continues to be quite an interesting effort given its various languages supported and interesting technical experiments/features in the name of greater Java performance and other innovative features...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.2",
           "publishedOn": "2021-07-21T07:00:00.000Z",
-          "wordCount": 911,
+          "wordCount": 946,
           "title": "GraalVM 21.2 Released With New Optimizations, Better Linux AArch64 Support"
         },
         {
@@ -259,7 +321,7 @@
           "description": "A new release of PipeWire was made on Tuesday for this audio/video stream management solution for Linux that can replace the likes of JACK and PulseAudio...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.32",
           "publishedOn": "2021-07-21T04:00:00.000Z",
-          "wordCount": 807,
+          "wordCount": 748,
           "title": "PipeWire 0.3.32 Released With Numerous Fixes"
         },
         {
@@ -268,7 +330,7 @@
           "description": "Google today released Chrome 92 as their newest release on the browser's four-week release regiment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-92",
           "publishedOn": "2021-07-20T22:36:33.000Z",
-          "wordCount": 741,
+          "wordCount": 842,
           "title": "Chrome 92 Released With crypto.randomUUID, Security Fixes"
         },
         {
@@ -277,7 +339,7 @@
           "description": "The Wine project usually puts out new open-source development releases reliably every other week, but as is sometimes the case during the summer months, last Friday's was missed due to summer holidays. That update -- Wine 6.13 -- has now shipped today...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.13-Released",
           "publishedOn": "2021-07-20T20:20:00.000Z",
-          "wordCount": 708,
+          "wordCount": 729,
           "title": "Wine 6.13 Released With Proper Scrollbar Theming, More PE Conversion"
         },
         {
@@ -286,7 +348,7 @@
           "description": "The Panfrost open-source Linux graphics driver stack has matured nicely for Arm Mali  Midgard and Bifrost generations but for the past two years now there has been Valhall as the latest-generation Arm Mali microarchitecture. There is now work underway on reverse-engineering Valhall for ultimately wiring up with open-source graphics driver support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-Valhall-RE-Started",
           "publishedOn": "2021-07-20T19:00:00.000Z",
-          "wordCount": 887,
+          "wordCount": 828,
           "title": "Arm Mali \"Valhall\" Reverse-Engineering Started"
         },
         {
@@ -295,7 +357,7 @@
           "description": "AMD posted a new patch series bringing up a new graphics processor, Cyan Skillfish...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Cyan-Skillfish",
           "publishedOn": "2021-07-20T17:45:14.000Z",
-          "wordCount": 712,
+          "wordCount": 733,
           "title": "AMD Posts Linux Graphics Driver Patches For \"Cyan Skillfish\""
         },
         {
@@ -304,7 +366,7 @@
           "description": "DXVK-NVAPI as the effort for exposing more NVIDIA driver/GPU features within DXVK for Steam Play (Proton) usage is out with a new feature release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-NVAPI-0.4-Released",
           "publishedOn": "2021-07-20T16:53:40.000Z",
-          "wordCount": 765,
+          "wordCount": 766,
           "title": "DXVK-NVAPI 0.4 Released For Improving NVIDIA Integration Atop DXVK"
         },
         {
@@ -313,7 +375,7 @@
           "description": "The Gentoo project has announced the availability of a greater selection of stage files for download in kicking off the Gentoo Linux installation process...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Gentoo-More-Stage-Options",
           "publishedOn": "2021-07-20T13:09:36.000Z",
-          "wordCount": 692,
+          "wordCount": 713,
           "title": "Gentoo Spins Up More Stage Downloads For Musl libc, Systemd Init"
         },
         {
@@ -322,7 +384,7 @@
           "description": "NVIDIA today is making available a much faster version of TensorRT, its SDK for optimized deep learning inference on their GPUs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-TensorRT-8",
           "publishedOn": "2021-07-20T13:00:00.000Z",
-          "wordCount": 763,
+          "wordCount": 784,
           "title": "NVIDIA Releases TensorRT 8.0 With Big Performance Improvements"
         },
         {
@@ -331,7 +393,7 @@
           "description": "Vulkan 1.2.185 was christened this morning with several new extensions being introduced...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.185-Released",
           "publishedOn": "2021-07-20T10:48:57.000Z",
-          "wordCount": 818,
+          "wordCount": 919,
           "title": "Vulkan 1.2.185 Introduces Several New Extensions - Includes Presentation Work Led By Valve"
         },
         {
@@ -340,7 +402,7 @@
           "description": "The newest special interest group (SIG) approved by the CentOS Board of Directors is around the automotive space for in-vehicle automotive use-cases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Automotive-SIG",
           "publishedOn": "2021-07-20T10:13:18.000Z",
-          "wordCount": 805,
+          "wordCount": 826,
           "title": "CentOS In Your Car? Automotive SIG Approved"
         },
         {
@@ -349,7 +411,7 @@
           "description": "The folks working on KDE's mobile efforts have released Plasma Mobile 21.07 as the newest feature release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Plasma-Mobile-21.07",
           "publishedOn": "2021-07-20T09:57:41.000Z",
-          "wordCount": 676,
+          "wordCount": 697,
           "title": "KDE Plasma Mobile 21.07 Released With More Responsive Shell, Fixes"
         },
         {
@@ -358,7 +420,7 @@
           "description": "While Fedora 34 successfully shipped with PipeWire for managing audio/video streams and replacing PulseAudio use-cases, with Fedora 35 this autumn the integration around PipeWire should be even better...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-WirePlumber-Plan",
           "publishedOn": "2021-07-20T07:00:00.000Z",
-          "wordCount": 752,
+          "wordCount": 773,
           "title": "Fedora 35 Looking To Employ WirePlumber For Managing PipeWire"
         },
         {
@@ -367,7 +429,7 @@
           "description": "The GNOME project is out today with their first alpha release of the forthcoming GNOME 41 desktop environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Alpha",
           "publishedOn": "2021-07-19T23:12:34.000Z",
-          "wordCount": 823,
+          "wordCount": 844,
           "title": "GNOME 41 Alpha Released With Many Desktop Changes Accumulating"
         },
         {
@@ -376,7 +438,7 @@
           "description": "FreeType 2.11 is out as the newest version of this widely-used library for font rasterization...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FreeType-2.11",
           "publishedOn": "2021-07-19T22:20:00.000Z",
-          "wordCount": 755,
+          "wordCount": 730,
           "title": "FreeType 2.11 Released With New Rendering Module, Smooth Rasterizer Is Faster"
         },
         {
@@ -385,7 +447,7 @@
           "description": "It looks like NVIDIA could be feeling the pressure from AMD's GPUOpen efforts with NVIDIA now publishing more GameWorks projects as open-source for both Linux and Windows...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-More-OSS-GameWorks",
           "publishedOn": "2021-07-19T17:38:33.000Z",
-          "wordCount": 788,
+          "wordCount": 809,
           "title": "NVIDIA Releases More GameWorks Projects As Open-Source With Linux Support"
         },
         {
@@ -394,80 +456,8 @@
           "description": "In addition to showcasing NVIDIA RTX support on Arm, NVIDIA also used this first day of GDC week to release their 470.57.02 stable Linux driver as well as official DLSS SDK support for Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.57.02-Linux",
           "publishedOn": "2021-07-19T14:48:17.000Z",
-          "wordCount": 782,
+          "wordCount": 803,
           "title": "NVIDIA Releases 470.57.02 Linux Driver, DLSS SDK Adds Official Linux Support"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30349",
-          "author": null,
-          "description": "Most Linux distributions including the likes of Ubuntu and Fedora have been shipping Intel's Thermald daemon the past few years as it's important to achieving good thermal/power behavior on modern Intel SoCs. For those curious about its impact, here are some benchmarks carried out with Intel Thermald or not when using an Intel Core i7 1185G7 Tiger Lake notebook.",
-          "link": "https://www.phoronix.com/vr.php?view=30349",
-          "publishedOn": "2021-07-19T14:00:00.000Z",
-          "wordCount": 853,
-          "title": "The Importance Of Thermald On Linux For Modern Intel Tiger Lake Laptops"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-RTX-On-ARM",
-          "author": null,
-          "description": "NVIDIA announced from the Game Developers Conference this week that they have been working to bring RTX ray-tracing support with their graphics cards to also work on Arm hardware running Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-RTX-On-ARM",
-          "publishedOn": "2021-07-19T13:20:00.000Z",
-          "wordCount": 769,
-          "title": "NVIDIA Talks Up RTX Capabilities On Arm - Showcased Using Arch Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Alpha-Builds-July",
-          "author": null,
-          "description": "Back in April Devuan 4.0 alpha builds began for this Debian fork/downstream that aims for init system freedom by allowing Debian GNU/Linux to work without a dependence on systemd. Devuan 4.0 is tracking upstream Debian 11 quite closely with its changes...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Alpha-Builds-July",
-          "publishedOn": "2021-07-19T12:00:00.000Z",
-          "wordCount": 776,
-          "title": "Devuan 4.0 Alpha Builds Updated For Debian 11 Stripped Of systemd"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-More-Changes",
-          "author": null,
-          "description": "The Fedora Engineering and Steering Committee (FESCo) has unanimously approved a large number of new Fedora 35 features this week...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-More-Changes",
-          "publishedOn": "2021-07-19T10:00:00.000Z",
-          "wordCount": 886,
-          "title": "Fedora 35 Approved For Third-Party Repo Changes, More Optimal Encryption Default"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.59-Build-System",
-          "author": null,
-          "description": "The open-source Meson build system that continues to be increasingly used by open-source projects and other software is out with version 0.59, which continues tacking on more features...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.59-Build-System",
-          "publishedOn": "2021-07-19T08:00:00.000Z",
-          "wordCount": 721,
-          "title": "Meson 0.59 Build System Adds First Class Cython, Wine Resource Compiler Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ultra-App-Kit-1.1",
-          "author": null,
-          "description": "Ultra App Kit is a new cross-platform, user interface toolkit option focused on satisfying the needs of game engines/tooling but also covering needs for other desktop GUI applications...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ultra-App-Kit-1.1",
-          "publishedOn": "2021-07-19T04:00:00.000Z",
-          "wordCount": 954,
-          "title": "Ultra App Kit 1.1 Released As New Cross-Platform UI Toolkit"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc2",
-          "author": null,
-          "description": "Linus Torvalds just released Linux 5.14-rc2 as the latest weekly test candidate of the maturing Linux 5.14 kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc2",
-          "publishedOn": "2021-07-18T21:49:14.000Z",
-          "wordCount": 910,
-          "title": "Linux 5.14-rc2 Released & It's Much Bigger Than Usual"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-2.37-Released",
-          "author": null,
-          "description": "Out this Sunday is the latest update to GNU Binutils as this important collection of binary utilities common to Linux and other platforms...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-2.37-Released",
-          "publishedOn": "2021-07-18T19:39:30.000Z",
-          "wordCount": 743,
-          "title": "GNU Binutils 2.37 Released With Support for ARMv9's Realm Management Extension"
         }
       ]
     }

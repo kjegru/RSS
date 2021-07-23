@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-22T00:20:07.593Z</id>
+    <id>urn:2021-07-23T00:21:13.413Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-22T00:20:07.593Z</updated>
+    <updated>2021-07-23T00:21:13.413Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Firewalld 1.0 Released With Big Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0"/>
+        <updated>2021-07-22T22:30:25.000Z</updated>
+        <summary type="html"><![CDATA[Firewalld was started by Red Hat a decade ago for managing Linux firewall functionality with Netfilter. Ten and a half years after the first release, Firewalld 1.0 was released this afternoon...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steam Audio SDK 4.0 Released With Big Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Audio-SDK-4.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Audio-SDK-4.0"/>
+        <updated>2021-07-22T19:10:12.000Z</updated>
+        <summary type="html"><![CDATA[Valve has just released Steam Audio SDK 4.0 as a big feature update to this cross-platform audio SDK that can work with Unity, Unreal Engine, and other game engines..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Ryzen 9 5900HX / ASUS ROG Strix G15 AMD Advantage On Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30357</id>
+        <link href="https://www.phoronix.com/vr.php?view=30357"/>
+        <updated>2021-07-22T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[With an AMD Ryzen 9 5900HX Zen 3 processor and Radeon RX 6800M graphics, the ASUS ROG Strix G15 laptop may be promising for those wanting high performance and graphics backed by AMD's much enjoyed open-source Linux GPU driver stack. Plus this ASUS ROG Strix G15 (G513QY) is one of the first two "AMD Advantage" laptops. But when it comes to using it on Linux, it's not without some struggles before being able to enjoy the compelling performance.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q3.2 Released With New Extensions, Implicit External Sync For All GPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.2"/>
+        <updated>2021-07-22T11:04:16.000Z</updated>
+        <summary type="html"><![CDATA[AMD engineers today published their latest code drop of the AMDVLK official open-source Radeon Vulkan driver for Linux systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Starts Bringing Up Thunder Bay Full + Prime SoC Support For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Thunder-Bay-SoC-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Thunder-Bay-SoC-Linux"/>
+        <updated>2021-07-22T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[More details are coming to light on "Thunder Bay" as a forthcoming Intel SoC now that the open-source Linux driver enablement patches have begun...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2-rc2 Released With An Initial Batch Of Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc2"/>
+        <updated>2021-07-22T09:45:01.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.2 continues stabilizing for a planned release in August while released overnight was Mesa 21.2-rc2 as the newest weekly release candidate...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QEMU 6.1 Is On The Way For The Open-Source Linux Virtualization Stack]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-rc0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-rc0-Released"/>
+        <updated>2021-07-22T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Released on Tuesday was QEMU 6.1.0-rc0 as the first test release working towards QEMU 6.1's stable debut before the end of August...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Networking Support For Intel's Lunar Lake Coming With Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lunar-Lake-e1000e-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lunar-Lake-e1000e-Linux-5.15"/>
+        <updated>2021-07-22T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Back in March I wrote about Intel open-source engineers already beginning Linux bring-up for "Lunar Lake" as a future client platform not due out until 2023 at least. That work began with enabling Lunar Lake within the existing e1000e network driver and that hardware enablment work will finally be mainlined this autumn with Linux 5.15...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GCC 11.2 RC1 Compiler Punted For Testing]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-11.2-RC1</id>
@@ -13,6 +93,32 @@
         <summary type="html"><![CDATA[Three months after GCC 11.1 arrived as the first stable release of GCC 11, GCC 11.2 is set to be released soon while out today is the first and only planned release candidate...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab 14.1 released with Helm Chart Registry and Escalation Policies]]></title>
+        <id>https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/"/>
+        <updated>2021-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we are excited to announce the release of GitLab 14.1 with the ability to build, publish, and share Helm charts, create escalation policies to page responders, connect GitLab Runners to your Kubernetes clusters, enforce code coverage decisions, and much more!
+These are just a few highlights from the 50+ improvements in this release. Read on to check out all of the great updates below.
+To preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.2 release kickoff video.
+Join us for GitLab Commit Virtual to learn how DevOps teams increase collaboration.
+
+
+
+
+
+
+
+
+
+This month's Most Valuable Person (MVP) is
+Andrew Smith
+
+Andrew actively contributed numerous merge requests in the GitLab 14.1 release to help improve GitLab’s planning capabil…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -321,66 +427,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Importance Of Thermald On Linux For Modern Intel Tiger Lake Laptops]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30349</id>
-        <link href="https://www.phoronix.com/vr.php?view=30349"/>
-        <updated>2021-07-19T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Most Linux distributions including the likes of Ubuntu and Fedora have been shipping Intel's Thermald daemon the past few years as it's important to achieving good thermal/power behavior on modern Intel SoCs. For those curious about its impact, here are some benchmarks carried out with Intel Thermald or not when using an Intel Core i7 1185G7 Tiger Lake notebook.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Talks Up RTX Capabilities On Arm - Showcased Using Arch Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-RTX-On-ARM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-RTX-On-ARM"/>
-        <updated>2021-07-19T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA announced from the Game Developers Conference this week that they have been working to bring RTX ray-tracing support with their graphics cards to also work on Arm hardware running Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Devuan 4.0 Alpha Builds Updated For Debian 11 Stripped Of systemd]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Devuan-4.0-Alpha-Builds-July</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Devuan-4.0-Alpha-Builds-July"/>
-        <updated>2021-07-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Back in April Devuan 4.0 alpha builds began for this Debian fork/downstream that aims for init system freedom by allowing Debian GNU/Linux to work without a dependence on systemd. Devuan 4.0 is tracking upstream Debian 11 quite closely with its changes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fedora 35 Approved For Third-Party Repo Changes, More Optimal Encryption Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-More-Changes</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-More-Changes"/>
-        <updated>2021-07-19T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Fedora Engineering and Steering Committee (FESCo) has unanimously approved a large number of new Fedora 35 features this week...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meson 0.59 Build System Adds First Class Cython, Wine Resource Compiler Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Meson-0.59-Build-System</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Meson-0.59-Build-System"/>
-        <updated>2021-07-19T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The open-source Meson build system that continues to be increasingly used by open-source projects and other software is out with version 0.59, which continues tacking on more features...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ultra App Kit 1.1 Released As New Cross-Platform UI Toolkit]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ultra-App-Kit-1.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ultra-App-Kit-1.1"/>
-        <updated>2021-07-19T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ultra App Kit is a new cross-platform, user interface toolkit option focused on satisfying the needs of game engines/tooling but also covering needs for other desktop GUI applications...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How teams can use the Gitpod integration in GitLab to speed up their development process]]></title>
         <id>https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/</id>
         <link href="https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/"/>
@@ -393,26 +439,6 @@ Start with defining the requirements and stages. Oftentimes they are equivalent 
 Compile/build the a…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14-rc2 Released & It's Much Bigger Than Usual]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc2"/>
-        <updated>2021-07-18T21:49:14.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds just released Linux 5.14-rc2 as the latest weekly test candidate of the maturing Linux 5.14 kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Binutils 2.37 Released With Support for ARMv9's Realm Management Extension]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-2.37-Released"/>
-        <updated>2021-07-18T19:39:30.000Z</updated>
-        <summary type="html"><![CDATA[Out this Sunday is the latest update to GNU Binutils as this important collection of binary utilities common to Linux and other platforms...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -674,38 +700,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.11.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0"/>
-        <updated>2021-06-23T05:57:59.000Z</updated>
-        <summary type="html"><![CDATA[Added: support an experimental template for YouTube feed 📺 Demo | Source
-
-Aggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>
-Videos are embedded via iframe and loading accelerated by youtube-lite-embed
-Ads are reduced thanks to YouTube's policy for embedded videos 🙃
-Works on mobile devices with butter smooth horizontal scroll.
-Caveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.
-Changed: Default HTML template meta tag adjusted to match convention
-Changed: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)
-Thank you @PiyushLosalka]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use a pull-based (agent-based) approach for GitOps]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/23/how-to-use-agent-based-gitops/"/>
-        <updated>2021-06-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the previous post, titled 3 ways to approach GitOps, we discussed the many benefits and options that GitLab supports for fulfilling the GitOps requirements of customers, whose IT environments are composed of heterogeneous technologies and infrastructures. This post is a 3-part series, in which we delve deeper into these options. In this first part, we cover the pull-based or agent-based approach.
-About a pull-based or agent-based approach
-In this approach, an agent is installed in your infrastructure components to pull changes whenever there is a drift from the desired configuration, which resides in GitLab. Although the infrastructure components could be anything from a physical server or router to a VM or a database, we will focus on a Kubernetes cluster in this section.
-In the follow…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
