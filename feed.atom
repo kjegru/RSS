@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-24T00:19:58.509Z</id>
+    <id>urn:2021-07-25T00:20:36.685Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-24T00:19:58.509Z</updated>
+    <updated>2021-07-25T00:20:36.685Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Loongson 3A5000 Benchmarks For These New Chinese CPUs Built On The LoongArch ISA]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Loongson-3A5000-Benchmark</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Loongson-3A5000-Benchmark"/>
+        <updated>2021-07-24T17:55:06.000Z</updated>
+        <summary type="html"><![CDATA[While Loongson has been known for their MIPS-based Loongson chips that are open-source friendly and have long been based on MIPS, with MIPS now being a dead-end, the Chinese company has begun producing chips using its own "LoongArch" ISA. The first Loongson 3A5000 series hardware was just announced and thanks to the company apparently using the Phoronix Test Suite and OpenBenchmarking.org we have some initial numbers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora Workstation 35 Looks To Use Power Profiles Daemon By Default]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Power-Profiles-Daemon</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Power-Profiles-Daemon"/>
+        <updated>2021-07-24T13:15:24.000Z</updated>
+        <summary type="html"><![CDATA[Fedora Workstation 35 is looking to ship with power-profiles-daemon by default and to have it enabled for benefiting newer laptops...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FreeBSD Working On A New Installer, Updates To Their Linux Compatibility Layer]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeBSD-Q2-2021-Report</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeBSD-Q2-2021-Report"/>
+        <updated>2021-07-24T10:16:14.000Z</updated>
+        <summary type="html"><![CDATA[The FreeBSD project just published their Q2-2021 report concerning all of their different development activities from April through June...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Making It Easy To Tune Your Laptop's Power Profile, Other Improvements Land]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Power-Profile-Knob</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Power-Profile-Knob"/>
+        <updated>2021-07-24T09:55:56.000Z</updated>
+        <summary type="html"><![CDATA[KDE developers show no signs of slowing down during the pandemic or being distracted over the summer months as it was another busy week advancing this open-source desktop environment...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel To Finally Remove Cannon Lake Graphics Support From Their Linux Kernel Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Drop-Cannon-Lake-i915</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Drop-Cannon-Lake-i915"/>
+        <updated>2021-07-24T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel "Cannon Lake" processors were rare in the first place with being limited to the Core i3 8121U but given that no production SKU ever materialized with the "Gen10" graphics enabled, Intel's Linux engineers are finally moving ahead in eliminating the rest of the Cannon Lake / Gen10 graphics support code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Debian 11.0 "Bullseye" Gets An August Release Date]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Release-Date</id>
@@ -340,56 +390,6 @@ Most businesses operate and maintain a multi-product "DIY DevOps" toolchain, but
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.13-Released"/>
         <updated>2021-07-20T20:20:00.000Z</updated>
         <summary type="html"><![CDATA[The Wine project usually puts out new open-source development releases reliably every other week, but as is sometimes the case during the summer months, last Friday's was missed due to summer holidays. That update -- Wine 6.13 -- has now shipped today...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm Mali "Valhall" Reverse-Engineering Started]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Valhall-RE-Started</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Valhall-RE-Started"/>
-        <updated>2021-07-20T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Panfrost open-source Linux graphics driver stack has matured nicely for Arm Mali  Midgard and Bifrost generations but for the past two years now there has been Valhall as the latest-generation Arm Mali microarchitecture. There is now work underway on reverse-engineering Valhall for ultimately wiring up with open-source graphics driver support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Posts Linux Graphics Driver Patches For "Cyan Skillfish"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Cyan-Skillfish</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Cyan-Skillfish"/>
-        <updated>2021-07-20T17:45:14.000Z</updated>
-        <summary type="html"><![CDATA[AMD posted a new patch series bringing up a new graphics processor, Cyan Skillfish...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DXVK-NVAPI 0.4 Released For Improving NVIDIA Integration Atop DXVK]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-NVAPI-0.4-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-NVAPI-0.4-Released"/>
-        <updated>2021-07-20T16:53:40.000Z</updated>
-        <summary type="html"><![CDATA[DXVK-NVAPI as the effort for exposing more NVIDIA driver/GPU features within DXVK for Steam Play (Proton) usage is out with a new feature release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gentoo Spins Up More Stage Downloads For Musl libc, Systemd Init]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gentoo-More-Stage-Options</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gentoo-More-Stage-Options"/>
-        <updated>2021-07-20T13:09:36.000Z</updated>
-        <summary type="html"><![CDATA[The Gentoo project has announced the availability of a greater selection of stage files for download in kicking off the Gentoo Linux installation process...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Releases TensorRT 8.0 With Big Performance Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-TensorRT-8</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-TensorRT-8"/>
-        <updated>2021-07-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA today is making available a much faster version of TensorRT, its SDK for optimized deep learning inference on their GPUs...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
