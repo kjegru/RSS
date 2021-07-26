@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-25T00:20:36.685Z</id>
+    <id>urn:2021-07-26T00:20:06.126Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-25T00:20:36.685Z</updated>
+    <updated>2021-07-26T00:20:06.126Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc3 Released - It's In Good Shape]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc3"/>
+        <updated>2021-07-25T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Following last week's big kernel in the form of Linux 5.14-rc2, rc3 is now available and it's much saner this week with fewer changes and those scattered changes being on the smaller side...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BLAKE3 v1.0 Released - Faster & More Secure Than SHA-1, Etc]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BLAKE3-1.0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BLAKE3-1.0-Released"/>
+        <updated>2021-07-25T17:46:17.000Z</updated>
+        <summary type="html"><![CDATA[The BLAKE3 cryotpgraphic hash function that was announced last year and based on its predecessor BLAKE2 has now reached version 1.0 for its official/reference software implementation. BLAKE3 continues to be much faster than BLAKE2 while also being much faster than the likes of SHA-1/SHA--2/SHA-3 and even MD5 while being more secure...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proposed Reflink Support Would Provide Big Space Savings For Wine]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Reflink-For-Wine-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Reflink-For-Wine-Patches"/>
+        <updated>2021-07-25T16:30:41.000Z</updated>
+        <summary type="html"><![CDATA[When sticking to Wine recommendations of maintaining separate prefixes per-application, a lot of system files get duplicated for each game/application and in turn leading to significant bloat. With the current state of Wine it can mean hundreds of megabytes per prefix in duplicated files. But proposed reflink patches for Wine are aiming to cut down on this severe bloat...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu vs. Arch Linux On The ASUS ROG Strix G15 / Ryzen 9 5900HX]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30367</id>
+        <link href="https://www.phoronix.com/vr.php?view=30367"/>
+        <updated>2021-07-25T11:07:08.000Z</updated>
+        <summary type="html"><![CDATA[This past week were the initial Linux benchmarks of the Ryzen 9 5900HX with the ASUS ROG Strix G15 laptop. Ubuntu was used as the default test platform as usual given its popularity and arguably the most relevant Linux distribution to use given that it's the most common Linux distribution at the moment for preloads on laptops by multiple vendors. In any case, as usual many users were quick to say "but Arch Linux!" as if it was going to make a dramatic difference in my findings. Well, here are some Ubuntu 21.04 versus Arch Linux benchmarks on that AMD Advantage laptop.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's IMA-Based Measurements For Device Mapper Slated For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IMA-Target-Measurements-DM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IMA-Target-Measurements-DM"/>
+        <updated>2021-07-25T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest Linux kernel feature proposed by Microsoft that is now working its way to the mainline kernel is IMA-based target measurements for the Device Mapper (DM) subsystem for enhanced security...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Loongson 3A5000 Benchmarks For These New Chinese CPUs Built On The LoongArch ISA]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Loongson-3A5000-Benchmark</id>
@@ -331,36 +381,6 @@ Andrew actively contributed numerous merge requests in the GitLab 14.1 release t
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DAMON-Powered Proactive Reclamation Revised For Linux Memory Savings]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Reclaim-v3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Reclaim-v3"/>
-        <updated>2021-07-21T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon's DAMON is looking like it might be near for mainlining into the Linux kernel for this "Data Access Monitor". One of the follow-up patches that builds off DAMON that is also being pursued by Amazon engineers for proactive reclamation of memory pages...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GraalVM 21.2 Released With New Optimizations, Better Linux AArch64 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.2"/>
-        <updated>2021-07-21T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Oracle has published a new version of GraalVM, its open-source Java JVM/JDK implemented in Java that also supports other programming languages and execution modes. GraalVM continues to be quite an interesting effort given its various languages supported and interesting technical experiments/features in the name of greater Java performance and other innovative features...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PipeWire 0.3.32 Released With Numerous Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.32</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.32"/>
-        <updated>2021-07-21T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new release of PipeWire was made on Tuesday for this audio/video stream management solution for Linux that can replace the likes of JACK and PulseAudio...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Optimize DevOps with enhanced visibility tools in GitLab 14]]></title>
         <id>https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/</id>
         <link href="https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/"/>
@@ -372,26 +392,6 @@ The failure of DIY DevOps
 Most businesses operate and maintain a multi-product "DIY DevOps" toolchain, but stitched-together applications with bespoke integrations don't lend themselves to visibility. Each component in t…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 92 Released With crypto.randomUUID, Security Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-92</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-92"/>
-        <updated>2021-07-20T22:36:33.000Z</updated>
-        <summary type="html"><![CDATA[Google today released Chrome 92 as their newest release on the browser's four-week release regiment...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.13 Released With Proper Scrollbar Theming, More PE Conversion]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.13-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.13-Released"/>
-        <updated>2021-07-20T20:20:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wine project usually puts out new open-source development releases reliably every other week, but as is sometimes the case during the summer months, last Friday's was missed due to summer holidays. That update -- Wine 6.13 -- has now shipped today...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>

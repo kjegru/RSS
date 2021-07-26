@@ -181,12 +181,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc3",
+          "author": null,
+          "description": "Following last week's big kernel in the form of Linux 5.14-rc2, rc3 is now available and it's much saner this week with fewer changes and those scattered changes being on the smaller side...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc3",
+          "publishedOn": "2021-07-25T23:00:00.000Z",
+          "wordCount": 892,
+          "title": "Linux 5.14-rc3 Released - It's In Good Shape"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=BLAKE3-1.0-Released",
+          "author": null,
+          "description": "The BLAKE3 cryotpgraphic hash function that was announced last year and based on its predecessor BLAKE2 has now reached version 1.0 for its official/reference software implementation. BLAKE3 continues to be much faster than BLAKE2 while also being much faster than the likes of SHA-1/SHA--2/SHA-3 and even MD5 while being more secure...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=BLAKE3-1.0-Released",
+          "publishedOn": "2021-07-25T17:46:17.000Z",
+          "wordCount": 811,
+          "title": "BLAKE3 v1.0 Released - Faster & More Secure Than SHA-1, Etc"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Reflink-For-Wine-Patches",
+          "author": null,
+          "description": "When sticking to Wine recommendations of maintaining separate prefixes per-application, a lot of system files get duplicated for each game/application and in turn leading to significant bloat. With the current state of Wine it can mean hundreds of megabytes per prefix in duplicated files. But proposed reflink patches for Wine are aiming to cut down on this severe bloat...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Reflink-For-Wine-Patches",
+          "publishedOn": "2021-07-25T16:30:41.000Z",
+          "wordCount": 940,
+          "title": "Proposed Reflink Support Would Provide Big Space Savings For Wine"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30367",
+          "author": null,
+          "description": "This past week were the initial Linux benchmarks of the Ryzen 9 5900HX with the ASUS ROG Strix G15 laptop. Ubuntu was used as the default test platform as usual given its popularity and arguably the most relevant Linux distribution to use given that it's the most common Linux distribution at the moment for preloads on laptops by multiple vendors. In any case, as usual many users were quick to say \"but Arch Linux!\" as if it was going to make a dramatic difference in my findings. Well, here are some Ubuntu 21.04 versus Arch Linux benchmarks on that AMD Advantage laptop.",
+          "link": "https://www.phoronix.com/vr.php?view=30367",
+          "publishedOn": "2021-07-25T11:07:08.000Z",
+          "wordCount": 978,
+          "title": "Ubuntu vs. Arch Linux On The ASUS ROG Strix G15 / Ryzen 9 5900HX"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=IMA-Target-Measurements-DM",
+          "author": null,
+          "description": "The latest Linux kernel feature proposed by Microsoft that is now working its way to the mainline kernel is IMA-based target measurements for the Device Mapper (DM) subsystem for enhanced security...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=IMA-Target-Measurements-DM",
+          "publishedOn": "2021-07-25T04:00:00.000Z",
+          "wordCount": 808,
+          "title": "Microsoft's IMA-Based Measurements For Device Mapper Slated For Linux 5.15"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Loongson-3A5000-Benchmark",
           "author": null,
           "description": "While Loongson has been known for their MIPS-based Loongson chips that are open-source friendly and have long been based on MIPS, with MIPS now being a dead-end, the Chinese company has begun producing chips using its own \"LoongArch\" ISA. The first Loongson 3A5000 series hardware was just announced and thanks to the company apparently using the Phoronix Test Suite and OpenBenchmarking.org we have some initial numbers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Loongson-3A5000-Benchmark",
           "publishedOn": "2021-07-24T17:55:06.000Z",
-          "wordCount": 981,
+          "wordCount": 992,
           "title": "Loongson 3A5000 Benchmarks For These New Chinese CPUs Built On The LoongArch ISA"
         },
         {
@@ -195,7 +240,7 @@
           "description": "Fedora Workstation 35 is looking to ship with power-profiles-daemon by default and to have it enabled for benefiting newer laptops...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Power-Profiles-Daemon",
           "publishedOn": "2021-07-24T13:15:24.000Z",
-          "wordCount": 785,
+          "wordCount": 796,
           "title": "Fedora Workstation 35 Looks To Use Power Profiles Daemon By Default"
         },
         {
@@ -204,7 +249,7 @@
           "description": "The FreeBSD project just published their Q2-2021 report concerning all of their different development activities from April through June...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FreeBSD-Q2-2021-Report",
           "publishedOn": "2021-07-24T10:16:14.000Z",
-          "wordCount": 899,
+          "wordCount": 990,
           "title": "FreeBSD Working On A New Installer, Updates To Their Linux Compatibility Layer"
         },
         {
@@ -213,7 +258,7 @@
           "description": "KDE developers show no signs of slowing down during the pandemic or being distracted over the summer months as it was another busy week advancing this open-source desktop environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Power-Profile-Knob",
           "publishedOn": "2021-07-24T09:55:56.000Z",
-          "wordCount": 927,
+          "wordCount": 858,
           "title": "KDE Making It Easy To Tune Your Laptop's Power Profile, Other Improvements Land"
         },
         {
@@ -222,7 +267,7 @@
           "description": "Intel \"Cannon Lake\" processors were rare in the first place with being limited to the Core i3 8121U but given that no production SKU ever materialized with the \"Gen10\" graphics enabled, Intel's Linux engineers are finally moving ahead in eliminating the rest of the Cannon Lake / Gen10 graphics support code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Drop-Cannon-Lake-i915",
           "publishedOn": "2021-07-24T04:00:00.000Z",
-          "wordCount": 842,
+          "wordCount": 807,
           "title": "Intel To Finally Remove Cannon Lake Graphics Support From Their Linux Kernel Driver"
         },
         {
@@ -231,7 +276,7 @@
           "description": "The Debian release team has just announced their planned release date for Debian 11...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-Release-Date",
           "publishedOn": "2021-07-23T20:09:36.000Z",
-          "wordCount": 801,
+          "wordCount": 741,
           "title": "Debian 11.0 \"Bullseye\" Gets An August Release Date"
         },
         {
@@ -240,7 +285,7 @@
           "description": "One of the low-level exciting kernel advancements being worked on at the moment is the new \"folios\" struct for improving Linux memory management. Tests by those involved found that in some conditions Linux kernel builds for example could be up to 7% faster. Given the recent folios v14 patches being published, I took them for a spin on an AMD EPYC server to see the impact on overall performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Folios-v14-Testing-AMD-Linux",
           "publishedOn": "2021-07-23T19:48:01.000Z",
-          "wordCount": 980,
+          "wordCount": 989,
           "title": "Trying Out The \"Folios\" Patches On An AMD Linux Server"
         },
         {
@@ -249,7 +294,7 @@
           "description": "In addition to still working on moving from Ubuntu 16.04 to 20.04 LTS for its base, Ubuntu Touch has also begun engaging in another important project: supporting Voice over LTE (VoLTE) with Ubuntu Touch...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-VoLTE-Plans",
           "publishedOn": "2021-07-23T17:34:17.000Z",
-          "wordCount": 881,
+          "wordCount": 883,
           "title": "Ubuntu Touch Planning Path For VoLTE/4G Support"
         },
         {
@@ -258,7 +303,7 @@
           "description": "It's been a while since last looking at the performance of AMD's official \"AMDVLK\" open-source Linux Vulkan driver against that of the popular Mesa \"RADV\" Radeon Vulkan driver. But here are some fresh benchmarks for those interested while using the latest-generation Radeon RX 6800 XT graphics card paired with the in-development Linux 5.14 kernel across testing both Vulkan drivers.",
           "link": "https://www.phoronix.com/vr.php?view=30360",
           "publishedOn": "2021-07-23T13:00:00.000Z",
-          "wordCount": 767,
+          "wordCount": 701,
           "title": "Mesa RADV vs. AMDVLK Radeon Vulkan Performance For July 2021"
         },
         {
@@ -267,7 +312,7 @@
           "description": "Another weekly batch of drm-misc-next patches were submitted on Thursday for going into DRM-Next ahead of the Linux 5.15 merge window. This drm-misc-next material continues to represent core Direct Rendering Manager changes as well as alterations/additions to the smaller DRM drivers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-Misc-Next-2-Linux-5.15",
           "publishedOn": "2021-07-23T10:00:00.000Z",
-          "wordCount": 918,
+          "wordCount": 847,
           "title": "DRM-Misc-Next Continues Prepping More Code Ahead Of Linux 5.15"
         },
         {
@@ -276,7 +321,7 @@
           "description": "The latest BPF functionality set to appear with Linux 5.15 this autumn is timers support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=BPF-Timers-For-Linux-5.15",
           "publishedOn": "2021-07-23T09:25:01.000Z",
-          "wordCount": 893,
+          "wordCount": 856,
           "title": "BPF Timers Support Set To Finally Appear With Linux 5.15"
         },
         {
@@ -285,7 +330,7 @@
           "description": "The Intel-led open-source Cloud Hypervisor project on Thursday issued its v17.0 release with more big improvements to this Rust-based VMM for running modern cloud workloads...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cloud-Hypervisor-17.0",
           "publishedOn": "2021-07-23T07:15:15.000Z",
-          "wordCount": 861,
+          "wordCount": 872,
           "title": "Intel's Cloud Hypervisor 17 Released With Continued ARM64 Work, Improved SGX"
         },
         {
@@ -294,7 +339,7 @@
           "description": "While SquashFS wasn't mainlined in the Linux kernel until 2009, this compressed read-only file-system has been in development for twenty years now with initially being a set of out-of-tree kernel patches. SquashFS has been instrumental to many Linux distributions for their Live DVD/USB environments and other use-cases where needing a general purpose read-only file-system with low overhead...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SquashFS-Tools-4.5",
           "publishedOn": "2021-07-23T04:00:00.000Z",
-          "wordCount": 794,
+          "wordCount": 885,
           "title": "SquashFS Tools 4.5 Released To Celebrate 20 Years Of SquashFS"
         },
         {
@@ -303,7 +348,7 @@
           "description": "Firewalld was started by Red Hat a decade ago for managing Linux firewall functionality with Netfilter. Ten and a half years after the first release, Firewalld 1.0 was released this afternoon...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firewalld-1.0",
           "publishedOn": "2021-07-22T22:30:25.000Z",
-          "wordCount": 803,
+          "wordCount": 814,
           "title": "Firewalld 1.0 Released With Big Improvements"
         },
         {
@@ -312,7 +357,7 @@
           "description": "Valve has just released Steam Audio SDK 4.0 as a big feature update to this cross-platform audio SDK that can work with Unity, Unreal Engine, and other game engines..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Audio-SDK-4.0",
           "publishedOn": "2021-07-22T19:10:12.000Z",
-          "wordCount": 831,
+          "wordCount": 771,
           "title": "Steam Audio SDK 4.0 Released With Big Improvements"
         },
         {
@@ -321,7 +366,7 @@
           "description": "With an AMD Ryzen 9 5900HX Zen 3 processor and Radeon RX 6800M graphics, the ASUS ROG Strix G15 laptop may be promising for those wanting high performance and graphics backed by AMD's much enjoyed open-source Linux GPU driver stack. Plus this ASUS ROG Strix G15 (G513QY) is one of the first two \"AMD Advantage\" laptops. But when it comes to using it on Linux, it's not without some struggles before being able to enjoy the compelling performance.",
           "link": "https://www.phoronix.com/vr.php?view=30357",
           "publishedOn": "2021-07-22T17:30:00.000Z",
-          "wordCount": 953,
+          "wordCount": 976,
           "title": "AMD Ryzen 9 5900HX / ASUS ROG Strix G15 AMD Advantage On Linux"
         },
         {
@@ -330,7 +375,7 @@
           "description": "AMD engineers today published their latest code drop of the AMDVLK official open-source Radeon Vulkan driver for Linux systems...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.2",
           "publishedOn": "2021-07-22T11:04:16.000Z",
-          "wordCount": 822,
+          "wordCount": 753,
           "title": "AMDVLK 2021.Q3.2 Released With New Extensions, Implicit External Sync For All GPUs"
         },
         {
@@ -339,7 +384,7 @@
           "description": "More details are coming to light on \"Thunder Bay\" as a forthcoming Intel SoC now that the open-source Linux driver enablement patches have begun...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Thunder-Bay-SoC-Linux",
           "publishedOn": "2021-07-22T10:00:00.000Z",
-          "wordCount": 891,
+          "wordCount": 902,
           "title": "Intel Starts Bringing Up Thunder Bay Full + Prime SoC Support For Linux"
         },
         {
@@ -348,7 +393,7 @@
           "description": "Mesa 21.2 continues stabilizing for a planned release in August while released overnight was Mesa 21.2-rc2 as the newest weekly release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc2",
           "publishedOn": "2021-07-22T09:45:01.000Z",
-          "wordCount": 712,
+          "wordCount": 723,
           "title": "Mesa 21.2-rc2 Released With An Initial Batch Of Fixes"
         },
         {
@@ -357,7 +402,7 @@
           "description": "Released on Tuesday was QEMU 6.1.0-rc0 as the first test release working towards QEMU 6.1's stable debut before the end of August...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=QEMU-6.1-rc0-Released",
           "publishedOn": "2021-07-22T07:00:00.000Z",
-          "wordCount": 883,
+          "wordCount": 828,
           "title": "QEMU 6.1 Is On The Way For The Open-Source Linux Virtualization Stack"
         },
         {
@@ -366,7 +411,7 @@
           "description": "Back in March I wrote about Intel open-source engineers already beginning Linux bring-up for \"Lunar Lake\" as a future client platform not due out until 2023 at least. That work began with enabling Lunar Lake within the existing e1000e network driver and that hardware enablment work will finally be mainlined this autumn with Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lunar-Lake-e1000e-Linux-5.15",
           "publishedOn": "2021-07-22T04:00:00.000Z",
-          "wordCount": 916,
+          "wordCount": 936,
           "title": "Networking Support For Intel's Lunar Lake Coming With Linux 5.15"
         },
         {
@@ -375,7 +420,7 @@
           "description": "Three months after GCC 11.1 arrived as the first stable release of GCC 11, GCC 11.2 is set to be released soon while out today is the first and only planned release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-11.2-RC1",
           "publishedOn": "2021-07-22T00:15:57.000Z",
-          "wordCount": 791,
+          "wordCount": 736,
           "title": "GCC 11.2 RC1 Compiler Punted For Testing"
         },
         {
@@ -384,7 +429,7 @@
           "description": "DragonFlyBSD has integrated the NetBSD Virtual Machine Monitor (NVMM) hypervisor that can be used with QEMU...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-NVMM",
           "publishedOn": "2021-07-21T19:30:24.000Z",
-          "wordCount": 756,
+          "wordCount": 687,
           "title": "NVMM Ported To DragonFlyBSD For Virtualization"
         },
         {
@@ -393,7 +438,7 @@
           "description": "In addition to NVIDIA releasing new open-source GameWorks projects this week for the Game Developers Conference, AMD with their GPUOpen initiative has released several updated Radeon Windows/Linux tools...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-GPUOpen-GDC21",
           "publishedOn": "2021-07-21T18:09:44.000Z",
-          "wordCount": 725,
+          "wordCount": 816,
           "title": "Open-Source Radeon Tools Updated With Expanded RDNA(2) Support, Other Features"
         },
         {
@@ -402,7 +447,7 @@
           "description": "AMD earlier this week quietly published a new version of its AOCC code compiler that is now rebased against the upstream LLVM/Clang 12.0 compiler state...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-AOCC-3.1-Released",
           "publishedOn": "2021-07-21T15:00:00.000Z",
-          "wordCount": 836,
+          "wordCount": 881,
           "title": "AMD AOCC 3.1 Compiler Released - Rebased On LLVM 12.0"
         },
         {
@@ -411,7 +456,7 @@
           "description": "With the Linux 5.12 kernel bringing support for building the kernel with link-time optimizations (LTO) when using the LLVM Clang compiler, here are some benchmarks looking at that performance impact as well as more generally seeing how the LLVM Clang compiler performance is looking when building the Linux kernel relative to GCC.",
           "link": "https://www.phoronix.com/vr.php?view=30351",
           "publishedOn": "2021-07-21T13:00:00.000Z",
-          "wordCount": 774,
+          "wordCount": 868,
           "title": "Squeezing More Performance Out Of The Linux Kernel With Clang + LTO"
         },
         {
@@ -420,53 +465,8 @@
           "description": "The LLVMpipe software OpenGL driver in Gallium3D as well as the Lavapipe Vulkan software implementation now have anisotropic texture filtering support with Mesa 21.3 development code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVMpipe-Lands-AF",
           "publishedOn": "2021-07-21T10:00:00.000Z",
-          "wordCount": 772,
+          "wordCount": 783,
           "title": "LLVMpipe Effectively At OpenGL 4.6 With Anistropic Filtering Now Supported"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Reclaim-v3",
-          "author": null,
-          "description": "Amazon's DAMON is looking like it might be near for mainlining into the Linux kernel for this \"Data Access Monitor\". One of the follow-up patches that builds off DAMON that is also being pursued by Amazon engineers for proactive reclamation of memory pages...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Reclaim-v3",
-          "publishedOn": "2021-07-21T09:00:00.000Z",
-          "wordCount": 800,
-          "title": "DAMON-Powered Proactive Reclamation Revised For Linux Memory Savings"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.2",
-          "author": null,
-          "description": "Oracle has published a new version of GraalVM, its open-source Java JVM/JDK implemented in Java that also supports other programming languages and execution modes. GraalVM continues to be quite an interesting effort given its various languages supported and interesting technical experiments/features in the name of greater Java performance and other innovative features...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.2",
-          "publishedOn": "2021-07-21T07:00:00.000Z",
-          "wordCount": 858,
-          "title": "GraalVM 21.2 Released With New Optimizations, Better Linux AArch64 Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.32",
-          "author": null,
-          "description": "A new release of PipeWire was made on Tuesday for this audio/video stream management solution for Linux that can replace the likes of JACK and PulseAudio...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.32",
-          "publishedOn": "2021-07-21T04:00:00.000Z",
-          "wordCount": 820,
-          "title": "PipeWire 0.3.32 Released With Numerous Fixes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-92",
-          "author": null,
-          "description": "Google today released Chrome 92 as their newest release on the browser's four-week release regiment...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-92",
-          "publishedOn": "2021-07-20T22:36:33.000Z",
-          "wordCount": 754,
-          "title": "Chrome 92 Released With crypto.randomUUID, Security Fixes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.13-Released",
-          "author": null,
-          "description": "The Wine project usually puts out new open-source development releases reliably every other week, but as is sometimes the case during the summer months, last Friday's was missed due to summer holidays. That update -- Wine 6.13 -- has now shipped today...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.13-Released",
-          "publishedOn": "2021-07-20T20:20:00.000Z",
-          "wordCount": 721,
-          "title": "Wine 6.13 Released With Proper Scrollbar Theming, More PE Conversion"
         }
       ]
     }
