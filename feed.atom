@@ -1,10 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-26T00:20:06.126Z</id>
+    <id>urn:2021-07-27T00:20:34.652Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-26T00:20:06.126Z</updated>
+    <updated>2021-07-27T00:20:34.652Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[H.264 SVC / Temporal Encoding Wired Up For AMD's Linux Graphics Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=H264-SVC-Mesa-AMD-VCN</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=H264-SVC-Mesa-AMD-VCN"/>
+        <updated>2021-07-26T22:00:09.000Z</updated>
+        <summary type="html"><![CDATA[For those making use of Radeon GPUs for H.264 encoding on Linux, the open-source Mesa driver stack for VCN hardware has just merged support for handling H.264 Scalable Video Coding (SVC) / temporal encoding...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Accelerated: New Node Naming & Ambitious Roadmap]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Accelerated-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Accelerated-2021"/>
+        <updated>2021-07-26T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel CEO Pat Gelsinger is back with another webcast following his update in March that focused on the new Intel Foundry Services, new US fabs, and more. Today's event is "Intel Accelerated" and offering an update on the company's IDM 2.0 process and packaging...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Regressed Its Floppy Disk Driver - Someone Actually Noticed Just A Few Months Later]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Floppy-2021-Regression</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Floppy-2021-Regression"/>
+        <updated>2021-07-26T18:05:56.000Z</updated>
+        <summary type="html"><![CDATA[It turns out there is actually people running modern versions of the Linux kernel in 2021 that also are using floppy disks...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eclipse OpenJ9 0.27 Released For OpenJDK 8/11/16 Alternative]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-0.27</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-0.27"/>
+        <updated>2021-07-26T17:44:41.000Z</updated>
+        <summary type="html"><![CDATA[The Eclipse Foundation has released OpenJ9 as the latest version of their high performance virtual machine that continues advancing four years after IBM donated the original J9 code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DXVK 1.9.1 Released With Several Game Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.1-Released"/>
+        <updated>2021-07-26T14:17:20.000Z</updated>
+        <summary type="html"><![CDATA[DXVK 1.9.1 is out as the newest version of this key component to Steam Play / Proton for running Windows games on Linux with DXVK being responsible for translating Direct3D 9/10/11 calls to Vulkan...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XanMod, Liquorix Kernels Offer Some Advantages On AMD Ryzen 5 Notebook]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30374</id>
+        <link href="https://www.phoronix.com/vr.php?view=30374"/>
+        <updated>2021-07-26T12:32:03.000Z</updated>
+        <summary type="html"><![CDATA[Motivated in part by the recent le9 kernel patches that are already carried by XanMod and not having benchmarked the XanMod or Liquorix Linux kernel downstreams in a while, here are some fresh benchmarks of Liquorix and XanMod against the recent upstream Linux kernel releases.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Haiku R1 Beta 3 Released As Spiritual Successor To BeOS]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3"/>
+        <updated>2021-07-26T09:50:06.000Z</updated>
+        <summary type="html"><![CDATA[One year after Haiku R1 Beta 2, the third beta of this inaugural release of the open-source Haiku operating system is now available for testing. Haiku remains the open-source OS project going on two decades for advancing as the spiritual successor to BeOS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL2 Lands Support For Client-Side Decorations On Wayland]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Wayland-CSD</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Wayland-CSD"/>
+        <updated>2021-07-26T09:35:04.000Z</updated>
+        <summary type="html"><![CDATA[The SDL2 library that is commonly used by many cross-platform games landed several patches this weekend to improve its Wayland support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the GitLab Helm Package Registry]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/"/>
+        <updated>2021-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloud native application architectures use containerization, microservices, and Kubernetes to run reliably at cloud-scale. With a built-in container registry and Kubernetes integration, GitLab is the best way to develop and deploy cloud native applications. GitLab version 14.1 also includes a Helm registry, which allows users to publish, install, and share Helm charts and packages from within our single application for the entire DevOps lifecycle.
+What is Helm?
+Helm is a package manager for Kubernetes. A Chart is a Helm package that contains the resource definitions required to run an application inside a Kubernetes cluster. Helm allows you to manage complex applications by storing the application definition in a chart that can be versioned, shared, and collaborated on.
+The differences bet…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14-rc3 Released - It's In Good Shape]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc3</id>
@@ -275,36 +368,6 @@ Malicious code in the wild…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[QEMU 6.1 Is On The Way For The Open-Source Linux Virtualization Stack]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-rc0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-rc0-Released"/>
-        <updated>2021-07-22T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Released on Tuesday was QEMU 6.1.0-rc0 as the first test release working towards QEMU 6.1's stable debut before the end of August...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking Support For Intel's Lunar Lake Coming With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lunar-Lake-e1000e-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lunar-Lake-e1000e-Linux-5.15"/>
-        <updated>2021-07-22T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Back in March I wrote about Intel open-source engineers already beginning Linux bring-up for "Lunar Lake" as a future client platform not due out until 2023 at least. That work began with enabling Lunar Lake within the existing e1000e network driver and that hardware enablment work will finally be mainlined this autumn with Linux 5.15...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 11.2 RC1 Compiler Punted For Testing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-11.2-RC1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-11.2-RC1"/>
-        <updated>2021-07-22T00:15:57.000Z</updated>
-        <summary type="html"><![CDATA[Three months after GCC 11.1 arrived as the first stable release of GCC 11, GCC 11.2 is set to be released soon while out today is the first and only planned release candidate...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab 14.1 released with Helm Chart Registry and Escalation Policies]]></title>
         <id>https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/</id>
         <link href="https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/"/>
@@ -328,56 +391,6 @@ Andrew Smith
 Andrew actively contributed numerous merge requests in the GitLab 14.1 release to help improve GitLab’s planning capabil…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVMM Ported To DragonFlyBSD For Virtualization]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-NVMM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-NVMM"/>
-        <updated>2021-07-21T19:30:24.000Z</updated>
-        <summary type="html"><![CDATA[DragonFlyBSD has integrated the NetBSD Virtual Machine Monitor (NVMM) hypervisor that can be used with QEMU...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open-Source Radeon Tools Updated With Expanded RDNA(2) Support, Other Features]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-GPUOpen-GDC21</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-GPUOpen-GDC21"/>
-        <updated>2021-07-21T18:09:44.000Z</updated>
-        <summary type="html"><![CDATA[In addition to NVIDIA releasing new open-source GameWorks projects this week for the Game Developers Conference, AMD with their GPUOpen initiative has released several updated Radeon Windows/Linux tools...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD AOCC 3.1 Compiler Released - Rebased On LLVM 12.0]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-AOCC-3.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-AOCC-3.1-Released"/>
-        <updated>2021-07-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AMD earlier this week quietly published a new version of its AOCC code compiler that is now rebased against the upstream LLVM/Clang 12.0 compiler state...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Squeezing More Performance Out Of The Linux Kernel With Clang + LTO]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30351</id>
-        <link href="https://www.phoronix.com/vr.php?view=30351"/>
-        <updated>2021-07-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the Linux 5.12 kernel bringing support for building the kernel with link-time optimizations (LTO) when using the LLVM Clang compiler, here are some benchmarks looking at that performance impact as well as more generally seeing how the LLVM Clang compiler performance is looking when building the Linux kernel relative to GCC.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLVMpipe Effectively At OpenGL 4.6 With Anistropic Filtering Now Supported]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-Lands-AF</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-Lands-AF"/>
-        <updated>2021-07-21T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The LLVMpipe software OpenGL driver in Gallium3D as well as the Lavapipe Vulkan software implementation now have anisotropic texture filtering support with Mesa 21.3 development code...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
