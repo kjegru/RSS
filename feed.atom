@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-27T00:20:34.652Z</id>
+    <id>urn:2021-07-28T00:21:49.010Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-27T00:20:34.652Z</updated>
+    <updated>2021-07-28T00:21:49.010Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RADV Ray-Tracing Now Rendering Quake II RTX Correctly But Very Slowly]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-RT-Quake-II-RTX-Correct</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-RT-Quake-II-RTX-Correct"/>
+        <updated>2021-07-27T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The open-source Mesa RADV driver for independent Radeon Vulkan driver support on Linux has been working towards supporting ray-tracing for months. Progress is being made with the latest being more test cases passes and even the Quake II RTX game rendering correctly, but the performance is far short of being satisfactory yet...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Linux Foundation's Latest Effort is Around Firefighter Safety]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-Firefighters</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-Firefighters"/>
+        <updated>2021-07-27T18:22:22.000Z</updated>
+        <summary type="html"><![CDATA[Following the formation of the Open 3D Foundation and their open-source IBM-led work around watering farms from the cloud, the Linux Foundation's newest effort is around trying to enhance firefighter safety with open-source...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Cassandra 4.0 Big Data Database Management System Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Cassandra-4.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Cassandra-4.0"/>
+        <updated>2021-07-27T18:08:34.000Z</updated>
+        <summary type="html"><![CDATA[Apache Cassandra 4.0 is finally available as the latest major feature release to this widely-used NoSQL database management system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micron Working On NVMe SSD Abrupt Shutdown Support For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVMe-Abrupt-Shutdown-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVMe-Abrupt-Shutdown-Linux"/>
+        <updated>2021-07-27T12:58:30.000Z</updated>
+        <summary type="html"><![CDATA[The NVMe specification provides for an abrupt shutdown mode over the normal/safe shutdown command if needing to quickly get the NVMe solid-state storage ready for powering off as quickly as possible. Currently the Linux kernel isn't making use of the NVMe abrupt shutdown command but a proposal by Micron is looking to begin its usage...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD AOCC 3.1 Compiler Performance On EPYC 7003 / Zen 3]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30380</id>
+        <link href="https://www.phoronix.com/vr.php?view=30380"/>
+        <updated>2021-07-27T11:17:37.000Z</updated>
+        <summary type="html"><![CDATA[Last week AMD released their AOCC 3.1 compiler that is their downstream of LLVM Clang/Flang and carrying various yet-to-be-upstreamed patches for benefiting their latest processors. While just a point release, curiosity got the best of me for firing up benchmarks of this latest AMD Optimizing C/C++ Compiler release.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DMA-Fence Deadline Awareness Proposed To Help Ensure GPU Drivers Render On-Time]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DMA-Fence-Deadline-Awareness</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DMA-Fence-Deadline-Awareness"/>
+        <updated>2021-07-27T09:52:25.000Z</updated>
+        <summary type="html"><![CDATA[There is the phenomenon on Linux where when double-buffered rendering and missing vblanks can lead to the GPU running at a lower frequency when instead the opposite should happen so it will try to not miss vblanks in the first place. In the past there's been talks of "boost" support in the GPU drivers or also workarounds from user-space like dynamic triple buffering, but sent out this week is a new proposal around DMA-Fence deadline awareness as another means of addressing this problem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RISC-V Developers Continue Working On KVM Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KVM-RISC-V-Virtualization-v19</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KVM-RISC-V-Virtualization-v19"/>
+        <updated>2021-07-27T09:30:44.000Z</updated>
+        <summary type="html"><![CDATA[Going on for more than one year now is the effort for supporting KVM virtualization with the RISC-V architecture, which is very much important for RISC-V processors to be able to eventually take lift in the server space. The KVM RISC-V enablement work is now up to its nineteenth revision but not yet clear if it's ready for mainlining...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Continues Working On Suspend-Only Swap Spaces For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Suspend-Only-Swap-Spaces</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Suspend-Only-Swap-Spaces"/>
+        <updated>2021-07-27T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Google engineers and other parties are interested in being able to create swap spaces on Linux systems that would be reserved just for system suspend/hibernation purposes and not for generic swapping to disk...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[H.264 SVC / Temporal Encoding Wired Up For AMD's Linux Graphics Driver]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=H264-SVC-Mesa-AMD-VCN</id>
@@ -259,26 +339,6 @@ The differences bet…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Intel's Cloud Hypervisor 17 Released With Continued ARM64 Work, Improved SGX]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-17.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-17.0"/>
-        <updated>2021-07-23T07:15:15.000Z</updated>
-        <summary type="html"><![CDATA[The Intel-led open-source Cloud Hypervisor project on Thursday issued its v17.0 release with more big improvements to this Rust-based VMM for running modern cloud workloads...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SquashFS Tools 4.5 Released To Celebrate 20 Years Of SquashFS]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SquashFS-Tools-4.5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SquashFS-Tools-4.5"/>
-        <updated>2021-07-23T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While SquashFS wasn't mainlined in the Linux kernel until 2009, this compressed read-only file-system has been in development for twenty years now with initially being a set of out-of-tree kernel patches. SquashFS has been instrumental to many Linux distributions for their Live DVD/USB environments and other use-cases where needing a general purpose read-only file-system with low overhead...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to use a push-based approach for GitOps with GitLab scripting and variables]]></title>
         <id>https://about.gitlab.com/blog/2021/07/23/how-to-agentless-gitops-vars/</id>
         <link href="https://about.gitlab.com/blog/2021/07/23/how-to-agentless-gitops-vars/"/>
@@ -305,66 +365,6 @@ In an ideal world, all depended-upon code is thoroughly vetted before being incl
 Malicious code in the wild…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firewalld 1.0 Released With Big Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firewalld-1.0"/>
-        <updated>2021-07-22T22:30:25.000Z</updated>
-        <summary type="html"><![CDATA[Firewalld was started by Red Hat a decade ago for managing Linux firewall functionality with Netfilter. Ten and a half years after the first release, Firewalld 1.0 was released this afternoon...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam Audio SDK 4.0 Released With Big Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Audio-SDK-4.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Audio-SDK-4.0"/>
-        <updated>2021-07-22T19:10:12.000Z</updated>
-        <summary type="html"><![CDATA[Valve has just released Steam Audio SDK 4.0 as a big feature update to this cross-platform audio SDK that can work with Unity, Unreal Engine, and other game engines..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Ryzen 9 5900HX / ASUS ROG Strix G15 AMD Advantage On Linux]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30357</id>
-        <link href="https://www.phoronix.com/vr.php?view=30357"/>
-        <updated>2021-07-22T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[With an AMD Ryzen 9 5900HX Zen 3 processor and Radeon RX 6800M graphics, the ASUS ROG Strix G15 laptop may be promising for those wanting high performance and graphics backed by AMD's much enjoyed open-source Linux GPU driver stack. Plus this ASUS ROG Strix G15 (G513QY) is one of the first two "AMD Advantage" laptops. But when it comes to using it on Linux, it's not without some struggles before being able to enjoy the compelling performance.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q3.2 Released With New Extensions, Implicit External Sync For All GPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.2"/>
-        <updated>2021-07-22T11:04:16.000Z</updated>
-        <summary type="html"><![CDATA[AMD engineers today published their latest code drop of the AMDVLK official open-source Radeon Vulkan driver for Linux systems...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Starts Bringing Up Thunder Bay Full + Prime SoC Support For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Thunder-Bay-SoC-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Thunder-Bay-SoC-Linux"/>
-        <updated>2021-07-22T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[More details are coming to light on "Thunder Bay" as a forthcoming Intel SoC now that the open-source Linux driver enablement patches have begun...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.2-rc2 Released With An Initial Batch Of Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc2"/>
-        <updated>2021-07-22T09:45:01.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 21.2 continues stabilizing for a planned release in August while released overnight was Mesa 21.2-rc2 as the newest weekly release candidate...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -678,32 +678,6 @@ In Launch this software page, scroll down.
 Under Security Group Settings click Create New Based On Seller Settings .
 
 Name your security group, add a description, and save it.…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab extends Omnibus package signing key expiration by one year]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/28/package-key-extension/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/28/package-key-extension/"/>
-        <updated>2021-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab uses a GPG key to sign all Omnibus packages created within the CI pipelines to insure that the packages have not been tampered with. This key is seperate from the repository metadata signing key used by package managers and the GPG signing key for the GitLab Runner. The Omnibus package signing key is set to expire on July 1, 2021 and will be extended to expire on July 1, 2022 instead.
-Why are we extending the deadline?
-The Omnibus package signing key's expiration is extended each year to comply with GitLab security policies and to limit the exposure should the key become compromised. The key's expiration is extended instead of rotating to a new key to be less disruptive for users that do verify package integrity checks prior to installing the package.
-What do I need to do?
-The only action that needs to be taken is to update your copy of the package signing key if you validate the signatures on the Omnibus packages that GitLab distributes.
-The package signing key is not the key that signs the repository metadata used by the OS package managers like apt or yum. Unless you are specifically verifying the package signatures or have configured your package manager to verify the package signatures, there is no action needed on your part to continue installing Omnibus packages.
-More information concerning verification of the package signatures
-is available in the Omnibus documentation. If you just need to refresh a copy
-of the public key, then you can find it on any of the GPG keyservers by
-searching for support@gitlab.com or using the key ID of
-DBEF 8977 4DDB 9EB3 7D9F  C3A0 3CFC F9BA F27E AB47. Alternatively you could
-download it directly from packages.gitlab.com using the URL:
-https://packages.gitlab.com/gitlab/nightly-builds/gpgkey/gitlab-nightly-builds-3D645A26AB9FBD22.pub.gpg
-
-
-What do I do if I still have problems?
-Please open an issue in the omnibus-gitlab issue tracker.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
