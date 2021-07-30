@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-29T00:19:45.757Z</id>
+    <id>urn:2021-07-30T00:20:13.874Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-29T00:19:45.757Z</updated>
+    <updated>2021-07-30T00:20:13.874Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Steam Beta Brings New Downloads Page, Linux Container Updates]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Beta-29-July-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Beta-29-July-2021"/>
+        <updated>2021-07-29T22:39:45.000Z</updated>
+        <summary type="html"><![CDATA[Valve just pushed out a rather significant Steam beta update for gamers across Windows, macOS, and Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lavapipe Keeps Tacking On Features, LLVMpipe Lands New Rasterizer With 2~3x Faster 2D]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lavapipe-LLVMpipe-July</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lavapipe-LLVMpipe-July"/>
+        <updated>2021-07-29T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Valve contractor Mike Blumenkrantz is known for his work on the Zink OpenGL-on-Vulkan implementation but recently has also been engaged in some of the Lavapipe software Vulkan driver work and related to that is the venerable LLVMpipe OpenGL Gallium3D driver. Needless to say, there's some interesting work happening...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paragon's NTFS Driver For The Linux Kernel Spun Up A 27th Time]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-v27</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-v27"/>
+        <updated>2021-07-29T17:30:34.000Z</updated>
+        <summary type="html"><![CDATA[Those having to deal with data stored on NTFS partitions from Linux have been eagerly awaiting the "NTFS3" kernel driver that Paragon Software has been working now for a year to upstream into the Linux kernel. No pull request has been sent in yet but the twenty-seventh spin of this driver was published today...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AOCC 3.1 Compiler Performance Against Clang 12, GCC 11 On AMD EPYC]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30395</id>
+        <link href="https://www.phoronix.com/vr.php?view=30395"/>
+        <updated>2021-07-29T12:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Following the recent benchmarks seeing how AMD's new AOCC 3.1 compiler has brought some performance improvements over the prior AOCC 3.0 release that introduced initial Zen 3 optimizations, here are some benchmarks looking at how that latest AMD Optimizing C/C++ Compiler performance compares to the upstream LLVM Clang 12 compiler for which it is based as well as against GCC 11 as the latest GNU compiler release that remains common to Linux systems.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manjaro 21.1 Bringing Enhanced Support For Btrfs, Automatic Backups]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Better-Btrfs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Better-Btrfs"/>
+        <updated>2021-07-29T10:53:53.000Z</updated>
+        <summary type="html"><![CDATA[Manjaro 21.1 is on the way as the newest release of this Arch Linux based operating system that is popular for its desktop ease of use...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD PMC Updates, Intel Alder Lake HID, Gigabyte-WMI Patches Land In Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PMC-Intel-HID-5.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PMC-Intel-HID-5.14"/>
+        <updated>2021-07-29T09:46:51.000Z</updated>
+        <summary type="html"><![CDATA[While solidly into the "fixes" stage of Linux 5.14 kernel development, the x86 platform driver pull request this week -- which has already been merged to mainline -- does have some new additions worth mentioning...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RenderDoc 1.15 Released For Cross-Platform/API Graphics Debugging]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RenderDoc-1.15-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RenderDoc-1.15-Released"/>
+        <updated>2021-07-29T09:30:27.000Z</updated>
+        <summary type="html"><![CDATA[RenderDoc continues maturing gracefully as the leading frame-capture based graphics debugging system for OpenGL / Direct3D / Vulkan across all major operating systems as well as some consoles...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Systemd/Microsoft Effort For A Global Counter On Block/Disk Changes Coming To Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Disk-Seq-No</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Disk-Seq-No"/>
+        <updated>2021-07-29T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last month I wrote about a possible global counter for block/disk changes on Linux being discussed by Microsoft and systemd developers to better track changes via a system-wide monotonically increasing number as an alternative to the existing per-disk tracking. That functionality is now queued up as part of the block subsystem changes ahead of the Linux 5.15 merge window in a few weeks...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mesa 21.2-rc3 Offered For Testing, Mesa 21.1.6 Reaches Stable]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc3-Released</id>
@@ -13,6 +93,40 @@
         <summary type="html"><![CDATA[The Mesa release train continues at full speed ahead for these open-source Linux graphics driver components...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How GitLab 14 satisfies the need for speed with modern DevOps]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/"/>
+        <updated>2021-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How DevOps and NFS changed the game
+What if I told you that one of the best-selling racing video game franchises of all time, the "Need For Speed" (NFS), and DevOps have more in common with each other than you think? Yes, you read that correctly, probably not the NFS (Network File System) you were expecting.
+An appetite for change
+For context, the NFS series originally set out to redefine a saturated, yet unsophisticated, racing video game market. Motivated by an appetite for change, the NFS user experience reflected the human connection to real cars and how they behaved, which was a big challenge for developers in the 1990s. Nearly 30 years ago, "The Need for Speed" forever changed the landscape of racing games, selling 150 million copies since its debut.
+
+The original Need For Speed vide…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Orange made a first step toward CI/CD standardization with GitLab]]></title>
+        <id>https://about.gitlab.com/blog/2021/07/29/how-orange-uses-gitlab-ci-cd-for-modern-devops/</id>
+        <link href="https://about.gitlab.com/blog/2021/07/29/how-orange-uses-gitlab-ci-cd-for-modern-devops/"/>
+        <updated>2021-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CI/CD is a foundational piece to modern software development. It's a major brick in the DevOps "Automation" pillar and every company involved in IT has to implement CI/CD or they're already quite far behind the curve.
+But implementing CI/CD can be challenging especially for growing or large companies. Some of those challenges include:
+DevOps expertise and technical skills
+DevSecOps
+Standardization
+Three key hurdles that come with implementing CI/CD
+This blog post unpackes these challenges and explains how Orange overcame them using GitLab.
+DevOps and technical skills
+No matter which CI/CD tool you're using, it requires some amount of expertise to implement it right.
+DevOps expertise is important because your team needs some experience with Git workflows, deployment, environments, secrets m…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -296,26 +410,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Haiku R1 Beta 3 Released As Spiritual Successor To BeOS]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-R1-Beta-3"/>
-        <updated>2021-07-26T09:50:06.000Z</updated>
-        <summary type="html"><![CDATA[One year after Haiku R1 Beta 2, the third beta of this inaugural release of the open-source Haiku operating system is now available for testing. Haiku remains the open-source OS project going on two decades for advancing as the spiritual successor to BeOS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SDL2 Lands Support For Client-Side Decorations On Wayland]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Wayland-CSD</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Wayland-CSD"/>
-        <updated>2021-07-26T09:35:04.000Z</updated>
-        <summary type="html"><![CDATA[The SDL2 library that is commonly used by many cross-platform games landed several patches this weekend to improve its Wayland support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing the GitLab Helm Package Registry]]></title>
         <id>https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/</id>
         <link href="https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/"/>
@@ -326,66 +420,6 @@ Helm is a package manager for Kubernetes. A Chart is a Helm package that contain
 The differences bet…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14-rc3 Released - It's In Good Shape]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc3"/>
-        <updated>2021-07-25T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Following last week's big kernel in the form of Linux 5.14-rc2, rc3 is now available and it's much saner this week with fewer changes and those scattered changes being on the smaller side...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BLAKE3 v1.0 Released - Faster & More Secure Than SHA-1, Etc]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BLAKE3-1.0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BLAKE3-1.0-Released"/>
-        <updated>2021-07-25T17:46:17.000Z</updated>
-        <summary type="html"><![CDATA[The BLAKE3 cryotpgraphic hash function that was announced last year and based on its predecessor BLAKE2 has now reached version 1.0 for its official/reference software implementation. BLAKE3 continues to be much faster than BLAKE2 while also being much faster than the likes of SHA-1/SHA--2/SHA-3 and even MD5 while being more secure...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proposed Reflink Support Would Provide Big Space Savings For Wine]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Reflink-For-Wine-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Reflink-For-Wine-Patches"/>
-        <updated>2021-07-25T16:30:41.000Z</updated>
-        <summary type="html"><![CDATA[When sticking to Wine recommendations of maintaining separate prefixes per-application, a lot of system files get duplicated for each game/application and in turn leading to significant bloat. With the current state of Wine it can mean hundreds of megabytes per prefix in duplicated files. But proposed reflink patches for Wine are aiming to cut down on this severe bloat...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu vs. Arch Linux On The ASUS ROG Strix G15 / Ryzen 9 5900HX]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30367</id>
-        <link href="https://www.phoronix.com/vr.php?view=30367"/>
-        <updated>2021-07-25T11:07:08.000Z</updated>
-        <summary type="html"><![CDATA[This past week were the initial Linux benchmarks of the Ryzen 9 5900HX with the ASUS ROG Strix G15 laptop. Ubuntu was used as the default test platform as usual given its popularity and arguably the most relevant Linux distribution to use given that it's the most common Linux distribution at the moment for preloads on laptops by multiple vendors. In any case, as usual many users were quick to say "but Arch Linux!" as if it was going to make a dramatic difference in my findings. Well, here are some Ubuntu 21.04 versus Arch Linux benchmarks on that AMD Advantage laptop.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft's IMA-Based Measurements For Device Mapper Slated For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IMA-Target-Measurements-DM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IMA-Target-Measurements-DM"/>
-        <updated>2021-07-25T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest Linux kernel feature proposed by Microsoft that is now working its way to the mainline kernel is IMA-based target measurements for the Device Mapper (DM) subsystem for enhanced security...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loongson 3A5000 Benchmarks For These New Chinese CPUs Built On The LoongArch ISA]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Loongson-3A5000-Benchmark</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Loongson-3A5000-Benchmark"/>
-        <updated>2021-07-24T17:55:06.000Z</updated>
-        <summary type="html"><![CDATA[While Loongson has been known for their MIPS-based Loongson chips that are open-source friendly and have long been based on MIPS, with MIPS now being a dead-end, the Chinese company has begun producing chips using its own "LoongArch" ISA. The first Loongson 3A5000 series hardware was just announced and thanks to the company apparently using the Phoronix Test Suite and OpenBenchmarking.org we have some initial numbers...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -698,36 +732,6 @@ to use GitLab's own infrastructure.]]></summary>
         <summary type="html"><![CDATA[Today we are releasing versions 14.0.2, 13.12.6, and 13.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).
 These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to stand-up a GitLab instance in AWS Marketplace]]></title>
-        <id>https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/</id>
-        <link href="https://about.gitlab.com/blog/2021/06/30/how-to-stand-up-gitlab-in-awsmp/"/>
-        <updated>2021-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this guide we will learn how to spin up GitLab in the AWS Marketplace:
-Pre requisites for this lab are having an account in AWS and an accessible and working VPC.
-We will learn the following steps:
-Stand up a self-managed instance of GitLab.
-Install Runner and Docker Engine.
-Step-by-step Instructions
-Step 1 - Stand up GitLab instance in AWS
-Open GitLab Ultimate in AWS Marketplace.
-Click on Continue to Subscribe
-
-Sign in with your IAM user.
-
-Click on Continue to Configuration.
-
-Leave the default value for Delivery Method, select the latest version in Software Version, select your Region, click Continue to Launch.
-
-In Launch this software page, scroll down.
-
-Under Security Group Settings click Create New Based On Seller Settings .
-
-Name your security group, add a description, and save it.…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
