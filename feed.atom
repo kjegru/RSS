@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-30T00:20:13.874Z</id>
+    <id>urn:2021-07-31T00:20:52.962Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-30T00:20:13.874Z</updated>
+    <updated>2021-07-31T00:20:52.962Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.14 Implements More 32-bit To 64-bit Thunks, Updated Mono]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.14</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.14"/>
+        <updated>2021-07-30T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wine developers have popped open a new bi-weekly development snapshot of this software that allows Windows games/applications to run on Linux and macOS along with being what powers Valve's Steam Play (Proton) and CodeWeavers' CrossOver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Compute-Runtime 21.30.20482 Brings Initial WSL2 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.30.20482</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.30.20482"/>
+        <updated>2021-07-30T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel's Compute-Runtime stack for providing open-source OpenCL and Level Zero compute for their graphics hardware under Linux is out with a new release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[xf86-video-amdgpu 21.0.0 Released For Radeon Linux Users Still On X.Org]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-video-amdgpu-21.0.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-video-amdgpu-21.0.0"/>
+        <updated>2021-07-30T17:45:42.000Z</updated>
+        <summary type="html"><![CDATA[For those making use of Radeon graphics on Linux with an X.Org-based environment and not using the generic xf86-video-modesetting DDX but rather than the xf86-video-amdgpu driver, AMD today put out a rare update to that diminishing driver component...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon "Cyan Skillfish" Navi 1x APU Submitted For Linux 5.15 Plus Many Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cyan-Skillfish-Linux-AMDGPU-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cyan-Skillfish-Linux-AMDGPU-5.15"/>
+        <updated>2021-07-30T13:30:01.000Z</updated>
+        <summary type="html"><![CDATA[AMD driver engineers have submitted their latest batch of AMDGPU feature updates to DRM-Next for queuing ahead of the Linux 5.15 merge window opening up in about one month's time. With this latest pull request the big addition is the new "Cyan Skillfish" GPU support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Hits A Nasty Performance Regression With Linux 5.13]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VMware-ESXi-Nasty-Linux-5.13</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VMware-ESXi-Nasty-Linux-5.13"/>
+        <updated>2021-07-30T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VMware has found the Linux 5.13 kernel that was released as stable one month ago has led to a serious performance regression for their ESXi enterprise hypervisor...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenGL Drivers In 2021 Still Sadly Benefit From Faking Their Driver Name / GPU]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenGL-Drivers-2021-Faking-It</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenGL-Drivers-2021-Faking-It"/>
+        <updated>2021-07-30T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Years ago particularly when the open-source Linux GPU drivers were in their infancy it was known in some cases having to fake/spoof the GPU driver name or model in order to workaround artificial bugs / problematic code paths targeted to a particular OpenGL driver or even to achieve greater performance. With a new Mesa merge request called "Unleash the dragon!", this is still very much a problem in 2021 even now in the Android space...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xubuntu 21.10 To Ship Some More GNOME Apps, Drops Pidgin]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Xubuntu-21.10-Apps</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Xubuntu-21.10-Apps"/>
+        <updated>2021-07-30T10:38:05.000Z</updated>
+        <summary type="html"><![CDATA[For those wondering what has been going on in the Xubuntu camp for this Xfce desktop spin of Ubuntu, a Xubuntu 21.10 development update was shared concerning package changes and other happenings...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 93 Beta Brings Multi-Screen Window Placement API, CSD-Like Overlay Option]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-93-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-93-Beta"/>
+        <updated>2021-07-30T10:06:09.000Z</updated>
+        <summary type="html"><![CDATA[Following last week's release of Chrome 92, Google has now made available the Chrome 93 beta as the next iteration of their cross-platform web browser...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Releases AOMP 13.0-5 Radeon OpenMP Compiler]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AOMP-13.0-5-Compiler</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AOMP-13.0-5-Compiler"/>
+        <updated>2021-07-30T09:49:06.000Z</updated>
+        <summary type="html"><![CDATA[In addition to the AOCC compiler for Zen CPUs, another LLVM/Clang downstream maintained by AMD is the AOMP compiler as where they host their various patches not yet merged around Radeon OpenMP offloading support. This week marked the release of AOMP 13.0-5 as their latest work on that front for the newest OpenMP GPU offloading capabilities...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30401</id>
+        <link href="https://www.phoronix.com/vr.php?view=30401"/>
+        <updated>2021-07-30T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[AMD just lifted the embargo on the Radeon RX 6600 XT, its newest entry in their RDNA2 line-up and optimized for delivering a superior 1080p gaming performance against the NVIDIA GeForce RTX 3060 series. The RX 6600 XT isn't hitting retail availability until August and that is when we'll be able to publish benchmarks, but for now here is an overview of this new graphics card launching at the $379 price point.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Steam Beta Brings New Downloads Page, Linux Container Updates]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Beta-29-July-2021</id>
@@ -305,106 +405,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVMe-Abrupt-Shutdown-Linux"/>
         <updated>2021-07-27T12:58:30.000Z</updated>
         <summary type="html"><![CDATA[The NVMe specification provides for an abrupt shutdown mode over the normal/safe shutdown command if needing to quickly get the NVMe solid-state storage ready for powering off as quickly as possible. Currently the Linux kernel isn't making use of the NVMe abrupt shutdown command but a proposal by Micron is looking to begin its usage...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD AOCC 3.1 Compiler Performance On EPYC 7003 / Zen 3]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30380</id>
-        <link href="https://www.phoronix.com/vr.php?view=30380"/>
-        <updated>2021-07-27T11:17:37.000Z</updated>
-        <summary type="html"><![CDATA[Last week AMD released their AOCC 3.1 compiler that is their downstream of LLVM Clang/Flang and carrying various yet-to-be-upstreamed patches for benefiting their latest processors. While just a point release, curiosity got the best of me for firing up benchmarks of this latest AMD Optimizing C/C++ Compiler release.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DMA-Fence Deadline Awareness Proposed To Help Ensure GPU Drivers Render On-Time]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DMA-Fence-Deadline-Awareness</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DMA-Fence-Deadline-Awareness"/>
-        <updated>2021-07-27T09:52:25.000Z</updated>
-        <summary type="html"><![CDATA[There is the phenomenon on Linux where when double-buffered rendering and missing vblanks can lead to the GPU running at a lower frequency when instead the opposite should happen so it will try to not miss vblanks in the first place. In the past there's been talks of "boost" support in the GPU drivers or also workarounds from user-space like dynamic triple buffering, but sent out this week is a new proposal around DMA-Fence deadline awareness as another means of addressing this problem...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RISC-V Developers Continue Working On KVM Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KVM-RISC-V-Virtualization-v19</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KVM-RISC-V-Virtualization-v19"/>
-        <updated>2021-07-27T09:30:44.000Z</updated>
-        <summary type="html"><![CDATA[Going on for more than one year now is the effort for supporting KVM virtualization with the RISC-V architecture, which is very much important for RISC-V processors to be able to eventually take lift in the server space. The KVM RISC-V enablement work is now up to its nineteenth revision but not yet clear if it's ready for mainlining...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Continues Working On Suspend-Only Swap Spaces For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Suspend-Only-Swap-Spaces</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Suspend-Only-Swap-Spaces"/>
-        <updated>2021-07-27T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Google engineers and other parties are interested in being able to create swap spaces on Linux systems that would be reserved just for system suspend/hibernation purposes and not for generic swapping to disk...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H.264 SVC / Temporal Encoding Wired Up For AMD's Linux Graphics Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=H264-SVC-Mesa-AMD-VCN</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=H264-SVC-Mesa-AMD-VCN"/>
-        <updated>2021-07-26T22:00:09.000Z</updated>
-        <summary type="html"><![CDATA[For those making use of Radeon GPUs for H.264 encoding on Linux, the open-source Mesa driver stack for VCN hardware has just merged support for handling H.264 Scalable Video Coding (SVC) / temporal encoding...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Accelerated: New Node Naming & Ambitious Roadmap]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Accelerated-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Accelerated-2021"/>
-        <updated>2021-07-26T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel CEO Pat Gelsinger is back with another webcast following his update in March that focused on the new Intel Foundry Services, new US fabs, and more. Today's event is "Intel Accelerated" and offering an update on the company's IDM 2.0 process and packaging...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Regressed Its Floppy Disk Driver - Someone Actually Noticed Just A Few Months Later]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Floppy-2021-Regression</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Floppy-2021-Regression"/>
-        <updated>2021-07-26T18:05:56.000Z</updated>
-        <summary type="html"><![CDATA[It turns out there is actually people running modern versions of the Linux kernel in 2021 that also are using floppy disks...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eclipse OpenJ9 0.27 Released For OpenJDK 8/11/16 Alternative]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-0.27</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-0.27"/>
-        <updated>2021-07-26T17:44:41.000Z</updated>
-        <summary type="html"><![CDATA[The Eclipse Foundation has released OpenJ9 as the latest version of their high performance virtual machine that continues advancing four years after IBM donated the original J9 code...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DXVK 1.9.1 Released With Several Game Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.1-Released"/>
-        <updated>2021-07-26T14:17:20.000Z</updated>
-        <summary type="html"><![CDATA[DXVK 1.9.1 is out as the newest version of this key component to Steam Play / Proton for running Windows games on Linux with DXVK being responsible for translating Direct3D 9/10/11 calls to Vulkan...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XanMod, Liquorix Kernels Offer Some Advantages On AMD Ryzen 5 Notebook]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30374</id>
-        <link href="https://www.phoronix.com/vr.php?view=30374"/>
-        <updated>2021-07-26T12:32:03.000Z</updated>
-        <summary type="html"><![CDATA[Motivated in part by the recent le9 kernel patches that are already carried by XanMod and not having benchmarked the XanMod or Liquorix Linux kernel downstreams in a while, here are some fresh benchmarks of Liquorix and XanMod against the recent upstream Linux kernel releases.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -720,18 +720,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Security Release: 14.0.2, 13.12.6, and 13.11.6]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/01/security-release-gitlab-14-0-2-released/"/>
-        <updated>2021-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing versions 14.0.2, 13.12.6, and 13.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE).
-These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
-GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
