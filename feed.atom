@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-31T00:20:52.962Z</id>
+    <id>urn:2021-08-01T00:23:16.009Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-31T00:20:52.962Z</updated>
+    <updated>2021-08-01T00:23:16.009Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux Changes Pipe Behavior After Breaking Problematic Android Apps On Recent Kernels]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Broke-Android-Apps-Pipe</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Broke-Android-Apps-Pipe"/>
+        <updated>2021-07-31T16:10:45.000Z</updated>
+        <summary type="html"><![CDATA[At the end of 2019 a rework to the Linux kernel's pipe code saw some of its logic reworked to only wake up readers if needed and avoid a possible thundering herd problem. But it turns out some Android libraries abused the functionality and this has led to broken Android applications when moving to recent kernels. While the user-space software is in the wrong, the kernel is sticking to its policy of not breaking user-space and as such Linus Torvalds has changed the code's behavior for Linux 5.14 and to be back-ported to prior stable kernels...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New NTFS Driver Looks Like It Will Finally Be Ready With Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=New-NTFS-Likely-For-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=New-NTFS-Likely-For-Linux-5.15"/>
+        <updated>2021-07-31T13:37:23.000Z</updated>
+        <summary type="html"><![CDATA[It's looking like the new NTFS file-system kernel driver developed by Paragon Software and over the past year revised more than two dozen times could be ready for mainlining in the kernel in about one month's time when the Linux 5.15 merge window opens. Everything is finally aligning and looking like the code is in good enough shape for its initial merging though not necessarily replacing the existing NTFS driver at this point...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Drops Old DEC Alpha-Specific Binary Loader Used For x86 Binary Emulation]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Alpha-Specific-x86-Loader-Drop</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Alpha-Specific-x86-Loader-Drop"/>
+        <updated>2021-07-31T13:21:48.000Z</updated>
+        <summary type="html"><![CDATA[As a weekend blast from the past, the Linux 5.14 kernel saw some Alpha CPU architecture updates -- including various fixes and the removal of an Alpha-specific binary loader for running a decades dated x86 software emulator...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux's FWUPD Expands Poly High-End Web Camera Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FWUPD-1.5.12</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FWUPD-1.5.12"/>
+        <updated>2021-07-31T10:42:50.000Z</updated>
+        <summary type="html"><![CDATA[For those looking to purchase a high-end Linux-friendly web camera for your home office or other environment, there are a few more options now compatible with Linux's fwupd if interested in having the capability of updating the camera firmware under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More RT Code Out For Review, RT Patches Updated Against Linux 5.14]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RT-Updates</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RT-Updates"/>
+        <updated>2021-07-31T10:06:18.000Z</updated>
+        <summary type="html"><![CDATA[The real-time (RT) patches for the Linux kernel still appear a ways off from mainline but at least there is movement on this important patch series for embedded and other use-cases needing real-time support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE's HiDPI Scaling Support For X11 Is Getting Into Better Shape]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-X11-Better-HiDPI-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-X11-Better-HiDPI-2021"/>
+        <updated>2021-07-31T09:39:24.000Z</updated>
+        <summary type="html"><![CDATA[While KDE on Wayland has generally enjoyed good HiDPI support, it's now taken until 2021 for KDE's X11 HiDPI support to be in a position of greater usability after evolving over the years...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linspire-Based Freespire Announces "Entirely New Direction" With Cloud Apps...]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Freespire-7.7-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Freespire-7.7-Released"/>
+        <updated>2021-07-31T00:50:00.000Z</updated>
+        <summary type="html"><![CDATA[What started off as Lindows twenty years ago as an easy-to-use Linux-based operating system with great Wine integration and easy application support but then changed to Linspire following a Microsoft lawsuit has had quite a journey. PC/OpenSystems LLC revived Linspire after a multi-year gap following the closure of Xandros and since then it's been a rather peculiar platform. Today they are now shifting focus once again...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wine 6.14 Implements More 32-bit To 64-bit Thunks, Updated Mono]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.14</id>
@@ -290,36 +360,6 @@ DevOps expertise is important because your team needs some experience with Git w
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Btrfs Picking Up FS-VERITY Support, Other Improvements With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.15-FS-VERITY</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-Linux-5.15-FS-VERITY"/>
-        <updated>2021-07-28T09:49:53.000Z</updated>
-        <summary type="html"><![CDATA[A lot of new code landed yesterday in the Btrfs file-system's "for-next" Git branch ahead of the Linux 5.15 merge window opening up in about one month's time...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PulseAudio 15 Released With Bluetooth Improvements, Better Hardware Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PulseAudio-15.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PulseAudio-15.0"/>
-        <updated>2021-07-28T09:28:30.000Z</updated>
-        <summary type="html"><![CDATA[While PipeWire continues on a nice upward trajectory for fulfilling the roles of PulseAudio and JACK along with other audio/video stream management needs, PulseAudio isn't letting up yet and on Tuesday saw its big version 15.0 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 11.2 Compiler Released With 95+ Bug Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-11.2-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-11.2-Released"/>
-        <updated>2021-07-28T09:02:14.000Z</updated>
-        <summary type="html"><![CDATA[GCC 11.2 is now available as the latest stable version of the GNU Compiler Collection...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to secure your container images with GitLab and Grype]]></title>
         <id>https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/</id>
         <link href="https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/"/>
@@ -367,46 +407,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RADV Ray-Tracing Now Rendering Quake II RTX Correctly But Very Slowly]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-RT-Quake-II-RTX-Correct</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-RT-Quake-II-RTX-Correct"/>
-        <updated>2021-07-27T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The open-source Mesa RADV driver for independent Radeon Vulkan driver support on Linux has been working towards supporting ray-tracing for months. Progress is being made with the latest being more test cases passes and even the Quake II RTX game rendering correctly, but the performance is far short of being satisfactory yet...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Linux Foundation's Latest Effort is Around Firefighter Safety]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-Firefighters</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-Firefighters"/>
-        <updated>2021-07-27T18:22:22.000Z</updated>
-        <summary type="html"><![CDATA[Following the formation of the Open 3D Foundation and their open-source IBM-led work around watering farms from the cloud, the Linux Foundation's newest effort is around trying to enhance firefighter safety with open-source...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Cassandra 4.0 Big Data Database Management System Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Cassandra-4.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Cassandra-4.0"/>
-        <updated>2021-07-27T18:08:34.000Z</updated>
-        <summary type="html"><![CDATA[Apache Cassandra 4.0 is finally available as the latest major feature release to this widely-used NoSQL database management system...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Micron Working On NVMe SSD Abrupt Shutdown Support For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVMe-Abrupt-Shutdown-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVMe-Abrupt-Shutdown-Linux"/>
-        <updated>2021-07-27T12:58:30.000Z</updated>
-        <summary type="html"><![CDATA[The NVMe specification provides for an abrupt shutdown mode over the normal/safe shutdown command if needing to quickly get the NVMe solid-state storage ready for powering off as quickly as possible. Currently the Linux kernel isn't making use of the NVMe abrupt shutdown command but a proposal by Micron is looking to begin its usage...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
