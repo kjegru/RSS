@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-01T00:23:16.009Z</id>
+    <id>urn:2021-08-02T00:21:06.778Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-01T00:23:16.009Z</updated>
+    <updated>2021-08-02T00:21:06.778Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Adding Management Component Transport Protocol (MCTP)]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP"/>
+        <updated>2021-08-01T18:42:33.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.15 is positioned now to see a Management Component Transport Protocol (MCTP) implementation with the code now queued in net-next with this being a protocol for communication between management controllers and managed devices...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReactOS "Open-Source Windows" Making Progress On x86_64, Multi-Monitor]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ReactOS-AMD64-Multi-Monitor</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ReactOS-AMD64-Multi-Monitor"/>
+        <updated>2021-08-01T11:21:08.000Z</updated>
+        <summary type="html"><![CDATA[ReactOS as the long-running open-source project striving for Windows ABI compatibility has been making some significant progress this summer on various endeavors...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LibreOffice 7.2 RC2 Up For Testing With Its Initial GTK4 Work, Command Pop-Up / HUD]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-RC2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-RC2"/>
+        <updated>2021-08-01T11:13:45.000Z</updated>
+        <summary type="html"><![CDATA[LibreOffice 7.2 is preparing to ship this month while out today is LibreOffice 7.2 RC2 for facilitating last minute testing of this leading open-source office suite...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LE9, Canonical's Profits, Steam Deck, & Loongson 3A5000 Made For An Exciting July]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=July-2021-Highlights</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=July-2021-Highlights"/>
+        <updated>2021-08-01T10:36:21.000Z</updated>
+        <summary type="html"><![CDATA[July was a pretty damn exciting summer month amid the pandemic thanks to many interesting Linux software and hardware announcements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL 2.0.16 Is On The Way With Better Wayland Support, Improved PipeWire Integration]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Coming"/>
+        <updated>2021-08-01T10:12:12.000Z</updated>
+        <summary type="html"><![CDATA[SDL 2.0.16 is being prepared for release as the successor to SDL 2.0.14. Particularly for Linux users this SDL 2.0.16 update is significant with some key enhancements for this library that is common to multi-platform games and part of the Steam runtime...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lutris 0.5.9 Beta Released With Epic Games Store Support, DXVK-NVAPI/DLSS, Gamescope]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lutris-0.5.9-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lutris-0.5.9-Beta"/>
+        <updated>2021-08-01T09:35:09.000Z</updated>
+        <summary type="html"><![CDATA[Lutris 0.5.9-beta1 is out this Sunday as a rather significant update to this open-source Linux game manager. With this new version there are many new features for this centralized game launcher...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux Changes Pipe Behavior After Breaking Problematic Android Apps On Recent Kernels]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Broke-Android-Apps-Pipe</id>
@@ -297,66 +357,6 @@ No matter which CI/CD tool you're using, it requires some amount of expertise to
 DevOps expertise is important because your team needs some experience with Git workflows, deployment, environments, secrets m…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel's Iris Gallium3D OpenGL Driver Now Supports Threaded Shader Compilation]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Iris-Threaded-Shader-Comp</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Iris-Threaded-Shader-Comp"/>
-        <updated>2021-07-28T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel's open-source "Iris" Gallium3D driver for providing modern OpenGL driver support on their graphics hardware from Broadwell through all current Gen12 / Xe Graphics era hardware has been in great shape for some time and works wonderfully. But Intel's not done furthering this Linux OpenGL driver and today they now have threaded shader compilation merged...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OPNsense 21.7 Released With New Installer Offering Better ZFS Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OPNsense-21.7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OPNsense-21.7"/>
-        <updated>2021-07-28T17:47:07.000Z</updated>
-        <summary type="html"><![CDATA[OPNsense as the FreeBSD/HardenedBSD-based firewall and routing platform long ago forked from pfSense is out with its newest major release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[O3DE Game Engine Quickly Settling Its Linux Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Goes</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=O3DE-Linux-Goes"/>
-        <updated>2021-07-28T17:11:13.000Z</updated>
-        <summary type="html"><![CDATA[Less than one month since Open 3D Engine was announced based on Amazon's Lumberyard engine, the Linux support is nearly in a pleasant state...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Beyond Stupid" Paranoid L1d Cache Flushing Looks Like It Will Try Again For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Paranoid-L1d-Flush-x86-CPU-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Paranoid-L1d-Flush-x86-CPU-5.15"/>
-        <updated>2021-07-28T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The work going on for over a year to optionally flush the L1 data cache on context switching is going to try again for the next kernel cycle as an opt-in feature for select tasks. This was the feature rejected last year by Linus Torvalds that went on to "beyond stupid" and other concerns about it when it was trying to be mainlined originally...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 21.04 vs. Windows 10 Trade Blows On The AMD Ryzen 9 5900HX / ASUS ROG Strix G15]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30386</id>
-        <link href="https://www.phoronix.com/vr.php?view=30386"/>
-        <updated>2021-07-28T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While the AMD Ryzen 9 5900HX performance is great on Linux once overcoming any laptop support quirks like with the ASUS ROG Strix G15 "AMD Advantage" laptop running into keyboard and WiFi issues on Linux depending upon the kernel version, how does the performance compare to Microsoft Windows 10? Here are some benchmarks of that ROG Strix G15 AMD laptop under Windows 10 as shipped by ASUS against Ubuntu 21.04 when upgraded to the Linux 5.13 stable kernel.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FreeRDP 2.4 Released With Support For Multi-Threaded Decoding]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeRDP-2.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeRDP-2.4"/>
-        <updated>2021-07-28T10:16:19.000Z</updated>
-        <summary type="html"><![CDATA[FreeRDP as a leading open-source implementation of the Remote Desktop Protocol is up to version 2.4 and exciting about this release is multi-threaded decoding support...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
