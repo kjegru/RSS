@@ -199,12 +199,111 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SB-RMI-Linux-Sensor",
+          "author": null,
+          "description": "AMD continues pushing new code out for Linux in better exposing their platform's capabilities in the open-source world. The latest AMD driver work now queued via \"-next\" branches for introduction this autumn in Linux 5.15 is SB-RMI sensor support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SB-RMI-Linux-Sensor",
+          "publishedOn": "2021-08-02T20:00:12.000Z",
+          "wordCount": 988,
+          "title": "AMD SB-RMI Driver Coming For Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=WireGuardNT-Windows-Kernel",
+          "author": null,
+          "description": "The excellent WireGuard open-source secure VPN tunnel has been seeing growing adoption on Linux now that it's been in the mainline kernel for a while and also seeing continued progress on the BSDs. While there has been beta WireGuard for Windows in user-space, \"WireGuardNT\" was announced today as a native high-performance port to the Windows kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=WireGuardNT-Windows-Kernel",
+          "publishedOn": "2021-08-02T18:13:20.000Z",
+          "wordCount": 950,
+          "title": "WireGuard Sees Native, High-Performance Port To The Windows Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.6.2",
+          "author": null,
+          "description": "While FWUPD 1.5.12 released last week with expanded support for Poly web cameras, FWUPD 1.6.2 is out today as the newest feature release in their latest series. FWUPD 1.6.2 brings several significant improvements for advancing open-source firmware update capabilities on Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.6.2",
+          "publishedOn": "2021-08-02T17:54:20.000Z",
+          "wordCount": 817,
+          "title": "FWUPD 1.6.2 Released With Exciting Improvements For Hardware Firmware Updates On Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Valve-New-CPU-Freq",
+          "author": null,
+          "description": "Along with other optimizations to benefit the Steam Deck, AMD and Valve have been jointly working on CPU frequency/power scaling improvements to enhance the Steam Play gaming experience on modern AMD platforms running Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Valve-New-CPU-Freq",
+          "publishedOn": "2021-08-02T12:00:00.000Z",
+          "wordCount": 1079,
+          "title": "AMD + Valve Working On New Linux CPU Performance Scaling Design"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-Installer-Bullseye-RC3",
+          "author": null,
+          "description": "Debian 11 \"Bullseye\" is set to be released mid-August while out this morning is the third release candidate of the Debian Bullseye installer. With this installer update is more documentation for users letting them know the risks of modern graphics cards and the like that are often inoperable unless loading firmware that isn't considered free software...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-Installer-Bullseye-RC3",
+          "publishedOn": "2021-08-02T10:38:21.000Z",
+          "wordCount": 901,
+          "title": "Debian Improves Docs To Inform Users Their Systems Might Not Work Without Non-Free Firmware"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Task-Isolation-Interface-2021",
+          "author": null,
+          "description": "Red Hat's Marcelo Tosatti has submitted his latest patches implementing a basic task isolation interface for the Linux kernel that would be particularly useful for real-time workloads and high-bandwidth networking applications making use of user-space drivers...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Task-Isolation-Interface-2021",
+          "publishedOn": "2021-08-02T10:09:34.000Z",
+          "wordCount": 793,
+          "title": "Work Is Back Underway On A Task Isolation Interface For The Linux Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-C-Library-Glibc-2.34",
+          "author": null,
+          "description": "Version 2.34 of the GNU C Library (glibc) is now available with a wide variety of changes that accumulated over the past six months...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-C-Library-Glibc-2.34",
+          "publishedOn": "2021-08-02T09:53:21.000Z",
+          "wordCount": 928,
+          "title": "GNU C Library 2.34 Released With More Functionality Squeezed Into libc"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-xeyes-1.2",
+          "author": null,
+          "description": "Several X.Org/X11 components saw new releases on Sunday for kicking off August, including the xeyes program seeing its first non-point release in eleven years...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-xeyes-1.2",
+          "publishedOn": "2021-08-02T09:29:52.000Z",
+          "wordCount": 780,
+          "title": "X.Org's XEyes 1.2 Released, Other Updated X11 Components Too"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Dav1d-0.9.1-Released",
+          "author": null,
+          "description": "Dav1d 0.9.1 was released on Sunday as the newest feature update to this leading open-source CPU-based AV1 video decoder...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dav1d-0.9.1-Released",
+          "publishedOn": "2021-08-02T07:00:00.000Z",
+          "wordCount": 876,
+          "title": "dav1d 0.9.1 Released With More Optimizations - Particularly For Older CPUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc4-Released",
+          "author": null,
+          "description": "Linux 5.14-rc4 is available today as a rather smooth update with nothing too worrisome but just a decent amount of fixes and nothing that is causing Linux creator Linus Torvalds to be frustrated...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc4-Released",
+          "publishedOn": "2021-08-02T00:30:13.000Z",
+          "wordCount": 963,
+          "title": "Linux 5.14-rc4 Released With Change Following Some Broken Android Apps, Other Fixes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Linux-July-2021",
+          "author": null,
+          "description": "Not only did Valve announce Steam Deck in July but the overall Linux gaming marketshare according to the Steam Survey also hit a multi-year high...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Linux-July-2021",
+          "publishedOn": "2021-08-02T00:15:15.000Z",
+          "wordCount": 854,
+          "title": "Steam Survey Shows Linux Marketshare Hitting 1.0%"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-MCTP",
           "author": null,
           "description": "Linux 5.15 is positioned now to see a Management Component Transport Protocol (MCTP) implementation with the code now queued in net-next with this being a protocol for communication between management controllers and managed devices...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-MCTP",
           "publishedOn": "2021-08-01T18:42:33.000Z",
-          "wordCount": 894,
+          "wordCount": 869,
           "title": "Linux 5.15 Adding Management Component Transport Protocol (MCTP)"
         },
         {
@@ -213,7 +312,7 @@
           "description": "ReactOS as the long-running open-source project striving for Windows ABI compatibility has been making some significant progress this summer on various endeavors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=ReactOS-AMD64-Multi-Monitor",
           "publishedOn": "2021-08-01T11:21:08.000Z",
-          "wordCount": 912,
+          "wordCount": 817,
           "title": "ReactOS \"Open-Source Windows\" Making Progress On x86_64, Multi-Monitor"
         },
         {
@@ -222,7 +321,7 @@
           "description": "LibreOffice 7.2 is preparing to ship this month while out today is LibreOffice 7.2 RC2 for facilitating last minute testing of this leading open-source office suite...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-RC2",
           "publishedOn": "2021-08-01T11:13:45.000Z",
-          "wordCount": 824,
+          "wordCount": 817,
           "title": "LibreOffice 7.2 RC2 Up For Testing With Its Initial GTK4 Work, Command Pop-Up / HUD"
         },
         {
@@ -231,7 +330,7 @@
           "description": "July was a pretty damn exciting summer month amid the pandemic thanks to many interesting Linux software and hardware announcements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=July-2021-Highlights",
           "publishedOn": "2021-08-01T10:36:21.000Z",
-          "wordCount": 2527,
+          "wordCount": 2512,
           "title": "LE9, Canonical's Profits, Steam Deck, & Loongson 3A5000 Made For An Exciting July"
         },
         {
@@ -240,7 +339,7 @@
           "description": "SDL 2.0.16 is being prepared for release as the successor to SDL 2.0.14. Particularly for Linux users this SDL 2.0.16 update is significant with some key enhancements for this library that is common to multi-platform games and part of the Steam runtime...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-2.0.16-Coming",
           "publishedOn": "2021-08-01T10:12:12.000Z",
-          "wordCount": 910,
+          "wordCount": 895,
           "title": "SDL 2.0.16 Is On The Way With Better Wayland Support, Improved PipeWire Integration"
         },
         {
@@ -249,7 +348,7 @@
           "description": "Lutris 0.5.9-beta1 is out this Sunday as a rather significant update to this open-source Linux game manager. With this new version there are many new features for this centralized game launcher...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Beta",
           "publishedOn": "2021-08-01T09:35:09.000Z",
-          "wordCount": 769,
+          "wordCount": 825,
           "title": "Lutris 0.5.9 Beta Released With Epic Games Store Support, DXVK-NVAPI/DLSS, Gamescope"
         },
         {
@@ -258,7 +357,7 @@
           "description": "At the end of 2019 a rework to the Linux kernel's pipe code saw some of its logic reworked to only wake up readers if needed and avoid a possible thundering herd problem. But it turns out some Android libraries abused the functionality and this has led to broken Android applications when moving to recent kernels. While the user-space software is in the wrong, the kernel is sticking to its policy of not breaking user-space and as such Linus Torvalds has changed the code's behavior for Linux 5.14 and to be back-ported to prior stable kernels...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Broke-Android-Apps-Pipe",
           "publishedOn": "2021-07-31T16:10:45.000Z",
-          "wordCount": 1011,
+          "wordCount": 924,
           "title": "Linux Changes Pipe Behavior After Breaking Problematic Android Apps On Recent Kernels"
         },
         {
@@ -267,7 +366,7 @@
           "description": "It's looking like the new NTFS file-system kernel driver developed by Paragon Software and over the past year revised more than two dozen times could be ready for mainlining in the kernel in about one month's time when the Linux 5.15 merge window opens. Everything is finally aligning and looking like the code is in good enough shape for its initial merging though not necessarily replacing the existing NTFS driver at this point...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=New-NTFS-Likely-For-Linux-5.15",
           "publishedOn": "2021-07-31T13:37:23.000Z",
-          "wordCount": 1098,
+          "wordCount": 1171,
           "title": "The New NTFS Driver Looks Like It Will Finally Be Ready With Linux 5.15"
         },
         {
@@ -276,7 +375,7 @@
           "description": "As a weekend blast from the past, the Linux 5.14 kernel saw some Alpha CPU architecture updates -- including various fixes and the removal of an Alpha-specific binary loader for running a decades dated x86 software emulator...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Alpha-Specific-x86-Loader-Drop",
           "publishedOn": "2021-07-31T13:21:48.000Z",
-          "wordCount": 1018,
+          "wordCount": 993,
           "title": "Linux 5.14 Drops Old DEC Alpha-Specific Binary Loader Used For x86 Binary Emulation"
         },
         {
@@ -285,7 +384,7 @@
           "description": "For those looking to purchase a high-end Linux-friendly web camera for your home office or other environment, there are a few more options now compatible with Linux's fwupd if interested in having the capability of updating the camera firmware under Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-FWUPD-1.5.12",
           "publishedOn": "2021-07-31T10:42:50.000Z",
-          "wordCount": 831,
+          "wordCount": 881,
           "title": "Linux's FWUPD Expands Poly High-End Web Camera Support"
         },
         {
@@ -294,7 +393,7 @@
           "description": "The real-time (RT) patches for the Linux kernel still appear a ways off from mainline but at least there is movement on this important patch series for embedded and other use-cases needing real-time support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-RT-Updates",
           "publishedOn": "2021-07-31T10:06:18.000Z",
-          "wordCount": 929,
+          "wordCount": 936,
           "title": "More RT Code Out For Review, RT Patches Updated Against Linux 5.14"
         },
         {
@@ -303,7 +402,7 @@
           "description": "While KDE on Wayland has generally enjoyed good HiDPI support, it's now taken until 2021 for KDE's X11 HiDPI support to be in a position of greater usability after evolving over the years...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-X11-Better-HiDPI-2021",
           "publishedOn": "2021-07-31T09:39:24.000Z",
-          "wordCount": 798,
+          "wordCount": 863,
           "title": "KDE's HiDPI Scaling Support For X11 Is Getting Into Better Shape"
         },
         {
@@ -312,7 +411,7 @@
           "description": "What started off as Lindows twenty years ago as an easy-to-use Linux-based operating system with great Wine integration and easy application support but then changed to Linspire following a Microsoft lawsuit has had quite a journey. PC/OpenSystems LLC revived Linspire after a multi-year gap following the closure of Xandros and since then it's been a rather peculiar platform. Today they are now shifting focus once again...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Freespire-7.7-Released",
           "publishedOn": "2021-07-31T00:50:00.000Z",
-          "wordCount": 1171,
+          "wordCount": 1156,
           "title": "Linspire-Based Freespire Announces \"Entirely New Direction\" With Cloud Apps..."
         },
         {
@@ -321,7 +420,7 @@
           "description": "Wine developers have popped open a new bi-weekly development snapshot of this software that allows Windows games/applications to run on Linux and macOS along with being what powers Valve's Steam Play (Proton) and CodeWeavers' CrossOver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.14",
           "publishedOn": "2021-07-30T20:00:00.000Z",
-          "wordCount": 751,
+          "wordCount": 807,
           "title": "Wine 6.14 Implements More 32-bit To 64-bit Thunks, Updated Mono"
         },
         {
@@ -330,7 +429,7 @@
           "description": "Intel's Compute-Runtime stack for providing open-source OpenCL and Level Zero compute for their graphics hardware under Linux is out with a new release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.30.20482",
           "publishedOn": "2021-07-30T18:00:00.000Z",
-          "wordCount": 790,
+          "wordCount": 855,
           "title": "Intel Compute-Runtime 21.30.20482 Brings Initial WSL2 Support"
         },
         {
@@ -339,7 +438,7 @@
           "description": "For those making use of Radeon graphics on Linux with an X.Org-based environment and not using the generic xf86-video-modesetting DDX but rather than the xf86-video-amdgpu driver, AMD today put out a rare update to that diminishing driver component...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=xf86-video-amdgpu-21.0.0",
           "publishedOn": "2021-07-30T17:45:42.000Z",
-          "wordCount": 819,
+          "wordCount": 804,
           "title": "xf86-video-amdgpu 21.0.0 Released For Radeon Linux Users Still On X.Org"
         },
         {
@@ -348,7 +447,7 @@
           "description": "AMD driver engineers have submitted their latest batch of AMDGPU feature updates to DRM-Next for queuing ahead of the Linux 5.15 merge window opening up in about one month's time. With this latest pull request the big addition is the new \"Cyan Skillfish\" GPU support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cyan-Skillfish-Linux-AMDGPU-5.15",
           "publishedOn": "2021-07-30T13:30:01.000Z",
-          "wordCount": 924,
+          "wordCount": 829,
           "title": "Radeon \"Cyan Skillfish\" Navi 1x APU Submitted For Linux 5.15 Plus Many Fixes"
         },
         {
@@ -357,7 +456,7 @@
           "description": "VMware has found the Linux 5.13 kernel that was released as stable one month ago has led to a serious performance regression for their ESXi enterprise hypervisor...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=VMware-ESXi-Nasty-Linux-5.13",
           "publishedOn": "2021-07-30T13:00:00.000Z",
-          "wordCount": 942,
+          "wordCount": 927,
           "title": "VMware Hits A Nasty Performance Regression With Linux 5.13"
         },
         {
@@ -366,35 +465,8 @@
           "description": "Years ago particularly when the open-source Linux GPU drivers were in their infancy it was known in some cases having to fake/spoof the GPU driver name or model in order to workaround artificial bugs / problematic code paths targeted to a particular OpenGL driver or even to achieve greater performance. With a new Mesa merge request called \"Unleash the dragon!\", this is still very much a problem in 2021 even now in the Android space...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenGL-Drivers-2021-Faking-It",
           "publishedOn": "2021-07-30T11:00:00.000Z",
-          "wordCount": 936,
+          "wordCount": 921,
           "title": "OpenGL Drivers In 2021 Still Sadly Benefit From Faking Their Driver Name / GPU"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Xubuntu-21.10-Apps",
-          "author": null,
-          "description": "For those wondering what has been going on in the Xubuntu camp for this Xfce desktop spin of Ubuntu, a Xubuntu 21.10 development update was shared concerning package changes and other happenings...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Xubuntu-21.10-Apps",
-          "publishedOn": "2021-07-30T10:38:05.000Z",
-          "wordCount": 880,
-          "title": "Xubuntu 21.10 To Ship Some More GNOME Apps, Drops Pidgin"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-93-Beta",
-          "author": null,
-          "description": "Following last week's release of Chrome 92, Google has now made available the Chrome 93 beta as the next iteration of their cross-platform web browser...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-93-Beta",
-          "publishedOn": "2021-07-30T10:06:09.000Z",
-          "wordCount": 919,
-          "title": "Chrome 93 Beta Brings Multi-Screen Window Placement API, CSD-Like Overlay Option"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AOMP-13.0-5-Compiler",
-          "author": null,
-          "description": "In addition to the AOCC compiler for Zen CPUs, another LLVM/Clang downstream maintained by AMD is the AOMP compiler as where they host their various patches not yet merged around Radeon OpenMP offloading support. This week marked the release of AOMP 13.0-5 as their latest work on that front for the newest OpenMP GPU offloading capabilities...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AOMP-13.0-5-Compiler",
-          "publishedOn": "2021-07-30T09:49:06.000Z",
-          "wordCount": 972,
-          "title": "AMD Releases AOMP 13.0-5 Radeon OpenMP Compiler"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30401",
@@ -402,35 +474,8 @@
           "description": "AMD just lifted the embargo on the Radeon RX 6600 XT, its newest entry in their RDNA2 line-up and optimized for delivering a superior 1080p gaming performance against the NVIDIA GeForce RTX 3060 series. The RX 6600 XT isn't hitting retail availability until August and that is when we'll be able to publish benchmarks, but for now here is an overview of this new graphics card launching at the $379 price point.",
           "link": "https://www.phoronix.com/vr.php?view=30401",
           "publishedOn": "2021-07-30T03:30:00.000Z",
-          "wordCount": 1074,
+          "wordCount": 1144,
           "title": "AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Beta-29-July-2021",
-          "author": null,
-          "description": "Valve just pushed out a rather significant Steam beta update for gamers across Windows, macOS, and Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Beta-29-July-2021",
-          "publishedOn": "2021-07-29T22:39:45.000Z",
-          "wordCount": 844,
-          "title": "Steam Beta Brings New Downloads Page, Linux Container Updates"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Lavapipe-LLVMpipe-July",
-          "author": null,
-          "description": "Valve contractor Mike Blumenkrantz is known for his work on the Zink OpenGL-on-Vulkan implementation but recently has also been engaged in some of the Lavapipe software Vulkan driver work and related to that is the venerable LLVMpipe OpenGL Gallium3D driver. Needless to say, there's some interesting work happening...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lavapipe-LLVMpipe-July",
-          "publishedOn": "2021-07-29T18:00:00.000Z",
-          "wordCount": 833,
-          "title": "Lavapipe Keeps Tacking On Features, LLVMpipe Lands New Rasterizer With 2~3x Faster 2D"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NTFS3-For-Linux-v27",
-          "author": null,
-          "description": "Those having to deal with data stored on NTFS partitions from Linux have been eagerly awaiting the \"NTFS3\" kernel driver that Paragon Software has been working now for a year to upstream into the Linux kernel. No pull request has been sent in yet but the twenty-seventh spin of this driver was published today...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NTFS3-For-Linux-v27",
-          "publishedOn": "2021-07-29T17:30:34.000Z",
-          "wordCount": 959,
-          "title": "Paragon's NTFS Driver For The Linux Kernel Spun Up A 27th Time"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30395",
@@ -438,53 +483,8 @@
           "description": "Following the recent benchmarks seeing how AMD's new AOCC 3.1 compiler has brought some performance improvements over the prior AOCC 3.0 release that introduced initial Zen 3 optimizations, here are some benchmarks looking at how that latest AMD Optimizing C/C++ Compiler performance compares to the upstream LLVM Clang 12 compiler for which it is based as well as against GCC 11 as the latest GNU compiler release that remains common to Linux systems.",
           "link": "https://www.phoronix.com/vr.php?view=30395",
           "publishedOn": "2021-07-29T12:50:00.000Z",
-          "wordCount": 856,
+          "wordCount": 846,
           "title": "AOCC 3.1 Compiler Performance Against Clang 12, GCC 11 On AMD EPYC"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Manjaro-21.1-Better-Btrfs",
-          "author": null,
-          "description": "Manjaro 21.1 is on the way as the newest release of this Arch Linux based operating system that is popular for its desktop ease of use...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Manjaro-21.1-Better-Btrfs",
-          "publishedOn": "2021-07-29T10:53:53.000Z",
-          "wordCount": 858,
-          "title": "Manjaro 21.1 Bringing Enhanced Support For Btrfs, Automatic Backups"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PMC-Intel-HID-5.14",
-          "author": null,
-          "description": "While solidly into the \"fixes\" stage of Linux 5.14 kernel development, the x86 platform driver pull request this week -- which has already been merged to mainline -- does have some new additions worth mentioning...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PMC-Intel-HID-5.14",
-          "publishedOn": "2021-07-29T09:46:51.000Z",
-          "wordCount": 812,
-          "title": "AMD PMC Updates, Intel Alder Lake HID, Gigabyte-WMI Patches Land In Linux 5.14"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RenderDoc-1.15-Released",
-          "author": null,
-          "description": "RenderDoc continues maturing gracefully as the leading frame-capture based graphics debugging system for OpenGL / Direct3D / Vulkan across all major operating systems as well as some consoles...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RenderDoc-1.15-Released",
-          "publishedOn": "2021-07-29T09:30:27.000Z",
-          "wordCount": 804,
-          "title": "RenderDoc 1.15 Released For Cross-Platform/API Graphics Debugging"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Disk-Seq-No",
-          "author": null,
-          "description": "Last month I wrote about a possible global counter for block/disk changes on Linux being discussed by Microsoft and systemd developers to better track changes via a system-wide monotonically increasing number as an alternative to the existing per-disk tracking. That functionality is now queued up as part of the block subsystem changes ahead of the Linux 5.15 merge window in a few weeks...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Disk-Seq-No",
-          "publishedOn": "2021-07-29T07:00:00.000Z",
-          "wordCount": 1087,
-          "title": "Systemd/Microsoft Effort For A Global Counter On Block/Disk Changes Coming To Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc3-Released",
-          "author": null,
-          "description": "The Mesa release train continues at full speed ahead for these open-source Linux graphics driver components...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-rc3-Released",
-          "publishedOn": "2021-07-29T00:17:12.000Z",
-          "wordCount": 875,
-          "title": "Mesa 21.2-rc3 Offered For Testing, Mesa 21.1.6 Reaches Stable"
         }
       ]
     }

@@ -1,10 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-02T00:21:06.778Z</id>
+    <id>urn:2021-08-03T00:24:54.109Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-02T00:21:06.778Z</updated>
+    <updated>2021-08-03T00:24:54.109Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD SB-RMI Driver Coming For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SB-RMI-Linux-Sensor</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SB-RMI-Linux-Sensor"/>
+        <updated>2021-08-02T20:00:12.000Z</updated>
+        <summary type="html"><![CDATA[AMD continues pushing new code out for Linux in better exposing their platform's capabilities in the open-source world. The latest AMD driver work now queued via "-next" branches for introduction this autumn in Linux 5.15 is SB-RMI sensor support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WireGuard Sees Native, High-Performance Port To The Windows Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=WireGuardNT-Windows-Kernel</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=WireGuardNT-Windows-Kernel"/>
+        <updated>2021-08-02T18:13:20.000Z</updated>
+        <summary type="html"><![CDATA[The excellent WireGuard open-source secure VPN tunnel has been seeing growing adoption on Linux now that it's been in the mainline kernel for a while and also seeing continued progress on the BSDs. While there has been beta WireGuard for Windows in user-space, "WireGuardNT" was announced today as a native high-performance port to the Windows kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FWUPD 1.6.2 Released With Exciting Improvements For Hardware Firmware Updates On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.6.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.6.2"/>
+        <updated>2021-08-02T17:54:20.000Z</updated>
+        <summary type="html"><![CDATA[While FWUPD 1.5.12 released last week with expanded support for Poly web cameras, FWUPD 1.6.2 is out today as the newest feature release in their latest series. FWUPD 1.6.2 brings several significant improvements for advancing open-source firmware update capabilities on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD + Valve Working On New Linux CPU Performance Scaling Design]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Valve-New-CPU-Freq</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Valve-New-CPU-Freq"/>
+        <updated>2021-08-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Along with other optimizations to benefit the Steam Deck, AMD and Valve have been jointly working on CPU frequency/power scaling improvements to enhance the Steam Play gaming experience on modern AMD platforms running Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian Improves Docs To Inform Users Their Systems Might Not Work Without Non-Free Firmware]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-Installer-Bullseye-RC3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-Installer-Bullseye-RC3"/>
+        <updated>2021-08-02T10:38:21.000Z</updated>
+        <summary type="html"><![CDATA[Debian 11 "Bullseye" is set to be released mid-August while out this morning is the third release candidate of the Debian Bullseye installer. With this installer update is more documentation for users letting them know the risks of modern graphics cards and the like that are often inoperable unless loading firmware that isn't considered free software...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Work Is Back Underway On A Task Isolation Interface For The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Task-Isolation-Interface-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Task-Isolation-Interface-2021"/>
+        <updated>2021-08-02T10:09:34.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat's Marcelo Tosatti has submitted his latest patches implementing a basic task isolation interface for the Linux kernel that would be particularly useful for real-time workloads and high-bandwidth networking applications making use of user-space drivers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU C Library 2.34 Released With More Functionality Squeezed Into libc]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-C-Library-Glibc-2.34</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-C-Library-Glibc-2.34"/>
+        <updated>2021-08-02T09:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Version 2.34 of the GNU C Library (glibc) is now available with a wide variety of changes that accumulated over the past six months...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X.Org's XEyes 1.2 Released, Other Updated X11 Components Too]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-xeyes-1.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-xeyes-1.2"/>
+        <updated>2021-08-02T09:29:52.000Z</updated>
+        <summary type="html"><![CDATA[Several X.Org/X11 components saw new releases on Sunday for kicking off August, including the xeyes program seeing its first non-point release in eleven years...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dav1d 0.9.1 Released With More Optimizations - Particularly For Older CPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dav1d-0.9.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dav1d-0.9.1-Released"/>
+        <updated>2021-08-02T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dav1d 0.9.1 was released on Sunday as the newest feature update to this leading open-source CPU-based AV1 video decoder...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc4 Released With Change Following Some Broken Android Apps, Other Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc4-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc4-Released"/>
+        <updated>2021-08-02T00:30:13.000Z</updated>
+        <summary type="html"><![CDATA[Linux 5.14-rc4 is available today as a rather smooth update with nothing too worrisome but just a decent amount of fixes and nothing that is causing Linux creator Linus Torvalds to be frustrated...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steam Survey Shows Linux Marketshare Hitting 1.0%]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-July-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-July-2021"/>
+        <updated>2021-08-02T00:15:15.000Z</updated>
+        <summary type="html"><![CDATA[Not only did Valve announce Steam Deck in July but the overall Linux gaming marketshare according to the Steam Survey also hit a multi-year high...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15 Adding Management Component Transport Protocol (MCTP)]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP</id>
@@ -196,36 +306,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Xubuntu 21.10 To Ship Some More GNOME Apps, Drops Pidgin]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Xubuntu-21.10-Apps</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Xubuntu-21.10-Apps"/>
-        <updated>2021-07-30T10:38:05.000Z</updated>
-        <summary type="html"><![CDATA[For those wondering what has been going on in the Xubuntu camp for this Xfce desktop spin of Ubuntu, a Xubuntu 21.10 development update was shared concerning package changes and other happenings...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 93 Beta Brings Multi-Screen Window Placement API, CSD-Like Overlay Option]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-93-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-93-Beta"/>
-        <updated>2021-07-30T10:06:09.000Z</updated>
-        <summary type="html"><![CDATA[Following last week's release of Chrome 92, Google has now made available the Chrome 93 beta as the next iteration of their cross-platform web browser...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Releases AOMP 13.0-5 Radeon OpenMP Compiler]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AOMP-13.0-5-Compiler</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AOMP-13.0-5-Compiler"/>
-        <updated>2021-07-30T09:49:06.000Z</updated>
-        <summary type="html"><![CDATA[In addition to the AOCC compiler for Zen CPUs, another LLVM/Clang downstream maintained by AMD is the AOMP compiler as where they host their various patches not yet merged around Radeon OpenMP offloading support. This week marked the release of AOMP 13.0-5 as their latest work on that front for the newest OpenMP GPU offloading capabilities...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD]]></title>
         <id>https://www.phoronix.com/vr.php?view=30401</id>
         <link href="https://www.phoronix.com/vr.php?view=30401"/>
@@ -236,91 +316,11 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Steam Beta Brings New Downloads Page, Linux Container Updates]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Beta-29-July-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Beta-29-July-2021"/>
-        <updated>2021-07-29T22:39:45.000Z</updated>
-        <summary type="html"><![CDATA[Valve just pushed out a rather significant Steam beta update for gamers across Windows, macOS, and Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lavapipe Keeps Tacking On Features, LLVMpipe Lands New Rasterizer With 2~3x Faster 2D]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lavapipe-LLVMpipe-July</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lavapipe-LLVMpipe-July"/>
-        <updated>2021-07-29T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Valve contractor Mike Blumenkrantz is known for his work on the Zink OpenGL-on-Vulkan implementation but recently has also been engaged in some of the Lavapipe software Vulkan driver work and related to that is the venerable LLVMpipe OpenGL Gallium3D driver. Needless to say, there's some interesting work happening...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paragon's NTFS Driver For The Linux Kernel Spun Up A 27th Time]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-v27</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-v27"/>
-        <updated>2021-07-29T17:30:34.000Z</updated>
-        <summary type="html"><![CDATA[Those having to deal with data stored on NTFS partitions from Linux have been eagerly awaiting the "NTFS3" kernel driver that Paragon Software has been working now for a year to upstream into the Linux kernel. No pull request has been sent in yet but the twenty-seventh spin of this driver was published today...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AOCC 3.1 Compiler Performance Against Clang 12, GCC 11 On AMD EPYC]]></title>
         <id>https://www.phoronix.com/vr.php?view=30395</id>
         <link href="https://www.phoronix.com/vr.php?view=30395"/>
         <updated>2021-07-29T12:50:00.000Z</updated>
         <summary type="html"><![CDATA[Following the recent benchmarks seeing how AMD's new AOCC 3.1 compiler has brought some performance improvements over the prior AOCC 3.0 release that introduced initial Zen 3 optimizations, here are some benchmarks looking at how that latest AMD Optimizing C/C++ Compiler performance compares to the upstream LLVM Clang 12 compiler for which it is based as well as against GCC 11 as the latest GNU compiler release that remains common to Linux systems.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manjaro 21.1 Bringing Enhanced Support For Btrfs, Automatic Backups]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Better-Btrfs</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Better-Btrfs"/>
-        <updated>2021-07-29T10:53:53.000Z</updated>
-        <summary type="html"><![CDATA[Manjaro 21.1 is on the way as the newest release of this Arch Linux based operating system that is popular for its desktop ease of use...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD PMC Updates, Intel Alder Lake HID, Gigabyte-WMI Patches Land In Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PMC-Intel-HID-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PMC-Intel-HID-5.14"/>
-        <updated>2021-07-29T09:46:51.000Z</updated>
-        <summary type="html"><![CDATA[While solidly into the "fixes" stage of Linux 5.14 kernel development, the x86 platform driver pull request this week -- which has already been merged to mainline -- does have some new additions worth mentioning...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RenderDoc 1.15 Released For Cross-Platform/API Graphics Debugging]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RenderDoc-1.15-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RenderDoc-1.15-Released"/>
-        <updated>2021-07-29T09:30:27.000Z</updated>
-        <summary type="html"><![CDATA[RenderDoc continues maturing gracefully as the leading frame-capture based graphics debugging system for OpenGL / Direct3D / Vulkan across all major operating systems as well as some consoles...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Systemd/Microsoft Effort For A Global Counter On Block/Disk Changes Coming To Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Disk-Seq-No</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Disk-Seq-No"/>
-        <updated>2021-07-29T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last month I wrote about a possible global counter for block/disk changes on Linux being discussed by Microsoft and systemd developers to better track changes via a system-wide monotonically increasing number as an alternative to the existing per-disk tracking. That functionality is now queued up as part of the block subsystem changes ahead of the Linux 5.15 merge window in a few weeks...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.2-rc3 Offered For Testing, Mesa 21.1.6 Reaches Stable]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc3-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-rc3-Released"/>
-        <updated>2021-07-29T00:17:12.000Z</updated>
-        <summary type="html"><![CDATA[The Mesa release train continues at full speed ahead for these open-source Linux graphics driver components...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
