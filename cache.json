@@ -12,6 +12,24 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/",
+          "author": null,
+          "description": "DevOps has evolved since its infancy, over a decade ago. Swiss developmental psychologist Jean Piaget believed human cognitive development has four stages (sensorimotor, preoperational, concrete operational, and formal operational). Through each of these stages, the human mind obtains new knowledge while building and modifying memories to inform one's understanding of the world around them.\nIn the same way that people go through stages as they grow, markets and industries also go through stages of development. Over the years, DevOps has grown into a mature, business-critical practice.\nAs the DevOps industry expanded, so did the number and complexity of tool-project integrations within an organization. This was the result of three developments in DevOps:\nCompanies moved from monolithic arch…",
+          "link": "https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/",
+          "publishedOn": "2021-08-03T00:00:00.000Z",
+          "wordCount": 2924,
+          "title": "Welcome to the DevOps Platform era"
+        },
+        {
+          "id": "https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/",
+          "author": null,
+          "description": "Today we are releasing versions 14.1.2, 14.0.7, and 13.12.9 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days …",
+          "link": "https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/",
+          "publishedOn": "2021-08-03T00:00:00.000Z",
+          "wordCount": 2670,
+          "title": "GitLab Security Release: 14.1.2, 14.0.7, and 13.12.9"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/",
           "author": null,
           "description": "How DevOps and NFS changed the game\nWhat if I told you that one of the best-selling racing video game franchises of all time, the \"Need For Speed\" (NFS), and DevOps have more in common with each other than you think? Yes, you read that correctly, probably not the NFS (Network File System) you were expecting.\nAn appetite for change\nFor context, the NFS series originally set out to redefine a saturated, yet unsophisticated, racing video game market. Motivated by an appetite for change, the NFS user experience reflected the human connection to real cars and how they behaved, which was a big challenge for developers in the 1990s. Nearly 30 years ago, \"The Need for Speed\" forever changed the landscape of racing games, selling 150 million copies since its debut.\n\nThe original Need For Speed vide…",
@@ -44,7 +62,7 @@
           "description": "Today we are releasing version 14.1.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.1 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nExtend RackAttack basic authentication detection for rate limiting\nEnable bulk dismissal checkboxes on group vulnerability report\"\nFix syntax highlighting inline background on darkmode\nFix: Sidekiq workers delete each other's metrics\nPrevent terms from being created if blank\nRemove backfill migration for ci_build_trace_sections\nGeo: Fix snippet verification by replicating the HEAD ref\nRemove securityScansSucceeded from DevOps adoption\nFix markdown in development docs\nFix deployer task\nDon't ask users to upgrade to PG 13 yet\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/28/gitlab-14-1-1-released/",
           "publishedOn": "2021-07-28T00:00:00.000Z",
-          "wordCount": 1082,
+          "wordCount": 1110,
           "title": "GitLab Patch Release: 14.1.1"
         },
         {
@@ -107,7 +125,7 @@
           "description": "What you need to know\nGitLab moves from annual true-ups to quarterly subscription reconciliation\nIntroduces cloud licensing and auto-renewals for improved license management\nRequires collection of operational data for customer success services\nApplicable to new customers from August 1, 2021 and existing customers at their next renewal\nToday, we are announcing changes to improve the billing and subscription management experience for customers. While quarterly subscription reconciliation benefits both our SaaS and self-managed customers, the three other improvements, including the collection of operational data for customer success services, auto-renewals, and cloud licensing, will enhance the product and service experience for self-managed customers.\nWhile other vendors are shifting to only…",
           "link": "https://about.gitlab.com/blog/2021/07/20/improved-billing-and-subscription-management/",
           "publishedOn": "2021-07-20T00:00:00.000Z",
-          "wordCount": 2391,
+          "wordCount": 2382,
           "title": "GitLab introduces updates to paid tiers for improved billing and subscription management"
         },
         {
@@ -116,7 +134,7 @@
           "description": "Today we are releasing version 14.0.6 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nReplace Excon with Faraday for requesting object storage\nFix LFS objects not downloading with Bitbucket\nResolve \"Terraform module usage instructions are incorrect\"\nGeo: Fix snippet verification by replicating the HEAD ref\nFix validation method regarding MIME type keys\ncoordinator: Fix repo creation/removal race for up-to-date secondaries for 14-0-stable\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/",
           "publishedOn": "2021-07-20T00:00:00.000Z",
-          "wordCount": 1063,
+          "wordCount": 1082,
           "title": "GitLab Patch Release: 14.0.6"
         },
         {
@@ -161,7 +179,7 @@
           "description": "Today we are releasing version 14.0.5 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nResolve \"404 for package details link under Infrastructure Registry for projects nested under 2 group levels\"\nResolve \"Terraform module usage instructions are incorrect\"\nAdd documentation for boards epic create\nInitialize conversion of ci_builds_metadata.id for bigint migration\nFix git clone for projects with a trailing dot over HTTP\nDo not create audit event for failed logins on read-only DB\nAdd prefix to autocomplete path\nReturn empty strings for Jira links when URL is not set\nFix libmagic not being able to find magic files\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/",
           "publishedOn": "2021-07-08T00:00:00.000Z",
-          "wordCount": 1090,
+          "wordCount": 1109,
           "title": "GitLab Patch Release: 14.0.5"
         },
         {
@@ -170,7 +188,7 @@
           "description": "Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…",
           "link": "https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/",
           "publishedOn": "2021-07-07T00:00:00.000Z",
-          "wordCount": 1250,
+          "wordCount": 1269,
           "title": "GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7"
         },
         {
@@ -179,17 +197,8 @@
           "description": "Today we are releasing version 14.0.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.0 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nReintroduce recursive_approach_for_all_projects default-enabled\nFix pages deployment storage migration\nFix frequent items timestamps not updated\nFix bug where Milestone page led to console error\nFix broken Time Tracking Reports on Issuable sidebar\nGeo - Fix state value in the lfs_object_registry table\nRevert a 14.0 change in the deployments API\nDevOps Adoption - ensure displayNamespaceId is included\nGeo - Move migration to a pre-deployment migration\nRun batched migrations on self-managed instances\nFix deploy keys not working with LFS auth check\nRepository: Fix repo replication with transactions\nRepository: Fix excessive voting in CreateRepositoryFromBundle\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/",
           "publishedOn": "2021-07-06T00:00:00.000Z",
-          "wordCount": 1097,
+          "wordCount": 1116,
           "title": "GitLab Patch Release: 14.0.3"
-        },
-        {
-          "id": "https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/",
-          "author": null,
-          "description": "Today we are releasing version 13.12.7 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix pages deployment storage migration\nReintroduce recursive_approach_for_all_projects default-enabled\nExempt unicorn['svlogd_prefix'] from deprecation check\nGitaly: fixes to issues with strong consistency/transactional voting\nGeo - Fix state value in the lfs_object_registry table\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
-          "link": "https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/",
-          "publishedOn": "2021-07-05T00:00:00.000Z",
-          "wordCount": 1043,
-          "title": "GitLab Patch Release: 13.12.7"
         }
       ]
     },
@@ -199,12 +208,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Job-Tesla-Steam-Deck",
+          "author": null,
+          "description": "With AMD's increasing marketshare on the CPU and GPU front, scoring more data center wins, and also scoring custom design wins for Linux-based environments such as with the Tesla Model S and most recently with the Steam Deck, AMD continues hiring more Linux engineers...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Job-Tesla-Steam-Deck",
+          "publishedOn": "2021-08-03T18:00:00.000Z",
+          "wordCount": 1091,
+          "title": "AMD Hiring For Open-Source GPU Driver Work With Mentions Of Tesla Model S, Steam Deck"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-ROCm-4.3",
+          "author": null,
+          "description": "AMD has released ROCm 4.3 as the newest version of their Radeon Open eCosystem stack for providing open-source GPU compute and CUDA portability for their supported graphics processors under Linux. ROCm 4.3 is the biggest update we've seen for this important enterprise piece to their enterprise GPU compute stack in a while...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-ROCm-4.3",
+          "publishedOn": "2021-08-03T17:09:25.000Z",
+          "wordCount": 901,
+          "title": "Radeon ROCm 4.3 Released With HMM Allocations, Many Other Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Security-More-Engineers",
+          "author": null,
+          "description": "Longtime kernel developer Kees Cook of the Google Security Team published a post on Google's Security Blog today effectively calling for more organizations to devote a greater number of engineers to the upstream Linux kernel in order to improve open-source security...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Security-More-Engineers",
+          "publishedOn": "2021-08-03T16:00:00.000Z",
+          "wordCount": 937,
+          "title": "Google Calls On Companies To Devote More Engineers To Upstream Linux, Toolchains"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CrossOver-21.0-Released",
+          "author": null,
+          "description": "CodeWeavers has announced the release of CrossOver 21.0 as the latest major update to their commercial software powered by Wine for running Windows games and applications on Linux and macOS...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CrossOver-21.0-Released",
+          "publishedOn": "2021-08-03T15:54:12.000Z",
+          "wordCount": 707,
+          "title": "CodeWeavers Releases CrossOver 21 - Rebased On Wine 6.0"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30409",
+          "author": null,
+          "description": "Last year Sabrent launched the Rocket 4 Plus PCIe 4.0 NVMe solid-state drive and left me puzzled for months finding that the Linux performance was coming in short of expectations under Linux. However, Sabrent recently released a firmware update (v1.2) for the Rocket 4 Plus and now the drive seems to be much better positioned under Linux.",
+          "link": "https://www.phoronix.com/vr.php?view=30409",
+          "publishedOn": "2021-08-03T12:05:54.000Z",
+          "wordCount": 855,
+          "title": "Sabrent Rocket 4 Plus 1TB NVMe PCIe 4.0 SSD On Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-Pinot-TLP",
+          "author": null,
+          "description": "After being started by LinkedIn and open-source now for more than a half-decade while incubating at the Apache Software Foundation the past three years, Apache Pinot is the latest project graduating to become a top-level Apache project...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-Pinot-TLP",
+          "publishedOn": "2021-08-03T10:04:29.000Z",
+          "wordCount": 735,
+          "title": "Apache Pinot Makes It To The Organization's Top Shelf For Real-Time Big Data Analytics"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-13.0-Features-Over",
+          "author": null,
+          "description": "LLVM 13.0 feature development has ended with the code now branched and the first release candidate tagged...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-13.0-Features-Over",
+          "publishedOn": "2021-08-03T09:51:08.000Z",
+          "wordCount": 772,
+          "title": "LLVM 13 Feature Development Is Over, LLVM 14 Enters Development"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=X-Plane-More-Vulkan-Future",
+          "author": null,
+          "description": "X-Plane is not only the most realistic flight simulator that has long offered native Linux support but it's the only instance of a Vulkan-powered flight simulator I am aware of. While long tied to OpenGL, the company behind X-Plane is making it clear that the graphics rendering future is with Vulkan (and Metal when talking about Apple platforms)...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=X-Plane-More-Vulkan-Future",
+          "publishedOn": "2021-08-03T08:40:00.000Z",
+          "wordCount": 966,
+          "title": "X-Plane Flight Simulator Continues Advancing Its Renderer With Vulkan"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Git-2.33-rc0",
+          "author": null,
+          "description": "Monday marked the release of Git 2.33-rc0 as the first test release of the next version of this distributed revision control system...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Git-2.33-rc0",
+          "publishedOn": "2021-08-03T07:30:00.000Z",
+          "wordCount": 799,
+          "title": "Git 2.33 Is On The Way With An Assortment Of Fixes, Updated Documentation"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SB-RMI-Linux-Sensor",
           "author": null,
           "description": "AMD continues pushing new code out for Linux in better exposing their platform's capabilities in the open-source world. The latest AMD driver work now queued via \"-next\" branches for introduction this autumn in Linux 5.15 is SB-RMI sensor support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SB-RMI-Linux-Sensor",
           "publishedOn": "2021-08-02T20:00:12.000Z",
-          "wordCount": 988,
+          "wordCount": 906,
           "title": "AMD SB-RMI Driver Coming For Linux 5.15"
         },
         {
@@ -213,7 +303,7 @@
           "description": "The excellent WireGuard open-source secure VPN tunnel has been seeing growing adoption on Linux now that it's been in the mainline kernel for a while and also seeing continued progress on the BSDs. While there has been beta WireGuard for Windows in user-space, \"WireGuardNT\" was announced today as a native high-performance port to the Windows kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=WireGuardNT-Windows-Kernel",
           "publishedOn": "2021-08-02T18:13:20.000Z",
-          "wordCount": 950,
+          "wordCount": 868,
           "title": "WireGuard Sees Native, High-Performance Port To The Windows Kernel"
         },
         {
@@ -222,7 +312,7 @@
           "description": "While FWUPD 1.5.12 released last week with expanded support for Poly web cameras, FWUPD 1.6.2 is out today as the newest feature release in their latest series. FWUPD 1.6.2 brings several significant improvements for advancing open-source firmware update capabilities on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.6.2",
           "publishedOn": "2021-08-02T17:54:20.000Z",
-          "wordCount": 817,
+          "wordCount": 815,
           "title": "FWUPD 1.6.2 Released With Exciting Improvements For Hardware Firmware Updates On Linux"
         },
         {
@@ -231,7 +321,7 @@
           "description": "Along with other optimizations to benefit the Steam Deck, AMD and Valve have been jointly working on CPU frequency/power scaling improvements to enhance the Steam Play gaming experience on modern AMD platforms running Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Valve-New-CPU-Freq",
           "publishedOn": "2021-08-02T12:00:00.000Z",
-          "wordCount": 1079,
+          "wordCount": 1077,
           "title": "AMD + Valve Working On New Linux CPU Performance Scaling Design"
         },
         {
@@ -240,7 +330,7 @@
           "description": "Debian 11 \"Bullseye\" is set to be released mid-August while out this morning is the third release candidate of the Debian Bullseye installer. With this installer update is more documentation for users letting them know the risks of modern graphics cards and the like that are often inoperable unless loading firmware that isn't considered free software...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-Installer-Bullseye-RC3",
           "publishedOn": "2021-08-02T10:38:21.000Z",
-          "wordCount": 901,
+          "wordCount": 899,
           "title": "Debian Improves Docs To Inform Users Their Systems Might Not Work Without Non-Free Firmware"
         },
         {
@@ -249,7 +339,7 @@
           "description": "Red Hat's Marcelo Tosatti has submitted his latest patches implementing a basic task isolation interface for the Linux kernel that would be particularly useful for real-time workloads and high-bandwidth networking applications making use of user-space drivers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Task-Isolation-Interface-2021",
           "publishedOn": "2021-08-02T10:09:34.000Z",
-          "wordCount": 793,
+          "wordCount": 857,
           "title": "Work Is Back Underway On A Task Isolation Interface For The Linux Kernel"
         },
         {
@@ -258,7 +348,7 @@
           "description": "Version 2.34 of the GNU C Library (glibc) is now available with a wide variety of changes that accumulated over the past six months...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-C-Library-Glibc-2.34",
           "publishedOn": "2021-08-02T09:53:21.000Z",
-          "wordCount": 928,
+          "wordCount": 846,
           "title": "GNU C Library 2.34 Released With More Functionality Squeezed Into libc"
         },
         {
@@ -267,7 +357,7 @@
           "description": "Several X.Org/X11 components saw new releases on Sunday for kicking off August, including the xeyes program seeing its first non-point release in eleven years...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-xeyes-1.2",
           "publishedOn": "2021-08-02T09:29:52.000Z",
-          "wordCount": 780,
+          "wordCount": 849,
           "title": "X.Org's XEyes 1.2 Released, Other Updated X11 Components Too"
         },
         {
@@ -276,7 +366,7 @@
           "description": "Dav1d 0.9.1 was released on Sunday as the newest feature update to this leading open-source CPU-based AV1 video decoder...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dav1d-0.9.1-Released",
           "publishedOn": "2021-08-02T07:00:00.000Z",
-          "wordCount": 876,
+          "wordCount": 954,
           "title": "dav1d 0.9.1 Released With More Optimizations - Particularly For Older CPUs"
         },
         {
@@ -285,7 +375,7 @@
           "description": "Linux 5.14-rc4 is available today as a rather smooth update with nothing too worrisome but just a decent amount of fixes and nothing that is causing Linux creator Linus Torvalds to be frustrated...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc4-Released",
           "publishedOn": "2021-08-02T00:30:13.000Z",
-          "wordCount": 963,
+          "wordCount": 995,
           "title": "Linux 5.14-rc4 Released With Change Following Some Broken Android Apps, Other Fixes"
         },
         {
@@ -294,7 +384,7 @@
           "description": "Not only did Valve announce Steam Deck in July but the overall Linux gaming marketshare according to the Steam Survey also hit a multi-year high...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Linux-July-2021",
           "publishedOn": "2021-08-02T00:15:15.000Z",
-          "wordCount": 854,
+          "wordCount": 918,
           "title": "Steam Survey Shows Linux Marketshare Hitting 1.0%"
         },
         {
@@ -303,7 +393,7 @@
           "description": "Linux 5.15 is positioned now to see a Management Component Transport Protocol (MCTP) implementation with the code now queued in net-next with this being a protocol for communication between management controllers and managed devices...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-MCTP",
           "publishedOn": "2021-08-01T18:42:33.000Z",
-          "wordCount": 869,
+          "wordCount": 796,
           "title": "Linux 5.15 Adding Management Component Transport Protocol (MCTP)"
         },
         {
@@ -312,7 +402,7 @@
           "description": "ReactOS as the long-running open-source project striving for Windows ABI compatibility has been making some significant progress this summer on various endeavors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=ReactOS-AMD64-Multi-Monitor",
           "publishedOn": "2021-08-01T11:21:08.000Z",
-          "wordCount": 817,
+          "wordCount": 895,
           "title": "ReactOS \"Open-Source Windows\" Making Progress On x86_64, Multi-Monitor"
         },
         {
@@ -321,7 +411,7 @@
           "description": "LibreOffice 7.2 is preparing to ship this month while out today is LibreOffice 7.2 RC2 for facilitating last minute testing of this leading open-source office suite...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-RC2",
           "publishedOn": "2021-08-01T11:13:45.000Z",
-          "wordCount": 817,
+          "wordCount": 895,
           "title": "LibreOffice 7.2 RC2 Up For Testing With Its Initial GTK4 Work, Command Pop-Up / HUD"
         },
         {
@@ -330,7 +420,7 @@
           "description": "July was a pretty damn exciting summer month amid the pandemic thanks to many interesting Linux software and hardware announcements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=July-2021-Highlights",
           "publishedOn": "2021-08-01T10:36:21.000Z",
-          "wordCount": 2512,
+          "wordCount": 2430,
           "title": "LE9, Canonical's Profits, Steam Deck, & Loongson 3A5000 Made For An Exciting July"
         },
         {
@@ -339,7 +429,7 @@
           "description": "SDL 2.0.16 is being prepared for release as the successor to SDL 2.0.14. Particularly for Linux users this SDL 2.0.16 update is significant with some key enhancements for this library that is common to multi-platform games and part of the Steam runtime...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-2.0.16-Coming",
           "publishedOn": "2021-08-01T10:12:12.000Z",
-          "wordCount": 895,
+          "wordCount": 813,
           "title": "SDL 2.0.16 Is On The Way With Better Wayland Support, Improved PipeWire Integration"
         },
         {
@@ -348,7 +438,7 @@
           "description": "Lutris 0.5.9-beta1 is out this Sunday as a rather significant update to this open-source Linux game manager. With this new version there are many new features for this centralized game launcher...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Beta",
           "publishedOn": "2021-08-01T09:35:09.000Z",
-          "wordCount": 825,
+          "wordCount": 823,
           "title": "Lutris 0.5.9 Beta Released With Epic Games Store Support, DXVK-NVAPI/DLSS, Gamescope"
         },
         {
@@ -357,7 +447,7 @@
           "description": "At the end of 2019 a rework to the Linux kernel's pipe code saw some of its logic reworked to only wake up readers if needed and avoid a possible thundering herd problem. But it turns out some Android libraries abused the functionality and this has led to broken Android applications when moving to recent kernels. While the user-space software is in the wrong, the kernel is sticking to its policy of not breaking user-space and as such Linus Torvalds has changed the code's behavior for Linux 5.14 and to be back-ported to prior stable kernels...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Broke-Android-Apps-Pipe",
           "publishedOn": "2021-07-31T16:10:45.000Z",
-          "wordCount": 924,
+          "wordCount": 922,
           "title": "Linux Changes Pipe Behavior After Breaking Problematic Android Apps On Recent Kernels"
         },
         {
@@ -366,7 +456,7 @@
           "description": "It's looking like the new NTFS file-system kernel driver developed by Paragon Software and over the past year revised more than two dozen times could be ready for mainlining in the kernel in about one month's time when the Linux 5.15 merge window opens. Everything is finally aligning and looking like the code is in good enough shape for its initial merging though not necessarily replacing the existing NTFS driver at this point...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=New-NTFS-Likely-For-Linux-5.15",
           "publishedOn": "2021-07-31T13:37:23.000Z",
-          "wordCount": 1171,
+          "wordCount": 1089,
           "title": "The New NTFS Driver Looks Like It Will Finally Be Ready With Linux 5.15"
         },
         {
@@ -375,7 +465,7 @@
           "description": "As a weekend blast from the past, the Linux 5.14 kernel saw some Alpha CPU architecture updates -- including various fixes and the removal of an Alpha-specific binary loader for running a decades dated x86 software emulator...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Alpha-Specific-x86-Loader-Drop",
           "publishedOn": "2021-07-31T13:21:48.000Z",
-          "wordCount": 993,
+          "wordCount": 920,
           "title": "Linux 5.14 Drops Old DEC Alpha-Specific Binary Loader Used For x86 Binary Emulation"
         },
         {
@@ -384,7 +474,7 @@
           "description": "For those looking to purchase a high-end Linux-friendly web camera for your home office or other environment, there are a few more options now compatible with Linux's fwupd if interested in having the capability of updating the camera firmware under Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-FWUPD-1.5.12",
           "publishedOn": "2021-07-31T10:42:50.000Z",
-          "wordCount": 881,
+          "wordCount": 813,
           "title": "Linux's FWUPD Expands Poly High-End Web Camera Support"
         },
         {
@@ -393,80 +483,8 @@
           "description": "The real-time (RT) patches for the Linux kernel still appear a ways off from mainline but at least there is movement on this important patch series for embedded and other use-cases needing real-time support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-RT-Updates",
           "publishedOn": "2021-07-31T10:06:18.000Z",
-          "wordCount": 936,
+          "wordCount": 854,
           "title": "More RT Code Out For Review, RT Patches Updated Against Linux 5.14"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-X11-Better-HiDPI-2021",
-          "author": null,
-          "description": "While KDE on Wayland has generally enjoyed good HiDPI support, it's now taken until 2021 for KDE's X11 HiDPI support to be in a position of greater usability after evolving over the years...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-X11-Better-HiDPI-2021",
-          "publishedOn": "2021-07-31T09:39:24.000Z",
-          "wordCount": 863,
-          "title": "KDE's HiDPI Scaling Support For X11 Is Getting Into Better Shape"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Freespire-7.7-Released",
-          "author": null,
-          "description": "What started off as Lindows twenty years ago as an easy-to-use Linux-based operating system with great Wine integration and easy application support but then changed to Linspire following a Microsoft lawsuit has had quite a journey. PC/OpenSystems LLC revived Linspire after a multi-year gap following the closure of Xandros and since then it's been a rather peculiar platform. Today they are now shifting focus once again...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Freespire-7.7-Released",
-          "publishedOn": "2021-07-31T00:50:00.000Z",
-          "wordCount": 1156,
-          "title": "Linspire-Based Freespire Announces \"Entirely New Direction\" With Cloud Apps..."
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.14",
-          "author": null,
-          "description": "Wine developers have popped open a new bi-weekly development snapshot of this software that allows Windows games/applications to run on Linux and macOS along with being what powers Valve's Steam Play (Proton) and CodeWeavers' CrossOver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.14",
-          "publishedOn": "2021-07-30T20:00:00.000Z",
-          "wordCount": 807,
-          "title": "Wine 6.14 Implements More 32-bit To 64-bit Thunks, Updated Mono"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.30.20482",
-          "author": null,
-          "description": "Intel's Compute-Runtime stack for providing open-source OpenCL and Level Zero compute for their graphics hardware under Linux is out with a new release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.30.20482",
-          "publishedOn": "2021-07-30T18:00:00.000Z",
-          "wordCount": 855,
-          "title": "Intel Compute-Runtime 21.30.20482 Brings Initial WSL2 Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=xf86-video-amdgpu-21.0.0",
-          "author": null,
-          "description": "For those making use of Radeon graphics on Linux with an X.Org-based environment and not using the generic xf86-video-modesetting DDX but rather than the xf86-video-amdgpu driver, AMD today put out a rare update to that diminishing driver component...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=xf86-video-amdgpu-21.0.0",
-          "publishedOn": "2021-07-30T17:45:42.000Z",
-          "wordCount": 804,
-          "title": "xf86-video-amdgpu 21.0.0 Released For Radeon Linux Users Still On X.Org"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Cyan-Skillfish-Linux-AMDGPU-5.15",
-          "author": null,
-          "description": "AMD driver engineers have submitted their latest batch of AMDGPU feature updates to DRM-Next for queuing ahead of the Linux 5.15 merge window opening up in about one month's time. With this latest pull request the big addition is the new \"Cyan Skillfish\" GPU support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cyan-Skillfish-Linux-AMDGPU-5.15",
-          "publishedOn": "2021-07-30T13:30:01.000Z",
-          "wordCount": 829,
-          "title": "Radeon \"Cyan Skillfish\" Navi 1x APU Submitted For Linux 5.15 Plus Many Fixes"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=VMware-ESXi-Nasty-Linux-5.13",
-          "author": null,
-          "description": "VMware has found the Linux 5.13 kernel that was released as stable one month ago has led to a serious performance regression for their ESXi enterprise hypervisor...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=VMware-ESXi-Nasty-Linux-5.13",
-          "publishedOn": "2021-07-30T13:00:00.000Z",
-          "wordCount": 927,
-          "title": "VMware Hits A Nasty Performance Regression With Linux 5.13"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenGL-Drivers-2021-Faking-It",
-          "author": null,
-          "description": "Years ago particularly when the open-source Linux GPU drivers were in their infancy it was known in some cases having to fake/spoof the GPU driver name or model in order to workaround artificial bugs / problematic code paths targeted to a particular OpenGL driver or even to achieve greater performance. With a new Mesa merge request called \"Unleash the dragon!\", this is still very much a problem in 2021 even now in the Android space...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenGL-Drivers-2021-Faking-It",
-          "publishedOn": "2021-07-30T11:00:00.000Z",
-          "wordCount": 921,
-          "title": "OpenGL Drivers In 2021 Still Sadly Benefit From Faking Their Driver Name / GPU"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30401",
@@ -474,17 +492,8 @@
           "description": "AMD just lifted the embargo on the Radeon RX 6600 XT, its newest entry in their RDNA2 line-up and optimized for delivering a superior 1080p gaming performance against the NVIDIA GeForce RTX 3060 series. The RX 6600 XT isn't hitting retail availability until August and that is when we'll be able to publish benchmarks, but for now here is an overview of this new graphics card launching at the $379 price point.",
           "link": "https://www.phoronix.com/vr.php?view=30401",
           "publishedOn": "2021-07-30T03:30:00.000Z",
-          "wordCount": 1144,
+          "wordCount": 1057,
           "title": "AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30395",
-          "author": null,
-          "description": "Following the recent benchmarks seeing how AMD's new AOCC 3.1 compiler has brought some performance improvements over the prior AOCC 3.0 release that introduced initial Zen 3 optimizations, here are some benchmarks looking at how that latest AMD Optimizing C/C++ Compiler performance compares to the upstream LLVM Clang 12 compiler for which it is based as well as against GCC 11 as the latest GNU compiler release that remains common to Linux systems.",
-          "link": "https://www.phoronix.com/vr.php?view=30395",
-          "publishedOn": "2021-07-29T12:50:00.000Z",
-          "wordCount": 846,
-          "title": "AOCC 3.1 Compiler Performance Against Clang 12, GCC 11 On AMD EPYC"
         }
       ]
     }

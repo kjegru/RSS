@@ -1,10 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-03T00:24:54.109Z</id>
+    <id>urn:2021-08-04T00:20:54.155Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-03T00:24:54.109Z</updated>
+    <updated>2021-08-04T00:20:54.155Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD Hiring For Open-Source GPU Driver Work With Mentions Of Tesla Model S, Steam Deck]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Job-Tesla-Steam-Deck</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Job-Tesla-Steam-Deck"/>
+        <updated>2021-08-03T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With AMD's increasing marketshare on the CPU and GPU front, scoring more data center wins, and also scoring custom design wins for Linux-based environments such as with the Tesla Model S and most recently with the Steam Deck, AMD continues hiring more Linux engineers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon ROCm 4.3 Released With HMM Allocations, Many Other Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-ROCm-4.3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-ROCm-4.3"/>
+        <updated>2021-08-03T17:09:25.000Z</updated>
+        <summary type="html"><![CDATA[AMD has released ROCm 4.3 as the newest version of their Radeon Open eCosystem stack for providing open-source GPU compute and CUDA portability for their supported graphics processors under Linux. ROCm 4.3 is the biggest update we've seen for this important enterprise piece to their enterprise GPU compute stack in a while...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Calls On Companies To Devote More Engineers To Upstream Linux, Toolchains]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Security-More-Engineers</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Security-More-Engineers"/>
+        <updated>2021-08-03T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Longtime kernel developer Kees Cook of the Google Security Team published a post on Google's Security Blog today effectively calling for more organizations to devote a greater number of engineers to the upstream Linux kernel in order to improve open-source security...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodeWeavers Releases CrossOver 21 - Rebased On Wine 6.0]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CrossOver-21.0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CrossOver-21.0-Released"/>
+        <updated>2021-08-03T15:54:12.000Z</updated>
+        <summary type="html"><![CDATA[CodeWeavers has announced the release of CrossOver 21.0 as the latest major update to their commercial software powered by Wine for running Windows games and applications on Linux and macOS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sabrent Rocket 4 Plus 1TB NVMe PCIe 4.0 SSD On Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30409</id>
+        <link href="https://www.phoronix.com/vr.php?view=30409"/>
+        <updated>2021-08-03T12:05:54.000Z</updated>
+        <summary type="html"><![CDATA[Last year Sabrent launched the Rocket 4 Plus PCIe 4.0 NVMe solid-state drive and left me puzzled for months finding that the Linux performance was coming in short of expectations under Linux. However, Sabrent recently released a firmware update (v1.2) for the Rocket 4 Plus and now the drive seems to be much better positioned under Linux.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Pinot Makes It To The Organization's Top Shelf For Real-Time Big Data Analytics]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Pinot-TLP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Pinot-TLP"/>
+        <updated>2021-08-03T10:04:29.000Z</updated>
+        <summary type="html"><![CDATA[After being started by LinkedIn and open-source now for more than a half-decade while incubating at the Apache Software Foundation the past three years, Apache Pinot is the latest project graduating to become a top-level Apache project...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM 13 Feature Development Is Over, LLVM 14 Enters Development]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Features-Over</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Features-Over"/>
+        <updated>2021-08-03T09:51:08.000Z</updated>
+        <summary type="html"><![CDATA[LLVM 13.0 feature development has ended with the code now branched and the first release candidate tagged...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X-Plane Flight Simulator Continues Advancing Its Renderer With Vulkan]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X-Plane-More-Vulkan-Future</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X-Plane-More-Vulkan-Future"/>
+        <updated>2021-08-03T08:40:00.000Z</updated>
+        <summary type="html"><![CDATA[X-Plane is not only the most realistic flight simulator that has long offered native Linux support but it's the only instance of a Vulkan-powered flight simulator I am aware of. While long tied to OpenGL, the company behind X-Plane is making it clear that the graphics rendering future is with Vulkan (and Metal when talking about Apple platforms)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git 2.33 Is On The Way With An Assortment Of Fixes, Updated Documentation]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-rc0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-rc0"/>
+        <updated>2021-08-03T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Monday marked the release of Git 2.33-rc0 as the first test release of the next version of this distributed revision control system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the DevOps Platform era]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/"/>
+        <updated>2021-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DevOps has evolved since its infancy, over a decade ago. Swiss developmental psychologist Jean Piaget believed human cognitive development has four stages (sensorimotor, preoperational, concrete operational, and formal operational). Through each of these stages, the human mind obtains new knowledge while building and modifying memories to inform one's understanding of the world around them.
+In the same way that people go through stages as they grow, markets and industries also go through stages of development. Over the years, DevOps has grown into a mature, business-critical practice.
+As the DevOps industry expanded, so did the number and complexity of tool-project integrations within an organization. This was the result of three developments in DevOps:
+Companies moved from monolithic arch…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Security Release: 14.1.2, 14.0.7, and 13.12.9]]></title>
+        <id>https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/"/>
+        <updated>2021-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing versions 14.1.2, 14.0.7, and 13.12.9 for GitLab Community Edition (CE) and Enterprise Edition (EE).
+These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
+GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days …]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AMD SB-RMI Driver Coming For Linux 5.15]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SB-RMI-Linux-Sensor</id>
@@ -226,101 +341,11 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[KDE's HiDPI Scaling Support For X11 Is Getting Into Better Shape]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-X11-Better-HiDPI-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-X11-Better-HiDPI-2021"/>
-        <updated>2021-07-31T09:39:24.000Z</updated>
-        <summary type="html"><![CDATA[While KDE on Wayland has generally enjoyed good HiDPI support, it's now taken until 2021 for KDE's X11 HiDPI support to be in a position of greater usability after evolving over the years...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linspire-Based Freespire Announces "Entirely New Direction" With Cloud Apps...]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Freespire-7.7-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Freespire-7.7-Released"/>
-        <updated>2021-07-31T00:50:00.000Z</updated>
-        <summary type="html"><![CDATA[What started off as Lindows twenty years ago as an easy-to-use Linux-based operating system with great Wine integration and easy application support but then changed to Linspire following a Microsoft lawsuit has had quite a journey. PC/OpenSystems LLC revived Linspire after a multi-year gap following the closure of Xandros and since then it's been a rather peculiar platform. Today they are now shifting focus once again...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.14 Implements More 32-bit To 64-bit Thunks, Updated Mono]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.14"/>
-        <updated>2021-07-30T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Wine developers have popped open a new bi-weekly development snapshot of this software that allows Windows games/applications to run on Linux and macOS along with being what powers Valve's Steam Play (Proton) and CodeWeavers' CrossOver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Compute-Runtime 21.30.20482 Brings Initial WSL2 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.30.20482</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.30.20482"/>
-        <updated>2021-07-30T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel's Compute-Runtime stack for providing open-source OpenCL and Level Zero compute for their graphics hardware under Linux is out with a new release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[xf86-video-amdgpu 21.0.0 Released For Radeon Linux Users Still On X.Org]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-video-amdgpu-21.0.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-video-amdgpu-21.0.0"/>
-        <updated>2021-07-30T17:45:42.000Z</updated>
-        <summary type="html"><![CDATA[For those making use of Radeon graphics on Linux with an X.Org-based environment and not using the generic xf86-video-modesetting DDX but rather than the xf86-video-amdgpu driver, AMD today put out a rare update to that diminishing driver component...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon "Cyan Skillfish" Navi 1x APU Submitted For Linux 5.15 Plus Many Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cyan-Skillfish-Linux-AMDGPU-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cyan-Skillfish-Linux-AMDGPU-5.15"/>
-        <updated>2021-07-30T13:30:01.000Z</updated>
-        <summary type="html"><![CDATA[AMD driver engineers have submitted their latest batch of AMDGPU feature updates to DRM-Next for queuing ahead of the Linux 5.15 merge window opening up in about one month's time. With this latest pull request the big addition is the new "Cyan Skillfish" GPU support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware Hits A Nasty Performance Regression With Linux 5.13]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VMware-ESXi-Nasty-Linux-5.13</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VMware-ESXi-Nasty-Linux-5.13"/>
-        <updated>2021-07-30T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[VMware has found the Linux 5.13 kernel that was released as stable one month ago has led to a serious performance regression for their ESXi enterprise hypervisor...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenGL Drivers In 2021 Still Sadly Benefit From Faking Their Driver Name / GPU]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenGL-Drivers-2021-Faking-It</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenGL-Drivers-2021-Faking-It"/>
-        <updated>2021-07-30T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Years ago particularly when the open-source Linux GPU drivers were in their infancy it was known in some cases having to fake/spoof the GPU driver name or model in order to workaround artificial bugs / problematic code paths targeted to a particular OpenGL driver or even to achieve greater performance. With a new Mesa merge request called "Unleash the dragon!", this is still very much a problem in 2021 even now in the Android space...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD]]></title>
         <id>https://www.phoronix.com/vr.php?view=30401</id>
         <link href="https://www.phoronix.com/vr.php?view=30401"/>
         <updated>2021-07-30T03:30:00.000Z</updated>
         <summary type="html"><![CDATA[AMD just lifted the embargo on the Radeon RX 6600 XT, its newest entry in their RDNA2 line-up and optimized for delivering a superior 1080p gaming performance against the NVIDIA GeForce RTX 3060 series. The RX 6600 XT isn't hitting retail availability until August and that is when we'll be able to publish benchmarks, but for now here is an overview of this new graphics card launching at the $379 price point.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AOCC 3.1 Compiler Performance Against Clang 12, GCC 11 On AMD EPYC]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30395</id>
-        <link href="https://www.phoronix.com/vr.php?view=30395"/>
-        <updated>2021-07-29T12:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Following the recent benchmarks seeing how AMD's new AOCC 3.1 compiler has brought some performance improvements over the prior AOCC 3.0 release that introduced initial Zen 3 optimizations, here are some benchmarks looking at how that latest AMD Optimizing C/C++ Compiler performance compares to the upstream LLVM Clang 12 compiler for which it is based as well as against GCC 11 as the latest GNU compiler release that remains common to Linux systems.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -676,38 +701,6 @@ Run batched migrations on self-managed instances
 Fix deploy keys not working with LFS auth check
 Repository: Fix repo replication with transactions
 Repository: Fix excessive voting in CreateRepositoryFromBundle
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 13.12.7]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/05/gitlab-13-12-7-released/"/>
-        <updated>2021-07-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 13.12.7 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 13.12 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Fix pages deployment storage migration
-Reintroduce recursive_approach_for_all_projects default-enabled
-Exempt unicorn['svlogd_prefix'] from deprecation check
-Gitaly: fixes to issues with strong consistency/transactional voting
-Geo - Fix state value in the lfs_object_registry table
 Important notes on upgrading
 This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
 Please be aware that by default the Omnibus packages will stop, run migrations,
