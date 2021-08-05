@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-04T00:20:54.155Z</id>
+    <id>urn:2021-08-05T00:21:50.275Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-04T00:20:54.155Z</updated>
+    <updated>2021-08-05T00:21:50.275Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2 Released With New Intel Crocus Driver, PanVK, Early M1 Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Released"/>
+        <updated>2021-08-04T19:30:52.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.2 is out as the latest quarterly update to this open-source Linux graphics driver stack for user-space, most notably providing the Intel and Radeon OpenGL/Vulkan drivers among others...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Working On BPF CO-RE Support For GCC To Easily Run BPF Programs On Any Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BPF-CO-RE-For-GCC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BPF-CO-RE-For-GCC"/>
+        <updated>2021-08-04T19:00:51.000Z</updated>
+        <summary type="html"><![CDATA[Running eBPF kernel programs continues to be increasing popular and used for a variety of use-cases in production environments but one of the challenges is around needing to compile the (e)BPF programs for a given kernel while BPF CO-RE has been working to change that. The LLVM Clang compiler already supports the ability for BPF "Compile Once, Run Everywhere" while now Oracle engineers are working to bring the same level of support to GCC...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Proposes Linux Kernel Driver Allow/Deny Filtering]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Driver-Filtering-Option</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Driver-Filtering-Option"/>
+        <updated>2021-08-04T18:13:01.000Z</updated>
+        <summary type="html"><![CDATA[As part of their work around Trust Domain Extensions (TDX) support for Linux, Intel engineers are proposing a driver filter option for Linux to be able to set allow or deny lists of driver(s) that can or cannot be loaded by the booted kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arch Linux, Clear Linux, Fedora Compete On The ASUS ROG Strix G15]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30414</id>
+        <link href="https://www.phoronix.com/vr.php?view=30414"/>
+        <updated>2021-08-04T12:45:15.000Z</updated>
+        <summary type="html"><![CDATA[Following last month's look at the ASUS ROG Strix G15 AMD Advantage laptop with Ryzen 9 5900HX processor and some of the initial hurdles seen on Ubuntu, readers were curious about how well other Linux distributions fared compatibility wise or if offering better performance elsewhere. Here are some tests across Arch Linux, Clear Linux, Fedora Workstation, and Ubuntu 21.04 for reference.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X.Org Server Adds "Fake Screen FPS" Option]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-fakescreenfps</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-fakescreenfps"/>
+        <updated>2021-08-04T10:06:43.000Z</updated>
+        <summary type="html"><![CDATA[The X.Org Server has picked up a new "-fakescreenfps" option to help with VNC and other remote  display scenarios...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Many Interesting Talks On Deck For The X.Org Developers Conference 2021]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XDC-2021-Scheduler</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XDC-2021-Scheduler"/>
+        <updated>2021-08-04T09:45:02.000Z</updated>
+        <summary type="html"><![CDATA[The program/schedule for this year's XDC21 X.Org Developers' Conference was posted this week ahead of the event occurring in mid-September. There are many interesting talks about X.Org and beyond, which in recent years largely revolve around Mesa and Wayland...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD PTDMA Driver Revised Ahead Of Its Possible Inclusion For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-v11</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-v11"/>
+        <updated>2021-08-04T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the AMD patch series that has been in the works for more than one year is the PTDMA driver providing pass-through DMA engine support on Linux. The driver is now up to its eleventh revision but the mainlining might happen soon...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AMD Hiring For Open-Source GPU Driver Work With Mentions Of Tesla Model S, Steam Deck]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Job-Tesla-Steam-Deck</id>
@@ -276,76 +346,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Coming"/>
         <updated>2021-08-01T10:12:12.000Z</updated>
         <summary type="html"><![CDATA[SDL 2.0.16 is being prepared for release as the successor to SDL 2.0.14. Particularly for Linux users this SDL 2.0.16 update is significant with some key enhancements for this library that is common to multi-platform games and part of the Steam runtime...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lutris 0.5.9 Beta Released With Epic Games Store Support, DXVK-NVAPI/DLSS, Gamescope]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lutris-0.5.9-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lutris-0.5.9-Beta"/>
-        <updated>2021-08-01T09:35:09.000Z</updated>
-        <summary type="html"><![CDATA[Lutris 0.5.9-beta1 is out this Sunday as a rather significant update to this open-source Linux game manager. With this new version there are many new features for this centralized game launcher...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Changes Pipe Behavior After Breaking Problematic Android Apps On Recent Kernels]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Broke-Android-Apps-Pipe</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Broke-Android-Apps-Pipe"/>
-        <updated>2021-07-31T16:10:45.000Z</updated>
-        <summary type="html"><![CDATA[At the end of 2019 a rework to the Linux kernel's pipe code saw some of its logic reworked to only wake up readers if needed and avoid a possible thundering herd problem. But it turns out some Android libraries abused the functionality and this has led to broken Android applications when moving to recent kernels. While the user-space software is in the wrong, the kernel is sticking to its policy of not breaking user-space and as such Linus Torvalds has changed the code's behavior for Linux 5.14 and to be back-ported to prior stable kernels...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New NTFS Driver Looks Like It Will Finally Be Ready With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=New-NTFS-Likely-For-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=New-NTFS-Likely-For-Linux-5.15"/>
-        <updated>2021-07-31T13:37:23.000Z</updated>
-        <summary type="html"><![CDATA[It's looking like the new NTFS file-system kernel driver developed by Paragon Software and over the past year revised more than two dozen times could be ready for mainlining in the kernel in about one month's time when the Linux 5.15 merge window opens. Everything is finally aligning and looking like the code is in good enough shape for its initial merging though not necessarily replacing the existing NTFS driver at this point...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Drops Old DEC Alpha-Specific Binary Loader Used For x86 Binary Emulation]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Alpha-Specific-x86-Loader-Drop</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Alpha-Specific-x86-Loader-Drop"/>
-        <updated>2021-07-31T13:21:48.000Z</updated>
-        <summary type="html"><![CDATA[As a weekend blast from the past, the Linux 5.14 kernel saw some Alpha CPU architecture updates -- including various fixes and the removal of an Alpha-specific binary loader for running a decades dated x86 software emulator...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux's FWUPD Expands Poly High-End Web Camera Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FWUPD-1.5.12</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FWUPD-1.5.12"/>
-        <updated>2021-07-31T10:42:50.000Z</updated>
-        <summary type="html"><![CDATA[For those looking to purchase a high-end Linux-friendly web camera for your home office or other environment, there are a few more options now compatible with Linux's fwupd if interested in having the capability of updating the camera firmware under Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More RT Code Out For Review, RT Patches Updated Against Linux 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RT-Updates</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-RT-Updates"/>
-        <updated>2021-07-31T10:06:18.000Z</updated>
-        <summary type="html"><![CDATA[The real-time (RT) patches for the Linux kernel still appear a ways off from mainline but at least there is movement on this important patch series for embedded and other use-cases needing real-time support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Radeon RX 6600 XT Launching For 1080p RDNA2 Gaming At ~$379 USD]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30401</id>
-        <link href="https://www.phoronix.com/vr.php?view=30401"/>
-        <updated>2021-07-30T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[AMD just lifted the embargo on the Radeon RX 6600 XT, its newest entry in their RDNA2 line-up and optimized for delivering a superior 1080p gaming performance against the NVIDIA GeForce RTX 3060 series. The RX 6600 XT isn't hitting retail availability until August and that is when we'll be able to publish benchmarks, but for now here is an overview of this new graphics card launching at the $379 price point.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -674,45 +674,6 @@ to use GitLab's own infrastructure.]]></summary>
         <summary type="html"><![CDATA[Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).
 These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.0.3]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/06/gitlab-14-0-3-released/"/>
-        <updated>2021-07-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.0.3 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 14.0 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Reintroduce recursive_approach_for_all_projects default-enabled
-Fix pages deployment storage migration
-Fix frequent items timestamps not updated
-Fix bug where Milestone page led to console error
-Fix broken Time Tracking Reports on Issuable sidebar
-Geo - Fix state value in the lfs_object_registry table
-Revert a 14.0 change in the deployments API
-DevOps Adoption - ensure displayNamespaceId is included
-Geo - Move migration to a pre-deployment migration
-Run batched migrations on self-managed instances
-Fix deploy keys not working with LFS auth check
-Repository: Fix repo replication with transactions
-Repository: Fix excessive voting in CreateRepositoryFromBundle
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
