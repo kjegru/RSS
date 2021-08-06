@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-05T00:21:50.275Z</id>
+    <id>urn:2021-08-06T00:21:15.920Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-05T00:21:50.275Z</updated>
+    <updated>2021-08-06T00:21:15.920Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[FUTEX2 Patches Sent Out In Simpler Form For Helping Windows Games On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Simpler-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Simpler-Patches"/>
+        <updated>2021-08-05T19:20:44.000Z</updated>
+        <summary type="html"><![CDATA[The ongoing FUTEX2 work for making the futex handling more like Windows to in turn help Windows games on Linux via Wine (with a focus on Steam Play's Proton) has taken a new turn...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tyan Transport CX GC68B8036-LE AMD EPYC 7003 1U Platform]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30422</id>
+        <link href="https://www.phoronix.com/vr.php?view=30422"/>
+        <updated>2021-08-05T13:06:31.000Z</updated>
+        <summary type="html"><![CDATA[This summer we have been testing the Tyan Transport CX GC68B8036-LE as one of the company's newest options for those in the market for an AMD EPYC 7003 "Milan" 1U 1P barebones server. Across our wide range of Linux and BSD benchmarking this Tyan Transport CX GC68B8036-LE with Tyan S8036GM2NE motherboard has been holding up well and meeting our requirements and proven reliability in having tested Tyan products now at Phoronix for over the past 16 years.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung Revs Its In-Kernel SMB3 Server Focused On Fast Performance, New Features]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-KSMBD-v7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-KSMBD-v7"/>
+        <updated>2021-08-05T10:23:19.000Z</updated>
+        <summary type="html"><![CDATA[While Samba is well known for SMB/CIFS server support on Linux and other platforms for supporting Microsoft's SMB networking protocol for file and print services, Samba is implemented in user-space while Samsung has been pursuing an SMB server implemented in kernel-space for better performance and wiring up new features that can be more easily accomplished within the kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GCC 12's Static Analyzer Gaining Initial Assembly Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Analyzer-ASM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Analyzer-ASM"/>
+        <updated>2021-08-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Merged into the GNU Compiler Collection development code on Wednesday was an initial implementation of Assembly support for its analyzer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[23% Cost savings and 36% performance gain by deploying GitLab on Arm-based AWS Graviton2]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/05/achieving-23-cost-savings-and-36-performance-gain-using-gitlab-and-gitlab-runner-on-arm-neoverse-based-aws-graviton2-processor/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/05/achieving-23-cost-savings-and-36-performance-gain-using-gitlab-and-gitlab-runner-on-arm-neoverse-based-aws-graviton2-processor/"/>
+        <updated>2021-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Companies in all industries and sectors have significantly invested in digital transformation and increased their software development capabilities. GitLab delivers modern DevOps with a complete DevOps platform. However, some organizations require self-managed GitLab and GitLab Runners, which creates added costs for hosting and running GitLab infrastructure. Our latest cost analysis and performance benchmarks show that customers can realize cost savings of up to 23% and performance gains of up to 36% by deploying the GitLab application and GitLab Runner on the Arm-based Graviton2 when compared to the x86 based M5/C5 EC2 instances.
+Arm is a leading provider of silicon intellectual property (IP) for intelligent systems-on-chip (SoC) that power billions of devices. GitLab and Arm have collabo…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mesa 21.2 Released With New Intel Crocus Driver, PanVK, Early M1 Code]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Released</id>
@@ -73,6 +124,18 @@
         <summary type="html"><![CDATA[One of the AMD patch series that has been in the works for more than one year is the PTDMA driver providing pass-through DMA engine support on Linux. The driver is now up to its eleventh revision but the mainlining might happen soon...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How UBS created their own open DevOps Platform using GitLab]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/"/>
+        <updated>2021-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[UBS, the largest truly global wealth manager, uses GitLab to power DevCloud, a single DevOps Platform that allows for a cloud-based, service-oriented, software development lifecycle.
+"GitLab is a fundamental part of DevCloud," said Rick Carey, Group Chief Technology Officer at UBS. "We wouldn't be able to have that seamless experience without GitLab. It allowed us to pull ahead of many of our competitors, and break down the barriers between coding, testing, and deployment."
+During GitLab Virtual Commit 2021, Rick and Eric Johnson, Chief Technology Officer at GitLab, talked about how building DevCloud on GitLab's DevOps Platform allowed UBS to increase their development velocity, lower their infrastructure costs, and increase collaboration between engineers and non-engineering teams worldwi…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -306,46 +369,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP"/>
         <updated>2021-08-01T18:42:33.000Z</updated>
         <summary type="html"><![CDATA[Linux 5.15 is positioned now to see a Management Component Transport Protocol (MCTP) implementation with the code now queued in net-next with this being a protocol for communication between management controllers and managed devices...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ReactOS "Open-Source Windows" Making Progress On x86_64, Multi-Monitor]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ReactOS-AMD64-Multi-Monitor</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ReactOS-AMD64-Multi-Monitor"/>
-        <updated>2021-08-01T11:21:08.000Z</updated>
-        <summary type="html"><![CDATA[ReactOS as the long-running open-source project striving for Windows ABI compatibility has been making some significant progress this summer on various endeavors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LibreOffice 7.2 RC2 Up For Testing With Its Initial GTK4 Work, Command Pop-Up / HUD]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-RC2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-RC2"/>
-        <updated>2021-08-01T11:13:45.000Z</updated>
-        <summary type="html"><![CDATA[LibreOffice 7.2 is preparing to ship this month while out today is LibreOffice 7.2 RC2 for facilitating last minute testing of this leading open-source office suite...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LE9, Canonical's Profits, Steam Deck, & Loongson 3A5000 Made For An Exciting July]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=July-2021-Highlights</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=July-2021-Highlights"/>
-        <updated>2021-08-01T10:36:21.000Z</updated>
-        <summary type="html"><![CDATA[July was a pretty damn exciting summer month amid the pandemic thanks to many interesting Linux software and hardware announcements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SDL 2.0.16 Is On The Way With Better Wayland Support, Improved PipeWire Integration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Coming"/>
-        <updated>2021-08-01T10:12:12.000Z</updated>
-        <summary type="html"><![CDATA[SDL 2.0.16 is being prepared for release as the successor to SDL 2.0.14. Particularly for Linux users this SDL 2.0.16 update is significant with some key enhancements for this library that is common to multi-platform games and part of the Steam runtime...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -662,18 +685,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Critical Security Release: 14.0.4, 13.12.8, and 13.11.7]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/07/critical-security-release-gitlab-14-0-4-released/"/>
-        <updated>2021-07-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing versions 14.0.4, 13.12.8, and 13.11.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).
-These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
-GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
