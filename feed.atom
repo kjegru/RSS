@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-06T00:21:15.920Z</id>
+    <id>urn:2021-08-07T00:19:56.440Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-06T00:21:15.920Z</updated>
+    <updated>2021-08-07T00:19:56.440Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[GNOME's New Human Interface Guidelines Now Official]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Updated-GNOME-HIG-Official</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Updated-GNOME-HIG-Official"/>
+        <updated>2021-08-06T18:06:20.000Z</updated>
+        <summary type="html"><![CDATA[In recent months there has been an effort to update GNOME's Human Interface Guidelines (HIG) to reflect the GTK4 toolkit and recommendations around new widgets, utility panes, and more for enhancing the accessibility of GNOME applications, arguably looking better, and just otherwise modernizing aspects of the HIG that haven't been touched in months. That updated GNOME HIG is now official...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q3.3 Released With Performance Tuning For Rage 2 On Navi 2]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.3-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.3-Released"/>
+        <updated>2021-08-06T17:08:07.000Z</updated>
+        <summary type="html"><![CDATA[AMD has published their newest open-source Vulkan driver snapshot from their official sources that comprise this "AMDVLK" offering for Linux users...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hands On With The AMD Radeon RX 6600 XT]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30425</id>
+        <link href="https://www.phoronix.com/vr.php?view=30425"/>
+        <updated>2021-08-06T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After the AMD Radeon RX 6600 XT was announced last week and ahead of the retail availability next week, today AMD's "unboxing embargo" has expired for this new RDNA2 graphics card focused on delivering high 1080p frame rates. The card we have been testing out under Linux is the ASRock Phantom Gaming RX 6600 XT.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox 92 To Try Again With AVIF Image Support By Default]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-AVIF-Trying-Again</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-AVIF-Trying-Again"/>
+        <updated>2021-08-06T12:50:07.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla is trying once again to enable AVIF image decoding support by default within the Firefox web browser. AVIF is the promising image file format based on using AV1 in the HEIF file format...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon's DAMON Landing For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-For-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-For-Linux-5.15"/>
+        <updated>2021-08-06T12:06:27.000Z</updated>
+        <summary type="html"><![CDATA[Amazon's Data Access Monitor "DAMON" code is now set for introduction in Linux 5.15...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Working To Combine The Best Of CET + CFI Into "FineIBT"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-FineIBT-Security</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-FineIBT-Security"/>
+        <updated>2021-08-06T10:15:48.000Z</updated>
+        <summary type="html"><![CDATA[Intel security researchers have been working on implementing toolchain-optimized fine-grained Control Flow Integrity (CFI) support on top of Intel's hardware-based Control-flow Enforcement Technology (CET). By leveraging Intel CET, the Control-Flow Integrity overhead is much lower than the otherwise pure software/compiler-based approach. This Linux security improvement is being worked on under the name of FineIBT...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flax Engine 1.2 Brings Many Big Improvements For This Open-Source Commercial Game Engine]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Flax-Engine-1.2.6222</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Flax-Engine-1.2.6222"/>
+        <updated>2021-08-06T09:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Flax Engine 1.2.6222 is out today as the first v1.2 update for this cross-platform, open-source but commercial game engine...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FUTEX2 Patches Sent Out In Simpler Form For Helping Windows Games On Linux]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Simpler-Patches</id>
@@ -304,76 +374,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Work Is Back Underway On A Task Isolation Interface For The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Task-Isolation-Interface-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Task-Isolation-Interface-2021"/>
-        <updated>2021-08-02T10:09:34.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat's Marcelo Tosatti has submitted his latest patches implementing a basic task isolation interface for the Linux kernel that would be particularly useful for real-time workloads and high-bandwidth networking applications making use of user-space drivers...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU C Library 2.34 Released With More Functionality Squeezed Into libc]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-C-Library-Glibc-2.34</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-C-Library-Glibc-2.34"/>
-        <updated>2021-08-02T09:53:21.000Z</updated>
-        <summary type="html"><![CDATA[Version 2.34 of the GNU C Library (glibc) is now available with a wide variety of changes that accumulated over the past six months...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org's XEyes 1.2 Released, Other Updated X11 Components Too]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-xeyes-1.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-xeyes-1.2"/>
-        <updated>2021-08-02T09:29:52.000Z</updated>
-        <summary type="html"><![CDATA[Several X.Org/X11 components saw new releases on Sunday for kicking off August, including the xeyes program seeing its first non-point release in eleven years...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[dav1d 0.9.1 Released With More Optimizations - Particularly For Older CPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dav1d-0.9.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dav1d-0.9.1-Released"/>
-        <updated>2021-08-02T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dav1d 0.9.1 was released on Sunday as the newest feature update to this leading open-source CPU-based AV1 video decoder...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14-rc4 Released With Change Following Some Broken Android Apps, Other Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc4-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc4-Released"/>
-        <updated>2021-08-02T00:30:13.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.14-rc4 is available today as a rather smooth update with nothing too worrisome but just a decent amount of fixes and nothing that is causing Linux creator Linus Torvalds to be frustrated...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam Survey Shows Linux Marketshare Hitting 1.0%]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-July-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-July-2021"/>
-        <updated>2021-08-02T00:15:15.000Z</updated>
-        <summary type="html"><![CDATA[Not only did Valve announce Steam Deck in July but the overall Linux gaming marketshare according to the Steam Survey also hit a multi-year high...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Adding Management Component Transport Protocol (MCTP)]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-MCTP"/>
-        <updated>2021-08-01T18:42:33.000Z</updated>
-        <summary type="html"><![CDATA[Linux 5.15 is positioned now to see a Management Component Transport Protocol (MCTP) implementation with the code now queued in net-next with this being a protocol for communication between management controllers and managed devices...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How GitLab 14 satisfies the need for speed with modern DevOps]]></title>
         <id>https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/</id>
         <link href="https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/"/>
@@ -636,55 +636,6 @@ Threat modeling
 Let’s start with the basics, what is threat modeling?
 Threat modeling is the process of risk assessment for a particular project, asset, procedure, or product. While it can apply to nearly any established or new procedure, it seems to most often get applied to software. For GitLab, this would mainly apply to our source code.
 As assessing risk has historically been the domain of the security department of most organizations, the threat modeling process has been nearly exclusively ha…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief look at Gitpod, two bugs, and a quick fix]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/08/two-bugs-and-a-quick-fix-in-gitpod/"/>
-        <updated>2021-07-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While looking at GitLab's Gitpod integration, I came across two rather critical flaws in Gitpod itself. In this post, I'll cover the process of identifying the vulnerabilities and some background on Gitpod. The more critical issue was fixed and the fix was pushed to production by the Gitpod team in less than five hours from my initial report. Huge kudos to the Gitpod team for that quick turnaround.
-What is Gitpod?
-First, let's see what Gitpod actually is – taken straight from gitpod.io:
-Spin up fresh, automated dev environments for each task, in the cloud, in seconds.
-That quote sums it up really well. You can login to Gitpod with your GitLab, GitHub, or Bitbucket account and then use a pretty full-blown, web-based development environment to work on your code, run tests, or even spin up se…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.0.5]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/08/gitlab-14-0-5-released/"/>
-        <updated>2021-07-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.0.5 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 14.0 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Resolve "404 for package details link under Infrastructure Registry for projects nested under 2 group levels"
-Resolve "Terraform module usage instructions are incorrect"
-Add documentation for boards epic create
-Initialize conversion of ci_builds_metadata.id for bigint migration
-Fix git clone for projects with a trailing dot over HTTP
-Do not create audit event for failed logins on read-only DB
-Add prefix to autocomplete path
-Return empty strings for Jira links when URL is not set
-Fix libmagic not being able to find magic files
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
