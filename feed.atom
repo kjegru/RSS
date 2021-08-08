@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-07T00:19:56.440Z</id>
+    <id>urn:2021-08-08T00:21:39.433Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-07T00:19:56.440Z</updated>
+    <updated>2021-08-08T00:21:39.433Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DRM Lease Protocol Support Merged For Wayland For VR Headsets]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-DRM-Lease-Merged</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-DRM-Lease-Merged"/>
+        <updated>2021-08-07T12:51:25.000Z</updated>
+        <summary type="html"><![CDATA[The months-long effort for adding DRM lease support to Wayland via a new protocol has now been merged into Wayland Protocols as a new staging addition. The "drm_lease_v1" is principally motivated for improving the virtual reality head-mounted dispkay support under Wayland...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latte Dock 0.10 Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Latte-Dock-0.10</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Latte-Dock-0.10"/>
+        <updated>2021-08-07T10:30:43.000Z</updated>
+        <summary type="html"><![CDATA[It's been two years already since Latte Dock 0.9 was released while finally Latte Dock 0.10 is ready to officially meet the world this weekend...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Kicks Off August With Many Bug Fixes To Benefit Steam Deck & More]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Fixes-Start-August</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Fixes-Start-August"/>
+        <updated>2021-08-07T09:53:38.000Z</updated>
+        <summary type="html"><![CDATA[The first week of August saw many fixes land in the KDE camp as they prepare for their software to be used on more third-party products, with Steam Deck being just the latest notable product leveraging KDE...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Prepares More Graphics Driver Code For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-AMDGPU</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-AMDGPU"/>
+        <updated>2021-08-07T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week's AMDGPU pull request to DRM-Next for Linux 5.15 added support for the "Cyan Skillfish" APU and other early work while an additional pull request was submitted on Friday...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gallium Nine Lands Threaded Context Support, Other Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gallium-Nine-TC-Lands</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gallium-Nine-TC-Lands"/>
+        <updated>2021-08-07T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Several improvements were merged on Friday to Mesa's Gallium3D Nine state tracker that allows for an alternative means of Direct3D 9 support within Wine...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME's New Human Interface Guidelines Now Official]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Updated-GNOME-HIG-Official</id>
@@ -324,56 +374,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AMD SB-RMI Driver Coming For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SB-RMI-Linux-Sensor</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SB-RMI-Linux-Sensor"/>
-        <updated>2021-08-02T20:00:12.000Z</updated>
-        <summary type="html"><![CDATA[AMD continues pushing new code out for Linux in better exposing their platform's capabilities in the open-source world. The latest AMD driver work now queued via "-next" branches for introduction this autumn in Linux 5.15 is SB-RMI sensor support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WireGuard Sees Native, High-Performance Port To The Windows Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=WireGuardNT-Windows-Kernel</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=WireGuardNT-Windows-Kernel"/>
-        <updated>2021-08-02T18:13:20.000Z</updated>
-        <summary type="html"><![CDATA[The excellent WireGuard open-source secure VPN tunnel has been seeing growing adoption on Linux now that it's been in the mainline kernel for a while and also seeing continued progress on the BSDs. While there has been beta WireGuard for Windows in user-space, "WireGuardNT" was announced today as a native high-performance port to the Windows kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FWUPD 1.6.2 Released With Exciting Improvements For Hardware Firmware Updates On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.6.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.6.2"/>
-        <updated>2021-08-02T17:54:20.000Z</updated>
-        <summary type="html"><![CDATA[While FWUPD 1.5.12 released last week with expanded support for Poly web cameras, FWUPD 1.6.2 is out today as the newest feature release in their latest series. FWUPD 1.6.2 brings several significant improvements for advancing open-source firmware update capabilities on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD + Valve Working On New Linux CPU Performance Scaling Design]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Valve-New-CPU-Freq</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Valve-New-CPU-Freq"/>
-        <updated>2021-08-02T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Along with other optimizations to benefit the Steam Deck, AMD and Valve have been jointly working on CPU frequency/power scaling improvements to enhance the Steam Play gaming experience on modern AMD platforms running Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian Improves Docs To Inform Users Their Systems Might Not Work Without Non-Free Firmware]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-Installer-Bullseye-RC3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-Installer-Bullseye-RC3"/>
-        <updated>2021-08-02T10:38:21.000Z</updated>
-        <summary type="html"><![CDATA[Debian 11 "Bullseye" is set to be released mid-August while out this morning is the third release candidate of the Debian Bullseye installer. With this installer update is more documentation for users letting them know the risks of modern graphics cards and the like that are often inoperable unless loading firmware that isn't considered free software...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How GitLab 14 satisfies the need for speed with modern DevOps]]></title>
         <id>https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/</id>
         <link href="https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/"/>
@@ -622,20 +622,6 @@ Compile/build the a…]]></summary>
         <updated>2021-07-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[GitOps is a hot topic in the world of operations, but what does it provide to workflows that we didn’t have already? Looking at the evolution of the operations space, there have been many big changes in the past 20 years, and I argue that GitOps is not a change, rather a summary of best practices. So, how do we describe the major phenomenon in Ops over the past 20 years?
 Before 2000, the primary approach to operations was to hire a System Administrator or empower Lead Developers to do Ops work. System Administrators knew a lot about networking and server optimisations, and a good sysadmin can do most of their work through code, using Bash, Perl or Python scripts. While every software engineer likely knows at least the basics of shell scripting, even many backend engineers would not be comf…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we’re creating a threat model framework that works for GitLab]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/09/creating-a-threat-model-that-works-for-gitlab/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/09/creating-a-threat-model-that-works-for-gitlab/"/>
-        <updated>2021-07-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the first in a series of three blog posts where we discuss threat modeling and how we’re using it at GitLab to help secure our product, our company, and most importantly our customer’s data. As usual, we’re doing things a bit differently, but when you hear why it will make a lot of sense.
-Threat modeling
-Let’s start with the basics, what is threat modeling?
-Threat modeling is the process of risk assessment for a particular project, asset, procedure, or product. While it can apply to nearly any established or new procedure, it seems to most often get applied to software. For GitLab, this would mainly apply to our source code.
-As assessing risk has historically been the domain of the security department of most organizations, the threat modeling process has been nearly exclusively ha…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
