@@ -181,12 +181,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc5-Released",
+          "author": null,
+          "description": "Linus Torvalds just released the fifth weekly release candidate of Linux 5.14 and he's happy with how it's shaping up a few weeks before release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc5-Released",
+          "publishedOn": "2021-08-08T21:04:24.000Z",
+          "wordCount": 753,
+          "title": "Linux 5.14-rc5 Released - \"Looking Perfectly Normal\""
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=0-AD-Alpha-25",
+          "author": null,
+          "description": "0 A.D. as the long in development real-time strategy game developed by Wildfire Games is out with its twenty-fifth alpha release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=0-AD-Alpha-25",
+          "publishedOn": "2021-08-08T13:40:08.000Z",
+          "wordCount": 732,
+          "title": "0 A.D. Alpha 25 Released For This Open-Source RTS Game"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Thunderbird-91-Coming-Soon",
+          "author": null,
+          "description": "Thunderbird 91.0 is approaching release as an annual feature release to this open-source, cross-platform mail client and RSS reader. Given the current release is Thunderbird 78 from last July, there is a lot in store for this \"2021\" update...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Thunderbird-91-Coming-Soon",
+          "publishedOn": "2021-08-08T11:30:00.000Z",
+          "wordCount": 737,
+          "title": "Thunderbird 91 Is Flying Soon As First Major Mail Client Update In A Year"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-SMCCC-TRNG-Linux-5.15",
+          "author": null,
+          "description": "The Linux kernel already supports making use of Arm's True Random Number Generator (TRNG) SMCCC interface within the random seed code while for the upcoming Linux 5.15 cycle an \"arm_smccc_trng\" driver is being added and will allow exposing the entropy to user-space...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-SMCCC-TRNG-Linux-5.15",
+          "publishedOn": "2021-08-08T10:43:31.000Z",
+          "wordCount": 854,
+          "title": "Arm SMCCC TRNG Driver Queued Ahead Of Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-GT-Huge-For-Linux-5.15",
+          "author": null,
+          "description": "Intel engineers on Friday submitted a big batch of kernel graphics driver improvements to DRM-Next for queuing ahead of the Linux 5.15 merge window...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-GT-Huge-For-Linux-5.15",
+          "publishedOn": "2021-08-08T04:00:00.000Z",
+          "wordCount": 809,
+          "title": "Intel Has A Huge Batch Of New Graphics Driver Code For Linux 5.15"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wayland-DRM-Lease-Merged",
           "author": null,
           "description": "The months-long effort for adding DRM lease support to Wayland via a new protocol has now been merged into Wayland Protocols as a new staging addition. The \"drm_lease_v1\" is principally motivated for improving the virtual reality head-mounted dispkay support under Wayland...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wayland-DRM-Lease-Merged",
           "publishedOn": "2021-08-07T12:51:25.000Z",
-          "wordCount": 895,
+          "wordCount": 829,
           "title": "DRM Lease Protocol Support Merged For Wayland For VR Headsets"
         },
         {
@@ -195,7 +240,7 @@
           "description": "It's been two years already since Latte Dock 0.9 was released while finally Latte Dock 0.10 is ready to officially meet the world this weekend...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Latte-Dock-0.10",
           "publishedOn": "2021-08-07T10:30:43.000Z",
-          "wordCount": 666,
+          "wordCount": 671,
           "title": "Latte Dock 0.10 Released"
         },
         {
@@ -213,7 +258,7 @@
           "description": "Last week's AMDGPU pull request to DRM-Next for Linux 5.15 added support for the \"Cyan Skillfish\" APU and other early work while an additional pull request was submitted on Friday...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-More-AMDGPU",
           "publishedOn": "2021-08-07T07:00:00.000Z",
-          "wordCount": 831,
+          "wordCount": 834,
           "title": "AMD Prepares More Graphics Driver Code For Linux 5.15"
         },
         {
@@ -222,7 +267,7 @@
           "description": "Several improvements were merged on Friday to Mesa's Gallium3D Nine state tracker that allows for an alternative means of Direct3D 9 support within Wine...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Gallium-Nine-TC-Lands",
           "publishedOn": "2021-08-07T04:00:00.000Z",
-          "wordCount": 789,
+          "wordCount": 714,
           "title": "Gallium Nine Lands Threaded Context Support, Other Improvements"
         },
         {
@@ -231,7 +276,7 @@
           "description": "In recent months there has been an effort to update GNOME's Human Interface Guidelines (HIG) to reflect the GTK4 toolkit and recommendations around new widgets, utility panes, and more for enhancing the accessibility of GNOME applications, arguably looking better, and just otherwise modernizing aspects of the HIG that haven't been touched in months. That updated GNOME HIG is now official...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Updated-GNOME-HIG-Official",
           "publishedOn": "2021-08-06T18:06:20.000Z",
-          "wordCount": 711,
+          "wordCount": 716,
           "title": "GNOME's New Human Interface Guidelines Now Official"
         },
         {
@@ -240,7 +285,7 @@
           "description": "AMD has published their newest open-source Vulkan driver snapshot from their official sources that comprise this \"AMDVLK\" offering for Linux users...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.3-Released",
           "publishedOn": "2021-08-06T17:08:07.000Z",
-          "wordCount": 819,
+          "wordCount": 744,
           "title": "AMDVLK 2021.Q3.3 Released With Performance Tuning For Rage 2 On Navi 2"
         },
         {
@@ -249,7 +294,7 @@
           "description": "After the AMD Radeon RX 6600 XT was announced last week and ahead of the retail availability next week, today AMD's \"unboxing embargo\" has expired for this new RDNA2 graphics card focused on delivering high 1080p frame rates. The card we have been testing out under Linux is the ASRock Phantom Gaming RX 6600 XT.",
           "link": "https://www.phoronix.com/vr.php?view=30425",
           "publishedOn": "2021-08-06T13:00:00.000Z",
-          "wordCount": 1017,
+          "wordCount": 1006,
           "title": "Hands On With The AMD Radeon RX 6600 XT"
         },
         {
@@ -258,7 +303,7 @@
           "description": "Mozilla is trying once again to enable AVIF image decoding support by default within the Firefox web browser. AVIF is the promising image file format based on using AV1 in the HEIF file format...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-92-AVIF-Trying-Again",
           "publishedOn": "2021-08-06T12:50:07.000Z",
-          "wordCount": 836,
+          "wordCount": 847,
           "title": "Firefox 92 To Try Again With AVIF Image Support By Default"
         },
         {
@@ -267,7 +312,7 @@
           "description": "Amazon's Data Access Monitor \"DAMON\" code is now set for introduction in Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-For-Linux-5.15",
           "publishedOn": "2021-08-06T12:06:27.000Z",
-          "wordCount": 995,
+          "wordCount": 993,
           "title": "Amazon's DAMON Landing For Linux 5.15"
         },
         {
@@ -276,7 +321,7 @@
           "description": "Intel security researchers have been working on implementing toolchain-optimized fine-grained Control Flow Integrity (CFI) support on top of Intel's hardware-based Control-flow Enforcement Technology (CET). By leveraging Intel CET, the Control-Flow Integrity overhead is much lower than the otherwise pure software/compiler-based approach. This Linux security improvement is being worked on under the name of FineIBT...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-FineIBT-Security",
           "publishedOn": "2021-08-06T10:15:48.000Z",
-          "wordCount": 970,
+          "wordCount": 897,
           "title": "Intel Working To Combine The Best Of CET + CFI Into \"FineIBT\""
         },
         {
@@ -285,7 +330,7 @@
           "description": "Flax Engine 1.2.6222 is out today as the first v1.2 update for this cross-platform, open-source but commercial game engine...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Flax-Engine-1.2.6222",
           "publishedOn": "2021-08-06T09:18:00.000Z",
-          "wordCount": 804,
+          "wordCount": 796,
           "title": "Flax Engine 1.2 Brings Many Big Improvements For This Open-Source Commercial Game Engine"
         },
         {
@@ -294,7 +339,7 @@
           "description": "The ongoing FUTEX2 work for making the futex handling more like Windows to in turn help Windows games on Linux via Wine (with a focus on Steam Play's Proton) has taken a new turn...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-Simpler-Patches",
           "publishedOn": "2021-08-05T19:20:44.000Z",
-          "wordCount": 861,
+          "wordCount": 821,
           "title": "FUTEX2 Patches Sent Out In Simpler Form For Helping Windows Games On Linux"
         },
         {
@@ -303,7 +348,7 @@
           "description": "This summer we have been testing the Tyan Transport CX GC68B8036-LE as one of the company's newest options for those in the market for an AMD EPYC 7003 \"Milan\" 1U 1P barebones server. Across our wide range of Linux and BSD benchmarking this Tyan Transport CX GC68B8036-LE with Tyan S8036GM2NE motherboard has been holding up well and meeting our requirements and proven reliability in having tested Tyan products now at Phoronix for over the past 16 years.",
           "link": "https://www.phoronix.com/vr.php?view=30422",
           "publishedOn": "2021-08-05T13:06:31.000Z",
-          "wordCount": 854,
+          "wordCount": 843,
           "title": "Tyan Transport CX GC68B8036-LE AMD EPYC 7003 1U Platform"
         },
         {
@@ -312,7 +357,7 @@
           "description": "While Samba is well known for SMB/CIFS server support on Linux and other platforms for supporting Microsoft's SMB networking protocol for file and print services, Samba is implemented in user-space while Samsung has been pursuing an SMB server implemented in kernel-space for better performance and wiring up new features that can be more easily accomplished within the kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Samsung-KSMBD-v7",
           "publishedOn": "2021-08-05T10:23:19.000Z",
-          "wordCount": 777,
+          "wordCount": 782,
           "title": "Samsung Revs Its In-Kernel SMB3 Server Focused On Fast Performance, New Features"
         },
         {
@@ -321,7 +366,7 @@
           "description": "Merged into the GNU Compiler Collection development code on Wednesday was an initial implementation of Assembly support for its analyzer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-Analyzer-ASM",
           "publishedOn": "2021-08-05T08:00:00.000Z",
-          "wordCount": 727,
+          "wordCount": 732,
           "title": "GCC 12's Static Analyzer Gaining Initial Assembly Support"
         },
         {
@@ -330,7 +375,7 @@
           "description": "Mesa 21.2 is out as the latest quarterly update to this open-source Linux graphics driver stack for user-space, most notably providing the Intel and Radeon OpenGL/Vulkan drivers among others...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2-Released",
           "publishedOn": "2021-08-04T19:30:52.000Z",
-          "wordCount": 801,
+          "wordCount": 886,
           "title": "Mesa 21.2 Released With New Intel Crocus Driver, PanVK, Early M1 Code"
         },
         {
@@ -339,7 +384,7 @@
           "description": "Running eBPF kernel programs continues to be increasing popular and used for a variety of use-cases in production environments but one of the challenges is around needing to compile the (e)BPF programs for a given kernel while BPF CO-RE has been working to change that. The LLVM Clang compiler already supports the ability for BPF \"Compile Once, Run Everywhere\" while now Oracle engineers are working to bring the same level of support to GCC...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=BPF-CO-RE-For-GCC",
           "publishedOn": "2021-08-04T19:00:51.000Z",
-          "wordCount": 833,
+          "wordCount": 831,
           "title": "Oracle Working On BPF CO-RE Support For GCC To Easily Run BPF Programs On Any Kernel"
         },
         {
@@ -348,7 +393,7 @@
           "description": "As part of their work around Trust Domain Extensions (TDX) support for Linux, Intel engineers are proposing a driver filter option for Linux to be able to set allow or deny lists of driver(s) that can or cannot be loaded by the booted kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Driver-Filtering-Option",
           "publishedOn": "2021-08-04T18:13:01.000Z",
-          "wordCount": 826,
+          "wordCount": 867,
           "title": "Intel Proposes Linux Kernel Driver Allow/Deny Filtering"
         },
         {
@@ -357,7 +402,7 @@
           "description": "Following last month's look at the ASUS ROG Strix G15 AMD Advantage laptop with Ryzen 9 5900HX processor and some of the initial hurdles seen on Ubuntu, readers were curious about how well other Linux distributions fared compatibility wise or if offering better performance elsewhere. Here are some tests across Arch Linux, Clear Linux, Fedora Workstation, and Ubuntu 21.04 for reference.",
           "link": "https://www.phoronix.com/vr.php?view=30414",
           "publishedOn": "2021-08-04T12:45:15.000Z",
-          "wordCount": 844,
+          "wordCount": 753,
           "title": "Arch Linux, Clear Linux, Fedora Compete On The ASUS ROG Strix G15"
         },
         {
@@ -366,7 +411,7 @@
           "description": "The X.Org Server has picked up a new \"-fakescreenfps\" option to help with VNC and other remote  display scenarios...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-fakescreenfps",
           "publishedOn": "2021-08-04T10:06:43.000Z",
-          "wordCount": 810,
+          "wordCount": 735,
           "title": "X.Org Server Adds \"Fake Screen FPS\" Option"
         },
         {
@@ -375,7 +420,7 @@
           "description": "The program/schedule for this year's XDC21 X.Org Developers' Conference was posted this week ahead of the event occurring in mid-September. There are many interesting talks about X.Org and beyond, which in recent years largely revolve around Mesa and Wayland...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XDC-2021-Scheduler",
           "publishedOn": "2021-08-04T09:45:02.000Z",
-          "wordCount": 827,
+          "wordCount": 832,
           "title": "Many Interesting Talks On Deck For The X.Org Developers Conference 2021"
         },
         {
@@ -384,7 +429,7 @@
           "description": "One of the AMD patch series that has been in the works for more than one year is the PTDMA driver providing pass-through DMA engine support on Linux. The driver is now up to its eleventh revision but the mainlining might happen soon...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-Linux-v11",
           "publishedOn": "2021-08-04T07:00:00.000Z",
-          "wordCount": 775,
+          "wordCount": 780,
           "title": "AMD PTDMA Driver Revised Ahead Of Its Possible Inclusion For Linux 5.15"
         },
         {
@@ -393,7 +438,7 @@
           "description": "With AMD's increasing marketshare on the CPU and GPU front, scoring more data center wins, and also scoring custom design wins for Linux-based environments such as with the Tesla Model S and most recently with the Steam Deck, AMD continues hiring more Linux engineers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Job-Tesla-Steam-Deck",
           "publishedOn": "2021-08-03T18:00:00.000Z",
-          "wordCount": 1147,
+          "wordCount": 1072,
           "title": "AMD Hiring For Open-Source GPU Driver Work With Mentions Of Tesla Model S, Steam Deck"
         },
         {
@@ -402,7 +447,7 @@
           "description": "AMD has released ROCm 4.3 as the newest version of their Radeon Open eCosystem stack for providing open-source GPU compute and CUDA portability for their supported graphics processors under Linux. ROCm 4.3 is the biggest update we've seen for this important enterprise piece to their enterprise GPU compute stack in a while...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-ROCm-4.3",
           "publishedOn": "2021-08-03T17:09:25.000Z",
-          "wordCount": 797,
+          "wordCount": 868,
           "title": "Radeon ROCm 4.3 Released With HMM Allocations, Many Other Improvements"
         },
         {
@@ -411,7 +456,7 @@
           "description": "Longtime kernel developer Kees Cook of the Google Security Team published a post on Google's Security Blog today effectively calling for more organizations to devote a greater number of engineers to the upstream Linux kernel in order to improve open-source security...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-Security-More-Engineers",
           "publishedOn": "2021-08-03T16:00:00.000Z",
-          "wordCount": 835,
+          "wordCount": 920,
           "title": "Google Calls On Companies To Devote More Engineers To Upstream Linux, Toolchains"
         },
         {
@@ -420,53 +465,8 @@
           "description": "CodeWeavers has announced the release of CrossOver 21.0 as the latest major update to their commercial software powered by Wine for running Windows games and applications on Linux and macOS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CrossOver-21.0-Released",
           "publishedOn": "2021-08-03T15:54:12.000Z",
-          "wordCount": 685,
+          "wordCount": 690,
           "title": "CodeWeavers Releases CrossOver 21 - Rebased On Wine 6.0"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30409",
-          "author": null,
-          "description": "Last year Sabrent launched the Rocket 4 Plus PCIe 4.0 NVMe solid-state drive and left me puzzled for months finding that the Linux performance was coming in short of expectations under Linux. However, Sabrent recently released a firmware update (v1.2) for the Rocket 4 Plus and now the drive seems to be much better positioned under Linux.",
-          "link": "https://www.phoronix.com/vr.php?view=30409",
-          "publishedOn": "2021-08-03T12:05:54.000Z",
-          "wordCount": 921,
-          "title": "Sabrent Rocket 4 Plus 1TB NVMe PCIe 4.0 SSD On Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-Pinot-TLP",
-          "author": null,
-          "description": "After being started by LinkedIn and open-source now for more than a half-decade while incubating at the Apache Software Foundation the past three years, Apache Pinot is the latest project graduating to become a top-level Apache project...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-Pinot-TLP",
-          "publishedOn": "2021-08-03T10:04:29.000Z",
-          "wordCount": 793,
-          "title": "Apache Pinot Makes It To The Organization's Top Shelf For Real-Time Big Data Analytics"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-13.0-Features-Over",
-          "author": null,
-          "description": "LLVM 13.0 feature development has ended with the code now branched and the first release candidate tagged...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-13.0-Features-Over",
-          "publishedOn": "2021-08-03T09:51:08.000Z",
-          "wordCount": 830,
-          "title": "LLVM 13 Feature Development Is Over, LLVM 14 Enters Development"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=X-Plane-More-Vulkan-Future",
-          "author": null,
-          "description": "X-Plane is not only the most realistic flight simulator that has long offered native Linux support but it's the only instance of a Vulkan-powered flight simulator I am aware of. While long tied to OpenGL, the company behind X-Plane is making it clear that the graphics rendering future is with Vulkan (and Metal when talking about Apple platforms)...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=X-Plane-More-Vulkan-Future",
-          "publishedOn": "2021-08-03T08:40:00.000Z",
-          "wordCount": 864,
-          "title": "X-Plane Flight Simulator Continues Advancing Its Renderer With Vulkan"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Git-2.33-rc0",
-          "author": null,
-          "description": "Monday marked the release of Git 2.33-rc0 as the first test release of the next version of this distributed revision control system...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Git-2.33-rc0",
-          "publishedOn": "2021-08-03T07:30:00.000Z",
-          "wordCount": 811,
-          "title": "Git 2.33 Is On The Way With An Assortment Of Fixes, Updated Documentation"
         }
       ]
     }

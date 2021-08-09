@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-08T00:21:39.433Z</id>
+    <id>urn:2021-08-09T00:22:38.462Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-08T00:21:39.433Z</updated>
+    <updated>2021-08-09T00:22:38.462Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc5 Released - "Looking Perfectly Normal"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc5-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc5-Released"/>
+        <updated>2021-08-08T21:04:24.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds just released the fifth weekly release candidate of Linux 5.14 and he's happy with how it's shaping up a few weeks before release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0 A.D. Alpha 25 Released For This Open-Source RTS Game]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=0-AD-Alpha-25</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=0-AD-Alpha-25"/>
+        <updated>2021-08-08T13:40:08.000Z</updated>
+        <summary type="html"><![CDATA[0 A.D. as the long in development real-time strategy game developed by Wildfire Games is out with its twenty-fifth alpha release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thunderbird 91 Is Flying Soon As First Major Mail Client Update In A Year]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Coming-Soon</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Coming-Soon"/>
+        <updated>2021-08-08T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Thunderbird 91.0 is approaching release as an annual feature release to this open-source, cross-platform mail client and RSS reader. Given the current release is Thunderbird 78 from last July, there is a lot in store for this "2021" update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm SMCCC TRNG Driver Queued Ahead Of Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SMCCC-TRNG-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SMCCC-TRNG-Linux-5.15"/>
+        <updated>2021-08-08T10:43:31.000Z</updated>
+        <summary type="html"><![CDATA[The Linux kernel already supports making use of Arm's True Random Number Generator (TRNG) SMCCC interface within the random seed code while for the upcoming Linux 5.15 cycle an "arm_smccc_trng" driver is being added and will allow exposing the entropy to user-space...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Has A Huge Batch Of New Graphics Driver Code For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GT-Huge-For-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GT-Huge-For-Linux-5.15"/>
+        <updated>2021-08-08T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel engineers on Friday submitted a big batch of kernel graphics driver improvements to DRM-Next for queuing ahead of the Linux 5.15 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DRM Lease Protocol Support Merged For Wayland For VR Headsets]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-DRM-Lease-Merged</id>
@@ -294,56 +344,6 @@ During GitLab Virtual Commit 2021, Rick and Eric Johnson, Chief Technology Offic
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CrossOver-21.0-Released"/>
         <updated>2021-08-03T15:54:12.000Z</updated>
         <summary type="html"><![CDATA[CodeWeavers has announced the release of CrossOver 21.0 as the latest major update to their commercial software powered by Wine for running Windows games and applications on Linux and macOS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sabrent Rocket 4 Plus 1TB NVMe PCIe 4.0 SSD On Linux]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30409</id>
-        <link href="https://www.phoronix.com/vr.php?view=30409"/>
-        <updated>2021-08-03T12:05:54.000Z</updated>
-        <summary type="html"><![CDATA[Last year Sabrent launched the Rocket 4 Plus PCIe 4.0 NVMe solid-state drive and left me puzzled for months finding that the Linux performance was coming in short of expectations under Linux. However, Sabrent recently released a firmware update (v1.2) for the Rocket 4 Plus and now the drive seems to be much better positioned under Linux.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Pinot Makes It To The Organization's Top Shelf For Real-Time Big Data Analytics]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Pinot-TLP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-Pinot-TLP"/>
-        <updated>2021-08-03T10:04:29.000Z</updated>
-        <summary type="html"><![CDATA[After being started by LinkedIn and open-source now for more than a half-decade while incubating at the Apache Software Foundation the past three years, Apache Pinot is the latest project graduating to become a top-level Apache project...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLVM 13 Feature Development Is Over, LLVM 14 Enters Development]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Features-Over</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Features-Over"/>
-        <updated>2021-08-03T09:51:08.000Z</updated>
-        <summary type="html"><![CDATA[LLVM 13.0 feature development has ended with the code now branched and the first release candidate tagged...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X-Plane Flight Simulator Continues Advancing Its Renderer With Vulkan]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X-Plane-More-Vulkan-Future</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X-Plane-More-Vulkan-Future"/>
-        <updated>2021-08-03T08:40:00.000Z</updated>
-        <summary type="html"><![CDATA[X-Plane is not only the most realistic flight simulator that has long offered native Linux support but it's the only instance of a Vulkan-powered flight simulator I am aware of. While long tied to OpenGL, the company behind X-Plane is making it clear that the graphics rendering future is with Vulkan (and Metal when talking about Apple platforms)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git 2.33 Is On The Way With An Assortment Of Fixes, Updated Documentation]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-rc0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-rc0"/>
-        <updated>2021-08-03T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Monday marked the release of Git 2.33-rc0 as the first test release of the next version of this distributed revision control system...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
