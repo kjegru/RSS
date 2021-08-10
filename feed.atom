@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-09T00:22:38.462Z</id>
+    <id>urn:2021-08-10T00:22:44.281Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-09T00:22:38.462Z</updated>
+    <updated>2021-08-10T00:22:44.281Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Intel Fully Embracing LLVM For Their C/C++ Compilers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-LLVM-Adoption-C-CPP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-LLVM-Adoption-C-CPP"/>
+        <updated>2021-08-09T22:31:33.000Z</updated>
+        <summary type="html"><![CDATA[Intel's next-generation C/C++ compilers are fully leveraging the LLVM compiler stack in place of their former proprietary compiler code-base. Intel has "complete[d] adoption" of LLVM moving forward for their C/C++ compiler needs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux "sev_secret" Patches For Tapping Confidential Computing Secret Areas In AMD SEV]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-AMD-sev_secret</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-AMD-sev_secret"/>
+        <updated>2021-08-09T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest AMD SEV work happening to the Linux kernel for benefiting EPYC servers with virtualization is the new "sev_secret" module for allowing guests to access confidential computing secret areas...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle Sends Out Newest Patches For Trenchboot / Secure Launch For The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Trenchboot-Linux-v3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Trenchboot-Linux-v3"/>
+        <updated>2021-08-09T17:37:48.000Z</updated>
+        <summary type="html"><![CDATA[For more than one year now Oracle engineers have been working on Trenchboot support for securely booting the Linux kernel. Sent out today is the third revision of this work for establishing a dynamic root of trust for measurement...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arch Linux, Clear Linux & Ubuntu Against Windows 10/11 On Intel Rocket Lake]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30426</id>
+        <link href="https://www.phoronix.com/vr.php?view=30426"/>
+        <updated>2021-08-09T13:05:16.000Z</updated>
+        <summary type="html"><![CDATA[Last month after Microsoft began publishing their Windows Insider Preview builds of Windows 11, I ran some early Windows 11 benchmarks against Linux using an AMD Ryzen 9 5950X. Linux led in those benchmarks on the AMD Zen 3 desktop while for those wondering if that still holds true for Intel hardware, here are benchmarks of a Core i9 11900K "Rocket Lake" desktop with Windows 10 21H1, Windows 11 in its latest preview build as of testing, and then compared to Arch Linux / Clear Linux / Ubuntu.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rav1e 0.5 Beta Released For This Rust-Written AV1 Encoder]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rav1e-0.5-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rav1e-0.5-Beta"/>
+        <updated>2021-08-09T11:56:56.000Z</updated>
+        <summary type="html"><![CDATA[Audio/video encoders and decoders are one of the areas where usage of the Rust programming language has increasing interest for speed and safety. One of the most promising Rust-written encoders at the moment is Rav1e for AV1 video encoding and it's now working towards its v0.5 release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RadeonSI Lands Regression Fix For ~10x Higher CPU Usage For Some Games]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Too-Many-Variants</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Too-Many-Variants"/>
+        <updated>2021-08-09T11:17:06.000Z</updated>
+        <summary type="html"><![CDATA[Merged one month ago was RadeonSI enabling by default its optimization to replace uniforms with literals inside shaders. This uniform inlining helped with SPECViewPerf and other workloads but it turns out in the process sharply drove up CPU usage when running some games...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.0, Linux 5.11 Prepared For Ubuntu 20.04 LTS Updates]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS-Coming"/>
+        <updated>2021-08-09T10:11:31.000Z</updated>
+        <summary type="html"><![CDATA[Ubuntu 20.04.3 LTS is expected later this month as the next point release to the "Focal Fossa" long-term support cycle. With this update comes the hardware enablement stack from Ubuntu 21.04 which in turn means Linux 5.11 and Mesa 21.0 graphics support is available as package updates now...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Synopsys Looks To Remove Oldest ARC CPU Support From The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ARC750-Drop-Linux-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ARC750-Drop-Linux-Patches"/>
+        <updated>2021-08-09T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Synopsys is looking to phase out support for the oldest ARC processors found within the mainline Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Ways to scale remote work on your team]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/09/five-ways-to-scale-remote-work/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/09/five-ways-to-scale-remote-work/"/>
+        <updated>2021-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At GitLab, we believe that remote work at scale will define not only the future of work, but the future of living. We created REMOTE by GitLab to bring together the remote work community and answer the questions many companies are asking: "How do we do this, and what's next?"
+We heard from some of the top leaders in remote work, from large companies that made the decision to leave the office behind, to teams of experts who have been studying the organizational design for years.
+We share five lessons from the REMOTE by GitLab event that your team can apply to uplevel your remote practices and culture.
+Set guiding principles for your remote transition (and stick to them)
+As you navigate the changes that come with implementing remote-first practices, it's important to have a set of values and…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14-rc5 Released - "Looking Perfectly Normal"]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc5-Released</id>
@@ -257,46 +351,6 @@ Arm is a leading provider of silicon intellectual property (IP) for intelligent 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Arch Linux, Clear Linux, Fedora Compete On The ASUS ROG Strix G15]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30414</id>
-        <link href="https://www.phoronix.com/vr.php?view=30414"/>
-        <updated>2021-08-04T12:45:15.000Z</updated>
-        <summary type="html"><![CDATA[Following last month's look at the ASUS ROG Strix G15 AMD Advantage laptop with Ryzen 9 5900HX processor and some of the initial hurdles seen on Ubuntu, readers were curious about how well other Linux distributions fared compatibility wise or if offering better performance elsewhere. Here are some tests across Arch Linux, Clear Linux, Fedora Workstation, and Ubuntu 21.04 for reference.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Server Adds "Fake Screen FPS" Option]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-fakescreenfps</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-fakescreenfps"/>
-        <updated>2021-08-04T10:06:43.000Z</updated>
-        <summary type="html"><![CDATA[The X.Org Server has picked up a new "-fakescreenfps" option to help with VNC and other remote  display scenarios...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Many Interesting Talks On Deck For The X.Org Developers Conference 2021]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XDC-2021-Scheduler</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XDC-2021-Scheduler"/>
-        <updated>2021-08-04T09:45:02.000Z</updated>
-        <summary type="html"><![CDATA[The program/schedule for this year's XDC21 X.Org Developers' Conference was posted this week ahead of the event occurring in mid-September. There are many interesting talks about X.Org and beyond, which in recent years largely revolve around Mesa and Wayland...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD PTDMA Driver Revised Ahead Of Its Possible Inclusion For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-v11</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-Linux-v11"/>
-        <updated>2021-08-04T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the AMD patch series that has been in the works for more than one year is the PTDMA driver providing pass-through DMA engine support on Linux. The driver is now up to its eleventh revision but the mainlining might happen soon...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How UBS created their own open DevOps Platform using GitLab]]></title>
         <id>https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/</id>
         <link href="https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/"/>
@@ -306,46 +360,6 @@ Arm is a leading provider of silicon intellectual property (IP) for intelligent 
 During GitLab Virtual Commit 2021, Rick and Eric Johnson, Chief Technology Officer at GitLab, talked about how building DevCloud on GitLab's DevOps Platform allowed UBS to increase their development velocity, lower their infrastructure costs, and increase collaboration between engineers and non-engineering teams worldwi…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Hiring For Open-Source GPU Driver Work With Mentions Of Tesla Model S, Steam Deck]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Job-Tesla-Steam-Deck</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Job-Tesla-Steam-Deck"/>
-        <updated>2021-08-03T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With AMD's increasing marketshare on the CPU and GPU front, scoring more data center wins, and also scoring custom design wins for Linux-based environments such as with the Tesla Model S and most recently with the Steam Deck, AMD continues hiring more Linux engineers...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon ROCm 4.3 Released With HMM Allocations, Many Other Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-ROCm-4.3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-ROCm-4.3"/>
-        <updated>2021-08-03T17:09:25.000Z</updated>
-        <summary type="html"><![CDATA[AMD has released ROCm 4.3 as the newest version of their Radeon Open eCosystem stack for providing open-source GPU compute and CUDA portability for their supported graphics processors under Linux. ROCm 4.3 is the biggest update we've seen for this important enterprise piece to their enterprise GPU compute stack in a while...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Calls On Companies To Devote More Engineers To Upstream Linux, Toolchains]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Security-More-Engineers</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-Security-More-Engineers"/>
-        <updated>2021-08-03T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Longtime kernel developer Kees Cook of the Google Security Team published a post on Google's Security Blog today effectively calling for more organizations to devote a greater number of engineers to the upstream Linux kernel in order to improve open-source security...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CodeWeavers Releases CrossOver 21 - Rebased On Wine 6.0]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CrossOver-21.0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CrossOver-21.0-Released"/>
-        <updated>2021-08-03T15:54:12.000Z</updated>
-        <summary type="html"><![CDATA[CodeWeavers has announced the release of CrossOver 21.0 as the latest major update to their commercial software powered by Wine for running Windows games and applications on Linux and macOS...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
