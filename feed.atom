@@ -1,10 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-10T00:22:44.281Z</id>
+    <id>urn:2021-08-11T00:28:04.196Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-10T00:22:44.281Z</updated>
+    <updated>2021-08-11T00:28:04.196Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[ExpressVPN Opens Up Its Lightway VPN Protocol]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ExpressVPN-Lightway-OSS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ExpressVPN-Lightway-OSS"/>
+        <updated>2021-08-10T22:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year major VPN provider ExpressVPN announced "Lightway" as their new virtual private network protocol designed for speed, stability, and reliability. ExpressVPN announced today they are now making the protocol open-source...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[elementary OS 6.0 Released For A Meticulously Crafted Linux Desktop]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Elementary-OS-6.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Elementary-OS-6.0"/>
+        <updated>2021-08-10T19:00:01.000Z</updated>
+        <summary type="html"><![CDATA[The Elementary OS Linux distribution known for its very polished and well crafted desktop experience is out with its big 6.0 "Odin" update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon Software for Linux 21.30 Brings Support For Ubuntu 20.04.3 LTS, RX 6600 XT]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.30</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.30"/>
+        <updated>2021-08-10T18:05:36.000Z</updated>
+        <summary type="html"><![CDATA[With the Radeon RX 6600 XT review embargo lifted and the cards set to hit retail channels this week, the Radeon Software for Linux 21.30 driver has been released in now officially supporting the RX 6600 series...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL 2.0.16 Released With Better Wayland Support, PipeWire Integration]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Released"/>
+        <updated>2021-08-10T17:45:12.000Z</updated>
+        <summary type="html"><![CDATA[SDL 2.0.16 is officially out today as the latest update to this widely-used cross-platform library for serving as an abstraction layer around graphics, controllers / input, and more that makes it widely used by cross-platform games as well as the likes of the Steam Runtime...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA 470.63.01 Linux Driver Brings RTX A2000, Vulkan Wayland Surface Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.63.01-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.63.01-Linux"/>
+        <updated>2021-08-10T17:14:36.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA today released their latest stable driver update in the 470 series for Linux users...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Radeon RX 6600 XT Linux Gaming Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30430</id>
+        <link href="https://www.phoronix.com/vr.php?view=30430"/>
+        <updated>2021-08-10T13:00:01.000Z</updated>
+        <summary type="html"><![CDATA[The Radeon RX 6600 XT was announced at the end of July as AMD's newest RDNA2 graphics card and is optimized for a performant 1080p gaming experience. For those wondering about its performance, this morning the embargo lifts to be able to talk about its performance. Here are the first Linux gaming benchmarks of the Radeon RX 6600 XT against a wide assortment of other AMD Radeon and NVIDIA GeForce graphics cards.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox 91 Released As New ESR Base, HTTPS First Policy For Private Mode]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-91-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-91-Released"/>
+        <updated>2021-08-10T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Firefox 91.0 is out this morning as the latest monthly update to Mozilla's cross-platform web browser...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RADV Lands Fast Clear Improvements, Helping RDNA With VKD3D-Proton]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Fast-Clear-Improvements</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Fast-Clear-Improvements"/>
+        <updated>2021-08-10T12:39:14.000Z</updated>
+        <summary type="html"><![CDATA[Samuel Pitoiset of Valve's Linux graphics driver team has been working on a number of improvements in recent days to the RADV Vulkan driver's handling around delta color compression (DCC) fast clears...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Preparing 5-Level Paging Linux Support For Future CPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-5-Level-Paging-KVM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-5-Level-Paging-KVM"/>
+        <updated>2021-08-10T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Future AMD CPUs -- potentially AMD EPYC 7004 "Genoa" -- will be supporting 5-level paging...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alder Lake P Support Added To Intel's IGC Graphics Compiler]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Alder-Lake-P</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Alder-Lake-P"/>
+        <updated>2021-08-10T09:59:18.000Z</updated>
+        <summary type="html"><![CDATA[Intel's Graphics Compiler "IGC" that is used by their Windows driver as well as the Intel Compute Runtime for OpenCL / Level Zero support (and potentially the Mesa drivers in the future) has now landed Alder Lake P enablement...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X.Org Server 21.1 Will Aim To Release In The Coming Weeks]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-Coming"/>
+        <updated>2021-08-10T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[It looks like X.Org Server 21.1 (long in development the past few years as X.Org Server 1.21) will see a stable release in the coming weeks...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/"/>
+        <updated>2021-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In part two of our GitOps series, we described how to use a push-based (or agentless) approach for GitOps by using GitLab scripting capabilities as well as integrating infrastructure-as-code tools into GitOps pipelines. In this third blog post, we’ll also dig deep into how to use a push-based approach, but this time our focus will be on the integrations of Terraform, AWS ECS, and AWS EC2 in GitOps flows. This approach may be preferable when using infrastructure components that aren't Kubernetes, such as VMs, physical devices, and cloud-provider services.
+Similar to Ansible – an agentless IT automation solution – Terraform can be leveraged by the scripting capabilities of GitLab to shape your infrastructure. GitLab also provides out-of-the-box integrations with Terraform, such as GitLab-man…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 13.12.10]]></title>
+        <id>https://about.gitlab.com/releases/2021/08/10/gitlab-13-12-10-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/08/10/gitlab-13-12-10-released/"/>
+        <updated>2021-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 13.12.10 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+May's 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Fix: Sidekiq workers delete each other's metrics
+Do not create audit event for failed logins on read-only DB
+Fix validation method regarding MIME type keys
+Resolve "operator does not exist" in app/models/namespace/traversal_hierarchy.rb
+gitlab-rails: checks/postgresql detect silent NoDatabaseError
+Adding -ubi8 to version to find UBI images
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Intel Fully Embracing LLVM For Their C/C++ Compilers]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-LLVM-Adoption-C-CPP</id>
@@ -230,86 +384,6 @@ As you navigate the changes that come with implementing remote-first practices, 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Firefox 92 To Try Again With AVIF Image Support By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-AVIF-Trying-Again</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-AVIF-Trying-Again"/>
-        <updated>2021-08-06T12:50:07.000Z</updated>
-        <summary type="html"><![CDATA[Mozilla is trying once again to enable AVIF image decoding support by default within the Firefox web browser. AVIF is the promising image file format based on using AV1 in the HEIF file format...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon's DAMON Landing For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-For-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-For-Linux-5.15"/>
-        <updated>2021-08-06T12:06:27.000Z</updated>
-        <summary type="html"><![CDATA[Amazon's Data Access Monitor "DAMON" code is now set for introduction in Linux 5.15...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Working To Combine The Best Of CET + CFI Into "FineIBT"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-FineIBT-Security</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-FineIBT-Security"/>
-        <updated>2021-08-06T10:15:48.000Z</updated>
-        <summary type="html"><![CDATA[Intel security researchers have been working on implementing toolchain-optimized fine-grained Control Flow Integrity (CFI) support on top of Intel's hardware-based Control-flow Enforcement Technology (CET). By leveraging Intel CET, the Control-Flow Integrity overhead is much lower than the otherwise pure software/compiler-based approach. This Linux security improvement is being worked on under the name of FineIBT...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flax Engine 1.2 Brings Many Big Improvements For This Open-Source Commercial Game Engine]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Flax-Engine-1.2.6222</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Flax-Engine-1.2.6222"/>
-        <updated>2021-08-06T09:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Flax Engine 1.2.6222 is out today as the first v1.2 update for this cross-platform, open-source but commercial game engine...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FUTEX2 Patches Sent Out In Simpler Form For Helping Windows Games On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Simpler-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Simpler-Patches"/>
-        <updated>2021-08-05T19:20:44.000Z</updated>
-        <summary type="html"><![CDATA[The ongoing FUTEX2 work for making the futex handling more like Windows to in turn help Windows games on Linux via Wine (with a focus on Steam Play's Proton) has taken a new turn...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tyan Transport CX GC68B8036-LE AMD EPYC 7003 1U Platform]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30422</id>
-        <link href="https://www.phoronix.com/vr.php?view=30422"/>
-        <updated>2021-08-05T13:06:31.000Z</updated>
-        <summary type="html"><![CDATA[This summer we have been testing the Tyan Transport CX GC68B8036-LE as one of the company's newest options for those in the market for an AMD EPYC 7003 "Milan" 1U 1P barebones server. Across our wide range of Linux and BSD benchmarking this Tyan Transport CX GC68B8036-LE with Tyan S8036GM2NE motherboard has been holding up well and meeting our requirements and proven reliability in having tested Tyan products now at Phoronix for over the past 16 years.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung Revs Its In-Kernel SMB3 Server Focused On Fast Performance, New Features]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-KSMBD-v7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-KSMBD-v7"/>
-        <updated>2021-08-05T10:23:19.000Z</updated>
-        <summary type="html"><![CDATA[While Samba is well known for SMB/CIFS server support on Linux and other platforms for supporting Microsoft's SMB networking protocol for file and print services, Samba is implemented in user-space while Samsung has been pursuing an SMB server implemented in kernel-space for better performance and wiring up new features that can be more easily accomplished within the kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 12's Static Analyzer Gaining Initial Assembly Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Analyzer-ASM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Analyzer-ASM"/>
-        <updated>2021-08-05T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Merged into the GNU Compiler Collection development code on Wednesday was an initial implementation of Assembly support for its analyzer...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[23% Cost savings and 36% performance gain by deploying GitLab on Arm-based AWS Graviton2]]></title>
         <id>https://about.gitlab.com/blog/2021/08/05/achieving-23-cost-savings-and-36-performance-gain-using-gitlab-and-gitlab-runner-on-arm-neoverse-based-aws-graviton2-processor/</id>
         <link href="https://about.gitlab.com/blog/2021/08/05/achieving-23-cost-savings-and-36-performance-gain-using-gitlab-and-gitlab-runner-on-arm-neoverse-based-aws-graviton2-processor/"/>
@@ -318,36 +392,6 @@ As you navigate the changes that come with implementing remote-first practices, 
 Arm is a leading provider of silicon intellectual property (IP) for intelligent systems-on-chip (SoC) that power billions of devices. GitLab and Arm have collabo…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.2 Released With New Intel Crocus Driver, PanVK, Early M1 Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2-Released"/>
-        <updated>2021-08-04T19:30:52.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 21.2 is out as the latest quarterly update to this open-source Linux graphics driver stack for user-space, most notably providing the Intel and Radeon OpenGL/Vulkan drivers among others...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Working On BPF CO-RE Support For GCC To Easily Run BPF Programs On Any Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BPF-CO-RE-For-GCC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BPF-CO-RE-For-GCC"/>
-        <updated>2021-08-04T19:00:51.000Z</updated>
-        <summary type="html"><![CDATA[Running eBPF kernel programs continues to be increasing popular and used for a variety of use-cases in production environments but one of the challenges is around needing to compile the (e)BPF programs for a given kernel while BPF CO-RE has been working to change that. The LLVM Clang compiler already supports the ability for BPF "Compile Once, Run Everywhere" while now Oracle engineers are working to bring the same level of support to GCC...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Proposes Linux Kernel Driver Allow/Deny Filtering]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Driver-Filtering-Option</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Driver-Filtering-Option"/>
-        <updated>2021-08-04T18:13:01.000Z</updated>
-        <summary type="html"><![CDATA[As part of their work around Trust Domain Extensions (TDX) support for Linux, Intel engineers are proposing a driver filter option for Linux to be able to set allow or deny lists of driver(s) that can or cannot be loaded by the booted kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -625,17 +669,6 @@ A developer's tale
 Everyone starts fresh, and often best practices are just "learning by doing," requiring documentation in the same moment. Programming languages and application architectures are also different - a C++ backend environment has different requirements than a Ruby on Rails web application.
 Start with defining the requirements and stages. Oftentimes they are equivalent to CI/CD pipeline stages but executed in your own environment.
 Compile/build the a…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitOps viewed as part of the Ops evolution]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/12/gitops-as-the-evolution-of-operations/"/>
-        <updated>2021-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitOps is a hot topic in the world of operations, but what does it provide to workflows that we didn’t have already? Looking at the evolution of the operations space, there have been many big changes in the past 20 years, and I argue that GitOps is not a change, rather a summary of best practices. So, how do we describe the major phenomenon in Ops over the past 20 years?
-Before 2000, the primary approach to operations was to hire a System Administrator or empower Lead Developers to do Ops work. System Administrators knew a lot about networking and server optimisations, and a good sysadmin can do most of their work through code, using Bash, Perl or Python scripts. While every software engineer likely knows at least the basics of shell scripting, even many backend engineers would not be comf…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
