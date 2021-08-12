@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-11T00:28:04.196Z</id>
+    <id>urn:2021-08-12T00:21:44.884Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-11T00:28:04.196Z</updated>
+    <updated>2021-08-12T00:21:44.884Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Thunderbird 91 Released With Big Improvements For This Open-Source Mail Client]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Released"/>
+        <updated>2021-08-12T00:06:40.000Z</updated>
+        <summary type="html"><![CDATA[Thunderbird 91 is now available as the first major update in a year for this Mozilla mail client that is succeeding the Thunderbird 78 series...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon RX 6600/6700/6800 XT: RADV vs. PRO Vulkan Driver Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30434</id>
+        <link href="https://www.phoronix.com/vr.php?view=30434"/>
+        <updated>2021-08-11T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[With yesterday's launch day Radeon RX 6600 XT Linux review the benchmarks were conducted using the popular Mesa RADV open-source driver used by many Linux gamers considering it's the driver Valve has been relentlessly optimizing and is the default on most (or all) Linux distributions. For those wondering how the performance of RADV is comparing to that of AMD's closed-source "PRO" Vulkan driver distributed as part of the "Radeon Software for Linux" package, here are some benchmarks exploring that difference.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DXVK-Native Sees First Release For Easing Direct3D-To-Vulkan Game Porting On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-Native-First-Release</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-Native-First-Release"/>
+        <updated>2021-08-11T13:26:00.000Z</updated>
+        <summary type="html"><![CDATA[DXVK has proven to be a huge success for improving the experience of running Windows Direct3D 9/10/11 games on Linux by translating those D3D calls to Vulkan. DXVK-Native meanwhile is the newer spin-off effort around providing a DXVK-based build native for Linux to help in game ports that still can then rely on their Direct3D renderer path...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi V3DV Driver Nearing Vulkan 1.1 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Nears-Vulkan-1.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Nears-Vulkan-1.1"/>
+        <updated>2021-08-11T13:13:47.000Z</updated>
+        <summary type="html"><![CDATA[The open-source V3DV driver living within Mesa for providing Vulkan API support for modern Broadcom VideoCore graphics -- most notably found in the Raspberry Pi 4 and newer -- is nearing Vulkan 1.1 compliance...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Preparing Linux Kernel Support For "Unaccepted Memory"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Patches-Unaccepted-Memory</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Patches-Unaccepted-Memory"/>
+        <updated>2021-08-11T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest patch series from Intel engineers worth noting for the Linux kernel is around implementing support for on-demand "unaccepted memory". Unaccepted memory is supported by the latest-generation AMD EPYC processors but not yet supported under Linux for on-demand/as-needed handling while Intel is preparing the kernel support for their next-gen Xeon CPUs having this capability...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q3.4 Driver Fixes "Horrifically Broken" Switchable Graphics Layer]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.4"/>
+        <updated>2021-08-11T10:05:55.000Z</updated>
+        <summary type="html"><![CDATA[It's been less than one week since the AMDVLK 2021.Q3.3 update for this official open-source Radeon Vulkan Linux driver while today AMD has issued its latest update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Polychromatic 0.7 Released With Improved UI For Configuring Gaming Keyboards, Mice]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Polychromatic-0.7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Polychromatic-0.7"/>
+        <updated>2021-08-11T09:42:35.000Z</updated>
+        <summary type="html"><![CDATA[Polychromatic as the long-running, third-party, open-source project to allow Razer's gaming peripherals like mice and keyboard to be configured under Linux is out with a major update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libre-SoC Pursuing New Crypto Primitives & Instructions For OpenPOWER]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SoC-Crypto-Project</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SoC-Crypto-Project"/>
+        <updated>2021-08-11T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Libre-SoC began as "Libre RISC-V" envisioned as a low-power graphics/Vulkan accelerator, it has morphed into a hybrid CPU/GPU design built on OpenPOWER and in very early form seeing test fabrication on a TSMC 180nm process. The latest funding received is now working on adding cryptographic improvements to it and/or the upstream OpenPOWER ISA...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Graphics Driver Queues More DG2 Code For Linux While Removing Cannon Lake]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-5.15-DG2-CNL</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-5.15-DG2-CNL"/>
+        <updated>2021-08-11T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel has another big batch of open-source kernel graphics driver updates it sent out to DRM-Next for queuing ahead of the upcoming Linux 5.15 cycle. The DG2 graphics card is getting wired up while this pull request does also finally remove the Cannon Lake "Gen 10" graphics that never materialized in commercial products...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ExpressVPN Opens Up Its Lightway VPN Protocol]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ExpressVPN-Lightway-OSS</id>
@@ -289,96 +379,6 @@ As you navigate the changes that come with implementing remote-first practices, 
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SMCCC-TRNG-Linux-5.15"/>
         <updated>2021-08-08T10:43:31.000Z</updated>
         <summary type="html"><![CDATA[The Linux kernel already supports making use of Arm's True Random Number Generator (TRNG) SMCCC interface within the random seed code while for the upcoming Linux 5.15 cycle an "arm_smccc_trng" driver is being added and will allow exposing the entropy to user-space...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Has A Huge Batch Of New Graphics Driver Code For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GT-Huge-For-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-GT-Huge-For-Linux-5.15"/>
-        <updated>2021-08-08T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel engineers on Friday submitted a big batch of kernel graphics driver improvements to DRM-Next for queuing ahead of the Linux 5.15 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DRM Lease Protocol Support Merged For Wayland For VR Headsets]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-DRM-Lease-Merged</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-DRM-Lease-Merged"/>
-        <updated>2021-08-07T12:51:25.000Z</updated>
-        <summary type="html"><![CDATA[The months-long effort for adding DRM lease support to Wayland via a new protocol has now been merged into Wayland Protocols as a new staging addition. The "drm_lease_v1" is principally motivated for improving the virtual reality head-mounted dispkay support under Wayland...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Latte Dock 0.10 Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Latte-Dock-0.10</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Latte-Dock-0.10"/>
-        <updated>2021-08-07T10:30:43.000Z</updated>
-        <summary type="html"><![CDATA[It's been two years already since Latte Dock 0.9 was released while finally Latte Dock 0.10 is ready to officially meet the world this weekend...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Kicks Off August With Many Bug Fixes To Benefit Steam Deck & More]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Fixes-Start-August</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Fixes-Start-August"/>
-        <updated>2021-08-07T09:53:38.000Z</updated>
-        <summary type="html"><![CDATA[The first week of August saw many fixes land in the KDE camp as they prepare for their software to be used on more third-party products, with Steam Deck being just the latest notable product leveraging KDE...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Prepares More Graphics Driver Code For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-AMDGPU</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-AMDGPU"/>
-        <updated>2021-08-07T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last week's AMDGPU pull request to DRM-Next for Linux 5.15 added support for the "Cyan Skillfish" APU and other early work while an additional pull request was submitted on Friday...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gallium Nine Lands Threaded Context Support, Other Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gallium-Nine-TC-Lands</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gallium-Nine-TC-Lands"/>
-        <updated>2021-08-07T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Several improvements were merged on Friday to Mesa's Gallium3D Nine state tracker that allows for an alternative means of Direct3D 9 support within Wine...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNOME's New Human Interface Guidelines Now Official]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Updated-GNOME-HIG-Official</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Updated-GNOME-HIG-Official"/>
-        <updated>2021-08-06T18:06:20.000Z</updated>
-        <summary type="html"><![CDATA[In recent months there has been an effort to update GNOME's Human Interface Guidelines (HIG) to reflect the GTK4 toolkit and recommendations around new widgets, utility panes, and more for enhancing the accessibility of GNOME applications, arguably looking better, and just otherwise modernizing aspects of the HIG that haven't been touched in months. That updated GNOME HIG is now official...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q3.3 Released With Performance Tuning For Rage 2 On Navi 2]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.3-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.3-Released"/>
-        <updated>2021-08-06T17:08:07.000Z</updated>
-        <summary type="html"><![CDATA[AMD has published their newest open-source Vulkan driver snapshot from their official sources that comprise this "AMDVLK" offering for Linux users...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hands On With The AMD Radeon RX 6600 XT]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30425</id>
-        <link href="https://www.phoronix.com/vr.php?view=30425"/>
-        <updated>2021-08-06T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After the AMD Radeon RX 6600 XT was announced last week and ahead of the retail availability next week, today AMD's "unboxing embargo" has expired for this new RDNA2 graphics card focused on delivering high 1080p frame rates. The card we have been testing out under Linux is the ASRock Phantom Gaming RX 6600 XT.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
