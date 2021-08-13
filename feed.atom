@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-12T00:21:44.884Z</id>
+    <id>urn:2021-08-13T00:21:55.861Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-12T00:21:44.884Z</updated>
+    <updated>2021-08-13T00:21:55.861Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AV1 VA-API Acceleration Coming For AMD Radeon RX 6000 Series Linux Users]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon"/>
+        <updated>2021-08-13T00:15:53.000Z</updated>
+        <summary type="html"><![CDATA[With AMD RDNA2 GPUs such as the Radeon RX 6000 series there is hardware support for AV1 decoding while the Linux support has been slow to materialize. Fortunately, that's now changing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Early Look At LLVM Clang 13 Performance On AMD Zen 3]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30442</id>
+        <link href="https://www.phoronix.com/vr.php?view=30442"/>
+        <updated>2021-08-12T18:47:11.000Z</updated>
+        <summary type="html"><![CDATA[With LLVM/Clang 13 feature development having ended last week and the 13.0 release candidate being tagged, in starting off the benchmarking cycle first up I was looking at how well this new compiler is performing compared to LLVM Clang 12 stable on an AMD EPYC 7543 (Zen 3) Linux server.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft & Others Form The eBPF Foundation]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=eBPF-Foundation</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=eBPF-Foundation"/>
+        <updated>2021-08-12T17:11:15.000Z</updated>
+        <summary type="html"><![CDATA[One of the most exciting Linux kernel innovations in recent years has been eBPF for an in-kernel virtual machine allowing sandboxed programs running within the Linux kernel. The Linux Foundation along with Microsoft and other partners are now forming the eBPF Foundation...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Appears Ready To Advertise Its DG1 Graphics Card Support On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Linux-Ready-IDs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Linux-Ready-IDs"/>
+        <updated>2021-08-12T13:20:43.000Z</updated>
+        <summary type="html"><![CDATA[As I have covered in many Phoronix articles over the past number of months, it's been a lengthy road bringing up the DG1 graphics support on Linux with the Intel open-source engineers having to re-architect their "i915" kernel graphics driver to support device local memory, getting the GuC support into good shape, scheduler changes, beginning to make use of TTM for memory management, user-space API changes, and a ton of other changes in expanding the driver's scope from just catering to integrated graphics. But now it looks like the DG1 Linux support is about to be officially advertised...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Van Gogh Firmware Published, Other Radeon GPU Firmware Updated]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-21.30-FW</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-21.30-FW"/>
+        <updated>2021-08-12T12:45:37.000Z</updated>
+        <summary type="html"><![CDATA[AMD has upstreamed the Van Gogh binary-only firmware files necessary for the RDNA2 graphics to be initialized by the open-source driver on this forthcoming APU.'..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Btrfs Set To Land Support For IDMAPPED Mounts In Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-IDMAPPED-Mounts</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-IDMAPPED-Mounts"/>
+        <updated>2021-08-12T10:48:03.000Z</updated>
+        <summary type="html"><![CDATA[Introduced to the Linux kernel earlier this year with Linux 5.12 was IDMAPPED mounts that allow for different mounts to expose the same file or directory with different ownership. IDMAPPED mounts was designed with use-cases ranging from containers to systemd-homed and more as outlined in the earlier article. Btrfs is now ready to begin supporting IDMAPPED mounts...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox 92 Beta Takes Flight With AVIF Image Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-Beta"/>
+        <updated>2021-08-12T10:03:23.000Z</updated>
+        <summary type="html"><![CDATA[With this week's release of Firefox 91, like clockwork the beta for Firefox 92 is now available to facilitate wider testing of this next browser release to debut in September...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qt Creator 5.0 Nears With New Features]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-RC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-RC"/>
+        <updated>2021-08-12T09:51:55.000Z</updated>
+        <summary type="html"><![CDATA[Qt Creator as the Qt/C++ focused integrated development environment from The Qt Company is preparing to release version 5.0 as it prepares to switch to semantic versioning...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Linux Kernel Begins Preparing For AV1 Decode Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Media-RFC-AV1-uAPI</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Media-RFC-AV1-uAPI"/>
+        <updated>2021-08-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The number of hardware platforms providing accelerated AV1 coding is still quite limited for now but with more hardware coming to market supporting encode/decode of this royalty-free video codec, the Linux kernel's media subsystem is getting ready...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thunderbird 91 Released With Big Improvements For This Open-Source Mail Client]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Released</id>
@@ -280,56 +370,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Arch Linux, Clear Linux & Ubuntu Against Windows 10/11 On Intel Rocket Lake]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30426</id>
-        <link href="https://www.phoronix.com/vr.php?view=30426"/>
-        <updated>2021-08-09T13:05:16.000Z</updated>
-        <summary type="html"><![CDATA[Last month after Microsoft began publishing their Windows Insider Preview builds of Windows 11, I ran some early Windows 11 benchmarks against Linux using an AMD Ryzen 9 5950X. Linux led in those benchmarks on the AMD Zen 3 desktop while for those wondering if that still holds true for Intel hardware, here are benchmarks of a Core i9 11900K "Rocket Lake" desktop with Windows 10 21H1, Windows 11 in its latest preview build as of testing, and then compared to Arch Linux / Clear Linux / Ubuntu.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rav1e 0.5 Beta Released For This Rust-Written AV1 Encoder]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rav1e-0.5-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rav1e-0.5-Beta"/>
-        <updated>2021-08-09T11:56:56.000Z</updated>
-        <summary type="html"><![CDATA[Audio/video encoders and decoders are one of the areas where usage of the Rust programming language has increasing interest for speed and safety. One of the most promising Rust-written encoders at the moment is Rav1e for AV1 video encoding and it's now working towards its v0.5 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RadeonSI Lands Regression Fix For ~10x Higher CPU Usage For Some Games]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Too-Many-Variants</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Too-Many-Variants"/>
-        <updated>2021-08-09T11:17:06.000Z</updated>
-        <summary type="html"><![CDATA[Merged one month ago was RadeonSI enabling by default its optimization to replace uniforms with literals inside shaders. This uniform inlining helped with SPECViewPerf and other workloads but it turns out in the process sharply drove up CPU usage when running some games...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.0, Linux 5.11 Prepared For Ubuntu 20.04 LTS Updates]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS-Coming"/>
-        <updated>2021-08-09T10:11:31.000Z</updated>
-        <summary type="html"><![CDATA[Ubuntu 20.04.3 LTS is expected later this month as the next point release to the "Focal Fossa" long-term support cycle. With this update comes the hardware enablement stack from Ubuntu 21.04 which in turn means Linux 5.11 and Mesa 21.0 graphics support is available as package updates now...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synopsys Looks To Remove Oldest ARC CPU Support From The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ARC750-Drop-Linux-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ARC750-Drop-Linux-Patches"/>
-        <updated>2021-08-09T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Synopsys is looking to phase out support for the oldest ARC processors found within the mainline Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[5 Ways to scale remote work on your team]]></title>
         <id>https://about.gitlab.com/blog/2021/08/09/five-ways-to-scale-remote-work/</id>
         <link href="https://about.gitlab.com/blog/2021/08/09/five-ways-to-scale-remote-work/"/>
@@ -341,46 +381,6 @@ Set guiding principles for your remote transition (and stick to them)
 As you navigate the changes that come with implementing remote-first practices, it's important to have a set of values and…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14-rc5 Released - "Looking Perfectly Normal"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc5-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc5-Released"/>
-        <updated>2021-08-08T21:04:24.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds just released the fifth weekly release candidate of Linux 5.14 and he's happy with how it's shaping up a few weeks before release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[0 A.D. Alpha 25 Released For This Open-Source RTS Game]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=0-AD-Alpha-25</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=0-AD-Alpha-25"/>
-        <updated>2021-08-08T13:40:08.000Z</updated>
-        <summary type="html"><![CDATA[0 A.D. as the long in development real-time strategy game developed by Wildfire Games is out with its twenty-fifth alpha release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thunderbird 91 Is Flying Soon As First Major Mail Client Update In A Year]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Coming-Soon</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Coming-Soon"/>
-        <updated>2021-08-08T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Thunderbird 91.0 is approaching release as an annual feature release to this open-source, cross-platform mail client and RSS reader. Given the current release is Thunderbird 78 from last July, there is a lot in store for this "2021" update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm SMCCC TRNG Driver Queued Ahead Of Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SMCCC-TRNG-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-SMCCC-TRNG-Linux-5.15"/>
-        <updated>2021-08-08T10:43:31.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel already supports making use of Arm's True Random Number Generator (TRNG) SMCCC interface within the random seed code while for the upcoming Linux 5.15 cycle an "arm_smccc_trng" driver is being added and will allow exposing the entropy to user-space...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
