@@ -1,18 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-13T00:21:55.861Z</id>
+    <id>urn:2021-08-14T00:20:18.715Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-13T00:21:55.861Z</updated>
+    <updated>2021-08-14T00:20:18.715Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[GeForce RTX 30 vs. AMD Radeon RX 6000 Series Vulkan Ray-Tracing On Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30444</id>
+        <link href="https://www.phoronix.com/vr.php?view=30444"/>
+        <updated>2021-08-13T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Given this week's launch of the Radeon RX 6600 XT and that also bringing the new Radeon Software for Linux 21.30 driver, I was curious to see how the Vulkan ray-tracing performance compares now against the NVIDIA GeForce RTX 30 series on Linux.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.15 Released With More PE Conversion Work, More 32-bit To 64-bit Thunks]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.15-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.15-Released"/>
+        <updated>2021-08-13T19:52:47.000Z</updated>
+        <summary type="html"><![CDATA[Wine 6.15 has been uncorked as the newest bi-weekly development release of this software that powers Steam Play and more for running Windows games/applications on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Tegra Open-Source Graphics Driver Introducing New User-Space ABI]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-New-uABI</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-New-uABI"/>
+        <updated>2021-08-13T18:05:47.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA's Tegra DRM driver that is part of the mainline kernel will be introducing a new user-space API/ABI with Linux 5.15 that is designed for future hardware while also working for existing Tegra SoCs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cirrus Logic "Dolphin" Audio Support Coming For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cirrus-Dolphin-Linux-Audio</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cirrus-Dolphin-Linux-Audio"/>
+        <updated>2021-08-13T12:26:27.000Z</updated>
+        <summary type="html"><![CDATA[Cirrus Logic has contributed a number of improvements to their CS8409 HDA audio driver for the Linux kernel that includes support for new "Dolphin" audio hardware...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 To Allow Reading From The Nintendo OTP Memory Area]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Nintendo-Wii-OTP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Nintendo-Wii-OTP"/>
+        <updated>2021-08-13T11:31:35.000Z</updated>
+        <summary type="html"><![CDATA[For hobbyists that enjoy tinkering around with Linux running on the Nintendo Wii or Wii U game consoles, a new driver coming for Linux 5.15 allows accessing the specialized OTP read-only memory area that contains the encryption/decryption keys and other data...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm Working On Clang C++ For OpenCL 2021 (OpenCL 3.0 Compatible)]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Clang-OpenCL-CPP-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Clang-OpenCL-CPP-2021"/>
+        <updated>2021-08-13T10:24:48.000Z</updated>
+        <summary type="html"><![CDATA[With LLVM's Clang C/C++ compiler front-end squaring away its OpenCL C 3.0 language support, Arm engineers are now working on the C++ equivalent support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 To Add Graphics Support For Qualcomm Adreno 680, 7c3]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Adreno-680-7c3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Adreno-680-7c3"/>
+        <updated>2021-08-13T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The MSM DRM kernel updates to this open-source Qualcomm Adreno driver have been sent in to DRM-Next ahead of the upcoming Linux 5.15 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AV1 VA-API Acceleration Coming For AMD Radeon RX 6000 Series Linux Users]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon"/>
-        <updated>2021-08-13T00:15:53.000Z</updated>
+        <updated>2021-08-13T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[With AMD RDNA2 GPUs such as the Radeon RX 6000 series there is hardware support for AV1 decoding while the Linux support has been slow to materialize. Fortunately, that's now changing...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I use analogy to design for highly technical spaces]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/"/>
+        <updated>2021-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As a designer, you're lucky when you get to design an application you're familiar with, such as a supermarket app or a travel website – something we might have already used or even use every day. Most of the time, we are tasked with designing an application or technology that's unfamiliar or highly technical. Sometimes, we may not know what the application we're designing is used for, like creating an interface for an MRI machine controlled by a doctor, or a dashboard used by a professional musician – knowing what all the buttons do is already an achievement.
+One of the trickiest questions for designers is understanding exactly how much you need to know how to use an application to design the best system for the user. This conundrum is typical for designers that work in a highly technical,…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Great Phabricator features that inspired GitLab]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/13/five-great-phabricator-features-inspired-gitlab/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/13/five-great-phabricator-features-inspired-gitlab/"/>
+        <updated>2021-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Innovation often happens because competition sparks new ideas. We unpack how Phabricator inspired GitLab to add new features.
+Turning back time a bit, what exactly is Phabricator? Built on the concept of web-based applications, Phabricator enables developers to collaborate with code reviews, repository browser, change monitoring, bug tracking and wiki. On May 29, 2021, Phacility, the maintainer and sponsor of Phabricator announced end-of-life and stopped maintaining Phabricator.
+GitLab co-founder and CEO, Sid Sijbrandij gives credit to Phabricator on HackerNews:
+Phabricator was an inspiration to me when starting GitLab. It is shutting down now. Many of its features were years ahead of its time and there was a lot of humor in the product. As a tribute to it shall we add Clowcoptarize as a w…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -256,46 +350,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RADV Lands Fast Clear Improvements, Helping RDNA With VKD3D-Proton]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Fast-Clear-Improvements</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Fast-Clear-Improvements"/>
-        <updated>2021-08-10T12:39:14.000Z</updated>
-        <summary type="html"><![CDATA[Samuel Pitoiset of Valve's Linux graphics driver team has been working on a number of improvements in recent days to the RADV Vulkan driver's handling around delta color compression (DCC) fast clears...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Preparing 5-Level Paging Linux Support For Future CPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-5-Level-Paging-KVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-5-Level-Paging-KVM"/>
-        <updated>2021-08-10T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Future AMD CPUs -- potentially AMD EPYC 7004 "Genoa" -- will be supporting 5-level paging...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alder Lake P Support Added To Intel's IGC Graphics Compiler]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Alder-Lake-P</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IGC-Alder-Lake-P"/>
-        <updated>2021-08-10T09:59:18.000Z</updated>
-        <summary type="html"><![CDATA[Intel's Graphics Compiler "IGC" that is used by their Windows driver as well as the Intel Compute Runtime for OpenCL / Level Zero support (and potentially the Mesa drivers in the future) has now landed Alder Lake P enablement...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Server 21.1 Will Aim To Release In The Coming Weeks]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-Coming"/>
-        <updated>2021-08-10T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[It looks like X.Org Server 21.1 (long in development the past few years as X.Org Server 1.21) will see a stable release in the coming weeks...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2]]></title>
         <id>https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/</id>
         <link href="https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/"/>
@@ -337,36 +391,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Fully Embracing LLVM For Their C/C++ Compilers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-LLVM-Adoption-C-CPP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-LLVM-Adoption-C-CPP"/>
-        <updated>2021-08-09T22:31:33.000Z</updated>
-        <summary type="html"><![CDATA[Intel's next-generation C/C++ compilers are fully leveraging the LLVM compiler stack in place of their former proprietary compiler code-base. Intel has "complete[d] adoption" of LLVM moving forward for their C/C++ compiler needs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux "sev_secret" Patches For Tapping Confidential Computing Secret Areas In AMD SEV]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-AMD-sev_secret</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-AMD-sev_secret"/>
-        <updated>2021-08-09T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest AMD SEV work happening to the Linux kernel for benefiting EPYC servers with virtualization is the new "sev_secret" module for allowing guests to access confidential computing secret areas...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Sends Out Newest Patches For Trenchboot / Secure Launch For The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Trenchboot-Linux-v3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Trenchboot-Linux-v3"/>
-        <updated>2021-08-09T17:37:48.000Z</updated>
-        <summary type="html"><![CDATA[For more than one year now Oracle engineers have been working on Trenchboot support for securely booting the Linux kernel. Sent out today is the third revision of this work for establishing a dynamic root of trust for measurement...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -654,21 +678,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How teams can use the Gitpod integration in GitLab to speed up their development process]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/19/teams-gitpod-integration-gitlab-speed-up-development/"/>
-        <updated>2021-07-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Turn back time a bit and try to remember the first project you started or joined, and the onboarding experience. How long did it take to install the development environment on your local machine?
-We talked about our own onboarding experiences into software development, and thought about sharing our favorite tips with GitLab users.
-A developer's tale
-Everyone starts fresh, and often best practices are just "learning by doing," requiring documentation in the same moment. Programming languages and application architectures are also different - a C++ backend environment has different requirements than a Ruby on Rails web application.
-Start with defining the requirements and stages. Oftentimes they are equivalent to CI/CD pipeline stages but executed in your own environment.
-Compile/build the a…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
