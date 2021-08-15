@@ -208,12 +208,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-Released",
+          "author": null,
+          "description": "Debian 11 \"Bullseye\" has been officially released now after just over two years in development...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-Released",
+          "publishedOn": "2021-08-14T23:15:43.000Z",
+          "wordCount": 666,
+          "title": "Debian 11 \"Bullseye\" Released"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ogre-13-Released",
+          "author": null,
+          "description": "Besides the very successful Godot game engine and the up and coming O3DE, Ogre continues progressing as another useful open-source game engine. Out this weekend is Ogre 13.0 as the project switches up its versioning scheme...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ogre-13-Released",
+          "publishedOn": "2021-08-14T18:21:08.000Z",
+          "wordCount": 659,
+          "title": "Ogre 13 Open-Source Game Engine Released"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-Linux-August-2021",
+          "author": null,
+          "description": "A new status report has been published by the developers of \"Asahi Linux\" that are continuing to work on providing Linux support for the Apple Silicon initially with the M1 SoC...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-Linux-August-2021",
+          "publishedOn": "2021-08-14T16:06:01.000Z",
+          "wordCount": 868,
+          "title": "Reverse Engineering & Bring-Up Of Linux On The Apple Silicon M1 Continues"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-Platform-Profile-Linux",
+          "author": null,
+          "description": "One of the features that has come together nicely for Linux on laptops in recent months has been the platform profile support around the ACPI specification with support from multiple laptop vendors for allowing users to control their power/performance preference based on various system profile configurations. A patch is pending for newer ASUS laptops to enjoy this platform profile control under Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-Platform-Profile-Linux",
+          "publishedOn": "2021-08-14T13:39:40.000Z",
+          "wordCount": 785,
+          "title": "ASUS Laptop Platform Profile Support Under Review For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-GNU-Hurd-2021",
+          "author": null,
+          "description": "In addition to Debian GNU/Linux 11 set for release today, Debian GNU/Hurd 2021 has been released as the unofficial port of Debian to the GNU Hurd micro-kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-GNU-Hurd-2021",
+          "publishedOn": "2021-08-14T13:19:03.000Z",
+          "wordCount": 759,
+          "title": "Debian GNU/Hurd 2021 Released With Experimental Rump-Based Userland Disk Driver, Go Port"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-This-Weekend",
+          "author": null,
+          "description": "Debian 11.0 \"Bullseye\" is due for release today and the Debian developers involved are indeed putting the final touches on this next major Debian GNU/Linux distribution release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11-This-Weekend",
+          "publishedOn": "2021-08-14T10:27:32.000Z",
+          "wordCount": 867,
+          "title": "Debian 11 Is Releasing This Weekend With Many Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Week-More-Plasma-Breeze",
+          "author": null,
+          "description": "KDE developers had another busy summertime week with a variety of UI improvements and other polishing to this open-source desktop environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Week-More-Plasma-Breeze",
+          "publishedOn": "2021-08-14T10:15:15.000Z",
+          "wordCount": 807,
+          "title": "KDE Sees More Improvements To Plasma, Konsole, Breeze This Week"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ardour-6.9-Released",
+          "author": null,
+          "description": "Ardour as one of the leading open-source digital audio workstation (DAW) solutions is out with another new release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ardour-6.9-Released",
+          "publishedOn": "2021-08-14T04:00:00.000Z",
+          "wordCount": 755,
+          "title": "Ardour 6.9 Digital Audio Workstation Released"
+        },
+        {
           "id": "https://www.phoronix.com/vr.php?view=30444",
           "author": null,
           "description": "Given this week's launch of the Radeon RX 6600 XT and that also bringing the new Radeon Software for Linux 21.30 driver, I was curious to see how the Vulkan ray-tracing performance compares now against the NVIDIA GeForce RTX 30 series on Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30444",
           "publishedOn": "2021-08-13T20:00:00.000Z",
-          "wordCount": 964,
+          "wordCount": 944,
           "title": "GeForce RTX 30 vs. AMD Radeon RX 6000 Series Vulkan Ray-Tracing On Linux"
         },
         {
@@ -222,7 +294,7 @@
           "description": "Wine 6.15 has been uncorked as the newest bi-weekly development release of this software that powers Steam Play and more for running Windows games/applications on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.15-Released",
           "publishedOn": "2021-08-13T19:52:47.000Z",
-          "wordCount": 823,
+          "wordCount": 805,
           "title": "Wine 6.15 Released With More PE Conversion Work, More 32-bit To 64-bit Thunks"
         },
         {
@@ -231,7 +303,7 @@
           "description": "NVIDIA's Tegra DRM driver that is part of the mainline kernel will be introducing a new user-space API/ABI with Linux 5.15 that is designed for future hardware while also working for existing Tegra SoCs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Tegra-New-uABI",
           "publishedOn": "2021-08-13T18:05:47.000Z",
-          "wordCount": 845,
+          "wordCount": 827,
           "title": "NVIDIA Tegra Open-Source Graphics Driver Introducing New User-Space ABI"
         },
         {
@@ -240,7 +312,7 @@
           "description": "Cirrus Logic has contributed a number of improvements to their CS8409 HDA audio driver for the Linux kernel that includes support for new \"Dolphin\" audio hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cirrus-Dolphin-Linux-Audio",
           "publishedOn": "2021-08-13T12:26:27.000Z",
-          "wordCount": 828,
+          "wordCount": 773,
           "title": "Cirrus Logic \"Dolphin\" Audio Support Coming For Linux 5.15"
         },
         {
@@ -249,7 +321,7 @@
           "description": "For hobbyists that enjoy tinkering around with Linux running on the Nintendo Wii or Wii U game consoles, a new driver coming for Linux 5.15 allows accessing the specialized OTP read-only memory area that contains the encryption/decryption keys and other data...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Nintendo-Wii-OTP",
           "publishedOn": "2021-08-13T11:31:35.000Z",
-          "wordCount": 887,
+          "wordCount": 858,
           "title": "Linux 5.15 To Allow Reading From The Nintendo OTP Memory Area"
         },
         {
@@ -258,7 +330,7 @@
           "description": "With LLVM's Clang C/C++ compiler front-end squaring away its OpenCL C 3.0 language support, Arm engineers are now working on the C++ equivalent support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Arm-Clang-OpenCL-CPP-2021",
           "publishedOn": "2021-08-13T10:24:48.000Z",
-          "wordCount": 730,
+          "wordCount": 790,
           "title": "Arm Working On Clang C++ For OpenCL 2021 (OpenCL 3.0 Compatible)"
         },
         {
@@ -267,7 +339,7 @@
           "description": "The MSM DRM kernel updates to this open-source Qualcomm Adreno driver have been sent in to DRM-Next ahead of the upcoming Linux 5.15 merge window...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Adreno-680-7c3",
           "publishedOn": "2021-08-13T07:00:00.000Z",
-          "wordCount": 842,
+          "wordCount": 744,
           "title": "Linux 5.15 To Add Graphics Support For Qualcomm Adreno 680, 7c3"
         },
         {
@@ -276,7 +348,7 @@
           "description": "With AMD RDNA2 GPUs such as the Radeon RX 6000 series there is hardware support for AV1 decoding while the Linux support has been slow to materialize. Fortunately, that's now changing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AV1-VA-API-Mesa-Radeon",
           "publishedOn": "2021-08-13T04:00:00.000Z",
-          "wordCount": 885,
+          "wordCount": 787,
           "title": "AV1 VA-API Acceleration Coming For AMD Radeon RX 6000 Series Linux Users"
         },
         {
@@ -285,7 +357,7 @@
           "description": "With LLVM/Clang 13 feature development having ended last week and the 13.0 release candidate being tagged, in starting off the benchmarking cycle first up I was looking at how well this new compiler is performing compared to LLVM Clang 12 stable on an AMD EPYC 7543 (Zen 3) Linux server.",
           "link": "https://www.phoronix.com/vr.php?view=30442",
           "publishedOn": "2021-08-12T18:47:11.000Z",
-          "wordCount": 771,
+          "wordCount": 831,
           "title": "An Early Look At LLVM Clang 13 Performance On AMD Zen 3"
         },
         {
@@ -294,7 +366,7 @@
           "description": "One of the most exciting Linux kernel innovations in recent years has been eBPF for an in-kernel virtual machine allowing sandboxed programs running within the Linux kernel. The Linux Foundation along with Microsoft and other partners are now forming the eBPF Foundation...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=eBPF-Foundation",
           "publishedOn": "2021-08-12T17:11:15.000Z",
-          "wordCount": 856,
+          "wordCount": 758,
           "title": "Microsoft & Others Form The eBPF Foundation"
         },
         {
@@ -303,7 +375,7 @@
           "description": "As I have covered in many Phoronix articles over the past number of months, it's been a lengthy road bringing up the DG1 graphics support on Linux with the Intel open-source engineers having to re-architect their \"i915\" kernel graphics driver to support device local memory, getting the GuC support into good shape, scheduler changes, beginning to make use of TTM for memory management, user-space API changes, and a ton of other changes in expanding the driver's scope from just catering to integrated graphics. But now it looks like the DG1 Linux support is about to be officially advertised...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG1-Linux-Ready-IDs",
           "publishedOn": "2021-08-12T13:20:43.000Z",
-          "wordCount": 1141,
+          "wordCount": 1123,
           "title": "Intel Appears Ready To Advertise Its DG1 Graphics Card Support On Linux"
         },
         {
@@ -312,7 +384,7 @@
           "description": "AMD has upstreamed the Van Gogh binary-only firmware files necessary for the RDNA2 graphics to be initialized by the open-source driver on this forthcoming APU.'..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Software-21.30-FW",
           "publishedOn": "2021-08-12T12:45:37.000Z",
-          "wordCount": 914,
+          "wordCount": 896,
           "title": "AMD Van Gogh Firmware Published, Other Radeon GPU Firmware Updated"
         },
         {
@@ -321,7 +393,7 @@
           "description": "Introduced to the Linux kernel earlier this year with Linux 5.12 was IDMAPPED mounts that allow for different mounts to expose the same file or directory with different ownership. IDMAPPED mounts was designed with use-cases ranging from containers to systemd-homed and more as outlined in the earlier article. Btrfs is now ready to begin supporting IDMAPPED mounts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-IDMAPPED-Mounts",
           "publishedOn": "2021-08-12T10:48:03.000Z",
-          "wordCount": 763,
+          "wordCount": 811,
           "title": "Btrfs Set To Land Support For IDMAPPED Mounts In Linux 5.15"
         },
         {
@@ -330,7 +402,7 @@
           "description": "With this week's release of Firefox 91, like clockwork the beta for Firefox 92 is now available to facilitate wider testing of this next browser release to debut in September...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-92-Beta",
           "publishedOn": "2021-08-12T10:03:23.000Z",
-          "wordCount": 854,
+          "wordCount": 870,
           "title": "Firefox 92 Beta Takes Flight With AVIF Image Support"
         },
         {
@@ -339,7 +411,7 @@
           "description": "Qt Creator as the Qt/C++ focused integrated development environment from The Qt Company is preparing to release version 5.0 as it prepares to switch to semantic versioning...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-5.0-RC",
           "publishedOn": "2021-08-12T09:51:55.000Z",
-          "wordCount": 833,
+          "wordCount": 815,
           "title": "Qt Creator 5.0 Nears With New Features"
         },
         {
@@ -348,7 +420,7 @@
           "description": "The number of hardware platforms providing accelerated AV1 coding is still quite limited for now but with more hardware coming to market supporting encode/decode of this royalty-free video codec, the Linux kernel's media subsystem is getting ready...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Media-RFC-AV1-uAPI",
           "publishedOn": "2021-08-12T07:00:00.000Z",
-          "wordCount": 803,
+          "wordCount": 862,
           "title": "The Linux Kernel Begins Preparing For AV1 Decode Support"
         },
         {
@@ -357,7 +429,7 @@
           "description": "Thunderbird 91 is now available as the first major update in a year for this Mozilla mail client that is succeeding the Thunderbird 78 series...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Thunderbird-91-Released",
           "publishedOn": "2021-08-12T00:06:40.000Z",
-          "wordCount": 789,
+          "wordCount": 725,
           "title": "Thunderbird 91 Released With Big Improvements For This Open-Source Mail Client"
         },
         {
@@ -366,7 +438,7 @@
           "description": "With yesterday's launch day Radeon RX 6600 XT Linux review the benchmarks were conducted using the popular Mesa RADV open-source driver used by many Linux gamers considering it's the driver Valve has been relentlessly optimizing and is the default on most (or all) Linux distributions. For those wondering how the performance of RADV is comparing to that of AMD's closed-source \"PRO\" Vulkan driver distributed as part of the \"Radeon Software for Linux\" package, here are some benchmarks exploring that difference.",
           "link": "https://www.phoronix.com/vr.php?view=30434",
           "publishedOn": "2021-08-11T18:30:00.000Z",
-          "wordCount": 996,
+          "wordCount": 942,
           "title": "Radeon RX 6600/6700/6800 XT: RADV vs. PRO Vulkan Driver Performance"
         },
         {
@@ -375,7 +447,7 @@
           "description": "DXVK has proven to be a huge success for improving the experience of running Windows Direct3D 9/10/11 games on Linux by translating those D3D calls to Vulkan. DXVK-Native meanwhile is the newer spin-off effort around providing a DXVK-based build native for Linux to help in game ports that still can then rely on their Direct3D renderer path...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-Native-First-Release",
           "publishedOn": "2021-08-11T13:26:00.000Z",
-          "wordCount": 790,
+          "wordCount": 765,
           "title": "DXVK-Native Sees First Release For Easing Direct3D-To-Vulkan Game Porting On Linux"
         },
         {
@@ -384,7 +456,7 @@
           "description": "The open-source V3DV driver living within Mesa for providing Vulkan API support for modern Broadcom VideoCore graphics -- most notably found in the Raspberry Pi 4 and newer -- is nearing Vulkan 1.1 compliance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-Nears-Vulkan-1.1",
           "publishedOn": "2021-08-11T13:13:47.000Z",
-          "wordCount": 806,
+          "wordCount": 774,
           "title": "Raspberry Pi V3DV Driver Nearing Vulkan 1.1 Support"
         },
         {
@@ -393,7 +465,7 @@
           "description": "The latest patch series from Intel engineers worth noting for the Linux kernel is around implementing support for on-demand \"unaccepted memory\". Unaccepted memory is supported by the latest-generation AMD EPYC processors but not yet supported under Linux for on-demand/as-needed handling while Intel is preparing the kernel support for their next-gen Xeon CPUs having this capability...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Patches-Unaccepted-Memory",
           "publishedOn": "2021-08-11T12:30:00.000Z",
-          "wordCount": 1311,
+          "wordCount": 1222,
           "title": "Intel Preparing Linux Kernel Support For \"Unaccepted Memory\""
         },
         {
@@ -402,7 +474,7 @@
           "description": "It's been less than one week since the AMDVLK 2021.Q3.3 update for this official open-source Radeon Vulkan Linux driver while today AMD has issued its latest update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.4",
           "publishedOn": "2021-08-11T10:05:55.000Z",
-          "wordCount": 941,
+          "wordCount": 909,
           "title": "AMDVLK 2021.Q3.4 Driver Fixes \"Horrifically Broken\" Switchable Graphics Layer"
         },
         {
@@ -411,7 +483,7 @@
           "description": "Polychromatic as the long-running, third-party, open-source project to allow Razer's gaming peripherals like mice and keyboard to be configured under Linux is out with a major update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Polychromatic-0.7",
           "publishedOn": "2021-08-11T09:42:35.000Z",
-          "wordCount": 811,
+          "wordCount": 800,
           "title": "Polychromatic 0.7 Released With Improved UI For Configuring Gaming Keyboards, Mice"
         },
         {
@@ -420,80 +492,8 @@
           "description": "While Libre-SoC began as \"Libre RISC-V\" envisioned as a low-power graphics/Vulkan accelerator, it has morphed into a hybrid CPU/GPU design built on OpenPOWER and in very early form seeing test fabrication on a TSMC 180nm process. The latest funding received is now working on adding cryptographic improvements to it and/or the upstream OpenPOWER ISA...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Libre-SoC-Crypto-Project",
           "publishedOn": "2021-08-11T07:00:00.000Z",
-          "wordCount": 810,
+          "wordCount": 790,
           "title": "Libre-SoC Pursuing New Crypto Primitives & Instructions For OpenPOWER"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-5.15-DG2-CNL",
-          "author": null,
-          "description": "Intel has another big batch of open-source kernel graphics driver updates it sent out to DRM-Next for queuing ahead of the upcoming Linux 5.15 cycle. The DG2 graphics card is getting wired up while this pull request does also finally remove the Cannon Lake \"Gen 10\" graphics that never materialized in commercial products...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-5.15-DG2-CNL",
-          "publishedOn": "2021-08-11T04:00:00.000Z",
-          "wordCount": 1003,
-          "title": "Intel Graphics Driver Queues More DG2 Code For Linux While Removing Cannon Lake"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ExpressVPN-Lightway-OSS",
-          "author": null,
-          "description": "Last year major VPN provider ExpressVPN announced \"Lightway\" as their new virtual private network protocol designed for speed, stability, and reliability. ExpressVPN announced today they are now making the protocol open-source...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ExpressVPN-Lightway-OSS",
-          "publishedOn": "2021-08-10T22:47:00.000Z",
-          "wordCount": 783,
-          "title": "ExpressVPN Opens Up Its Lightway VPN Protocol"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Elementary-OS-6.0",
-          "author": null,
-          "description": "The Elementary OS Linux distribution known for its very polished and well crafted desktop experience is out with its big 6.0 \"Odin\" update...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Elementary-OS-6.0",
-          "publishedOn": "2021-08-10T19:00:01.000Z",
-          "wordCount": 818,
-          "title": "elementary OS 6.0 Released For A Meticulously Crafted Linux Desktop"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Software-Linux-21.30",
-          "author": null,
-          "description": "With the Radeon RX 6600 XT review embargo lifted and the cards set to hit retail channels this week, the Radeon Software for Linux 21.30 driver has been released in now officially supporting the RX 6600 series...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Software-Linux-21.30",
-          "publishedOn": "2021-08-10T18:05:36.000Z",
-          "wordCount": 934,
-          "title": "Radeon Software for Linux 21.30 Brings Support For Ubuntu 20.04.3 LTS, RX 6600 XT"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-2.0.16-Released",
-          "author": null,
-          "description": "SDL 2.0.16 is officially out today as the latest update to this widely-used cross-platform library for serving as an abstraction layer around graphics, controllers / input, and more that makes it widely used by cross-platform games as well as the likes of the Steam Runtime...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-2.0.16-Released",
-          "publishedOn": "2021-08-10T17:45:12.000Z",
-          "wordCount": 719,
-          "title": "SDL 2.0.16 Released With Better Wayland Support, PipeWire Integration"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.63.01-Linux",
-          "author": null,
-          "description": "NVIDIA today released their latest stable driver update in the 470 series for Linux users...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.63.01-Linux",
-          "publishedOn": "2021-08-10T17:14:36.000Z",
-          "wordCount": 873,
-          "title": "NVIDIA 470.63.01 Linux Driver Brings RTX A2000, Vulkan Wayland Surface Support"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30430",
-          "author": null,
-          "description": "The Radeon RX 6600 XT was announced at the end of July as AMD's newest RDNA2 graphics card and is optimized for a performant 1080p gaming experience. For those wondering about its performance, this morning the embargo lifts to be able to talk about its performance. Here are the first Linux gaming benchmarks of the Radeon RX 6600 XT against a wide assortment of other AMD Radeon and NVIDIA GeForce graphics cards.",
-          "link": "https://www.phoronix.com/vr.php?view=30430",
-          "publishedOn": "2021-08-10T13:00:01.000Z",
-          "wordCount": 849,
-          "title": "AMD Radeon RX 6600 XT Linux Gaming Performance"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-91-Released",
-          "author": null,
-          "description": "Firefox 91.0 is out this morning as the latest monthly update to Mozilla's cross-platform web browser...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-91-Released",
-          "publishedOn": "2021-08-10T13:00:00.000Z",
-          "wordCount": 752,
-          "title": "Firefox 91 Released As New ESR Base, HTTPS First Policy For Private Mode"
         }
       ]
     }

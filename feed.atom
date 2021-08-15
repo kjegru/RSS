@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-14T00:20:18.715Z</id>
+    <id>urn:2021-08-15T00:21:48.975Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-14T00:20:18.715Z</updated>
+    <updated>2021-08-15T00:21:48.975Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Debian 11 "Bullseye" Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Released"/>
+        <updated>2021-08-14T23:15:43.000Z</updated>
+        <summary type="html"><![CDATA[Debian 11 "Bullseye" has been officially released now after just over two years in development...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ogre 13 Open-Source Game Engine Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ogre-13-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ogre-13-Released"/>
+        <updated>2021-08-14T18:21:08.000Z</updated>
+        <summary type="html"><![CDATA[Besides the very successful Godot game engine and the up and coming O3DE, Ogre continues progressing as another useful open-source game engine. Out this weekend is Ogre 13.0 as the project switches up its versioning scheme...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Engineering & Bring-Up Of Linux On The Apple Silicon M1 Continues]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Linux-August-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Linux-August-2021"/>
+        <updated>2021-08-14T16:06:01.000Z</updated>
+        <summary type="html"><![CDATA[A new status report has been published by the developers of "Asahi Linux" that are continuing to work on providing Linux support for the Apple Silicon initially with the M1 SoC...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS Laptop Platform Profile Support Under Review For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Platform-Profile-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Platform-Profile-Linux"/>
+        <updated>2021-08-14T13:39:40.000Z</updated>
+        <summary type="html"><![CDATA[One of the features that has come together nicely for Linux on laptops in recent months has been the platform profile support around the ACPI specification with support from multiple laptop vendors for allowing users to control their power/performance preference based on various system profile configurations. A patch is pending for newer ASUS laptops to enjoy this platform profile control under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian GNU/Hurd 2021 Released With Experimental Rump-Based Userland Disk Driver, Go Port]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-GNU-Hurd-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-GNU-Hurd-2021"/>
+        <updated>2021-08-14T13:19:03.000Z</updated>
+        <summary type="html"><![CDATA[In addition to Debian GNU/Linux 11 set for release today, Debian GNU/Hurd 2021 has been released as the unofficial port of Debian to the GNU Hurd micro-kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian 11 Is Releasing This Weekend With Many Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-This-Weekend</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-This-Weekend"/>
+        <updated>2021-08-14T10:27:32.000Z</updated>
+        <summary type="html"><![CDATA[Debian 11.0 "Bullseye" is due for release today and the Debian developers involved are indeed putting the final touches on this next major Debian GNU/Linux distribution release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Sees More Improvements To Plasma, Konsole, Breeze This Week]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Week-More-Plasma-Breeze</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Week-More-Plasma-Breeze"/>
+        <updated>2021-08-14T10:15:15.000Z</updated>
+        <summary type="html"><![CDATA[KDE developers had another busy summertime week with a variety of UI improvements and other polishing to this open-source desktop environment...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ardour 6.9 Digital Audio Workstation Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ardour-6.9-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ardour-6.9-Released"/>
+        <updated>2021-08-14T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ardour as one of the leading open-source digital audio workstation (DAW) solutions is out with another new release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GeForce RTX 30 vs. AMD Radeon RX 6000 Series Vulkan Ray-Tracing On Linux]]></title>
         <id>https://www.phoronix.com/vr.php?view=30444</id>
@@ -265,86 +345,6 @@ Phabricator was an inspiration to me when starting GitLab. It is shutting down n
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SoC-Crypto-Project"/>
         <updated>2021-08-11T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[While Libre-SoC began as "Libre RISC-V" envisioned as a low-power graphics/Vulkan accelerator, it has morphed into a hybrid CPU/GPU design built on OpenPOWER and in very early form seeing test fabrication on a TSMC 180nm process. The latest funding received is now working on adding cryptographic improvements to it and/or the upstream OpenPOWER ISA...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Graphics Driver Queues More DG2 Code For Linux While Removing Cannon Lake]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-5.15-DG2-CNL</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Linux-5.15-DG2-CNL"/>
-        <updated>2021-08-11T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel has another big batch of open-source kernel graphics driver updates it sent out to DRM-Next for queuing ahead of the upcoming Linux 5.15 cycle. The DG2 graphics card is getting wired up while this pull request does also finally remove the Cannon Lake "Gen 10" graphics that never materialized in commercial products...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ExpressVPN Opens Up Its Lightway VPN Protocol]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ExpressVPN-Lightway-OSS</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ExpressVPN-Lightway-OSS"/>
-        <updated>2021-08-10T22:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year major VPN provider ExpressVPN announced "Lightway" as their new virtual private network protocol designed for speed, stability, and reliability. ExpressVPN announced today they are now making the protocol open-source...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[elementary OS 6.0 Released For A Meticulously Crafted Linux Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Elementary-OS-6.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Elementary-OS-6.0"/>
-        <updated>2021-08-10T19:00:01.000Z</updated>
-        <summary type="html"><![CDATA[The Elementary OS Linux distribution known for its very polished and well crafted desktop experience is out with its big 6.0 "Odin" update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon Software for Linux 21.30 Brings Support For Ubuntu 20.04.3 LTS, RX 6600 XT]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.30</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-Linux-21.30"/>
-        <updated>2021-08-10T18:05:36.000Z</updated>
-        <summary type="html"><![CDATA[With the Radeon RX 6600 XT review embargo lifted and the cards set to hit retail channels this week, the Radeon Software for Linux 21.30 driver has been released in now officially supporting the RX 6600 series...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SDL 2.0.16 Released With Better Wayland Support, PipeWire Integration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-2.0.16-Released"/>
-        <updated>2021-08-10T17:45:12.000Z</updated>
-        <summary type="html"><![CDATA[SDL 2.0.16 is officially out today as the latest update to this widely-used cross-platform library for serving as an abstraction layer around graphics, controllers / input, and more that makes it widely used by cross-platform games as well as the likes of the Steam Runtime...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA 470.63.01 Linux Driver Brings RTX A2000, Vulkan Wayland Surface Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.63.01-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.63.01-Linux"/>
-        <updated>2021-08-10T17:14:36.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA today released their latest stable driver update in the 470 series for Linux users...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Radeon RX 6600 XT Linux Gaming Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30430</id>
-        <link href="https://www.phoronix.com/vr.php?view=30430"/>
-        <updated>2021-08-10T13:00:01.000Z</updated>
-        <summary type="html"><![CDATA[The Radeon RX 6600 XT was announced at the end of July as AMD's newest RDNA2 graphics card and is optimized for a performant 1080p gaming experience. For those wondering about its performance, this morning the embargo lifts to be able to talk about its performance. Here are the first Linux gaming benchmarks of the Radeon RX 6600 XT against a wide assortment of other AMD Radeon and NVIDIA GeForce graphics cards.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox 91 Released As New ESR Base, HTTPS First Policy For Private Mode]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-91-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-91-Released"/>
-        <updated>2021-08-10T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Firefox 91.0 is out this morning as the latest monthly update to Mozilla's cross-platform web browser...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
