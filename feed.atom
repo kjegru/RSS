@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-15T00:21:48.975Z</id>
+    <id>urn:2021-08-16T00:21:58.996Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-15T00:21:48.975Z</updated>
+    <updated>2021-08-16T00:21:58.996Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14-rc6 Released After Another Good Week]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc6</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc6"/>
+        <updated>2021-08-16T00:16:22.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds has released Linux 5.14-rc6 as the latest weekly test release of Linux 5.14 that should go gold around the end of August...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SilverStone TP04 M.2 SSD Cooling]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30452</id>
+        <link href="https://www.phoronix.com/vr.php?view=30452"/>
+        <updated>2021-08-15T18:41:24.000Z</updated>
+        <summary type="html"><![CDATA[With proper heatsinks becoming all the more important with speedy PCI Express 4.0 NVMe SSDs to avoid thermal throttling, SilverStone has been among the vendors offering after-market aluminum heatsinks designed for M.2 2280 drives. The SilverStone TP04 is a simple but effective aluminum alloy SSD cooling kit for about $17 USD.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple M1 PCIe Driver Under Review For The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-PCIe-Linux-RFC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-PCIe-Linux-RFC"/>
+        <updated>2021-08-15T16:16:45.000Z</updated>
+        <summary type="html"><![CDATA[While Linux 5.12 saw initial support merged for the Apple M1, it was quite the basic support with more robust support still to come. Besides the graphics support being a large work-in-progress, one of the areas now coming about is the new PCI Express driver that is necessary for supporting more functionality of this driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grep 3.7 Released To Fix "Extreme Performance Degradation"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Grep-3.7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Grep-3.7"/>
+        <updated>2021-08-15T11:00:15.000Z</updated>
+        <summary type="html"><![CDATA[If you have noticed grep regressing performance-wise in recent releases, you may want to upgrade to GNU Grep 3.7 released this weekend as it fixes a nasty performance regression...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenRazer 3.1 Released With Support For More Razer Devices]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRazer-3.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRazer-3.1"/>
+        <updated>2021-08-15T10:24:40.000Z</updated>
+        <summary type="html"><![CDATA[OpenRazer 3.1 is now available as the newest version of this open-source, third-party solution for enabling Razer devices under Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Turning Off The Light - The LightNVM Subsystem To Be Removed]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Dropping-LightNVM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Dropping-LightNVM"/>
+        <updated>2021-08-15T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Merged to the mainline Linux kernel six years ago was the LightNVM subsystem as part of Linux 4.4 LTS around "Open-Channel SSDs". That LightNVM code is now slated for removal with the upcoming Linux 5.15 cycle...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Debian 11 "Bullseye" Released]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Released</id>
@@ -285,66 +345,6 @@ Phabricator was an inspiration to me when starting GitLab. It is shutting down n
         <link href="https://www.phoronix.com/vr.php?view=30434"/>
         <updated>2021-08-11T18:30:00.000Z</updated>
         <summary type="html"><![CDATA[With yesterday's launch day Radeon RX 6600 XT Linux review the benchmarks were conducted using the popular Mesa RADV open-source driver used by many Linux gamers considering it's the driver Valve has been relentlessly optimizing and is the default on most (or all) Linux distributions. For those wondering how the performance of RADV is comparing to that of AMD's closed-source "PRO" Vulkan driver distributed as part of the "Radeon Software for Linux" package, here are some benchmarks exploring that difference.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DXVK-Native Sees First Release For Easing Direct3D-To-Vulkan Game Porting On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-Native-First-Release</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-Native-First-Release"/>
-        <updated>2021-08-11T13:26:00.000Z</updated>
-        <summary type="html"><![CDATA[DXVK has proven to be a huge success for improving the experience of running Windows Direct3D 9/10/11 games on Linux by translating those D3D calls to Vulkan. DXVK-Native meanwhile is the newer spin-off effort around providing a DXVK-based build native for Linux to help in game ports that still can then rely on their Direct3D renderer path...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raspberry Pi V3DV Driver Nearing Vulkan 1.1 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Nears-Vulkan-1.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Nears-Vulkan-1.1"/>
-        <updated>2021-08-11T13:13:47.000Z</updated>
-        <summary type="html"><![CDATA[The open-source V3DV driver living within Mesa for providing Vulkan API support for modern Broadcom VideoCore graphics -- most notably found in the Raspberry Pi 4 and newer -- is nearing Vulkan 1.1 compliance...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Preparing Linux Kernel Support For "Unaccepted Memory"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Patches-Unaccepted-Memory</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Patches-Unaccepted-Memory"/>
-        <updated>2021-08-11T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The latest patch series from Intel engineers worth noting for the Linux kernel is around implementing support for on-demand "unaccepted memory". Unaccepted memory is supported by the latest-generation AMD EPYC processors but not yet supported under Linux for on-demand/as-needed handling while Intel is preparing the kernel support for their next-gen Xeon CPUs having this capability...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q3.4 Driver Fixes "Horrifically Broken" Switchable Graphics Layer]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.4"/>
-        <updated>2021-08-11T10:05:55.000Z</updated>
-        <summary type="html"><![CDATA[It's been less than one week since the AMDVLK 2021.Q3.3 update for this official open-source Radeon Vulkan Linux driver while today AMD has issued its latest update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Polychromatic 0.7 Released With Improved UI For Configuring Gaming Keyboards, Mice]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Polychromatic-0.7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Polychromatic-0.7"/>
-        <updated>2021-08-11T09:42:35.000Z</updated>
-        <summary type="html"><![CDATA[Polychromatic as the long-running, third-party, open-source project to allow Razer's gaming peripherals like mice and keyboard to be configured under Linux is out with a major update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Libre-SoC Pursuing New Crypto Primitives & Instructions For OpenPOWER]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SoC-Crypto-Project</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Libre-SoC-Crypto-Project"/>
-        <updated>2021-08-11T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Libre-SoC began as "Libre RISC-V" envisioned as a low-power graphics/Vulkan accelerator, it has morphed into a hybrid CPU/GPU design built on OpenPOWER and in very early form seeing test fabrication on a TSMC 180nm process. The latest funding received is now working on adding cryptographic improvements to it and/or the upstream OpenPOWER ISA...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
