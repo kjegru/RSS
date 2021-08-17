@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-16T00:21:58.996Z</id>
+    <id>urn:2021-08-17T00:21:40.181Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-16T00:21:58.996Z</updated>
+    <updated>2021-08-17T00:21:40.181Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMD Posts Linux Patches In Preparing For DisplayPort 2.0 Radeon GPU Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-SST-UHBR10</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-SST-UHBR10"/>
+        <updated>2021-08-16T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[The latest feature display work to happen for the AMDGPU kernel driver since the debut of FreeSync HDMI in Linux 5.13 is around DisplayPort 2.0 support and specifically the SST UHBR10 handling...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM Clang 14 Begins Landing Intel AVX-512 FP16 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-Clang-AVX512FP16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-Clang-AVX512FP16"/>
+        <updated>2021-08-16T18:33:45.000Z</updated>
+        <summary type="html"><![CDATA[Last month Intel began posting the developer documentation around AVX-512 FP16 support coming with Sapphire Rapids and initially accompanied by GCC compiler patches along with LLVM/Clang. While that GNU Compiler Collection support around AVX-512 FP16 has yet to be merged, the LLVM Clang support for this next iteration of AVX-512 has begun landing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tesseract 5.0 OCR Engine Bringing Faster Performance With "Fast Floats"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Tesseract-5.0-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Tesseract-5.0-Beta"/>
+        <updated>2021-08-16T17:58:46.000Z</updated>
+        <summary type="html"><![CDATA[Tesseract as the leading open-source optical character recognition (OCR) engine that employs neural networks for converting images/scans of text into actual recognized text is nearing its 5.0 release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel's New Brand For High Performance Discrete Graphics: Arc]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Arc-2022</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Arc-2022"/>
+        <updated>2021-08-16T13:23:19.000Z</updated>
+        <summary type="html"><![CDATA[Intel just announced the new brand they will use for their forthcoming high performance discrete  graphics solutions...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora 35 To Support Restarting User Services On Package Upgrades]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-User-Service-Restart</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-User-Service-Restart"/>
+        <updated>2021-08-16T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Fedora currently allows restarting of system services automatically when upgrading the packages for those services, there hasn't been that capability for user services to automatically restart as part of RPM package upgrades. But now approved for Fedora 35 is that change...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mediatek MT8167 DRM Driver Support Coming For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8167-DRM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8167-DRM"/>
+        <updated>2021-08-16T11:55:46.000Z</updated>
+        <summary type="html"><![CDATA[The Mediatek Direct Rendering Manager driver updates slated for Linux 5.15 were sent out this weekend...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slackware 15.0 Coming Soon With RC1 Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Slackware-15.0-RC1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Slackware-15.0-RC1"/>
+        <updated>2021-08-16T10:26:35.000Z</updated>
+        <summary type="html"><![CDATA[Not only did Debian 11 make it out this weekend, but Slackware 15 is finally up to its release candidate phase as the next major installment of this long-running Linux distribution...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maui 2 Released For Open-Source UI Framework]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Maui-2-UI-Framework</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Maui-2-UI-Framework"/>
+        <updated>2021-08-16T10:18:32.000Z</updated>
+        <summary type="html"><![CDATA[The Maui open-source user interface framework and Maui Apps are out with a new release for those interested in this framework and applications that are designed to work well cross-device as well as largely working cross-platform too...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kdenlive 21.08 Released For KDE's Video Editor]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Kdenlive-21.08</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Kdenlive-21.08"/>
+        <updated>2021-08-16T10:01:33.000Z</updated>
+        <summary type="html"><![CDATA[Kdenlive 21.08 is now available as the newest feature upgrade to KDE's non-linear video editor...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.14-rc6 Released After Another Good Week]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc6</id>
@@ -255,96 +345,6 @@ Phabricator was an inspiration to me when starting GitLab. It is shutting down n
         <link href="https://www.phoronix.com/vr.php?view=30442"/>
         <updated>2021-08-12T18:47:11.000Z</updated>
         <summary type="html"><![CDATA[With LLVM/Clang 13 feature development having ended last week and the 13.0 release candidate being tagged, in starting off the benchmarking cycle first up I was looking at how well this new compiler is performing compared to LLVM Clang 12 stable on an AMD EPYC 7543 (Zen 3) Linux server.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft & Others Form The eBPF Foundation]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=eBPF-Foundation</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=eBPF-Foundation"/>
-        <updated>2021-08-12T17:11:15.000Z</updated>
-        <summary type="html"><![CDATA[One of the most exciting Linux kernel innovations in recent years has been eBPF for an in-kernel virtual machine allowing sandboxed programs running within the Linux kernel. The Linux Foundation along with Microsoft and other partners are now forming the eBPF Foundation...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Appears Ready To Advertise Its DG1 Graphics Card Support On Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Linux-Ready-IDs</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Linux-Ready-IDs"/>
-        <updated>2021-08-12T13:20:43.000Z</updated>
-        <summary type="html"><![CDATA[As I have covered in many Phoronix articles over the past number of months, it's been a lengthy road bringing up the DG1 graphics support on Linux with the Intel open-source engineers having to re-architect their "i915" kernel graphics driver to support device local memory, getting the GuC support into good shape, scheduler changes, beginning to make use of TTM for memory management, user-space API changes, and a ton of other changes in expanding the driver's scope from just catering to integrated graphics. But now it looks like the DG1 Linux support is about to be officially advertised...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Van Gogh Firmware Published, Other Radeon GPU Firmware Updated]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-21.30-FW</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Software-21.30-FW"/>
-        <updated>2021-08-12T12:45:37.000Z</updated>
-        <summary type="html"><![CDATA[AMD has upstreamed the Van Gogh binary-only firmware files necessary for the RDNA2 graphics to be initialized by the open-source driver on this forthcoming APU.'..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Btrfs Set To Land Support For IDMAPPED Mounts In Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-IDMAPPED-Mounts</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Btrfs-IDMAPPED-Mounts"/>
-        <updated>2021-08-12T10:48:03.000Z</updated>
-        <summary type="html"><![CDATA[Introduced to the Linux kernel earlier this year with Linux 5.12 was IDMAPPED mounts that allow for different mounts to expose the same file or directory with different ownership. IDMAPPED mounts was designed with use-cases ranging from containers to systemd-homed and more as outlined in the earlier article. Btrfs is now ready to begin supporting IDMAPPED mounts...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox 92 Beta Takes Flight With AVIF Image Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-92-Beta"/>
-        <updated>2021-08-12T10:03:23.000Z</updated>
-        <summary type="html"><![CDATA[With this week's release of Firefox 91, like clockwork the beta for Firefox 92 is now available to facilitate wider testing of this next browser release to debut in September...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qt Creator 5.0 Nears With New Features]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-RC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0-RC"/>
-        <updated>2021-08-12T09:51:55.000Z</updated>
-        <summary type="html"><![CDATA[Qt Creator as the Qt/C++ focused integrated development environment from The Qt Company is preparing to release version 5.0 as it prepares to switch to semantic versioning...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Linux Kernel Begins Preparing For AV1 Decode Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Media-RFC-AV1-uAPI</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Media-RFC-AV1-uAPI"/>
-        <updated>2021-08-12T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The number of hardware platforms providing accelerated AV1 coding is still quite limited for now but with more hardware coming to market supporting encode/decode of this royalty-free video codec, the Linux kernel's media subsystem is getting ready...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thunderbird 91 Released With Big Improvements For This Open-Source Mail Client]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Thunderbird-91-Released"/>
-        <updated>2021-08-12T00:06:40.000Z</updated>
-        <summary type="html"><![CDATA[Thunderbird 91 is now available as the first major update in a year for this Mozilla mail client that is succeeding the Thunderbird 78 series...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon RX 6600/6700/6800 XT: RADV vs. PRO Vulkan Driver Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30434</id>
-        <link href="https://www.phoronix.com/vr.php?view=30434"/>
-        <updated>2021-08-11T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[With yesterday's launch day Radeon RX 6600 XT Linux review the benchmarks were conducted using the popular Mesa RADV open-source driver used by many Linux gamers considering it's the driver Valve has been relentlessly optimizing and is the default on most (or all) Linux distributions. For those wondering how the performance of RADV is comparing to that of AMD's closed-source "PRO" Vulkan driver distributed as part of the "Radeon Software for Linux" package, here are some benchmarks exploring that difference.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
