@@ -1,18 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-17T00:21:40.181Z</id>
+    <id>urn:2021-08-18T00:21:13.399Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-17T00:21:40.181Z</updated>
+    <updated>2021-08-18T00:21:13.399Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Maple Tree v2 Patches For The Linux Kernel - 13~840% Faster For Malloc Threads Test Case]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Maple-Tree-v2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Maple-Tree-v2"/>
+        <updated>2021-08-17T22:52:16.000Z</updated>
+        <summary type="html"><![CDATA[Sent out last year was a "request for comments" on "Maple Tree" as a new data structure for the Linux kernel. The latest version of the Maple Tree patches were sent out today with mixed results but for where gains are being made they can be quite significant...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zink Suballocator Lands In Mesa - "Over 1000%" Performance Increase For Some Games]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Suballocator-Merged</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Suballocator-Merged"/>
+        <updated>2021-08-17T18:42:46.000Z</updated>
+        <summary type="html"><![CDATA[Mesa's Zink Gallium3D code for implementing OpenGL-over-Vulkan can now run a heck of a lot faster with the newest Mesa 21.3 code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manjaro 21.1 Released With Better Btrfs Support, GNOME 40 Update]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Released"/>
+        <updated>2021-08-17T17:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Manjaro 21.1 is now available as the latest stable version of this Arch Linux based operating system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases Updated Version Of Its CBL-Mariner Linux Distribution]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-July-2021-Update</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-July-2021-Update"/>
+        <updated>2021-08-17T15:30:08.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has released an updated version of its CBL-Mariner Linux distribution as their platform within the company that is being used for various cloud and edge computing use-cases among other purposes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD RDNA2 Vulkan: RADV vs. RADV+NGGC vs. AMDVLK vs. PRO Driver Benchmarks]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30454</id>
+        <link href="https://www.phoronix.com/vr.php?view=30454"/>
+        <updated>2021-08-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Following last week's Radeon RX 6600 XT launch, here are benchmarks of the Radeon RX 6600 XT / RX 6700 XT / RX 6800 XT graphics cards across all of the Vulkan driver options available to Linux users.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VA-API AV1 Decode Lands In Mesa 21.3 Gallium3D]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VA-API-AV1-In-Gallium3D</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VA-API-AV1-In-Gallium3D"/>
+        <updated>2021-08-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The change led by AMD engineers for adding AV1 VA-API acceleration support to the Gallium3D "VA" state tracker front-end has landed in Mesa 21.3...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.3 LLVMpipe Enables OpenGL 4.5 Compatibility Profile Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-OpenGL-4.5-Compat</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-OpenGL-4.5-Compat"/>
+        <updated>2021-08-17T10:07:05.000Z</updated>
+        <summary type="html"><![CDATA[The LLVMpipe driver providing a generic OpenGL implementation that's CPU-accelerated for Mesa - and more performant than alternatives thanks to LLVM - can now support OpenGL 4.5 compatibility profile contexts...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora 35 Cleared For Golang 1.17, LLVM 13]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Golang-1.17-LLVM-13</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Golang-1.17-LLVM-13"/>
+        <updated>2021-08-17T09:45:03.000Z</updated>
+        <summary type="html"><![CDATA[While getting late in the cycle, the Fedora Engineering and Steering Committee approved some additional changes for Fedora 35 due out this fall...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Systemd To Finally Ship With Cgroup v2 By Default]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-systemd-cgroup</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-systemd-cgroup"/>
+        <updated>2021-08-17T09:25:39.000Z</updated>
+        <summary type="html"><![CDATA[Ubuntu developers acknowledge "delaying this for a long time" but for Ubuntu 21.10 they are planning to ship its systemd package with the unified cgroup hierarchy (Cgroups v2) by default...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AMD Posts Linux Patches In Preparing For DisplayPort 2.0 Radeon GPU Support]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-SST-UHBR10</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-SST-UHBR10"/>
-        <updated>2021-08-16T23:05:06.000Z</updated>
+        <updated>2021-08-17T00:45:06.000Z</updated>
         <summary type="html"><![CDATA[The latest feature display work to happen for the AMDGPU kernel driver since the debut of FreeSync HDMI in Linux 5.13 is around DisplayPort 2.0 support and specifically the SST UHBR10 handling...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git 2.33 Released With New "merge-ort" Merging For 500~9000x Speed-Up]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Git-2.33-Released"/>
+        <updated>2021-08-17T00:24:32.000Z</updated>
+        <summary type="html"><![CDATA[Git 2.33 is out this evening as the latest stable update to this immensely successful open-source distributed revision control system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to provision 100 AWS Graviton GitLab Spot Runners in 10 Minutes for $2/hour]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/"/>
+        <updated>2021-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Managing elastically scaled or highly available compute infrastructures is one of the key challenges the cloud was built for. Application scaling concerns can be handled by cloud services that are purpose designed, rigorously tested, and continually improved. This article dives into some specific enablement automation that brings the benefits of AWS Autoscaling Groups (ASG) to runner management. There are benefits to both the largest fleets and single instance runners.
+Embedded in this article is a YouTube video that demonstrates the deployment of 100 GitLab runners on Amazon EC2 Spot compute in less than 10 minutes using less than 10 clicks. The video also shows updating this entire fleet in under 10 minutes to emphasize the time savings of built-in maintenace.
+The information and automat…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.1.3]]></title>
+        <id>https://about.gitlab.com/releases/2021/08/17/gitlab-14-1-3-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/08/17/gitlab-14-1-3-released/"/>
+        <updated>2021-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.1.3 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+last month's 14.1 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+AS Fix SAML SSO login redirects not working
+Bump kas to v14.1.1
+Resolve operator does not exist: integer[] || bigint in app/models/namespace/traversal_hierarchy.rb
+Geo 2.0 Regression - Add ability to remove primary
+Add AES256-GCM-SHA384 to allowed list of Nginx SSL ciphers
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -226,96 +369,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ardour 6.9 Digital Audio Workstation Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ardour-6.9-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ardour-6.9-Released"/>
-        <updated>2021-08-14T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ardour as one of the leading open-source digital audio workstation (DAW) solutions is out with another new release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GeForce RTX 30 vs. AMD Radeon RX 6000 Series Vulkan Ray-Tracing On Linux]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30444</id>
-        <link href="https://www.phoronix.com/vr.php?view=30444"/>
-        <updated>2021-08-13T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Given this week's launch of the Radeon RX 6600 XT and that also bringing the new Radeon Software for Linux 21.30 driver, I was curious to see how the Vulkan ray-tracing performance compares now against the NVIDIA GeForce RTX 30 series on Linux.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.15 Released With More PE Conversion Work, More 32-bit To 64-bit Thunks]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.15-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.15-Released"/>
-        <updated>2021-08-13T19:52:47.000Z</updated>
-        <summary type="html"><![CDATA[Wine 6.15 has been uncorked as the newest bi-weekly development release of this software that powers Steam Play and more for running Windows games/applications on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Tegra Open-Source Graphics Driver Introducing New User-Space ABI]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-New-uABI</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-New-uABI"/>
-        <updated>2021-08-13T18:05:47.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA's Tegra DRM driver that is part of the mainline kernel will be introducing a new user-space API/ABI with Linux 5.15 that is designed for future hardware while also working for existing Tegra SoCs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cirrus Logic "Dolphin" Audio Support Coming For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cirrus-Dolphin-Linux-Audio</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cirrus-Dolphin-Linux-Audio"/>
-        <updated>2021-08-13T12:26:27.000Z</updated>
-        <summary type="html"><![CDATA[Cirrus Logic has contributed a number of improvements to their CS8409 HDA audio driver for the Linux kernel that includes support for new "Dolphin" audio hardware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 To Allow Reading From The Nintendo OTP Memory Area]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Nintendo-Wii-OTP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Nintendo-Wii-OTP"/>
-        <updated>2021-08-13T11:31:35.000Z</updated>
-        <summary type="html"><![CDATA[For hobbyists that enjoy tinkering around with Linux running on the Nintendo Wii or Wii U game consoles, a new driver coming for Linux 5.15 allows accessing the specialized OTP read-only memory area that contains the encryption/decryption keys and other data...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm Working On Clang C++ For OpenCL 2021 (OpenCL 3.0 Compatible)]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Clang-OpenCL-CPP-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-Clang-OpenCL-CPP-2021"/>
-        <updated>2021-08-13T10:24:48.000Z</updated>
-        <summary type="html"><![CDATA[With LLVM's Clang C/C++ compiler front-end squaring away its OpenCL C 3.0 language support, Arm engineers are now working on the C++ equivalent support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 To Add Graphics Support For Qualcomm Adreno 680, 7c3]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Adreno-680-7c3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Adreno-680-7c3"/>
-        <updated>2021-08-13T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The MSM DRM kernel updates to this open-source Qualcomm Adreno driver have been sent in to DRM-Next ahead of the upcoming Linux 5.15 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AV1 VA-API Acceleration Coming For AMD Radeon RX 6000 Series Linux Users]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-VA-API-Mesa-Radeon"/>
-        <updated>2021-08-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With AMD RDNA2 GPUs such as the Radeon RX 6000 series there is hardware support for AV1 decoding while the Linux support has been slow to materialize. Fortunately, that's now changing...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How I use analogy to design for highly technical spaces]]></title>
         <id>https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/</id>
         <link href="https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/"/>
@@ -337,16 +390,6 @@ GitLab co-founder and CEO, Sid Sijbrandij gives credit to Phabricator on HackerN
 Phabricator was an inspiration to me when starting GitLab. It is shutting down now. Many of its features were years ahead of its time and there was a lot of humor in the product. As a tribute to it shall we add Clowcoptarize as a w…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Early Look At LLVM Clang 13 Performance On AMD Zen 3]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30442</id>
-        <link href="https://www.phoronix.com/vr.php?view=30442"/>
-        <updated>2021-08-12T18:47:11.000Z</updated>
-        <summary type="html"><![CDATA[With LLVM/Clang 13 feature development having ended last week and the 13.0 release candidate being tagged, in starting off the benchmarking cycle first up I was looking at how well this new compiler is performing compared to LLVM Clang 12 stable on an AMD EPYC 7543 (Zen 3) Linux server.]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -629,55 +672,6 @@ Most businesses operate and maintain a multi-product "DIY DevOps" toolchain, but
         <summary type="html"><![CDATA[Security is on everyone's radar, from board members to inquisitive grandparents. Everyone wants to know what software development teams are doing to protect their applications from attacks like that of Colonial Pipeline, Solarwinds, and others. With the launch of GitLab 14, we accelerated modern DevOps by bringing velocity with confidence, built-in security, and visibility, into DevOps success.
 The modern DevOps solution is platform-driven, has a unified data store, and has security embedded throughout the software development lifecycle (SDLC). We find that it is these three attributes that drive demand for a modern DevOps solution among many different types of businesses.
 Security in the modern DevOps solution goes beyond just shifting security features left to empower the developers to f…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab introduces updates to paid tiers for improved billing and subscription management]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/20/improved-billing-and-subscription-management/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/20/improved-billing-and-subscription-management/"/>
-        <updated>2021-07-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What you need to know
-GitLab moves from annual true-ups to quarterly subscription reconciliation
-Introduces cloud licensing and auto-renewals for improved license management
-Requires collection of operational data for customer success services
-Applicable to new customers from August 1, 2021 and existing customers at their next renewal
-Today, we are announcing changes to improve the billing and subscription management experience for customers. While quarterly subscription reconciliation benefits both our SaaS and self-managed customers, the three other improvements, including the collection of operational data for customer success services, auto-renewals, and cloud licensing, will enhance the product and service experience for self-managed customers.
-While other vendors are shifting to only…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.0.6]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/20/gitlab-14-0-6-released/"/>
-        <updated>2021-07-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.0.6 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 14.0 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Replace Excon with Faraday for requesting object storage
-Fix LFS objects not downloading with Bitbucket
-Resolve "Terraform module usage instructions are incorrect"
-Geo: Fix snippet verification by replicating the HEAD ref
-Fix validation method regarding MIME type keys
-coordinator: Fix repo creation/removal race for up-to-date secondaries for 14-0-stable
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
