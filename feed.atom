@@ -1,10 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-18T00:21:13.399Z</id>
+    <id>urn:2021-08-19T00:18:33.668Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-18T00:21:13.399Z</updated>
+    <updated>2021-08-19T00:18:33.668Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[MATE 1.26 Desktop Released With Some Wayland Support, Other Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=MATE-1.26-Desktop</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=MATE-1.26-Desktop"/>
+        <updated>2021-08-18T23:11:23.000Z</updated>
+        <summary type="html"><![CDATA[After one and a half years in development of MATE 1.26 as a fork of the GNOME 2 desktop components, this release is now available with initial Wayland support and more...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Posts Linux Patches Bringing Up DisplayPort 2.0 - DG2 Alchemist To Support DP 2.0]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DisplayPort-2.0-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DisplayPort-2.0-Linux"/>
+        <updated>2021-08-18T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[It looks like 2022 is when we will start seeing DisplayPort 2.0 hardware broadly available... It was just earlier this week I wrote about AMD working on DisplayPort 2.0 for their open-source Radeon Linux driver and now coincidentally today Intel has begun their open-source Linux graphics driver enablement for DP 2.0...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan SC 1.0 Coming For "Safety Critical" Graphics / Compute]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-SC-1.0-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-SC-1.0-Coming"/>
+        <updated>2021-08-18T17:55:24.000Z</updated>
+        <summary type="html"><![CDATA[It's been over two years since The Khronos Group acknowledged they were working on safety critical Vulkan and now finally the 1.0 release is approaching for this graphics/compute interface suitable for safety critical systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Krita 5.0 Beta Released With Better Performance, UI Polishing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Krita-5.0-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Krita-5.0-Beta"/>
+        <updated>2021-08-18T17:37:52.000Z</updated>
+        <summary type="html"><![CDATA[Krita 5.0 is on the way as the next major feature release to this popular, open-source digital painting program...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian 11 Performance Uplift Is Looking Great For Intel Xeon, AMD EPYC]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30463</id>
+        <link href="https://www.phoronix.com/vr.php?view=30463"/>
+        <updated>2021-08-18T12:35:35.000Z</updated>
+        <summary type="html"><![CDATA[This past weekend marked the release of Debian 11 "Bullseye" as the newest version of this major Linux distribution that is also the basis for many others. Given the popularity of Debian stable on servers, our first round of Debian 11.0 benchmarking is looking at the performance relative to Debian 10.10 on latest-generation Intel Xeon "Ice Lake" and AMD EPYC "Milan" hardware.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proposed: Allow Building The Linux Kernel With x86-64 Microarchitecture Feature Levels]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-x86-64-Micro-Feature-Lvl</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-x86-64-Micro-Feature-Lvl"/>
+        <updated>2021-08-18T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A set of two patches posted this week would allow the Linux kernel to be easily built with the different x86-64 micro-architecture feature levels supported by the latest LLVM Clang and GCC compilers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PREEMPT-RT Locking Infrastructure Possibly Ready For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PREEMPT-RT-Sched-Core</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PREEMPT-RT-Sched-Core"/>
+        <updated>2021-08-18T09:42:51.000Z</updated>
+        <summary type="html"><![CDATA[Six dozen patches working on the PREEMPT-RT locking infrastructure for real-time kernels is now queued up in TIP's "locking/core" branch and will presumably be sent in for the Linux 5.15 merge window coming up quickly...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zink Now Supports OpenGL Compatibility Contexts - Allowing More Games/Apps To Work]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Compatibility-Ctx</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Compatibility-Ctx"/>
+        <updated>2021-08-18T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In addition to Tuesday seeing the Zink sub-allocator merged for sharply improving the performance of this OpenGL-on-Vulkan implementation within Mesa, the Zink Gallium3D code subsequently merged support for OpenGL compatibility contexts...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How DevSecOps can protect businesses from future supply chain attacks]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/"/>
+        <updated>2021-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the cybersecurity keywords for 2021 will undoubtedly be "software supply chain attacks". For decades, we've seen a global move toward connected systems and highly complex supply chains. Today these supply chains are under attack, with malicious actors jeopardizing the sensitive data of millions of users through attacks on the public and private sectors.
+After public and federal entities were targeted in some high-profile supply chain attacks, the United States government released an executive order with plans to improve the security posture of the nation when it comes to software supply chains. The UK issued a similar call for views on cybersecurity in supply chains around the same time.
+Supply chain security became a global priority after the SolarWinds attack, reminding businesses…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Maple Tree v2 Patches For The Linux Kernel - 13~840% Faster For Malloc Threads Test Case]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Maple-Tree-v2</id>
@@ -284,86 +376,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRazer-3.1"/>
         <updated>2021-08-15T10:24:40.000Z</updated>
         <summary type="html"><![CDATA[OpenRazer 3.1 is now available as the newest version of this open-source, third-party solution for enabling Razer devices under Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Turning Off The Light - The LightNVM Subsystem To Be Removed]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Dropping-LightNVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Dropping-LightNVM"/>
-        <updated>2021-08-15T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Merged to the mainline Linux kernel six years ago was the LightNVM subsystem as part of Linux 4.4 LTS around "Open-Channel SSDs". That LightNVM code is now slated for removal with the upcoming Linux 5.15 cycle...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian 11 "Bullseye" Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-Released"/>
-        <updated>2021-08-14T23:15:43.000Z</updated>
-        <summary type="html"><![CDATA[Debian 11 "Bullseye" has been officially released now after just over two years in development...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ogre 13 Open-Source Game Engine Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ogre-13-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ogre-13-Released"/>
-        <updated>2021-08-14T18:21:08.000Z</updated>
-        <summary type="html"><![CDATA[Besides the very successful Godot game engine and the up and coming O3DE, Ogre continues progressing as another useful open-source game engine. Out this weekend is Ogre 13.0 as the project switches up its versioning scheme...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse Engineering & Bring-Up Of Linux On The Apple Silicon M1 Continues]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Linux-August-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Linux-August-2021"/>
-        <updated>2021-08-14T16:06:01.000Z</updated>
-        <summary type="html"><![CDATA[A new status report has been published by the developers of "Asahi Linux" that are continuing to work on providing Linux support for the Apple Silicon initially with the M1 SoC...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASUS Laptop Platform Profile Support Under Review For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Platform-Profile-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-Platform-Profile-Linux"/>
-        <updated>2021-08-14T13:39:40.000Z</updated>
-        <summary type="html"><![CDATA[One of the features that has come together nicely for Linux on laptops in recent months has been the platform profile support around the ACPI specification with support from multiple laptop vendors for allowing users to control their power/performance preference based on various system profile configurations. A patch is pending for newer ASUS laptops to enjoy this platform profile control under Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian GNU/Hurd 2021 Released With Experimental Rump-Based Userland Disk Driver, Go Port]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-GNU-Hurd-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-GNU-Hurd-2021"/>
-        <updated>2021-08-14T13:19:03.000Z</updated>
-        <summary type="html"><![CDATA[In addition to Debian GNU/Linux 11 set for release today, Debian GNU/Hurd 2021 has been released as the unofficial port of Debian to the GNU Hurd micro-kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian 11 Is Releasing This Weekend With Many Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-This-Weekend</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11-This-Weekend"/>
-        <updated>2021-08-14T10:27:32.000Z</updated>
-        <summary type="html"><![CDATA[Debian 11.0 "Bullseye" is due for release today and the Debian developers involved are indeed putting the final touches on this next major Debian GNU/Linux distribution release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Sees More Improvements To Plasma, Konsole, Breeze This Week]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Week-More-Plasma-Breeze</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Week-More-Plasma-Breeze"/>
-        <updated>2021-08-14T10:15:15.000Z</updated>
-        <summary type="html"><![CDATA[KDE developers had another busy summertime week with a variety of UI improvements and other polishing to this open-source desktop environment...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -660,18 +672,6 @@ On its surface, the answer is simple. We need to measure workflow from idea to d
 Enhanced visibility tools are essential to measuring and optimizing modern DevOps processes, and mapping the work output to ensure the business outcomes that matter are achieved.
 The failure of DIY DevOps
 Most businesses operate and maintain a multi-product "DIY DevOps" toolchain, but stitched-together applications with bespoke integrations don't lend themselves to visibility. Each component in t…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are you ready for the newest era of DevSecOps?]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/20/are-you-ready-for-the-newest-era-of-devsecops/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/20/are-you-ready-for-the-newest-era-of-devsecops/"/>
-        <updated>2021-07-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Security is on everyone's radar, from board members to inquisitive grandparents. Everyone wants to know what software development teams are doing to protect their applications from attacks like that of Colonial Pipeline, Solarwinds, and others. With the launch of GitLab 14, we accelerated modern DevOps by bringing velocity with confidence, built-in security, and visibility, into DevOps success.
-The modern DevOps solution is platform-driven, has a unified data store, and has security embedded throughout the software development lifecycle (SDLC). We find that it is these three attributes that drive demand for a modern DevOps solution among many different types of businesses.
-Security in the modern DevOps solution goes beyond just shifting security features left to empower the developers to f…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
