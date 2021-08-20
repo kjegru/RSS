@@ -1,10 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-19T00:18:33.668Z</id>
+    <id>urn:2021-08-20T00:21:08.574Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-19T00:18:33.668Z</updated>
+    <updated>2021-08-20T00:21:08.574Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Netfilter Releases Nftables 1.0]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Nftables-1.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Nftables-1.0"/>
+        <updated>2021-08-19T22:17:19.000Z</updated>
+        <summary type="html"><![CDATA[The Netfilter project has announced the release of Nftables 1.0.0 for their user-space code for interfacing with the Linux kernel's Nftables subsystem for network filtering and classification...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2.1 Released With "Nice Changes For Almost Everyone"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.1-Released"/>
+        <updated>2021-08-19T19:10:35.000Z</updated>
+        <summary type="html"><![CDATA[For those that prefer to hold off on upgrading to a new Mesa stable release series until the first point release is out, Mesa 21.2.1 is now available as the first update to this quarter's Mesa 21.2 series...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Patents Complicating W3C's Open Screen Protocol]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-Patents-W3C-OSP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-Patents-W3C-OSP"/>
+        <updated>2021-08-19T18:16:08.000Z</updated>
+        <summary type="html"><![CDATA[The W3C has been working on the "Open Screen Protocol" as part of their Second Screen Working Group. This effort has been about having a web standard so web pages can drive secondary screens to display web content. Unfortunately, the plans are currently being complicated by a number of software patents issued to Apple...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Architecture Day 2021 & The Linux State]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30468</id>
+        <link href="https://www.phoronix.com/vr.php?view=30468"/>
+        <updated>2021-08-19T13:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Intel this week hosted a virtual Architecture Day where they talked up their latest efforts from Alder Lake and Sapphire Rapids to their next-generation discrete graphics capabilities as well as other new offerings around IPUs and more. Here are the highlights from Intel Architecture Day 2021 and with a particular focus from our Linux angle.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canonical + DFI Pair Up For An "Industrial Pi" Powered By AMD & Ubuntu]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Ubuntu-Industrial-Pi-DFI</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Ubuntu-Industrial-Pi-DFI"/>
+        <updated>2021-08-19T11:55:17.000Z</updated>
+        <summary type="html"><![CDATA[Many will recall DFI motherboards from close to two decades ago for their wildly colored "LANParty" motherboards but in recent years the company has been focusing on IoT and industrial hardware where, of course, Linux has much relevance. DFI and Canonical today announced an AMD-powered Ubuntu-loaded "industrial Pi" single board computer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LibreOffice 7.2 Community Released For This Leading Open-Source Office Suite]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-Community</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-Community"/>
+        <updated>2021-08-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[LibreOffice 7.2 Community is out today as the newest version of this widely-used, open-source, cross-platform office suite...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD To Optimize C3 Entry On Linux By Finally Skipping The Cache Flush]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Skip-C3-Cache-Flush</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Skip-C3-Cache-Flush"/>
+        <updated>2021-08-19T10:00:21.000Z</updated>
+        <summary type="html"><![CDATA[A minor optimization was posted by an AMD engineer on Wednesday for the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Likely Sticking To The GNOME 40 Desktop]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-With-GNOME-40</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-With-GNOME-40"/>
+        <updated>2021-08-19T09:39:16.000Z</updated>
+        <summary type="html"><![CDATA[While Ubuntu normally ships with the very latest GNOME desktop version issued just before release time, with Ubuntu 21.04 they stuck to GNOME 3.38 rather than punting early to GNOME 40. In the Ubuntu 21.10 development packages they since migrated to GNOME 40 but now it looks like they will be sticking to that and not pulling ahead to the near-final GNOME 41...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL2 Lands Long-Sought Geometry Render API]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Render-Geometry</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL2-Render-Geometry"/>
+        <updated>2021-08-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While not making it for last week's SDL 2.0.16 release, merged on Wednesday to the SDL2 development code is an "SDL_GeometryRender" interface that stems from feature requests going back nearly a decade for this graphics API independent triangle rendering API...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom CPU/GPU Fan Curve Support For Some ASUS Laptops On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-WMI-Custom-Fan-Curves</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-WMI-Custom-Fan-Curves"/>
+        <updated>2021-08-19T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Independent developer Luke Jones continues making good progress on improving the "ASUS-WMI" driver for better ASUS laptop support on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Spamcheck: A data-driven, anti-abuse engine]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/"/>
+        <updated>2021-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spam and abuse are a very real concern for us at GitLab – and likely every company providing services at scale. That's why our Trust and Safety team works hard every day to detect, mitigate, and lessen the effects of spam. Back in October 2020, the GitLab Security team detailed some of the ways they combat spam and abuse and referenced new approaches we were developing and testing to help us better detect and prevent spam.
+We're excited to introduce Spamcheck, our new anti-spam engine. Spamcheck has been enabled for all projects on GitLab.com, which runs 14.1, and will be included in the 14.2 release for GitLab self-managed coming on August 22.
+This tool was designed, tested and integrated by our GitLab Security Automation team (with amazing partnership from our Trust and Safety team and o…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MATE 1.26 Desktop Released With Some Wayland Support, Other Improvements]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=MATE-1.26-Desktop</id>
@@ -276,106 +388,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Arc-2022"/>
         <updated>2021-08-16T13:23:19.000Z</updated>
         <summary type="html"><![CDATA[Intel just announced the new brand they will use for their forthcoming high performance discrete  graphics solutions...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fedora 35 To Support Restarting User Services On Package Upgrades]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-User-Service-Restart</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-User-Service-Restart"/>
-        <updated>2021-08-16T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Fedora currently allows restarting of system services automatically when upgrading the packages for those services, there hasn't been that capability for user services to automatically restart as part of RPM package upgrades. But now approved for Fedora 35 is that change...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mediatek MT8167 DRM Driver Support Coming For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8167-DRM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8167-DRM"/>
-        <updated>2021-08-16T11:55:46.000Z</updated>
-        <summary type="html"><![CDATA[The Mediatek Direct Rendering Manager driver updates slated for Linux 5.15 were sent out this weekend...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Slackware 15.0 Coming Soon With RC1 Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Slackware-15.0-RC1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Slackware-15.0-RC1"/>
-        <updated>2021-08-16T10:26:35.000Z</updated>
-        <summary type="html"><![CDATA[Not only did Debian 11 make it out this weekend, but Slackware 15 is finally up to its release candidate phase as the next major installment of this long-running Linux distribution...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maui 2 Released For Open-Source UI Framework]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Maui-2-UI-Framework</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Maui-2-UI-Framework"/>
-        <updated>2021-08-16T10:18:32.000Z</updated>
-        <summary type="html"><![CDATA[The Maui open-source user interface framework and Maui Apps are out with a new release for those interested in this framework and applications that are designed to work well cross-device as well as largely working cross-platform too...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kdenlive 21.08 Released For KDE's Video Editor]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Kdenlive-21.08</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Kdenlive-21.08"/>
-        <updated>2021-08-16T10:01:33.000Z</updated>
-        <summary type="html"><![CDATA[Kdenlive 21.08 is now available as the newest feature upgrade to KDE's non-linear video editor...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14-rc6 Released After Another Good Week]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc6</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc6"/>
-        <updated>2021-08-16T00:16:22.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds has released Linux 5.14-rc6 as the latest weekly test release of Linux 5.14 that should go gold around the end of August...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SilverStone TP04 M.2 SSD Cooling]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30452</id>
-        <link href="https://www.phoronix.com/vr.php?view=30452"/>
-        <updated>2021-08-15T18:41:24.000Z</updated>
-        <summary type="html"><![CDATA[With proper heatsinks becoming all the more important with speedy PCI Express 4.0 NVMe SSDs to avoid thermal throttling, SilverStone has been among the vendors offering after-market aluminum heatsinks designed for M.2 2280 drives. The SilverStone TP04 is a simple but effective aluminum alloy SSD cooling kit for about $17 USD.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple M1 PCIe Driver Under Review For The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-PCIe-Linux-RFC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-PCIe-Linux-RFC"/>
-        <updated>2021-08-15T16:16:45.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.12 saw initial support merged for the Apple M1, it was quite the basic support with more robust support still to come. Besides the graphics support being a large work-in-progress, one of the areas now coming about is the new PCI Express driver that is necessary for supporting more functionality of this driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Grep 3.7 Released To Fix "Extreme Performance Degradation"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Grep-3.7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Grep-3.7"/>
-        <updated>2021-08-15T11:00:15.000Z</updated>
-        <summary type="html"><![CDATA[If you have noticed grep regressing performance-wise in recent releases, you may want to upgrade to GNU Grep 3.7 released this weekend as it fixes a nasty performance regression...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenRazer 3.1 Released With Support For More Razer Devices]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRazer-3.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRazer-3.1"/>
-        <updated>2021-08-15T10:24:40.000Z</updated>
-        <summary type="html"><![CDATA[OpenRazer 3.1 is now available as the newest version of this open-source, third-party solution for enabling Razer devices under Linux...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -658,20 +670,6 @@ This month's Most Valuable Person (MVP) is
 Andrew Smith
 
 Andrew actively contributed numerous merge requests in the GitLab 14.1 release to help improve GitLab’s planning capabil…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimize DevOps with enhanced visibility tools in GitLab 14]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/"/>
-        <updated>2021-07-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[DevOps makes teams and work more efficient, more consistent, and more productive – but how much more?
-On its surface, the answer is simple. We need to measure workflow from idea to delivery, identify and remove blockers, and benchmark improvements in a manner that is consistent and replicable. The challenge is the way we've typically built the systems that hold the data we're trying to understand.
-Enhanced visibility tools are essential to measuring and optimizing modern DevOps processes, and mapping the work output to ensure the business outcomes that matter are achieved.
-The failure of DIY DevOps
-Most businesses operate and maintain a multi-product "DIY DevOps" toolchain, but stitched-together applications with bespoke integrations don't lend themselves to visibility. Each component in t…]]></summary>
         <author>
             <name>GitLab</name>
         </author>

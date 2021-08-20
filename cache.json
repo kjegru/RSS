@@ -12,6 +12,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/",
+          "author": null,
+          "description": "Spam and abuse are a very real concern for us at GitLab – and likely every company providing services at scale. That's why our Trust and Safety team works hard every day to detect, mitigate, and lessen the effects of spam. Back in October 2020, the GitLab Security team detailed some of the ways they combat spam and abuse and referenced new approaches we were developing and testing to help us better detect and prevent spam.\nWe're excited to introduce Spamcheck, our new anti-spam engine. Spamcheck has been enabled for all projects on GitLab.com, which runs 14.1, and will be included in the 14.2 release for GitLab self-managed coming on August 22.\nThis tool was designed, tested and integrated by our GitLab Security Automation team (with amazing partnership from our Trust and Safety team and o…",
+          "link": "https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/",
+          "publishedOn": "2021-08-19T00:00:00.000Z",
+          "wordCount": 3131,
+          "title": "Introducing Spamcheck: A data-driven, anti-abuse engine"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/",
           "author": null,
           "description": "One of the cybersecurity keywords for 2021 will undoubtedly be \"software supply chain attacks\". For decades, we've seen a global move toward connected systems and highly complex supply chains. Today these supply chains are under attack, with malicious actors jeopardizing the sensitive data of millions of users through attacks on the public and private sectors.\nAfter public and federal entities were targeted in some high-profile supply chain attacks, the United States government released an executive order with plans to improve the security posture of the nation when it comes to software supply chains. The UK issued a similar call for views on cybersecurity in supply chains around the same time.\nSupply chain security became a global priority after the SolarWinds attack, reminding businesses…",
@@ -190,15 +199,6 @@
           "publishedOn": "2021-07-22T00:00:00.000Z",
           "wordCount": 7904,
           "title": "GitLab 14.1 released with Helm Chart Registry and Escalation Policies"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/",
-          "author": null,
-          "description": "DevOps makes teams and work more efficient, more consistent, and more productive – but how much more?\nOn its surface, the answer is simple. We need to measure workflow from idea to delivery, identify and remove blockers, and benchmark improvements in a manner that is consistent and replicable. The challenge is the way we've typically built the systems that hold the data we're trying to understand.\nEnhanced visibility tools are essential to measuring and optimizing modern DevOps processes, and mapping the work output to ensure the business outcomes that matter are achieved.\nThe failure of DIY DevOps\nMost businesses operate and maintain a multi-product \"DIY DevOps\" toolchain, but stitched-together applications with bespoke integrations don't lend themselves to visibility. Each component in t…",
-          "link": "https://about.gitlab.com/blog/2021/07/21/optimizing-devops-visibility-in-gitlab-14/",
-          "publishedOn": "2021-07-21T00:00:00.000Z",
-          "wordCount": 1893,
-          "title": "Optimize DevOps with enhanced visibility tools in GitLab 14"
         }
       ]
     },
@@ -208,12 +208,102 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Nftables-1.0",
+          "author": null,
+          "description": "The Netfilter project has announced the release of Nftables 1.0.0 for their user-space code for interfacing with the Linux kernel's Nftables subsystem for network filtering and classification...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Nftables-1.0",
+          "publishedOn": "2021-08-19T22:17:19.000Z",
+          "wordCount": 656,
+          "title": "Netfilter Releases Nftables 1.0"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.1-Released",
+          "author": null,
+          "description": "For those that prefer to hold off on upgrading to a new Mesa stable release series until the first point release is out, Mesa 21.2.1 is now available as the first update to this quarter's Mesa 21.2 series...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.1-Released",
+          "publishedOn": "2021-08-19T19:10:35.000Z",
+          "wordCount": 865,
+          "title": "Mesa 21.2.1 Released With \"Nice Changes For Almost Everyone\""
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-Patents-W3C-OSP",
+          "author": null,
+          "description": "The W3C has been working on the \"Open Screen Protocol\" as part of their Second Screen Working Group. This effort has been about having a web standard so web pages can drive secondary screens to display web content. Unfortunately, the plans are currently being complicated by a number of software patents issued to Apple...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-Patents-W3C-OSP",
+          "publishedOn": "2021-08-19T18:16:08.000Z",
+          "wordCount": 1068,
+          "title": "Apple Patents Complicating W3C's Open Screen Protocol"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30468",
+          "author": null,
+          "description": "Intel this week hosted a virtual Architecture Day where they talked up their latest efforts from Alder Lake and Sapphire Rapids to their next-generation discrete graphics capabilities as well as other new offerings around IPUs and more. Here are the highlights from Intel Architecture Day 2021 and with a particular focus from our Linux angle.",
+          "link": "https://www.phoronix.com/vr.php?view=30468",
+          "publishedOn": "2021-08-19T13:00:01.000Z",
+          "wordCount": 1004,
+          "title": "Intel Architecture Day 2021 & The Linux State"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Ubuntu-Industrial-Pi-DFI",
+          "author": null,
+          "description": "Many will recall DFI motherboards from close to two decades ago for their wildly colored \"LANParty\" motherboards but in recent years the company has been focusing on IoT and industrial hardware where, of course, Linux has much relevance. DFI and Canonical today announced an AMD-powered Ubuntu-loaded \"industrial Pi\" single board computer...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Ubuntu-Industrial-Pi-DFI",
+          "publishedOn": "2021-08-19T11:55:17.000Z",
+          "wordCount": 753,
+          "title": "Canonical + DFI Pair Up For An \"Industrial Pi\" Powered By AMD & Ubuntu"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-Community",
+          "author": null,
+          "description": "LibreOffice 7.2 Community is out today as the newest version of this widely-used, open-source, cross-platform office suite...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-Community",
+          "publishedOn": "2021-08-19T11:00:00.000Z",
+          "wordCount": 808,
+          "title": "LibreOffice 7.2 Community Released For This Leading Open-Source Office Suite"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Skip-C3-Cache-Flush",
+          "author": null,
+          "description": "A minor optimization was posted by an AMD engineer on Wednesday for the Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Skip-C3-Cache-Flush",
+          "publishedOn": "2021-08-19T10:00:21.000Z",
+          "wordCount": 843,
+          "title": "AMD To Optimize C3 Entry On Linux By Finally Skipping The Cache Flush"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-With-GNOME-40",
+          "author": null,
+          "description": "While Ubuntu normally ships with the very latest GNOME desktop version issued just before release time, with Ubuntu 21.04 they stuck to GNOME 3.38 rather than punting early to GNOME 40. In the Ubuntu 21.10 development packages they since migrated to GNOME 40 but now it looks like they will be sticking to that and not pulling ahead to the near-final GNOME 41...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-With-GNOME-40",
+          "publishedOn": "2021-08-19T09:39:16.000Z",
+          "wordCount": 895,
+          "title": "Ubuntu 21.10 Likely Sticking To The GNOME 40 Desktop"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SDL2-Render-Geometry",
+          "author": null,
+          "description": "While not making it for last week's SDL 2.0.16 release, merged on Wednesday to the SDL2 development code is an \"SDL_GeometryRender\" interface that stems from feature requests going back nearly a decade for this graphics API independent triangle rendering API...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL2-Render-Geometry",
+          "publishedOn": "2021-08-19T07:00:00.000Z",
+          "wordCount": 846,
+          "title": "SDL2 Lands Long-Sought Geometry Render API"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-Custom-Fan-Curves",
+          "author": null,
+          "description": "Independent developer Luke Jones continues making good progress on improving the \"ASUS-WMI\" driver for better ASUS laptop support on Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-Custom-Fan-Curves",
+          "publishedOn": "2021-08-19T04:00:00.000Z",
+          "wordCount": 712,
+          "title": "Custom CPU/GPU Fan Curve Support For Some ASUS Laptops On Linux"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=MATE-1.26-Desktop",
           "author": null,
           "description": "After one and a half years in development of MATE 1.26 as a fork of the GNOME 2 desktop components, this release is now available with initial Wayland support and more...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=MATE-1.26-Desktop",
           "publishedOn": "2021-08-18T23:11:23.000Z",
-          "wordCount": 747,
+          "wordCount": 740,
           "title": "MATE 1.26 Desktop Released With Some Wayland Support, Other Improvements"
         },
         {
@@ -222,7 +312,7 @@
           "description": "It looks like 2022 is when we will start seeing DisplayPort 2.0 hardware broadly available... It was just earlier this week I wrote about AMD working on DisplayPort 2.0 for their open-source Radeon Linux driver and now coincidentally today Intel has begun their open-source Linux graphics driver enablement for DP 2.0...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DisplayPort-2.0-Linux",
           "publishedOn": "2021-08-18T18:30:00.000Z",
-          "wordCount": 927,
+          "wordCount": 920,
           "title": "Intel Posts Linux Patches Bringing Up DisplayPort 2.0 - DG2 Alchemist To Support DP 2.0"
         },
         {
@@ -231,7 +321,7 @@
           "description": "It's been over two years since The Khronos Group acknowledged they were working on safety critical Vulkan and now finally the 1.0 release is approaching for this graphics/compute interface suitable for safety critical systems...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-SC-1.0-Coming",
           "publishedOn": "2021-08-18T17:55:24.000Z",
-          "wordCount": 950,
+          "wordCount": 863,
           "title": "Vulkan SC 1.0 Coming For \"Safety Critical\" Graphics / Compute"
         },
         {
@@ -240,7 +330,7 @@
           "description": "Krita 5.0 is on the way as the next major feature release to this popular, open-source digital painting program...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Krita-5.0-Beta",
           "publishedOn": "2021-08-18T17:37:52.000Z",
-          "wordCount": 787,
+          "wordCount": 709,
           "title": "Krita 5.0 Beta Released With Better Performance, UI Polishing"
         },
         {
@@ -249,7 +339,7 @@
           "description": "This past weekend marked the release of Debian 11 \"Bullseye\" as the newest version of this major Linux distribution that is also the basis for many others. Given the popularity of Debian stable on servers, our first round of Debian 11.0 benchmarking is looking at the performance relative to Debian 10.10 on latest-generation Intel Xeon \"Ice Lake\" and AMD EPYC \"Milan\" hardware.",
           "link": "https://www.phoronix.com/vr.php?view=30463",
           "publishedOn": "2021-08-18T12:35:35.000Z",
-          "wordCount": 819,
+          "wordCount": 864,
           "title": "Debian 11 Performance Uplift Is Looking Great For Intel Xeon, AMD EPYC"
         },
         {
@@ -258,7 +348,7 @@
           "description": "A set of two patches posted this week would allow the Linux kernel to be easily built with the different x86-64 micro-architecture feature levels supported by the latest LLVM Clang and GCC compilers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-x86-64-Micro-Feature-Lvl",
           "publishedOn": "2021-08-18T10:00:00.000Z",
-          "wordCount": 837,
+          "wordCount": 910,
           "title": "Proposed: Allow Building The Linux Kernel With x86-64 Microarchitecture Feature Levels"
         },
         {
@@ -267,7 +357,7 @@
           "description": "Six dozen patches working on the PREEMPT-RT locking infrastructure for real-time kernels is now queued up in TIP's \"locking/core\" branch and will presumably be sent in for the Linux 5.15 merge window coming up quickly...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PREEMPT-RT-Sched-Core",
           "publishedOn": "2021-08-18T09:42:51.000Z",
-          "wordCount": 806,
+          "wordCount": 870,
           "title": "PREEMPT-RT Locking Infrastructure Possibly Ready For Linux 5.15"
         },
         {
@@ -276,7 +366,7 @@
           "description": "In addition to Tuesday seeing the Zink sub-allocator merged for sharply improving the performance of this OpenGL-on-Vulkan implementation within Mesa, the Zink Gallium3D code subsequently merged support for OpenGL compatibility contexts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zink-Compatibility-Ctx",
           "publishedOn": "2021-08-18T04:00:00.000Z",
-          "wordCount": 850,
+          "wordCount": 825,
           "title": "Zink Now Supports OpenGL Compatibility Contexts - Allowing More Games/Apps To Work"
         },
         {
@@ -285,7 +375,7 @@
           "description": "Sent out last year was a \"request for comments\" on \"Maple Tree\" as a new data structure for the Linux kernel. The latest version of the Maple Tree patches were sent out today with mixed results but for where gains are being made they can be quite significant...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Maple-Tree-v2",
           "publishedOn": "2021-08-17T22:52:16.000Z",
-          "wordCount": 906,
+          "wordCount": 979,
           "title": "Maple Tree v2 Patches For The Linux Kernel - 13~840% Faster For Malloc Threads Test Case"
         },
         {
@@ -294,7 +384,7 @@
           "description": "Mesa's Zink Gallium3D code for implementing OpenGL-over-Vulkan can now run a heck of a lot faster with the newest Mesa 21.3 code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zink-Suballocator-Merged",
           "publishedOn": "2021-08-17T18:42:46.000Z",
-          "wordCount": 876,
+          "wordCount": 865,
           "title": "Zink Suballocator Lands In Mesa - \"Over 1000%\" Performance Increase For Some Games"
         },
         {
@@ -303,7 +393,7 @@
           "description": "Manjaro 21.1 is now available as the latest stable version of this Arch Linux based operating system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Manjaro-21.1-Released",
           "publishedOn": "2021-08-17T17:35:55.000Z",
-          "wordCount": 724,
+          "wordCount": 797,
           "title": "Manjaro 21.1 Released With Better Btrfs Support, GNOME 40 Update"
         },
         {
@@ -312,7 +402,7 @@
           "description": "Microsoft has released an updated version of its CBL-Mariner Linux distribution as their platform within the company that is being used for various cloud and edge computing use-cases among other purposes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CBL-Mariner-July-2021-Update",
           "publishedOn": "2021-08-17T15:30:08.000Z",
-          "wordCount": 711,
+          "wordCount": 784,
           "title": "Microsoft Releases Updated Version Of Its CBL-Mariner Linux Distribution"
         },
         {
@@ -321,7 +411,7 @@
           "description": "Following last week's Radeon RX 6600 XT launch, here are benchmarks of the Radeon RX 6600 XT / RX 6700 XT / RX 6800 XT graphics cards across all of the Vulkan driver options available to Linux users.",
           "link": "https://www.phoronix.com/vr.php?view=30454",
           "publishedOn": "2021-08-17T13:00:00.000Z",
-          "wordCount": 1083,
+          "wordCount": 1091,
           "title": "AMD RDNA2 Vulkan: RADV vs. RADV+NGGC vs. AMDVLK vs. PRO Driver Benchmarks"
         },
         {
@@ -330,7 +420,7 @@
           "description": "The change led by AMD engineers for adding AV1 VA-API acceleration support to the Gallium3D \"VA\" state tracker front-end has landed in Mesa 21.3...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=VA-API-AV1-In-Gallium3D",
           "publishedOn": "2021-08-17T12:00:00.000Z",
-          "wordCount": 867,
+          "wordCount": 856,
           "title": "VA-API AV1 Decode Lands In Mesa 21.3 Gallium3D"
         },
         {
@@ -339,7 +429,7 @@
           "description": "The LLVMpipe driver providing a generic OpenGL implementation that's CPU-accelerated for Mesa - and more performant than alternatives thanks to LLVM - can now support OpenGL 4.5 compatibility profile contexts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVMpipe-OpenGL-4.5-Compat",
           "publishedOn": "2021-08-17T10:07:05.000Z",
-          "wordCount": 782,
+          "wordCount": 700,
           "title": "Mesa 21.3 LLVMpipe Enables OpenGL 4.5 Compatibility Profile Support"
         },
         {
@@ -348,7 +438,7 @@
           "description": "While getting late in the cycle, the Fedora Engineering and Steering Committee approved some additional changes for Fedora 35 due out this fall...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Golang-1.17-LLVM-13",
           "publishedOn": "2021-08-17T09:45:03.000Z",
-          "wordCount": 826,
+          "wordCount": 899,
           "title": "Fedora 35 Cleared For Golang 1.17, LLVM 13"
         },
         {
@@ -357,7 +447,7 @@
           "description": "Ubuntu developers acknowledge \"delaying this for a long time\" but for Ubuntu 21.10 they are planning to ship its systemd package with the unified cgroup hierarchy (Cgroups v2) by default...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-systemd-cgroup",
           "publishedOn": "2021-08-17T09:25:39.000Z",
-          "wordCount": 728,
+          "wordCount": 791,
           "title": "Ubuntu 21.10 Systemd To Finally Ship With Cgroup v2 By Default"
         },
         {
@@ -366,7 +456,7 @@
           "description": "The latest feature display work to happen for the AMDGPU kernel driver since the debut of FreeSync HDMI in Linux 5.13 is around DisplayPort 2.0 support and specifically the SST UHBR10 handling...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-DP-SST-UHBR10",
           "publishedOn": "2021-08-17T00:45:06.000Z",
-          "wordCount": 960,
+          "wordCount": 882,
           "title": "AMD Posts Linux Patches In Preparing For DisplayPort 2.0 Radeon GPU Support"
         },
         {
@@ -375,7 +465,7 @@
           "description": "Git 2.33 is out this evening as the latest stable update to this immensely successful open-source distributed revision control system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Git-2.33-Released",
           "publishedOn": "2021-08-17T00:24:32.000Z",
-          "wordCount": 813,
+          "wordCount": 726,
           "title": "Git 2.33 Released With New \"merge-ort\" Merging For 500~9000x Speed-Up"
         },
         {
@@ -384,7 +474,7 @@
           "description": "Last month Intel began posting the developer documentation around AVX-512 FP16 support coming with Sapphire Rapids and initially accompanied by GCC compiler patches along with LLVM/Clang. While that GNU Compiler Collection support around AVX-512 FP16 has yet to be merged, the LLVM Clang support for this next iteration of AVX-512 has begun landing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Clang-AVX512FP16",
           "publishedOn": "2021-08-16T18:33:45.000Z",
-          "wordCount": 839,
+          "wordCount": 903,
           "title": "LLVM Clang 14 Begins Landing Intel AVX-512 FP16 Support"
         },
         {
@@ -393,7 +483,7 @@
           "description": "Tesseract as the leading open-source optical character recognition (OCR) engine that employs neural networks for converting images/scans of text into actual recognized text is nearing its 5.0 release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Tesseract-5.0-Beta",
           "publishedOn": "2021-08-16T17:58:46.000Z",
-          "wordCount": 806,
+          "wordCount": 799,
           "title": "Tesseract 5.0 OCR Engine Bringing Faster Performance With \"Fast Floats\""
         },
         {
@@ -402,98 +492,8 @@
           "description": "Intel just announced the new brand they will use for their forthcoming high performance discrete  graphics solutions...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Arc-2022",
           "publishedOn": "2021-08-16T13:23:19.000Z",
-          "wordCount": 744,
+          "wordCount": 817,
           "title": "Intel's New Brand For High Performance Discrete Graphics: Arc"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-User-Service-Restart",
-          "author": null,
-          "description": "While Fedora currently allows restarting of system services automatically when upgrading the packages for those services, there hasn't been that capability for user services to automatically restart as part of RPM package upgrades. But now approved for Fedora 35 is that change...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-User-Service-Restart",
-          "publishedOn": "2021-08-16T13:00:00.000Z",
-          "wordCount": 775,
-          "title": "Fedora 35 To Support Restarting User Services On Package Upgrades"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mediatek-MT8167-DRM",
-          "author": null,
-          "description": "The Mediatek Direct Rendering Manager driver updates slated for Linux 5.15 were sent out this weekend...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mediatek-MT8167-DRM",
-          "publishedOn": "2021-08-16T11:55:46.000Z",
-          "wordCount": 811,
-          "title": "Mediatek MT8167 DRM Driver Support Coming For Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Slackware-15.0-RC1",
-          "author": null,
-          "description": "Not only did Debian 11 make it out this weekend, but Slackware 15 is finally up to its release candidate phase as the next major installment of this long-running Linux distribution...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Slackware-15.0-RC1",
-          "publishedOn": "2021-08-16T10:26:35.000Z",
-          "wordCount": 841,
-          "title": "Slackware 15.0 Coming Soon With RC1 Released"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Maui-2-UI-Framework",
-          "author": null,
-          "description": "The Maui open-source user interface framework and Maui Apps are out with a new release for those interested in this framework and applications that are designed to work well cross-device as well as largely working cross-platform too...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Maui-2-UI-Framework",
-          "publishedOn": "2021-08-16T10:18:32.000Z",
-          "wordCount": 853,
-          "title": "Maui 2 Released For Open-Source UI Framework"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Kdenlive-21.08",
-          "author": null,
-          "description": "Kdenlive 21.08 is now available as the newest feature upgrade to KDE's non-linear video editor...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Kdenlive-21.08",
-          "publishedOn": "2021-08-16T10:01:33.000Z",
-          "wordCount": 774,
-          "title": "Kdenlive 21.08 Released For KDE's Video Editor"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc6",
-          "author": null,
-          "description": "Linus Torvalds has released Linux 5.14-rc6 as the latest weekly test release of Linux 5.14 that should go gold around the end of August...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc6",
-          "publishedOn": "2021-08-16T00:16:22.000Z",
-          "wordCount": 699,
-          "title": "Linux 5.14-rc6 Released After Another Good Week"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30452",
-          "author": null,
-          "description": "With proper heatsinks becoming all the more important with speedy PCI Express 4.0 NVMe SSDs to avoid thermal throttling, SilverStone has been among the vendors offering after-market aluminum heatsinks designed for M.2 2280 drives. The SilverStone TP04 is a simple but effective aluminum alloy SSD cooling kit for about $17 USD.",
-          "link": "https://www.phoronix.com/vr.php?view=30452",
-          "publishedOn": "2021-08-15T18:41:24.000Z",
-          "wordCount": 961,
-          "title": "SilverStone TP04 M.2 SSD Cooling"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-PCIe-Linux-RFC",
-          "author": null,
-          "description": "While Linux 5.12 saw initial support merged for the Apple M1, it was quite the basic support with more robust support still to come. Besides the graphics support being a large work-in-progress, one of the areas now coming about is the new PCI Express driver that is necessary for supporting more functionality of this driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-PCIe-Linux-RFC",
-          "publishedOn": "2021-08-15T16:16:45.000Z",
-          "wordCount": 872,
-          "title": "Apple M1 PCIe Driver Under Review For The Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Grep-3.7",
-          "author": null,
-          "description": "If you have noticed grep regressing performance-wise in recent releases, you may want to upgrade to GNU Grep 3.7 released this weekend as it fixes a nasty performance regression...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Grep-3.7",
-          "publishedOn": "2021-08-15T11:00:15.000Z",
-          "wordCount": 729,
-          "title": "Grep 3.7 Released To Fix \"Extreme Performance Degradation\""
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenRazer-3.1",
-          "author": null,
-          "description": "OpenRazer 3.1 is now available as the newest version of this open-source, third-party solution for enabling Razer devices under Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenRazer-3.1",
-          "publishedOn": "2021-08-15T10:24:40.000Z",
-          "wordCount": 740,
-          "title": "OpenRazer 3.1 Released With Support For More Razer Devices"
         }
       ]
     }
