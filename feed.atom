@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-21T00:20:08.019Z</id>
+    <id>urn:2021-08-22T00:21:24.999Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-21T00:20:08.019Z</updated>
+    <updated>2021-08-22T00:21:24.999Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Patches Ready For Getting DisplayPort Over USB Type-C Working For More Intel Hardware]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hotplug-Notify-DP-Over-Type-C</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hotplug-Notify-DP-Over-Type-C"/>
+        <updated>2021-08-21T12:51:23.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat's Hans de Goede continues doing a commendable job improving the Linux support for various laptops with key improvements. One of the latest efforts by this longtime kernel developer has been about getting DisplayPort over USB Type-C connections working for more Intel hardware...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another Round Of Intel CET Patches, Still Working Toward Linux Kernel Integration]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CET-v29</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CET-v29"/>
+        <updated>2021-08-21T10:40:34.000Z</updated>
+        <summary type="html"><![CDATA[While Intel is normally very punctual in providing support for major new CPU features under Linux and often landing them well in advance of general hardware availability, their work around Control-flow Enforcement Technology (CET) has taken a long longer than normal and is still going through new rounds of code review to get accepted into the mainline Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["NAX" Linux Security Being Worked On For Helping Fend Off Fileless Malware Attacks]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NAX-LSM-Module</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NAX-LSM-Module"/>
+        <updated>2021-08-21T10:04:49.000Z</updated>
+        <summary type="html"><![CDATA[Due to the growing threat posed by file-less malware attacks where malware code is executed from anonymous executable memory pages that aren't backed by data on the file-system, the "NAX" Linux security module has been seeing work recently for helping to protect against such scenarios...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma Introduces A New Overview Effect, Many Wayland Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-New-Overview-Effect</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-New-Overview-Effect"/>
+        <updated>2021-08-21T09:45:01.000Z</updated>
+        <summary type="html"><![CDATA[It's been another busy week in KDE land with the seemingly never ending improvements to the Plasma Wayland session as well as introducing some new features like a new Overview Effect...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Proton 6.3-6 Released With More Games Running, Optional NVIDIA DLSS Support]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-6-Released</id>
@@ -36,21 +76,21 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Amazon EC2 M6i Performance For Intel Ice Lake In The Cloud]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30472</id>
-        <link href="https://www.phoronix.com/vr.php?view=30472"/>
-        <updated>2021-08-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this week Amazon introduced Intel Xeon Scalable 3rd Gen "Ice Lake" powered EC2 cloud instances and marks their first x86-based sixth-generation offerings that follow their "M6g" Graviton2 instances launched last year. Curious about the "M6i" Ice Lake performance with AWS, here are a number of benchmarks looking at the performance and value of the new M6i instances compared to former Intel M5 instances as well as Amazon's own M6g Graviton2 instances.]]></summary>
+        <title type="html"><![CDATA[AMD Launches The Infinity Hub As Its Newest Open-Source Portal]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub"/>
+        <updated>2021-08-20T16:33:37.000Z</updated>
+        <summary type="html"><![CDATA[AMD has launched the Infinity Hub as their newest open-source software portal around HPC software via easy-to-deploy Docker containers...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AMD Launches The Infinity Hub As Its Newest Open-Source Portal]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub"/>
-        <updated>2021-08-20T12:33:37.000Z</updated>
-        <summary type="html"><![CDATA[AMD has launched the Infinity Hub as their newest open-source software portal around HPC software...]]></summary>
+        <title type="html"><![CDATA[Amazon EC2 M6i Performance For Intel Ice Lake In The Cloud]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30472</id>
+        <link href="https://www.phoronix.com/vr.php?view=30472"/>
+        <updated>2021-08-20T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this week Amazon introduced Intel Xeon Scalable 3rd Gen "Ice Lake" powered EC2 cloud instances and marks their first x86-based sixth-generation offerings that follow their "M6g" Graviton2 instances launched last year. Curious about the "M6i" Ice Lake performance with AWS, here are a number of benchmarks looking at the performance and value of the new M6i instances compared to former Intel M5 instances as well as Amazon's own M6g Graviton2 instances.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -322,46 +362,6 @@ Supply chain security became a global priority after the SolarWinds attack, remi
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Manjaro 21.1 Released With Better Btrfs Support, GNOME 40 Update]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Manjaro-21.1-Released"/>
-        <updated>2021-08-17T17:35:55.000Z</updated>
-        <summary type="html"><![CDATA[Manjaro 21.1 is now available as the latest stable version of this Arch Linux based operating system...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Releases Updated Version Of Its CBL-Mariner Linux Distribution]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-July-2021-Update</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-July-2021-Update"/>
-        <updated>2021-08-17T15:30:08.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has released an updated version of its CBL-Mariner Linux distribution as their platform within the company that is being used for various cloud and edge computing use-cases among other purposes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD RDNA2 Vulkan: RADV vs. RADV+NGGC vs. AMDVLK vs. PRO Driver Benchmarks]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30454</id>
-        <link href="https://www.phoronix.com/vr.php?view=30454"/>
-        <updated>2021-08-17T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Following last week's Radeon RX 6600 XT launch, here are benchmarks of the Radeon RX 6600 XT / RX 6700 XT / RX 6800 XT graphics cards across all of the Vulkan driver options available to Linux users.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VA-API AV1 Decode Lands In Mesa 21.3 Gallium3D]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VA-API-AV1-In-Gallium3D</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VA-API-AV1-In-Gallium3D"/>
-        <updated>2021-08-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The change led by AMD engineers for adding AV1 VA-API acceleration support to the Gallium3D "VA" state tracker front-end has landed in Mesa 21.3...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to provision 100 AWS Graviton GitLab Spot Runners in 10 Minutes for $2/hour]]></title>
         <id>https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/</id>
         <link href="https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/"/>
@@ -627,35 +627,6 @@ to use GitLab's own infrastructure.]]></summary>
 What is Helm?
 Helm is a package manager for Kubernetes. A Chart is a Helm package that contains the resource definitions required to run an application inside a Kubernetes cluster. Helm allows you to manage complex applications by storing the application definition in a chart that can be versioned, shared, and collaborated on.
 The differences bet…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use a push-based approach for GitOps with GitLab scripting and variables]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/23/how-to-agentless-gitops-vars/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/23/how-to-agentless-gitops-vars/"/>
-        <updated>2021-07-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In part one of our GitOps series, we described how to use a pull-based (or agent-based) approach. In this second blog post, we'll dig deep into how to use a push-based approach. The agentless approach may be preferable for situations with non-Kubernetes infrastructure components or when you don't want to install, run, and maintain agents in each infrastructure component for GitOps. In this post, we will discuss how the scripting capabilities of GitLab can be used in GitOps workflows, and how to use predefined GitLab variables to shape infrastructure components.
-About a push-based or agentless approach
-With the agentless approach, infrastructure expressed and managed as code on GitLab, and updates and drift detection are automated and handled by GitLab without having to install any agents o…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Package Hunter: A tool for detecting malicious code in your dependencies]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/23/announcing-package-hunter/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/23/announcing-package-hunter/"/>
-        <updated>2021-07-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Modern programming ecosystems make code reuse exceptionally easy. No matter the
-programming task at hand, chances are there is a package in a public registry
-such as rubygems.org or npmjs.com that implements that task.
-While the reuse of publicly available packages reduces the time necessary to write an app, this reuse
-brings its own set of challenges. Apps quickly depend on hundreds of packages,
-and programmers often simply just trust that these packages don't contain malicious code.
-In an ideal world, all depended-upon code is thoroughly vetted before being included in a program – however, this is often unfeasible in practice due to the sheer amount of dependency code that needs to be reviewed and the lack of existing tools to help with vetting dependency code.
-Malicious code in the wild…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
