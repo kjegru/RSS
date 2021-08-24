@@ -12,12 +12,30 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/",
+          "author": null,
+          "description": "World-class CI/CD comes as a part of the GitLab DevOps Platform to help streamline how development teams build, test, and deploy their apps. GitLab Runner is the execution engine that \"does the work,\" enabling you, as a developer, to run fast, scalable CI/CD pipelines on your on-premises infrastructure or the cloud. Historically, Apple developers on GitLab SaaS had to set up runners on their own macOS systems to execute CI/CD workflows, introducing additional cost and operational overhead. As organizations and teams develop more apps for the Apple ecosystem, the need to create and deploy quickly becomes more important.\nIntroducing GitLab Build Cloud for macOS Beta\nToday, you can say goodbye to that Mac mini under your desk! We are pleased to announce the GitLab Build Cloud for macOS Beta, …",
+          "link": "https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/",
+          "publishedOn": "2021-08-23T00:00:00.000Z",
+          "wordCount": 2010,
+          "title": "Introducing GitLab Build Cloud for macOS Beta"
+        },
+        {
+          "id": "https://about.gitlab.com/releases/2021/08/23/gitlab-14-2-1-released/",
+          "author": null,
+          "description": "Today we are releasing version 14.2.1 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.2 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAdding upgrade messaging for PK migrations\nDon't override vulnerability feedback UUID anymore\nReorder vulnerability check criteria\nFix \"getAction is undefined\" bug\nDrop un-used db/ci_migrate symlink\nFix migration NameError in rails env helper\nBump Container Registry to v3.9.0-gitlab\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/08/23/gitlab-14-2-1-released/",
+          "publishedOn": "2021-08-23T00:00:00.000Z",
+          "wordCount": 1026,
+          "title": "GitLab Patch Release: 14.2.1"
+        },
+        {
           "id": "https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/",
           "author": null,
           "description": "Today, we are excited to announce the release of GitLab 14.2 with  introduction of the Build Cloud for macOS beta, Markdown preview, expanded Gitpod integration, new DevOps adoption metrics, and much more!\nThese are just a few highlights of the 50+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.3 release kickoff video.\nJoin us for an upcoming event\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nCornelius Ludmann\n\nCornelius added support\nfor opening code changes directly in Gitpod when viewing a merge request. In fact, this\nrelease blog post was created and edited with Gitpod! Cornelius initially helped add an\noption to open a project in Gitp…",
           "link": "https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/",
           "publishedOn": "2021-08-22T00:00:00.000Z",
-          "wordCount": 7126,
+          "wordCount": 7132,
           "title": "GitLab 14.2 released with the Build Cloud for macOS beta and Markdown preview"
         },
         {
@@ -62,7 +80,7 @@
           "description": "Today we are releasing version 14.1.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nlast month's 14.1 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAS Fix SAML SSO login redirects not working\nBump kas to v14.1.1\nResolve operator does not exist: integer[] || bigint in app/models/namespace/traversal_hierarchy.rb\nGeo 2.0 Regression - Add ability to remove primary\nAdd AES256-GCM-SHA384 to allowed list of Nginx SSL ciphers\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/08/17/gitlab-14-1-3-released/",
           "publishedOn": "2021-08-17T00:00:00.000Z",
-          "wordCount": 1054,
+          "wordCount": 1035,
           "title": "GitLab Patch Release: 14.1.3"
         },
         {
@@ -98,7 +116,7 @@
           "description": "Today we are releasing version 13.12.10 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nMay's 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nFix: Sidekiq workers delete each other's metrics\nDo not create audit event for failed logins on read-only DB\nFix validation method regarding MIME type keys\nResolve \"operator does not exist\" in app/models/namespace/traversal_hierarchy.rb\ngitlab-rails: checks/postgresql detect silent NoDatabaseError\nAdding -ubi8 to version to find UBI images\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/08/10/gitlab-13-12-10-released/",
           "publishedOn": "2021-08-10T00:00:00.000Z",
-          "wordCount": 1063,
+          "wordCount": 1044,
           "title": "GitLab Patch Release: 13.12.10"
         },
         {
@@ -143,7 +161,7 @@
           "description": "Today we are releasing versions 14.1.2, 14.0.7, and 13.12.9 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days …",
           "link": "https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/",
           "publishedOn": "2021-08-03T00:00:00.000Z",
-          "wordCount": 2663,
+          "wordCount": 2607,
           "title": "GitLab Security Release: 14.1.2, 14.0.7, and 13.12.9"
         },
         {
@@ -181,15 +199,6 @@
           "publishedOn": "2021-07-28T00:00:00.000Z",
           "wordCount": 1078,
           "title": "GitLab Patch Release: 14.1.1"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/",
-          "author": null,
-          "description": "Cloud native application architectures use containerization, microservices, and Kubernetes to run reliably at cloud-scale. With a built-in container registry and Kubernetes integration, GitLab is the best way to develop and deploy cloud native applications. GitLab version 14.1 also includes a Helm registry, which allows users to publish, install, and share Helm charts and packages from within our single application for the entire DevOps lifecycle.\nWhat is Helm?\nHelm is a package manager for Kubernetes. A Chart is a Helm package that contains the resource definitions required to run an application inside a Kubernetes cluster. Helm allows you to manage complex applications by storing the application definition in a chart that can be versioned, shared, and collaborated on.\nThe differences bet…",
-          "link": "https://about.gitlab.com/blog/2021/07/26/gitlab-helm-package-registry/",
-          "publishedOn": "2021-07-26T00:00:00.000Z",
-          "wordCount": 1917,
-          "title": "Introducing the GitLab Helm Package Registry"
         }
       ]
     },
@@ -199,13 +208,85 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Beta",
+          "author": null,
+          "description": "The GNOME 41 beta is now available ahead of next month's official half-year update to this open-source desktop environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Beta",
+          "publishedOn": "2021-08-23T22:14:44.000Z",
+          "wordCount": 797,
+          "title": "GNOME 41 Beta Released With \"Calls\" SIP/VoIP Support, Wayland Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Memory-Folios-PR-Linux-5.15",
+          "author": null,
+          "description": "With the Linux 5.15 kernel merge window likely opening next week, Matthew Wilcox of Oracle has already sent in a prominent pull request to Linus Torvalds: the initial work around landing of the memory folios patches...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Memory-Folios-PR-Linux-5.15",
+          "publishedOn": "2021-08-23T19:30:33.000Z",
+          "wordCount": 1099,
+          "title": "Memory Folios Pull Request Pending For Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-Reflink-Revised",
+          "author": null,
+          "description": "Last month I wrote about the proposed reflink support for Wine that would provide significant space savings for those having multiple Windows games/applications on Linux installed where Wine and derivatives like Crossover and Steam Play (Proton) generally maintain a separate \"prefix\" per software installation. Fortunately, that reflink support continues to be worked on for Wine where it can lead to savings up to several hundred megabytes per Wine prefix...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-Reflink-Revised",
+          "publishedOn": "2021-08-23T18:00:18.000Z",
+          "wordCount": 849,
+          "title": "Wine Reflink Support Continues To Be Worked On For Significant Space Savings"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GTK-4.4-Released",
+          "author": null,
+          "description": "GTK 4.4 is out as the latest stable update to the GTK4 open-source toolkit...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GTK-4.4-Released",
+          "publishedOn": "2021-08-23T17:19:20.000Z",
+          "wordCount": 801,
+          "title": "GTK 4.4 Released With Continued NGL Improvements, Inspector By Default"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30480",
+          "author": null,
+          "description": "Zink as an OpenGL-over-Vulkan API implementation living within Mesa merged its sub-allocator code that could deliver 10x the performance for some games. Plus it also landed OpenGL compatibility context support for getting more games working now with this open-source GL-on-VLK solution. Given the progress made in Mesa Git over the past week, here are some fresh benchmarks now for how the performance stands across various games and benchmarks.",
+          "link": "https://www.phoronix.com/vr.php?view=30480",
+          "publishedOn": "2021-08-23T13:00:00.000Z",
+          "wordCount": 858,
+          "title": "Zink Mesa 21.3-dev Benchmarks - Increasingly Capable Of Running OpenGL Games Atop Vulkan"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Per-Client-GPU-Stat-Again",
+          "author": null,
+          "description": "Going on three years now there have been proposed patches for allowing per-client GPU engine statistics for being able to show on a per-game/application level how many resources across 3D/blitting/video engines are being consumed. The patches continue to be revised but sadly will be missing out on the imminent Linux 5.15 kernel merge window...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Per-Client-GPU-Stat-Again",
+          "publishedOn": "2021-08-23T12:48:51.000Z",
+          "wordCount": 810,
+          "title": "Intel Revs Linux Patches Yet Again For Per-Client GPU Statistics"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.15-Issues",
+          "author": null,
+          "description": "While Habana Labs has been known for their open-source and upstream Linux kernel driver for their AI training/inference accelerators with that code they had been working on as a start-up even before being acquired by Intel, it's continued to cause friction that they rely in user-space on closed-source components like their compiler. That in turn is again causing problems for changes that the Habana Labs kernel driver planned to land with the upcoming Linux 5.15 cycle...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.15-Issues",
+          "publishedOn": "2021-08-23T07:00:00.000Z",
+          "wordCount": 1164,
+          "title": "Habana Labs' Linux AI Driver Causes More Concerns - Changes Dropped Ahead Of Linux 5.15"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Apple-M1-Boots-GNOME",
           "author": null,
           "description": "Running Linux on the Apple M1 with various out-of-tree patches is now capable of booting to a GNOME desktop albeit lacking any OpenGL/graphics acceleration...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Apple-M1-Boots-GNOME",
-          "publishedOn": "2021-08-23T00:02:13.000Z",
-          "wordCount": 934,
+          "publishedOn": "2021-08-23T05:00:00.000Z",
+          "wordCount": 912,
           "title": "Linux On The Apple M1 Can Now Boot To The GNOME Desktop But Lacking Acceleration"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser4-Reiser5-Linux-5.13",
+          "author": null,
+          "description": "While Linux 5.14 stable is expected next weekend, the Reiser4 (and experimental Reiser5) file-system driver code has been finally updated for compatibility with the Linux 5.13 kernel series...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Reiser4-Reiser5-Linux-5.13",
+          "publishedOn": "2021-08-23T04:00:00.000Z",
+          "wordCount": 855,
+          "title": "Reiser4/Reiser5 File-System Driver Updated For Linux 5.13"
         },
         {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc7",
@@ -213,7 +294,7 @@
           "description": "The Linux 5.14 cycle is playing out smoothly and will likely lead to the Linux 5.14 stable kernel release happening next weekend...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-rc7",
           "publishedOn": "2021-08-22T21:41:58.000Z",
-          "wordCount": 784,
+          "wordCount": 794,
           "title": "Linux 5.14 Stable Likely Coming Next Weekend, 5.14-rc7 Released Today"
         },
         {
@@ -222,7 +303,7 @@
           "description": "Since the start of July we've seen Intel beginning Linux support patches for their DG2 graphics card that is now known by the \"Alchemist\" codename. There's been several rounds of DG2 patches since they started publicly pushing out the code -- including some notable work like DisplayPort 2.0 bring-up -- while sent out this Sunday is another important piece of the puzzle: getting the device memory (the dedicated vRAM) actually working with the open-source driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-Device-Memory",
           "publishedOn": "2021-08-22T17:07:22.000Z",
-          "wordCount": 950,
+          "wordCount": 880,
           "title": "Intel Posts Patches Bringing Up DG2/Alchemist Discrete Video Memory For Linux"
         },
         {
@@ -231,7 +312,7 @@
           "description": "While it was busy on the hardware side of the house with Intel talking up all of their forthcoming hardware, Intel's open-source software engineers remain very busy working not only to enable their next-generation hardware but other open-source efforts they've invested in like the iNet wireless daemon...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-IWD-1.17",
           "publishedOn": "2021-08-22T09:41:37.000Z",
-          "wordCount": 782,
+          "wordCount": 790,
           "title": "Intel's IWD 1.17 Wireless Daemon Brings More Fixes"
         },
         {
@@ -240,7 +321,7 @@
           "description": "Red Hat's Hans de Goede continues doing a commendable job improving the Linux support for various laptops with key improvements. One of the latest efforts by this longtime kernel developer has been about getting DisplayPort over USB Type-C connections working for more Intel hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hotplug-Notify-DP-Over-Type-C",
           "publishedOn": "2021-08-21T12:51:23.000Z",
-          "wordCount": 775,
+          "wordCount": 869,
           "title": "Patches Ready For Getting DisplayPort Over USB Type-C Working For More Intel Hardware"
         },
         {
@@ -249,7 +330,7 @@
           "description": "While Intel is normally very punctual in providing support for major new CPU features under Linux and often landing them well in advance of general hardware availability, their work around Control-flow Enforcement Technology (CET) has taken a long longer than normal and is still going through new rounds of code review to get accepted into the mainline Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CET-v29",
           "publishedOn": "2021-08-21T10:40:34.000Z",
-          "wordCount": 905,
+          "wordCount": 949,
           "title": "Another Round Of Intel CET Patches, Still Working Toward Linux Kernel Integration"
         },
         {
@@ -258,7 +339,7 @@
           "description": "Due to the growing threat posed by file-less malware attacks where malware code is executed from anonymous executable memory pages that aren't backed by data on the file-system, the \"NAX\" Linux security module has been seeing work recently for helping to protect against such scenarios...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NAX-LSM-Module",
           "publishedOn": "2021-08-21T10:04:49.000Z",
-          "wordCount": 747,
+          "wordCount": 755,
           "title": "\"NAX\" Linux Security Being Worked On For Helping Fend Off Fileless Malware Attacks"
         },
         {
@@ -267,7 +348,7 @@
           "description": "It's been another busy week in KDE land with the seemingly never ending improvements to the Plasma Wayland session as well as introducing some new features like a new Overview Effect...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-New-Overview-Effect",
           "publishedOn": "2021-08-21T09:45:01.000Z",
-          "wordCount": 821,
+          "wordCount": 909,
           "title": "KDE Plasma Introduces A New Overview Effect, Many Wayland Fixes"
         },
         {
@@ -276,7 +357,7 @@
           "description": "It's been nearly two months since Proton 6.3-5 released for powering Valve's Steam Play for enjoying Windows games on Linux. The latest Proton update was just released with many improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Proton-6.3-6-Released",
           "publishedOn": "2021-08-20T23:39:00.000Z",
-          "wordCount": 854,
+          "wordCount": 862,
           "title": "Proton 6.3-6 Released With More Games Running, Optional NVIDIA DLSS Support"
         },
         {
@@ -285,7 +366,7 @@
           "description": "AMD has published their fifth revision of SEV-SNP support for the KVM hypervisor and guest VM support for this Secure Encrypted Virtualization Secure Nested Paging functionality found with new EPYC 7003 series server processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-SNP-v5",
           "publishedOn": "2021-08-20T19:00:00.000Z",
-          "wordCount": 1096,
+          "wordCount": 1104,
           "title": "AMD Publishes Latest SEV-SNP Guest + Hypervisor Support For Linux"
         },
         {
@@ -294,7 +375,7 @@
           "description": "OpenSSH 8.7 is out today as the newest feature release for this widely-used SSH server/client software...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenSSH-8.7",
           "publishedOn": "2021-08-20T17:12:25.000Z",
-          "wordCount": 761,
+          "wordCount": 849,
           "title": "OpenSSH 8.7 Released With Experimental SFTP Support For SCP"
         },
         {
@@ -303,7 +384,7 @@
           "description": "AMD has launched the Infinity Hub as their newest open-source software portal around HPC software via easy-to-deploy Docker containers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Infinity-Hub",
           "publishedOn": "2021-08-20T16:33:37.000Z",
-          "wordCount": 903,
+          "wordCount": 911,
           "title": "AMD Launches The Infinity Hub As Its Newest Open-Source Portal"
         },
         {
@@ -312,7 +393,7 @@
           "description": "Earlier this week Amazon introduced Intel Xeon Scalable 3rd Gen \"Ice Lake\" powered EC2 cloud instances and marks their first x86-based sixth-generation offerings that follow their \"M6g\" Graviton2 instances launched last year. Curious about the \"M6i\" Ice Lake performance with AWS, here are a number of benchmarks looking at the performance and value of the new M6i instances compared to former Intel M5 instances as well as Amazon's own M6g Graviton2 instances.",
           "link": "https://www.phoronix.com/vr.php?view=30472",
           "publishedOn": "2021-08-20T13:00:00.000Z",
-          "wordCount": 1161,
+          "wordCount": 1242,
           "title": "Amazon EC2 M6i Performance For Intel Ice Lake In The Cloud"
         },
         {
@@ -321,7 +402,7 @@
           "description": "Canonical's Daniel Van Vugt continues working on some important performance fixes for the GNOME desktop...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-Magnifier-Double-Paint",
           "publishedOn": "2021-08-20T09:39:14.000Z",
-          "wordCount": 783,
+          "wordCount": 869,
           "title": "GNOME's Magnifier Will Now Avoid Double Painting The Desktop"
         },
         {
@@ -330,7 +411,7 @@
           "description": "Work continues on getting the Broadcom VC4 kernel Direct Rendering Manager (DRM) driver into shape for being able to support 4K display outputs at 60Hz...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Raspberry-Pi-4K60-v7",
           "publishedOn": "2021-08-20T07:00:00.000Z",
-          "wordCount": 809,
+          "wordCount": 777,
           "title": "Raspberry Pi Display Driver Patches Updated For 4K@60Hz Support"
         },
         {
@@ -339,7 +420,7 @@
           "description": "A minor optimization was posted by an AMD engineer on Wednesday for the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Skip-C3-Cache-Flush",
           "publishedOn": "2021-08-20T05:00:00.000Z",
-          "wordCount": 869,
+          "wordCount": 797,
           "title": "AMD To Optimize C3 Entry On Linux By Finally Skipping The Cache Flush"
         },
         {
@@ -348,7 +429,7 @@
           "description": "For passionate Phoronix readers around the Rust programming language, SixtyFPS is a new graphical toolkit offering focused on Rust but also supporting C++ and JavaScript...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SixtyFPS-0.1-Rust-Toolkit",
           "publishedOn": "2021-08-20T04:00:00.000Z",
-          "wordCount": 773,
+          "wordCount": 861,
           "title": "SixtyFPS 0.1 Released As A Rust-Focused Graphical Toolkit"
         },
         {
@@ -357,7 +438,7 @@
           "description": "The Netfilter project has announced the release of Nftables 1.0.0 for their user-space code for interfacing with the Linux kernel's Nftables subsystem for network filtering and classification...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Nftables-1.0",
           "publishedOn": "2021-08-19T22:17:19.000Z",
-          "wordCount": 752,
+          "wordCount": 680,
           "title": "Netfilter Releases Nftables 1.0"
         },
         {
@@ -366,7 +447,7 @@
           "description": "For those that prefer to hold off on upgrading to a new Mesa stable release series until the first point release is out, Mesa 21.2.1 is now available as the first update to this quarter's Mesa 21.2 series...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.1-Released",
           "publishedOn": "2021-08-19T19:10:35.000Z",
-          "wordCount": 801,
+          "wordCount": 855,
           "title": "Mesa 21.2.1 Released With \"Nice Changes For Almost Everyone\""
         },
         {
@@ -375,7 +456,7 @@
           "description": "The W3C has been working on the \"Open Screen Protocol\" as part of their Second Screen Working Group. This effort has been about having a web standard so web pages can drive secondary screens to display web content. Unfortunately, the plans are currently being complicated by a number of software patents issued to Apple...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-Patents-W3C-OSP",
           "publishedOn": "2021-08-19T18:16:08.000Z",
-          "wordCount": 1006,
+          "wordCount": 1014,
           "title": "Apple Patents Complicating W3C's Open Screen Protocol"
         },
         {
@@ -384,7 +465,7 @@
           "description": "Intel this week hosted a virtual Architecture Day where they talked up their latest efforts from Alder Lake and Sapphire Rapids to their next-generation discrete graphics capabilities as well as other new offerings around IPUs and more. Here are the highlights from Intel Architecture Day 2021 and with a particular focus from our Linux angle.",
           "link": "https://www.phoronix.com/vr.php?view=30468",
           "publishedOn": "2021-08-19T13:00:01.000Z",
-          "wordCount": 1042,
+          "wordCount": 963,
           "title": "Intel Architecture Day 2021 & The Linux State"
         },
         {
@@ -393,7 +474,7 @@
           "description": "Many will recall DFI motherboards from close to two decades ago for their wildly colored \"LANParty\" motherboards but in recent years the company has been focusing on IoT and industrial hardware where, of course, Linux has much relevance. DFI and Canonical today announced an AMD-powered Ubuntu-loaded \"industrial Pi\" single board computer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Ubuntu-Industrial-Pi-DFI",
           "publishedOn": "2021-08-19T11:55:17.000Z",
-          "wordCount": 771,
+          "wordCount": 850,
           "title": "Canonical + DFI Pair Up For An \"Industrial Pi\" Powered By AMD & Ubuntu"
         },
         {
@@ -402,7 +483,7 @@
           "description": "LibreOffice 7.2 Community is out today as the newest version of this widely-used, open-source, cross-platform office suite...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-7.2-Community",
           "publishedOn": "2021-08-19T11:00:00.000Z",
-          "wordCount": 746,
+          "wordCount": 754,
           "title": "LibreOffice 7.2 Community Released For This Leading Open-Source Office Suite"
         },
         {
@@ -411,80 +492,8 @@
           "description": "While Ubuntu normally ships with the very latest GNOME desktop version issued just before release time, with Ubuntu 21.04 they stuck to GNOME 3.38 rather than punting early to GNOME 40. In the Ubuntu 21.10 development packages they since migrated to GNOME 40 but now it looks like they will be sticking to that and not pulling ahead to the near-final GNOME 41...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-With-GNOME-40",
           "publishedOn": "2021-08-19T09:39:16.000Z",
-          "wordCount": 933,
+          "wordCount": 875,
           "title": "Ubuntu 21.10 Likely Sticking To The GNOME 40 Desktop"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SDL2-Render-Geometry",
-          "author": null,
-          "description": "While not making it for last week's SDL 2.0.16 release, merged on Wednesday to the SDL2 development code is an \"SDL_GeometryRender\" interface that stems from feature requests going back nearly a decade for this graphics API independent triangle rendering API...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL2-Render-Geometry",
-          "publishedOn": "2021-08-19T07:00:00.000Z",
-          "wordCount": 784,
-          "title": "SDL2 Lands Long-Sought Geometry Render API"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-Custom-Fan-Curves",
-          "author": null,
-          "description": "Independent developer Luke Jones continues making good progress on improving the \"ASUS-WMI\" driver for better ASUS laptop support on Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-Custom-Fan-Curves",
-          "publishedOn": "2021-08-19T04:00:00.000Z",
-          "wordCount": 736,
-          "title": "Custom CPU/GPU Fan Curve Support For Some ASUS Laptops On Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=MATE-1.26-Desktop",
-          "author": null,
-          "description": "After one and a half years in development of MATE 1.26 as a fork of the GNOME 2 desktop components, this release is now available with initial Wayland support and more...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=MATE-1.26-Desktop",
-          "publishedOn": "2021-08-18T23:11:23.000Z",
-          "wordCount": 680,
-          "title": "MATE 1.26 Desktop Released With Some Wayland Support, Other Improvements"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DisplayPort-2.0-Linux",
-          "author": null,
-          "description": "It looks like 2022 is when we will start seeing DisplayPort 2.0 hardware broadly available... It was just earlier this week I wrote about AMD working on DisplayPort 2.0 for their open-source Radeon Linux driver and now coincidentally today Intel has begun their open-source Linux graphics driver enablement for DP 2.0...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DisplayPort-2.0-Linux",
-          "publishedOn": "2021-08-18T18:30:00.000Z",
-          "wordCount": 929,
-          "title": "Intel Posts Linux Patches Bringing Up DisplayPort 2.0 - DG2 Alchemist To Support DP 2.0"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-SC-1.0-Coming",
-          "author": null,
-          "description": "It's been over two years since The Khronos Group acknowledged they were working on safety critical Vulkan and now finally the 1.0 release is approaching for this graphics/compute interface suitable for safety critical systems...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-SC-1.0-Coming",
-          "publishedOn": "2021-08-18T17:55:24.000Z",
-          "wordCount": 881,
-          "title": "Vulkan SC 1.0 Coming For \"Safety Critical\" Graphics / Compute"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Krita-5.0-Beta",
-          "author": null,
-          "description": "Krita 5.0 is on the way as the next major feature release to this popular, open-source digital painting program...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Krita-5.0-Beta",
-          "publishedOn": "2021-08-18T17:37:52.000Z",
-          "wordCount": 724,
-          "title": "Krita 5.0 Beta Released With Better Performance, UI Polishing"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30463",
-          "author": null,
-          "description": "This past weekend marked the release of Debian 11 \"Bullseye\" as the newest version of this major Linux distribution that is also the basis for many others. Given the popularity of Debian stable on servers, our first round of Debian 11.0 benchmarking is looking at the performance relative to Debian 10.10 on latest-generation Intel Xeon \"Ice Lake\" and AMD EPYC \"Milan\" hardware.",
-          "link": "https://www.phoronix.com/vr.php?view=30463",
-          "publishedOn": "2021-08-18T12:35:35.000Z",
-          "wordCount": 891,
-          "title": "Debian 11 Performance Uplift Is Looking Great For Intel Xeon, AMD EPYC"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-x86-64-Micro-Feature-Lvl",
-          "author": null,
-          "description": "A set of two patches posted this week would allow the Linux kernel to be easily built with the different x86-64 micro-architecture feature levels supported by the latest LLVM Clang and GCC compilers...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-x86-64-Micro-Feature-Lvl",
-          "publishedOn": "2021-08-18T10:00:00.000Z",
-          "wordCount": 842,
-          "title": "Proposed: Allow Building The Linux Kernel With x86-64 Microarchitecture Feature Levels"
         }
       ]
     }
