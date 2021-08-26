@@ -1,10 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-24T00:21:09.273Z</id>
+    <id>urn:2021-08-26T00:31:58.888Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-24T00:21:09.273Z</updated>
+    <updated>2021-08-26T00:31:58.888Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux Pipe Code Again Sees Patch To Restore Buggy/Improper User-Space Behavior]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Pipe-Broken-User-Again</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Pipe-Broken-User-Again"/>
+        <updated>2021-08-25T23:38:36.000Z</updated>
+        <summary type="html"><![CDATA[It was just last month that the Linux kernel saw a pipe code change to address a user-space regression due to the kernel's policy about not breaking the user-space even if that non-kernel code is in the wrong. A similar kernel regression fix was merged today...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimized C3 Entry Handling For AMD CPUs Queued For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-C3-Optimize-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-C3-Optimize-Linux-5.15"/>
+        <updated>2021-08-25T19:15:01.000Z</updated>
+        <summary type="html"><![CDATA[The work I initially wrote about last week for AMD optimizing their C3 entry handling to avoid an unnecessary cache flush will now be picked up for the upcoming Linux 5.15 kernel cycle...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenShot 2.6 Video Editor Released With Computer Vision + AI Effects]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6-Released"/>
+        <updated>2021-08-25T17:05:17.000Z</updated>
+        <summary type="html"><![CDATA[OpenShot 2.6 has been released as the newest version of this non-linear open-source video editing system for Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Ryzen 7 5700G Linux Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30483</id>
+        <link href="https://www.phoronix.com/vr.php?view=30483"/>
+        <updated>2021-08-25T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month the AMD Ryzen 5 5600G and Ryzen 7 5700G desktop APUs officially launched for retail availability. Unfortunately we were not seeded with any review sample for being able to conduct Linux testing on these Zen 3 APUs with Vega graphics, but ended up purchasing one afterwards due to the number of readers inquiring about the Linux support. Here are some preliminary benchmarks of the AMD Ryzen 7 5700G.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Features Aplenty With New AMD GPUs, SmartShift, More Alder Lake, Core Scheduling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Features</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Features"/>
+        <updated>2021-08-25T13:18:55.000Z</updated>
+        <summary type="html"><![CDATA[Today marks the 30th birthday of Linux since it was announced by Linus Torvalds. Meanwhile in just a few days the Linux 5.14 kernel is expected to be released as stable. Here is a look back at the most prominent features coming for this kernel release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Posts Latest Linux Patches For Supporting The Frontier Supercomputer]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Mem-Device-Public</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Mem-Device-Public"/>
+        <updated>2021-08-25T10:10:37.000Z</updated>
+        <summary type="html"><![CDATA[AMD engineers continue working on preparing the Linux kernel for the Frontier supercomputer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Loongson Continues Working On LoongArch For Linux, But It's Mostly Copying MIPS Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-MIPS-Copy-Kernel</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-MIPS-Copy-Kernel"/>
+        <updated>2021-08-25T09:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Loongson this summer rolled out their 3A5000 processors built on their own "LoongArch" ISA. While the company continues claiming that LoongArch is "not MIPS", the Linux kernel code they continue proposing for the mainline Linux kernel points to it being a close facsimile to MIPS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clang CFI Patches For The Linux Kernel Updated To Beef Up Security]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-CFI-Linux-v2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-CFI-Linux-v2"/>
+        <updated>2021-08-25T04:00:04.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year when Clang LTO support was added for Linux 5.12 that link-time optimization support wasn't done solely for squeezing out greater performance but also because it's a prerequisite for making use of Clang's Control Flow Integrity (CFI) functionality. Google engineers have now sent out their latest set of patches for bringing up Clang CFI support within the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QEMU 6.1 Released With RISC-V Improvements, AMD Emulation Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-Released"/>
+        <updated>2021-08-24T22:16:47.000Z</updated>
+        <summary type="html"><![CDATA[QEMU 6.1 is out as the newest feature release to this widely-used, open-source Linux virtualization component...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Early Ubuntu 21.10 Performance Is Looking Good - Especially For Radeon Graphics]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30482</id>
+        <link href="https://www.phoronix.com/vr.php?view=30482"/>
+        <updated>2021-08-24T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While there is still two months to go until the Ubuntu 21.10 "Impish Indri" release, since the feature freeze has now begun I've started some early testing of this next Ubuntu release. So far things are looking good as a nice upgrade over Ubuntu 21.04 and prior. Here is the first round of Ubuntu 21.04 vs. 21.10 development tests using an AMD Ryzen 9 5950X with Radeon RX 5700 XT graphics.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Haiku OS Gets TRIM Working For SSDs, Continues Bringing Up RISC-V Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-Summer-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-Summer-2021"/>
+        <updated>2021-08-24T18:54:15.000Z</updated>
+        <summary type="html"><![CDATA[The Haiku open-source operating system project that continues advancing as the virtual successor to BeOS has been enjoying a successful summer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DebConf21 Kicks Off Online For Annual Debian Conference]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DebConf21-Starts</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DebConf21-Starts"/>
+        <updated>2021-08-24T18:13:44.000Z</updated>
+        <summary type="html"><![CDATA[DebConf21 officially got underway this morning with being a second year of this annual Debian conference being held exclusively online due to the ongoing COVID-19 pandemic...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Kernel Changes Proposed So Intel TDX KVM Guests Avoid Crashing The Host]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-Guest-Private-Mem-TDX</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-Guest-Private-Mem-TDX"/>
+        <updated>2021-08-24T12:53:41.000Z</updated>
+        <summary type="html"><![CDATA[Shortly after Intel's TDX whitepaper was made public last year for better protecting virtual machines, Intel open-source engineers began posting support patches for bringing up Trust Domain Extensions under Linux. That work remains ongoing and now further Linux kernel infrastructure work is pending to better deal with the notion of guest private memory afforded by TDX...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm Posts New GCC Compiler Patches Due To New Vulnerability Affecting ARMv8-M TrustZone]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-GCC-CVE-2021-35465</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-GCC-CVE-2021-35465"/>
+        <updated>2021-08-24T11:55:19.000Z</updated>
+        <summary type="html"><![CDATA[Made public on Monday was CVE-2021-35465 as a new security vulnerability affecting various Arm products. For unmitigated (ARMv8-M) hardware, Arm has posted a series of GCC compiler patches for working around the issue...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HSE 2.0 Open-Source Storage Engine Is On The Way From Micron]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=HSE-2.0-On-The-Way</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=HSE-2.0-On-The-Way"/>
+        <updated>2021-08-24T10:39:09.000Z</updated>
+        <summary type="html"><![CDATA[Announced back in April of 2020 was Micron's HSE as an open-source storage engine optimized for solid-state drives and persistent memory. After quickly crossing the v1.0 milestone and working its way up to HSE 1.9 at the end of last year, there hasn't been any updates since. Fortunately, the project is still alive and HSE 2.0 is on the way...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD's Open-Source Mesa Driver Continues To Be Ruthlessly Optimized For Workstation Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Close-To-Pro-Snx</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Close-To-Pro-Snx"/>
+        <updated>2021-08-24T10:05:55.000Z</updated>
+        <summary type="html"><![CDATA[One of the areas where AMD's long-standing "PRO" OpenGL driver has generally held an advantage over RadeonSI Gallium3D has been around workstation software but that has been changing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Releases OSPray Studio 0.8]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OSPray-Studio-0.8</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OSPray-Studio-0.8"/>
+        <updated>2021-08-24T09:36:33.000Z</updated>
+        <summary type="html"><![CDATA[One year ago to the day Intel announced OSPray Studio as a scene graph application for rendering glTF assets and other 3D models. OSPray Studio is built off their OSPray ray-tracing engine that they've been working on for years. These Intel efforts are all part of their oneAPI initiative and today happens to mark a shiny new feature release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q3.5 Released With Radeon RX 6600 XT Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.5"/>
+        <updated>2021-08-24T08:56:12.000Z</updated>
+        <summary type="html"><![CDATA[AMDVLK 2021.Q3.5 is out as the newest snapshot for this open-source AMD Radeon Vulkan Linux driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Write a stageless CI/CD pipeline using GitLab 14.2]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/"/>
+        <updated>2021-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab CI/CD technology has historically divided a pipeline into stages based on the typical development workflow. Now that GitLab 14.2 has launched, users can speed up cycle times by using the needs command to write a complete CI/CD pipeline with every job in the single stage. In fact, you can omit stages completely and have a ["stageless" pipeline(https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#stageless-pipelines)] that executes entirely based on the needs dependencies.
+Understanding stages
+In GitLab CI/CD, you use stages to group jobs based on the development workflow and control the order of execution for CI/CD jobs.
+Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the …]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME 41 Beta Released With "Calls" SIP/VoIP Support, Wayland Improvements]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-Beta</id>
@@ -220,116 +413,6 @@ option to open a project in Gitp…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA["NAX" Linux Security Being Worked On For Helping Fend Off Fileless Malware Attacks]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NAX-LSM-Module</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NAX-LSM-Module"/>
-        <updated>2021-08-21T10:04:49.000Z</updated>
-        <summary type="html"><![CDATA[Due to the growing threat posed by file-less malware attacks where malware code is executed from anonymous executable memory pages that aren't backed by data on the file-system, the "NAX" Linux security module has been seeing work recently for helping to protect against such scenarios...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Plasma Introduces A New Overview Effect, Many Wayland Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-New-Overview-Effect</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-New-Overview-Effect"/>
-        <updated>2021-08-21T09:45:01.000Z</updated>
-        <summary type="html"><![CDATA[It's been another busy week in KDE land with the seemingly never ending improvements to the Plasma Wayland session as well as introducing some new features like a new Overview Effect...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proton 6.3-6 Released With More Games Running, Optional NVIDIA DLSS Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-6-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-6-Released"/>
-        <updated>2021-08-20T23:39:00.000Z</updated>
-        <summary type="html"><![CDATA[It's been nearly two months since Proton 6.3-5 released for powering Valve's Steam Play for enjoying Windows games on Linux. The latest Proton update was just released with many improvements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Publishes Latest SEV-SNP Guest + Hypervisor Support For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-v5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-v5"/>
-        <updated>2021-08-20T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AMD has published their fifth revision of SEV-SNP support for the KVM hypervisor and guest VM support for this Secure Encrypted Virtualization Secure Nested Paging functionality found with new EPYC 7003 series server processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSH 8.7 Released With Experimental SFTP Support For SCP]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSH-8.7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSH-8.7"/>
-        <updated>2021-08-20T17:12:25.000Z</updated>
-        <summary type="html"><![CDATA[OpenSSH 8.7 is out today as the newest feature release for this widely-used SSH server/client software...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Launches The Infinity Hub As Its Newest Open-Source Portal]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Infinity-Hub"/>
-        <updated>2021-08-20T16:33:37.000Z</updated>
-        <summary type="html"><![CDATA[AMD has launched the Infinity Hub as their newest open-source software portal around HPC software via easy-to-deploy Docker containers...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon EC2 M6i Performance For Intel Ice Lake In The Cloud]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30472</id>
-        <link href="https://www.phoronix.com/vr.php?view=30472"/>
-        <updated>2021-08-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this week Amazon introduced Intel Xeon Scalable 3rd Gen "Ice Lake" powered EC2 cloud instances and marks their first x86-based sixth-generation offerings that follow their "M6g" Graviton2 instances launched last year. Curious about the "M6i" Ice Lake performance with AWS, here are a number of benchmarks looking at the performance and value of the new M6i instances compared to former Intel M5 instances as well as Amazon's own M6g Graviton2 instances.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNOME's Magnifier Will Now Avoid Double Painting The Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Magnifier-Double-Paint</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Magnifier-Double-Paint"/>
-        <updated>2021-08-20T09:39:14.000Z</updated>
-        <summary type="html"><![CDATA[Canonical's Daniel Van Vugt continues working on some important performance fixes for the GNOME desktop...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raspberry Pi Display Driver Patches Updated For 4K@60Hz Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Raspberry-Pi-4K60-v7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Raspberry-Pi-4K60-v7"/>
-        <updated>2021-08-20T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Work continues on getting the Broadcom VC4 kernel Direct Rendering Manager (DRM) driver into shape for being able to support 4K display outputs at 60Hz...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD To Optimize C3 Entry On Linux By Finally Skipping The Cache Flush]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Skip-C3-Cache-Flush</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Skip-C3-Cache-Flush"/>
-        <updated>2021-08-20T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A minor optimization was posted by an AMD engineer on Wednesday for the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SixtyFPS 0.1 Released As A Rust-Focused Graphical Toolkit]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SixtyFPS-0.1-Rust-Toolkit</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SixtyFPS-0.1-Rust-Toolkit"/>
-        <updated>2021-08-20T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For passionate Phoronix readers around the Rust programming language, SixtyFPS is a new graphical toolkit offering focused on Rust but also supporting C++ and JavaScript...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How a new integration helps GitLab customers secure their code]]></title>
         <id>https://about.gitlab.com/blog/2021/08/20/how-grammatech-and-gitlab-enables-better-devsecops/</id>
         <link href="https://about.gitlab.com/blog/2021/08/20/how-grammatech-and-gitlab-enables-better-devsecops/"/>
@@ -339,76 +422,6 @@ Static application security testing (SAST) solutions, like CodeSonar® from Gram
 The GrammaTech…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netfilter Releases Nftables 1.0]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Nftables-1.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Nftables-1.0"/>
-        <updated>2021-08-19T22:17:19.000Z</updated>
-        <summary type="html"><![CDATA[The Netfilter project has announced the release of Nftables 1.0.0 for their user-space code for interfacing with the Linux kernel's Nftables subsystem for network filtering and classification...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.2.1 Released With "Nice Changes For Almost Everyone"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.1-Released"/>
-        <updated>2021-08-19T19:10:35.000Z</updated>
-        <summary type="html"><![CDATA[For those that prefer to hold off on upgrading to a new Mesa stable release series until the first point release is out, Mesa 21.2.1 is now available as the first update to this quarter's Mesa 21.2 series...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Patents Complicating W3C's Open Screen Protocol]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-Patents-W3C-OSP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-Patents-W3C-OSP"/>
-        <updated>2021-08-19T18:16:08.000Z</updated>
-        <summary type="html"><![CDATA[The W3C has been working on the "Open Screen Protocol" as part of their Second Screen Working Group. This effort has been about having a web standard so web pages can drive secondary screens to display web content. Unfortunately, the plans are currently being complicated by a number of software patents issued to Apple...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Architecture Day 2021 & The Linux State]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30468</id>
-        <link href="https://www.phoronix.com/vr.php?view=30468"/>
-        <updated>2021-08-19T13:00:01.000Z</updated>
-        <summary type="html"><![CDATA[Intel this week hosted a virtual Architecture Day where they talked up their latest efforts from Alder Lake and Sapphire Rapids to their next-generation discrete graphics capabilities as well as other new offerings around IPUs and more. Here are the highlights from Intel Architecture Day 2021 and with a particular focus from our Linux angle.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canonical + DFI Pair Up For An "Industrial Pi" Powered By AMD & Ubuntu]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Ubuntu-Industrial-Pi-DFI</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Ubuntu-Industrial-Pi-DFI"/>
-        <updated>2021-08-19T11:55:17.000Z</updated>
-        <summary type="html"><![CDATA[Many will recall DFI motherboards from close to two decades ago for their wildly colored "LANParty" motherboards but in recent years the company has been focusing on IoT and industrial hardware where, of course, Linux has much relevance. DFI and Canonical today announced an AMD-powered Ubuntu-loaded "industrial Pi" single board computer...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LibreOffice 7.2 Community Released For This Leading Open-Source Office Suite]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-Community</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-7.2-Community"/>
-        <updated>2021-08-19T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[LibreOffice 7.2 Community is out today as the newest version of this widely-used, open-source, cross-platform office suite...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 21.10 Likely Sticking To The GNOME 40 Desktop]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-With-GNOME-40</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-With-GNOME-40"/>
-        <updated>2021-08-19T09:39:16.000Z</updated>
-        <summary type="html"><![CDATA[While Ubuntu normally ships with the very latest GNOME desktop version issued just before release time, with Ubuntu 21.04 they stuck to GNOME 3.38 rather than punting early to GNOME 40. In the Ubuntu 21.10 development packages they since migrated to GNOME 40 but now it looks like they will be sticking to that and not pulling ahead to the near-final GNOME 41...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -650,44 +663,6 @@ DevOps expertise is important because your team needs some experience with Git w
         <summary type="html"><![CDATA[The importance of container image security
 Thanks to containers, what it means to "ship software" has changed dramatically. Engineering teams have shifted to produce container images and use these container images to deploy their software. Because of this change teams are now shipping significantly more software alongside their app – whether they realize it or not.
 Besides packaging an application, container images also include hundreds of binaries and libraries. These binaries and libraries are included in the container image produced by the team because the process of creating a container image requires teams to select a base image. A base image is a preexisting container image on which to "base" their own container image. In doing so, all software contained in the base image is inherite…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.1.1]]></title>
-        <id>https://about.gitlab.com/releases/2021/07/28/gitlab-14-1-1-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/07/28/gitlab-14-1-1-released/"/>
-        <updated>2021-07-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.1.1 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 14.1 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Extend RackAttack basic authentication detection for rate limiting
-Enable bulk dismissal checkboxes on group vulnerability report"
-Fix syntax highlighting inline background on darkmode
-Fix: Sidekiq workers delete each other's metrics
-Prevent terms from being created if blank
-Remove backfill migration for ci_build_trace_sections
-Geo: Fix snippet verification by replicating the HEAD ref
-Remove securityScansSucceeded from DevOps adoption
-Fix markdown in development docs
-Fix deployer task
-Don't ask users to upgrade to PG 13 yet
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
