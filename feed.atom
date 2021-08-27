@@ -1,10 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-26T00:31:58.888Z</id>
+    <id>urn:2021-08-27T00:36:46.780Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-26T00:31:58.888Z</updated>
+    <updated>2021-08-27T00:36:46.780Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[PipeWire 0.3.34 Released With Yet More Improvements, Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.34-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.34-Released"/>
+        <updated>2021-08-27T00:06:04.000Z</updated>
+        <summary type="html"><![CDATA[PipeWire, for managing audio/video streams on Linux and proving itself to be a viable replacement to PulseAudio and JACK, is out with a new update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 94 Beta Released With WebCodecs API Promoted, WebGPU Origin Trial]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-94-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-94-Beta"/>
+        <updated>2021-08-26T19:30:41.000Z</updated>
+        <summary type="html"><![CDATA[Google promoted Chrome 94 to beta status today with some exciting changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetBSD Continues Long Overdue Push To Modernize Their WiFi Drivers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NetBSD-WiFi-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NetBSD-WiFi-2021"/>
+        <updated>2021-08-26T18:30:03.000Z</updated>
+        <summary type="html"><![CDATA[Started back in 2018 was an effort by the NetBSD project to update their operating system WiFi drivers by re-syncing more code from FreeBSD and making various improvements. Three years later the work has yet to be merged but after stalling for some time is back to being worked on by interested developers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM Clang 13 Performance Is In Great Shape For Intel Xeon "Ice Lake"]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30491</id>
+        <link href="https://www.phoronix.com/vr.php?view=30491"/>
+        <updated>2021-08-26T13:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month was a look at the LLVM Clang 13 performance on EPYC 7003 showing this forthcoming compiler update to be in good shape for AMD Zen 3, but how is the performance looking on the Intel side? This round of benchmarking is looking at the LLVM Clang 11 / 12 / 13 compiler performance on Intel's flagship Xeon Platinum 8380 "Ice Lake" 2P server configuration.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 20.04.3 LTS Released With Fixes, Newer Hardware Enablement Stack]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-20.04.3-LTS"/>
+        <updated>2021-08-26T13:16:20.000Z</updated>
+        <summary type="html"><![CDATA[After a slight delay, Ubuntu 20.04.3 LTS is available today as the newest point release for the current Ubuntu Linux long-term support release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["Apps For GNOME" Launches To Highlight GNOME Apps]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apps-For-GNOME</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apps-For-GNOME"/>
+        <updated>2021-08-26T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The GNOME project has launched "Apps For GNOME" at apps.gnome.org for highlighting the ecosystem of available GNOME applications...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qt Creator 5.0 Released With Experimental Clangd Backend, Experimental Docker Builds]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-Creator-5.0"/>
+        <updated>2021-08-26T10:11:11.000Z</updated>
+        <summary type="html"><![CDATA[The Qt Company has formally released Qt Creator 5.0 today as their latest version of this Qt/C++ minded integrated development environment...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Working On Making VirtIO-GPU More Extensible]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VirtIO-Context-Type</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VirtIO-Context-Type"/>
+        <updated>2021-08-26T09:47:53.000Z</updated>
+        <summary type="html"><![CDATA[Google Chrome OS engineers are working on making Linux's VirtIO-GPU driver more extensible. The VirtIO-GPU driver has been modeled around the Virgl protocol for handling 3D within guest virtual machines but with a new context type addition they aim to support additional protocols...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel AMX Patches For The Kernel Posted A 10th Time, But To Miss Out On Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-v10</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-v10"/>
+        <updated>2021-08-26T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Going back to June of last year there has been work on Intel bringing up Advanced Matrix Extension (AMX) that will debut with next-gen Xeon "Sapphire Rapids" processors as a new programming paradigm. Over the past year they have published patches for the Linux kernel and open-source toolchains with GCC and LLVM Clang. One year later, the AMX kernel patches are up to their tenth revision but will miss out on the imminent Linux 5.15 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's time to update Docker Engine]]></title>
+        <id>https://about.gitlab.com/blog/2021/08/26/its-time-to-upgrade-docker-engine/</id>
+        <link href="https://about.gitlab.com/blog/2021/08/26/its-time-to-upgrade-docker-engine/"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Alpine Linux distribution is the base OS used by many Linux container images. It provides a handy packaging mechanism, new versions of software, and a quick and predictable release cycle – all while being distributed using a minimal image size. It's used by many very popular container images, for example docker:dind,
+widely used in GitLab CI/CD workloads handling container
+images building and management in the jobs.
+On June 15, 2021, Alpine Linux released version 3.14. As documented in the release notes, changes in the musl library require
+an updated version of runc or updated version of
+Docker for the Alpine 3.14-based images to work properly.
+Software products across the computer industry have started migrating their Alpine Linux-based container images to 3.14 since it includes significa…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.0.8]]></title>
+        <id>https://about.gitlab.com/releases/2021/08/26/gitlab-14-0-8-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/08/26/gitlab-14-0-8-released/"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.0.8 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+the 14.0 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Revert backfill on ci_build_trace_sections
+Resolve "operator does not exist: integer[] || bigint in app/models/namespace/traversal_hierarchy.rb"
+Fix Sidekiq workers delete each other's metrics
+Geo 2.0 Regression - Add ability to remove primary
+Backport fix for flaky spec to 14.0
+Important notes on upgrading
+This version includes a post deploy migration. For multi-node deployments, it should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux Pipe Code Again Sees Patch To Restore Buggy/Improper User-Space Behavior]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Pipe-Broken-User-Again</id>
@@ -190,10 +327,10 @@
         <id>https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/</id>
         <link href="https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/"/>
         <updated>2021-08-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab CI/CD technology has historically divided a pipeline into stages based on the typical development workflow. Now that GitLab 14.2 has launched, users can speed up cycle times by using the needs command to write a complete CI/CD pipeline with every job in the single stage. In fact, you can omit stages completely and have a ["stageless" pipeline(https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#stageless-pipelines)] that executes entirely based on the needs dependencies.
+        <summary type="html"><![CDATA[GitLab CI/CD technology has historically divided a pipeline into stages based on the typical development workflow. Now that GitLab 14.2 has launched, users can speed up cycle times by using the needs command to write a complete CI/CD pipeline with every job in the single stage. In fact, you can omit stages completely and have a "stageless" pipeline that executes entirely based on the needs dependencies.
 Understanding stages
 In GitLab CI/CD, you use stages to group jobs based on the development workflow and control the order of execution for CI/CD jobs.
-Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the …]]></summary>
+Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the next stage and runs those jobs, and the process continues like this until the pipeline com…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
@@ -249,46 +386,6 @@ Pipelines execute each stage in order, where all jobs in a single stage run in p
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Intel Revs Linux Patches Yet Again For Per-Client GPU Statistics]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Per-Client-GPU-Stat-Again</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Per-Client-GPU-Stat-Again"/>
-        <updated>2021-08-23T12:48:51.000Z</updated>
-        <summary type="html"><![CDATA[Going on three years now there have been proposed patches for allowing per-client GPU engine statistics for being able to show on a per-game/application level how many resources across 3D/blitting/video engines are being consumed. The patches continue to be revised but sadly will be missing out on the imminent Linux 5.15 kernel merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Habana Labs' Linux AI Driver Causes More Concerns - Changes Dropped Ahead Of Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Issues</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Issues"/>
-        <updated>2021-08-23T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Habana Labs has been known for their open-source and upstream Linux kernel driver for their AI training/inference accelerators with that code they had been working on as a start-up even before being acquired by Intel, it's continued to cause friction that they rely in user-space on closed-source components like their compiler. That in turn is again causing problems for changes that the Habana Labs kernel driver planned to land with the upcoming Linux 5.15 cycle...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux On The Apple M1 Can Now Boot To The GNOME Desktop But Lacking Acceleration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Apple-M1-Boots-GNOME</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Apple-M1-Boots-GNOME"/>
-        <updated>2021-08-23T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Running Linux on the Apple M1 with various out-of-tree patches is now capable of booting to a GNOME desktop albeit lacking any OpenGL/graphics acceleration...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reiser4/Reiser5 File-System Driver Updated For Linux 5.13]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser4-Reiser5-Linux-5.13</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Reiser4-Reiser5-Linux-5.13"/>
-        <updated>2021-08-23T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.14 stable is expected next weekend, the Reiser4 (and experimental Reiser5) file-system driver code has been finally updated for compatibility with the Linux 5.13 kernel series...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing GitLab Build Cloud for macOS Beta]]></title>
         <id>https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/</id>
         <link href="https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/"/>
@@ -334,36 +431,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.14 Stable Likely Coming Next Weekend, 5.14-rc7 Released Today]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-rc7"/>
-        <updated>2021-08-22T21:41:58.000Z</updated>
-        <summary type="html"><![CDATA[The Linux 5.14 cycle is playing out smoothly and will likely lead to the Linux 5.14 stable kernel release happening next weekend...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts Patches Bringing Up DG2/Alchemist Discrete Video Memory For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Device-Memory</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG2-Device-Memory"/>
-        <updated>2021-08-22T17:07:22.000Z</updated>
-        <summary type="html"><![CDATA[Since the start of July we've seen Intel beginning Linux support patches for their DG2 graphics card that is now known by the "Alchemist" codename. There's been several rounds of DG2 patches since they started publicly pushing out the code -- including some notable work like DisplayPort 2.0 bring-up -- while sent out this Sunday is another important piece of the puzzle: getting the device memory (the dedicated vRAM) actually working with the open-source driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel's IWD 1.17 Wireless Daemon Brings More Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IWD-1.17</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-IWD-1.17"/>
-        <updated>2021-08-22T09:41:37.000Z</updated>
-        <summary type="html"><![CDATA[While it was busy on the hardware side of the house with Intel talking up all of their forthcoming hardware, Intel's open-source software engineers remain very busy working not only to enable their next-generation hardware but other open-source efforts they've invested in like the iNet wireless daemon...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab 14.2 released with the Build Cloud for macOS beta and Markdown preview]]></title>
         <id>https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/</id>
         <link href="https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/"/>
@@ -390,26 +457,6 @@ release blog post was created and edited with Gitpod! Cornelius initially helped
 option to open a project in Gitp…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Patches Ready For Getting DisplayPort Over USB Type-C Working For More Intel Hardware]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hotplug-Notify-DP-Over-Type-C</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hotplug-Notify-DP-Over-Type-C"/>
-        <updated>2021-08-21T12:51:23.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat's Hans de Goede continues doing a commendable job improving the Linux support for various laptops with key improvements. One of the latest efforts by this longtime kernel developer has been about getting DisplayPort over USB Type-C connections working for more Intel hardware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another Round Of Intel CET Patches, Still Working Toward Linux Kernel Integration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CET-v29</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CET-v29"/>
-        <updated>2021-08-21T10:40:34.000Z</updated>
-        <summary type="html"><![CDATA[While Intel is normally very punctual in providing support for major new CPU features under Linux and often landing them well in advance of general hardware availability, their work around Control-flow Enforcement Technology (CET) has taken a long longer than normal and is still going through new rounds of code review to get accepted into the mainline Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -632,37 +679,6 @@ An appetite for change
 For context, the NFS series originally set out to redefine a saturated, yet unsophisticated, racing video game market. Motivated by an appetite for change, the NFS user experience reflected the human connection to real cars and how they behaved, which was a big challenge for developers in the 1990s. Nearly 30 years ago, "The Need for Speed" forever changed the landscape of racing games, selling 150 million copies since its debut.
 
 The original Need For Speed vide…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Orange made a first step toward CI/CD standardization with GitLab]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/29/how-orange-uses-gitlab-ci-cd-for-modern-devops/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/29/how-orange-uses-gitlab-ci-cd-for-modern-devops/"/>
-        <updated>2021-07-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CI/CD is a foundational piece to modern software development. It's a major brick in the DevOps "Automation" pillar and every company involved in IT has to implement CI/CD or they're already quite far behind the curve.
-But implementing CI/CD can be challenging especially for growing or large companies. Some of those challenges include:
-DevOps expertise and technical skills
-DevSecOps
-Standardization
-Three key hurdles that come with implementing CI/CD
-This blog post unpackes these challenges and explains how Orange overcame them using GitLab.
-DevOps and technical skills
-No matter which CI/CD tool you're using, it requires some amount of expertise to implement it right.
-DevOps expertise is important because your team needs some experience with Git workflows, deployment, environments, secrets m…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to secure your container images with GitLab and Grype]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/28/secure-container-images-with-gitlab-and-grype/"/>
-        <updated>2021-07-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The importance of container image security
-Thanks to containers, what it means to "ship software" has changed dramatically. Engineering teams have shifted to produce container images and use these container images to deploy their software. Because of this change teams are now shipping significantly more software alongside their app – whether they realize it or not.
-Besides packaging an application, container images also include hundreds of binaries and libraries. These binaries and libraries are included in the container image produced by the team because the process of creating a container image requires teams to select a base image. A base image is a preexisting container image on which to "base" their own container image. In doing so, all software contained in the base image is inherite…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
