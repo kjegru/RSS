@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-27T00:36:46.780Z</id>
+    <id>urn:2021-08-28T00:32:21.003Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-27T00:36:46.780Z</updated>
+    <updated>2021-08-28T00:32:21.003Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.16 Released With Better HiDPI Theming, Initial HID-Based Joystick Backend]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.16-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.16-Released"/>
+        <updated>2021-08-27T20:14:12.000Z</updated>
+        <summary type="html"><![CDATA[Wine 6.16 is out as the newest bi-weekly development release of this widely-used software for running Windows games and applications on Linux and other systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Could Use A New Maintainer For Its CD-ROM Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-New-CD-ROM-Maintainer</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-New-CD-ROM-Maintainer"/>
+        <updated>2021-08-27T17:53:48.000Z</updated>
+        <summary type="html"><![CDATA[Current Linux block subsystem maintainer Jens Axboe started out in the late 90's taking over maintainership of the Linux kernel's CD-ROM driver code. However, as he's busy these days with IO_uring and other prominent I/O activities for Linux, he's hoping someone interested and capable would want to take over the Linux kernel's CD-ROM code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 SSD Benchmarks With Btrfs vs. EXT4 vs. F2FS vs. XFS]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-File-Systems</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-File-Systems"/>
+        <updated>2021-08-27T13:15:39.000Z</updated>
+        <summary type="html"><![CDATA[A number of Phoronix readers have been asking about some fresh file-system comparisons on recent kernels. With not having the time to conduct the usual kernel version vs. file-system comparison, here are some fresh benchmarks looking at the Btrfs, EXT4, F2FS, and XFS file-system benchmarks on a speedy WD_BLACK SN850 NVMe solid-state drive...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AVX2-Optimized SM4 Cipher Implementation Queued Ahead Of Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AES-NI-AVX2-SM4-Crypto-Optimize</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AES-NI-AVX2-SM4-Crypto-Optimize"/>
+        <updated>2021-08-27T13:10:01.000Z</updated>
+        <summary type="html"><![CDATA[The Linux kernel has already sported SM4 cipher algorithm implementation optimized for AES-NI and AVX while now an Alibaba engineer has contributed an AVX2 optimized variant for even greater performance...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Patch Proposal To Split FBDEV Core Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-Split-FBDEV-Core-FB</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-Split-FBDEV-Core-FB"/>
+        <updated>2021-08-27T10:34:37.000Z</updated>
+        <summary type="html"><![CDATA[For nearly the past decade there has been calls for deprecating the Liux kernel's frame-buffer "FBDEV" device code though the code remains within the kernel. While these days most display drivers are DRM-based even in the embedded world, a lot of FBDEV code still ends up in kernel builds even when just wanting to use DRM's FBDEV emulation layer. But a patch proposal out of Red Hat would further split-up the FBDEV core support to allow less of it to be built...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Adds 17 More PCI IDs For RDNA2 GPUs To Their Linux Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-17-More-RDNA2-GPU-IDs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-17-More-RDNA2-GPU-IDs"/>
+        <updated>2021-08-27T09:37:34.000Z</updated>
+        <summary type="html"><![CDATA[On top of all the PCI IDs in place already for the AMDGPU Linux kernel graphics driver, another 17 PCI IDs were added in a new patch for this open-source Radeon graphics driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 22.04 LTS Release Schedule Published]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-22.04-Release-Schedule</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-22.04-Release-Schedule"/>
+        <updated>2021-08-27T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Ubuntu 21.10 isn't being released for another two months, the release schedule for Ubuntu 22.04 has been published that is rather notable in being the next bi-annual long-term support (LTS) release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PipeWire 0.3.34 Released With Yet More Improvements, Fixes]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-0.3.34-Released</id>
@@ -303,26 +373,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Intel Releases OSPray Studio 0.8]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OSPray-Studio-0.8</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OSPray-Studio-0.8"/>
-        <updated>2021-08-24T09:36:33.000Z</updated>
-        <summary type="html"><![CDATA[One year ago to the day Intel announced OSPray Studio as a scene graph application for rendering glTF assets and other 3D models. OSPray Studio is built off their OSPray ray-tracing engine that they've been working on for years. These Intel efforts are all part of their oneAPI initiative and today happens to mark a shiny new feature release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q3.5 Released With Radeon RX 6600 XT Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.5"/>
-        <updated>2021-08-24T08:56:12.000Z</updated>
-        <summary type="html"><![CDATA[AMDVLK 2021.Q3.5 is out as the newest snapshot for this open-source AMD Radeon Vulkan Linux driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Write a stageless CI/CD pipeline using GitLab 14.2]]></title>
         <id>https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/</id>
         <link href="https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/"/>
@@ -333,56 +383,6 @@ In GitLab CI/CD, you use stages to group jobs based on the development workflow 
 Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the next stage and runs those jobs, and the process continues like this until the pipeline com…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNOME 41 Beta Released With "Calls" SIP/VoIP Support, Wayland Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-Beta</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-Beta"/>
-        <updated>2021-08-23T22:14:44.000Z</updated>
-        <summary type="html"><![CDATA[The GNOME 41 beta is now available ahead of next month's official half-year update to this open-source desktop environment...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Memory Folios Pull Request Pending For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Memory-Folios-PR-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Memory-Folios-PR-Linux-5.15"/>
-        <updated>2021-08-23T19:30:33.000Z</updated>
-        <summary type="html"><![CDATA[With the Linux 5.15 kernel merge window likely opening next week, Matthew Wilcox of Oracle has already sent in a prominent pull request to Linus Torvalds: the initial work around landing of the memory folios patches...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine Reflink Support Continues To Be Worked On For Significant Space Savings]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Reflink-Revised</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Reflink-Revised"/>
-        <updated>2021-08-23T18:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Last month I wrote about the proposed reflink support for Wine that would provide significant space savings for those having multiple Windows games/applications on Linux installed where Wine and derivatives like Crossover and Steam Play (Proton) generally maintain a separate "prefix" per software installation. Fortunately, that reflink support continues to be worked on for Wine where it can lead to savings up to several hundred megabytes per Wine prefix...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GTK 4.4 Released With Continued NGL Improvements, Inspector By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GTK-4.4-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GTK-4.4-Released"/>
-        <updated>2021-08-23T17:19:20.000Z</updated>
-        <summary type="html"><![CDATA[GTK 4.4 is out as the latest stable update to the GTK4 open-source toolkit...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zink Mesa 21.3-dev Benchmarks - Increasingly Capable Of Running OpenGL Games Atop Vulkan]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30480</id>
-        <link href="https://www.phoronix.com/vr.php?view=30480"/>
-        <updated>2021-08-23T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Zink as an OpenGL-over-Vulkan API implementation living within Mesa merged its sub-allocator code that could deliver 10x the performance for some games. Plus it also landed OpenGL compatibility context support for getting more games working now with this open-source GL-on-VLK solution. Given the progress made in Mesa Git over the past week, here are some fresh benchmarks now for how the performance stands across various games and benchmarks.]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -664,21 +664,6 @@ Companies moved from monolithic arch…]]></summary>
         <summary type="html"><![CDATA[Today we are releasing versions 14.1.2, 14.0.7, and 13.12.9 for GitLab Community Edition (CE) and Enterprise Edition (EE).
 These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days …]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitLab 14 satisfies the need for speed with modern DevOps]]></title>
-        <id>https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/</id>
-        <link href="https://about.gitlab.com/blog/2021/07/29/velocity-with-confidence/"/>
-        <updated>2021-07-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How DevOps and NFS changed the game
-What if I told you that one of the best-selling racing video game franchises of all time, the "Need For Speed" (NFS), and DevOps have more in common with each other than you think? Yes, you read that correctly, probably not the NFS (Network File System) you were expecting.
-An appetite for change
-For context, the NFS series originally set out to redefine a saturated, yet unsophisticated, racing video game market. Motivated by an appetite for change, the NFS user experience reflected the human connection to real cars and how they behaved, which was a big challenge for developers in the 1990s. Nearly 30 years ago, "The Need for Speed" forever changed the landscape of racing games, selling 150 million copies since its debut.
-
-The original Need For Speed vide…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
