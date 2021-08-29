@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-28T00:32:21.003Z</id>
+    <id>urn:2021-08-29T00:35:34.501Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-28T00:32:21.003Z</updated>
+    <updated>2021-08-29T00:35:34.501Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A Prominent, Longtime Dell Linux Engineer Recently Joined AMD's Linux Team]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-Mario-On-AMD-Linux-Team</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-Mario-On-AMD-Linux-Team"/>
+        <updated>2021-08-28T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Here should hopefully be a great indication about AMD's Linux efforts moving forward with one of their recent and exciting hires at the company...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Lands Initial Code For Mesh Shaders Within Mesa]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesh-Shaders-Mesa-Merged</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesh-Shaders-Mesa-Merged"/>
+        <updated>2021-08-28T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In preparation for the support within their Vulkan driver, the Intel-led effort for preparing mesh shader support within Mesa's NIR and SPIR-V code has now been merged...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine-Staging 6.16 Implements Two More D3DX Functions To Help Some Windows Games]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.16"/>
+        <updated>2021-08-28T09:44:01.000Z</updated>
+        <summary type="html"><![CDATA[It's been a relatively quiet summer in the Wine-Staging world with not many new patches surfacing for testing/experimental purposes for this more bleeding edge version of Wine. However, with Wine-Staging 6.16 there are at least some new patches now to talk about...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma 5.23 Will Be Another Exciting Release With Many Improvements Abound]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Looking-Good</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Looking-Good"/>
+        <updated>2021-08-28T09:32:11.000Z</updated>
+        <summary type="html"><![CDATA[The Plasma 5.23 desktop release is looking like it will be quite an eventful milestone while KDE developers are finishing August strong with many improvements and fixes across their desktop stack...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD ROCm 4.3.1 Released With RHEL 8.4 + SLES 15 SP3 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-ROCm-4.3.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-ROCm-4.3.1"/>
+        <updated>2021-08-28T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ROCm 4.3 released at the start of August with support for HMM memory allocations, support for indirect function calls and C++ virtual functions with the ROCm compiler, improved data center tool integration, better rocBLAS performance, and a range of other improvements. In approaching the end of August, ROCm 4.3.1 is now available...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wine 6.16 Released With Better HiDPI Theming, Initial HID-Based Joystick Backend]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.16-Released</id>
@@ -318,56 +368,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-Summer-2021"/>
         <updated>2021-08-24T18:54:15.000Z</updated>
         <summary type="html"><![CDATA[The Haiku open-source operating system project that continues advancing as the virtual successor to BeOS has been enjoying a successful summer...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DebConf21 Kicks Off Online For Annual Debian Conference]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DebConf21-Starts</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DebConf21-Starts"/>
-        <updated>2021-08-24T18:13:44.000Z</updated>
-        <summary type="html"><![CDATA[DebConf21 officially got underway this morning with being a second year of this annual Debian conference being held exclusively online due to the ongoing COVID-19 pandemic...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Kernel Changes Proposed So Intel TDX KVM Guests Avoid Crashing The Host]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-Guest-Private-Mem-TDX</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-Guest-Private-Mem-TDX"/>
-        <updated>2021-08-24T12:53:41.000Z</updated>
-        <summary type="html"><![CDATA[Shortly after Intel's TDX whitepaper was made public last year for better protecting virtual machines, Intel open-source engineers began posting support patches for bringing up Trust Domain Extensions under Linux. That work remains ongoing and now further Linux kernel infrastructure work is pending to better deal with the notion of guest private memory afforded by TDX...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm Posts New GCC Compiler Patches Due To New Vulnerability Affecting ARMv8-M TrustZone]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-GCC-CVE-2021-35465</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Arm-GCC-CVE-2021-35465"/>
-        <updated>2021-08-24T11:55:19.000Z</updated>
-        <summary type="html"><![CDATA[Made public on Monday was CVE-2021-35465 as a new security vulnerability affecting various Arm products. For unmitigated (ARMv8-M) hardware, Arm has posted a series of GCC compiler patches for working around the issue...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HSE 2.0 Open-Source Storage Engine Is On The Way From Micron]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=HSE-2.0-On-The-Way</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=HSE-2.0-On-The-Way"/>
-        <updated>2021-08-24T10:39:09.000Z</updated>
-        <summary type="html"><![CDATA[Announced back in April of 2020 was Micron's HSE as an open-source storage engine optimized for solid-state drives and persistent memory. After quickly crossing the v1.0 milestone and working its way up to HSE 1.9 at the end of last year, there hasn't been any updates since. Fortunately, the project is still alive and HSE 2.0 is on the way...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD's Open-Source Mesa Driver Continues To Be Ruthlessly Optimized For Workstation Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Close-To-Pro-Snx</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Close-To-Pro-Snx"/>
-        <updated>2021-08-24T10:05:55.000Z</updated>
-        <summary type="html"><![CDATA[One of the areas where AMD's long-standing "PRO" OpenGL driver has generally held an advantage over RadeonSI Gallium3D has been around workstation software but that has been changing...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
