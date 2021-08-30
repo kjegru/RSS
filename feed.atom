@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-29T00:35:34.501Z</id>
+    <id>urn:2021-08-30T00:34:23.723Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-29T00:35:34.501Z</updated>
+    <updated>2021-08-30T00:34:23.723Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.14 Released With New Hardware Support, Core Scheduling, MEMFD_SECRET]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Released"/>
+        <updated>2021-08-29T22:30:20.000Z</updated>
+        <summary type="html"><![CDATA[As expected Linus Torvalds promoted Linux 5.14 to stable in providing the latest features, hardware support, and other improvements ahead of the autumn 2021 Linux distribution releases...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Yellow Carp + Another Water Cooling Pump Head To Linux's Hardware Monitoring Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON-AMD-YC-WC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON-AMD-YC-WC"/>
+        <updated>2021-08-29T21:45:34.000Z</updated>
+        <summary type="html"><![CDATA[The Linux hardware monitoring "HWMON" subsystem for the 5.15 cycle is already seeing the AMD SB-RMI driver and AMD Cezanne Zen 3 APU temperature monitoring while there was also some last-minute additions around AMD next-gen "Yellow Carp" temperature reporting and separately support for another water cooling pump...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yet-To-Be-Released Intel "Bz" WiFi Chipset To Be Supported By Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Bz-WiFi-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Bz-WiFi-Linux-5.15"/>
+        <updated>2021-08-29T19:00:43.000Z</updated>
+        <summary type="html"><![CDATA[While the Linux 5.15 merge window opening is imminent, merged today to net-next were the latest batch of wireless driver updates for this next kernel version. Notable to this batch of WiFi driver updates was the new Intel material...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 To Fix Regression In Its Floppy Disk Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Floppy-Disk-Linux-5.15-Fix</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Floppy-Disk-Linux-5.15-Fix"/>
+        <updated>2021-08-29T17:48:15.000Z</updated>
+        <summary type="html"><![CDATA[Near the beginning of the year was some rare work on Linux's floppy disk driver and -- a half-year later -- it was found out that not only do people with systems using floppy disks still move to newer kernels, but that work earlier in the year had regressed the Linux kernel's floppy disk handling. Now coming for Linux 5.15 is a fix...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Of The Features Expected For Linux 5.15: DG2/Alchemist, BPF Timers, DAMON + More]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Features-Expected</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Features-Expected"/>
+        <updated>2021-08-29T10:00:51.000Z</updated>
+        <summary type="html"><![CDATA[If all goes according to plan the Linux 5.14 kernel will be released as stable today. Linux 5.14 has many new features but there is also a lot of work slated for the next cycle, Linux 5.15. Here's a look...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome/Chromium's Ozone X11 Code Now Fully Enabled, Old Legacy X11 Code To Be Removed]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-Ozone-X11-Future</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-Ozone-X11-Future"/>
+        <updated>2021-08-29T07:15:33.000Z</updated>
+        <summary type="html"><![CDATA[The Chrome/Chromium web browser now has fully-enabled the Ozone/X11 platform support across both beta and stable channels...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Prominent, Longtime Dell Linux Engineer Recently Joined AMD's Linux Team]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-Mario-On-AMD-Linux-Team</id>
@@ -308,66 +368,6 @@ to use GitLab's own infrastructure.]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Features"/>
         <updated>2021-08-25T13:18:55.000Z</updated>
         <summary type="html"><![CDATA[Today marks the 30th birthday of Linux since it was announced by Linus Torvalds. Meanwhile in just a few days the Linux 5.14 kernel is expected to be released as stable. Here is a look back at the most prominent features coming for this kernel release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Posts Latest Linux Patches For Supporting The Frontier Supercomputer]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Mem-Device-Public</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Mem-Device-Public"/>
-        <updated>2021-08-25T10:10:37.000Z</updated>
-        <summary type="html"><![CDATA[AMD engineers continue working on preparing the Linux kernel for the Frontier supercomputer...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loongson Continues Working On LoongArch For Linux, But It's Mostly Copying MIPS Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-MIPS-Copy-Kernel</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-MIPS-Copy-Kernel"/>
-        <updated>2021-08-25T09:48:18.000Z</updated>
-        <summary type="html"><![CDATA[Loongson this summer rolled out their 3A5000 processors built on their own "LoongArch" ISA. While the company continues claiming that LoongArch is "not MIPS", the Linux kernel code they continue proposing for the mainline Linux kernel points to it being a close facsimile to MIPS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clang CFI Patches For The Linux Kernel Updated To Beef Up Security]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-CFI-Linux-v2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Clang-CFI-Linux-v2"/>
-        <updated>2021-08-25T04:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year when Clang LTO support was added for Linux 5.12 that link-time optimization support wasn't done solely for squeezing out greater performance but also because it's a prerequisite for making use of Clang's Control Flow Integrity (CFI) functionality. Google engineers have now sent out their latest set of patches for bringing up Clang CFI support within the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QEMU 6.1 Released With RISC-V Improvements, AMD Emulation Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=QEMU-6.1-Released"/>
-        <updated>2021-08-24T22:16:47.000Z</updated>
-        <summary type="html"><![CDATA[QEMU 6.1 is out as the newest feature release to this widely-used, open-source Linux virtualization component...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Early Ubuntu 21.10 Performance Is Looking Good - Especially For Radeon Graphics]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30482</id>
-        <link href="https://www.phoronix.com/vr.php?view=30482"/>
-        <updated>2021-08-24T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While there is still two months to go until the Ubuntu 21.10 "Impish Indri" release, since the feature freeze has now begun I've started some early testing of this next Ubuntu release. So far things are looking good as a nice upgrade over Ubuntu 21.04 and prior. Here is the first round of Ubuntu 21.04 vs. 21.10 development tests using an AMD Ryzen 9 5950X with Radeon RX 5700 XT graphics.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haiku OS Gets TRIM Working For SSDs, Continues Bringing Up RISC-V Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-Summer-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Haiku-Summer-2021"/>
-        <updated>2021-08-24T18:54:15.000Z</updated>
-        <summary type="html"><![CDATA[The Haiku open-source operating system project that continues advancing as the virtual successor to BeOS has been enjoying a successful summer...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>

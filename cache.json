@@ -199,12 +199,66 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Released",
+          "author": null,
+          "description": "As expected Linus Torvalds promoted Linux 5.14 to stable in providing the latest features, hardware support, and other improvements ahead of the autumn 2021 Linux distribution releases...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Released",
+          "publishedOn": "2021-08-29T22:30:20.000Z",
+          "wordCount": 928,
+          "title": "Linux 5.14 Released With New Hardware Support, Core Scheduling, MEMFD_SECRET"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-HWMON-AMD-YC-WC",
+          "author": null,
+          "description": "The Linux hardware monitoring \"HWMON\" subsystem for the 5.15 cycle is already seeing the AMD SB-RMI driver and AMD Cezanne Zen 3 APU temperature monitoring while there was also some last-minute additions around AMD next-gen \"Yellow Carp\" temperature reporting and separately support for another water cooling pump...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-HWMON-AMD-YC-WC",
+          "publishedOn": "2021-08-29T21:45:34.000Z",
+          "wordCount": 1050,
+          "title": "AMD Yellow Carp + Another Water Cooling Pump Head To Linux's Hardware Monitoring Code"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Bz-WiFi-Linux-5.15",
+          "author": null,
+          "description": "While the Linux 5.15 merge window opening is imminent, merged today to net-next were the latest batch of wireless driver updates for this next kernel version. Notable to this batch of WiFi driver updates was the new Intel material...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Bz-WiFi-Linux-5.15",
+          "publishedOn": "2021-08-29T19:00:43.000Z",
+          "wordCount": 903,
+          "title": "Yet-To-Be-Released Intel \"Bz\" WiFi Chipset To Be Supported By Linux 5.15"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Floppy-Disk-Linux-5.15-Fix",
+          "author": null,
+          "description": "Near the beginning of the year was some rare work on Linux's floppy disk driver and -- a half-year later -- it was found out that not only do people with systems using floppy disks still move to newer kernels, but that work earlier in the year had regressed the Linux kernel's floppy disk handling. Now coming for Linux 5.15 is a fix...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Floppy-Disk-Linux-5.15-Fix",
+          "publishedOn": "2021-08-29T17:48:15.000Z",
+          "wordCount": 938,
+          "title": "Linux 5.15 To Fix Regression In Its Floppy Disk Driver"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Features-Expected",
+          "author": null,
+          "description": "If all goes according to plan the Linux 5.14 kernel will be released as stable today. Linux 5.14 has many new features but there is also a lot of work slated for the next cycle, Linux 5.15. Here's a look...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Features-Expected",
+          "publishedOn": "2021-08-29T10:00:51.000Z",
+          "wordCount": 1075,
+          "title": "Some Of The Features Expected For Linux 5.15: DG2/Alchemist, BPF Timers, DAMON + More"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-Ozone-X11-Future",
+          "author": null,
+          "description": "The Chrome/Chromium web browser now has fully-enabled the Ozone/X11 platform support across both beta and stable channels...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-Ozone-X11-Future",
+          "publishedOn": "2021-08-29T07:15:33.000Z",
+          "wordCount": 929,
+          "title": "Chrome/Chromium's Ozone X11 Code Now Fully Enabled, Old Legacy X11 Code To Be Removed"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-Mario-On-AMD-Linux-Team",
           "author": null,
           "description": "Here should hopefully be a great indication about AMD's Linux efforts moving forward with one of their recent and exciting hires at the company...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Dell-Mario-On-AMD-Linux-Team",
           "publishedOn": "2021-08-28T13:30:00.000Z",
-          "wordCount": 1353,
+          "wordCount": 1289,
           "title": "A Prominent, Longtime Dell Linux Engineer Recently Joined AMD's Linux Team"
         },
         {
@@ -213,7 +267,7 @@
           "description": "In preparation for the support within their Vulkan driver, the Intel-led effort for preparing mesh shader support within Mesa's NIR and SPIR-V code has now been merged...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesh-Shaders-Mesa-Merged",
           "publishedOn": "2021-08-28T11:00:00.000Z",
-          "wordCount": 981,
+          "wordCount": 917,
           "title": "Intel Lands Initial Code For Mesh Shaders Within Mesa"
         },
         {
@@ -222,7 +276,7 @@
           "description": "It's been a relatively quiet summer in the Wine-Staging world with not many new patches surfacing for testing/experimental purposes for this more bleeding edge version of Wine. However, with Wine-Staging 6.16 there are at least some new patches now to talk about...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-Staging-6.16",
           "publishedOn": "2021-08-28T09:44:01.000Z",
-          "wordCount": 837,
+          "wordCount": 807,
           "title": "Wine-Staging 6.16 Implements Two More D3DX Functions To Help Some Windows Games"
         },
         {
@@ -231,7 +285,7 @@
           "description": "The Plasma 5.23 desktop release is looking like it will be quite an eventful milestone while KDE developers are finishing August strong with many improvements and fixes across their desktop stack...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Looking-Good",
           "publishedOn": "2021-08-28T09:32:11.000Z",
-          "wordCount": 793,
+          "wordCount": 809,
           "title": "KDE Plasma 5.23 Will Be Another Exciting Release With Many Improvements Abound"
         },
         {
@@ -240,7 +294,7 @@
           "description": "ROCm 4.3 released at the start of August with support for HMM memory allocations, support for indirect function calls and C++ virtual functions with the ROCm compiler, improved data center tool integration, better rocBLAS performance, and a range of other improvements. In approaching the end of August, ROCm 4.3.1 is now available...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-ROCm-4.3.1",
           "publishedOn": "2021-08-28T04:00:00.000Z",
-          "wordCount": 887,
+          "wordCount": 903,
           "title": "AMD ROCm 4.3.1 Released With RHEL 8.4 + SLES 15 SP3 Support"
         },
         {
@@ -249,7 +303,7 @@
           "description": "Wine 6.16 is out as the newest bi-weekly development release of this widely-used software for running Windows games and applications on Linux and other systems...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.16-Released",
           "publishedOn": "2021-08-27T20:14:12.000Z",
-          "wordCount": 811,
+          "wordCount": 827,
           "title": "Wine 6.16 Released With Better HiDPI Theming, Initial HID-Based Joystick Backend"
         },
         {
@@ -258,7 +312,7 @@
           "description": "Current Linux block subsystem maintainer Jens Axboe started out in the late 90's taking over maintainership of the Linux kernel's CD-ROM driver code. However, as he's busy these days with IO_uring and other prominent I/O activities for Linux, he's hoping someone interested and capable would want to take over the Linux kernel's CD-ROM code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-New-CD-ROM-Maintainer",
           "publishedOn": "2021-08-27T17:53:48.000Z",
-          "wordCount": 876,
+          "wordCount": 895,
           "title": "Linux Could Use A New Maintainer For Its CD-ROM Code"
         },
         {
@@ -267,7 +321,7 @@
           "description": "A number of Phoronix readers have been asking about some fresh file-system comparisons on recent kernels. With not having the time to conduct the usual kernel version vs. file-system comparison, here are some fresh benchmarks looking at the Btrfs, EXT4, F2FS, and XFS file-system benchmarks on a speedy WD_BLACK SN850 NVMe solid-state drive...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-File-Systems",
           "publishedOn": "2021-08-27T13:15:39.000Z",
-          "wordCount": 859,
+          "wordCount": 875,
           "title": "Linux 5.14 SSD Benchmarks With Btrfs vs. EXT4 vs. F2FS vs. XFS"
         },
         {
@@ -276,7 +330,7 @@
           "description": "The Linux kernel has already sported SM4 cipher algorithm implementation optimized for AES-NI and AVX while now an Alibaba engineer has contributed an AVX2 optimized variant for even greater performance...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AES-NI-AVX2-SM4-Crypto-Optimize",
           "publishedOn": "2021-08-27T13:10:01.000Z",
-          "wordCount": 879,
+          "wordCount": 815,
           "title": "AVX2-Optimized SM4 Cipher Implementation Queued Ahead Of Linux 5.15"
         },
         {
@@ -285,7 +339,7 @@
           "description": "For nearly the past decade there has been calls for deprecating the Liux kernel's frame-buffer \"FBDEV\" device code though the code remains within the kernel. While these days most display drivers are DRM-based even in the embedded world, a lot of FBDEV code still ends up in kernel builds even when just wanting to use DRM's FBDEV emulation layer. But a patch proposal out of Red Hat would further split-up the FBDEV core support to allow less of it to be built...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Red-Hat-Split-FBDEV-Core-FB",
           "publishedOn": "2021-08-27T10:34:37.000Z",
-          "wordCount": 973,
+          "wordCount": 914,
           "title": "Red Hat Patch Proposal To Split FBDEV Core Support"
         },
         {
@@ -294,7 +348,7 @@
           "description": "On top of all the PCI IDs in place already for the AMDGPU Linux kernel graphics driver, another 17 PCI IDs were added in a new patch for this open-source Radeon graphics driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-17-More-RDNA2-GPU-IDs",
           "publishedOn": "2021-08-27T09:37:34.000Z",
-          "wordCount": 876,
+          "wordCount": 938,
           "title": "AMD Adds 17 More PCI IDs For RDNA2 GPUs To Their Linux Driver"
         },
         {
@@ -303,7 +357,7 @@
           "description": "While Ubuntu 21.10 isn't being released for another two months, the release schedule for Ubuntu 22.04 has been published that is rather notable in being the next bi-annual long-term support (LTS) release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-22.04-Release-Schedule",
           "publishedOn": "2021-08-27T04:00:00.000Z",
-          "wordCount": 843,
+          "wordCount": 859,
           "title": "Ubuntu 22.04 LTS Release Schedule Published"
         },
         {
@@ -312,7 +366,7 @@
           "description": "PipeWire, for managing audio/video streams on Linux and proving itself to be a viable replacement to PulseAudio and JACK, is out with a new update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.34-Released",
           "publishedOn": "2021-08-27T00:06:04.000Z",
-          "wordCount": 737,
+          "wordCount": 753,
           "title": "PipeWire 0.3.34 Released With Yet More Improvements, Fixes"
         },
         {
@@ -321,7 +375,7 @@
           "description": "Google promoted Chrome 94 to beta status today with some exciting changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-94-Beta",
           "publishedOn": "2021-08-26T19:30:41.000Z",
-          "wordCount": 849,
+          "wordCount": 899,
           "title": "Chrome 94 Beta Released With WebCodecs API Promoted, WebGPU Origin Trial"
         },
         {
@@ -330,7 +384,7 @@
           "description": "Started back in 2018 was an effort by the NetBSD project to update their operating system WiFi drivers by re-syncing more code from FreeBSD and making various improvements. Three years later the work has yet to be merged but after stalling for some time is back to being worked on by interested developers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NetBSD-WiFi-2021",
           "publishedOn": "2021-08-26T18:30:03.000Z",
-          "wordCount": 781,
+          "wordCount": 877,
           "title": "NetBSD Continues Long Overdue Push To Modernize Their WiFi Drivers"
         },
         {
@@ -339,7 +393,7 @@
           "description": "Earlier this month was a look at the LLVM Clang 13 performance on EPYC 7003 showing this forthcoming compiler update to be in good shape for AMD Zen 3, but how is the performance looking on the Intel side? This round of benchmarking is looking at the LLVM Clang 11 / 12 / 13 compiler performance on Intel's flagship Xeon Platinum 8380 \"Ice Lake\" 2P server configuration.",
           "link": "https://www.phoronix.com/vr.php?view=30491",
           "publishedOn": "2021-08-26T13:20:00.000Z",
-          "wordCount": 1014,
+          "wordCount": 1005,
           "title": "LLVM Clang 13 Performance Is In Great Shape For Intel Xeon \"Ice Lake\""
         },
         {
@@ -348,7 +402,7 @@
           "description": "After a slight delay, Ubuntu 20.04.3 LTS is available today as the newest point release for the current Ubuntu Linux long-term support release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-20.04.3-LTS",
           "publishedOn": "2021-08-26T13:16:20.000Z",
-          "wordCount": 789,
+          "wordCount": 805,
           "title": "Ubuntu 20.04.3 LTS Released With Fixes, Newer Hardware Enablement Stack"
         },
         {
@@ -357,7 +411,7 @@
           "description": "The GNOME project has launched \"Apps For GNOME\" at apps.gnome.org for highlighting the ecosystem of available GNOME applications...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apps-For-GNOME",
           "publishedOn": "2021-08-26T10:30:00.000Z",
-          "wordCount": 813,
+          "wordCount": 829,
           "title": "\"Apps For GNOME\" Launches To Highlight GNOME Apps"
         },
         {
@@ -366,7 +420,7 @@
           "description": "The Qt Company has formally released Qt Creator 5.0 today as their latest version of this Qt/C++ minded integrated development environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-5.0",
           "publishedOn": "2021-08-26T10:11:11.000Z",
-          "wordCount": 859,
+          "wordCount": 870,
           "title": "Qt Creator 5.0 Released With Experimental Clangd Backend, Experimental Docker Builds"
         },
         {
@@ -375,7 +429,7 @@
           "description": "Google Chrome OS engineers are working on making Linux's VirtIO-GPU driver more extensible. The VirtIO-GPU driver has been modeled around the Virgl protocol for handling 3D within guest virtual machines but with a new context type addition they aim to support additional protocols...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=VirtIO-Context-Type",
           "publishedOn": "2021-08-26T09:47:53.000Z",
-          "wordCount": 762,
+          "wordCount": 858,
           "title": "Google Working On Making VirtIO-GPU More Extensible"
         },
         {
@@ -384,7 +438,7 @@
           "description": "Going back to June of last year there has been work on Intel bringing up Advanced Matrix Extension (AMX) that will debut with next-gen Xeon \"Sapphire Rapids\" processors as a new programming paradigm. Over the past year they have published patches for the Linux kernel and open-source toolchains with GCC and LLVM Clang. One year later, the AMX kernel patches are up to their tenth revision but will miss out on the imminent Linux 5.15 merge window...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-v10",
           "publishedOn": "2021-08-26T04:00:00.000Z",
-          "wordCount": 978,
+          "wordCount": 948,
           "title": "Intel AMX Patches For The Kernel Posted A 10th Time, But To Miss Out On Linux 5.15"
         },
         {
@@ -393,7 +447,7 @@
           "description": "It was just last month that the Linux kernel saw a pipe code change to address a user-space regression due to the kernel's policy about not breaking the user-space even if that non-kernel code is in the wrong. A similar kernel regression fix was merged today...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Pipe-Broken-User-Again",
           "publishedOn": "2021-08-25T23:38:36.000Z",
-          "wordCount": 978,
+          "wordCount": 1013,
           "title": "Linux Pipe Code Again Sees Patch To Restore Buggy/Improper User-Space Behavior"
         },
         {
@@ -402,7 +456,7 @@
           "description": "The work I initially wrote about last week for AMD optimizing their C3 entry handling to avoid an unnecessary cache flush will now be picked up for the upcoming Linux 5.15 kernel cycle...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-C3-Optimize-Linux-5.15",
           "publishedOn": "2021-08-25T19:15:01.000Z",
-          "wordCount": 943,
+          "wordCount": 879,
           "title": "Optimized C3 Entry Handling For AMD CPUs Queued For Linux 5.15"
         },
         {
@@ -411,7 +465,7 @@
           "description": "OpenShot 2.6 has been released as the newest version of this non-linear open-source video editing system for Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenShot-2.6-Released",
           "publishedOn": "2021-08-25T17:05:17.000Z",
-          "wordCount": 680,
+          "wordCount": 696,
           "title": "OpenShot 2.6 Video Editor Released With Computer Vision + AI Effects"
         },
         {
@@ -420,7 +474,7 @@
           "description": "Earlier this month the AMD Ryzen 5 5600G and Ryzen 7 5700G desktop APUs officially launched for retail availability. Unfortunately we were not seeded with any review sample for being able to conduct Linux testing on these Zen 3 APUs with Vega graphics, but ended up purchasing one afterwards due to the number of readers inquiring about the Linux support. Here are some preliminary benchmarks of the AMD Ryzen 7 5700G.",
           "link": "https://www.phoronix.com/vr.php?view=30483",
           "publishedOn": "2021-08-25T13:30:00.000Z",
-          "wordCount": 987,
+          "wordCount": 978,
           "title": "AMD Ryzen 7 5700G Linux Performance"
         },
         {
@@ -429,62 +483,8 @@
           "description": "Today marks the 30th birthday of Linux since it was announced by Linus Torvalds. Meanwhile in just a few days the Linux 5.14 kernel is expected to be released as stable. Here is a look back at the most prominent features coming for this kernel release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.14-Features",
           "publishedOn": "2021-08-25T13:18:55.000Z",
-          "wordCount": 918,
+          "wordCount": 1019,
           "title": "Linux 5.14 Features Aplenty With New AMD GPUs, SmartShift, More Alder Lake, Core Scheduling"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Mem-Device-Public",
-          "author": null,
-          "description": "AMD engineers continue working on preparing the Linux kernel for the Frontier supercomputer...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Mem-Device-Public",
-          "publishedOn": "2021-08-25T10:10:37.000Z",
-          "wordCount": 840,
-          "title": "AMD Posts Latest Linux Patches For Supporting The Frontier Supercomputer"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LoongArch-MIPS-Copy-Kernel",
-          "author": null,
-          "description": "Loongson this summer rolled out their 3A5000 processors built on their own \"LoongArch\" ISA. While the company continues claiming that LoongArch is \"not MIPS\", the Linux kernel code they continue proposing for the mainline Linux kernel points to it being a close facsimile to MIPS...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LoongArch-MIPS-Copy-Kernel",
-          "publishedOn": "2021-08-25T09:48:18.000Z",
-          "wordCount": 921,
-          "title": "Loongson Continues Working On LoongArch For Linux, But It's Mostly Copying MIPS Code"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-CFI-Linux-v2",
-          "author": null,
-          "description": "Earlier this year when Clang LTO support was added for Linux 5.12 that link-time optimization support wasn't done solely for squeezing out greater performance but also because it's a prerequisite for making use of Clang's Control Flow Integrity (CFI) functionality. Google engineers have now sent out their latest set of patches for bringing up Clang CFI support within the Linux kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Clang-CFI-Linux-v2",
-          "publishedOn": "2021-08-25T04:00:04.000Z",
-          "wordCount": 890,
-          "title": "Clang CFI Patches For The Linux Kernel Updated To Beef Up Security"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=QEMU-6.1-Released",
-          "author": null,
-          "description": "QEMU 6.1 is out as the newest feature release to this widely-used, open-source Linux virtualization component...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=QEMU-6.1-Released",
-          "publishedOn": "2021-08-24T22:16:47.000Z",
-          "wordCount": 777,
-          "title": "QEMU 6.1 Released With RISC-V Improvements, AMD Emulation Fixes"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30482",
-          "author": null,
-          "description": "While there is still two months to go until the Ubuntu 21.10 \"Impish Indri\" release, since the feature freeze has now begun I've started some early testing of this next Ubuntu release. So far things are looking good as a nice upgrade over Ubuntu 21.04 and prior. Here is the first round of Ubuntu 21.04 vs. 21.10 development tests using an AMD Ryzen 9 5950X with Radeon RX 5700 XT graphics.",
-          "link": "https://www.phoronix.com/vr.php?view=30482",
-          "publishedOn": "2021-08-24T19:00:00.000Z",
-          "wordCount": 867,
-          "title": "Early Ubuntu 21.10 Performance Is Looking Good - Especially For Radeon Graphics"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-Summer-2021",
-          "author": null,
-          "description": "The Haiku open-source operating system project that continues advancing as the virtual successor to BeOS has been enjoying a successful summer...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Haiku-Summer-2021",
-          "publishedOn": "2021-08-24T18:54:15.000Z",
-          "wordCount": 857,
-          "title": "Haiku OS Gets TRIM Working For SSDs, Continues Bringing Up RISC-V Support"
         }
       ]
     }
