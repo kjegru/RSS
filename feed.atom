@@ -1,10 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-01T00:37:25.138Z</id>
+    <id>urn:2021-09-02T00:34:25.905Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-01T00:37:25.138Z</updated>
+    <updated>2021-09-02T00:34:25.906Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Addressing Scalability Issue That Caused Huge IBM Servers 30+ Minutes To Boot]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Kernfs-Scalability</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Kernfs-Scalability"/>
+        <updated>2021-09-01T20:00:50.000Z</updated>
+        <summary type="html"><![CDATA[Very large IBM mainframes/servers were taking 30+ minutes to boot the Linux kernel... No, just not for POST'ing the system with memory training and the like, but for loading Linux. Fortunately, with the Linux 5.15 kernel there is a set of scalability enhancements to allow these large IBM systems to be able to boot in around five minutes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Staging Replaces Its Realtek RTL8188EU WiFi Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Staging</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Staging"/>
+        <updated>2021-09-01T18:27:39.000Z</updated>
+        <summary type="html"><![CDATA[The staging updates for Linux 5.15 continue to have a lot of code churn including some drivers being promoted while one Realtek WiFi driver has been replaced...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Server 2022 Reaches General Availability With Focusing On Hybrid Clouds, Containers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-Server-2022</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Windows-Server-2022"/>
+        <updated>2021-09-01T17:30:48.000Z</updated>
+        <summary type="html"><![CDATA[While Microsoft announced that Windows 11 will be formally released on 5 October, rolling out today is general availability on Windows Server 2022...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel "Crocus" Gallium3D Now Part Of Mesa's Default Drivers To Build]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Crocus-Default-Gallium3D</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Crocus-Default-Gallium3D"/>
+        <updated>2021-09-01T13:15:08.000Z</updated>
+        <summary type="html"><![CDATA[Intel's i965 classic DRI driver is still the default within Mesa for i965 through Haswell generations of Intel integrated graphics, but the new "Crocus" Gallium3D driver has been added to the default driver build list so it's now at least building by default on x86/x86_64 systems and thus trivial after that to override...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Hardware Monitoring Is Big But Overdue For AMD]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON"/>
+        <updated>2021-09-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Linux 5.15 hardware monitoring "HWMON" subsystem changes were sent out and now merged for this next kernel version. Particularly notable this cycle is AMD catching up on some of their sensors support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RadeonSI Enables DCC Stores For RDNA2 APUs To Squeeze Out More Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-DCC-Stores-RDNA2-APU</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-DCC-Stores-RDNA2-APU"/>
+        <updated>2021-09-01T11:56:24.000Z</updated>
+        <summary type="html"><![CDATA[RadeonSI Gallium3D as the official AMD OpenGL Linux driver has mirrored the unofficial RADV Vulkan driver in enabling DCC stores support for RDNA2 APUs in the name of greater performance...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wayland Protocols 1.22 Released With DRM Object Leasing Support For VR HMDs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-Protocols-1.22</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wayland-Protocols-1.22"/>
+        <updated>2021-09-01T10:56:42.000Z</updated>
+        <summary type="html"><![CDATA[Designed with VR headsets in mind, Wayland-Protocols 1.22 was released today and adds the DRM leasing protocol to its staging area...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XFS & EROFS File-Systems Have Big Changes For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-XFS-EROFS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-XFS-EROFS"/>
+        <updated>2021-09-01T10:07:12.000Z</updated>
+        <summary type="html"><![CDATA[In addition to Btrfs sporting new features with Linux 5.15, the XFS and EROFS file-systems also have some shiny new features and improvements for this next version of the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Power Management Changes Merged]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Power-Management</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Power-Management"/>
+        <updated>2021-09-01T09:55:16.000Z</updated>
+        <summary type="html"><![CDATA[The ACPI and power management changes have landed for the Linux 5.15 merge window...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BPF Timers To Intel Additions Lead The Networking Changes With Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Networking</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Networking"/>
+        <updated>2021-09-01T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The networking subsystem updates for the recently opened Linux 5.15 merge window have landed...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian 11, Valve Happenings, Linux 5.14 & More Excitement From August]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=August-2021-Highlights</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=August-2021-Highlights"/>
+        <updated>2021-09-01T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For being a summer month, August was much busier than usual with a slew of exciting hardware and Linux/open-source software announcements. From releasing Linux 5.14 in marking 30 years of the Linux kernel to the debut of Debian 11 to Valve Steam Deck related work to their exciting sponsorship of Zink work, August was quite an exciting month for Linux enthusiasts...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Summer of Code at GitLab – some intern highlights]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/01/gsoc-at-gitlab/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/01/gsoc-at-gitlab/"/>
+        <updated>2021-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab participated in Google Summer of Code for the first time this year. We hosted four student interns to work with us on four different projects under the supervision of two or three mentors each.
+For the past 16 years, Google has hosted the Summer of Code to introduce students to the world of open source. Over the summer, student interns work on a project with an open source organization and are closely mentored by the developers of the open source project. More than 200 organizations participated this year.
+We started off the summer with a two-week long community bonding period to get our students familiar with how we work at GitLab and helped them set-up their local development environments. During the 10-week program we worked through scoped projects with regular check-ins and a fi…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.2.3]]></title>
+        <id>https://about.gitlab.com/releases/2021/09/01/gitlab-14-2-3-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/09/01/gitlab-14-2-3-released/"/>
+        <updated>2021-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.2.3 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+last month's 14.2 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Geo: Replicate multi-arch containers
+Reset severity_levels default
+Create 14.2 In-app top 7 product highlights
+Fix OrphanedInviteTokensCleanup migration
+Fix Live Markdown Preview in personal and subgroup projects
+Downgrade grpc from 1.38.0 to 1.30.2 for compatibility with older CPUs
+Restore proper contents to toolbox ubi8 image
+Only activate Git pack-objects hook if cache is enabled
+Important notes on upgrading
+This version does include post deploy db migrations. For multi-node deployments, it should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 93 Released With WebOTP Cross-Device Support, CSS Module Scripts]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-93-Released</id>
@@ -218,16 +375,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.190 Released With SPIR-V Integer Dot Product Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.190</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.190"/>
-        <updated>2021-08-30T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Vulkan 1.2.190 resolves several issues with the specification, but most exciting with this routine Vulkan API update is the introduction of two new extensions...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to secure your software build pipeline using code signing]]></title>
         <id>https://about.gitlab.com/blog/2021/08/30/secure-pipeline-with-single-sign-in/</id>
         <link href="https://about.gitlab.com/blog/2021/08/30/secure-pipeline-with-single-sign-in/"/>
@@ -237,106 +384,6 @@ Even if you believe your company is at low risk of an attack, it's also importan
 The incidents at Solarwinds, Codecov, an…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.14 Released With New Hardware Support, Core Scheduling, MEMFD_SECRET]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.14-Released"/>
-        <updated>2021-08-29T22:30:20.000Z</updated>
-        <summary type="html"><![CDATA[As expected Linus Torvalds promoted Linux 5.14 to stable in providing the latest features, hardware support, and other improvements ahead of the autumn 2021 Linux distribution releases...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Yellow Carp + Another Water Cooling Pump Head To Linux's Hardware Monitoring Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON-AMD-YC-WC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-HWMON-AMD-YC-WC"/>
-        <updated>2021-08-29T21:45:34.000Z</updated>
-        <summary type="html"><![CDATA[The Linux hardware monitoring "HWMON" subsystem for the 5.15 cycle is already seeing the AMD SB-RMI driver and AMD Cezanne Zen 3 APU temperature monitoring while there was also some last-minute additions around AMD next-gen "Yellow Carp" temperature reporting and separately support for another water cooling pump...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yet-To-Be-Released Intel "Bz" WiFi Chipset To Be Supported By Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Bz-WiFi-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Bz-WiFi-Linux-5.15"/>
-        <updated>2021-08-29T19:00:43.000Z</updated>
-        <summary type="html"><![CDATA[While the Linux 5.15 merge window opening is imminent, merged today to net-next were the latest batch of wireless driver updates for this next kernel version. Notable to this batch of WiFi driver updates was the new Intel material...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 To Fix Regression In Its Floppy Disk Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Floppy-Disk-Linux-5.15-Fix</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Floppy-Disk-Linux-5.15-Fix"/>
-        <updated>2021-08-29T17:48:15.000Z</updated>
-        <summary type="html"><![CDATA[Near the beginning of the year was some rare work on Linux's floppy disk driver and -- a half-year later -- it was found out that not only do people with systems using floppy disks still move to newer kernels, but that work earlier in the year had regressed the Linux kernel's floppy disk handling. Now coming for Linux 5.15 is a fix...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some Of The Features Expected For Linux 5.15: DG2/Alchemist, BPF Timers, DAMON + More]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Features-Expected</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Features-Expected"/>
-        <updated>2021-08-29T10:00:51.000Z</updated>
-        <summary type="html"><![CDATA[If all goes according to plan the Linux 5.14 kernel will be released as stable today. Linux 5.14 has many new features but there is also a lot of work slated for the next cycle, Linux 5.15. Here's a look...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome/Chromium's Ozone X11 Code Now Fully Enabled, Old Legacy X11 Code To Be Removed]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-Ozone-X11-Future</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-Ozone-X11-Future"/>
-        <updated>2021-08-29T07:15:33.000Z</updated>
-        <summary type="html"><![CDATA[The Chrome/Chromium web browser now has fully-enabled the Ozone/X11 platform support across both beta and stable channels...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Prominent, Longtime Dell Linux Engineer Recently Joined AMD's Linux Team]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-Mario-On-AMD-Linux-Team</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Dell-Mario-On-AMD-Linux-Team"/>
-        <updated>2021-08-28T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Here should hopefully be a great indication about AMD's Linux efforts moving forward with one of their recent and exciting hires at the company...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Lands Initial Code For Mesh Shaders Within Mesa]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesh-Shaders-Mesa-Merged</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesh-Shaders-Mesa-Merged"/>
-        <updated>2021-08-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In preparation for the support within their Vulkan driver, the Intel-led effort for preparing mesh shader support within Mesa's NIR and SPIR-V code has now been merged...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine-Staging 6.16 Implements Two More D3DX Functions To Help Some Windows Games]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.16"/>
-        <updated>2021-08-28T09:44:01.000Z</updated>
-        <summary type="html"><![CDATA[It's been a relatively quiet summer in the Wine-Staging world with not many new patches surfacing for testing/experimental purposes for this more bleeding edge version of Wine. However, with Wine-Staging 6.16 there are at least some new patches now to talk about...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Plasma 5.23 Will Be Another Exciting Release With Many Improvements Abound]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Looking-Good</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Looking-Good"/>
-        <updated>2021-08-28T09:32:11.000Z</updated>
-        <summary type="html"><![CDATA[The Plasma 5.23 desktop release is looking like it will be quite an eventful milestone while KDE developers are finishing August strong with many improvements and fixes across their desktop stack...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -651,31 +698,6 @@ As you navigate the changes that come with implementing remote-first practices, 
         <updated>2021-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Companies in all industries and sectors have significantly invested in digital transformation and increased their software development capabilities. GitLab delivers modern DevOps with a complete DevOps platform. However, some organizations require self-managed GitLab and GitLab Runners, which creates added costs for hosting and running GitLab infrastructure. Our latest cost analysis and performance benchmarks show that customers can realize cost savings of up to 23% and performance gains of up to 36% by deploying the GitLab application and GitLab Runner on the Arm-based Graviton2 when compared to the x86 based M5/C5 EC2 instances.
 Arm is a leading provider of silicon intellectual property (IP) for intelligent systems-on-chip (SoC) that power billions of devices. GitLab and Arm have collabo…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How UBS created their own open DevOps Platform using GitLab]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/"/>
-        <updated>2021-08-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[UBS, the largest truly global wealth manager, uses GitLab to power DevCloud, a single DevOps Platform that allows for a cloud-based, service-oriented, software development lifecycle.
-"GitLab is a fundamental part of DevCloud," said Rick Carey, Group Chief Technology Officer at UBS. "We wouldn't be able to have that seamless experience without GitLab. It allowed us to pull ahead of many of our competitors, and break down the barriers between coding, testing, and deployment."
-During GitLab Virtual Commit 2021, Rick and Eric Johnson, Chief Technology Officer at GitLab, talked about how building DevCloud on GitLab's DevOps Platform allowed UBS to increase their development velocity, lower their infrastructure costs, and increase collaboration between engineers and non-engineering teams worldwi…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the DevOps Platform era]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/03/welcome-to-the-devops-platform-era/"/>
-        <updated>2021-08-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[DevOps has evolved since its infancy, over a decade ago. Swiss developmental psychologist Jean Piaget believed human cognitive development has four stages (sensorimotor, preoperational, concrete operational, and formal operational). Through each of these stages, the human mind obtains new knowledge while building and modifying memories to inform one's understanding of the world around them.
-In the same way that people go through stages as they grow, markets and industries also go through stages of development. Over the years, DevOps has grown into a mature, business-critical practice.
-As the DevOps industry expanded, so did the number and complexity of tool-project integrations within an organization. This was the result of three developments in DevOps:
-Companies moved from monolithic arch…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
