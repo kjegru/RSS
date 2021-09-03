@@ -16,6 +16,220 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-03">2021-09-03</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GCC 12 Looking At Enabling Its Vectorizer For &quot;-O2&quot; Optimization Level</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;GCC-O2-Vectorization-Talk">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The GCC compiler when using the default &quot;-O2&quot; optimization level is likely to be slightly faster with next year&#x27;s GCC 12 release as the developers are looking at enabling the vectorizer options by default...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-02">2021-09-02</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The journey to a DevOps Platform</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/02/the-journey-to-a-devops-platform/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>In a recent blog post about the importance of a DevOps Platform, GitLab CEO Sid Sijbrandij outlined four phases through which organizations frequently travel as their practice matures. It’s a painful journey we see again and again when we meet new customers. It spans every industry and every company size, and it’s the most mature DevOps teams with the most at stake who’ve felt the most pain. 
+Historically, if you wanted DevOps to work, you had to be prepared to pay for it. Just managing the backbone of DevOps – the toolchain -– has been a grind. Your “Jenkins Team,” your “GitHub Team,” or even, as one of our customers described, your “Duct Tape Team” (designed to hold it all together and patch holes), added no end value beyond keeping everything from falling apart. That’s a lot of investme…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What we learned about configuring Sidekiq from GitLab.com</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/02/specialized-sidekiq-configuration-lessons-from-gitlab-dot-com/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(18 min)</span>
+                    <span>Sidekiq in GitLab works perfectly well out-of-the-box in most use cases, but it requires a little more attention in larger deployments or other specialized cases. We&#x27;ve learned a lot about how to configure Sidekiq in large deployments by maintaining GitLab.com – one of the largest instances of GitLab in existence. We added some critical features to GitLab.com in the past year to make it easier to configure Sidekiq in a manner more consistent with the maintainer&#x27;s guidance, having strayed from this path for some time.
+We are publishing two blog posts devoted to this topic. In this first post, we will unpack how we configured Sidekiq for GitLab.com, and in our second post, we will explain how to apply this to your GitLab instance.
+[Learn more about how we iterated on Sidekiq background jobs]…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitLab Patch Release: 13.12.11</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/releases/2021/09/02/gitlab-13-12-11-released/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Today we are releasing version 13.12.11 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+the 13.12 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Only activate Git pack-objects hook if cache is enabled
+Backport improved replication logic
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab&#x27;s own infrastructure.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitLab Patch Release: 14.0.10 and 14.1.5</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/releases/2021/09/02/gitlab-14-0-10-released/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Today we are releasing versions 14.0.10 and 14.1.5 for GitLab Community Edition and Enterprise Edition.
+These versions resolve a number of regressions and bugs in the
+14.0 and
+14.1 releases.
+GitLab Community Edition and Enterprise Edition
+Only activate Git pack-objects hook if cache is enabled
+Backport improved replication logic
+Additionally, 14.1.5 includes the additional fixes:
+Geo: Replicate multi-arch containers
+Run AWS Release rake task only if on latest stable tag
+Important notes on upgrading
+These versions do not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab&#x27;s own infrastructure.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AMD Ryzen 5 5600G Linux Performance</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30499">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Last month were our benchmarks of the AMD Ryzen 7 5700G on Linux for that new desktop APU with Zen 3 cores and Vega graphics available through retail channels. Due to reader interest and with the Ryzen 5 5600G still readily available via Internet retailers, here is a look at the AMD Ryzen 5 5600G Linux performance in a variety of benchmarks.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">EXT4 Ready With Some New Optimizations - Orphan_File, Moving Discard&#x27;s Work</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-EXT4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>It&#x27;s busy on the Linux file-system front for the 5.15 cycle woth Btrfs adding a degenerate RAID option along with performance improvements to big improvements for XFS and now comes the EXT4 updates...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NVIDIA Jetson TX2 NX + Other ARM Platforms Now Supported By Linux 5.15</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-ARM-SoCs-Platforms">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The Arm SoC and platform updates have been merged for the in-development Linux 5.15 kernel...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Big Batch Of New AMD RDNA2 PCI IDs Is Heading To Linux 5.15</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;More-RDNA2-IDs-For-Linux-5.15">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Last week I wrote about AMD adding 17 more RDNA2 PCI IDs to their Linux driver which is rather unusual given the amount and the number of PCI IDs already found in the AMDGPU kernel driver for these latest-generation GPUs and the Radeon RX 6000 series already being mid-life. As noted in that article and seemingly in agreement with the various other industry articles following that Phoronix news, it seems to be for some sort of RDNA2 refresh likely. Now those new PCI IDs are being queued up for introduction in the current Linux 5.15 cycle...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Qt 6.2 LTS Will Nearly Be At Feature Parity To Qt 5.15</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Qt-6.2-LTS-Feature-Parity-5.15">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>When the Qt 6.0 tool-kit debuted last year much of the early criticism stemmed around it not having all the modules/functionality ported over from Qt5 meanwhile The Qt Company was restricting newer Qt 5.15 LTS point releases to paying customers only. Since then the developers have been working to address the voids in Qt6 and with the upcoming Qt 6.2 as their next long-term support release, all of the important functionality should be in place...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AMD Van Gogh Audio Driver Lands For Linux 5.15</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-Sound">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The sound/audio drivers have landed for the ongoing Linux 5.15 kernel driver...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Steam On Linux Continues Hovering Around The 1% Mark</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Steam-Linux-August-2021">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In July -- the same month as Valve announcing the Steam Deck -- the Steam on Linux marketshare hit 1.0%. That 1.0% marketshare was a +0.14% bump and the highest seen in years since Steam on Linux&#x27;s debut nearly a decade ago back when it commanded around a 2% marketshare...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Genode OS Framework 21.08 Streamlining Its Porting Of Linux Driver Code</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Genode-OS-21.08">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>We&#x27;ve been covering Genode OS for more than a decade now as this original open-source operating system &quot;framework&quot; and through this time they have managed to keep up with their routine feature releases. Out this week is Genode OS Framework 21.08 as they seek to make it easier porting device driver code to their platform...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-01">2021-09-01</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -192,7 +406,7 @@ to use GitLab&#x27;s own infrastructure.</span>
                 <summary class="article-expander__title">Debian 11, Valve Happenings, Linux 5.14 &amp; More Excitement From August</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;August-2021-Highlights">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
+                    <span class="article-reading-time">(8 min)</span>
                     <span>For being a summer month, August was much busier than usual with a slew of exciting hardware and Linux/open-source software announcements. From releasing Linux 5.14 in marking 30 years of the Linux kernel to the debut of Debian 11 to Valve Steam Deck related work to their exciting sponsorship of Zink work, August was quite an exciting month for Linux enthusiasts...</span>
                   </div>
                 </a>
@@ -343,7 +557,7 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
                 <summary class="article-expander__title">Linux 5.15 In 2021 Is Still Improving Intel 486 Era Hardware Support</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-x86-IRQ">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>The x86/IRQ changes for the Linux 5.15 kernel bring some unexpected improvements to old hardware...</span>
                   </div>
                 </a>
@@ -386,94 +600,6 @@ The incidents at Solarwinds, Codecov, an…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>It looks like the real-time (RT) patches for the Linux kernel are almost to the point of being fully upstream in the mainline Linux kernel. Merged for Linux 5.15 is the PREEMPT_RT locking code that represents a bulk of the outstanding RT patches...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Experimental Ray-Tracing For Open-Source Radeon Vulkan Driver Nears Upstream Mesa</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;RADV-Ray-Tracing-Near-Mainline">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>It looks like within the coming days that the Vulkan ray-tracing support for Mesa&#x27;s &quot;RADV&quot; Radeon Vulkan driver will be upstreamed for Mesa 21.3...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linux 5.15 I/O Can Achieve Up To ~3.5M IOPS Per-Core</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-IO-3.5M-IOPS">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>In addition to the block subsystem changes submitted for the Linux 5.15 merge window, Jens Axboe also sent in a separate pull request for this new kernel cycle to provide support for bio recycling. In turn this can enhance the Linux I/O limits by around 10%...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Pyston Developers Join Anaconda To Continue Their Speedy Python Implementation</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Pyston-Joins-Anaconda">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Pyston began many years ago as an open-source JIT-based Python implementation developed by Dropbox. But after Dropbox dropped Pyston development, it went dormant for several years before the developers decided to create their own start-up around it and released Pyston 2.0. The Pyston developers are now joining well known Python organization Anaconda...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linux 5.15 Block Changes From Removing LightNVM To Fixing Up The Floppy Driver</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-Block">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Linux block subsystem maintainer and I/O expert Jens Axboe sent in his set of feature pull requests today for the Linux 5.15 kernel cycle...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Scheduler Changes For Linux 5.15 - Still No Sign Of Any Intel Thread Director Optimizations</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-Scheduler">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Ingo Molnar began sending in his pull requests bright and early as usual for the just-opened Linux 5.15 merge window. With the scheduler changes for this next kernel version there are some improvements worth mentioning but also worth mentioning is what hasn&#x27;t found its way to the kernel yet: any software optimizations around Intel Thread Director for upcoming Alder Lake processors...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Opt-In L1 Cache Flushing To Try For Linux 5.15 To Help With The Paranoid, Future CPU Vulnerabilities</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-L1d-Flushing-Mech">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Worked on for more than one year is the patches out of Amazon for allowing opt-in L1 data cache flushing on context switching. This L1d flushing is done in the name of greater security given the various CPU speculative execution hardware vulnerabilities these days and protecting against other possible future vulnerabilities. After trying to get the code merged last summer, Linus Torvalds called it &quot;beyond stupid&quot; and reverted the code but now for Linux 5.15 a revised form of it was submitted...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Endeavour OS ISOs Updated With Better Btrfs Support, Pacman Parallel Downloads</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Endeavour-OS-Better-Btrfs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>For those after an easy-to-use desktop distribution built off Arch Linux, Endeavour OS continues filling the void left by the former Antergos project. Endeavour OS is closing out August by releasing new ISOs that include a number of updates to its installer...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">In-Kernel SMB3 File Server Looks To Land In Linux 5.15</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;SMB3-KSMBD-Linux-5.15-PR">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>One of the very first pull requests for Linux 5.15 now that its merge window is open following the Linux 5.14 release is to merge KSMBD, the in-kernel SMB3 protocol file server...</span>
                   </div>
                 </a>
               </details>
@@ -534,23 +660,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab&#x27;s own infrastructure.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">LLVM Clang 13 Performance Is In Great Shape For Intel Xeon &quot;Ice Lake&quot;</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30491">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Earlier this month was a look at the LLVM Clang 13 performance on EPYC 7003 showing this forthcoming compiler update to be in good shape for AMD Zen 3, but how is the performance looking on the Intel side? This round of benchmarking is looking at the LLVM Clang 11 / 12 / 13 compiler performance on Intel&#x27;s flagship Xeon Platinum 8380 &quot;Ice Lake&quot; 2P server configuration.</span>
                   </div>
                 </a>
               </details>
@@ -719,7 +828,7 @@ The GrammaTech…</span>
                 <summary class="article-expander__title">Introducing Spamcheck: A data-driven, anti-abuse engine</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
+                    <span class="article-reading-time">(11 min)</span>
                     <span>Spam and abuse are a very real concern for us at GitLab – and likely every company providing services at scale. That&#x27;s why our Trust and Safety team works hard every day to detect, mitigate, and lessen the effects of spam. Back in October 2020, the GitLab Security team detailed some of the ways they combat spam and abuse and referenced new approaches we were developing and testing to help us better detect and prevent spam.
 We&#x27;re excited to introduce Spamcheck, our new anti-spam engine. Spamcheck has been enabled for all projects on GitLab.com, which runs 14.1, and will be included in the 14.2 release for GitLab self-managed coming on August 22.
 This tool was designed, tested and integrated by our GitLab Security Automation team (with amazing partnership from our Trust and Safety team and o…</span>
@@ -848,115 +957,9 @@ Phabricator was an inspiration to me when starting GitLab. It is shutting down n
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-10">2021-08-10</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/08/10/how-to-agentless-gitops-aws/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
-                    <span>In part two of our GitOps series, we described how to use a push-based (or agentless) approach for GitOps by using GitLab scripting capabilities as well as integrating infrastructure-as-code tools into GitOps pipelines. In this third blog post, we’ll also dig deep into how to use a push-based approach, but this time our focus will be on the integrations of Terraform, AWS ECS, and AWS EC2 in GitOps flows. This approach may be preferable when using infrastructure components that aren&#x27;t Kubernetes, such as VMs, physical devices, and cloud-provider services.
-Similar to Ansible – an agentless IT automation solution – Terraform can be leveraged by the scripting capabilities of GitLab to shape your infrastructure. GitLab also provides out-of-the-box integrations with Terraform, such as GitLab-man…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GitLab Patch Release: 13.12.10</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/releases/2021/08/10/gitlab-13-12-10-released/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Today we are releasing version 13.12.10 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-May&#x27;s 13.12 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Fix: Sidekiq workers delete each other&#x27;s metrics
-Do not create audit event for failed logins on read-only DB
-Fix validation method regarding MIME type keys
-Resolve &quot;operator does not exist&quot; in app/models/namespace/traversal_hierarchy.rb
-gitlab-rails: checks/postgresql detect silent NoDatabaseError
-Adding -ubi8 to version to find UBI images
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab&#x27;s own infrastructure.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-09">2021-08-09</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">5 Ways to scale remote work on your team</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/08/09/five-ways-to-scale-remote-work/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>At GitLab, we believe that remote work at scale will define not only the future of work, but the future of living. We created REMOTE by GitLab to bring together the remote work community and answer the questions many companies are asking: &quot;How do we do this, and what&#x27;s next?&quot;
-We heard from some of the top leaders in remote work, from large companies that made the decision to leave the office behind, to teams of experts who have been studying the organizational design for years.
-We share five lessons from the REMOTE by GitLab event that your team can apply to uplevel your remote practices and culture.
-Set guiding principles for your remote transition (and stick to them)
-As you navigate the changes that come with implementing remote-first practices, it&#x27;s important to have a set of values and…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-05">2021-08-05</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">23% Cost savings and 36% performance gain by deploying GitLab on Arm-based AWS Graviton2</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/08/05/achieving-23-cost-savings-and-36-performance-gain-using-gitlab-and-gitlab-runner-on-arm-neoverse-based-aws-graviton2-processor/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Companies in all industries and sectors have significantly invested in digital transformation and increased their software development capabilities. GitLab delivers modern DevOps with a complete DevOps platform. However, some organizations require self-managed GitLab and GitLab Runners, which creates added costs for hosting and running GitLab infrastructure. Our latest cost analysis and performance benchmarks show that customers can realize cost savings of up to 23% and performance gains of up to 36% by deploying the GitLab application and GitLab Runner on the Arm-based Graviton2 when compared to the x86 based M5/C5 EC2 instances.
-Arm is a leading provider of silicon intellectual property (IP) for intelligent systems-on-chip (SoC) that power billions of devices. GitLab and Arm have collabo…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-02T00:34:25.862Z">2021-09-02T00:34:25.862Z</time>
+    <time id="build-timestamp" datetime="2021-09-03T00:33:48.962Z">2021-09-03T00:33:48.962Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
