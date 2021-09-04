@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-03T00:33:48.978Z</id>
+    <id>urn:2021-09-04T00:34:08.921Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-03T00:33:48.978Z</updated>
+    <updated>2021-09-04T00:34:08.921Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Has A Critical Improvement For Tiered Memory Servers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Demote-During-Reclai</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Demote-During-Reclai"/>
+        <updated>2021-09-03T19:48:55.000Z</updated>
+        <summary type="html"><![CDATA[Landing via Andrew Morton's patch series today in the Linux 5.15 kernel is handling for demoting pages during memory reclaim, which can be used for punting cold pages off to slower, tiered memory devices (like Intel persistent memory) when under system memory pressure...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New NTFS File-System Driver Has Been Submitted For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-5.15"/>
+        <updated>2021-09-03T17:25:32.000Z</updated>
+        <summary type="html"><![CDATA[It looks like Paragon Software's NTFS3 kernel driver providing much better Linux support for the Microsoft NTFS file-system will land for the 5.15 kernel!..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gzip 1.11 Released With "Orders of Magnitude Faster" Performance On IBM Z]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gzip-1.11-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gzip-1.11-Released"/>
+        <updated>2021-09-03T16:53:01.000Z</updated>
+        <summary type="html"><![CDATA[The last release of Gzip was v1.10 back at the end of 2018 while now it's finally been succeeded today by Gzip 1.11...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Benchmarking The Performance Impact Of Linux 5.15's Newest Protection Around Side Channel Attacks]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30504</id>
+        <link href="https://www.phoronix.com/vr.php?view=30504"/>
+        <updated>2021-09-03T13:05:03.000Z</updated>
+        <summary type="html"><![CDATA[With the in-development Linux 5.15 kernel there is a new option for further protecting the kernel around side channel attacks and information leakage. Enabling the option will ensure that any caller-used register contents are zeroed prior to returning from a function. While the reported performance cost is said to be small, I decided to run some benchmarks when toggling this new Kconfig hardening option.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snapcraft 6.0 Coming To Finally Move From Ubuntu 18.04 To 20.04 LTS Base, Phase Out i386]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Snapcraft-6.0-Coming</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Snapcraft-6.0-Coming"/>
+        <updated>2021-09-03T12:45:45.000Z</updated>
+        <summary type="html"><![CDATA[Canonical is preparing to soon release Snapcraft 6.0 as the latest version of their utility for packaging and distributing Snaps, the Ubuntu-preferred route for sandboxed apps...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Freedesktop SDK 21.08 Released With RISC-V Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Freedesktop-SDK-21.08</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Freedesktop-SDK-21.08"/>
+        <updated>2021-09-03T11:41:00.000Z</updated>
+        <summary type="html"><![CDATA[The Freedesktop SDK as a platform and SDK run-time for Flatpak apps/run-times is out with its first major stable update in one year...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Working Towards Comprehensive Compile-Time & Run-Time Detection Of Buffer Overflows]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Overflows</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Overflows"/>
+        <updated>2021-09-03T11:17:05.000Z</updated>
+        <summary type="html"><![CDATA[The latest security effort being pursued by Google's Kees Cook is to provide full compile-time and run-time coverage of all detectable buffer overflows...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Haiku Upstreams Its GNU Binutils Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-Haiku-Upstream</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-Haiku-Upstream"/>
+        <updated>2021-09-03T10:40:29.000Z</updated>
+        <summary type="html"><![CDATA[The BeOS-inspired Haiku open-source operating system project has upstreamed its GNU Binutils support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFS Client Changes For Linux 5.15 Bring Connection Sharing, Better Responsiveness]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NFS-Client-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NFS-Client-Linux-5.15"/>
+        <updated>2021-09-03T09:19:28.000Z</updated>
+        <summary type="html"><![CDATA[While Linux 5.15 has added KSMBD as an SMB3 in-kernel file server, the NFS code within the Linux kernel continues advancing as well for network file sharing needs. With NFS in Linux 5.15 are a few notable improvements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Looking To Bolster EPEL]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-More-EPEL</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-More-EPEL"/>
+        <updated>2021-09-03T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat is said to be establishing a "small team" to work on activities around EPEL, the "Extra Packages for Enterprise Linux" that is popular with RHEL/CentOS users for easily fetching extra packages not available via RHEL proper...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GCC 12 Looking At Enabling Its Vectorizer For "-O2" Optimization Level]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-O2-Vectorization-Talk</id>
@@ -13,6 +113,18 @@
         <summary type="html"><![CDATA[The GCC compiler when using the default "-O2" optimization level is likely to be slightly faster with next year's GCC 12 release as the developers are looking at enabling the vectorizer options by default...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The code review struggle is real. Here's what you need to know]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/"/>
+        <updated>2021-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When making a list of the reasons to consider moving to a DevOps Platform, don't forget about code review, a critical piece of the process that's also an incredible source of frustration and delays to developers and their teams.
+In our 2021 Global DevSecOps Survey, respondents told us code quality was the number one reason they chose DevOps. But, when asked what was most likely to delay a product release, code review – vital to code quality – was one of the top four culprits (the others were testing, planning and code development). 
+The fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it's never been more urgent to release secure code as quickly…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -30,7 +142,7 @@
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-EXT4</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-EXT4"/>
         <updated>2021-09-02T17:44:26.000Z</updated>
-        <summary type="html"><![CDATA[It's busy on the Linux file-system front for the 5.15 cycle woth Btrfs adding a degenerate RAID option along with performance improvements to big improvements for XFS and now comes the EXT4 updates...]]></summary>
+        <summary type="html"><![CDATA[It's busy on the Linux file-system front for the 5.15 cycle with Btrfs adding a degenerate RAID option along with performance improvements to big improvements for XFS and now comes the EXT4 updates...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -128,7 +240,8 @@ This version resolves a number of regressions and bugs in
 the 13.12 release and
 prior versions.
 GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
+The main purpose of this release is to resolve high CPU usage by the Gitaly
+server:
 Only activate Git pack-objects hook if cache is enabled
 Backport improved replication logic
 Important notes on upgrading
@@ -157,9 +270,11 @@ These versions resolve a number of regressions and bugs in the
 14.0 and
 14.1 releases.
 GitLab Community Edition and Enterprise Edition
+The main purpose of these two releases is to resolve high CPU usage by the
+Gitaly server:
 Only activate Git pack-objects hook if cache is enabled
 Backport improved replication logic
-Additionally, 14.1.5 includes the additional fixes:
+Additionally, 14.1.5 includes the following fixes:
 Geo: Replicate multi-arch containers
 Run AWS Release rake task only if on latest stable tag
 Important notes on upgrading
@@ -356,96 +471,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Btrfs Adds Degenerate RAID Support, Performance Improvements With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Btrfs</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Btrfs"/>
-        <updated>2021-08-31T19:08:13.000Z</updated>
-        <summary type="html"><![CDATA[The Btrfs file-system updates have landed now in Linux 5.15 mainline with some exciting new features and improvements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KSMBD As An In-Kernel SMB3 File Server Merged For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KSMBD-Lands-In-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KSMBD-Lands-In-Linux-5.15"/>
-        <updated>2021-08-31T17:52:31.000Z</updated>
-        <summary type="html"><![CDATA[One of the earliest pull requests sent in for the now-open Linux 5.15 cycle was proposing KSMBD land as the in-kernel SMB3 file server as an alternative on Linux systems to running Samba in user-space. At the time it wasn't clear if Linus Torvalds would pull in this file server code to the Linux kernel but now he has indeed landed it...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Linux-libre Was Mistakenly Including Non-Free Code, So Releases Now Re-Spun + 5.14]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Linux-Libre-5.14"/>
-        <updated>2021-08-31T17:17:59.000Z</updated>
-        <summary type="html"><![CDATA[GNU Linux-libre 5.14-gnu was released today as the project's re-base on the recently released Linux 5.14 upstream kernel. But prior supported GNU Linux-libre releases also had to be re-spun as it turned out this "100% free software" kernel was mistakenly leaving in some non-free kernel bits...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 11 PGO With The AMD Ryzen 9 5950X For Faster Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30496</id>
-        <link href="https://www.phoronix.com/vr.php?view=30496"/>
-        <updated>2021-08-31T13:16:23.000Z</updated>
-        <summary type="html"><![CDATA[It's been a while since last running benchmarks evaluating the performance of GCC's profile guided optimizations (PGO) for helping to optimize the performance. But stemming from the discussions around PGO'ing the Linux kernel (though that effort is stalled for now), several Phoronix readers inquired about seeing some fresh PGO figures with GCC 11. So here are such benchmarks of GCC 11 with the upcoming Ubuntu 21.10 running on an AMD Ryzen 9 5950X desktop.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Adds Another Knob To Harden Against Side Channel Attacks]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Hardening</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Hardening"/>
-        <updated>2021-08-31T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[With the Linux 5.15 kernel is a new build-time option to further harden the kernel around side channel attacks and information leakage. Enabling this option can have some (small) performance cost and a slightly larger kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Con Kolivas Contemplates Ending Kernel Development, Retiring MuQSS & -ck Patches]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Con-Kolivas-EOL-MuQSS-CK</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Con-Kolivas-EOL-MuQSS-CK"/>
-        <updated>2021-08-31T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Con Kolivas has worked on many patches for the Linux kernel over the past two decades and particularly focused on innovations around desktop performance/interactivity. For over a decade now he's primarily been focused on maintaining his work out-of-tree and not catering to mainline acceptance but now he is thinking of bowing out once more and ending his kernel development effort...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Graphics Driver Changes Bring Intel DG2/Alchemist, XeHP, AMD Cyan Skillfish]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-DRM-Pull</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-DRM-Pull"/>
-        <updated>2021-08-31T09:36:14.000Z</updated>
-        <summary type="html"><![CDATA[David Airlie submitted today the Direct Rendering Manager (DRM) graphics/display driver updates for the Linux 5.15 merge window...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zink OpenGL-On-Vulkan Fixes Up Support For Another Game]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Fixing-Tesseract</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-Fixing-Tesseract"/>
-        <updated>2021-08-31T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Going from ~11 FPS to ~602 FPS for an open-source game marks the latest work on Zink for OpenGL atop Vulkan within Mesa...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 In 2021 Is Still Improving Intel 486 Era Hardware Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-IRQ</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-IRQ"/>
-        <updated>2021-08-31T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The x86/IRQ changes for the Linux 5.15 kernel bring some unexpected improvements to old hardware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Security Release: 14.2.2, 14.1.4, and 14.0.9]]></title>
         <id>https://about.gitlab.com/releases/2021/08/31/security-release-gitlab-14-2-2-released/</id>
         <link href="https://about.gitlab.com/releases/2021/08/31/security-release-gitlab-14-2-2-released/"/>
@@ -455,16 +480,6 @@ These versions contain important security fixes, and we strongly recommend that 
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days a…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The PREEMPT_RT Locking Code Is Merged For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PREEMPT-RT-Locking-In-Linux-515</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PREEMPT-RT-Locking-In-Linux-515"/>
-        <updated>2021-08-30T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[It looks like the real-time (RT) patches for the Linux kernel are almost to the point of being fully upstream in the mainline Linux kernel. Merged for Linux 5.15 is the PREEMPT_RT locking code that represents a bulk of the outstanding RT patches...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -699,19 +714,6 @@ to use GitLab's own infrastructure.]]></summary>
         <updated>2021-08-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As a designer, you're lucky when you get to design an application you're familiar with, such as a supermarket app or a travel website – something we might have already used or even use every day. Most of the time, we are tasked with designing an application or technology that's unfamiliar or highly technical. Sometimes, we may not know what the application we're designing is used for, like creating an interface for an MRI machine controlled by a doctor, or a dashboard used by a professional musician – knowing what all the buttons do is already an achievement.
 One of the trickiest questions for designers is understanding exactly how much you need to know how to use an application to design the best system for the user. This conundrum is typical for designers that work in a highly technical,…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Great Phabricator features that inspired GitLab]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/13/five-great-phabricator-features-inspired-gitlab/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/13/five-great-phabricator-features-inspired-gitlab/"/>
-        <updated>2021-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Innovation often happens because competition sparks new ideas. We unpack how Phabricator inspired GitLab to add new features.
-Turning back time a bit, what exactly is Phabricator? Built on the concept of web-based applications, Phabricator enables developers to collaborate with code reviews, repository browser, change monitoring, bug tracking and wiki. On May 29, 2021, Phacility, the maintainer and sponsor of Phabricator announced end-of-life and stopped maintaining Phabricator.
-GitLab co-founder and CEO, Sid Sijbrandij gives credit to Phabricator on HackerNews:
-Phabricator was an inspiration to me when starting GitLab. It is shutting down now. Many of its features were years ahead of its time and there was a lot of humor in the product. As a tribute to it shall we add Clowcoptarize as a w…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
