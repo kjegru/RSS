@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-06T00:38:28.536Z</id>
+    <id>urn:2021-09-07T00:32:56.994Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-06T00:38:28.536Z</updated>
+    <updated>2021-09-07T00:32:56.994Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Adds New Syscall To More Quickly Free Memory Of Dying Processes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-process-mrelease</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-process-mrelease"/>
+        <updated>2021-09-06T23:23:33.000Z</updated>
+        <summary type="html"><![CDATA[To help out memory pressure / out-of-memory killing solutions like systemd-oomd or Android's LMKD, Linux 5.15 is introducing the "process_mrelease" system call to more quickly free the memory of dying processes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Further Tunes Its RISC-V Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-RISC-V</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-RISC-V"/>
+        <updated>2021-09-06T19:13:40.000Z</updated>
+        <summary type="html"><![CDATA[The RISC-V architecture updates have landed in the Linux 5.15 kernel with more software features now being supported...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notcurses 2.4 Released - Now Works On Windows & macOS For Terminal "Bling"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Notcurses-2.4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Notcurses-2.4"/>
+        <updated>2021-09-06T17:39:01.000Z</updated>
+        <summary type="html"><![CDATA[Notcurses as an open-source library designed for complex and "blingful" text user interfaces and character graphics, now works not only on Linux but also Windows and macOS. Notcurses makes it easy for CLI-based programs to support a wide range of colors, multimedia, Unicode, and other features not normally associated with command-line applications...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Compute-Runtime Prepares oneAPI Level Zero 1.2 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-Level-Zero-1.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-Level-Zero-1.2"/>
+        <updated>2021-09-06T16:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Intel Compute Runtime  21.35.20826  is available today with initial support for oneAPI Level Zero v1.2...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenRISC Gets Working Ethernet With LiteX FPGA SoC Setups]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-Litex-Ethernet</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-Litex-Ethernet"/>
+        <updated>2021-09-06T15:40:16.000Z</updated>
+        <summary type="html"><![CDATA[While RISC-V garners most of the interest these days when it comes to open-source processor ISAs, OpenRISC continues pushing forward with its Linux kernel support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS Platform Profile Support, Alder Lake PMC Support + More Land For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-Drivers</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-Drivers"/>
+        <updated>2021-09-06T09:51:33.000Z</updated>
+        <summary type="html"><![CDATA[The platform-drivers-x86 area of the kernel continues to be quite active with particularly offering better support for modern Intel/AMD laptops. With Linux 5.15 there is another big batch of improvements that landed at the end of last week...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15 Enabling "-Werror" By Default For All Kernel Builds]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror</id>
@@ -278,46 +338,6 @@ The fact that code review is a pain point is hardly surprising, given that it ca
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Qt 6.2 LTS Will Nearly Be At Feature Parity To Qt 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-LTS-Feature-Parity-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-LTS-Feature-Parity-5.15"/>
-        <updated>2021-09-02T10:02:02.000Z</updated>
-        <summary type="html"><![CDATA[When the Qt 6.0 tool-kit debuted last year much of the early criticism stemmed around it not having all the modules/functionality ported over from Qt5 meanwhile The Qt Company was restricting newer Qt 5.15 LTS point releases to paying customers only. Since then the developers have been working to address the voids in Qt6 and with the upcoming Qt 6.2 as their next long-term support release, all of the important functionality should be in place...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Van Gogh Audio Driver Lands For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Sound</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Sound"/>
-        <updated>2021-09-02T09:29:36.000Z</updated>
-        <summary type="html"><![CDATA[The sound/audio drivers have landed for the ongoing Linux 5.15 kernel driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam On Linux Continues Hovering Around The 1% Mark]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-August-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Linux-August-2021"/>
-        <updated>2021-09-02T09:05:54.000Z</updated>
-        <summary type="html"><![CDATA[In July -- the same month as Valve announcing the Steam Deck -- the Steam on Linux marketshare hit 1.0%. That 1.0% marketshare was a +0.14% bump and the highest seen in years since Steam on Linux's debut nearly a decade ago back when it commanded around a 2% marketshare...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Genode OS Framework 21.08 Streamlining Its Porting Of Linux Driver Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Genode-OS-21.08</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Genode-OS-21.08"/>
-        <updated>2021-09-02T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We've been covering Genode OS for more than a decade now as this original open-source operating system "framework" and through this time they have managed to keep up with their routine feature releases. Out this week is Genode OS Framework 21.08 as they seek to make it easier porting device driver code to their platform...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The journey to a DevOps Platform]]></title>
         <id>https://about.gitlab.com/blog/2021/09/02/the-journey-to-a-devops-platform/</id>
         <link href="https://about.gitlab.com/blog/2021/09/02/the-journey-to-a-devops-platform/"/>
@@ -401,26 +421,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Addressing Scalability Issue That Caused Huge IBM Servers 30+ Minutes To Boot]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Kernfs-Scalability</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Kernfs-Scalability"/>
-        <updated>2021-09-01T20:00:50.000Z</updated>
-        <summary type="html"><![CDATA[Very large IBM mainframes/servers were taking 30+ minutes to boot the Linux kernel... No, just not for POST'ing the system with memory training and the like, but for loading Linux. Fortunately, with the Linux 5.15 kernel there is a set of scalability enhancements to allow these large IBM systems to be able to boot in around five minutes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Staging Replaces Its Realtek RTL8188EU WiFi Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Staging</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Staging"/>
-        <updated>2021-09-01T18:27:39.000Z</updated>
-        <summary type="html"><![CDATA[The staging updates for Linux 5.15 continue to have a lot of code churn including some drivers being promoted while one Realtek WiFi driver has been replaced...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
