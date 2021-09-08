@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-07T00:32:56.994Z</id>
+    <id>urn:2021-09-08T00:33:16.443Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-07T00:32:56.994Z</updated>
+    <updated>2021-09-08T00:33:16.443Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[GhostBSD 21.09.06 Released For This FreeBSD-Based Desktop OS]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GhostBSD-21.09.06-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GhostBSD-21.09.06-Released"/>
+        <updated>2021-09-07T22:07:33.000Z</updated>
+        <summary type="html"><![CDATA[GhostBSD 21.09.06 is now available as the latest release of this desktop-minded, FreeBSD-based operating system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 KVM Defaults To The New x86 TDP MMU, Enables AMD SVM 5-Level Paging]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-KVM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-KVM"/>
+        <updated>2021-09-07T18:43:51.000Z</updated>
+        <summary type="html"><![CDATA[The Linux 5.15 Kernel-based Virtual Machine (KVM) changes this cycle are quite exciting on the x86 (x86_64) front with several prominent additions...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Khronos Group Is Hosting A Virtual Vulkan Event Next Month]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-2021-Next-Month</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-2021-Next-Month"/>
+        <updated>2021-09-07T17:23:04.000Z</updated>
+        <summary type="html"><![CDATA[While The Khronos Group previously hosted in-person Vulkan events, due to the ongoing COVID-19 pandemic their "Vulkanised 2021" event next month has morphed into a free virtual event...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Ryzen 5 5600G / Ryzen 7 5700G Linux Gaming Benchmarks]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30505</id>
+        <link href="https://www.phoronix.com/vr.php?view=30505"/>
+        <updated>2021-09-07T13:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently with my Linux benchmarks of the Ryzen 5 5600G and Ryzen 7 5700G Zen 3 APUs with Radeon Vega graphics I touched on the GPU graphics/compute performance in some of the basic benchmarks while in this article are a number of Steam Play and native Linux gaming benchmarks for looking at the potential for these latest-generation desktop APUs for Linux gaming.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSSL 3.0 Officially Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSL-3.0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSL-3.0-Released"/>
+        <updated>2021-09-07T13:08:50.000Z</updated>
+        <summary type="html"><![CDATA[After many development snapshots and three years worth of work, OpenSSL 3.0 is now available as a major update to this widely-used SSL library...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X.Org DMX Dropped After More Than A Decade Of Crashes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-DMX-Dropped</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-DMX-Dropped"/>
+        <updated>2021-09-07T11:53:56.000Z</updated>
+        <summary type="html"><![CDATA[The X.Org Distributed Multihead X (DMX) DDX driver has been dropped from the X.Org Server source tree due to its rather broken state for more than one decade...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FUSE With Linux 5.15 Now Allows Mounting An Active FUSE Device]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-FUSE</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-FUSE"/>
+        <updated>2021-09-07T11:44:41.000Z</updated>
+        <summary type="html"><![CDATA[While Linus Torvalds isn't much of a fan of FUSE / user-space file-systems, the FUSE code within the kernel does continue making improvements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.191 Released With New Extension To Make Wiser Memory Decisions]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.191-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.191-Released"/>
+        <updated>2021-09-07T09:56:47.000Z</updated>
+        <summary type="html"><![CDATA[Vulkan 1.2.191 is out this morning as the latest update to this graphics/compute API. As usual is a variety of bug fixes / clarifications to the specification while this time around is also one new extension...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finer Grained KASLR Patches Revived For The Linux Kernel To Enhance Security]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FGKASLR-v6-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FGKASLR-v6-Linux"/>
+        <updated>2021-09-07T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For more than a year there has been work on FGKASLR for finer grained kernel address space layout randomization. While KASLR is widely-used these days, with enough guessing or unintentional kernel leakage, the base address of the kernel can be figured out. Finer grained KASLR allows for randomization at the per-functional level to dramatically boost defenses. The latest take on FG-KASLR has now been published...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why are developers so vulnerable to drive-by attacks?]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/07/why-are-developers-vulnerable-to-driveby-attacks/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/07/why-are-developers-vulnerable-to-driveby-attacks/"/>
+        <updated>2021-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As someone who spends a lot of time working with computers, I know how easy it is to grow over-confident with regards to security. My systems are patched, my firewall rules are tight, and I’m vigilant when it comes to just about anything that looks out of the ordinary.
+No one’s hacking their way into my workstation, that’s for sure.
+But my experience working as a hacker myself has shown me that the opposite is often true. Those of us who are more technical are often much more vulnerable to an attack due to the complexity of our working environments.
+In this blog, we’re going to dive into the anatomy of something called a “drive-by attack,” where malicious code hidden within a website uses your own browser to attack your computer.
+As an example, I’ll show you how our own Red Team was able t…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15 Adds New Syscall To More Quickly Free Memory Of Dying Processes]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-process-mrelease</id>
@@ -236,56 +340,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.15 Working Towards Comprehensive Compile-Time & Run-Time Detection Of Buffer Overflows]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Overflows</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Overflows"/>
-        <updated>2021-09-03T11:17:05.000Z</updated>
-        <summary type="html"><![CDATA[The latest security effort being pursued by Google's Kees Cook is to provide full compile-time and run-time coverage of all detectable buffer overflows...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haiku Upstreams Its GNU Binutils Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-Haiku-Upstream</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-Haiku-Upstream"/>
-        <updated>2021-09-03T10:40:29.000Z</updated>
-        <summary type="html"><![CDATA[The BeOS-inspired Haiku open-source operating system project has upstreamed its GNU Binutils support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFS Client Changes For Linux 5.15 Bring Connection Sharing, Better Responsiveness]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NFS-Client-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NFS-Client-Linux-5.15"/>
-        <updated>2021-09-03T09:19:28.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.15 has added KSMBD as an SMB3 in-kernel file server, the NFS code within the Linux kernel continues advancing as well for network file sharing needs. With NFS in Linux 5.15 are a few notable improvements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat Looking To Bolster EPEL]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-More-EPEL</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-More-EPEL"/>
-        <updated>2021-09-03T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat is said to be establishing a "small team" to work on activities around EPEL, the "Extra Packages for Enterprise Linux" that is popular with RHEL/CentOS users for easily fetching extra packages not available via RHEL proper...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 12 Looking At Enabling Its Vectorizer For "-O2" Optimization Level]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-O2-Vectorization-Talk</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-O2-Vectorization-Talk"/>
-        <updated>2021-09-03T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The GCC compiler when using the default "-O2" optimization level is likely to be slightly faster with next year's GCC 12 release as the developers are looking at enabling the vectorizer options by default...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The code review struggle is real. Here's what you need to know]]></title>
         <id>https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/</id>
         <link href="https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/"/>
@@ -295,46 +349,6 @@ In our 2021 Global DevSecOps Survey, respondents told us code quality was the nu
 The fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it's never been more urgent to release secure code as quickly…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Ryzen 5 5600G Linux Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30499</id>
-        <link href="https://www.phoronix.com/vr.php?view=30499"/>
-        <updated>2021-09-02T19:00:45.000Z</updated>
-        <summary type="html"><![CDATA[Last month were our benchmarks of the AMD Ryzen 7 5700G on Linux for that new desktop APU with Zen 3 cores and Vega graphics available through retail channels. Due to reader interest and with the Ryzen 5 5600G still readily available via Internet retailers, here is a look at the AMD Ryzen 5 5600G Linux performance in a variety of benchmarks.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EXT4 Ready With Some New Optimizations - Orphan_File, Moving Discard's Work]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-EXT4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-EXT4"/>
-        <updated>2021-09-02T17:44:26.000Z</updated>
-        <summary type="html"><![CDATA[It's busy on the Linux file-system front for the 5.15 cycle with Btrfs adding a degenerate RAID option along with performance improvements to big improvements for XFS and now comes the EXT4 updates...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Jetson TX2 NX + Other ARM Platforms Now Supported By Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-ARM-SoCs-Platforms</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-ARM-SoCs-Platforms"/>
-        <updated>2021-09-02T13:10:15.000Z</updated>
-        <summary type="html"><![CDATA[The Arm SoC and platform updates have been merged for the in-development Linux 5.15 kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Big Batch Of New AMD RDNA2 PCI IDs Is Heading To Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=More-RDNA2-IDs-For-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=More-RDNA2-IDs-For-Linux-5.15"/>
-        <updated>2021-09-02T11:50:13.000Z</updated>
-        <summary type="html"><![CDATA[Last week I wrote about AMD adding 17 more RDNA2 PCI IDs to their Linux driver which is rather unusual given the amount and the number of PCI IDs already found in the AMDGPU kernel driver for these latest-generation GPUs and the Radeon RX 6000 series already being mid-life. As noted in that article and seemingly in agreement with the various other industry articles following that Phoronix news, it seems to be for some sort of RDNA2 refresh likely. Now those new PCI IDs are being queued up for introduction in the current Linux 5.15 cycle...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -703,17 +717,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I use analogy to design for highly technical spaces]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/13/understand-highly-technical-spaces/"/>
-        <updated>2021-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As a designer, you're lucky when you get to design an application you're familiar with, such as a supermarket app or a travel website – something we might have already used or even use every day. Most of the time, we are tasked with designing an application or technology that's unfamiliar or highly technical. Sometimes, we may not know what the application we're designing is used for, like creating an interface for an MRI machine controlled by a doctor, or a dashboard used by a professional musician – knowing what all the buttons do is already an achievement.
-One of the trickiest questions for designers is understanding exactly how much you need to know how to use an application to design the best system for the user. This conundrum is typical for designers that work in a highly technical,…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
