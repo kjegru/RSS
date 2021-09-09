@@ -1,10 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-08T00:33:16.443Z</id>
+    <id>urn:2021-09-09T00:36:38.452Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-08T00:33:16.443Z</updated>
+    <updated>2021-09-09T00:36:38.452Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[GNOME 41 Release Candidate Arrives With Many Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-RC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-RC"/>
+        <updated>2021-09-08T23:05:04.000Z</updated>
+        <summary type="html"><![CDATA[Ahead of the official GNOME 41 release later this month, the release candidate is now available to facilitate more testing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon's DAMON Merged Into Linux 5.15 For Data Access Monitoring Framework]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Merged-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Merged-Linux-5.15"/>
+        <updated>2021-09-08T20:22:39.000Z</updated>
+        <summary type="html"><![CDATA[The DAMON kernel functionality developed by Amazon engineers has successfully landed in the Linux 5.15 tree...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Delivering Some Performance Gains On The Intel Core i9 11900K]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Rocket-Lake</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Rocket-Lake"/>
+        <updated>2021-09-08T19:15:22.000Z</updated>
+        <summary type="html"><![CDATA[For those wondering how the upcoming Ubuntu 21.10 release is looking for Intel "Rocket Lake" owners, here are some Ubuntu 21.04 versus 21.10 development benchmarks across dozens of different tests...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Has An Important Suspend/Resume Fix With Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-S2idle-Fix-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-S2idle-Fix-Linux-5.15"/>
+        <updated>2021-09-08T18:47:10.000Z</updated>
+        <summary type="html"><![CDATA[Since last year AMD has been working to get its s2idle / suspend-to-idle S0ix sleep state code in order for supporting this lowest power platform idle state on newer AMD laptops and there has also been other AMD suspend/resume improvements in recent times. Now with the Linux 5.15 kernel cycle is an important fix for the AMD s2idle code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Not All Of The IBM POWER10 Firmware Is Currently Open-Source]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-POWER10-Not-All-Open-FW</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-POWER10-Not-All-Open-FW"/>
+        <updated>2021-09-08T12:00:43.000Z</updated>
+        <summary type="html"><![CDATA[Power E1080 server as their first in a new family of servers based on the IBM POWER10 processor. Sadly though not all of the POWER10 firmware is open-source...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OverlayFS On Linux 5.15 Improves Performance, Copies Up More Attributes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-OverlayFS</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-OverlayFS"/>
+        <updated>2021-09-08T11:02:28.000Z</updated>
+        <summary type="html"><![CDATA[OverlayFS continues to be used by Linux IoT/embedded devices and other use-cases as a union mount file-system. With Linux 5.15 the OverlayFS file-system continues to improve...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Opens Up CacheLib As Their New Caching Engine]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Open-Source-CacheLib</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Open-Source-CacheLib"/>
+        <updated>2021-09-08T10:22:22.000Z</updated>
+        <summary type="html"><![CDATA[Facebook last week formally announced CacheLib as their new open-source caching engine designed for web scale services and to make for effective non-volatile memory caching to offset the increasing costs of DRAM...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Working On DP 2.0 Panel Replay Power Savings For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DP-2.0-Panel-Replay</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DP-2.0-Panel-Replay"/>
+        <updated>2021-09-08T09:57:16.000Z</updated>
+        <summary type="html"><![CDATA[Last month Intel's open-source Linux graphics driver engineers began posting patches working on DisplayPort 2.0 support for their driver with DG2/Alchemist now set to be Intel's first GPU supporting the newest DP standard. DP 2.0 enablement work continues with Panel Replay being the latest feature being worked on for their Linux driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Hit By Some Early Performance Regressions But Quickly Reverted]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Memcg-Regressions</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Memcg-Regressions"/>
+        <updated>2021-09-08T09:37:14.000Z</updated>
+        <summary type="html"><![CDATA[In addition to Linus Torvalds dealing with the -Werror fallout, separately in kernel land there were also some significant performance regressions introduced during the Linux 5.15 that led to Linus reverting some of the changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15's New "-Werror" Behavior Is Causing A Lot Of Pain]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror-Pain</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror-Pain"/>
+        <updated>2021-09-08T00:48:10.000Z</updated>
+        <summary type="html"><![CDATA[Landing this past weekend was the surprise move by Linus Torvalds to enable "-Werror" behavior by default for all kernel builds. That compiler flag addition makes all warnings be treated as errors, which in turn stops the kernel build. As expected, this change has led to quite a mess...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making the case for a DevOps platform: What data and customers say]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/"/>
+        <updated>2021-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the struggle to release safer software faster, development teams are increasingly choosing a DevOps platform to help them get there. In our 2021 Global DevSecOps Survey we asked respondents what their DevOps practices included and a "DevOps platform" was among the top four choices, right next to CI/CD, test automation, and DevSecOps.
+We're of course bullish on the idea of a DevOps platform, but we're far from alone. Here's a fresh look at how the data – and the customers – support the optimistic trajectory of a DevOps platform.
+DevOps is hot
+The DevOps market was worth $6 billion in 2020, according to Global Industry Analysts, and five-year growth forecasts range from $17 billion to as much as $23 billion, depending on the firm. 
+[Watch a deep dive into GitLab's DevOps Platform]
+This pr…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to write and continuously test vulnerability detection rules for SAST]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/08/write-vulnerability-detection-rules/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/08/write-vulnerability-detection-rules/"/>
+        <updated>2021-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In summer 2021, the Vulnerability Research and Static Analysis
+teams launched the Google Summer of Code (GSoC) project: Write vulnerability detection rules for SAST.
+For this project, we built and implemented a framework to helps transition GitLab away from our current SAST tools over to Semgrep. Semgrep is a language-agnostic SAST tool that is gaining popularity in CI/CD environments.
+Before replacing an analyzer with the corresponding Semgrep configuration (called rule-sets), we need to ensure that they are equivalent – in that they yield the same set of findings.
+For this purpose, we built a testing framework that helps us assess the quality of a Semgrep rule-set. This framework has been used to guide the replacement of flawfinder, a C/C++ analyzer with a corresponding Semgrep rule-set.…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GhostBSD 21.09.06 Released For This FreeBSD-Based Desktop OS]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GhostBSD-21.09.06-Released</id>
@@ -230,111 +359,11 @@ As an example, I’ll show you how our own Red Team was able t…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NVIDIA Confirms Sway Wayland Compositor Works Fine With Their New GBM Driver Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-GBM-Works-With-Sway</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-GBM-Works-With-Sway"/>
-        <updated>2021-09-04T16:24:44.000Z</updated>
-        <summary type="html"><![CDATA[Stemming from an ongoing Mesa GBM discussion over introducing new gbm_bo_create_with_modifiers2 / gbm_surface_create_with_modifiers2 functions since the original "gbm_*_create_with_modifiers" functions lack support for passing usage flags, NVIDIA confirmed that the Sway Wayland compositor is working fine with their forthcoming driver supporting GBM...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung 860/870 SSDs Continue Causing Problems For Linux Users]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-860-870-More-Quirks</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Samsung-860-870-More-Quirks"/>
-        <updated>2021-09-04T11:24:06.000Z</updated>
-        <summary type="html"><![CDATA[While Samsung has explicitly stated before that queued TRIM works for Samsung 860 SSDs on Linux and thus leading to only older Samsung 840/850 drives being blocked from queued TRIM usage, that turns out to be inaccurate and now more quirks are added for the Samsung 860 and 870 series SSDs on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple M1 IOMMU Driver Merged For Linux 5.15, Intel Scalable Mode By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-IOMMU-Lands-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-IOMMU-Lands-5.15"/>
-        <updated>2021-09-04T09:45:39.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.13 landed initial Apple Silicon M1 support, it was just the very initial bits. Now for Linux 5.15 we are seeing another step in the bring-up with the community-created Apple M1 IOMMU driver being merged...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE's Plasma Wayland Session Is "Finally Reaching Stability" Following Many Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Wayland-Reach-Stability</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Wayland-Reach-Stability"/>
-        <updated>2021-09-04T09:27:45.000Z</updated>
-        <summary type="html"><![CDATA[KDE developers have kicked off September by landing many fixes for their desktop stack, including around their Plasma Wayland session...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Looks To Drop DMX After Being Rather Broken For ~14 Years]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DMX-DDX-Dropping-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DMX-DDX-Dropping-2021"/>
-        <updated>2021-09-04T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[X.Org's DMX DDX driver for supporting Distributed Multi-Head X looks like it will be removed from the source tree after finding out the code has been rather broken for the past 14 years...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Has A Critical Improvement For Tiered Memory Servers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Demote-During-Reclai</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Demote-During-Reclai"/>
-        <updated>2021-09-03T19:48:55.000Z</updated>
-        <summary type="html"><![CDATA[Landing via Andrew Morton's patch series today in the Linux 5.15 kernel is handling for demoting pages during memory reclaim, which can be used for punting cold pages off to slower, tiered memory devices (like Intel persistent memory) when under system memory pressure...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New NTFS File-System Driver Has Been Submitted For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NTFS3-For-Linux-5.15"/>
-        <updated>2021-09-03T17:25:32.000Z</updated>
-        <summary type="html"><![CDATA[It looks like Paragon Software's NTFS3 kernel driver providing much better Linux support for the Microsoft NTFS file-system will land for the 5.15 kernel!..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gzip 1.11 Released With "Orders of Magnitude Faster" Performance On IBM Z]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Gzip-1.11-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Gzip-1.11-Released"/>
-        <updated>2021-09-03T16:53:01.000Z</updated>
-        <summary type="html"><![CDATA[The last release of Gzip was v1.10 back at the end of 2018 while now it's finally been succeeded today by Gzip 1.11...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Benchmarking The Performance Impact Of Linux 5.15's Newest Protection Around Side Channel Attacks]]></title>
         <id>https://www.phoronix.com/vr.php?view=30504</id>
         <link href="https://www.phoronix.com/vr.php?view=30504"/>
         <updated>2021-09-03T13:05:03.000Z</updated>
         <summary type="html"><![CDATA[With the in-development Linux 5.15 kernel there is a new option for further protecting the kernel around side channel attacks and information leakage. Enabling the option will ensure that any caller-used register contents are zeroed prior to returning from a function. While the reported performance cost is said to be small, I decided to run some benchmarks when toggling this new Kconfig hardening option.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snapcraft 6.0 Coming To Finally Move From Ubuntu 18.04 To 20.04 LTS Base, Phase Out i386]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Snapcraft-6.0-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Snapcraft-6.0-Coming"/>
-        <updated>2021-09-03T12:45:45.000Z</updated>
-        <summary type="html"><![CDATA[Canonical is preparing to soon release Snapcraft 6.0 as the latest version of their utility for packaging and distributing Snaps, the Ubuntu-preferred route for sandboxed apps...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Freedesktop SDK 21.08 Released With RISC-V Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Freedesktop-SDK-21.08</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Freedesktop-SDK-21.08"/>
-        <updated>2021-09-03T11:41:00.000Z</updated>
-        <summary type="html"><![CDATA[The Freedesktop SDK as a platform and SDK run-time for Flatpak apps/run-times is out with its first major stable update in one year...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -674,49 +703,6 @@ This tool was designed, tested and integrated by our GitLab Security Automation 
         <summary type="html"><![CDATA[One of the cybersecurity keywords for 2021 will undoubtedly be "software supply chain attacks". For decades, we've seen a global move toward connected systems and highly complex supply chains. Today these supply chains are under attack, with malicious actors jeopardizing the sensitive data of millions of users through attacks on the public and private sectors.
 After public and federal entities were targeted in some high-profile supply chain attacks, the United States government released an executive order with plans to improve the security posture of the nation when it comes to software supply chains. The UK issued a similar call for views on cybersecurity in supply chains around the same time.
 Supply chain security became a global priority after the SolarWinds attack, reminding businesses…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to provision 100 AWS Graviton GitLab Spot Runners in 10 Minutes for $2/hour]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/17/100-runners-in-less-than-10mins-and-less-than-10-clicks/"/>
-        <updated>2021-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Managing elastically scaled or highly available compute infrastructures is one of the key challenges the cloud was built for. Application scaling concerns can be handled by cloud services that are purpose designed, rigorously tested, and continually improved. This article dives into some specific enablement automation that brings the benefits of AWS Autoscaling Groups (ASG) to runner management. There are benefits to both the largest fleets and single instance runners.
-Embedded in this article is a YouTube video that demonstrates the deployment of 100 GitLab runners on Amazon EC2 Spot compute in less than 10 minutes using less than 10 clicks. The video also shows updating this entire fleet in under 10 minutes to emphasize the time savings of built-in maintenace.
-The information and automat…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.1.3]]></title>
-        <id>https://about.gitlab.com/releases/2021/08/17/gitlab-14-1-3-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/08/17/gitlab-14-1-3-released/"/>
-        <updated>2021-08-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.1.3 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-last month's 14.1 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-AS Fix SAML SSO login redirects not working
-Bump kas to v14.1.1
-Resolve operator does not exist: integer[] || bigint in app/models/namespace/traversal_hierarchy.rb
-Geo 2.0 Regression - Add ability to remove primary
-Add AES256-GCM-SHA384 to allowed list of Nginx SSL ciphers
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
