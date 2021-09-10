@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-09T00:36:38.452Z</id>
+    <id>urn:2021-09-10T00:38:17.639Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-09T00:36:38.452Z</updated>
+    <updated>2021-09-10T00:38:17.640Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[X.Org Server Adds "AsyncFlipSecondaries" To Deal With Crappy Multi-Monitor Experience]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-AsyncFlipSecondaries</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-AsyncFlipSecondaries"/>
+        <updated>2021-09-09T20:00:55.000Z</updated>
+        <summary type="html"><![CDATA[At the moment when running the X.Org Server in a multi-monitor configuration with displays of different refresh rates, it can lead to a poor experience with a variety of visual deficiencies when running an unredirected full-screen window with page-flipping for DRI3/Present. There is now a change that was merged into the X.Org Server with a new "AsyncFlipSecondaries" to improve that experience when running multiple displays of varying refresh rates...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases Its August Update For The CBL-Mariner Linux Distribution]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-August-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-August-2021"/>
+        <updated>2021-09-09T19:21:12.000Z</updated>
+        <summary type="html"><![CDATA[While now into September, Microsoft just published its "August 2021" update to their CBL-Mariner Linux distribution with a variety of changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel's Cloud-Hypervisor 18.0 Brings AArch64 Improvements, VHDX Disk Image Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-18</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-18"/>
+        <updated>2021-09-09T18:37:01.000Z</updated>
+        <summary type="html"><![CDATA[The Intel-led open-source Cloud-Hypervisor project building off Linux's KVM (and also supporting Microsoft MSHV) and being cloud-focused and leveraging the Rust programming language for greater security is out with its newest major release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Adds VDUSE For vDPA Devices In User-Space]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-VDUSE-vDPA</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-VDUSE-vDPA"/>
+        <updated>2021-09-09T18:12:06.000Z</updated>
+        <summary type="html"><![CDATA[Akin to FUSE for file-systems in user-space, VDUSE is set to be merged for Linux 5.15 in adding support for vDPA devices in user-space...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Posts New "AMD-PSTATE" CPUFreq Driver Leveraging CPPC For Better Perf-Per-Watt]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSTATE-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSTATE-2021"/>
+        <updated>2021-09-09T11:48:38.000Z</updated>
+        <summary type="html"><![CDATA[At last! AMD has posted the Linux kernel driver patches for their new "AMD-PSTATE" driver! This driver with modern AMD Zen CPUs (initially limited to Zen 3) to achieve greater performance per Watt / power efficiency on Linux than the conventional ACPI CPUFreq driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMDVLK 2021.Q3.6 Brings New Extensions, Valheim Shader Optimization]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.6</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.6"/>
+        <updated>2021-09-09T10:51:37.000Z</updated>
+        <summary type="html"><![CDATA[AMDVLK 2021.Q3.6 is out as the latest routine open-source code drop for this official AMD Radeon Vulkan Linux driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Branch Sampling Support Being Worked On For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-BRS-Branch-Sampling</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-BRS-Branch-Sampling"/>
+        <updated>2021-09-09T10:00:54.000Z</updated>
+        <summary type="html"><![CDATA[A new kernel patch series was posted this morning working on AMD Branch Sampling "BRS" support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD PTDMA Driver Landing For Linux 5.15 After Two Years In The Works]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-For-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PTDMA-For-Linux-5.15"/>
+        <updated>2021-09-09T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Going back to September 2019 was work on the AMD PTDMA driver for supporting this controller found on modern AMD processors for high bandwidth memory-to-memory and I/O copy operations. With the Linux 5.15 cycle the AMD PTDMA driver is finally being merged to the mainline kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SLUB Adapted To Be Real-Time Linux Compatible (PREEMPT_RT)]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SLUB-Linux-RT-Compatible</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SLUB-Linux-RT-Compatible"/>
+        <updated>2021-09-09T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the nice low-level improvements we've seen with Linux 5.15 is a number of pieces falling into place in the quest of upstreaming the real-time (RT) patches for Linux. The latest merge makes SLUB RT-compatible...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How GitLab's 5 new code review features will make life easier]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/09/5-code-review-features/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/09/5-code-review-features/"/>
+        <updated>2021-09-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the second in a series of blog posts looking at the challenges of code review and the ways a DevOps platform can help. Read the first post.
+Code review can be one of the most deceivingly difficult things in delivering software faster. Given the high stakes involved, we've made some key additions to our DevOps Platform that focus on making the code review process as seamless and effective as possible. We believe the number one way to make code reviews effective is to provide context. Too often we think of code reviews as only "reading" and commenting on others' code - but what a good code reviewer does is understand the entire context of the proposed change. Context-driven code reviews should include factors like the issue that spurred on the change, how the change impacts non-obvio…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME 41 Release Candidate Arrives With Many Improvements]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-41-RC</id>
@@ -264,96 +365,6 @@ As an example, I’ll show you how our own Red Team was able t…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Notcurses-2.4"/>
         <updated>2021-09-06T17:39:01.000Z</updated>
         <summary type="html"><![CDATA[Notcurses as an open-source library designed for complex and "blingful" text user interfaces and character graphics, now works not only on Linux but also Windows and macOS. Notcurses makes it easy for CLI-based programs to support a wide range of colors, multimedia, Unicode, and other features not normally associated with command-line applications...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Compute-Runtime Prepares oneAPI Level Zero 1.2 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-Level-Zero-1.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-Level-Zero-1.2"/>
-        <updated>2021-09-06T16:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Intel Compute Runtime  21.35.20826  is available today with initial support for oneAPI Level Zero v1.2...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenRISC Gets Working Ethernet With LiteX FPGA SoC Setups]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-Litex-Ethernet</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenRISC-Litex-Ethernet"/>
-        <updated>2021-09-06T15:40:16.000Z</updated>
-        <summary type="html"><![CDATA[While RISC-V garners most of the interest these days when it comes to open-source processor ISAs, OpenRISC continues pushing forward with its Linux kernel support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASUS Platform Profile Support, Alder Lake PMC Support + More Land For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-Drivers</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-x86-Drivers"/>
-        <updated>2021-09-06T09:51:33.000Z</updated>
-        <summary type="html"><![CDATA[The platform-drivers-x86 area of the kernel continues to be quite active with particularly offering better support for modern Intel/AMD laptops. With Linux 5.15 there is another big batch of improvements that landed at the end of last week...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Enabling "-Werror" By Default For All Kernel Builds]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror"/>
-        <updated>2021-09-05T19:45:39.000Z</updated>
-        <summary type="html"><![CDATA[A change made by Linus Torvalds and merged today for Linux 5.15 is enabling the "-Werror" compiler flag by default for all kernel builds...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[High Resolution Scrolling On Linux Progressing, Apple Magic Mouse Support In Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=High-Res-Scrolling-Sep-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=High-Res-Scrolling-Sep-2021"/>
-        <updated>2021-09-05T14:14:54.000Z</updated>
-        <summary type="html"><![CDATA[Being worked on for several years now on the Linux desktop has been high resolution scrolling including work for it around X Input, the libinput library used both by X.Org and Wayland systems, and the kernel driver side for the HID/input devices to support it. The latest user-space work is high resolution scroll wheel support within the next libinput release. Separately, with Linux 5.15 is now additionally support for high resolution scrolling with the Apple Magic Mouse...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FUTEX2 Revised Again For Helping Steam Play But Will Miss Out On Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Revised-v2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Revised-v2"/>
-        <updated>2021-09-05T10:02:26.000Z</updated>
-        <summary type="html"><![CDATA[One of the kernel patch series that has seen ongoing work for more than one year now is around introducing the FUTEX2 system call to better match the behavior of Microsoft Windows' NT kernel in order to allow for more efficient Proton/Wine usage that powers Steam Play for enjoying Windows games on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[F2FS Sees More Performance Work For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=F2FS-More-Performance-Linux-515</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=F2FS-More-Performance-Linux-515"/>
-        <updated>2021-09-05T09:41:55.000Z</updated>
-        <summary type="html"><![CDATA[With Linux 5.15 there are optimizations for EXT4, big improvements for XFS, and significant work on Btrfs too. Rounding out the notable file-system work on Linux 5.15, the F2FS updates were submitted and subsequently landed for this next kernel version...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dav1d 0.9.2 Released With More SSSE3, SSE4, AVX2, NEON Optimizations]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=dav1d-0.9.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=dav1d-0.9.2"/>
-        <updated>2021-09-05T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Released at the start of August was dav1d 0.9.1 for this high performance CPU-based AV1 open-source video decoder while now another point release is available with yet more optimizations...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Has A New Maintainer For Its CD-ROM Driver Code]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-CD-ROM-New-Developer</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-CD-ROM-New-Developer"/>
-        <updated>2021-09-04T20:28:31.000Z</updated>
-        <summary type="html"><![CDATA[After more than two decades of maintaining the Linux CD-ROM driver code, Jens Axboe who also serves as the block subsystem maintainer, IO_uring lead developer, and filling other roles, announced he was looking for someone to take over the CD-ROM code...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -691,18 +702,6 @@ The GrammaTech…]]></summary>
         <summary type="html"><![CDATA[Spam and abuse are a very real concern for us at GitLab – and likely every company providing services at scale. That's why our Trust and Safety team works hard every day to detect, mitigate, and lessen the effects of spam. Back in October 2020, the GitLab Security team detailed some of the ways they combat spam and abuse and referenced new approaches we were developing and testing to help us better detect and prevent spam.
 We're excited to introduce Spamcheck, our new anti-spam engine. Spamcheck has been enabled for all projects on GitLab.com, which runs 14.1, and will be included in the 14.2 release for GitLab self-managed coming on August 22.
 This tool was designed, tested and integrated by our GitLab Security Automation team (with amazing partnership from our Trust and Safety team and o…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How DevSecOps can protect businesses from future supply chain attacks]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/"/>
-        <updated>2021-08-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the cybersecurity keywords for 2021 will undoubtedly be "software supply chain attacks". For decades, we've seen a global move toward connected systems and highly complex supply chains. Today these supply chains are under attack, with malicious actors jeopardizing the sensitive data of millions of users through attacks on the public and private sectors.
-After public and federal entities were targeted in some high-profile supply chain attacks, the United States government released an executive order with plans to improve the security posture of the nation when it comes to software supply chains. The UK issued a similar call for views on cybersecurity in supply chains around the same time.
-Supply chain security became a global priority after the SolarWinds attack, reminding businesses…]]></summary>
         <author>
             <name>GitLab</name>
         </author>

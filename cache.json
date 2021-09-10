@@ -12,12 +12,21 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/09/09/5-code-review-features/",
+          "author": null,
+          "description": "This is the second in a series of blog posts looking at the challenges of code review and the ways a DevOps platform can help. Read the first post.\nCode review can be one of the most deceivingly difficult things in delivering software faster. Given the high stakes involved, we've made some key additions to our DevOps Platform that focus on making the code review process as seamless and effective as possible. We believe the number one way to make code reviews effective is to provide context. Too often we think of code reviews as only \"reading\" and commenting on others' code - but what a good code reviewer does is understand the entire context of the proposed change. Context-driven code reviews should include factors like the issue that spurred on the change, how the change impacts non-obvio…",
+          "link": "https://about.gitlab.com/blog/2021/09/09/5-code-review-features/",
+          "publishedOn": "2021-09-09T00:00:00.000Z",
+          "wordCount": 2658,
+          "title": "How GitLab's 5 new code review features will make life easier"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/",
           "author": null,
           "description": "In the struggle to release safer software faster, development teams are increasingly choosing a DevOps platform to help them get there. In our 2021 Global DevSecOps Survey we asked respondents what their DevOps practices included and a \"DevOps platform\" was among the top four choices, right next to CI/CD, test automation, and DevSecOps.\nWe're of course bullish on the idea of a DevOps platform, but we're far from alone. Here's a fresh look at how the data – and the customers – support the optimistic trajectory of a DevOps platform.\nDevOps is hot\nThe DevOps market was worth $6 billion in 2020, according to Global Industry Analysts, and five-year growth forecasts range from $17 billion to as much as $23 billion, depending on the firm. \n[Watch a deep dive into GitLab's DevOps Platform]\nThis pr…",
           "link": "https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/",
           "publishedOn": "2021-09-08T00:00:00.000Z",
-          "wordCount": 2087,
+          "wordCount": 2089,
           "title": "Making the case for a DevOps platform: What data and customers say"
         },
         {
@@ -35,7 +44,7 @@
           "description": "As someone who spends a lot of time working with computers, I know how easy it is to grow over-confident with regards to security. My systems are patched, my firewall rules are tight, and I’m vigilant when it comes to just about anything that looks out of the ordinary.\nNo one’s hacking their way into my workstation, that’s for sure.\nBut my experience working as a hacker myself has shown me that the opposite is often true. Those of us who are more technical are often much more vulnerable to an attack due to the complexity of our working environments.\nIn this blog, we’re going to dive into the anatomy of something called a “drive-by attack,” where malicious code hidden within a website uses your own browser to attack your computer.\nAs an example, I’ll show you how our own Red Team was able t…",
           "link": "https://about.gitlab.com/blog/2021/09/07/why-are-developers-vulnerable-to-driveby-attacks/",
           "publishedOn": "2021-09-07T00:00:00.000Z",
-          "wordCount": 5966,
+          "wordCount": 6002,
           "title": "Why are developers so vulnerable to drive-by attacks?"
         },
         {
@@ -44,7 +53,7 @@
           "description": "When making a list of the reasons to consider moving to a DevOps Platform, don't forget about code review, a critical piece of the process that's also an incredible source of frustration and delays to developers and their teams.\nIn our 2021 Global DevSecOps Survey, respondents told us code quality was the number one reason they chose DevOps. But, when asked what was most likely to delay a product release, code review – vital to code quality – was one of the top four culprits (the others were testing, planning and code development). \nThe fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it's never been more urgent to release secure code as quickly…",
           "link": "https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/",
           "publishedOn": "2021-09-03T00:00:00.000Z",
-          "wordCount": 2265,
+          "wordCount": 2269,
           "title": "The code review struggle is real. Here's what you need to know"
         },
         {
@@ -53,7 +62,7 @@
           "description": "In a recent blog post about the importance of a DevOps Platform, GitLab CEO Sid Sijbrandij outlined four phases through which organizations frequently travel as their practice matures. It’s a painful journey we see again and again when we meet new customers. It spans every industry and every company size, and it’s the most mature DevOps teams with the most at stake who’ve felt the most pain. \nHistorically, if you wanted DevOps to work, you had to be prepared to pay for it. Just managing the backbone of DevOps – the toolchain -– has been a grind. Your “Jenkins Team,” your “GitHub Team,” or even, as one of our customers described, your “Duct Tape Team” (designed to hold it all together and patch holes), added no end value beyond keeping everything from falling apart. That’s a lot of investme…",
           "link": "https://about.gitlab.com/blog/2021/09/02/the-journey-to-a-devops-platform/",
           "publishedOn": "2021-09-02T00:00:00.000Z",
-          "wordCount": 2094,
+          "wordCount": 2098,
           "title": "The journey to a DevOps Platform"
         },
         {
@@ -152,7 +161,7 @@
           "description": "World-class CI/CD comes as a part of the GitLab DevOps Platform to help streamline how development teams build, test, and deploy their apps. GitLab Runner is the execution engine that \"does the work,\" enabling you, as a developer, to run fast, scalable CI/CD pipelines on your on-premises infrastructure or the cloud. Historically, Apple developers on GitLab SaaS had to set up runners on their own macOS systems to execute CI/CD workflows, introducing additional cost and operational overhead. As organizations and teams develop more apps for the Apple ecosystem, the need to create and deploy quickly becomes more important.\nIntroducing GitLab Build Cloud for macOS Beta\nToday, you can say goodbye to that Mac mini under your desk! We are pleased to announce the GitLab Build Cloud for macOS Beta, …",
           "link": "https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/",
           "publishedOn": "2021-08-23T00:00:00.000Z",
-          "wordCount": 2008,
+          "wordCount": 2009,
           "title": "Introducing GitLab Build Cloud for macOS Beta"
         },
         {
@@ -179,7 +188,7 @@
           "description": "Software development teams that embrace agile and DevSecOps are able to code with a security-first mindset, which is essential for industries that build particularly complicated products where security is paramount, like: Aerospace and defense, automotive, industrial controls, medical devices, and more.\nStatic application security testing (SAST) solutions, like CodeSonar® from GrammaTech, integrate directly into CI/CD pipelines to bake security into every step of the software development life cycle (SDLC) – protecting your products every step of the way. Security solutions like GrammaTech pair well with an all-in-one DevOps Platform like GitLab, and allow development teams to follow best practices and industry standards to develop code that is better quality and more secure.\nThe GrammaTech…",
           "link": "https://about.gitlab.com/blog/2021/08/20/how-grammatech-and-gitlab-enables-better-devsecops/",
           "publishedOn": "2021-08-20T00:00:00.000Z",
-          "wordCount": 2604,
+          "wordCount": 2605,
           "title": "How a new integration helps GitLab customers secure their code"
         },
         {
@@ -190,15 +199,6 @@
           "publishedOn": "2021-08-19T00:00:00.000Z",
           "wordCount": 3168,
           "title": "Introducing Spamcheck: A data-driven, anti-abuse engine"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/",
-          "author": null,
-          "description": "One of the cybersecurity keywords for 2021 will undoubtedly be \"software supply chain attacks\". For decades, we've seen a global move toward connected systems and highly complex supply chains. Today these supply chains are under attack, with malicious actors jeopardizing the sensitive data of millions of users through attacks on the public and private sectors.\nAfter public and federal entities were targeted in some high-profile supply chain attacks, the United States government released an executive order with plans to improve the security posture of the nation when it comes to software supply chains. The UK issued a similar call for views on cybersecurity in supply chains around the same time.\nSupply chain security became a global priority after the SolarWinds attack, reminding businesses…",
-          "link": "https://about.gitlab.com/blog/2021/08/18/what-the-solarwinds-attack-can-teach-us-about-devsecops/",
-          "publishedOn": "2021-08-18T00:00:00.000Z",
-          "wordCount": 2918,
-          "title": "How DevSecOps can protect businesses from future supply chain attacks"
         }
       ]
     },
@@ -208,12 +208,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-AsyncFlipSecondaries",
+          "author": null,
+          "description": "At the moment when running the X.Org Server in a multi-monitor configuration with displays of different refresh rates, it can lead to a poor experience with a variety of visual deficiencies when running an unredirected full-screen window with page-flipping for DRI3/Present. There is now a change that was merged into the X.Org Server with a new \"AsyncFlipSecondaries\" to improve that experience when running multiple displays of varying refresh rates...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-AsyncFlipSecondaries",
+          "publishedOn": "2021-09-09T20:00:55.000Z",
+          "wordCount": 1003,
+          "title": "X.Org Server Adds \"AsyncFlipSecondaries\" To Deal With Crappy Multi-Monitor Experience"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CBL-Mariner-August-2021",
+          "author": null,
+          "description": "While now into September, Microsoft just published its \"August 2021\" update to their CBL-Mariner Linux distribution with a variety of changes...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CBL-Mariner-August-2021",
+          "publishedOn": "2021-09-09T19:21:12.000Z",
+          "wordCount": 850,
+          "title": "Microsoft Releases Its August Update For The CBL-Mariner Linux Distribution"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Cloud-Hypervisor-18",
+          "author": null,
+          "description": "The Intel-led open-source Cloud-Hypervisor project building off Linux's KVM (and also supporting Microsoft MSHV) and being cloud-focused and leveraging the Rust programming language for greater security is out with its newest major release...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cloud-Hypervisor-18",
+          "publishedOn": "2021-09-09T18:37:01.000Z",
+          "wordCount": 853,
+          "title": "Intel's Cloud-Hypervisor 18.0 Brings AArch64 Improvements, VHDX Disk Image Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-VDUSE-vDPA",
+          "author": null,
+          "description": "Akin to FUSE for file-systems in user-space, VDUSE is set to be merged for Linux 5.15 in adding support for vDPA devices in user-space...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-VDUSE-vDPA",
+          "publishedOn": "2021-09-09T18:12:06.000Z",
+          "wordCount": 885,
+          "title": "Linux 5.15 Adds VDUSE For vDPA Devices In User-Space"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSTATE-2021",
+          "author": null,
+          "description": "At last! AMD has posted the Linux kernel driver patches for their new \"AMD-PSTATE\" driver! This driver with modern AMD Zen CPUs (initially limited to Zen 3) to achieve greater performance per Watt / power efficiency on Linux than the conventional ACPI CPUFreq driver...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSTATE-2021",
+          "publishedOn": "2021-09-09T11:48:38.000Z",
+          "wordCount": 1014,
+          "title": "AMD Posts New \"AMD-PSTATE\" CPUFreq Driver Leveraging CPPC For Better Perf-Per-Watt"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.6",
+          "author": null,
+          "description": "AMDVLK 2021.Q3.6 is out as the latest routine open-source code drop for this official AMD Radeon Vulkan Linux driver...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.6",
+          "publishedOn": "2021-09-09T10:51:37.000Z",
+          "wordCount": 789,
+          "title": "AMDVLK 2021.Q3.6 Brings New Extensions, Valheim Shader Optimization"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-BRS-Branch-Sampling",
+          "author": null,
+          "description": "A new kernel patch series was posted this morning working on AMD Branch Sampling \"BRS\" support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-BRS-Branch-Sampling",
+          "publishedOn": "2021-09-09T10:00:54.000Z",
+          "wordCount": 925,
+          "title": "AMD Branch Sampling Support Being Worked On For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-For-Linux-5.15",
+          "author": null,
+          "description": "Going back to September 2019 was work on the AMD PTDMA driver for supporting this controller found on modern AMD processors for high bandwidth memory-to-memory and I/O copy operations. With the Linux 5.15 cycle the AMD PTDMA driver is finally being merged to the mainline kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-For-Linux-5.15",
+          "publishedOn": "2021-09-09T07:00:00.000Z",
+          "wordCount": 865,
+          "title": "AMD PTDMA Driver Landing For Linux 5.15 After Two Years In The Works"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SLUB-Linux-RT-Compatible",
+          "author": null,
+          "description": "One of the nice low-level improvements we've seen with Linux 5.15 is a number of pieces falling into place in the quest of upstreaming the real-time (RT) patches for Linux. The latest merge makes SLUB RT-compatible...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SLUB-Linux-RT-Compatible",
+          "publishedOn": "2021-09-09T04:00:00.000Z",
+          "wordCount": 824,
+          "title": "SLUB Adapted To Be Real-Time Linux Compatible (PREEMPT_RT)"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-RC",
           "author": null,
           "description": "Ahead of the official GNOME 41 release later this month, the release candidate is now available to facilitate more testing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-RC",
           "publishedOn": "2021-09-08T23:05:04.000Z",
-          "wordCount": 892,
+          "wordCount": 839,
           "title": "GNOME 41 Release Candidate Arrives With Many Improvements"
         },
         {
@@ -222,7 +303,7 @@
           "description": "The DAMON kernel functionality developed by Amazon engineers has successfully landed in the Linux 5.15 tree...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Merged-Linux-5.15",
           "publishedOn": "2021-09-08T20:22:39.000Z",
-          "wordCount": 949,
+          "wordCount": 1006,
           "title": "Amazon's DAMON Merged Into Linux 5.15 For Data Access Monitoring Framework"
         },
         {
@@ -231,7 +312,7 @@
           "description": "For those wondering how the upcoming Ubuntu 21.10 release is looking for Intel \"Rocket Lake\" owners, here are some Ubuntu 21.04 versus 21.10 development benchmarks across dozens of different tests...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-Rocket-Lake",
           "publishedOn": "2021-09-08T19:15:22.000Z",
-          "wordCount": 835,
+          "wordCount": 926,
           "title": "Ubuntu 21.10 Delivering Some Performance Gains On The Intel Core i9 11900K"
         },
         {
@@ -240,7 +321,7 @@
           "description": "Since last year AMD has been working to get its s2idle / suspend-to-idle S0ix sleep state code in order for supporting this lowest power platform idle state on newer AMD laptops and there has also been other AMD suspend/resume improvements in recent times. Now with the Linux 5.15 kernel cycle is an important fix for the AMD s2idle code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-S2idle-Fix-Linux-5.15",
           "publishedOn": "2021-09-08T18:47:10.000Z",
-          "wordCount": 884,
+          "wordCount": 893,
           "title": "AMD Has An Important Suspend/Resume Fix With Linux 5.15"
         },
         {
@@ -249,7 +330,7 @@
           "description": "Power E1080 server as their first in a new family of servers based on the IBM POWER10 processor. Sadly though not all of the POWER10 firmware is open-source...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=IBM-POWER10-Not-All-Open-FW",
           "publishedOn": "2021-09-08T12:00:43.000Z",
-          "wordCount": 939,
+          "wordCount": 881,
           "title": "Not All Of The IBM POWER10 Firmware Is Currently Open-Source"
         },
         {
@@ -258,7 +339,7 @@
           "description": "OverlayFS continues to be used by Linux IoT/embedded devices and other use-cases as a union mount file-system. With Linux 5.15 the OverlayFS file-system continues to improve...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-OverlayFS",
           "publishedOn": "2021-09-08T11:02:28.000Z",
-          "wordCount": 794,
+          "wordCount": 727,
           "title": "OverlayFS On Linux 5.15 Improves Performance, Copies Up More Attributes"
         },
         {
@@ -267,7 +348,7 @@
           "description": "Facebook last week formally announced CacheLib as their new open-source caching engine designed for web scale services and to make for effective non-volatile memory caching to offset the increasing costs of DRAM...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Facebook-Open-Source-CacheLib",
           "publishedOn": "2021-09-08T10:22:22.000Z",
-          "wordCount": 823,
+          "wordCount": 841,
           "title": "Facebook Opens Up CacheLib As Their New Caching Engine"
         },
         {
@@ -276,7 +357,7 @@
           "description": "Last month Intel's open-source Linux graphics driver engineers began posting patches working on DisplayPort 2.0 support for their driver with DG2/Alchemist now set to be Intel's first GPU supporting the newest DP standard. DP 2.0 enablement work continues with Panel Replay being the latest feature being worked on for their Linux driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DP-2.0-Panel-Replay",
           "publishedOn": "2021-09-08T09:57:16.000Z",
-          "wordCount": 809,
+          "wordCount": 831,
           "title": "Intel Working On DP 2.0 Panel Replay Power Savings For Linux"
         },
         {
@@ -285,7 +366,7 @@
           "description": "In addition to Linus Torvalds dealing with the -Werror fallout, separately in kernel land there were also some significant performance regressions introduced during the Linux 5.15 that led to Linus reverting some of the changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Memcg-Regressions",
           "publishedOn": "2021-09-08T09:37:14.000Z",
-          "wordCount": 805,
+          "wordCount": 816,
           "title": "Linux 5.15 Hit By Some Early Performance Regressions But Quickly Reverted"
         },
         {
@@ -294,7 +375,7 @@
           "description": "Landing this past weekend was the surprise move by Linus Torvalds to enable \"-Werror\" behavior by default for all kernel builds. That compiler flag addition makes all warnings be treated as errors, which in turn stops the kernel build. As expected, this change has led to quite a mess...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Werror-Pain",
           "publishedOn": "2021-09-08T00:48:10.000Z",
-          "wordCount": 1087,
+          "wordCount": 1098,
           "title": "Linux 5.15's New \"-Werror\" Behavior Is Causing A Lot Of Pain"
         },
         {
@@ -303,7 +384,7 @@
           "description": "GhostBSD 21.09.06 is now available as the latest release of this desktop-minded, FreeBSD-based operating system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GhostBSD-21.09.06-Released",
           "publishedOn": "2021-09-07T22:07:33.000Z",
-          "wordCount": 802,
+          "wordCount": 735,
           "title": "GhostBSD 21.09.06 Released For This FreeBSD-Based Desktop OS"
         },
         {
@@ -312,7 +393,7 @@
           "description": "The Linux 5.15 Kernel-based Virtual Machine (KVM) changes this cycle are quite exciting on the x86 (x86_64) front with several prominent additions...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-KVM",
           "publishedOn": "2021-09-07T18:43:51.000Z",
-          "wordCount": 1004,
+          "wordCount": 952,
           "title": "Linux 5.15 KVM Defaults To The New x86 TDP MMU, Enables AMD SVM 5-Level Paging"
         },
         {
@@ -321,7 +402,7 @@
           "description": "While The Khronos Group previously hosted in-person Vulkan events, due to the ongoing COVID-19 pandemic their \"Vulkanised 2021\" event next month has morphed into a free virtual event...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkanised-2021-Next-Month",
           "publishedOn": "2021-09-07T17:23:04.000Z",
-          "wordCount": 678,
+          "wordCount": 771,
           "title": "The Khronos Group Is Hosting A Virtual Vulkan Event Next Month"
         },
         {
@@ -330,7 +411,7 @@
           "description": "Recently with my Linux benchmarks of the Ryzen 5 5600G and Ryzen 7 5700G Zen 3 APUs with Radeon Vega graphics I touched on the GPU graphics/compute performance in some of the basic benchmarks while in this article are a number of Steam Play and native Linux gaming benchmarks for looking at the potential for these latest-generation desktop APUs for Linux gaming.",
           "link": "https://www.phoronix.com/vr.php?view=30505",
           "publishedOn": "2021-09-07T13:20:00.000Z",
-          "wordCount": 752,
+          "wordCount": 751,
           "title": "AMD Ryzen 5 5600G / Ryzen 7 5700G Linux Gaming Benchmarks"
         },
         {
@@ -339,7 +420,7 @@
           "description": "After many development snapshots and three years worth of work, OpenSSL 3.0 is now available as a major update to this widely-used SSL library...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenSSL-3.0-Released",
           "publishedOn": "2021-09-07T13:08:50.000Z",
-          "wordCount": 792,
+          "wordCount": 805,
           "title": "OpenSSL 3.0 Officially Released"
         },
         {
@@ -348,7 +429,7 @@
           "description": "The X.Org Distributed Multihead X (DMX) DDX driver has been dropped from the X.Org Server source tree due to its rather broken state for more than one decade...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-DMX-Dropped",
           "publishedOn": "2021-09-07T11:53:56.000Z",
-          "wordCount": 780,
+          "wordCount": 839,
           "title": "X.Org DMX Dropped After More Than A Decade Of Crashes"
         },
         {
@@ -357,7 +438,7 @@
           "description": "While Linus Torvalds isn't much of a fan of FUSE / user-space file-systems, the FUSE code within the kernel does continue making improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-FUSE",
           "publishedOn": "2021-09-07T11:44:41.000Z",
-          "wordCount": 745,
+          "wordCount": 756,
           "title": "FUSE With Linux 5.15 Now Allows Mounting An Active FUSE Device"
         },
         {
@@ -366,7 +447,7 @@
           "description": "Vulkan 1.2.191 is out this morning as the latest update to this graphics/compute API. As usual is a variety of bug fixes / clarifications to the specification while this time around is also one new extension...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.191-Released",
           "publishedOn": "2021-09-07T09:56:47.000Z",
-          "wordCount": 765,
+          "wordCount": 778,
           "title": "Vulkan 1.2.191 Released With New Extension To Make Wiser Memory Decisions"
         },
         {
@@ -375,7 +456,7 @@
           "description": "For more than a year there has been work on FGKASLR for finer grained kernel address space layout randomization. While KASLR is widely-used these days, with enough guessing or unintentional kernel leakage, the base address of the kernel can be figured out. Finer grained KASLR allows for randomization at the per-functional level to dramatically boost defenses. The latest take on FG-KASLR has now been published...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FGKASLR-v6-Linux",
           "publishedOn": "2021-09-07T07:00:00.000Z",
-          "wordCount": 792,
+          "wordCount": 805,
           "title": "Finer Grained KASLR Patches Revived For The Linux Kernel To Enhance Security"
         },
         {
@@ -384,7 +465,7 @@
           "description": "To help out memory pressure / out-of-memory killing solutions like systemd-oomd or Android's LMKD, Linux 5.15 is introducing the \"process_mrelease\" system call to more quickly free the memory of dying processes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-process-mrelease",
           "publishedOn": "2021-09-06T23:23:33.000Z",
-          "wordCount": 972,
+          "wordCount": 903,
           "title": "Linux 5.15 Adds New Syscall To More Quickly Free Memory Of Dying Processes"
         },
         {
@@ -393,7 +474,7 @@
           "description": "The RISC-V architecture updates have landed in the Linux 5.15 kernel with more software features now being supported...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-RISC-V",
           "publishedOn": "2021-09-06T19:13:40.000Z",
-          "wordCount": 746,
+          "wordCount": 693,
           "title": "Linux 5.15 Further Tunes Its RISC-V Support"
         },
         {
@@ -402,89 +483,8 @@
           "description": "Notcurses as an open-source library designed for complex and \"blingful\" text user interfaces and character graphics, now works not only on Linux but also Windows and macOS. Notcurses makes it easy for CLI-based programs to support a wide range of colors, multimedia, Unicode, and other features not normally associated with command-line applications...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Notcurses-2.4",
           "publishedOn": "2021-09-06T17:39:01.000Z",
-          "wordCount": 780,
+          "wordCount": 793,
           "title": "Notcurses 2.4 Released - Now Works On Windows & macOS For Terminal \"Bling\""
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-Level-Zero-1.2",
-          "author": null,
-          "description": "Intel Compute Runtime  21.35.20826  is available today with initial support for oneAPI Level Zero v1.2...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-Level-Zero-1.2",
-          "publishedOn": "2021-09-06T16:00:10.000Z",
-          "wordCount": 857,
-          "title": "Intel Compute-Runtime Prepares oneAPI Level Zero 1.2 Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenRISC-Litex-Ethernet",
-          "author": null,
-          "description": "While RISC-V garners most of the interest these days when it comes to open-source processor ISAs, OpenRISC continues pushing forward with its Linux kernel support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenRISC-Litex-Ethernet",
-          "publishedOn": "2021-09-06T15:40:16.000Z",
-          "wordCount": 728,
-          "title": "OpenRISC Gets Working Ethernet With LiteX FPGA SoC Setups"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-x86-Drivers",
-          "author": null,
-          "description": "The platform-drivers-x86 area of the kernel continues to be quite active with particularly offering better support for modern Intel/AMD laptops. With Linux 5.15 there is another big batch of improvements that landed at the end of last week...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-x86-Drivers",
-          "publishedOn": "2021-09-06T09:51:33.000Z",
-          "wordCount": 870,
-          "title": "ASUS Platform Profile Support, Alder Lake PMC Support + More Land For Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Werror",
-          "author": null,
-          "description": "A change made by Linus Torvalds and merged today for Linux 5.15 is enabling the \"-Werror\" compiler flag by default for all kernel builds...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Werror",
-          "publishedOn": "2021-09-05T19:45:39.000Z",
-          "wordCount": 935,
-          "title": "Linux 5.15 Enabling \"-Werror\" By Default For All Kernel Builds"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=High-Res-Scrolling-Sep-2021",
-          "author": null,
-          "description": "Being worked on for several years now on the Linux desktop has been high resolution scrolling including work for it around X Input, the libinput library used both by X.Org and Wayland systems, and the kernel driver side for the HID/input devices to support it. The latest user-space work is high resolution scroll wheel support within the next libinput release. Separately, with Linux 5.15 is now additionally support for high resolution scrolling with the Apple Magic Mouse...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=High-Res-Scrolling-Sep-2021",
-          "publishedOn": "2021-09-05T14:14:54.000Z",
-          "wordCount": 834,
-          "title": "High Resolution Scrolling On Linux Progressing, Apple Magic Mouse Support In Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-Revised-v2",
-          "author": null,
-          "description": "One of the kernel patch series that has seen ongoing work for more than one year now is around introducing the FUTEX2 system call to better match the behavior of Microsoft Windows' NT kernel in order to allow for more efficient Proton/Wine usage that powers Steam Play for enjoying Windows games on Linux...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-Revised-v2",
-          "publishedOn": "2021-09-05T10:02:26.000Z",
-          "wordCount": 981,
-          "title": "FUTEX2 Revised Again For Helping Steam Play But Will Miss Out On Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=F2FS-More-Performance-Linux-515",
-          "author": null,
-          "description": "With Linux 5.15 there are optimizations for EXT4, big improvements for XFS, and significant work on Btrfs too. Rounding out the notable file-system work on Linux 5.15, the F2FS updates were submitted and subsequently landed for this next kernel version...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=F2FS-More-Performance-Linux-515",
-          "publishedOn": "2021-09-05T09:41:55.000Z",
-          "wordCount": 729,
-          "title": "F2FS Sees More Performance Work For Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=dav1d-0.9.2",
-          "author": null,
-          "description": "Released at the start of August was dav1d 0.9.1 for this high performance CPU-based AV1 open-source video decoder while now another point release is available with yet more optimizations...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=dav1d-0.9.2",
-          "publishedOn": "2021-09-05T06:00:00.000Z",
-          "wordCount": 807,
-          "title": "Dav1d 0.9.2 Released With More SSSE3, SSE4, AVX2, NEON Optimizations"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-CD-ROM-New-Developer",
-          "author": null,
-          "description": "After more than two decades of maintaining the Linux CD-ROM driver code, Jens Axboe who also serves as the block subsystem maintainer, IO_uring lead developer, and filling other roles, announced he was looking for someone to take over the CD-ROM code...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-CD-ROM-New-Developer",
-          "publishedOn": "2021-09-04T20:28:31.000Z",
-          "wordCount": 843,
-          "title": "Linux Has A New Maintainer For Its CD-ROM Driver Code"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30504",
@@ -492,7 +492,7 @@
           "description": "With the in-development Linux 5.15 kernel there is a new option for further protecting the kernel around side channel attacks and information leakage. Enabling the option will ensure that any caller-used register contents are zeroed prior to returning from a function. While the reported performance cost is said to be small, I decided to run some benchmarks when toggling this new Kconfig hardening option.",
           "link": "https://www.phoronix.com/vr.php?view=30504",
           "publishedOn": "2021-09-03T13:05:03.000Z",
-          "wordCount": 868,
+          "wordCount": 947,
           "title": "Benchmarking The Performance Impact Of Linux 5.15's Newest Protection Around Side Channel Attacks"
         }
       ]
