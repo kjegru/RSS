@@ -1,10 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-10T00:38:17.639Z</id>
+    <id>urn:2021-09-11T00:34:31.222Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-10T00:38:17.640Z</updated>
+    <updated>2021-09-11T00:34:31.222Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.17 Released With Better HiDPI Support For Built-In Apps]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.17-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.17-Released"/>
+        <updated>2021-09-10T20:30:43.000Z</updated>
+        <summary type="html"><![CDATA[Wine 6.17 is out as the latest bi-weekly development release as we move closer towards the Wine 7.0 release around the start of the new year...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Habana Labs AI Driver Updates Submitted For Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Changes</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Changes"/>
+        <updated>2021-09-10T17:57:29.000Z</updated>
+        <summary type="html"><![CDATA[While last week was the main "char/misc" pull request for the Linux 5.15 merge window, the Habana Labs driver changes were previously reverted from there due to opposition from the upstream kernel developers in the Direct Rendering Manager  space. The concerning patches around DMA-BUF have now been removed and a new pull request submitted with updates to this AI driver for Linux 5.15...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Performance Still Pushing Ahead Of Windows 10, Latest Windows 11 Build]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30514</id>
+        <link href="https://www.phoronix.com/vr.php?view=30514"/>
+        <updated>2021-09-10T11:55:19.000Z</updated>
+        <summary type="html"><![CDATA[With less than one month out from the official release of Microsoft Windows 11, I was curious to run some fresh benchmarks of the latest Windows 11 Insider Preview build against Windows 10 21H1 to see how the performance is looking. Of course, also to see how Windows 11 is shaping up against Ubuntu 21.10 also due for release in October.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Habana Labs Opens Up The Code To Their AI Compiler, SynapseAI Core]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hababa-Labs-Open-Compiler-AI</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hababa-Labs-Open-Compiler-AI"/>
+        <updated>2021-09-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel-owned Habana Labs now has the most open software stack among AI accelerators! While Habana Labs has long provided an open-source, upstream kernel driver for their Gaudi AI training and Goya AI inference accelerators, the user-space portions including their code compiler and run-time library have been closed-source. This has been a thorn for upstream kernel developers and their standards, but now Habana Labs has open-sourced their user-space components too...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Readies More Code For Compile & Run-Time Detection Of Buffer Overflows]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-BO-Detection</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-BO-Detection"/>
+        <updated>2021-09-10T09:29:40.000Z</updated>
+        <summary type="html"><![CDATA[Last week a number of patches were merged in the quest to provide the kernel with comprehensive compile-time and run-time detection of buffer overflows. Another patch series was sent out today while still for this cycle they are expected to enable the compiler warnings around array-bounds and zero-length-bounds...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Just Squeezed More Workstation Performance Out Of Its RadeonSI Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-VBO-DLIST-Opt</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-VBO-DLIST-Opt"/>
+        <updated>2021-09-10T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Vulkan is quickly taking over as the dominant graphics API for Linux gamers especially with the likes of DXVK and VKD3D-Proton mapping Direct3D atop Vulkan, OpenGL remains widely used by workstation software. It's also for workstation software where AMD's "PRO" closed-source OpenGL Linux driver has traditionally competed well (and outperformed) the open-source Mesa driver. But with all the recent changes, that's either a matter of the past or close to not being relevant with the latest Mesa enhancements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Privacy-Screen DRM API With Intel Support Ready Now That GNOME Is Prepared To Use It]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Privacy-Screen-DRM-Ready</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Privacy-Screen-DRM-Ready"/>
+        <updated>2021-09-10T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the past two years we have seen work around bringing up privacy screen support on Linux whereby an increasing number of laptops can reduce the amount of visible light when viewed at wide angles to try to block the screen contents from anyone potentially snooping at the screen. Ready to go now is the DRM/KMS user-space interface and the Intel graphics driver support now that there is a user-space "client" ready...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to deploy the GitLab Kubernetes Agent with limited permissions]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/"/>
+        <updated>2021-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The GitLab Kubernetes Agent (agentk) is an active in-cluster component for solving GitLab and Kubernetes integration tasks in a secure and cloud native way. The agentk communicates to the GitLab Kubernetes Agent Server (kas) to perform GitOps operations.
+In many examples, we see the agent being deployed with global-level permissions on your cluster. There are use cases where we want to reduce the scope of what agentk has access to. In this guide I will provide information on deploying agentk on your cluster, limiting what namespaces it can access, as well as using it to deploy your applications.
+Prefer a video? Watch the walkthrough below to learn how to deploy agentk to your cluster:
+
+
+How it works
+Anytime a developer performs changes to a manifest file managed within GitLab, the agentk w…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The benefits of DevOps practices for IBM Z]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/10/adopt-agile-and-devops-for-ibm-z/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/10/adopt-agile-and-devops-for-ibm-z/"/>
+        <updated>2021-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As more organizations adopt open source software, DevOps and cloud computing, teams are moving towards a hybrid approach to application development and deployments. This is a particular challenge for siloed mainframe development teams that typically work within their own development tools – and those tools are are not the same ones used by their distributed developer counterparts. These disparate toolsets are not integrated between build, package, test, and deploy steps. GitLab aims to provide a unified enterprise-wide DevOps platform with enhanced support for IBM z/OS® applications. Here are three critical areas to focus on that can help bridge the gap between mainframe and "modern" DevOps development.
+Common workflows for hybrid environments
+DevOps is naturally aligned to Agile processes…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[X.Org Server Adds "AsyncFlipSecondaries" To Deal With Crappy Multi-Monitor Experience]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-AsyncFlipSecondaries</id>
@@ -296,36 +394,6 @@ For this purpose, we built a testing framework that helps us assess the quality 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FUSE With Linux 5.15 Now Allows Mounting An Active FUSE Device]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-FUSE</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-FUSE"/>
-        <updated>2021-09-07T11:44:41.000Z</updated>
-        <summary type="html"><![CDATA[While Linus Torvalds isn't much of a fan of FUSE / user-space file-systems, the FUSE code within the kernel does continue making improvements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.191 Released With New Extension To Make Wiser Memory Decisions]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.191-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.191-Released"/>
-        <updated>2021-09-07T09:56:47.000Z</updated>
-        <summary type="html"><![CDATA[Vulkan 1.2.191 is out this morning as the latest update to this graphics/compute API. As usual is a variety of bug fixes / clarifications to the specification while this time around is also one new extension...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finer Grained KASLR Patches Revived For The Linux Kernel To Enhance Security]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FGKASLR-v6-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FGKASLR-v6-Linux"/>
-        <updated>2021-09-07T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For more than a year there has been work on FGKASLR for finer grained kernel address space layout randomization. While KASLR is widely-used these days, with enough guessing or unintentional kernel leakage, the base address of the kernel can be figured out. Finer grained KASLR allows for randomization at the per-functional level to dramatically boost defenses. The latest take on FG-KASLR has now been published...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Why are developers so vulnerable to drive-by attacks?]]></title>
         <id>https://about.gitlab.com/blog/2021/09/07/why-are-developers-vulnerable-to-driveby-attacks/</id>
         <link href="https://about.gitlab.com/blog/2021/09/07/why-are-developers-vulnerable-to-driveby-attacks/"/>
@@ -337,46 +405,6 @@ In this blog, we’re going to dive into the anatomy of something called a “dr
 As an example, I’ll show you how our own Red Team was able t…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Adds New Syscall To More Quickly Free Memory Of Dying Processes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-process-mrelease</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-process-mrelease"/>
-        <updated>2021-09-06T23:23:33.000Z</updated>
-        <summary type="html"><![CDATA[To help out memory pressure / out-of-memory killing solutions like systemd-oomd or Android's LMKD, Linux 5.15 is introducing the "process_mrelease" system call to more quickly free the memory of dying processes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Further Tunes Its RISC-V Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-RISC-V</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-RISC-V"/>
-        <updated>2021-09-06T19:13:40.000Z</updated>
-        <summary type="html"><![CDATA[The RISC-V architecture updates have landed in the Linux 5.15 kernel with more software features now being supported...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notcurses 2.4 Released - Now Works On Windows & macOS For Terminal "Bling"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Notcurses-2.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Notcurses-2.4"/>
-        <updated>2021-09-06T17:39:01.000Z</updated>
-        <summary type="html"><![CDATA[Notcurses as an open-source library designed for complex and "blingful" text user interfaces and character graphics, now works not only on Linux but also Windows and macOS. Notcurses makes it easy for CLI-based programs to support a wide range of colors, multimedia, Unicode, and other features not normally associated with command-line applications...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benchmarking The Performance Impact Of Linux 5.15's Newest Protection Around Side Channel Attacks]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30504</id>
-        <link href="https://www.phoronix.com/vr.php?view=30504"/>
-        <updated>2021-09-03T13:05:03.000Z</updated>
-        <summary type="html"><![CDATA[With the in-development Linux 5.15 kernel there is a new option for further protecting the kernel around side channel attacks and information leakage. Enabling the option will ensure that any caller-used register contents are zeroed prior to returning from a function. While the reported performance cost is said to be small, I decided to run some benchmarks when toggling this new Kconfig hardening option.]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -678,30 +706,6 @@ Cornelius added support
 for opening code changes directly in Gitpod when viewing a merge request. In fact, this
 release blog post was created and edited with Gitpod! Cornelius initially helped add an
 option to open a project in Gitp…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a new integration helps GitLab customers secure their code]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/20/how-grammatech-and-gitlab-enables-better-devsecops/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/20/how-grammatech-and-gitlab-enables-better-devsecops/"/>
-        <updated>2021-08-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Software development teams that embrace agile and DevSecOps are able to code with a security-first mindset, which is essential for industries that build particularly complicated products where security is paramount, like: Aerospace and defense, automotive, industrial controls, medical devices, and more.
-Static application security testing (SAST) solutions, like CodeSonar® from GrammaTech, integrate directly into CI/CD pipelines to bake security into every step of the software development life cycle (SDLC) – protecting your products every step of the way. Security solutions like GrammaTech pair well with an all-in-one DevOps Platform like GitLab, and allow development teams to follow best practices and industry standards to develop code that is better quality and more secure.
-The GrammaTech…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Spamcheck: A data-driven, anti-abuse engine]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/19/introducing-spamcheck-data-driven-anti-abuse/"/>
-        <updated>2021-08-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Spam and abuse are a very real concern for us at GitLab – and likely every company providing services at scale. That's why our Trust and Safety team works hard every day to detect, mitigate, and lessen the effects of spam. Back in October 2020, the GitLab Security team detailed some of the ways they combat spam and abuse and referenced new approaches we were developing and testing to help us better detect and prevent spam.
-We're excited to introduce Spamcheck, our new anti-spam engine. Spamcheck has been enabled for all projects on GitLab.com, which runs 14.1, and will be included in the 14.2 release for GitLab self-managed coming on August 22.
-This tool was designed, tested and integrated by our GitLab Security Automation team (with amazing partnership from our Trust and Safety team and o…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
