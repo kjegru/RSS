@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-11T00:34:31.222Z</id>
+    <id>urn:2021-09-12T00:37:21.529Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-11T00:34:31.222Z</updated>
+    <updated>2021-09-12T00:37:21.529Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Latest Progress On Rust For The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Linux-Kernel-Linaro-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Linux-Kernel-Linaro-2021"/>
+        <updated>2021-09-11T18:30:14.000Z</updated>
+        <summary type="html"><![CDATA[While the Rust programming language support for usage within the kernel isn't landing for the Linux 5.15 merge window ending this weekend, that effort remains ongoing. A status update on the effort was shared this week about Rust usage for the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another Batch Of RadeonSI Optimizations Land In Mesa 21.3]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-More-For-Mesa-21.3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-More-For-Mesa-21.3"/>
+        <updated>2021-09-11T17:15:07.000Z</updated>
+        <summary type="html"><![CDATA[Another batch of minor optimizations were merged to Mesa 21.3 for the RadeonSI Gallium3D driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alder Lake Support Added To Intel's TCC Driver In Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Alder-Lake-TCC-Linux-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Alder-Lake-TCC-Linux-5.15"/>
+        <updated>2021-09-11T13:00:28.000Z</updated>
+        <summary type="html"><![CDATA[While much of Intel's next-gen Alder Lake processor support appears to be in good shape for Linux 5.14, some remaining items are landing for the current Linux 5.15 cycle. The latest Alder Lake support hitting the kernel is for Intel's TCC cooling driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoreCtrl 1.2 Brings Support For More Sensors, Voltage Offsets]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CoreCtl-1.2-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CoreCtl-1.2-Released"/>
+        <updated>2021-09-11T11:45:12.000Z</updated>
+        <summary type="html"><![CDATA[CoreCtrl 1.2 was released this week as the open-source, independently-developed application for exposing more sensor support on Linux and offering various controls aroudnd over/under-clocking and other tuning. At the moment CoreCtrl is primarily focused on making the most use of AMD Radeon GPUs under Linux with some options not otherwise readily available on the platform...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenShot 2.6.1 Released For This Open-Source Video Editor]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6.1"/>
+        <updated>2021-09-11T10:37:52.000Z</updated>
+        <summary type="html"><![CDATA[Released in August was the big OpenShot 2.6 video editor update while this weekend has been succeeded by its first point release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Sees More Plasma Wayland Fixes As Plasma 5.23 Hits Its Soft Feature Freeze]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Soft-Freeze</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Soft-Freeze"/>
+        <updated>2021-09-11T10:13:51.000Z</updated>
+        <summary type="html"><![CDATA[It's been a busy start to September for the KDE project and is now under its soft feature freeze for Plasma 5.23...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wine 6.17 Released With Better HiDPI Support For Built-In Apps]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.17-Released</id>
@@ -295,16 +355,6 @@ Code review can be one of the most deceivingly difficult things in delivering so
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.15's New "-Werror" Behavior Is Causing A Lot Of Pain]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror-Pain</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Werror-Pain"/>
-        <updated>2021-09-08T00:48:10.000Z</updated>
-        <summary type="html"><![CDATA[Landing this past weekend was the surprise move by Linus Torvalds to enable "-Werror" behavior by default for all kernel builds. That compiler flag addition makes all warnings be treated as errors, which in turn stops the kernel build. As expected, this change has led to quite a mess...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Making the case for a DevOps platform: What data and customers say]]></title>
         <id>https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/</id>
         <link href="https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/"/>
@@ -334,61 +384,11 @@ For this purpose, we built a testing framework that helps us assess the quality 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GhostBSD 21.09.06 Released For This FreeBSD-Based Desktop OS]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GhostBSD-21.09.06-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GhostBSD-21.09.06-Released"/>
-        <updated>2021-09-07T22:07:33.000Z</updated>
-        <summary type="html"><![CDATA[GhostBSD 21.09.06 is now available as the latest release of this desktop-minded, FreeBSD-based operating system...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 KVM Defaults To The New x86 TDP MMU, Enables AMD SVM 5-Level Paging]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-KVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-KVM"/>
-        <updated>2021-09-07T18:43:51.000Z</updated>
-        <summary type="html"><![CDATA[The Linux 5.15 Kernel-based Virtual Machine (KVM) changes this cycle are quite exciting on the x86 (x86_64) front with several prominent additions...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Khronos Group Is Hosting A Virtual Vulkan Event Next Month]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-2021-Next-Month</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-2021-Next-Month"/>
-        <updated>2021-09-07T17:23:04.000Z</updated>
-        <summary type="html"><![CDATA[While The Khronos Group previously hosted in-person Vulkan events, due to the ongoing COVID-19 pandemic their "Vulkanised 2021" event next month has morphed into a free virtual event...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AMD Ryzen 5 5600G / Ryzen 7 5700G Linux Gaming Benchmarks]]></title>
         <id>https://www.phoronix.com/vr.php?view=30505</id>
         <link href="https://www.phoronix.com/vr.php?view=30505"/>
         <updated>2021-09-07T13:20:00.000Z</updated>
         <summary type="html"><![CDATA[Recently with my Linux benchmarks of the Ryzen 5 5600G and Ryzen 7 5700G Zen 3 APUs with Radeon Vega graphics I touched on the GPU graphics/compute performance in some of the basic benchmarks while in this article are a number of Steam Play and native Linux gaming benchmarks for looking at the potential for these latest-generation desktop APUs for Linux gaming.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSL 3.0 Officially Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSL-3.0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenSSL-3.0-Released"/>
-        <updated>2021-09-07T13:08:50.000Z</updated>
-        <summary type="html"><![CDATA[After many development snapshots and three years worth of work, OpenSSL 3.0 is now available as a major update to this widely-used SSL library...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org DMX Dropped After More Than A Decade Of Crashes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-DMX-Dropped</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-DMX-Dropped"/>
-        <updated>2021-09-07T11:53:56.000Z</updated>
-        <summary type="html"><![CDATA[The X.Org Distributed Multihead X (DMX) DDX driver has been dropped from the X.Org Server source tree due to its rather broken state for more than one decade...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
