@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-12T00:37:21.529Z</id>
+    <id>urn:2021-09-13T00:37:59.594Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-12T00:37:21.529Z</updated>
+    <updated>2021-09-13T00:37:59.594Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15-rc1 Brings New NTFS Driver, In-Kernel SMB3 Server, AMD Changes, Intel DG2]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc1"/>
+        <updated>2021-09-13T00:22:40.000Z</updated>
+        <summary type="html"><![CDATA[As expected this evening the Linux 5.15-rc1 kernel was released to top off the two week merge window that saw many changes to the kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Is A Very Exciting Kernel For AMD]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-AMD</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-AMD"/>
+        <updated>2021-09-12T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While working on my usual Linux kernel feature overview that summarizes the many articles over the past two weeks outlining all of the new features and changes merged, one area that particularly stands out for Linux 5.15 are all of AMD's upstream contributions that happened to make it in this kernel. There is a lot of new enablement on the AMD side -- both for CPUs and Radeon graphics -- but also improving existing hardware support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Software Foundation Saw $3M In Revenue, ~134M Changed Lines Of Code Last Year]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-FY2021-Report</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-FY2021-Report"/>
+        <updated>2021-09-12T11:11:29.000Z</updated>
+        <summary type="html"><![CDATA[The Apache Software Foundation recently published their FY2021 report for their year-ended 30 April. Even with the ongoing pandemic, the Apache Software Foundation managed to raise more than $3M USD and enjoyed a host of software successes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's Looking Like Folios / Pagesets Might Miss Making It Into Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Folios-Pagesets-MIA-5.15</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Folios-Pagesets-MIA-5.15"/>
+        <updated>2021-09-12T10:20:03.000Z</updated>
+        <summary type="html"><![CDATA[We are now down to the last day of the Linux 5.15 merge window and one of the patch series we have been waiting to see if it would land during this two week period was the "folios" code -- or that also was recently renamed to "pagesets" to address some concerns over the name...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RISC-V Gets Expanded Stack Randomization With Linux 5.15]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-Better-Stack-Rand</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-Better-Stack-Rand"/>
+        <updated>2021-09-12T10:04:52.000Z</updated>
+        <summary type="html"><![CDATA[In addition to the RISC-V changes merged last week for the Linux 5.15 kernel, a second batch of patches was merged this weekend...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Preparing To Slightly Loosen Its Spectre Defaults]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Spectre-V2-V4-Going-Prctl-Def</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Spectre-V2-V4-Going-Prctl-Def"/>
+        <updated>2021-09-12T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A change first proposed last year to the Linux kernel's Spectre mitigation defaults looks like it will soon be sent in for the mainline kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Latest Progress On Rust For The Linux Kernel]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Linux-Kernel-Linaro-2021</id>
@@ -290,66 +350,6 @@ Code review can be one of the most deceivingly difficult things in delivering so
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Rocket-Lake"/>
         <updated>2021-09-08T19:15:22.000Z</updated>
         <summary type="html"><![CDATA[For those wondering how the upcoming Ubuntu 21.10 release is looking for Intel "Rocket Lake" owners, here are some Ubuntu 21.04 versus 21.10 development benchmarks across dozens of different tests...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Has An Important Suspend/Resume Fix With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-S2idle-Fix-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-S2idle-Fix-Linux-5.15"/>
-        <updated>2021-09-08T18:47:10.000Z</updated>
-        <summary type="html"><![CDATA[Since last year AMD has been working to get its s2idle / suspend-to-idle S0ix sleep state code in order for supporting this lowest power platform idle state on newer AMD laptops and there has also been other AMD suspend/resume improvements in recent times. Now with the Linux 5.15 kernel cycle is an important fix for the AMD s2idle code...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Not All Of The IBM POWER10 Firmware Is Currently Open-Source]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-POWER10-Not-All-Open-FW</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-POWER10-Not-All-Open-FW"/>
-        <updated>2021-09-08T12:00:43.000Z</updated>
-        <summary type="html"><![CDATA[Power E1080 server as their first in a new family of servers based on the IBM POWER10 processor. Sadly though not all of the POWER10 firmware is open-source...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OverlayFS On Linux 5.15 Improves Performance, Copies Up More Attributes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-OverlayFS</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-OverlayFS"/>
-        <updated>2021-09-08T11:02:28.000Z</updated>
-        <summary type="html"><![CDATA[OverlayFS continues to be used by Linux IoT/embedded devices and other use-cases as a union mount file-system. With Linux 5.15 the OverlayFS file-system continues to improve...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facebook Opens Up CacheLib As Their New Caching Engine]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Open-Source-CacheLib</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Open-Source-CacheLib"/>
-        <updated>2021-09-08T10:22:22.000Z</updated>
-        <summary type="html"><![CDATA[Facebook last week formally announced CacheLib as their new open-source caching engine designed for web scale services and to make for effective non-volatile memory caching to offset the increasing costs of DRAM...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Working On DP 2.0 Panel Replay Power Savings For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DP-2.0-Panel-Replay</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DP-2.0-Panel-Replay"/>
-        <updated>2021-09-08T09:57:16.000Z</updated>
-        <summary type="html"><![CDATA[Last month Intel's open-source Linux graphics driver engineers began posting patches working on DisplayPort 2.0 support for their driver with DG2/Alchemist now set to be Intel's first GPU supporting the newest DP standard. DP 2.0 enablement work continues with Panel Replay being the latest feature being worked on for their Linux driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Hit By Some Early Performance Regressions But Quickly Reverted]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Memcg-Regressions</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Memcg-Regressions"/>
-        <updated>2021-09-08T09:37:14.000Z</updated>
-        <summary type="html"><![CDATA[In addition to Linus Torvalds dealing with the -Werror fallout, separately in kernel land there were also some significant performance regressions introduced during the Linux 5.15 that led to Linus reverting some of the changes...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
