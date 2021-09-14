@@ -12,6 +12,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/",
+          "author": null,
+          "description": "As a GitLab customer, Weet has fully invested in the premise of \"Iterate faster, innovate together.\" Weet has a low tolerance for processes that don't keep pace with the way they develop and launch. One important process that was slowing the business down – localizing their app.\nLocalization is a key way to drive growth and accelerate product adoption. When done poorly, localization or l10n, as it's commonly known, can slow down your development process, introduce bugs, and make it cumbersome to launch updates. When done right, teams can smooth out the process and continuously localize their app. We unpack how Weet conquered its localization problems using GitLab and Lokalize.\nWhat is Weet?\nWeet is an asynchronous video communication tool designed to reduce the need for meetings. By combin…",
+          "link": "https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/",
+          "publishedOn": "2021-09-13T00:00:00.000Z",
+          "wordCount": 2863,
+          "title": "How Weet integrates localization into the GitLab pipeline with Lokalise"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/",
           "author": null,
           "description": "The GitLab Kubernetes Agent (agentk) is an active in-cluster component for solving GitLab and Kubernetes integration tasks in a secure and cloud native way. The agentk communicates to the GitLab Kubernetes Agent Server (kas) to perform GitOps operations.\nIn many examples, we see the agent being deployed with global-level permissions on your cluster. There are use cases where we want to reduce the scope of what agentk has access to. In this guide I will provide information on deploying agentk on your cluster, limiting what namespaces it can access, as well as using it to deploy your applications.\nPrefer a video? Watch the walkthrough below to learn how to deploy agentk to your cluster:\n\n\nHow it works\nAnytime a developer performs changes to a manifest file managed within GitLab, the agentk w…",
@@ -190,15 +199,6 @@
           "publishedOn": "2021-08-23T00:00:00.000Z",
           "wordCount": 1022,
           "title": "GitLab Patch Release: 14.2.1"
-        },
-        {
-          "id": "https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/",
-          "author": null,
-          "description": "Today, we are excited to announce the release of GitLab 14.2 with  introduction of the Build Cloud for macOS beta, Markdown preview, expanded Gitpod integration, new DevOps adoption metrics, and much more!\nThese are just a few highlights of the 50+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.3 release kickoff video.\nJoin us for an upcoming event\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nCornelius Ludmann\n\nCornelius added support\nfor opening code changes directly in Gitpod when viewing a merge request. In fact, this\nrelease blog post was created and edited with Gitpod! Cornelius initially helped add an\noption to open a project in Gitp…",
-          "link": "https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/",
-          "publishedOn": "2021-08-22T00:00:00.000Z",
-          "wordCount": 7142,
-          "title": "GitLab 14.2 released with the Build Cloud for macOS beta and Markdown preview"
         }
       ]
     },
@@ -208,12 +208,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-RFC-x86-User-Interrupts",
+          "author": null,
+          "description": "In addition to the big Advanced Matrix Extensions support still being in flux and the kernel-side AMX code not yet being merged, another feature of next year's Xeon \"Sapphire Rapids\" that we are only now seeing in early published form for the Linux kernel is handling of x86 user interrupts...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-RFC-x86-User-Interrupts",
+          "publishedOn": "2021-09-13T20:38:01.000Z",
+          "wordCount": 939,
+          "title": "Intel Posts Initial Code For x86 User Interrupts On Linux  - Shows Great Performance Potential"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-v3-Patches",
+          "author": null,
+          "description": "While Linux 5.15 has many new features and improvements, one of the patch series we have been eager to see land is the work introducing the new FUTEX2 system call. FUTEX2 can help improve the performance of newer Windows games running on Linux via Wine / Steam Play's Proton by better matching the Windows kernel behavior, but while it didn't land for Linux 5.15, at least a new version of the patches were posted...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-v3-Patches",
+          "publishedOn": "2021-09-13T18:45:11.000Z",
+          "wordCount": 797,
+          "title": "FUTEX2 System Call Updated To Work On ARM"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Zink-September-Games",
+          "author": null,
+          "description": "After last month landing the Zink sub-allocator code for improved performance and also enabling OpenGL ES 3.2 support for Zink, lead developer Mike Blumenkrantz at Valve has been spending time this month working to get more games running on this OpenGL-over-Vulkan Mesa driver...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zink-September-Games",
+          "publishedOn": "2021-09-13T17:54:34.000Z",
+          "wordCount": 852,
+          "title": "Zink OpenGL-On-Vulkan Tackling Support For More Games"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GDB-11.1-Released",
+          "author": null,
+          "description": "GDB 11.1 is now available as the latest feature update to the GNU Debugger...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GDB-11.1-Released",
+          "publishedOn": "2021-09-13T17:34:49.000Z",
+          "wordCount": 787,
+          "title": "GNU Debugger 11.1 Released With MTE Support, Core File Debugging For 64-bit Cygwin Apps"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30519",
+          "author": null,
+          "description": "Feature development is over on the Linux 5.15 kernel with Linux 5.15-rc1 being issued. It's now on to testing and bug fixing over the next two months before the kernel is christened as stable. Here is our original Linux 5.15 feature overview about all of the big changes in this next kernel version.",
+          "link": "https://www.phoronix.com/vr.php?view=30519",
+          "publishedOn": "2021-09-13T13:16:01.000Z",
+          "wordCount": 1090,
+          "title": "Linux 5.15 Delivers Many Features With New NTFS Driver, In-Kernel SMB3 Server, New Hardware"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-18.04.6-LTS-Coming",
+          "author": null,
+          "description": "While Ubuntu 18.04.5 LTS shipped one year ago as the last planned point release to the \"Bionic Beaver\", an emergency issue is leading to Ubuntu 18.04.6 now being prepared...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-18.04.6-LTS-Coming",
+          "publishedOn": "2021-09-13T12:56:17.000Z",
+          "wordCount": 755,
+          "title": "Ubuntu 18.04.6 LTS Special Being Prepared To Deal With Unbootable Media"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-September",
+          "author": null,
+          "description": "Of all the great stuff for AMD in Linux 5.15, one of the patches still not having yet been mainlined is the control support around Predictive Store Forwarding (PSF) with Zen 3 processors. It's been six months since AMD published their security whitepaper around PSF while the Linux patch has yet to be mainlined while now it seems will be updated for a reduced focus on KVM usage...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-September",
+          "publishedOn": "2021-09-13T12:40:51.000Z",
+          "wordCount": 1229,
+          "title": "Still-Pending AMD PSF Control Patch To Be Retailored For KVM"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Accel-Drivers-2021-Discussion",
+          "author": null,
+          "description": "On and off for years has been talk of an accelerator subsystem for the Linux kernel considering that for now most AI training/inference accelerator drivers end up lodged within the \"char/misc\" area of the kernel. That accelerator subsystem discussion has been restarted with talks of having such a subsystem or moving those drivers within the GPU/DRM subsystem space...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Accel-Drivers-2021-Discussion",
+          "publishedOn": "2021-09-13T09:57:14.000Z",
+          "wordCount": 858,
+          "title": "Linux Developers Talk Again About An Accelerator Subsystem - Or Moving Them Into The GPU/DRM Area"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc1",
           "author": null,
           "description": "As expected this evening the Linux 5.15-rc1 kernel was released to top off the two week merge window that saw many changes to the kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc1",
           "publishedOn": "2021-09-13T00:22:40.000Z",
-          "wordCount": 913,
+          "wordCount": 840,
           "title": "Linux 5.15-rc1 Brings New NTFS Driver, In-Kernel SMB3 Server, AMD Changes, Intel DG2"
         },
         {
@@ -222,7 +294,7 @@
           "description": "While working on my usual Linux kernel feature overview that summarizes the many articles over the past two weeks outlining all of the new features and changes merged, one area that particularly stands out for Linux 5.15 are all of AMD's upstream contributions that happened to make it in this kernel. There is a lot of new enablement on the AMD side -- both for CPUs and Radeon graphics -- but also improving existing hardware support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-AMD",
           "publishedOn": "2021-09-12T18:00:00.000Z",
-          "wordCount": 1388,
+          "wordCount": 1320,
           "title": "Linux 5.15 Is A Very Exciting Kernel For AMD"
         },
         {
@@ -231,7 +303,7 @@
           "description": "The Apache Software Foundation recently published their FY2021 report for their year-ended 30 April. Even with the ongoing pandemic, the Apache Software Foundation managed to raise more than $3M USD and enjoyed a host of software successes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-FY2021-Report",
           "publishedOn": "2021-09-12T11:11:29.000Z",
-          "wordCount": 879,
+          "wordCount": 963,
           "title": "Apache Software Foundation Saw $3M In Revenue, ~134M Changed Lines Of Code Last Year"
         },
         {
@@ -240,7 +312,7 @@
           "description": "We are now down to the last day of the Linux 5.15 merge window and one of the patch series we have been waiting to see if it would land during this two week period was the \"folios\" code -- or that also was recently renamed to \"pagesets\" to address some concerns over the name...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Folios-Pagesets-MIA-5.15",
           "publishedOn": "2021-09-12T10:20:03.000Z",
-          "wordCount": 987,
+          "wordCount": 1005,
           "title": "It's Looking Like Folios / Pagesets Might Miss Making It Into Linux 5.15"
         },
         {
@@ -249,7 +321,7 @@
           "description": "In addition to the RISC-V changes merged last week for the Linux 5.15 kernel, a second batch of patches was merged this weekend...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RISC-V-Better-Stack-Rand",
           "publishedOn": "2021-09-12T10:04:52.000Z",
-          "wordCount": 755,
+          "wordCount": 693,
           "title": "RISC-V Gets Expanded Stack Randomization With Linux 5.15"
         },
         {
@@ -258,7 +330,7 @@
           "description": "A change first proposed last year to the Linux kernel's Spectre mitigation defaults looks like it will soon be sent in for the mainline kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Spectre-V2-V4-Going-Prctl-Def",
           "publishedOn": "2021-09-12T04:00:00.000Z",
-          "wordCount": 982,
+          "wordCount": 1066,
           "title": "Linux Preparing To Slightly Loosen Its Spectre Defaults"
         },
         {
@@ -267,7 +339,7 @@
           "description": "While the Rust programming language support for usage within the kernel isn't landing for the Linux 5.15 merge window ending this weekend, that effort remains ongoing. A status update on the effort was shared this week about Rust usage for the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Linux-Kernel-Linaro-2021",
           "publishedOn": "2021-09-11T18:30:14.000Z",
-          "wordCount": 827,
+          "wordCount": 751,
           "title": "The Latest Progress On Rust For The Linux Kernel"
         },
         {
@@ -276,7 +348,7 @@
           "description": "Another batch of minor optimizations were merged to Mesa 21.3 for the RadeonSI Gallium3D driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-More-For-Mesa-21.3",
           "publishedOn": "2021-09-11T17:15:07.000Z",
-          "wordCount": 872,
+          "wordCount": 810,
           "title": "Another Batch Of RadeonSI Optimizations Land In Mesa 21.3"
         },
         {
@@ -285,7 +357,7 @@
           "description": "While much of Intel's next-gen Alder Lake processor support appears to be in good shape for Linux 5.14, some remaining items are landing for the current Linux 5.15 cycle. The latest Alder Lake support hitting the kernel is for Intel's TCC cooling driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Alder-Lake-TCC-Linux-5.15",
           "publishedOn": "2021-09-11T13:00:28.000Z",
-          "wordCount": 947,
+          "wordCount": 1001,
           "title": "Alder Lake Support Added To Intel's TCC Driver In Linux 5.15"
         },
         {
@@ -294,7 +366,7 @@
           "description": "CoreCtrl 1.2 was released this week as the open-source, independently-developed application for exposing more sensor support on Linux and offering various controls aroudnd over/under-clocking and other tuning. At the moment CoreCtrl is primarily focused on making the most use of AMD Radeon GPUs under Linux with some options not otherwise readily available on the platform...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CoreCtl-1.2-Released",
           "publishedOn": "2021-09-11T11:45:12.000Z",
-          "wordCount": 876,
+          "wordCount": 880,
           "title": "CoreCtrl 1.2 Brings Support For More Sensors, Voltage Offsets"
         },
         {
@@ -303,7 +375,7 @@
           "description": "Released in August was the big OpenShot 2.6 video editor update while this weekend has been succeeded by its first point release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenShot-2.6.1",
           "publishedOn": "2021-09-11T10:37:52.000Z",
-          "wordCount": 796,
+          "wordCount": 809,
           "title": "OpenShot 2.6.1 Released For This Open-Source Video Editor"
         },
         {
@@ -312,7 +384,7 @@
           "description": "It's been a busy start to September for the KDE project and is now under its soft feature freeze for Plasma 5.23...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Soft-Freeze",
           "publishedOn": "2021-09-11T10:13:51.000Z",
-          "wordCount": 802,
+          "wordCount": 886,
           "title": "KDE Sees More Plasma Wayland Fixes As Plasma 5.23 Hits Its Soft Feature Freeze"
         },
         {
@@ -321,7 +393,7 @@
           "description": "Wine 6.17 is out as the latest bi-weekly development release as we move closer towards the Wine 7.0 release around the start of the new year...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.17-Released",
           "publishedOn": "2021-09-10T20:30:43.000Z",
-          "wordCount": 734,
+          "wordCount": 818,
           "title": "Wine 6.17 Released With Better HiDPI Support For Built-In Apps"
         },
         {
@@ -330,7 +402,7 @@
           "description": "While last week was the main \"char/misc\" pull request for the Linux 5.15 merge window, the Habana Labs driver changes were previously reverted from there due to opposition from the upstream kernel developers in the Direct Rendering Manager  space. The concerning patches around DMA-BUF have now been removed and a new pull request submitted with updates to this AI driver for Linux 5.15...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.15-Changes",
           "publishedOn": "2021-09-10T17:57:29.000Z",
-          "wordCount": 944,
+          "wordCount": 953,
           "title": "Habana Labs AI Driver Updates Submitted For Linux 5.15"
         },
         {
@@ -339,7 +411,7 @@
           "description": "With less than one month out from the official release of Microsoft Windows 11, I was curious to run some fresh benchmarks of the latest Windows 11 Insider Preview build against Windows 10 21H1 to see how the performance is looking. Of course, also to see how Windows 11 is shaping up against Ubuntu 21.10 also due for release in October.",
           "link": "https://www.phoronix.com/vr.php?view=30514",
           "publishedOn": "2021-09-10T11:55:19.000Z",
-          "wordCount": 796,
+          "wordCount": 818,
           "title": "Ubuntu 21.10 Performance Still Pushing Ahead Of Windows 10, Latest Windows 11 Build"
         },
         {
@@ -348,7 +420,7 @@
           "description": "Intel-owned Habana Labs now has the most open software stack among AI accelerators! While Habana Labs has long provided an open-source, upstream kernel driver for their Gaudi AI training and Goya AI inference accelerators, the user-space portions including their code compiler and run-time library have been closed-source. This has been a thorn for upstream kernel developers and their standards, but now Habana Labs has open-sourced their user-space components too...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hababa-Labs-Open-Compiler-AI",
           "publishedOn": "2021-09-10T10:00:00.000Z",
-          "wordCount": 943,
+          "wordCount": 985,
           "title": "Habana Labs Opens Up The Code To Their AI Compiler, SynapseAI Core"
         },
         {
@@ -357,7 +429,7 @@
           "description": "Last week a number of patches were merged in the quest to provide the kernel with comprehensive compile-time and run-time detection of buffer overflows. Another patch series was sent out today while still for this cycle they are expected to enable the compiler warnings around array-bounds and zero-length-bounds...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-More-BO-Detection",
           "publishedOn": "2021-09-10T09:29:40.000Z",
-          "wordCount": 795,
+          "wordCount": 870,
           "title": "Linux 5.15 Readies More Code For Compile & Run-Time Detection Of Buffer Overflows"
         },
         {
@@ -366,7 +438,7 @@
           "description": "While Vulkan is quickly taking over as the dominant graphics API for Linux gamers especially with the likes of DXVK and VKD3D-Proton mapping Direct3D atop Vulkan, OpenGL remains widely used by workstation software. It's also for workstation software where AMD's \"PRO\" closed-source OpenGL Linux driver has traditionally competed well (and outperformed) the open-source Mesa driver. But with all the recent changes, that's either a matter of the past or close to not being relevant with the latest Mesa enhancements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-VBO-DLIST-Opt",
           "publishedOn": "2021-09-10T07:00:00.000Z",
-          "wordCount": 994,
+          "wordCount": 998,
           "title": "AMD Just Squeezed More Workstation Performance Out Of Its RadeonSI Driver"
         },
         {
@@ -375,7 +447,7 @@
           "description": "Over the past two years we have seen work around bringing up privacy screen support on Linux whereby an increasing number of laptops can reduce the amount of visible light when viewed at wide angles to try to block the screen contents from anyone potentially snooping at the screen. Ready to go now is the DRM/KMS user-space interface and the Intel graphics driver support now that there is a user-space \"client\" ready...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Privacy-Screen-DRM-Ready",
           "publishedOn": "2021-09-10T04:00:00.000Z",
-          "wordCount": 956,
+          "wordCount": 960,
           "title": "Privacy-Screen DRM API With Intel Support Ready Now That GNOME Is Prepared To Use It"
         },
         {
@@ -384,7 +456,7 @@
           "description": "At the moment when running the X.Org Server in a multi-monitor configuration with displays of different refresh rates, it can lead to a poor experience with a variety of visual deficiencies when running an unredirected full-screen window with page-flipping for DRI3/Present. There is now a change that was merged into the X.Org Server with a new \"AsyncFlipSecondaries\" to improve that experience when running multiple displays of varying refresh rates...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-AsyncFlipSecondaries",
           "publishedOn": "2021-09-09T20:00:55.000Z",
-          "wordCount": 906,
+          "wordCount": 990,
           "title": "X.Org Server Adds \"AsyncFlipSecondaries\" To Deal With Crappy Multi-Monitor Experience"
         },
         {
@@ -393,7 +465,7 @@
           "description": "While now into September, Microsoft just published its \"August 2021\" update to their CBL-Mariner Linux distribution with a variety of changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CBL-Mariner-August-2021",
           "publishedOn": "2021-09-09T19:21:12.000Z",
-          "wordCount": 856,
+          "wordCount": 789,
           "title": "Microsoft Releases Its August Update For The CBL-Mariner Linux Distribution"
         },
         {
@@ -402,7 +474,7 @@
           "description": "The Intel-led open-source Cloud-Hypervisor project building off Linux's KVM (and also supporting Microsoft MSHV) and being cloud-focused and leveraging the Rust programming language for greater security is out with its newest major release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cloud-Hypervisor-18",
           "publishedOn": "2021-09-09T18:37:01.000Z",
-          "wordCount": 836,
+          "wordCount": 760,
           "title": "Intel's Cloud-Hypervisor 18.0 Brings AArch64 Improvements, VHDX Disk Image Support"
         },
         {
@@ -411,7 +483,7 @@
           "description": "Akin to FUSE for file-systems in user-space, VDUSE is set to be merged for Linux 5.15 in adding support for vDPA devices in user-space...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-VDUSE-vDPA",
           "publishedOn": "2021-09-09T18:12:06.000Z",
-          "wordCount": 868,
+          "wordCount": 872,
           "title": "Linux 5.15 Adds VDUSE For vDPA Devices In User-Space"
         },
         {
@@ -420,80 +492,8 @@
           "description": "At last! AMD has posted the Linux kernel driver patches for their new \"AMD-PSTATE\" driver! This driver with modern AMD Zen CPUs (initially limited to Zen 3) to achieve greater performance per Watt / power efficiency on Linux than the conventional ACPI CPUFreq driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSTATE-2021",
           "publishedOn": "2021-09-09T11:48:38.000Z",
-          "wordCount": 996,
+          "wordCount": 1070,
           "title": "AMD Posts New \"AMD-PSTATE\" CPUFreq Driver Leveraging CPPC For Better Perf-Per-Watt"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.6",
-          "author": null,
-          "description": "AMDVLK 2021.Q3.6 is out as the latest routine open-source code drop for this official AMD Radeon Vulkan Linux driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.6",
-          "publishedOn": "2021-09-09T10:51:37.000Z",
-          "wordCount": 684,
-          "title": "AMDVLK 2021.Q3.6 Brings New Extensions, Valheim Shader Optimization"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-BRS-Branch-Sampling",
-          "author": null,
-          "description": "A new kernel patch series was posted this morning working on AMD Branch Sampling \"BRS\" support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-BRS-Branch-Sampling",
-          "publishedOn": "2021-09-09T10:00:54.000Z",
-          "wordCount": 898,
-          "title": "AMD Branch Sampling Support Being Worked On For Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-For-Linux-5.15",
-          "author": null,
-          "description": "Going back to September 2019 was work on the AMD PTDMA driver for supporting this controller found on modern AMD processors for high bandwidth memory-to-memory and I/O copy operations. With the Linux 5.15 cycle the AMD PTDMA driver is finally being merged to the mainline kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PTDMA-For-Linux-5.15",
-          "publishedOn": "2021-09-09T07:00:00.000Z",
-          "wordCount": 813,
-          "title": "AMD PTDMA Driver Landing For Linux 5.15 After Two Years In The Works"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SLUB-Linux-RT-Compatible",
-          "author": null,
-          "description": "One of the nice low-level improvements we've seen with Linux 5.15 is a number of pieces falling into place in the quest of upstreaming the real-time (RT) patches for Linux. The latest merge makes SLUB RT-compatible...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SLUB-Linux-RT-Compatible",
-          "publishedOn": "2021-09-09T04:00:00.000Z",
-          "wordCount": 883,
-          "title": "SLUB Adapted To Be Real-Time Linux Compatible (PREEMPT_RT)"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-RC",
-          "author": null,
-          "description": "Ahead of the official GNOME 41 release later this month, the release candidate is now available to facilitate more testing...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-RC",
-          "publishedOn": "2021-09-08T23:05:04.000Z",
-          "wordCount": 902,
-          "title": "GNOME 41 Release Candidate Arrives With Many Improvements"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Merged-Linux-5.15",
-          "author": null,
-          "description": "The DAMON kernel functionality developed by Amazon engineers has successfully landed in the Linux 5.15 tree...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Merged-Linux-5.15",
-          "publishedOn": "2021-09-08T20:22:39.000Z",
-          "wordCount": 939,
-          "title": "Amazon's DAMON Merged Into Linux 5.15 For Data Access Monitoring Framework"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-Rocket-Lake",
-          "author": null,
-          "description": "For those wondering how the upcoming Ubuntu 21.10 release is looking for Intel \"Rocket Lake\" owners, here are some Ubuntu 21.04 versus 21.10 development benchmarks across dozens of different tests...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-Rocket-Lake",
-          "publishedOn": "2021-09-08T19:15:22.000Z",
-          "wordCount": 829,
-          "title": "Ubuntu 21.10 Delivering Some Performance Gains On The Intel Core i9 11900K"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30505",
-          "author": null,
-          "description": "Recently with my Linux benchmarks of the Ryzen 5 5600G and Ryzen 7 5700G Zen 3 APUs with Radeon Vega graphics I touched on the GPU graphics/compute performance in some of the basic benchmarks while in this article are a number of Steam Play and native Linux gaming benchmarks for looking at the potential for these latest-generation desktop APUs for Linux gaming.",
-          "link": "https://www.phoronix.com/vr.php?view=30505",
-          "publishedOn": "2021-09-07T13:20:00.000Z",
-          "wordCount": 790,
-          "title": "AMD Ryzen 5 5600G / Ryzen 7 5700G Linux Gaming Benchmarks"
         }
       ]
     }
