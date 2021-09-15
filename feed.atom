@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-14T00:36:02.051Z</id>
+    <id>urn:2021-09-15T00:35:34.359Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-14T00:36:02.051Z</updated>
+    <updated>2021-09-15T00:35:34.359Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RadeonSI Lands Big Batch Of Improvements To Lower CPU Overhead]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-Lower-CPU</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-Lower-CPU"/>
+        <updated>2021-09-14T20:35:40.000Z</updated>
+        <summary type="html"><![CDATA[Following portions of the merge request landing, the rest of the RadeonSI CPU-overhead-lowering work was just merged to Mesa 21.3...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[oneAPI Level Zero Loader v1.5 Released With VPU Driver Recognition, Multi-Driver Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=oneAPI-Level-Zero-Loader-1.5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=oneAPI-Level-Zero-Loader-1.5"/>
+        <updated>2021-09-14T18:22:37.000Z</updated>
+        <summary type="html"><![CDATA[Intel has released a new version of their loader for oneAPI Level Zero for loading the Level Zero software driver components...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java 17 / OpenJDK 17 Hits GA With Maturing Vector API, Removal Planned For Applet API]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenJDK-17-Java-17</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenJDK-17-Java-17"/>
+        <updated>2021-09-14T17:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Java 17 has made it to general availability status today with a number of improvements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA RTX 30 Series Resizable BAR Support Continues Helping Performance On Linux]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30523</id>
+        <link href="https://www.phoronix.com/vr.php?view=30523"/>
+        <updated>2021-09-14T13:09:13.000Z</updated>
+        <summary type="html"><![CDATA[While NVIDIA has been supporting Resizable BAR for a while now with their GeForce RTX 30 series graphics cards, for those exclusively using Linux it remains more of a challenge due to AIB partners generally not releasing any vBIOS updates for ReBAR support that can be easily applied under Linux. But if you do carry out an update -- such as under Windows -- the performance uplift can be worthwhile if using a game that can benefit from the support.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Seamless Update: Intel Preparing For System Firmware Updates Without The Reboot]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Seamless-Update</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Seamless-Update"/>
+        <updated>2021-09-14T10:05:13.000Z</updated>
+        <summary type="html"><![CDATA["Intel Seamless Update" is a forthcoming feature for Intel platforms seemingly first being exposed by their new Linux kernel patches working on the functionality... Intel is working on being able to carry out system firmware upates such as UEFI updates but doing so at run-time and being able to avoid the reboot in the process...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libinput 1.19 Released With Hold Gestures & High Resolution Wheel Scrolling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=libinput-1.19</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=libinput-1.19"/>
+        <updated>2021-09-14T09:42:51.000Z</updated>
+        <summary type="html"><![CDATA[Libinput 1.19 is now available as the newest version of this Linux input handling library commonly used these days by both X.Org and Wayland desktops...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Raises Its GCC Compiler Version Requirement]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Raising-GCC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Raising-GCC"/>
+        <updated>2021-09-14T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While Linux 5.15-rc1 was released on Sunday with its many changes, landing on Monday was a late change to raise the baseline GCC version requirement for building the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa Lands Option That Can Help XWayland-Based Gaming On The Steam Deck]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Vulkan-WSI-No-Wait-XWay</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Vulkan-WSI-No-Wait-XWay"/>
+        <updated>2021-09-14T00:48:47.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.3 today landed a debug option that can help with the XWayland-based gaming performance around latency and for power management as well...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use Terratag to automatically manage tags and labels for your Terraform Code]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/"/>
+        <updated>2021-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When using infrastructure as code (IaC) on a public cloud provider, it's important to use tags and labels to organize your IaC using their complementary services. Terratag, an open source project developed by env0, can be used with Terraform and placed on top of the GitLab CI/CD platform, making tagging and labeling IaC easier and more efficient.
+GitLab and Terraform make it easy to tag and label infrastructure as code.
+Inside your toolbox
+GitLab the industry's leading DevOps platform. Not long ago, we announced the ability to control Terraform deployments, remote state management, private module registry, and merge request integration for Terraform. This gives users a range of solutions for running CI/CD for Terraform code and managing it on a large scale.
+Terraform is the most widely ado…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Intel Posts Initial Code For x86 User Interrupts On Linux  - Shows Great Performance Potential]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-x86-User-Interrupts</id>
@@ -101,7 +195,7 @@
         <link href="https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/"/>
         <updated>2021-09-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As a GitLab customer, Weet has fully invested in the premise of "Iterate faster, innovate together." Weet has a low tolerance for processes that don't keep pace with the way they develop and launch. One important process that was slowing the business down – localizing their app.
-Localization is a key way to drive growth and accelerate product adoption. When done poorly, localization or l10n, as it's commonly known, can slow down your development process, introduce bugs, and make it cumbersome to launch updates. When done right, teams can smooth out the process and continuously localize their app. We unpack how Weet conquered its localization problems using GitLab and Lokalize.
+Localization is a key way to drive growth and accelerate product adoption. When done poorly, localization or l10n, as it's commonly known, can slow down your development process, introduce bugs, and make it cumbersome to launch updates. When done right, teams can smooth out the process and continuously localize their app. We unpack how Weet conquered its localization problems using GitLab and Lokalise.
 What is Weet?
 Weet is an asynchronous video communication tool designed to reduce the need for meetings. By combin…]]></summary>
         <author>
@@ -259,36 +353,6 @@ Weet is an asynchronous video communication tool designed to reduce the need for
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.15 Readies More Code For Compile & Run-Time Detection Of Buffer Overflows]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-BO-Detection</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-More-BO-Detection"/>
-        <updated>2021-09-10T09:29:40.000Z</updated>
-        <summary type="html"><![CDATA[Last week a number of patches were merged in the quest to provide the kernel with comprehensive compile-time and run-time detection of buffer overflows. Another patch series was sent out today while still for this cycle they are expected to enable the compiler warnings around array-bounds and zero-length-bounds...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Just Squeezed More Workstation Performance Out Of Its RadeonSI Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-VBO-DLIST-Opt</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-VBO-DLIST-Opt"/>
-        <updated>2021-09-10T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Vulkan is quickly taking over as the dominant graphics API for Linux gamers especially with the likes of DXVK and VKD3D-Proton mapping Direct3D atop Vulkan, OpenGL remains widely used by workstation software. It's also for workstation software where AMD's "PRO" closed-source OpenGL Linux driver has traditionally competed well (and outperformed) the open-source Mesa driver. But with all the recent changes, that's either a matter of the past or close to not being relevant with the latest Mesa enhancements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privacy-Screen DRM API With Intel Support Ready Now That GNOME Is Prepared To Use It]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Privacy-Screen-DRM-Ready</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Privacy-Screen-DRM-Ready"/>
-        <updated>2021-09-10T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Over the past two years we have seen work around bringing up privacy screen support on Linux whereby an increasing number of laptops can reduce the amount of visible light when viewed at wide angles to try to block the screen contents from anyone potentially snooping at the screen. Ready to go now is the DRM/KMS user-space interface and the Intel graphics driver support now that there is a user-space "client" ready...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to deploy the GitLab Kubernetes Agent with limited permissions]]></title>
         <id>https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/</id>
         <link href="https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/"/>
@@ -314,56 +378,6 @@ Common workflows for hybrid environments
 DevOps is naturally aligned to Agile processes…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Server Adds "AsyncFlipSecondaries" To Deal With Crappy Multi-Monitor Experience]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-AsyncFlipSecondaries</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-AsyncFlipSecondaries"/>
-        <updated>2021-09-09T20:00:55.000Z</updated>
-        <summary type="html"><![CDATA[At the moment when running the X.Org Server in a multi-monitor configuration with displays of different refresh rates, it can lead to a poor experience with a variety of visual deficiencies when running an unredirected full-screen window with page-flipping for DRI3/Present. There is now a change that was merged into the X.Org Server with a new "AsyncFlipSecondaries" to improve that experience when running multiple displays of varying refresh rates...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Releases Its August Update For The CBL-Mariner Linux Distribution]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-August-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-August-2021"/>
-        <updated>2021-09-09T19:21:12.000Z</updated>
-        <summary type="html"><![CDATA[While now into September, Microsoft just published its "August 2021" update to their CBL-Mariner Linux distribution with a variety of changes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel's Cloud-Hypervisor 18.0 Brings AArch64 Improvements, VHDX Disk Image Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-18</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-18"/>
-        <updated>2021-09-09T18:37:01.000Z</updated>
-        <summary type="html"><![CDATA[The Intel-led open-source Cloud-Hypervisor project building off Linux's KVM (and also supporting Microsoft MSHV) and being cloud-focused and leveraging the Rust programming language for greater security is out with its newest major release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Adds VDUSE For vDPA Devices In User-Space]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-VDUSE-vDPA</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-VDUSE-vDPA"/>
-        <updated>2021-09-09T18:12:06.000Z</updated>
-        <summary type="html"><![CDATA[Akin to FUSE for file-systems in user-space, VDUSE is set to be merged for Linux 5.15 in adding support for vDPA devices in user-space...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Posts New "AMD-PSTATE" CPUFreq Driver Leveraging CPPC For Better Perf-Per-Watt]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSTATE-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSTATE-2021"/>
-        <updated>2021-09-09T11:48:38.000Z</updated>
-        <summary type="html"><![CDATA[At last! AMD has posted the Linux kernel driver patches for their new "AMD-PSTATE" driver! This driver with modern AMD Zen CPUs (initially limited to Zen 3) to achieve greater performance per Watt / power efficiency on Linux than the conventional ACPI CPUFreq driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -657,39 +671,6 @@ Pipelines execute each stage in order, where all jobs in a single stage run in p
         <summary type="html"><![CDATA[World-class CI/CD comes as a part of the GitLab DevOps Platform to help streamline how development teams build, test, and deploy their apps. GitLab Runner is the execution engine that "does the work," enabling you, as a developer, to run fast, scalable CI/CD pipelines on your on-premises infrastructure or the cloud. Historically, Apple developers on GitLab SaaS had to set up runners on their own macOS systems to execute CI/CD workflows, introducing additional cost and operational overhead. As organizations and teams develop more apps for the Apple ecosystem, the need to create and deploy quickly becomes more important.
 Introducing GitLab Build Cloud for macOS Beta
 Today, you can say goodbye to that Mac mini under your desk! We are pleased to announce the GitLab Build Cloud for macOS Beta, …]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.2.1]]></title>
-        <id>https://about.gitlab.com/releases/2021/08/23/gitlab-14-2-1-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/08/23/gitlab-14-2-1-released/"/>
-        <updated>2021-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.2.1 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-this month's 14.2 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Adding upgrade messaging for PK migrations
-Don't override vulnerability feedback UUID anymore
-Reorder vulnerability check criteria
-Fix "getAction is undefined" bug
-Drop un-used db/ci_migrate symlink
-Fix migration NameError in rails env helper
-Bump Container Registry to v3.9.0-gitlab
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
