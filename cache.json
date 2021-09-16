@@ -12,6 +12,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/",
+          "author": null,
+          "description": "Deployment automation is essential for any company involved in software development to stay competitive. QPage, a company that provides an end-to-end sourcing and recruitment solution for SMEs, realized it quickly and migrated to GitLab’s DevOps Platform to accelerate their deployment process.\nWe spoke with Pouya Lotfi, the co-founder of QPage, to see how they use GitLab at QPage and how it has helped the company.\nWhy GitLab?\nQPage was initially using a local bespoke CI/CD for about the first two months, but they soon realized they needed a more professional DevOps Platform system. Because Pouya and the team at QPage had already used GitLab at a previous employer, they knew it would be the right fit. So, they didn’t consider other options and opted for GitLab straight away.\nEverything you …",
+          "link": "https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/",
+          "publishedOn": "2021-09-15T00:00:00.000Z",
+          "wordCount": 2248,
+          "title": "How QPage achieved automatic deployment and efficiency using the GitLab DevOps Platform"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/",
           "author": null,
           "description": "When using infrastructure as code (IaC) on a public cloud provider, it's important to use tags and labels to organize your IaC using their complementary services. Terratag, an open source project developed by env0, can be used with Terraform and placed on top of the GitLab CI/CD platform, making tagging and labeling IaC easier and more efficient.\nGitLab and Terraform make it easy to tag and label infrastructure as code.\nInside your toolbox\nGitLab the industry's leading DevOps platform. Not long ago, we announced the ability to control Terraform deployments, remote state management, private module registry, and merge request integration for Terraform. This gives users a range of solutions for running CI/CD for Terraform code and managing it on a large scale.\nTerraform is the most widely ado…",
@@ -53,7 +62,7 @@
           "description": "This is the second in a series of blog posts looking at the challenges of code review and the ways a DevOps platform can help. Read the first post.\nCode review can be one of the most deceivingly difficult things in delivering software faster. Given the high stakes involved, we've made some key additions to our DevOps Platform that focus on making the code review process as seamless and effective as possible. We believe the number one way to make code reviews effective is to provide context. Too often we think of code reviews as only \"reading\" and commenting on others' code - but what a good code reviewer does is understand the entire context of the proposed change. Context-driven code reviews should include factors like the issue that spurred on the change, how the change impacts non-obvio…",
           "link": "https://about.gitlab.com/blog/2021/09/09/5-code-review-features/",
           "publishedOn": "2021-09-09T00:00:00.000Z",
-          "wordCount": 2679,
+          "wordCount": 2687,
           "title": "How GitLab's 5 new code review features will make life easier"
         },
         {
@@ -62,7 +71,7 @@
           "description": "In the struggle to release safer software faster, development teams are increasingly choosing a DevOps platform to help them get there. In our 2021 Global DevSecOps Survey we asked respondents what their DevOps practices included and a \"DevOps platform\" was among the top four choices, right next to CI/CD, test automation, and DevSecOps.\nWe're of course bullish on the idea of a DevOps platform, but we're far from alone. Here's a fresh look at how the data – and the customers – support the optimistic trajectory of a DevOps platform.\nDevOps is hot\nThe DevOps market was worth $6 billion in 2020, according to Global Industry Analysts, and five-year growth forecasts range from $17 billion to as much as $23 billion, depending on the firm. \n[Watch a deep dive into GitLab's DevOps Platform]\nThis pr…",
           "link": "https://about.gitlab.com/blog/2021/09/08/making-the-case-for-a-devops-platform-what-data-and-customers-say/",
           "publishedOn": "2021-09-08T00:00:00.000Z",
-          "wordCount": 2110,
+          "wordCount": 2118,
           "title": "Making the case for a DevOps platform: What data and customers say"
         },
         {
@@ -89,7 +98,7 @@
           "description": "When making a list of the reasons to consider moving to a DevOps Platform, don't forget about code review, a critical piece of the process that's also an incredible source of frustration and delays to developers and their teams.\nIn our 2021 Global DevSecOps Survey, respondents told us code quality was the number one reason they chose DevOps. But, when asked what was most likely to delay a product release, code review – vital to code quality – was one of the top four culprits (the others were testing, planning and code development). \nThe fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it's never been more urgent to release secure code as quickly…",
           "link": "https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/",
           "publishedOn": "2021-09-03T00:00:00.000Z",
-          "wordCount": 2290,
+          "wordCount": 2296,
           "title": "The code review struggle is real. Here's what you need to know"
         },
         {
@@ -190,15 +199,6 @@
           "publishedOn": "2021-08-24T00:00:00.000Z",
           "wordCount": 2146,
           "title": "Write a stageless CI/CD pipeline using GitLab 14.2"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/",
-          "author": null,
-          "description": "World-class CI/CD comes as a part of the GitLab DevOps Platform to help streamline how development teams build, test, and deploy their apps. GitLab Runner is the execution engine that \"does the work,\" enabling you, as a developer, to run fast, scalable CI/CD pipelines on your on-premises infrastructure or the cloud. Historically, Apple developers on GitLab SaaS had to set up runners on their own macOS systems to execute CI/CD workflows, introducing additional cost and operational overhead. As organizations and teams develop more apps for the Apple ecosystem, the need to create and deploy quickly becomes more important.\nIntroducing GitLab Build Cloud for macOS Beta\nToday, you can say goodbye to that Mac mini under your desk! We are pleased to announce the GitLab Build Cloud for macOS Beta, …",
-          "link": "https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/",
-          "publishedOn": "2021-08-23T00:00:00.000Z",
-          "wordCount": 2030,
-          "title": "Introducing GitLab Build Cloud for macOS Beta"
         }
       ]
     },
@@ -208,12 +208,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Mesa-EGL-Windows",
+          "author": null,
+          "description": "While Microsoft has long had WGL as an API analogous to EGL for residing between OpenGL and the Windows interfaces, Microsoft has now wired up an EGL implementation for Mesa that works on Windows...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Mesa-EGL-Windows",
+          "publishedOn": "2021-09-15T22:14:15.000Z",
+          "wordCount": 843,
+          "title": "Microsoft Adds An EGL Implementation To Mesa For Windows"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-AGX-XDC2021",
+          "author": null,
+          "description": "Alyssa Rosenzweig spoke today at the virtual X.Org Developers Conference about the ongoing work for bringing up Linux display and graphics support on the Apple M1 graphics processor...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-AGX-XDC2021",
+          "publishedOn": "2021-09-15T18:11:25.000Z",
+          "wordCount": 783,
+          "title": "Reverse Engineering, Open-Source Driver Writing Continues For Apple's M1 GPU"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-Software-21.Q3",
+          "author": null,
+          "description": "AMD today released their quarterly update to the Radeon Pro Software for Enterprise graphics driver package, which includes an updated Linux build as well...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Radeon-Pro-Software-21.Q3",
+          "publishedOn": "2021-09-15T17:32:12.000Z",
+          "wordCount": 798,
+          "title": "Radeon Pro Software for Enterprise 21.Q3 Released For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Yellow-Carp-FW",
+          "author": null,
+          "description": "A small but important step forward is seeing AMD recently publishing their binary firmware files in advance of new GPU/APU launches for rounding out their Linux driver support stack...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Yellow-Carp-FW",
+          "publishedOn": "2021-09-15T13:25:49.000Z",
+          "wordCount": 996,
+          "title": "AMD Publishes Initial Firmware For Yellow Carp APUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-2021-Status",
+          "author": null,
+          "description": "Iago Toral of Igalia kicked off the first day of the virtual XDC2021 developer conference today by sharing a status update on V3DV as the open-source Mesa Vulkan driver most notably used for Raspberry Pi 4 and newer...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-2021-Status",
+          "publishedOn": "2021-09-15T12:07:23.000Z",
+          "wordCount": 778,
+          "title": "Raspberry Pi V3DV Driver Still Working On Vulkan 1.1 Conformance, More Performance"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Orange-BPF-Memory-Cache-BMC",
+          "author": null,
+          "description": "French telecommunications giant Orange has published \"BMC\" as the (e)BPF Memory Cache providing a cache focused on memcached usage within the Linux kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Orange-BPF-Memory-Cache-BMC",
+          "publishedOn": "2021-09-15T10:28:19.000Z",
+          "wordCount": 766,
+          "title": "Orange Publishes An In-Kernel eBPF-Powered Cache - Can Speed Up Memcached By ~18x"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=HP-OMEN-Linux-5.16",
+          "author": null,
+          "description": "HP's higher-end \"OMEN\" laptop series is set to see better support with the next kernel cycle...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=HP-OMEN-Linux-5.16",
+          "publishedOn": "2021-09-15T10:08:37.000Z",
+          "wordCount": 862,
+          "title": "HP OMEN Laptops To Be Better Supported With Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Tremont-Faster-GCC",
+          "author": null,
+          "description": "The GNU Compiler Collection has already supported Intel's Tremont cores as used by the low-power Jasper Lake platform. Now though coming to GCC are some optimizations to further enhance the performance when targeting the Tremont micro-architecture...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Tremont-Faster-GCC",
+          "publishedOn": "2021-09-15T09:45:07.000Z",
+          "wordCount": 780,
+          "title": "New Intel Tremont Optimizations Heading To The GCC Compiler"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RadeonSI-Lower-CPU",
           "author": null,
           "description": "Following portions of the merge request landing, the rest of the RadeonSI CPU-overhead-lowering work was just merged to Mesa 21.3...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RadeonSI-Lower-CPU",
           "publishedOn": "2021-09-14T20:35:40.000Z",
-          "wordCount": 720,
+          "wordCount": 787,
           "title": "RadeonSI Lands Big Batch Of Improvements To Lower CPU Overhead"
         },
         {
@@ -222,7 +294,7 @@
           "description": "Intel has released a new version of their loader for oneAPI Level Zero for loading the Level Zero software driver components...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=oneAPI-Level-Zero-Loader-1.5",
           "publishedOn": "2021-09-14T18:22:37.000Z",
-          "wordCount": 752,
+          "wordCount": 828,
           "title": "oneAPI Level Zero Loader v1.5 Released With VPU Driver Recognition, Multi-Driver Support"
         },
         {
@@ -231,7 +303,7 @@
           "description": "Java 17 has made it to general availability status today with a number of improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenJDK-17-Java-17",
           "publishedOn": "2021-09-14T17:48:18.000Z",
-          "wordCount": 913,
+          "wordCount": 934,
           "title": "Java 17 / OpenJDK 17 Hits GA With Maturing Vector API, Removal Planned For Applet API"
         },
         {
@@ -240,7 +312,7 @@
           "description": "While NVIDIA has been supporting Resizable BAR for a while now with their GeForce RTX 30 series graphics cards, for those exclusively using Linux it remains more of a challenge due to AIB partners generally not releasing any vBIOS updates for ReBAR support that can be easily applied under Linux. But if you do carry out an update -- such as under Windows -- the performance uplift can be worthwhile if using a game that can benefit from the support.",
           "link": "https://www.phoronix.com/vr.php?view=30523",
           "publishedOn": "2021-09-14T13:09:13.000Z",
-          "wordCount": 857,
+          "wordCount": 948,
           "title": "NVIDIA RTX 30 Series Resizable BAR Support Continues Helping Performance On Linux"
         },
         {
@@ -249,7 +321,7 @@
           "description": "\"Intel Seamless Update\" is a forthcoming feature for Intel platforms seemingly first being exposed by their new Linux kernel patches working on the functionality... Intel is working on being able to carry out system firmware upates such as UEFI updates but doing so at run-time and being able to avoid the reboot in the process...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Seamless-Update",
           "publishedOn": "2021-09-14T10:05:13.000Z",
-          "wordCount": 858,
+          "wordCount": 854,
           "title": "Intel Seamless Update: Intel Preparing For System Firmware Updates Without The Reboot"
         },
         {
@@ -258,7 +330,7 @@
           "description": "Libinput 1.19 is now available as the newest version of this Linux input handling library commonly used these days by both X.Org and Wayland desktops...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=libinput-1.19",
           "publishedOn": "2021-09-14T09:42:51.000Z",
-          "wordCount": 723,
+          "wordCount": 765,
           "title": "Libinput 1.19 Released With Hold Gestures & High Resolution Wheel Scrolling"
         },
         {
@@ -267,7 +339,7 @@
           "description": "While Linux 5.15-rc1 was released on Sunday with its many changes, landing on Monday was a late change to raise the baseline GCC version requirement for building the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Raising-GCC",
           "publishedOn": "2021-09-14T07:00:00.000Z",
-          "wordCount": 862,
+          "wordCount": 938,
           "title": "Linux 5.15 Raises Its GCC Compiler Version Requirement"
         },
         {
@@ -276,7 +348,7 @@
           "description": "Mesa 21.3 today landed a debug option that can help with the XWayland-based gaming performance around latency and for power management as well...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-Vulkan-WSI-No-Wait-XWay",
           "publishedOn": "2021-09-14T00:48:47.000Z",
-          "wordCount": 889,
+          "wordCount": 886,
           "title": "Mesa Lands Option That Can Help XWayland-Based Gaming On The Steam Deck"
         },
         {
@@ -285,7 +357,7 @@
           "description": "In addition to the big Advanced Matrix Extensions support still being in flux and the kernel-side AMX code not yet being merged, another feature of next year's Xeon \"Sapphire Rapids\" that we are only now seeing in early published form for the Linux kernel is handling of x86 user interrupts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-RFC-x86-User-Interrupts",
           "publishedOn": "2021-09-13T20:38:01.000Z",
-          "wordCount": 943,
+          "wordCount": 939,
           "title": "Intel Posts Initial Code For x86 User Interrupts On Linux  - Shows Great Performance Potential"
         },
         {
@@ -294,7 +366,7 @@
           "description": "While Linux 5.15 has many new features and improvements, one of the patch series we have been eager to see land is the work introducing the new FUTEX2 system call. FUTEX2 can help improve the performance of newer Windows games running on Linux via Wine / Steam Play's Proton by better matching the Windows kernel behavior, but while it didn't land for Linux 5.15, at least a new version of the patches were posted...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-v3-Patches",
           "publishedOn": "2021-09-13T18:45:11.000Z",
-          "wordCount": 878,
+          "wordCount": 794,
           "title": "FUTEX2 System Call Updated To Work On ARM"
         },
         {
@@ -303,7 +375,7 @@
           "description": "After last month landing the Zink sub-allocator code for improved performance and also enabling OpenGL ES 3.2 support for Zink, lead developer Mike Blumenkrantz at Valve has been spending time this month working to get more games running on this OpenGL-over-Vulkan Mesa driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zink-September-Games",
           "publishedOn": "2021-09-13T17:54:34.000Z",
-          "wordCount": 785,
+          "wordCount": 782,
           "title": "Zink OpenGL-On-Vulkan Tackling Support For More Games"
         },
         {
@@ -312,7 +384,7 @@
           "description": "GDB 11.1 is now available as the latest feature update to the GNU Debugger...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GDB-11.1-Released",
           "publishedOn": "2021-09-13T17:34:49.000Z",
-          "wordCount": 788,
+          "wordCount": 705,
           "title": "GNU Debugger 11.1 Released With MTE Support, Core File Debugging For 64-bit Cygwin Apps"
         },
         {
@@ -321,7 +393,7 @@
           "description": "Feature development is over on the Linux 5.15 kernel with Linux 5.15-rc1 being issued. It's now on to testing and bug fixing over the next two months before the kernel is christened as stable. Here is our original Linux 5.15 feature overview about all of the big changes in this next kernel version.",
           "link": "https://www.phoronix.com/vr.php?view=30519",
           "publishedOn": "2021-09-13T13:16:01.000Z",
-          "wordCount": 1079,
+          "wordCount": 1170,
           "title": "Linux 5.15 Delivers Many Features With New NTFS Driver, In-Kernel SMB3 Server, New Hardware"
         },
         {
@@ -330,7 +402,7 @@
           "description": "While Ubuntu 18.04.5 LTS shipped one year ago as the last planned point release to the \"Bionic Beaver\", an emergency issue is leading to Ubuntu 18.04.6 now being prepared...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-18.04.6-LTS-Coming",
           "publishedOn": "2021-09-13T12:56:17.000Z",
-          "wordCount": 756,
+          "wordCount": 752,
           "title": "Ubuntu 18.04.6 LTS Special Being Prepared To Deal With Unbootable Media"
         },
         {
@@ -339,7 +411,7 @@
           "description": "Of all the great stuff for AMD in Linux 5.15, one of the patches still not having yet been mainlined is the control support around Predictive Store Forwarding (PSF) with Zen 3 processors. It's been six months since AMD published their security whitepaper around PSF while the Linux patch has yet to be mainlined while now it seems will be updated for a reduced focus on KVM usage...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Control-September",
           "publishedOn": "2021-09-13T12:40:51.000Z",
-          "wordCount": 1184,
+          "wordCount": 1180,
           "title": "Still-Pending AMD PSF Control Patch To Be Retailored For KVM"
         },
         {
@@ -348,7 +420,7 @@
           "description": "On and off for years has been talk of an accelerator subsystem for the Linux kernel considering that for now most AI training/inference accelerator drivers end up lodged within the \"char/misc\" area of the kernel. That accelerator subsystem discussion has been restarted with talks of having such a subsystem or moving those drivers within the GPU/DRM subsystem space...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Accel-Drivers-2021-Discussion",
           "publishedOn": "2021-09-13T09:57:14.000Z",
-          "wordCount": 939,
+          "wordCount": 926,
           "title": "Linux Developers Talk Again About An Accelerator Subsystem - Or Moving Them Into The GPU/DRM Area"
         },
         {
@@ -357,7 +429,7 @@
           "description": "As expected this evening the Linux 5.15-rc1 kernel was released to top off the two week merge window that saw many changes to the kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc1",
           "publishedOn": "2021-09-13T00:22:40.000Z",
-          "wordCount": 841,
+          "wordCount": 917,
           "title": "Linux 5.15-rc1 Brings New NTFS Driver, In-Kernel SMB3 Server, AMD Changes, Intel DG2"
         },
         {
@@ -366,7 +438,7 @@
           "description": "While working on my usual Linux kernel feature overview that summarizes the many articles over the past two weeks outlining all of the new features and changes merged, one area that particularly stands out for Linux 5.15 are all of AMD's upstream contributions that happened to make it in this kernel. There is a lot of new enablement on the AMD side -- both for CPUs and Radeon graphics -- but also improving existing hardware support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-AMD",
           "publishedOn": "2021-09-12T18:00:00.000Z",
-          "wordCount": 1392,
+          "wordCount": 1317,
           "title": "Linux 5.15 Is A Very Exciting Kernel For AMD"
         },
         {
@@ -375,7 +447,7 @@
           "description": "The Apache Software Foundation recently published their FY2021 report for their year-ended 30 April. Even with the ongoing pandemic, the Apache Software Foundation managed to raise more than $3M USD and enjoyed a host of software successes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-FY2021-Report",
           "publishedOn": "2021-09-12T11:11:29.000Z",
-          "wordCount": 950,
+          "wordCount": 945,
           "title": "Apache Software Foundation Saw $3M In Revenue, ~134M Changed Lines Of Code Last Year"
         },
         {
@@ -384,7 +456,7 @@
           "description": "We are now down to the last day of the Linux 5.15 merge window and one of the patch series we have been waiting to see if it would land during this two week period was the \"folios\" code -- or that also was recently renamed to \"pagesets\" to address some concerns over the name...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Folios-Pagesets-MIA-5.15",
           "publishedOn": "2021-09-12T10:20:03.000Z",
-          "wordCount": 1006,
+          "wordCount": 922,
           "title": "It's Looking Like Folios / Pagesets Might Miss Making It Into Linux 5.15"
         },
         {
@@ -393,7 +465,7 @@
           "description": "In addition to the RISC-V changes merged last week for the Linux 5.15 kernel, a second batch of patches was merged this weekend...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RISC-V-Better-Stack-Rand",
           "publishedOn": "2021-09-12T10:04:52.000Z",
-          "wordCount": 694,
+          "wordCount": 690,
           "title": "RISC-V Gets Expanded Stack Randomization With Linux 5.15"
         },
         {
@@ -402,7 +474,7 @@
           "description": "A change first proposed last year to the Linux kernel's Spectre mitigation defaults looks like it will soon be sent in for the mainline kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Spectre-V2-V4-Going-Prctl-Def",
           "publishedOn": "2021-09-12T04:00:00.000Z",
-          "wordCount": 1058,
+          "wordCount": 1063,
           "title": "Linux Preparing To Slightly Loosen Its Spectre Defaults"
         },
         {
@@ -411,7 +483,7 @@
           "description": "While the Rust programming language support for usage within the kernel isn't landing for the Linux 5.15 merge window ending this weekend, that effort remains ongoing. A status update on the effort was shared this week about Rust usage for the Linux kernel...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Linux-Kernel-Linaro-2021",
           "publishedOn": "2021-09-11T18:30:14.000Z",
-          "wordCount": 752,
+          "wordCount": 748,
           "title": "The Latest Progress On Rust For The Linux Kernel"
         },
         {
@@ -420,80 +492,8 @@
           "description": "Another batch of minor optimizations were merged to Mesa 21.3 for the RadeonSI Gallium3D driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-More-For-Mesa-21.3",
           "publishedOn": "2021-09-11T17:15:07.000Z",
-          "wordCount": 891,
+          "wordCount": 844,
           "title": "Another Batch Of RadeonSI Optimizations Land In Mesa 21.3"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Alder-Lake-TCC-Linux-5.15",
-          "author": null,
-          "description": "While much of Intel's next-gen Alder Lake processor support appears to be in good shape for Linux 5.14, some remaining items are landing for the current Linux 5.15 cycle. The latest Alder Lake support hitting the kernel is for Intel's TCC cooling driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Alder-Lake-TCC-Linux-5.15",
-          "publishedOn": "2021-09-11T13:00:28.000Z",
-          "wordCount": 1025,
-          "title": "Alder Lake Support Added To Intel's TCC Driver In Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=CoreCtl-1.2-Released",
-          "author": null,
-          "description": "CoreCtrl 1.2 was released this week as the open-source, independently-developed application for exposing more sensor support on Linux and offering various controls aroudnd over/under-clocking and other tuning. At the moment CoreCtrl is primarily focused on making the most use of AMD Radeon GPUs under Linux with some options not otherwise readily available on the platform...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=CoreCtl-1.2-Released",
-          "publishedOn": "2021-09-11T11:45:12.000Z",
-          "wordCount": 881,
-          "title": "CoreCtrl 1.2 Brings Support For More Sensors, Voltage Offsets"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenShot-2.6.1",
-          "author": null,
-          "description": "Released in August was the big OpenShot 2.6 video editor update while this weekend has been succeeded by its first point release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenShot-2.6.1",
-          "publishedOn": "2021-09-11T10:37:52.000Z",
-          "wordCount": 730,
-          "title": "OpenShot 2.6.1 Released For This Open-Source Video Editor"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Soft-Freeze",
-          "author": null,
-          "description": "It's been a busy start to September for the KDE project and is now under its soft feature freeze for Plasma 5.23...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Soft-Freeze",
-          "publishedOn": "2021-09-11T10:13:51.000Z",
-          "wordCount": 807,
-          "title": "KDE Sees More Plasma Wayland Fixes As Plasma 5.23 Hits Its Soft Feature Freeze"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.17-Released",
-          "author": null,
-          "description": "Wine 6.17 is out as the latest bi-weekly development release as we move closer towards the Wine 7.0 release around the start of the new year...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.17-Released",
-          "publishedOn": "2021-09-10T20:30:43.000Z",
-          "wordCount": 819,
-          "title": "Wine 6.17 Released With Better HiDPI Support For Built-In Apps"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.15-Changes",
-          "author": null,
-          "description": "While last week was the main \"char/misc\" pull request for the Linux 5.15 merge window, the Habana Labs driver changes were previously reverted from there due to opposition from the upstream kernel developers in the Direct Rendering Manager  space. The concerning patches around DMA-BUF have now been removed and a new pull request submitted with updates to this AI driver for Linux 5.15...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.15-Changes",
-          "publishedOn": "2021-09-10T17:57:29.000Z",
-          "wordCount": 1034,
-          "title": "Habana Labs AI Driver Updates Submitted For Linux 5.15"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30514",
-          "author": null,
-          "description": "With less than one month out from the official release of Microsoft Windows 11, I was curious to run some fresh benchmarks of the latest Windows 11 Insider Preview build against Windows 10 21H1 to see how the performance is looking. Of course, also to see how Windows 11 is shaping up against Ubuntu 21.10 also due for release in October.",
-          "link": "https://www.phoronix.com/vr.php?view=30514",
-          "publishedOn": "2021-09-10T11:55:19.000Z",
-          "wordCount": 887,
-          "title": "Ubuntu 21.10 Performance Still Pushing Ahead Of Windows 10, Latest Windows 11 Build"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Hababa-Labs-Open-Compiler-AI",
-          "author": null,
-          "description": "Intel-owned Habana Labs now has the most open software stack among AI accelerators! While Habana Labs has long provided an open-source, upstream kernel driver for their Gaudi AI training and Goya AI inference accelerators, the user-space portions including their code compiler and run-time library have been closed-source. This has been a thorn for upstream kernel developers and their standards, but now Habana Labs has open-sourced their user-space components too...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Hababa-Labs-Open-Compiler-AI",
-          "publishedOn": "2021-09-10T10:00:00.000Z",
-          "wordCount": 980,
-          "title": "Habana Labs Opens Up The Code To Their AI Compiler, SynapseAI Core"
         }
       ]
     }

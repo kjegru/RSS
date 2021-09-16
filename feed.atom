@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-15T00:35:34.359Z</id>
+    <id>urn:2021-09-16T00:36:41.403Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-15T00:35:34.359Z</updated>
+    <updated>2021-09-16T00:36:41.403Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Adds An EGL Implementation To Mesa For Windows]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-Mesa-EGL-Windows</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-Mesa-EGL-Windows"/>
+        <updated>2021-09-15T22:14:15.000Z</updated>
+        <summary type="html"><![CDATA[While Microsoft has long had WGL as an API analogous to EGL for residing between OpenGL and the Windows interfaces, Microsoft has now wired up an EGL implementation for Mesa that works on Windows...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse Engineering, Open-Source Driver Writing Continues For Apple's M1 GPU]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-AGX-XDC2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-AGX-XDC2021"/>
+        <updated>2021-09-15T18:11:25.000Z</updated>
+        <summary type="html"><![CDATA[Alyssa Rosenzweig spoke today at the virtual X.Org Developers Conference about the ongoing work for bringing up Linux display and graphics support on the Apple M1 graphics processor...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon Pro Software for Enterprise 21.Q3 Released For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Pro-Software-21.Q3</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Pro-Software-21.Q3"/>
+        <updated>2021-09-15T17:32:12.000Z</updated>
+        <summary type="html"><![CDATA[AMD today released their quarterly update to the Radeon Pro Software for Enterprise graphics driver package, which includes an updated Linux build as well...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Publishes Initial Firmware For Yellow Carp APUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Yellow-Carp-FW</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Yellow-Carp-FW"/>
+        <updated>2021-09-15T13:25:49.000Z</updated>
+        <summary type="html"><![CDATA[A small but important step forward is seeing AMD recently publishing their binary firmware files in advance of new GPU/APU launches for rounding out their Linux driver support stack...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi V3DV Driver Still Working On Vulkan 1.1 Conformance, More Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-2021-Status</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-2021-Status"/>
+        <updated>2021-09-15T12:07:23.000Z</updated>
+        <summary type="html"><![CDATA[Iago Toral of Igalia kicked off the first day of the virtual XDC2021 developer conference today by sharing a status update on V3DV as the open-source Mesa Vulkan driver most notably used for Raspberry Pi 4 and newer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Orange Publishes An In-Kernel eBPF-Powered Cache - Can Speed Up Memcached By ~18x]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Orange-BPF-Memory-Cache-BMC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Orange-BPF-Memory-Cache-BMC"/>
+        <updated>2021-09-15T10:28:19.000Z</updated>
+        <summary type="html"><![CDATA[French telecommunications giant Orange has published "BMC" as the (e)BPF Memory Cache providing a cache focused on memcached usage within the Linux kernel...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HP OMEN Laptops To Be Better Supported With Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=HP-OMEN-Linux-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=HP-OMEN-Linux-5.16"/>
+        <updated>2021-09-15T10:08:37.000Z</updated>
+        <summary type="html"><![CDATA[HP's higher-end "OMEN" laptop series is set to see better support with the next kernel cycle...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Intel Tremont Optimizations Heading To The GCC Compiler]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Tremont-Faster-GCC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Tremont-Faster-GCC"/>
+        <updated>2021-09-15T09:45:07.000Z</updated>
+        <summary type="html"><![CDATA[The GNU Compiler Collection has already supported Intel's Tremont cores as used by the low-power Jasper Lake platform. Now though coming to GCC are some optimizations to further enhance the performance when targeting the Tremont micro-architecture...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How QPage achieved automatic deployment and efficiency using the GitLab DevOps Platform]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/"/>
+        <updated>2021-09-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deployment automation is essential for any company involved in software development to stay competitive. QPage, a company that provides an end-to-end sourcing and recruitment solution for SMEs, realized it quickly and migrated to GitLab’s DevOps Platform to accelerate their deployment process.
+We spoke with Pouya Lotfi, the co-founder of QPage, to see how they use GitLab at QPage and how it has helped the company.
+Why GitLab?
+QPage was initially using a local bespoke CI/CD for about the first two months, but they soon realized they needed a more professional DevOps Platform system. Because Pouya and the team at QPage had already used GitLab at a previous employer, they knew it would be the right fit. So, they didn’t consider other options and opted for GitLab straight away.
+Everything you …]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RadeonSI Lands Big Batch Of Improvements To Lower CPU Overhead]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-Lower-CPU</id>
@@ -268,86 +362,6 @@ Weet is an asynchronous video communication tool designed to reduce the need for
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-More-For-Mesa-21.3"/>
         <updated>2021-09-11T17:15:07.000Z</updated>
         <summary type="html"><![CDATA[Another batch of minor optimizations were merged to Mesa 21.3 for the RadeonSI Gallium3D driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alder Lake Support Added To Intel's TCC Driver In Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Alder-Lake-TCC-Linux-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Alder-Lake-TCC-Linux-5.15"/>
-        <updated>2021-09-11T13:00:28.000Z</updated>
-        <summary type="html"><![CDATA[While much of Intel's next-gen Alder Lake processor support appears to be in good shape for Linux 5.14, some remaining items are landing for the current Linux 5.15 cycle. The latest Alder Lake support hitting the kernel is for Intel's TCC cooling driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CoreCtrl 1.2 Brings Support For More Sensors, Voltage Offsets]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CoreCtl-1.2-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CoreCtl-1.2-Released"/>
-        <updated>2021-09-11T11:45:12.000Z</updated>
-        <summary type="html"><![CDATA[CoreCtrl 1.2 was released this week as the open-source, independently-developed application for exposing more sensor support on Linux and offering various controls aroudnd over/under-clocking and other tuning. At the moment CoreCtrl is primarily focused on making the most use of AMD Radeon GPUs under Linux with some options not otherwise readily available on the platform...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenShot 2.6.1 Released For This Open-Source Video Editor]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenShot-2.6.1"/>
-        <updated>2021-09-11T10:37:52.000Z</updated>
-        <summary type="html"><![CDATA[Released in August was the big OpenShot 2.6 video editor update while this weekend has been succeeded by its first point release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Sees More Plasma Wayland Fixes As Plasma 5.23 Hits Its Soft Feature Freeze]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Soft-Freeze</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Soft-Freeze"/>
-        <updated>2021-09-11T10:13:51.000Z</updated>
-        <summary type="html"><![CDATA[It's been a busy start to September for the KDE project and is now under its soft feature freeze for Plasma 5.23...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.17 Released With Better HiDPI Support For Built-In Apps]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.17-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.17-Released"/>
-        <updated>2021-09-10T20:30:43.000Z</updated>
-        <summary type="html"><![CDATA[Wine 6.17 is out as the latest bi-weekly development release as we move closer towards the Wine 7.0 release around the start of the new year...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Habana Labs AI Driver Updates Submitted For Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Changes</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.15-Changes"/>
-        <updated>2021-09-10T17:57:29.000Z</updated>
-        <summary type="html"><![CDATA[While last week was the main "char/misc" pull request for the Linux 5.15 merge window, the Habana Labs driver changes were previously reverted from there due to opposition from the upstream kernel developers in the Direct Rendering Manager  space. The concerning patches around DMA-BUF have now been removed and a new pull request submitted with updates to this AI driver for Linux 5.15...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 21.10 Performance Still Pushing Ahead Of Windows 10, Latest Windows 11 Build]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30514</id>
-        <link href="https://www.phoronix.com/vr.php?view=30514"/>
-        <updated>2021-09-10T11:55:19.000Z</updated>
-        <summary type="html"><![CDATA[With less than one month out from the official release of Microsoft Windows 11, I was curious to run some fresh benchmarks of the latest Windows 11 Insider Preview build against Windows 10 21H1 to see how the performance is looking. Of course, also to see how Windows 11 is shaping up against Ubuntu 21.10 also due for release in October.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Habana Labs Opens Up The Code To Their AI Compiler, SynapseAI Core]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Hababa-Labs-Open-Compiler-AI</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Hababa-Labs-Open-Compiler-AI"/>
-        <updated>2021-09-10T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel-owned Habana Labs now has the most open software stack among AI accelerators! While Habana Labs has long provided an open-source, upstream kernel driver for their Gaudi AI training and Goya AI inference accelerators, the user-space portions including their code compiler and run-time library have been closed-source. This has been a thorn for upstream kernel developers and their standards, but now Habana Labs has open-sourced their user-space components too...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -659,18 +673,6 @@ to use GitLab's own infrastructure.]]></summary>
 Understanding stages
 In GitLab CI/CD, you use stages to group jobs based on the development workflow and control the order of execution for CI/CD jobs.
 Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the next stage and runs those jobs, and the process continues like this until the pipeline com…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing GitLab Build Cloud for macOS Beta]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/23/build-cloud-for-macos-beta/"/>
-        <updated>2021-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[World-class CI/CD comes as a part of the GitLab DevOps Platform to help streamline how development teams build, test, and deploy their apps. GitLab Runner is the execution engine that "does the work," enabling you, as a developer, to run fast, scalable CI/CD pipelines on your on-premises infrastructure or the cloud. Historically, Apple developers on GitLab SaaS had to set up runners on their own macOS systems to execute CI/CD workflows, introducing additional cost and operational overhead. As organizations and teams develop more apps for the Apple ecosystem, the need to create and deploy quickly becomes more important.
-Introducing GitLab Build Cloud for macOS Beta
-Today, you can say goodbye to that Mac mini under your desk! We are pleased to announce the GitLab Build Cloud for macOS Beta, …]]></summary>
         <author>
             <name>GitLab</name>
         </author>
