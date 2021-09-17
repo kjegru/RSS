@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-16T00:36:41.403Z</id>
+    <id>urn:2021-09-17T00:39:33.272Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-16T00:36:41.403Z</updated>
-    <generator>osmosfeed 1.11.0</generator>
+    <updated>2021-09-17T00:39:33.272Z</updated>
+    <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[X.Org Could Use More Help Improving & Addressing Its Security]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Security-Help-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Security-Help-2021"/>
+        <updated>2021-09-16T20:10:14.000Z</updated>
+        <summary type="html"><![CDATA[Those reading Phoronix over the years likely know the X.Org Server has had an increasing number of vulnerabilities come to light in recent times and statements by security researchers like the security being even worse than it looks. Given the age of the X.Org/X11 codebase and many components being rather unmaintained these days, the security situation isn't that great combined with a lack of manpower. The security topic was under the spotlight today at the XDC2021 conference...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenZFS 2.1.1 Arrives As A Big Point Release]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.1.1-Released"/>
+        <updated>2021-09-16T18:17:17.000Z</updated>
+        <summary type="html"><![CDATA[Following the big OpenZFS 2.1 release from July that brought Distributed SPARE RAID, a compatibility property for pools, and other new features, OpenZFS 2.1.1 is available today as a follow-up release for this open-source ZFS file-system implementation for Linux and FreeBSD systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Talks More About Their Open-Source Vulkan Ray-Tracing Bring-Up]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-XDC2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Vulkan-RT-XDC2021"/>
+        <updated>2021-09-16T17:42:58.000Z</updated>
+        <summary type="html"><![CDATA[Prominent Intel open-source Vulkan Linux driver developer Jason Ekstrand presented at today's X.Org Developers Conference (XDC2021) about their work on enabling Vulkan ray-tracing support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma 5.23 Beta Released As The 25th Anniversary Edition]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-5.23-Beta"/>
+        <updated>2021-09-16T13:00:18.000Z</updated>
+        <summary type="html"><![CDATA[It was in October of 1996 that the KDE desktop environment was founded and as such with marking twenty-five years since its creation, the forthcoming Plasma 5.23 is being advertised as the "25th Anniversary Edition" for the desktop...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running Linux 5.15-rc1 Causing A New Slowdown... Here's A Look]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30531</id>
+        <link href="https://www.phoronix.com/vr.php?view=30531"/>
+        <updated>2021-09-16T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As usual when the Linux 5.15 merge window began wrapping up, I set out to dive into its performance to see what is in store for this next version of the kernel and whether there was any regressions or other performance changes worth noting. Linux 5.15 overall has been in good shape for the "-rc1" state except noticing that code compilation workloads were taking longer on multiple Linux 5.15-rc1-running systems than Linux 5.14 or prior. Seeing it across multiple systems and a very real-world regression, it was worth bisecting and looking closer so here are the details.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 To Add Quirk For The Steam Deck, Other DRM-Misc-Next Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=First-DRM-Misc-Next-For-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=First-DRM-Misc-Next-For-5.16"/>
+        <updated>2021-09-16T09:22:52.000Z</updated>
+        <summary type="html"><![CDATA[With the Linux 5.15 merge window out of the way, the first drm-misc-next pull request has been sent in to DRM-Next for staging until the Linux 5.16 merge window opens up about two months from now...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa's LLVMpipe + Lavapipe Land FP16 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-Lavapipe-FP16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVMpipe-Lavapipe-FP16"/>
+        <updated>2021-09-16T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest work landing for Mesa 21.3 is supporting FP16 within the LLVM-based software driver code namely for the LLVMpipe Gallium3D OpenGL and Lavapipe Vulkan drivers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Is Successfully Using The Open-Source Qualcomm GL/VLK Drivers On Chromebooks]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chromebooks-Mesa-QLCM</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chromebooks-Mesa-QLCM"/>
+        <updated>2021-09-16T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been known that Google has been using the open-source "MSM" DRM/KMS driver on Qualcomm-powered devices that originally started out as a reverse-engineered driver project separate from the company. Now it's also been confirmed how Google is successfully using the open-source Mesa Freedreno OpenGL and TURNIP Vulkan drivers on Qualcomm-powered Chromebooks too...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.11.1]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1</id>
+        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1"/>
+        <updated>2021-09-16T06:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Fixed: Unexpected nested element in author field crashes the parser
+Thank you @ad-m]]></summary>
+        <author>
+            <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Early Patches Bring BPF To The Linux Scheduler]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Scheduler</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-BPF-Scheduler"/>
+        <updated>2021-09-16T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest area where BPF is looking to expand within the Linux kernel is its CFS scheduler...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft Adds An EGL Implementation To Mesa For Windows]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-Mesa-EGL-Windows</id>
@@ -264,26 +365,6 @@ Terraform is the most widely ado…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux Developers Talk Again About An Accelerator Subsystem - Or Moving Them Into The GPU/DRM Area]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Accel-Drivers-2021-Discussion</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Accel-Drivers-2021-Discussion"/>
-        <updated>2021-09-13T09:57:14.000Z</updated>
-        <summary type="html"><![CDATA[On and off for years has been talk of an accelerator subsystem for the Linux kernel considering that for now most AI training/inference accelerator drivers end up lodged within the "char/misc" area of the kernel. That accelerator subsystem discussion has been restarted with talks of having such a subsystem or moving those drivers within the GPU/DRM subsystem space...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15-rc1 Brings New NTFS Driver, In-Kernel SMB3 Server, AMD Changes, Intel DG2]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc1"/>
-        <updated>2021-09-13T00:22:40.000Z</updated>
-        <summary type="html"><![CDATA[As expected this evening the Linux 5.15-rc1 kernel was released to top off the two week merge window that saw many changes to the kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How Weet integrates localization into the GitLab pipeline with Lokalise]]></title>
         <id>https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/</id>
         <link href="https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/"/>
@@ -294,76 +375,6 @@ What is Weet?
 Weet is an asynchronous video communication tool designed to reduce the need for meetings. By combin…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Is A Very Exciting Kernel For AMD]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-AMD</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-AMD"/>
-        <updated>2021-09-12T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While working on my usual Linux kernel feature overview that summarizes the many articles over the past two weeks outlining all of the new features and changes merged, one area that particularly stands out for Linux 5.15 are all of AMD's upstream contributions that happened to make it in this kernel. There is a lot of new enablement on the AMD side -- both for CPUs and Radeon graphics -- but also improving existing hardware support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Software Foundation Saw $3M In Revenue, ~134M Changed Lines Of Code Last Year]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-FY2021-Report</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-FY2021-Report"/>
-        <updated>2021-09-12T11:11:29.000Z</updated>
-        <summary type="html"><![CDATA[The Apache Software Foundation recently published their FY2021 report for their year-ended 30 April. Even with the ongoing pandemic, the Apache Software Foundation managed to raise more than $3M USD and enjoyed a host of software successes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's Looking Like Folios / Pagesets Might Miss Making It Into Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Folios-Pagesets-MIA-5.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Folios-Pagesets-MIA-5.15"/>
-        <updated>2021-09-12T10:20:03.000Z</updated>
-        <summary type="html"><![CDATA[We are now down to the last day of the Linux 5.15 merge window and one of the patch series we have been waiting to see if it would land during this two week period was the "folios" code -- or that also was recently renamed to "pagesets" to address some concerns over the name...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RISC-V Gets Expanded Stack Randomization With Linux 5.15]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-Better-Stack-Rand</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RISC-V-Better-Stack-Rand"/>
-        <updated>2021-09-12T10:04:52.000Z</updated>
-        <summary type="html"><![CDATA[In addition to the RISC-V changes merged last week for the Linux 5.15 kernel, a second batch of patches was merged this weekend...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Preparing To Slightly Loosen Its Spectre Defaults]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Spectre-V2-V4-Going-Prctl-Def</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Spectre-V2-V4-Going-Prctl-Def"/>
-        <updated>2021-09-12T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A change first proposed last year to the Linux kernel's Spectre mitigation defaults looks like it will soon be sent in for the mainline kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Latest Progress On Rust For The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Linux-Kernel-Linaro-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Linux-Kernel-Linaro-2021"/>
-        <updated>2021-09-11T18:30:14.000Z</updated>
-        <summary type="html"><![CDATA[While the Rust programming language support for usage within the kernel isn't landing for the Linux 5.15 merge window ending this weekend, that effort remains ongoing. A status update on the effort was shared this week about Rust usage for the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Another Batch Of RadeonSI Optimizations Land In Mesa 21.3]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-More-For-Mesa-21.3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-More-For-Mesa-21.3"/>
-        <updated>2021-09-11T17:15:07.000Z</updated>
-        <summary type="html"><![CDATA[Another batch of minor optimizations were merged to Mesa 21.3 for the RadeonSI Gallium3D driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
