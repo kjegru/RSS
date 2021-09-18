@@ -1,10 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-17T00:39:33.272Z</id>
+    <id>urn:2021-09-18T00:34:24.187Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-17T00:39:33.272Z</updated>
+    <updated>2021-09-18T00:34:24.187Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Is Hiring So Linux Can Finally Have Good HDR Display Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-Hiring-For-Linux-HDR</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-Hiring-For-Linux-HDR"/>
+        <updated>2021-09-17T19:15:34.000Z</updated>
+        <summary type="html"><![CDATA[One of the areas where Linux has struggled on the desktop has been around HDR (high dynamic range) display support while that will hopefully be addressed in the coming months with Red Hat hiring an engineer to focus on that problem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Silicon / M1 Port Planned For GCC 12]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Apple-M1-Port-Plan</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Apple-M1-Port-Plan"/>
+        <updated>2021-09-17T18:41:26.000Z</updated>
+        <summary type="html"><![CDATA[Developers are hoping for next year's GCC 12 release they will have Apple AArch64 support on Darwin in place for being able to support Apple Silicon -- initially the M1 SoC -- on macOS with GCC...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experimenting Is Underway For Rust Code Within Mesa]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Rust-2021-Experiment</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Rust-2021-Experiment"/>
+        <updated>2021-09-17T17:39:50.000Z</updated>
+        <summary type="html"><![CDATA[Longtime Mesa developer Karol Herbst who has worked extensively on the open-source NVIDIA "Nouveau" driver as well as the OpenCL/compute stack while being employed by Red Hat is now toying with the idea of Rust code inside Mesa...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 18.04.6 LTS Released To Correct Broken Install Media]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-18.04.6-LTS-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-18.04.6-LTS-Released"/>
+        <updated>2021-09-17T17:06:12.000Z</updated>
+        <summary type="html"><![CDATA[The unplanned Ubuntu 18.04.6 LTS release is available today that was made on short notice for addressing unbootable media with Ubuntu 18.04.5...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Current State Of Intel Discrete Graphics On Linux: Almost "Fully Functional"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Status-XDC2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-DG1-Status-XDC2021"/>
+        <updated>2021-09-17T13:25:11.000Z</updated>
+        <summary type="html"><![CDATA[Along with bringing up DG2/Alchemist graphics card support on Linux, Intel engineers have been working to square away their support for the DG1 developer graphics card. This week thanks to XDC2021 is a fresh status update about what is working with this initial Intel graphics card on their open-source driver and what remains in the works...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Increasing Importance Of ACPI Platform Profiles With Today's Throttle-Happy Hardware]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Platform-Profiles-Axboe</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Platform-Profiles-Axboe"/>
+        <updated>2021-09-17T12:58:39.000Z</updated>
+        <summary type="html"><![CDATA[As covered several times going back to the end of last year, ACPI Platform Profile support has materialized in recent versions of the Linux kernel for the core infrastructure and implementations that work with the latest laptops from the likes of Dell, Lenovo, ASUS, and HP. This platform profile support is becoming increasingly important with expressing your power/cooling/performance preference so that your laptop behaves as one would expect...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LVFS Serves Up 2+ Million Firmware Downloads In The Past Month]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LVFS-2-Million-Downloads</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LVFS-2-Million-Downloads"/>
+        <updated>2021-09-17T11:54:45.000Z</updated>
+        <summary type="html"><![CDATA[The Linux Vendor Firmware Service (LVFS) in conjunction with FWUPD for offering easy-to-deploy firmware updates on Linux continues its meteoric rise...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KWinFT Continues Working On WLROOTS Render, Library Split]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-2021-WLROOTS-Continues</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KWinFT-2021-WLROOTS-Continues"/>
+        <updated>2021-09-17T09:55:47.000Z</updated>
+        <summary type="html"><![CDATA[KWinFT as a fork of KDE's KWin X11/Wayland compositor code continues making progress on driving fundamental display improvements and ironing out the Wayland support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiple Games Are Now Working With RADV's Ray-Tracing Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Ray-Tracing-Multi-Games</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Ray-Tracing-Multi-Games"/>
+        <updated>2021-09-17T09:00:58.000Z</updated>
+        <summary type="html"><![CDATA[Not only is Intel progressing with its open-source ray-tracing driver support but the Mesa Radeon Vulkan driver "RADV" has been rounding out its RT code too and now has multiple games correctly rendering...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel's PSH ISHTP Driver Readied On Linux For Systems Wanting To Forego A Traditional EC]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PSH-ISHTP-ECLite</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-PSH-ISHTP-ECLite"/>
+        <updated>2021-09-17T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It looks like Intel's ISHTP_ECLITE driver will be ready for mainlining in Linux 5.16 as a driver for newer systems skipping out on a traditional embedded control (EC) and instead using this EC-like IP as part of their Programmable Service Engine subsystem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.2.4]]></title>
+        <id>https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/"/>
+        <updated>2021-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.2.4 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+last month's 14.2 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Available in GitLab Free, Premium, and Ultimate:
+Removes cleanup job from Terraform.latest
+Run AWS Release rake task only if on latest stable tag
+Fix Elastic::MigrationWorker current_migration
+Derive virtual storage's filesystem id from its name
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[X.Org Could Use More Help Improving & Addressing Its Security]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Security-Help-2021</id>
@@ -251,36 +382,6 @@ Everything you …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Libinput 1.19 Released With Hold Gestures & High Resolution Wheel Scrolling]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=libinput-1.19</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=libinput-1.19"/>
-        <updated>2021-09-14T09:42:51.000Z</updated>
-        <summary type="html"><![CDATA[Libinput 1.19 is now available as the newest version of this Linux input handling library commonly used these days by both X.Org and Wayland desktops...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Raises Its GCC Compiler Version Requirement]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Raising-GCC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Raising-GCC"/>
-        <updated>2021-09-14T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.15-rc1 was released on Sunday with its many changes, landing on Monday was a late change to raise the baseline GCC version requirement for building the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa Lands Option That Can Help XWayland-Based Gaming On The Steam Deck]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Vulkan-WSI-No-Wait-XWay</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-Vulkan-WSI-No-Wait-XWay"/>
-        <updated>2021-09-14T00:48:47.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 21.3 today landed a debug option that can help with the XWayland-based gaming performance around latency and for power management as well...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to use Terratag to automatically manage tags and labels for your Terraform Code]]></title>
         <id>https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/</id>
         <link href="https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/"/>
@@ -292,76 +393,6 @@ GitLab the industry's leading DevOps platform. Not long ago, we announced the ab
 Terraform is the most widely ado…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts Initial Code For x86 User Interrupts On Linux  - Shows Great Performance Potential]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-x86-User-Interrupts</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-RFC-x86-User-Interrupts"/>
-        <updated>2021-09-13T20:38:01.000Z</updated>
-        <summary type="html"><![CDATA[In addition to the big Advanced Matrix Extensions support still being in flux and the kernel-side AMX code not yet being merged, another feature of next year's Xeon "Sapphire Rapids" that we are only now seeing in early published form for the Linux kernel is handling of x86 user interrupts...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FUTEX2 System Call Updated To Work On ARM]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-v3-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-v3-Patches"/>
-        <updated>2021-09-13T18:45:11.000Z</updated>
-        <summary type="html"><![CDATA[While Linux 5.15 has many new features and improvements, one of the patch series we have been eager to see land is the work introducing the new FUTEX2 system call. FUTEX2 can help improve the performance of newer Windows games running on Linux via Wine / Steam Play's Proton by better matching the Windows kernel behavior, but while it didn't land for Linux 5.15, at least a new version of the patches were posted...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zink OpenGL-On-Vulkan Tackling Support For More Games]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-September-Games</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zink-September-Games"/>
-        <updated>2021-09-13T17:54:34.000Z</updated>
-        <summary type="html"><![CDATA[After last month landing the Zink sub-allocator code for improved performance and also enabling OpenGL ES 3.2 support for Zink, lead developer Mike Blumenkrantz at Valve has been spending time this month working to get more games running on this OpenGL-over-Vulkan Mesa driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Debugger 11.1 Released With MTE Support, Core File Debugging For 64-bit Cygwin Apps]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GDB-11.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GDB-11.1-Released"/>
-        <updated>2021-09-13T17:34:49.000Z</updated>
-        <summary type="html"><![CDATA[GDB 11.1 is now available as the latest feature update to the GNU Debugger...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15 Delivers Many Features With New NTFS Driver, In-Kernel SMB3 Server, New Hardware]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30519</id>
-        <link href="https://www.phoronix.com/vr.php?view=30519"/>
-        <updated>2021-09-13T13:16:01.000Z</updated>
-        <summary type="html"><![CDATA[Feature development is over on the Linux 5.15 kernel with Linux 5.15-rc1 being issued. It's now on to testing and bug fixing over the next two months before the kernel is christened as stable. Here is our original Linux 5.15 feature overview about all of the big changes in this next kernel version.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 18.04.6 LTS Special Being Prepared To Deal With Unbootable Media]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-18.04.6-LTS-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-18.04.6-LTS-Coming"/>
-        <updated>2021-09-13T12:56:17.000Z</updated>
-        <summary type="html"><![CDATA[While Ubuntu 18.04.5 LTS shipped one year ago as the last planned point release to the "Bionic Beaver", an emergency issue is leading to Ubuntu 18.04.6 now being prepared...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Still-Pending AMD PSF Control Patch To Be Retailored For KVM]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-September</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Control-September"/>
-        <updated>2021-09-13T12:40:51.000Z</updated>
-        <summary type="html"><![CDATA[Of all the great stuff for AMD in Linux 5.15, one of the patches still not having yet been mainlined is the control support around Predictive Store Forwarding (PSF) with Zen 3 processors. It's been six months since AMD published their security whitepaper around PSF while the Linux patch has yet to be mainlined while now it seems will be updated for a reduced focus on KVM usage...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -671,19 +702,6 @@ GitLab subscriptions
 Access to GitLab Premium and Ultimate features is granted by a paid subscription.
 Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write a stageless CI/CD pipeline using GitLab 14.2]]></title>
-        <id>https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/</id>
-        <link href="https://about.gitlab.com/blog/2021/08/24/stageless-pipelines/"/>
-        <updated>2021-08-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab CI/CD technology has historically divided a pipeline into stages based on the typical development workflow. Now that GitLab 14.2 has launched, users can speed up cycle times by using the needs command to write a complete CI/CD pipeline with every job in the single stage. In fact, you can omit stages completely and have a "stageless" pipeline that executes entirely based on the needs dependencies.
-Understanding stages
-In GitLab CI/CD, you use stages to group jobs based on the development workflow and control the order of execution for CI/CD jobs.
-Pipelines execute each stage in order, where all jobs in a single stage run in parallel. After a stage completes, the pipeline moves on to execute the next stage and runs those jobs, and the process continues like this until the pipeline com…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
