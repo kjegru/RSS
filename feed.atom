@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-18T00:34:24.187Z</id>
+    <id>urn:2021-09-19T00:36:11.164Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-18T00:34:24.187Z</updated>
+    <updated>2021-09-19T00:36:11.164Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Is Now Slightly Less Broken For The DEC Alpha "Jensen"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Less-Broken-Jensen</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Less-Broken-Jensen"/>
+        <updated>2021-09-18T23:36:07.000Z</updated>
+        <summary type="html"><![CDATA[One has to wonder how much longer the Linux kernel will keep around some very old and known to be borked hardware support but at least for now the DECpc AXP 150 "Jensen" platform support is sticking around and with Linux 5.15 is no longer marked as "broken" outright...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DRM Driver Posted For AI Processing Unit - Initially Focused On Mediatek SoCs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-AI-APU-RFC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DRM-AI-APU-RFC"/>
+        <updated>2021-09-18T17:12:27.000Z</updated>
+        <summary type="html"><![CDATA[BayLibre developer Alexandre Bailon has posted a "request for comments" of a new open-source Direct Rendering Manager (DRM) driver for AI Processing Unit (APU) functionality. Initially the driver is catering to Mediatek SoCs with an AI co-processor but this DRM "APU" driver could be adapted to other hardware too...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple M1 USB Type-C Linux Support Code Sent Out For Testing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-USB-Type-C-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-USB-Type-C-Linux"/>
+        <updated>2021-09-18T13:05:58.000Z</updated>
+        <summary type="html"><![CDATA[The latest patches sent out for review/testing on the long mission for enabling Apple M1 support on Linux is the USB Type-C connectivity...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD + Valve Focusing On P-State / CPPC Driver With Schedutil For Better Linux Efficiency]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-P-State-XDC2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-P-State-XDC2021"/>
+        <updated>2021-09-18T11:26:08.000Z</updated>
+        <summary type="html"><![CDATA[As reported at the start of August, AMD and Valve have been working on Linux CPU performance/frequency scaling improvements with the Steam Deck being one of the leading motivators. As speculated at that time, their work would likely revolve around use of ACPI CPPC found with Zen 2 CPUs and newer. Published last week was that AMD P-State driver for Linux systems indeed now leveraging CPPC information. AMD formally presented this new driver yesterday at XDC2021...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GIMP 2.10.28 Released With More Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GIMP-2.10.28-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GIMP-2.10.28-Released"/>
+        <updated>2021-09-18T09:56:56.000Z</updated>
+        <summary type="html"><![CDATA[There's still some time to go before seeing the long-awaited GIMP 3.0 release for this open-source image manipulation program but at least out this weekend is GIMP 2.10.28 for bettering the current stable series...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Sees Another Big Batch Of Plasma Wayland Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=More-Plasma-Wayland-Sep-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=More-Plasma-Wayland-Sep-2021"/>
+        <updated>2021-09-18T09:42:36.000Z</updated>
+        <summary type="html"><![CDATA[Along with releasing Plasma 5.23 Beta this week, KDE developers have been busy on driving in a bunch of Plasma Wayland fixes and other refinements to their stack...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Red Hat Is Hiring So Linux Can Finally Have Good HDR Display Support]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-Hiring-For-Linux-HDR</id>
@@ -298,26 +358,6 @@ Thank you @ad-m]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[HP OMEN Laptops To Be Better Supported With Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=HP-OMEN-Linux-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=HP-OMEN-Linux-5.16"/>
-        <updated>2021-09-15T10:08:37.000Z</updated>
-        <summary type="html"><![CDATA[HP's higher-end "OMEN" laptop series is set to see better support with the next kernel cycle...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Intel Tremont Optimizations Heading To The GCC Compiler]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Tremont-Faster-GCC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Tremont-Faster-GCC"/>
-        <updated>2021-09-15T09:45:07.000Z</updated>
-        <summary type="html"><![CDATA[The GNU Compiler Collection has already supported Intel's Tremont cores as used by the low-power Jasper Lake platform. Now though coming to GCC are some optimizations to further enhance the performance when targeting the Tremont micro-architecture...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How QPage achieved automatic deployment and efficiency using the GitLab DevOps Platform]]></title>
         <id>https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/</id>
         <link href="https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/"/>
@@ -332,51 +372,11 @@ Everything you …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RadeonSI Lands Big Batch Of Improvements To Lower CPU Overhead]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-Lower-CPU</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-Lower-CPU"/>
-        <updated>2021-09-14T20:35:40.000Z</updated>
-        <summary type="html"><![CDATA[Following portions of the merge request landing, the rest of the RadeonSI CPU-overhead-lowering work was just merged to Mesa 21.3...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[oneAPI Level Zero Loader v1.5 Released With VPU Driver Recognition, Multi-Driver Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=oneAPI-Level-Zero-Loader-1.5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=oneAPI-Level-Zero-Loader-1.5"/>
-        <updated>2021-09-14T18:22:37.000Z</updated>
-        <summary type="html"><![CDATA[Intel has released a new version of their loader for oneAPI Level Zero for loading the Level Zero software driver components...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java 17 / OpenJDK 17 Hits GA With Maturing Vector API, Removal Planned For Applet API]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenJDK-17-Java-17</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenJDK-17-Java-17"/>
-        <updated>2021-09-14T17:48:18.000Z</updated>
-        <summary type="html"><![CDATA[Java 17 has made it to general availability status today with a number of improvements...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[NVIDIA RTX 30 Series Resizable BAR Support Continues Helping Performance On Linux]]></title>
         <id>https://www.phoronix.com/vr.php?view=30523</id>
         <link href="https://www.phoronix.com/vr.php?view=30523"/>
         <updated>2021-09-14T13:09:13.000Z</updated>
         <summary type="html"><![CDATA[While NVIDIA has been supporting Resizable BAR for a while now with their GeForce RTX 30 series graphics cards, for those exclusively using Linux it remains more of a challenge due to AIB partners generally not releasing any vBIOS updates for ReBAR support that can be easily applied under Linux. But if you do carry out an update -- such as under Windows -- the performance uplift can be worthwhile if using a game that can benefit from the support.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Seamless Update: Intel Preparing For System Firmware Updates Without The Reboot]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Seamless-Update</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Seamless-Update"/>
-        <updated>2021-09-14T10:05:13.000Z</updated>
-        <summary type="html"><![CDATA["Intel Seamless Update" is a forthcoming feature for Intel platforms seemingly first being exposed by their new Linux kernel patches working on the functionality... Intel is working on being able to carry out system firmware upates such as UEFI updates but doing so at run-time and being able to avoid the reboot in the process...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
