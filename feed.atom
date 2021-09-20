@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-19T00:36:11.164Z</id>
+    <id>urn:2021-09-20T00:39:31.612Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-19T00:36:11.164Z</updated>
+    <updated>2021-09-20T00:39:31.612Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[HarfBuzz 3.0 Released With Unicode 14.0 Support, More APIs Considered Stable]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=HarfBuzz-3.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=HarfBuzz-3.0"/>
+        <updated>2021-09-19T20:11:39.000Z</updated>
+        <summary type="html"><![CDATA[HarfBuzz 3.0 has been released as a new version of this widely-used, open-source text shaping library that is used by the major Linux desktop environments along with Chrome OS, Java, Android, Chrome, and a plethora of other software projects and UI toolkits...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[That Didn't Take Long: KSMBD In-Kernel File Server Already Needs Important Security Fix]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SMB3-File-Server-Security-Fix</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SMB3-File-Server-Security-Fix"/>
+        <updated>2021-09-19T17:05:25.000Z</updated>
+        <summary type="html"><![CDATA[It was just a few weeks back that KSMBD was merged into Linux 5.15 while now it's seeing its first important security fix...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 To Support Sensor Readings On More ASUS Motherboards]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-WMI-NCT6775</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ASUS-WMI-NCT6775"/>
+        <updated>2021-09-19T10:19:19.000Z</updated>
+        <summary type="html"><![CDATA[With a change to the nct6775 hardware monitoring sensor driver, more ASUS motherboards should enjoy working sensor support come Linux 5.16...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jolla Releases Sailfish OS 4.2 For Continuing To Improve This Linux-Based Smartphone OS]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Jolla-Sailfish-OS-4.2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Jolla-Sailfish-OS-4.2"/>
+        <updated>2021-09-19T09:53:59.000Z</updated>
+        <summary type="html"><![CDATA[Jolla this week released Sailfish OS 4.2 "Verla" as the newest version of this Linux-based smartphone operating system that continues to be made commercially available for various devices...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDL Still Has A Number Of Issues To Address Before Defaulting To Wayland]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-Wayland-State-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SDL-Wayland-State-2021"/>
+        <updated>2021-09-19T09:45:57.000Z</updated>
+        <summary type="html"><![CDATA[The recently released SDL 2.0.16 brought much-improved Wayland support but it's still not quite good enough yet to have it be the default over the SDL X11 path. However, developers continue working in that direction to eventually use it by default...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15 Is Now Slightly Less Broken For The DEC Alpha "Jensen"]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Less-Broken-Jensen</id>
@@ -303,56 +353,6 @@ Thank you @ad-m]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-Mesa-EGL-Windows"/>
         <updated>2021-09-15T22:14:15.000Z</updated>
         <summary type="html"><![CDATA[While Microsoft has long had WGL as an API analogous to EGL for residing between OpenGL and the Windows interfaces, Microsoft has now wired up an EGL implementation for Mesa that works on Windows...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reverse Engineering, Open-Source Driver Writing Continues For Apple's M1 GPU]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-AGX-XDC2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-AGX-XDC2021"/>
-        <updated>2021-09-15T18:11:25.000Z</updated>
-        <summary type="html"><![CDATA[Alyssa Rosenzweig spoke today at the virtual X.Org Developers Conference about the ongoing work for bringing up Linux display and graphics support on the Apple M1 graphics processor...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon Pro Software for Enterprise 21.Q3 Released For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Pro-Software-21.Q3</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Radeon-Pro-Software-21.Q3"/>
-        <updated>2021-09-15T17:32:12.000Z</updated>
-        <summary type="html"><![CDATA[AMD today released their quarterly update to the Radeon Pro Software for Enterprise graphics driver package, which includes an updated Linux build as well...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Publishes Initial Firmware For Yellow Carp APUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Yellow-Carp-FW</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Yellow-Carp-FW"/>
-        <updated>2021-09-15T13:25:49.000Z</updated>
-        <summary type="html"><![CDATA[A small but important step forward is seeing AMD recently publishing their binary firmware files in advance of new GPU/APU launches for rounding out their Linux driver support stack...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raspberry Pi V3DV Driver Still Working On Vulkan 1.1 Conformance, More Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-2021-Status</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-2021-Status"/>
-        <updated>2021-09-15T12:07:23.000Z</updated>
-        <summary type="html"><![CDATA[Iago Toral of Igalia kicked off the first day of the virtual XDC2021 developer conference today by sharing a status update on V3DV as the open-source Mesa Vulkan driver most notably used for Raspberry Pi 4 and newer...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Orange Publishes An In-Kernel eBPF-Powered Cache - Can Speed Up Memcached By ~18x]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Orange-BPF-Memory-Cache-BMC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Orange-BPF-Memory-Cache-BMC"/>
-        <updated>2021-09-15T10:28:19.000Z</updated>
-        <summary type="html"><![CDATA[French telecommunications giant Orange has published "BMC" as the (e)BPF Memory Cache providing a cache focused on memcached usage within the Linux kernel...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
