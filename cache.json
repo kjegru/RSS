@@ -22,6 +22,24 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/",
+          "author": null,
+          "description": "Today we are releasing version 13.12.12 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthe 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nDerive virtual storage's filesystem id from its name\nAllow Raspberry Pi builds on Graviton\nStop pinning versions of perl related packages in UBI images\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
+          "link": "https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/",
+          "publishedOn": "2021-09-22T00:00:00.000Z",
+          "wordCount": 1037,
+          "title": "GitLab Patch Release: 13.12.12"
+        },
+        {
+          "id": "https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/",
+          "author": null,
+          "description": "Today, we are excited to announce the release of GitLab 14.3 with project-level security scan execution policies, next generation SAST to reduce Ruby false positives, group-level permissions for protected environments, group access for the GitLab Kubernetes Agent, and much more!\nThese are just a few highlights from the 40+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.4 release kickoff video.\nJoin us for an upcoming event\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nfeistel\n\n@feistel started contributing to GitLab Pages in September 2020. In the last 4 months, they have made continuous contributions to improve Pages by adding features, fi…",
+          "link": "https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/",
+          "publishedOn": "2021-09-22T00:00:00.000Z",
+          "wordCount": 6022,
+          "title": "GitLab 14.3 releases Project Security Policies & Next Gen SAST"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/",
           "author": null,
           "description": "The earlier a feature or process is introduced in the multi-step software development lifecycle (SDLC), the more likely it is to be fully integrated into the product.\nIt's well documented how security can shift left using a DevOps platform, so it's time to make the case that accessbility needs to be thought about earlier (and, clearly, a DevOps platform can facilitate that too). Although there are laws that require applications to meet certain accessibility requirements, which opens an application up to a broader user base, rarely is accessibility considered a core product requirement. Instead, it is just a test tacked on at the end instead of being built into the DevOps platform process.\n[Learn more about how the open source development community helps build accessible software]\n\"The prob…",
@@ -45,7 +63,7 @@
           "description": "Today we are releasing version 14.2.4 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nlast month's 14.2 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nRemoves cleanup job from Terraform.latest\nRun AWS Release rake task only if on latest stable tag\nFix Elastic::MigrationWorker current_migration\nDerive virtual storage's filesystem id from its name\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/",
           "publishedOn": "2021-09-17T00:00:00.000Z",
-          "wordCount": 1015,
+          "wordCount": 1056,
           "title": "GitLab Patch Release: 14.2.4"
         },
         {
@@ -162,7 +180,7 @@
           "description": "Today we are releasing version 13.12.11 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthe 13.12 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nThe main purpose of this release is to resolve high CPU usage by the Gitaly\nserver:\nOnly activate Git pack-objects hook if cache is enabled\nBackport improved replication logic\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/09/02/gitlab-13-12-11-released/",
           "publishedOn": "2021-09-02T00:00:00.000Z",
-          "wordCount": 1013,
+          "wordCount": 1044,
           "title": "GitLab Patch Release: 13.12.11"
         },
         {
@@ -171,7 +189,7 @@
           "description": "Today we are releasing versions 14.0.10 and 14.1.5 for GitLab Community Edition and Enterprise Edition.\nThese versions resolve a number of regressions and bugs in the\n14.0 and\n14.1 releases.\nGitLab Community Edition and Enterprise Edition\nThe main purpose of these two releases is to resolve high CPU usage by the\nGitaly server:\nOnly activate Git pack-objects hook if cache is enabled\nBackport improved replication logic\nAdditionally, 14.1.5 includes the following fixes:\nGeo: Replicate multi-arch containers\nRun AWS Release rake task only if on latest stable tag\nImportant notes on upgrading\nThese versions do not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/09/02/gitlab-14-0-10-released/",
           "publishedOn": "2021-09-02T00:00:00.000Z",
-          "wordCount": 1040,
+          "wordCount": 1075,
           "title": "GitLab Patch Release: 14.0.10 and 14.1.5"
         },
         {
@@ -189,26 +207,8 @@
           "description": "Today we are releasing version 14.2.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nlast month's 14.2 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAvailable in GitLab Free, Premium, and Ultimate:\nGeo: Replicate multi-arch containers\nReset severity_levels default\nCreate 14.2 In-app top 7 product highlights\nFix OrphanedInviteTokensCleanup migration\nFix Live Markdown Preview in personal and subgroup projects\nDowngrade grpc from 1.38.0 to 1.30.2 for compatibility with older CPUs\nRestore proper contents to toolbox ubi8 image\nOnly activate Git pack-objects hook if cache is enabled\nImportant notes on upgrading\nThis version does include post deploy db migrations. For multi-node deployments, it should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/09/01/gitlab-14-2-3-released/",
           "publishedOn": "2021-09-01T00:00:00.000Z",
-          "wordCount": 1048,
+          "wordCount": 1079,
           "title": "GitLab Patch Release: 14.2.3"
-        },
-        {
-          "id": "https://about.gitlab.com/releases/2021/08/31/security-release-gitlab-14-2-2-released/",
-          "author": null,
-          "description": "Today we are releasing versions 14.2.2, 14.1.4, and 14.0.9 for GitLab Community Edition (CE) and Enterprise Edition (EE).\nThese versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.\nGitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days a…",
-          "link": "https://about.gitlab.com/releases/2021/08/31/security-release-gitlab-14-2-2-released/",
-          "publishedOn": "2021-08-31T00:00:00.000Z",
-          "wordCount": 2081,
-          "title": "GitLab Security Release: 14.2.2, 14.1.4, and 14.0.9"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/08/30/secure-pipeline-with-single-sign-in/",
-          "author": null,
-          "description": "If there is one thing that recent cyberattacks at companies such as SolarWinds, Codecov, and Kaseya have taught us, it's that software build pipelines are being targeted for attacks more than ever before. Hackers are no longer just attacking the bits and bytes of source code that go into our products, but also the development, testing, and build infrastructure tools that are used to build these products.\nEven if you believe your company is at low risk of an attack, it's also important to think about your customers. Businesses with high profile customers – like government agencies or large, multinational corporations that use your products – might have attackers target them by hacking your company, or more specifically, the software you provide them.\nThe incidents at Solarwinds, Codecov, an…",
-          "link": "https://about.gitlab.com/blog/2021/08/30/secure-pipeline-with-single-sign-in/",
-          "publishedOn": "2021-08-30T00:00:00.000Z",
-          "wordCount": 2794,
-          "title": "How to secure your software build pipeline using code signing"
         }
       ]
     },
@@ -218,12 +218,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-FAQ",
+          "author": null,
+          "description": "Valve today published a \"Steam Deck FAQ\" page sharing some additional information on this forthcoming Arch Linux powered handheld game system that will begin shipping at the end of Q4...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-FAQ",
+          "publishedOn": "2021-09-23T00:18:02.000Z",
+          "wordCount": 855,
+          "title": "Valve Publishes New Steam Deck FAQ With A Few New Details Shared"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Android-Linux-Upstream-First",
+          "author": null,
+          "description": "Google's Android had been notorious for all of its downstream patches carried by the mobile operating system as well as various vendor/device kernel trees while in recent years more of that code has been upstreamed. Google has also been shifting to the Android Generic Kernel Image (GKI) as the basis for all their product kernels to further reduce the fragmentation. Looking ahead, Google is now talking of an \"upstream first\" approach for pushing new kernel features...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Android-Linux-Upstream-First",
+          "publishedOn": "2021-09-22T18:38:46.000Z",
+          "wordCount": 952,
+          "title": "Google Finally Shifting To \"Upstream First\" Linux Kernel Approach For Android Features"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-RADV-RT-For-Older-GPUs",
+          "author": null,
+          "description": "Merged yesterday for Mesa 21.3 was open-source Vulkan ray-tracing for AMD RDNA2 / RX 6000 series GPUs with the RADV driver. Opened today now is a merge request that would provide Vulkan ray-tracing with RADV to pre-RDNA2 GPUs on this driver going back to the likes of Polaris, granted the performance is another story...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-RADV-RT-For-Older-GPUs",
+          "publishedOn": "2021-09-22T17:14:25.000Z",
+          "wordCount": 937,
+          "title": "Mesa Merge Pending For Vulkan Ray-Tracing On Older AMD GPUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Released",
+          "author": null,
+          "description": "GNOME 41 is out as the latest half-year update to this open-source desktop environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Released",
+          "publishedOn": "2021-09-22T15:23:58.000Z",
+          "wordCount": 737,
+          "title": "GNOME 41 Released With Wayland Improvements, More Performance Tuning"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30535",
+          "author": null,
+          "description": "Earlier this month AMD posted their initial public patches for the AMD P-State CPU frequency scaling driver that leverages ACPI CPPC for ultimately aiming to provide better power efficiency and more responsive CPU frequency scaling / performance state decisions on Zen 3 (and Zen 2 eventually) processors. This is part of the effort around AMD and Valve collaborating for better Linux efficiency especially with the AMD-powered Steam Deck.",
+          "link": "https://www.phoronix.com/vr.php?view=30535",
+          "publishedOn": "2021-09-22T13:38:59.000Z",
+          "wordCount": 945,
+          "title": "An Early Look At The AMD P-State CPPC Driver Performance vs. ACPI CPUFreq"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-Better-OpenACC-Performance",
+          "author": null,
+          "description": "While the GNU Compiler Collection has supported OpenACC for a few years now as this parallel programming standard popular with GPUs/accelerators, the current implementation has been found to be inadequate for many real-world HPC workloads leveraging OpenACC. Fortunately, Siemens has been working to improve GCC's OpenACC kernels support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-Better-OpenACC-Performance",
+          "publishedOn": "2021-09-22T10:40:26.000Z",
+          "wordCount": 862,
+          "title": "Better Support & Performance For OpenACC Kernels Is Coming To GCC"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Aya-LPC2021-Update",
+          "author": null,
+          "description": "Aya was presented during this week's Linux Plumbers Conference for improving the eBPF developer experience by allowing Rust programs to easily run within the kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Aya-LPC2021-Update",
+          "publishedOn": "2021-09-22T09:57:22.000Z",
+          "wordCount": 805,
+          "title": "Aya Makes It Easy To Write Rust-Based eBPF Programs For The Linux Kernel"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-19",
+          "author": null,
+          "description": "UBports on Tuesday released Ubuntu Touch OTA-19 as the latest refinement to this Ubuntu Linux spin for smartphones and tablets...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-19",
+          "publishedOn": "2021-09-22T07:40:00.000Z",
+          "wordCount": 800,
+          "title": "Ubuntu Touch OTA-19 Released - Still Based On Ubuntu 16.04"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.2",
+          "author": null,
+          "description": "Mesa point releases generally come every two weeks but for the past month have fallen off the wagon. Mesa 21.2.1 came in mid-August and on Tuesday was finally succeeded by Mesa 21.2.2 as a \"late and very large\" update...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.2",
+          "publishedOn": "2021-09-22T04:00:00.000Z",
+          "wordCount": 861,
+          "title": "Mesa 21.2.2 Released \"Late & Very Large\""
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC1",
           "author": null,
           "description": "More than three years after X.Org Server 1.20 was released, it's set to finally be succeeded soon by X.Org Server 21.1 under its new versioning scheme. Out today is the X.org Server 21.1 release candidate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC1",
           "publishedOn": "2021-09-21T22:55:00.000Z",
-          "wordCount": 942,
+          "wordCount": 891,
           "title": "X.Org Server 21.1 RC1 Released With VRR Support For Modesetting Driver, Other Features"
         },
         {
@@ -232,7 +313,7 @@
           "description": "AMD's open-source Linux graphics driver engineers are working to overhaul how the initial driver loading with device enumeration happens to ultimately make it more robust. In the process though PCI IDs become less important and in turn less of an avenue for exposing possible indicators of new graphics cards...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Device-Enumeration-IP",
           "publishedOn": "2021-09-21T21:00:00.000Z",
-          "wordCount": 1210,
+          "wordCount": 1173,
           "title": "AMDGPU Linux Driver To Overhaul Its Approach To Device Enumeration"
         },
         {
@@ -241,7 +322,7 @@
           "description": "Cycles X as a modernizing of Blender's Cycles rendering engine has now landed in the latest development code for Blender 3.0. Cycles X brings big performance improvements but does eliminate OpenCL support in the process...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Blender-3.0-Lands-Cycles-X",
           "publishedOn": "2021-09-21T19:33:07.000Z",
-          "wordCount": 935,
+          "wordCount": 964,
           "title": "Cycles X Merged Into Blender 3.0 With NVIDIA CUDA/OptiX Support, AMD HIP Pending"
         },
         {
@@ -250,7 +331,7 @@
           "description": "Chrome 94 is available today as another exciting update for Google's web browser...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-94-Released",
           "publishedOn": "2021-09-21T18:48:29.000Z",
-          "wordCount": 882,
+          "wordCount": 800,
           "title": "Chrome 94 Released With WebGPU For Testing, WebCodecs API Now Official"
         },
         {
@@ -259,7 +340,7 @@
           "description": "Oracle engineers have been working on \"gprofng\" as a next-generation GNU Profiler that can analyze production binaries. Oracle talked up Gprofng today during the GNU Tools Track as part of Linux Plumbers Conference 2021...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Profiler-gprofng",
           "publishedOn": "2021-09-21T18:21:41.000Z",
-          "wordCount": 767,
+          "wordCount": 796,
           "title": "Oracle's Next-Generation GNU Profiler \"gprofng\" Is Looking Great For Developers"
         },
         {
@@ -268,7 +349,7 @@
           "description": "The Linux Foundation announced today they will be hosting the PaSh project that is focused on automatically parallelizing POSIX shell scripts...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Foundation-PaSh",
           "publishedOn": "2021-09-21T17:16:59.000Z",
-          "wordCount": 791,
+          "wordCount": 820,
           "title": "Linux Foundation To Host PaSh For Automatic Parallelizing Of Shell Scripts"
         },
         {
@@ -277,7 +358,7 @@
           "description": "While there is now KSMBD with Linux 5.15 for offering an in-kernel SMB file server, its scope is much more limited than that of the Samba project in user-space. With that said, Samba 4.15 is out now with its latest batch of features and improvements for open-source SMB/CIFS support on Linux and other platforms...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Samba-4.15",
           "publishedOn": "2021-09-21T12:40:31.000Z",
-          "wordCount": 875,
+          "wordCount": 673,
           "title": "Samba 4.15 Released With Improved CLI Experience, Modernized VFS Interface"
         },
         {
@@ -286,7 +367,7 @@
           "description": "Canonical is announcing this morning they are extending the Ubuntu 14.04 LTS \"Trusty Tahr\" and Ubuntu 16.04 LTS \"Xenial Xerus\" releases to a ten year lifespan...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-14.04-16.04-Ten-Years",
           "publishedOn": "2021-09-21T12:00:00.000Z",
-          "wordCount": 896,
+          "wordCount": 845,
           "title": "Canonical Extending Ubuntu 14.04/16.04 LTS Support To Ten Years"
         },
         {
@@ -295,7 +376,7 @@
           "description": "Going public back in April was the provisional specification around the Vulkan Video extensions as a new industry-standard video encode/decode interface. While several months have passed, there hasn't been much activity yet in the open-source space around Vulkan Video...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-Video-XDC2021",
           "publishedOn": "2021-09-21T10:33:48.000Z",
-          "wordCount": 829,
+          "wordCount": 813,
           "title": "Vulkan Video Decoding Still In The Early Stages For Open-Source"
         },
         {
@@ -304,7 +385,7 @@
           "description": "Landing overnight into Mesa 21.3 was experimentally enabling the Vulkan ray-tracing extensions within the open-source Radeon \"RADV\" driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RADV-Ray-Tracing",
           "publishedOn": "2021-09-21T09:25:36.000Z",
-          "wordCount": 858,
+          "wordCount": 758,
           "title": "Mesa 21.3 Lands Initial Radeon Ray-Tracing Support In Open-Source RADV Vulkan Driver"
         },
         {
@@ -313,7 +394,7 @@
           "description": "In addition to AMD's increasing Linux kernel contributions, they are also contributing more improvements in user-space too thanks to their super-computing wins and other big enterprise deployments that are Linux-based. One of the areas talked about this week at the Linux Plumbers Conference with the GNU Tools track is how they are working to extend the DWARF debug format to better handle GPU debugging...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Extending-DWARF-GPUs",
           "publishedOn": "2021-09-21T04:00:00.000Z",
-          "wordCount": 935,
+          "wordCount": 839,
           "title": "AMD Extending DWARF To Better Handle GPU Debugging, Continues Collaborating With GCC & LLVM"
         },
         {
@@ -322,7 +403,7 @@
           "description": "While Oktoberfest was once again cancelled due to the COVID-19 pandemic (then again, due to the state of the ad industry / ad-block users we haven't had any European meet-up / open-source gathering in years), the wiesn would have kicked off this past weekend. So as is tradition, there is the Phoronix Premium Oktoberfest sale where you can join the ad-free service as a reduced rate. If you enjoy the daily, original Linux and open-source content on Phoronix with plenty of benchmarking, you can do so at a reduced rate...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Oktoberfest-2021-Special",
           "publishedOn": "2021-09-21T03:59:36.000Z",
-          "wordCount": 1036,
+          "wordCount": 1020,
           "title": "Phoronix Ad-Free/Premium Special For Oktoberfest 2021"
         },
         {
@@ -331,7 +412,7 @@
           "description": "While Intel is normally quite good with their new hardware support being in good shape well ahead of launch, their new code for supporting the ENQCMD functionality for the Data Streaming Accelerator (DSA) with Xeon \"Sapphire Rapids\" has been an exception. This summer the mainline Linux kernel disabled ENQCMD support since the code was \"broken beyond repair\" while now Intel engineers have sent out a new series looking to get it re-enabled...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ENQCMD-Restoring-Patches",
           "publishedOn": "2021-09-20T20:25:44.000Z",
-          "wordCount": 889,
+          "wordCount": 873,
           "title": "Intel Posts New Linux Patches Looking To Re-Enable ENQCMD Ahead Of Sapphire Rapids"
         },
         {
@@ -340,7 +421,7 @@
           "description": "An Open Printing micro-conference took place today during the Linux Plumbers Conference 2021 week. While it's hard to get excited about printers in 2021, it is exciting the renewed effort around CUPS with it now being back to effectively led by the community and CUPS founder Michael Sweet who left Apple. CUPS 2.4 is coming as the first feature release in quite a while and then CUPS 2.5 followed by CUPS 3.0 are already being talked about with features being discussed...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CUPS-2.4-Next-Year-Then-2.5-3.0",
           "publishedOn": "2021-09-20T19:02:04.000Z",
-          "wordCount": 1015,
+          "wordCount": 1044,
           "title": "CUPS 2.4 Coming Next Month, CUPS 2.5 + CUPS 3.0 Already In Planning"
         },
         {
@@ -349,7 +430,7 @@
           "description": "OpenVPN has been implementing a kernel module for data channel offload (DCO) capabilities to enhance the performance of this virtual private network system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenVPN-DCO-Kernel",
           "publishedOn": "2021-09-20T18:31:55.000Z",
-          "wordCount": 973,
+          "wordCount": 881,
           "title": "OpenVPN DCO Linux Kernel Module Aims To Offer Faster VPN Performance"
         },
         {
@@ -358,7 +439,7 @@
           "description": "NVIDIA has released their latest 470 series Linux driver point release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.74-Linux",
           "publishedOn": "2021-09-20T13:47:07.000Z",
-          "wordCount": 878,
+          "wordCount": 907,
           "title": "NVIDIA 470.74 Linux Driver Released With Several Fixes"
         },
         {
@@ -367,7 +448,7 @@
           "description": "DXVK 1.9.2 is out as the newest version of this key library necessary to the success of Valve's Steam Play (Proton) by translating Direct3D 9/10/11 calls to Vulkan for a much more performant Windows gaming experience on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-1.9.2-Released",
           "publishedOn": "2021-09-20T13:36:52.000Z",
-          "wordCount": 1042,
+          "wordCount": 991,
           "title": "DXVK 1.9.2 Released With More Games In Better Shape"
         },
         {
@@ -376,7 +457,7 @@
           "description": "With the m68k community continuing to be active around supporting the vintage Motorola 68000 series with modern open-source software, Rust has now merged support for these old processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Adds-Motorola-M68k",
           "publishedOn": "2021-09-20T13:02:30.000Z",
-          "wordCount": 750,
+          "wordCount": 779,
           "title": "Rust Lands Support For The Motorola 68000 Processors"
         },
         {
@@ -385,7 +466,7 @@
           "description": "Earlier this year AMD went public with prototyping CRIU support for Radeon GPUs around ROCm to be able to checkpoint/freeze running compute workloads and to then restore them at a later point. This CRIU focus is driven by their big accelerator needs and forthcoming supercomputers for migrating workloads particularly within containers. AMD continues working on CRIU support for GPUs and last week provided an update on the project...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-ROCm-CRIU-XDC2021",
           "publishedOn": "2021-09-20T12:21:50.000Z",
-          "wordCount": 952,
+          "wordCount": 856,
           "title": "AMD Continues CRIU Work To Checkpoint/Restore ROCm Compute Workloads"
         },
         {
@@ -394,7 +475,7 @@
           "description": "NVIDIA is contributing a new open-source driver to the upstream Linux kernel for dealing with upcoming laptops where the backlight controls are handled by the device's embedded controller (EC)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-EC-Driven-Backlights",
           "publishedOn": "2021-09-20T11:17:47.000Z",
-          "wordCount": 802,
+          "wordCount": 786,
           "title": "NVIDIA Prepares The Linux Kernel For Future Laptops With EC-Driven Backlights"
         },
         {
@@ -403,7 +484,7 @@
           "description": "Fedora Workstation 35 will hopefully be out at the end of October (currently the beta is running behind schedule) and when it does ship it's once again at the bleeding-edge of Linux features. Fedora Workstation 35 is shaping up to be another great release for those interested in a feature-rich desktop experience...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fedora-35-Great-Features-Coming",
           "publishedOn": "2021-09-20T10:00:59.000Z",
-          "wordCount": 1080,
+          "wordCount": 1063,
           "title": "Red Hat's Upstream Contributions Are Making For A Great Fedora Workstation 35"
         },
         {
@@ -412,80 +493,8 @@
           "description": "For those continuing to make use of the X.Org Server, xf86-input-libinput 1.2 is now available for integrating the latest functionality of libinput input handling library...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=xf86-input-libinput-1.2",
           "publishedOn": "2021-09-20T09:38:07.000Z",
-          "wordCount": 805,
+          "wordCount": 834,
           "title": "xf86-input-libinput 1.2 Brings Touchpad Gestures, High Resolution Scrolling"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc2",
-          "author": null,
-          "description": "Linux 5.15-rc2 is now available as the latest weekly release candidate for this next version of the Linux kernel. Linux 5.15 in turn should be out as stable around the start of November...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc2",
-          "publishedOn": "2021-09-20T00:48:15.000Z",
-          "wordCount": 928,
-          "title": "Linux 5.15-rc2 Released With Many Fixes, Addressing Issues Raised By \"-Werror\""
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=HarfBuzz-3.0",
-          "author": null,
-          "description": "HarfBuzz 3.0 has been released as a new version of this widely-used, open-source text shaping library that is used by the major Linux desktop environments along with Chrome OS, Java, Android, Chrome, and a plethora of other software projects and UI toolkits...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=HarfBuzz-3.0",
-          "publishedOn": "2021-09-19T20:11:39.000Z",
-          "wordCount": 759,
-          "title": "HarfBuzz 3.0 Released With Unicode 14.0 Support, More APIs Considered Stable"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SMB3-File-Server-Security-Fix",
-          "author": null,
-          "description": "It was just a few weeks back that KSMBD was merged into Linux 5.15 while now it's seeing its first important security fix...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SMB3-File-Server-Security-Fix",
-          "publishedOn": "2021-09-19T17:05:25.000Z",
-          "wordCount": 862,
-          "title": "That Didn't Take Long: KSMBD In-Kernel File Server Already Needs Important Security Fix"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-NCT6775",
-          "author": null,
-          "description": "With a change to the nct6775 hardware monitoring sensor driver, more ASUS motherboards should enjoy working sensor support come Linux 5.16...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ASUS-WMI-NCT6775",
-          "publishedOn": "2021-09-19T10:19:19.000Z",
-          "wordCount": 894,
-          "title": "Linux 5.16 To Support Sensor Readings On More ASUS Motherboards"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Jolla-Sailfish-OS-4.2",
-          "author": null,
-          "description": "Jolla this week released Sailfish OS 4.2 \"Verla\" as the newest version of this Linux-based smartphone operating system that continues to be made commercially available for various devices...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Jolla-Sailfish-OS-4.2",
-          "publishedOn": "2021-09-19T09:53:59.000Z",
-          "wordCount": 802,
-          "title": "Jolla Releases Sailfish OS 4.2 For Continuing To Improve This Linux-Based Smartphone OS"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-Wayland-State-2021",
-          "author": null,
-          "description": "The recently released SDL 2.0.16 brought much-improved Wayland support but it's still not quite good enough yet to have it be the default over the SDL X11 path. However, developers continue working in that direction to eventually use it by default...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SDL-Wayland-State-2021",
-          "publishedOn": "2021-09-19T09:45:57.000Z",
-          "wordCount": 932,
-          "title": "SDL Still Has A Number Of Issues To Address Before Defaulting To Wayland"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Less-Broken-Jensen",
-          "author": null,
-          "description": "One has to wonder how much longer the Linux kernel will keep around some very old and known to be borked hardware support but at least for now the DECpc AXP 150 \"Jensen\" platform support is sticking around and with Linux 5.15 is no longer marked as \"broken\" outright...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Less-Broken-Jensen",
-          "publishedOn": "2021-09-18T23:36:07.000Z",
-          "wordCount": 913,
-          "title": "Linux 5.15 Is Now Slightly Less Broken For The DEC Alpha \"Jensen\""
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-AI-APU-RFC",
-          "author": null,
-          "description": "BayLibre developer Alexandre Bailon has posted a \"request for comments\" of a new open-source Direct Rendering Manager (DRM) driver for AI Processing Unit (APU) functionality. Initially the driver is catering to Mediatek SoCs with an AI co-processor but this DRM \"APU\" driver could be adapted to other hardware too...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DRM-AI-APU-RFC",
-          "publishedOn": "2021-09-18T17:12:27.000Z",
-          "wordCount": 887,
-          "title": "DRM Driver Posted For AI Processing Unit - Initially Focused On Mediatek SoCs"
         },
         {
           "id": "https://www.phoronix.com/vr.php?view=30531",
@@ -493,17 +502,8 @@
           "description": "As usual when the Linux 5.15 merge window began wrapping up, I set out to dive into its performance to see what is in store for this next version of the kernel and whether there was any regressions or other performance changes worth noting. Linux 5.15 overall has been in good shape for the \"-rc1\" state except noticing that code compilation workloads were taking longer on multiple Linux 5.15-rc1-running systems than Linux 5.14 or prior. Seeing it across multiple systems and a very real-world regression, it was worth bisecting and looking closer so here are the details.",
           "link": "https://www.phoronix.com/vr.php?view=30531",
           "publishedOn": "2021-09-16T11:00:00.000Z",
-          "wordCount": 1009,
+          "wordCount": 1042,
           "title": "Running Linux 5.15-rc1 Causing A New Slowdown... Here's A Look"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30523",
-          "author": null,
-          "description": "While NVIDIA has been supporting Resizable BAR for a while now with their GeForce RTX 30 series graphics cards, for those exclusively using Linux it remains more of a challenge due to AIB partners generally not releasing any vBIOS updates for ReBAR support that can be easily applied under Linux. But if you do carry out an update -- such as under Windows -- the performance uplift can be worthwhile if using a game that can benefit from the support.",
-          "link": "https://www.phoronix.com/vr.php?view=30523",
-          "publishedOn": "2021-09-14T13:09:13.000Z",
-          "wordCount": 936,
-          "title": "NVIDIA RTX 30 Series Resizable BAR Support Continues Helping Performance On Linux"
         }
       ]
     }
