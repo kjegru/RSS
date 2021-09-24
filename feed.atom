@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-23T00:37:12.842Z</id>
+    <id>urn:2021-09-24T00:35:23.913Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-23T00:37:12.842Z</updated>
+    <updated>2021-09-24T00:35:23.913Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15 Lands Memcg Performance Regression Fix]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Regression-Fixed</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Regression-Fixed"/>
+        <updated>2021-09-23T23:24:14.000Z</updated>
+        <summary type="html"><![CDATA[As a follow-up to A Fix Is Pending For That Linux 5.15 Performance Regression, Linus Torvalds decided to pull the fix directly into Linux 5.15 Git today for addressing this real-world, measurable performance regression...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BPF-Based Linux Firewall "bpfilter" Shows Impressive Performance Potential]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BPFILTER-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BPFILTER-2021"/>
+        <updated>2021-09-23T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Generating much excitement back in 2018 was bpfilter for the potential to better Linux's firewall and packet filtering by making it more robust and performance. Recently work on this BPF-based firewall solution was renewed and the performance potential over iptables and nftables is looking very good for the future...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Epic Games Announces Easy Anti-Cheat For Linux - Including Wine/Proton]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Easy-Anti-Cheat-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Easy-Anti-Cheat-Linux"/>
+        <updated>2021-09-23T18:40:59.000Z</updated>
+        <summary type="html"><![CDATA[Not too surprising given the Steam Deck is inching closer towards release and we've known Valve has been working to improve the anti-cheat situation for games on Linux, but today EAC owner Epic Games officially announced Easy Anti-Cheat for both Linux and macOS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updated "FUTEX2" futex_waitv Patches Posted To Address Latest Feedback]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-futex_waitv-v2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-futex_waitv-v2"/>
+        <updated>2021-09-23T18:16:02.000Z</updated>
+        <summary type="html"><![CDATA[The promising FUTEX2 work focused on improving the Linux performance for running Windows games via Wine/Proton by extending futex to wait on multiple locks is still moving forward...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Fix Is Pending For That Linux 5.15 Performance Regression]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30536</id>
+        <link href="https://www.phoronix.com/vr.php?view=30536"/>
+        <updated>2021-09-23T13:15:19.000Z</updated>
+        <summary type="html"><![CDATA[Last week was the article on noticing various workloads performing slower on the Linux 5.15 development kernel. There is now a patch pending that in testing so far does indeed correct the performance drop on this forthcoming kernel.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's "CLOn12" Mesa Code Adds SPIR/SPIR-V Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-CLOn12-Mesa-SPIR-V</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Microsoft-CLOn12-Mesa-SPIR-V"/>
+        <updated>2021-09-23T13:09:48.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft's "CLOn12" effort to allow OpenCL over DirectX 12 by leveraging Mesa now has landed a major rework to its code within Mesa...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GCC 12 Adds Stack Variable Auto-Initialization, Other Security Improvements Forthcoming]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Better-Security</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Better-Security"/>
+        <updated>2021-09-23T11:17:23.000Z</updated>
+        <summary type="html"><![CDATA[Qing Zhao of Oracle presented yesterday during the LPC2021 GNU Tools Track around the work they and others have been engaged in for improving the security of the GNU Compiler Collection (GCC)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lennart: Linux Comes Up Short Around Disk Encryption, Authenticated Boot Security]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FDE-Auth-Boot-Lacking</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FDE-Auth-Boot-Lacking"/>
+        <updated>2021-09-23T10:23:47.000Z</updated>
+        <summary type="html"><![CDATA[Most Linux distributions are currently coming up short from offering adequate security around full disk encryption and authenticated boot. Prominent Linux developer Lennart Poettering even argues that your data is "probably more secure if stored on current ChromeOS, Android, Windows or macOS devices."..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["panel-edp" Driver On Its Way To Linux 5.16 To Make For Less Hard-Coded eDP Panel Configs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-panel-edp</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-panel-edp"/>
+        <updated>2021-09-23T10:12:38.000Z</updated>
+        <summary type="html"><![CDATA[The latest batch of miscellaneous Direct Rendering Manager changes are on their way to DRM-Next for Linux 5.16. Notable from this new drm-misc-next batch is the new "panel-edp" driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[systemd OOMD Maturing Nicely, Adds Support For User Services]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-oomd-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=systemd-oomd-2021"/>
+        <updated>2021-09-23T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Systemd-oomd as the out-of-memory daemon originally developed by Facebook has been maturing nicely since being merged last year and then its most notable deployment to date has been with Fedora 34's debut earlier this year. Anita Zhang of Facebook provided an update today on the systemd-oomd effort...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Valve Publishes New Steam Deck FAQ With A Few New Details Shared]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Deck-FAQ</id>
@@ -13,6 +113,31 @@
         <summary type="html"><![CDATA[Valve today published a "Steam Deck FAQ" page sharing some additional information on this forthcoming Arch Linux powered handheld game system that will begin shipping at the end of Q4...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to incorporate private customer needs into a public product roadmap]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/"/>
+        <updated>2021-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Effectively communicating a customer’s private needs to product teams is essential to a product’s success, but it can be a tricky undertaking.
+Teams can face several challenges in communicating and tracking customers' requests, including protecting customer confidentiality, tracking priority and progress, and making sure the product team is getting actionable feedback that can be incorporated into product milestones.
+This blog post shares GitLab's best practices and lessons learned, as well as a video conversation between GitLab CEO Sid Sijbrandij and Fleet CEO Mike McNeil.
+In line with GitLab's open core model and transparency value, our product roadmap is public and the product team uses public issue trackers for feature requests and to plan the work. Because the issues are public, custo…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Have DevOps jobs to fill? Try these 3 strategies to hire and retain]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/23/have-devops-jobs-to-fill-try-these-3-strategies-to-hire-and-retain/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/23/have-devops-jobs-to-fill-try-these-3-strategies-to-hire-and-retain/"/>
+        <updated>2021-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If every company is a software company, how do you stand out from the crowd when it comes to attracting developer talent and filling DevOps jobs?
+There’s a well-known, and worldwide, shortage of software developers, especially those with expertise in DevOps. Worse still, demand for those roles is accelerating rapidly: The US Bureau of Labor Statistics predicts employment opportunities for devs and testers will increase 22% between 2020 and 2030. That growth rate means nearly 190,000 net new developer/QA/test jobs will be opening each year, according to the BLS.
+That’s all a long way of saying things are tough out there. Organizations looking to expand, or even just maintain, their DevOps jobs momentum have to find unique ways to stand out from the crowd because, as many surveys have shown,…]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -307,96 +432,6 @@ GitLab Flavored Markdown automatically renders Markdown content in an easy-to-re
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CUPS 2.4 Coming Next Month, CUPS 2.5 + CUPS 3.0 Already In Planning]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CUPS-2.4-Next-Year-Then-2.5-3.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CUPS-2.4-Next-Year-Then-2.5-3.0"/>
-        <updated>2021-09-20T19:02:04.000Z</updated>
-        <summary type="html"><![CDATA[An Open Printing micro-conference took place today during the Linux Plumbers Conference 2021 week. While it's hard to get excited about printers in 2021, it is exciting the renewed effort around CUPS with it now being back to effectively led by the community and CUPS founder Michael Sweet who left Apple. CUPS 2.4 is coming as the first feature release in quite a while and then CUPS 2.5 followed by CUPS 3.0 are already being talked about with features being discussed...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenVPN DCO Linux Kernel Module Aims To Offer Faster VPN Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenVPN-DCO-Kernel</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenVPN-DCO-Kernel"/>
-        <updated>2021-09-20T18:31:55.000Z</updated>
-        <summary type="html"><![CDATA[OpenVPN has been implementing a kernel module for data channel offload (DCO) capabilities to enhance the performance of this virtual private network system...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA 470.74 Linux Driver Released With Several Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.74-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.74-Linux"/>
-        <updated>2021-09-20T13:47:07.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA has released their latest 470 series Linux driver point release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DXVK 1.9.2 Released With More Games In Better Shape]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.2-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DXVK-1.9.2-Released"/>
-        <updated>2021-09-20T13:36:52.000Z</updated>
-        <summary type="html"><![CDATA[DXVK 1.9.2 is out as the newest version of this key library necessary to the success of Valve's Steam Play (Proton) by translating Direct3D 9/10/11 calls to Vulkan for a much more performant Windows gaming experience on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Lands Support For The Motorola 68000 Processors]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Adds-Motorola-M68k</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Rust-Adds-Motorola-M68k"/>
-        <updated>2021-09-20T13:02:30.000Z</updated>
-        <summary type="html"><![CDATA[With the m68k community continuing to be active around supporting the vintage Motorola 68000 series with modern open-source software, Rust has now merged support for these old processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Continues CRIU Work To Checkpoint/Restore ROCm Compute Workloads]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-ROCm-CRIU-XDC2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-ROCm-CRIU-XDC2021"/>
-        <updated>2021-09-20T12:21:50.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year AMD went public with prototyping CRIU support for Radeon GPUs around ROCm to be able to checkpoint/freeze running compute workloads and to then restore them at a later point. This CRIU focus is driven by their big accelerator needs and forthcoming supercomputers for migrating workloads particularly within containers. AMD continues working on CRIU support for GPUs and last week provided an update on the project...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVIDIA Prepares The Linux Kernel For Future Laptops With EC-Driven Backlights]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-EC-Driven-Backlights</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-EC-Driven-Backlights"/>
-        <updated>2021-09-20T11:17:47.000Z</updated>
-        <summary type="html"><![CDATA[NVIDIA is contributing a new open-source driver to the upstream Linux kernel for dealing with upcoming laptops where the backlight controls are handled by the device's embedded controller (EC)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat's Upstream Contributions Are Making For A Great Fedora Workstation 35]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Great-Features-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Great-Features-Coming"/>
-        <updated>2021-09-20T10:00:59.000Z</updated>
-        <summary type="html"><![CDATA[Fedora Workstation 35 will hopefully be out at the end of October (currently the beta is running behind schedule) and when it does ship it's once again at the bleeding-edge of Linux features. Fedora Workstation 35 is shaping up to be another great release for those interested in a feature-rich desktop experience...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[xf86-input-libinput 1.2 Brings Touchpad Gestures, High Resolution Scrolling]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-input-libinput-1.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=xf86-input-libinput-1.2"/>
-        <updated>2021-09-20T09:38:07.000Z</updated>
-        <summary type="html"><![CDATA[For those continuing to make use of the X.Org Server, xf86-input-libinput 1.2 is now available for integrating the latest functionality of libinput input handling library...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Patch Release: 14.2.4]]></title>
         <id>https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/</id>
         <link href="https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/"/>
@@ -425,16 +460,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running Linux 5.15-rc1 Causing A New Slowdown... Here's A Look]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30531</id>
-        <link href="https://www.phoronix.com/vr.php?view=30531"/>
-        <updated>2021-09-16T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As usual when the Linux 5.15 merge window began wrapping up, I set out to dive into its performance to see what is in store for this next version of the kernel and whether there was any regressions or other performance changes worth noting. Linux 5.15 overall has been in good shape for the "-rc1" state except noticing that code compilation workloads were taking longer on multiple Linux 5.15-rc1-running systems than Linux 5.14 or prior. Seeing it across multiple systems and a very real-world regression, it was worth bisecting and looking closer so here are the details.]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -655,53 +680,6 @@ Geo: Replicate multi-arch containers
 Run AWS Release rake task only if on latest stable tag
 Important notes on upgrading
 These versions do not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Summer of Code at GitLab – some intern highlights]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/01/gsoc-at-gitlab/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/01/gsoc-at-gitlab/"/>
-        <updated>2021-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab participated in Google Summer of Code for the first time this year. We hosted four student interns to work with us on four different projects under the supervision of two or three mentors each.
-For the past 16 years, Google has hosted the Summer of Code to introduce students to the world of open source. Over the summer, student interns work on a project with an open source organization and are closely mentored by the developers of the open source project. More than 200 organizations participated this year.
-We started off the summer with a two-week long community bonding period to get our students familiar with how we work at GitLab and helped them set-up their local development environments. During the 10-week program we worked through scoped projects with regular check-ins and a fi…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.2.3]]></title>
-        <id>https://about.gitlab.com/releases/2021/09/01/gitlab-14-2-3-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/09/01/gitlab-14-2-3-released/"/>
-        <updated>2021-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.2.3 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-last month's 14.2 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Geo: Replicate multi-arch containers
-Reset severity_levels default
-Create 14.2 In-app top 7 product highlights
-Fix OrphanedInviteTokensCleanup migration
-Fix Live Markdown Preview in personal and subgroup projects
-Downgrade grpc from 1.38.0 to 1.30.2 for compatibility with older CPUs
-Restore proper contents to toolbox ubi8 image
-Only activate Git pack-objects hook if cache is enabled
-Important notes on upgrading
-This version does include post deploy db migrations. For multi-node deployments, it should not require any downtime.
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
