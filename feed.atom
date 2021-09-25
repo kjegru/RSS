@@ -1,15 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-24T00:35:23.913Z</id>
+    <id>urn:2021-09-25T00:35:07.848Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-24T00:35:23.913Z</updated>
+    <updated>2021-09-25T00:35:07.848Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.18 Released With HID Joystick Enabled By Default]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.18-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.18-Released"/>
+        <updated>2021-09-24T22:01:31.000Z</updated>
+        <summary type="html"><![CDATA[Wine 6.18 has been popped as the newest bi-weekly development release of this software that allows Windows applications and games to run under Linux and in turn what also powers Steam Play's Proton...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BattlEye To Support Valve's Steam Deck / Proton]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BattlEye-Proton-Steam-Deck</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BattlEye-Proton-Steam-Deck"/>
+        <updated>2021-09-24T19:52:38.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday it was Epic Games confirming Easy Anti-Cheat for Linux and Wine/Proton ahead of the Steam Deck launch and today it's BattlEye confirming Proton / Steam Deck support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM Engineer Has Been Exploring Possible Rust Modules For GRUB]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-Possible-Rust-GRUB</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-Possible-Rust-GRUB"/>
+        <updated>2021-09-24T18:50:24.000Z</updated>
+        <summary type="html"><![CDATA[IBM engineer Daniel Axtens presented at this week's Linux Plumbers Conference on the prospects of using the Rust programming language for creating modules for the GRUB2 boot-loader...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Coreutils 9.0: cp Now Enables CoW By Default + Copy Offload, wc Now Uses AVX2]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Coreutils-9.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Coreutils-9.0"/>
+        <updated>2021-09-24T17:36:51.000Z</updated>
+        <summary type="html"><![CDATA[Coreutils 9.0 is now available and it's a significant update to this collection of common open-source utilities found on effectively all Linux systems...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SiFive HiFive Unmatched Hands-On, Initial RISC-V Performance Benchmarks]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30545</id>
+        <link href="https://www.phoronix.com/vr.php?view=30545"/>
+        <updated>2021-09-24T13:22:01.000Z</updated>
+        <summary type="html"><![CDATA[A few weeks ago I finally received the HiFive Unmatched from SiFive as their flagship RISC-V development board. As a reminder this is their mini-ITX development board that is powered by their U740 SoC and features 16GB of DDR4 system memory, one PCI Express x16 slot that can work with AMD Radeon graphics cards on Linux, and other features. It's been a delight playing with this developer platform and enclosed are some early benchmarks as well showing off the U740 performance as well as how the Linux software support/performance has been evolving.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MidnightBSD 2.1 Released For This Desktop-Minded BSD]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=MidnightBSD-2.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=MidnightBSD-2.1-Released"/>
+        <updated>2021-09-24T09:46:49.000Z</updated>
+        <summary type="html"><![CDATA[MidnightBSD 2.1 debuted this week as the latest version of one of the few desktop-focused BSD open-source operating system projects...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Beta Released]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-Beta"/>
+        <updated>2021-09-24T09:16:12.000Z</updated>
+        <summary type="html"><![CDATA[Canonical has released the final beta of next month's Ubuntu 21.10 "Impish Indri" release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 95 Beta Completely Removes Deprecated FTP Support, Reduced User Agent Info Trial]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-95-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-95-Beta"/>
+        <updated>2021-09-24T04:01:00.000Z</updated>
+        <summary type="html"><![CDATA[With Chrome 94 having shipped this week, Google has now promoted Chrome 95 to beta...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15 Lands Memcg Performance Regression Fix]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Regression-Fixed</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-Regression-Fixed"/>
-        <updated>2021-09-23T23:24:14.000Z</updated>
+        <updated>2021-09-24T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[As a follow-up to A Fix Is Pending For That Linux 5.15 Performance Regression, Linus Torvalds decided to pull the fix directly into Linux 5.15 Git today for addressing this real-world, measurable performance regression...]]></summary>
         <author>
             <name>Phoronix</name>
@@ -326,76 +406,6 @@ feistel
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux Foundation To Host PaSh For Automatic Parallelizing Of Shell Scripts]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-PaSh</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Foundation-PaSh"/>
-        <updated>2021-09-21T17:16:59.000Z</updated>
-        <summary type="html"><![CDATA[The Linux Foundation announced today they will be hosting the PaSh project that is focused on automatically parallelizing POSIX shell scripts...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samba 4.15 Released With Improved CLI Experience, Modernized VFS Interface]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Samba-4.15</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Samba-4.15"/>
-        <updated>2021-09-21T12:40:31.000Z</updated>
-        <summary type="html"><![CDATA[While there is now KSMBD with Linux 5.15 for offering an in-kernel SMB file server, its scope is much more limited than that of the Samba project in user-space. With that said, Samba 4.15 is out now with its latest batch of features and improvements for open-source SMB/CIFS support on Linux and other platforms...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canonical Extending Ubuntu 14.04/16.04 LTS Support To Ten Years]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-14.04-16.04-Ten-Years</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-14.04-16.04-Ten-Years"/>
-        <updated>2021-09-21T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Canonical is announcing this morning they are extending the Ubuntu 14.04 LTS "Trusty Tahr" and Ubuntu 16.04 LTS "Xenial Xerus" releases to a ten year lifespan...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan Video Decoding Still In The Early Stages For Open-Source]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-XDC2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-Video-XDC2021"/>
-        <updated>2021-09-21T10:33:48.000Z</updated>
-        <summary type="html"><![CDATA[Going public back in April was the provisional specification around the Vulkan Video extensions as a new industry-standard video encode/decode interface. While several months have passed, there hasn't been much activity yet in the open-source space around Vulkan Video...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.3 Lands Initial Radeon Ray-Tracing Support In Open-Source RADV Vulkan Driver]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-Ray-Tracing</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-Ray-Tracing"/>
-        <updated>2021-09-21T09:25:36.000Z</updated>
-        <summary type="html"><![CDATA[Landing overnight into Mesa 21.3 was experimentally enabling the Vulkan ray-tracing extensions within the open-source Radeon "RADV" driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Extending DWARF To Better Handle GPU Debugging, Continues Collaborating With GCC & LLVM]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Extending-DWARF-GPUs</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Extending-DWARF-GPUs"/>
-        <updated>2021-09-21T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In addition to AMD's increasing Linux kernel contributions, they are also contributing more improvements in user-space too thanks to their super-computing wins and other big enterprise deployments that are Linux-based. One of the areas talked about this week at the Linux Plumbers Conference with the GNU Tools track is how they are working to extend the DWARF debug format to better handle GPU debugging...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phoronix Ad-Free/Premium Special For Oktoberfest 2021]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Oktoberfest-2021-Special</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Oktoberfest-2021-Special"/>
-        <updated>2021-09-21T03:59:36.000Z</updated>
-        <summary type="html"><![CDATA[While Oktoberfest was once again cancelled due to the COVID-19 pandemic (then again, due to the state of the ad industry / ad-block users we haven't had any European meet-up / open-source gathering in years), the wiesn would have kicked off this past weekend. So as is tradition, there is the Phoronix Premium Oktoberfest sale where you can join the ad-free service as a reduced rate. If you enjoy the daily, original Linux and open-source content on Phoronix with plenty of benchmarking, you can do so at a reduced rate...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[It's time to build more accessible software. A DevOps platform can help]]></title>
         <id>https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/</id>
         <link href="https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/"/>
@@ -419,16 +429,6 @@ Introducing the realtime Preview Markdown editor
 GitLab Flavored Markdown automatically renders Markdown content in an easy-to-read and easy-to-write plain text language. Although Markdown is inherently more “human-readable” …]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Posts New Linux Patches Looking To Re-Enable ENQCMD Ahead Of Sapphire Rapids]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ENQCMD-Restoring-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ENQCMD-Restoring-Patches"/>
-        <updated>2021-09-20T20:25:44.000Z</updated>
-        <summary type="html"><![CDATA[While Intel is normally quite good with their new hardware support being in good shape well ahead of launch, their new code for supporting the ENQCMD functionality for the Data Streaming Accelerator (DSA) with Xeon "Sapphire Rapids" has been an exception. This summer the mainline Linux kernel disabled ENQCMD support since the code was "broken beyond repair" while now Intel engineers have sent out a new series looking to get it re-enabled...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
