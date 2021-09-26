@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-25T00:35:07.848Z</id>
+    <id>urn:2021-09-26T00:38:12.132Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-25T00:35:07.848Z</updated>
+    <updated>2021-09-26T00:38:12.132Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma 5.24 On Wayland To Support DRM Leasing For VR Headsets]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.24-DRM-Leasing</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.24-DRM-Leasing"/>
+        <updated>2021-09-25T17:34:20.000Z</updated>
+        <summary type="html"><![CDATA[With the KDE Plasma 5.23 release quickly approaching, feature development is already heating up for Plasma 5.24 while concurrently driving many fixes into the v5.23 codebase...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Has Been Working On BOLT'ing The Linux Kernel For Greater Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-BOLTing-The-Kernel</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-BOLTing-The-Kernel"/>
+        <updated>2021-09-25T13:20:47.000Z</updated>
+        <summary type="html"><![CDATA[For several years now Facebook engineers have been working on BOLT as a way to speed-up Linux/ELF binaries. This "Binary Optimization and Layout Tool" is able to re-arrange executables once profiled to generate even faster performance than what can be achieved by a compiler's LTO and PGO optimizations. One of the latest BOLT efforts has been on optimizing the Linux kernel image...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel's User Interrupts With Sapphire Rapids Looking Quite Great For Faster IPC]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-x86-User-Interrupts-LPC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-x86-User-Interrupts-LPC"/>
+        <updated>2021-09-25T12:32:10.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month Intel engineers posted their initial Linux kernel enablement around x86 User Interrupts with this feature premiering with Xeon "Sapphire Rapids" CPUs. As implied by the name, the User Interrupt functionality allows for interrupts to bypass the kernel for more efficient, low-latency, low-utilization interrupts being received by other user-space tasks. Intel talked more about User Interrupts this week at LPC2021...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenZFS 2.0.6 Released With Support For Newer Kernels]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.0.6-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.0.6-Released"/>
+        <updated>2021-09-25T10:23:00.000Z</updated>
+        <summary type="html"><![CDATA[While the OpenZFS 2.1 feature release has been available since July, for those still using the OpenZFS 2.0.x series and not yet prepared to make the jump to that big new release with dRAID and other changes, OpenZFS 2.0.6 was released this week...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine-Staging 6.18 Released With 616 Patches Atop Upstream]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.18</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.18"/>
+        <updated>2021-09-25T09:52:15.000Z</updated>
+        <summary type="html"><![CDATA[Building off yesterday's Wine 6.18 development release is now the next Wine-Staging installment that has more than six hundred extra patches on top...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XWayland GLX Path Enables sRGB Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-sRGB-Support</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-sRGB-Support"/>
+        <updated>2021-09-25T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Another item is now crossed off the XWayland TODO list with OpenGL sRGB support wired up...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wine 6.18 Released With HID Joystick Enabled By Default]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.18-Released</id>
@@ -291,16 +351,6 @@ That’s all a long way of saying things are tough out there. Organizations look
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mesa 21.2.2 Released "Late & Very Large"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.2"/>
-        <updated>2021-09-22T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mesa point releases generally come every two weeks but for the past month have fallen off the wagon. Mesa 21.2.1 came in mid-August and on Tuesday was finally succeeded by Mesa 21.2.2 as a "late and very large" update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Patch Release: 13.12.12]]></title>
         <id>https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/</id>
         <link href="https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/"/>
@@ -353,56 +403,6 @@ feistel
 @feistel started contributing to GitLab Pages in September 2020. In the last 4 months, they have made continuous contributions to improve Pages by adding features, fi…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Server 21.1 RC1 Released With VRR Support For Modesetting Driver, Other Features]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-RC1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=X.Org-Server-21.1-RC1"/>
-        <updated>2021-09-21T22:55:00.000Z</updated>
-        <summary type="html"><![CDATA[More than three years after X.Org Server 1.20 was released, it's set to finally be succeeded soon by X.Org Server 21.1 under its new versioning scheme. Out today is the X.org Server 21.1 release candidate...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDGPU Linux Driver To Overhaul Its Approach To Device Enumeration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Device-Enumeration-IP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Device-Enumeration-IP"/>
-        <updated>2021-09-21T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AMD's open-source Linux graphics driver engineers are working to overhaul how the initial driver loading with device enumeration happens to ultimately make it more robust. In the process though PCI IDs become less important and in turn less of an avenue for exposing possible indicators of new graphics cards...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cycles X Merged Into Blender 3.0 With NVIDIA CUDA/OptiX Support, AMD HIP Pending]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Blender-3.0-Lands-Cycles-X</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Blender-3.0-Lands-Cycles-X"/>
-        <updated>2021-09-21T19:33:07.000Z</updated>
-        <summary type="html"><![CDATA[Cycles X as a modernizing of Blender's Cycles rendering engine has now landed in the latest development code for Blender 3.0. Cycles X brings big performance improvements but does eliminate OpenCL support in the process...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 94 Released With WebGPU For Testing, WebCodecs API Now Official]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-94-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-94-Released"/>
-        <updated>2021-09-21T18:48:29.000Z</updated>
-        <summary type="html"><![CDATA[Chrome 94 is available today as another exciting update for Google's web browser...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle's Next-Generation GNU Profiler "gprofng" Is Looking Great For Developers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Profiler-gprofng</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Profiler-gprofng"/>
-        <updated>2021-09-21T18:21:41.000Z</updated>
-        <summary type="html"><![CDATA[Oracle engineers have been working on "gprofng" as a next-generation GNU Profiler that can analyze production binaries. Oracle talked up Gprofng today during the GNU Tools Track as part of Linux Plumbers Conference 2021...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
