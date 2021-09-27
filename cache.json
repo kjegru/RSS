@@ -6,12 +6,21 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
+          "author": null,
+          "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
+          "publishedOn": "2021-09-26T18:45:39.000Z",
+          "wordCount": 354,
+          "title": "v1.11.2"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
           "author": null,
           "description": "Fixed: Unexpected nested element in author field crashes the parser\nThank you @ad-m",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
           "publishedOn": "2021-09-16T06:39:32.000Z",
-          "wordCount": 348,
+          "wordCount": 344,
           "title": "v1.11.1"
         }
       ]
@@ -218,12 +227,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc3-Released",
+          "author": null,
+          "description": "Linus Torvalds has now issued the third weekly release candidate of the forthcoming Linux 5.15 kernel...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc3-Released",
+          "publishedOn": "2021-09-26T21:38:43.000Z",
+          "wordCount": 797,
+          "title": "Linux 5.15-rc3 Released - Looking \"Pretty Normal\" Plus Performance Fix"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-92-Chrome-94-Benchmarks",
+          "author": null,
+          "description": "Given last week's release of Chrome 94, here are some fresh browser benchmarks looking at Firefox 92 stable against Chrome 94 running on Ubuntu Linux...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-92-Chrome-94-Benchmarks",
+          "publishedOn": "2021-09-26T17:29:49.000Z",
+          "wordCount": 704,
+          "title": "Firefox 92 vs. Chrome 94 Browser Benchmarks On Ubuntu Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Wget2-2.0-Released",
+          "author": null,
+          "description": "GNU Wget2 2.0 has been released for this successor to GNU Wget. There are many improvements to this GPLv3+ licensed program. Over the original GNU Wget, Wget2 is faster, supports more protocols especially around HTTP/2 and compression, supports multi-threading / parallel connections, and other improvements...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Wget2-2.0-Released",
+          "publishedOn": "2021-09-26T14:06:33.000Z",
+          "wordCount": 727,
+          "title": "GNU Wget2 2.0 Released With HTTP2 & SSL Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-amd-pstate-v2",
+          "author": null,
+          "description": "Earlier this month AMD published their \"amd-pstate\" Linux driver that leverages ACPI CPPC data to make more informed CPU frequency scaling decisions with an aim to boost the performance-per-Watt for Zen 3 (and eventually Zen 2) processors on Linux. The second spin of that \"amd-pstate\" Linux kernel driver is now available for testing...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-amd-pstate-v2",
+          "publishedOn": "2021-09-26T10:45:43.000Z",
+          "wordCount": 814,
+          "title": "Updated AMD P-State Driver Published For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-IO-3.8M-IOPS-Per-Core",
+          "author": null,
+          "description": "It was just last month when ~3.5M IOPS per-core was impressive with the code for Linux 5.15 to further push Linux's I/O limits. Now for code likely to be included in Linux 5.16 it's currently at 3.8M IOPS with a single tread...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-IO-3.8M-IOPS-Per-Core",
+          "publishedOn": "2021-09-26T10:30:23.000Z",
+          "wordCount": 739,
+          "title": "Linux IO_uring Can Now Achieve Up To ~3.8M IOPS Per-Core"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Plasma-5.24-DRM-Leasing",
           "author": null,
           "description": "With the KDE Plasma 5.23 release quickly approaching, feature development is already heating up for Plasma 5.24 while concurrently driving many fixes into the v5.23 codebase...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Plasma-5.24-DRM-Leasing",
           "publishedOn": "2021-09-25T17:34:20.000Z",
-          "wordCount": 811,
+          "wordCount": 810,
           "title": "KDE Plasma 5.24 On Wayland To Support DRM Leasing For VR Headsets"
         },
         {
@@ -232,7 +286,7 @@
           "description": "For several years now Facebook engineers have been working on BOLT as a way to speed-up Linux/ELF binaries. This \"Binary Optimization and Layout Tool\" is able to re-arrange executables once profiled to generate even faster performance than what can be achieved by a compiler's LTO and PGO optimizations. One of the latest BOLT efforts has been on optimizing the Linux kernel image...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Facebook-BOLTing-The-Kernel",
           "publishedOn": "2021-09-25T13:20:47.000Z",
-          "wordCount": 854,
+          "wordCount": 855,
           "title": "Facebook Has Been Working On BOLT'ing The Linux Kernel For Greater Performance"
         },
         {
@@ -241,7 +295,7 @@
           "description": "Earlier this month Intel engineers posted their initial Linux kernel enablement around x86 User Interrupts with this feature premiering with Xeon \"Sapphire Rapids\" CPUs. As implied by the name, the User Interrupt functionality allows for interrupts to bypass the kernel for more efficient, low-latency, low-utilization interrupts being received by other user-space tasks. Intel talked more about User Interrupts this week at LPC2021...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-x86-User-Interrupts-LPC",
           "publishedOn": "2021-09-25T12:32:10.000Z",
-          "wordCount": 856,
+          "wordCount": 855,
           "title": "Intel's User Interrupts With Sapphire Rapids Looking Quite Great For Faster IPC"
         },
         {
@@ -250,7 +304,7 @@
           "description": "While the OpenZFS 2.1 feature release has been available since July, for those still using the OpenZFS 2.0.x series and not yet prepared to make the jump to that big new release with dRAID and other changes, OpenZFS 2.0.6 was released this week...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenZFS-2.0.6-Released",
           "publishedOn": "2021-09-25T10:23:00.000Z",
-          "wordCount": 739,
+          "wordCount": 692,
           "title": "OpenZFS 2.0.6 Released With Support For Newer Kernels"
         },
         {
@@ -259,7 +313,7 @@
           "description": "Building off yesterday's Wine 6.18 development release is now the next Wine-Staging installment that has more than six hundred extra patches on top...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-Staging-6.18",
           "publishedOn": "2021-09-25T09:52:15.000Z",
-          "wordCount": 719,
+          "wordCount": 718,
           "title": "Wine-Staging 6.18 Released With 616 Patches Atop Upstream"
         },
         {
@@ -268,7 +322,7 @@
           "description": "Another item is now crossed off the XWayland TODO list with OpenGL sRGB support wired up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-sRGB-Support",
           "publishedOn": "2021-09-25T07:00:00.000Z",
-          "wordCount": 727,
+          "wordCount": 726,
           "title": "XWayland GLX Path Enables sRGB Support"
         },
         {
@@ -277,7 +331,7 @@
           "description": "Wine 6.18 has been popped as the newest bi-weekly development release of this software that allows Windows applications and games to run under Linux and in turn what also powers Steam Play's Proton...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.18-Released",
           "publishedOn": "2021-09-24T22:01:31.000Z",
-          "wordCount": 740,
+          "wordCount": 784,
           "title": "Wine 6.18 Released With HID Joystick Enabled By Default"
         },
         {
@@ -286,7 +340,7 @@
           "description": "Yesterday it was Epic Games confirming Easy Anti-Cheat for Linux and Wine/Proton ahead of the Steam Deck launch and today it's BattlEye confirming Proton / Steam Deck support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=BattlEye-Proton-Steam-Deck",
           "publishedOn": "2021-09-24T19:52:38.000Z",
-          "wordCount": 763,
+          "wordCount": 807,
           "title": "BattlEye To Support Valve's Steam Deck / Proton"
         },
         {
@@ -295,7 +349,7 @@
           "description": "IBM engineer Daniel Axtens presented at this week's Linux Plumbers Conference on the prospects of using the Rust programming language for creating modules for the GRUB2 boot-loader...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=IBM-Possible-Rust-GRUB",
           "publishedOn": "2021-09-24T18:50:24.000Z",
-          "wordCount": 782,
+          "wordCount": 826,
           "title": "IBM Engineer Has Been Exploring Possible Rust Modules For GRUB"
         },
         {
@@ -304,7 +358,7 @@
           "description": "Coreutils 9.0 is now available and it's a significant update to this collection of common open-source utilities found on effectively all Linux systems...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Coreutils-9.0",
           "publishedOn": "2021-09-24T17:36:51.000Z",
-          "wordCount": 746,
+          "wordCount": 745,
           "title": "GNU Coreutils 9.0: cp Now Enables CoW By Default + Copy Offload, wc Now Uses AVX2"
         },
         {
@@ -313,7 +367,7 @@
           "description": "A few weeks ago I finally received the HiFive Unmatched from SiFive as their flagship RISC-V development board. As a reminder this is their mini-ITX development board that is powered by their U740 SoC and features 16GB of DDR4 system memory, one PCI Express x16 slot that can work with AMD Radeon graphics cards on Linux, and other features. It's been a delight playing with this developer platform and enclosed are some early benchmarks as well showing off the U740 performance as well as how the Linux software support/performance has been evolving.",
           "link": "https://www.phoronix.com/vr.php?view=30545",
           "publishedOn": "2021-09-24T13:22:01.000Z",
-          "wordCount": 1053,
+          "wordCount": 1012,
           "title": "SiFive HiFive Unmatched Hands-On, Initial RISC-V Performance Benchmarks"
         },
         {
@@ -322,7 +376,7 @@
           "description": "MidnightBSD 2.1 debuted this week as the latest version of one of the few desktop-focused BSD open-source operating system projects...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=MidnightBSD-2.1-Released",
           "publishedOn": "2021-09-24T09:46:49.000Z",
-          "wordCount": 687,
+          "wordCount": 686,
           "title": "MidnightBSD 2.1 Released For This Desktop-Minded BSD"
         },
         {
@@ -331,7 +385,7 @@
           "description": "Canonical has released the final beta of next month's Ubuntu 21.10 \"Impish Indri\" release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-Beta",
           "publishedOn": "2021-09-24T09:16:12.000Z",
-          "wordCount": 682,
+          "wordCount": 726,
           "title": "Ubuntu 21.10 Beta Released"
         },
         {
@@ -340,7 +394,7 @@
           "description": "With Chrome 94 having shipped this week, Google has now promoted Chrome 95 to beta...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-95-Beta",
           "publishedOn": "2021-09-24T04:01:00.000Z",
-          "wordCount": 835,
+          "wordCount": 789,
           "title": "Chrome 95 Beta Completely Removes Deprecated FTP Support, Reduced User Agent Info Trial"
         },
         {
@@ -349,7 +403,7 @@
           "description": "As a follow-up to A Fix Is Pending For That Linux 5.15 Performance Regression, Linus Torvalds decided to pull the fix directly into Linux 5.15 Git today for addressing this real-world, measurable performance regression...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Regression-Fixed",
           "publishedOn": "2021-09-24T04:00:00.000Z",
-          "wordCount": 810,
+          "wordCount": 766,
           "title": "Linux 5.15 Lands Memcg Performance Regression Fix"
         },
         {
@@ -358,7 +412,7 @@
           "description": "Generating much excitement back in 2018 was bpfilter for the potential to better Linux's firewall and packet filtering by making it more robust and performance. Recently work on this BPF-based firewall solution was renewed and the performance potential over iptables and nftables is looking very good for the future...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=BPFILTER-2021",
           "publishedOn": "2021-09-23T20:00:00.000Z",
-          "wordCount": 831,
+          "wordCount": 830,
           "title": "BPF-Based Linux Firewall \"bpfilter\" Shows Impressive Performance Potential"
         },
         {
@@ -367,7 +421,7 @@
           "description": "Not too surprising given the Steam Deck is inching closer towards release and we've known Valve has been working to improve the anti-cheat situation for games on Linux, but today EAC owner Epic Games officially announced Easy Anti-Cheat for both Linux and macOS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Easy-Anti-Cheat-Linux",
           "publishedOn": "2021-09-23T18:40:59.000Z",
-          "wordCount": 765,
+          "wordCount": 719,
           "title": "Epic Games Announces Easy Anti-Cheat For Linux - Including Wine/Proton"
         },
         {
@@ -376,7 +430,7 @@
           "description": "The promising FUTEX2 work focused on improving the Linux performance for running Windows games via Wine/Proton by extending futex to wait on multiple locks is still moving forward...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-futex_waitv-v2",
           "publishedOn": "2021-09-23T18:16:02.000Z",
-          "wordCount": 847,
+          "wordCount": 803,
           "title": "Updated \"FUTEX2\" futex_waitv Patches Posted To Address Latest Feedback"
         },
         {
@@ -385,7 +439,7 @@
           "description": "Last week was the article on noticing various workloads performing slower on the Linux 5.15 development kernel. There is now a patch pending that in testing so far does indeed correct the performance drop on this forthcoming kernel.",
           "link": "https://www.phoronix.com/vr.php?view=30536",
           "publishedOn": "2021-09-23T13:15:19.000Z",
-          "wordCount": 685,
+          "wordCount": 734,
           "title": "A Fix Is Pending For That Linux 5.15 Performance Regression"
         },
         {
@@ -394,7 +448,7 @@
           "description": "Microsoft's \"CLOn12\" effort to allow OpenCL over DirectX 12 by leveraging Mesa now has landed a major rework to its code within Mesa...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-CLOn12-Mesa-SPIR-V",
           "publishedOn": "2021-09-23T13:09:48.000Z",
-          "wordCount": 760,
+          "wordCount": 714,
           "title": "Microsoft's \"CLOn12\" Mesa Code Adds SPIR/SPIR-V Support"
         },
         {
@@ -403,7 +457,7 @@
           "description": "Qing Zhao of Oracle presented yesterday during the LPC2021 GNU Tools Track around the work they and others have been engaged in for improving the security of the GNU Compiler Collection (GCC)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-Better-Security",
           "publishedOn": "2021-09-23T11:17:23.000Z",
-          "wordCount": 781,
+          "wordCount": 780,
           "title": "GCC 12 Adds Stack Variable Auto-Initialization, Other Security Improvements Forthcoming"
         },
         {
@@ -412,7 +466,7 @@
           "description": "Most Linux distributions are currently coming up short from offering adequate security around full disk encryption and authenticated boot. Prominent Linux developer Lennart Poettering even argues that your data is \"probably more secure if stored on current ChromeOS, Android, Windows or macOS devices.\"..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-FDE-Auth-Boot-Lacking",
           "publishedOn": "2021-09-23T10:23:47.000Z",
-          "wordCount": 834,
+          "wordCount": 833,
           "title": "Lennart: Linux Comes Up Short Around Disk Encryption, Authenticated Boot Security"
         },
         {
@@ -421,7 +475,7 @@
           "description": "The latest batch of miscellaneous Direct Rendering Manager changes are on their way to DRM-Next for Linux 5.16. Notable from this new drm-misc-next batch is the new \"panel-edp\" driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-panel-edp",
           "publishedOn": "2021-09-23T10:12:38.000Z",
-          "wordCount": 813,
+          "wordCount": 767,
           "title": "\"panel-edp\" Driver On Its Way To Linux 5.16 To Make For Less Hard-Coded eDP Panel Configs"
         },
         {
@@ -430,7 +484,7 @@
           "description": "Systemd-oomd as the out-of-memory daemon originally developed by Facebook has been maturing nicely since being merged last year and then its most notable deployment to date has been with Fedora 34's debut earlier this year. Anita Zhang of Facebook provided an update today on the systemd-oomd effort...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-oomd-2021",
           "publishedOn": "2021-09-23T04:00:00.000Z",
-          "wordCount": 918,
+          "wordCount": 917,
           "title": "systemd OOMD Maturing Nicely, Adds Support For User Services"
         },
         {
@@ -439,7 +493,7 @@
           "description": "Valve today published a \"Steam Deck FAQ\" page sharing some additional information on this forthcoming Arch Linux powered handheld game system that will begin shipping at the end of Q4...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-FAQ",
           "publishedOn": "2021-09-23T00:18:02.000Z",
-          "wordCount": 780,
+          "wordCount": 824,
           "title": "Valve Publishes New Steam Deck FAQ With A Few New Details Shared"
         },
         {
@@ -448,7 +502,7 @@
           "description": "Google's Android had been notorious for all of its downstream patches carried by the mobile operating system as well as various vendor/device kernel trees while in recent years more of that code has been upstreamed. Google has also been shifting to the Android Generic Kernel Image (GKI) as the basis for all their product kernels to further reduce the fragmentation. Looking ahead, Google is now talking of an \"upstream first\" approach for pushing new kernel features...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Android-Linux-Upstream-First",
           "publishedOn": "2021-09-22T18:38:46.000Z",
-          "wordCount": 879,
+          "wordCount": 878,
           "title": "Google Finally Shifting To \"Upstream First\" Linux Kernel Approach For Android Features"
         },
         {
@@ -457,56 +511,11 @@
           "description": "Merged yesterday for Mesa 21.3 was open-source Vulkan ray-tracing for AMD RDNA2 / RX 6000 series GPUs with the RADV driver. Opened today now is a merge request that would provide Vulkan ray-tracing with RADV to pre-RDNA2 GPUs on this driver going back to the likes of Polaris, granted the performance is another story...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-RADV-RT-For-Older-GPUs",
           "publishedOn": "2021-09-22T17:14:25.000Z",
-          "wordCount": 858,
-          "title": "Mesa Merge Pending For Vulkan Ray-Tracing On Older AMD GPUs"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Released",
-          "author": null,
-          "description": "GNOME 41 is out as the latest half-year update to this open-source desktop environment...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-41-Released",
-          "publishedOn": "2021-09-22T15:23:58.000Z",
-          "wordCount": 707,
-          "title": "GNOME 41 Released With Wayland Improvements, More Performance Tuning"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30535",
-          "author": null,
-          "description": "Earlier this month AMD posted their initial public patches for the AMD P-State CPU frequency scaling driver that leverages ACPI CPPC for ultimately aiming to provide better power efficiency and more responsive CPU frequency scaling / performance state decisions on Zen 3 (and Zen 2 eventually) processors. This is part of the effort around AMD and Valve collaborating for better Linux efficiency especially with the AMD-powered Steam Deck.",
-          "link": "https://www.phoronix.com/vr.php?view=30535",
-          "publishedOn": "2021-09-22T13:38:59.000Z",
           "wordCount": 857,
-          "title": "An Early Look At The AMD P-State CPPC Driver Performance vs. ACPI CPUFreq"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-Better-OpenACC-Performance",
-          "author": null,
-          "description": "While the GNU Compiler Collection has supported OpenACC for a few years now as this parallel programming standard popular with GPUs/accelerators, the current implementation has been found to be inadequate for many real-world HPC workloads leveraging OpenACC. Fortunately, Siemens has been working to improve GCC's OpenACC kernels support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-Better-OpenACC-Performance",
-          "publishedOn": "2021-09-22T10:40:26.000Z",
-          "wordCount": 836,
-          "title": "Better Support & Performance For OpenACC Kernels Is Coming To GCC"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Aya-LPC2021-Update",
-          "author": null,
-          "description": "Aya was presented during this week's Linux Plumbers Conference for improving the eBPF developer experience by allowing Rust programs to easily run within the kernel...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Aya-LPC2021-Update",
-          "publishedOn": "2021-09-22T09:57:22.000Z",
-          "wordCount": 726,
-          "title": "Aya Makes It Easy To Write Rust-Based eBPF Programs For The Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-19",
-          "author": null,
-          "description": "UBports on Tuesday released Ubuntu Touch OTA-19 as the latest refinement to this Ubuntu Linux spin for smartphones and tablets...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Touch-OTA-19",
-          "publishedOn": "2021-09-22T07:40:00.000Z",
-          "wordCount": 768,
-          "title": "Ubuntu Touch OTA-19 Released - Still Based On Ubuntu 16.04"
+          "title": "Mesa Merge Pending For Vulkan Ray-Tracing On Older AMD GPUs"
         }
       ]
     }
   ],
-  "cliVersion": "1.11.1"
+  "cliVersion": "1.11.2"
 }
