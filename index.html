@@ -16,6 +16,136 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-29">2021-09-29</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why we spent the last month eliminating PostgreSQL subtransactions</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(24 min)</span>
+                    <span>Since last June, we noticed the database on GitLab.com would
+mysteriously stall for minutes, which would lead to users seeing 500
+errors during this time. Through a painstaking investigation over
+several weeks, we finally uncovered the cause of this: initiating a
+subtransaction via the SAVEPOINT SQL query while
+a long transaction is in progress can wreak havoc on database
+replicas. Thus launched a race, which we recently completed, to
+eliminate all SAVEPOINT queries from our code. Here&#x27;s what happened,
+how we discovered the problem, and what we did to fix it.
+The symptoms begin
+On June 24th, we noticed that our CI/CD runners service reported a high
+error rate:
+
+A quick investigation revealed that database queries used to retrieve
+CI/CD builds data were timing out and that the unprocessed b…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Mesa 21.2.3 Released As A Small Update To This Graphics Driver Stack</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Mesa-21.2.3-Released">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Succeeding Mesa 21.2.2 from earlier this month that was a much delayed and in turn very large release, Mesa 21.2.3 is out today and it&#x27;s on the quieter side...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">&quot;pkill_on_warn&quot; Proposed For Killing Linux Processes That Cause A Kernel Warning</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-pkill_on_warn">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>A new kernel option was proposed today called &quot;pkill_on_warn&quot; that would kill all threads in a process if that process provoked a kernel warning...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Libcamera Maturing Well As Open-Source Camera Stack</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;libcamera-2021">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Libcamera as an open-source camera stack that has been coming together over the past few years has been maturing quite well, broadening its supported hardware and feature set, and more in filling a void in the Linux camera ecosystem...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Windows 11 WSL2 Performance Is Quite Competitive Against Ubuntu 20.04 LTS / Ubuntu 21.10</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30568">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Recently I carried out some updated Windows 11 benchmarks against Linux to look at how this forthcoming Microsoft operating system release is competing with Ubuntu. In this article is a fresh look at the Windows Subsystem for Linux (WSL2) performance on the near-final Windows 11 against Ubuntu Linux.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AMD Aims For 30x Energy Efficiency Improvement For AI Training + HPC By 2025</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;AMD-30x-Energy-Efficiency-2025">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>AMD this morning announced a goal of increasing the energy efficiency of EPYC processors running AI training and high performance workloads by 30x... Within the next four years...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">LibreOffice Lands Initial Code For Qt6 Toolkit Support</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;LibreOffice-Qt6-VCL">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Merged this morning into the LibreOffice code-base is the initial Qt6 VCL plug-in...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Updated Zstd Implementation For The Linux Kernel Coming Soon</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Zstd-Updated-For-Kernel-Soon">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>While the Linux kernel is increasingly supporting the use of Zstd for various compression purposes, the current Zstd code within the kernel is out-of-date and efforts so far to re-base it against the closer to upstream Zstd state have been stalled. Fortunately, a new attempt at getting the Zstd code updated for the Linux kernel will be published soon...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Steam Beta Improves Its Vulkan Pre-Caching System, PipeWire Capture Now Opt-In</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Steam-Better-VLK-Pre-Cache">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>With the initial Steam Deck release quickly approaching, Valve continues to be quite busy on a variety of improvements to enhance their Steam Linux builds...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-28">2021-09-28</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -99,7 +229,7 @@ vulnerable packages that is…</span>
                 <summary class="article-expander__title">Vulkan 1.2.194 Brings New Extension For Google&#x27;s Fuchsia OS</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Vulkan-1.2.194-Released">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>Vulkan 1.2.194 is out as the latest spec revision to this high performance graphics and compute API...</span>
                   </div>
                 </a>
@@ -110,7 +240,7 @@ vulnerable packages that is…</span>
                 <summary class="article-expander__title">Picolibc Continues Maturing As Very Lightweight C Library For The Embedded World</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Picolibc-2021">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
+                    <span class="article-reading-time">(3 min)</span>
                     <span>While Keith Packard is known for his work on X11/X.Org, the past few years he has also been developing Picolibc as a C library intended for embedded systems. He also recently jumped from SiFive to Amazon and appears at the ecommerce giant to be working on Picolibc in an official capacity, presumably for use on Amazon&#x27;s growing hardware devices...</span>
                   </div>
                 </a>
@@ -287,7 +417,7 @@ to use GitLab&#x27;s own infrastructure.</span>
                 <summary class="article-expander__title">Nintendo Crypto Driver Being Worked On For Linux, Yields Much Better AES Performance</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Nintendo-AES-Crypto-Driver">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>The Linux kernel support around the Nintendo Wii and Wii U game console hardware continues to improve and now a new Nintendo crypto driver is being tackled based on reverse-engineered documentation...</span>
                   </div>
                 </a>
@@ -352,7 +482,7 @@ Thank you: @CaptNo1</span>
                 <summary class="article-expander__title">Linux 5.15-rc3 Released - Looking &quot;Pretty Normal&quot; Plus Performance Fix</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-rc3-Released">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>Linus Torvalds has now issued the third weekly release candidate of the forthcoming Linux 5.15 kernel...</span>
                   </div>
                 </a>
@@ -442,105 +572,6 @@ Thank you: @CaptNo1</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>Earlier this month Intel engineers posted their initial Linux kernel enablement around x86 User Interrupts with this feature premiering with Xeon &quot;Sapphire Rapids&quot; CPUs. As implied by the name, the User Interrupt functionality allows for interrupts to bypass the kernel for more efficient, low-latency, low-utilization interrupts being received by other user-space tasks. Intel talked more about User Interrupts this week at LPC2021...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">OpenZFS 2.0.6 Released With Support For Newer Kernels</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;OpenZFS-2.0.6-Released">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>While the OpenZFS 2.1 feature release has been available since July, for those still using the OpenZFS 2.0.x series and not yet prepared to make the jump to that big new release with dRAID and other changes, OpenZFS 2.0.6 was released this week...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Wine-Staging 6.18 Released With 616 Patches Atop Upstream</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Wine-Staging-6.18">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Building off yesterday&#x27;s Wine 6.18 development release is now the next Wine-Staging installment that has more than six hundred extra patches on top...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">XWayland GLX Path Enables sRGB Support</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;XWayland-sRGB-Support">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Another item is now crossed off the XWayland TODO list with OpenGL sRGB support wired up...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-24">2021-09-24</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Wine 6.18 Released With HID Joystick Enabled By Default</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Wine-6.18-Released">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Wine 6.18 has been popped as the newest bi-weekly development release of this software that allows Windows applications and games to run under Linux and in turn what also powers Steam Play&#x27;s Proton...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">BattlEye To Support Valve&#x27;s Steam Deck / Proton</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;BattlEye-Proton-Steam-Deck">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Yesterday it was Epic Games confirming Easy Anti-Cheat for Linux and Wine/Proton ahead of the Steam Deck launch and today it&#x27;s BattlEye confirming Proton / Steam Deck support...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">IBM Engineer Has Been Exploring Possible Rust Modules For GRUB</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;IBM-Possible-Rust-GRUB">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>IBM engineer Daniel Axtens presented at this week&#x27;s Linux Plumbers Conference on the prospects of using the Rust programming language for creating modules for the GRUB2 boot-loader...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GNU Coreutils 9.0: cp Now Enables CoW By Default + Copy Offload, wc Now Uses AVX2</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;GNU-Coreutils-9.0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Coreutils 9.0 is now available and it&#x27;s a significant update to this collection of common open-source utilities found on effectively all Linux systems...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SiFive HiFive Unmatched Hands-On, Initial RISC-V Performance Benchmarks</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30545">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>A few weeks ago I finally received the HiFive Unmatched from SiFive as their flagship RISC-V development board. As a reminder this is their mini-ITX development board that is powered by their U740 SoC and features 16GB of DDR4 system memory, one PCI Express x16 slot that can work with AMD Radeon graphics cards on Linux, and other features. It&#x27;s been a delight playing with this developer platform and enclosed are some early benchmarks as well showing off the U740 performance as well as how the Linux software support/performance has been evolving.</span>
                   </div>
                 </a>
               </details>
@@ -969,33 +1000,9 @@ As an example, I’ll show you how our own Red Team was able t…</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-03">2021-09-03</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The code review struggle is real. Here&#x27;s what you need to know</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>When making a list of the reasons to consider moving to a DevOps Platform, don&#x27;t forget about code review, a critical piece of the process that&#x27;s also an incredible source of frustration and delays to developers and their teams.
-In our 2021 Global DevSecOps Survey, respondents told us code quality was the number one reason they chose DevOps. But, when asked what was most likely to delay a product release, code review – vital to code quality – was one of the top four culprits (the others were testing, planning and code development). 
-The fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it&#x27;s never been more urgent to release secure code as quickly…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-29T00:35:18.275Z">2021-09-29T00:35:18.275Z</time>
+    <time id="build-timestamp" datetime="2021-09-30T00:39:57.419Z">2021-09-30T00:39:57.419Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.2</a></span>
   </footer>
   <script src="index.js"></script>

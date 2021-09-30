@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-29T00:35:18.292Z</id>
+    <id>urn:2021-09-30T00:39:57.442Z</id>
     <title>osmos::feed</title>
-    <updated>2021-09-29T00:35:18.292Z</updated>
+    <updated>2021-09-30T00:39:57.442Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.2.3 Released As A Small Update To This Graphics Driver Stack]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.3-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.3-Released"/>
+        <updated>2021-09-29T23:27:14.000Z</updated>
+        <summary type="html"><![CDATA[Succeeding Mesa 21.2.2 from earlier this month that was a much delayed and in turn very large release, Mesa 21.2.3 is out today and it's on the quieter side...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["pkill_on_warn" Proposed For Killing Linux Processes That Cause A Kernel Warning]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-pkill_on_warn</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-pkill_on_warn"/>
+        <updated>2021-09-29T19:32:45.000Z</updated>
+        <summary type="html"><![CDATA[A new kernel option was proposed today called "pkill_on_warn" that would kill all threads in a process if that process provoked a kernel warning...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libcamera Maturing Well As Open-Source Camera Stack]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=libcamera-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=libcamera-2021"/>
+        <updated>2021-09-29T18:30:06.000Z</updated>
+        <summary type="html"><![CDATA[Libcamera as an open-source camera stack that has been coming together over the past few years has been maturing quite well, broadening its supported hardware and feature set, and more in filling a void in the Linux camera ecosystem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 WSL2 Performance Is Quite Competitive Against Ubuntu 20.04 LTS / Ubuntu 21.10]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30568</id>
+        <link href="https://www.phoronix.com/vr.php?view=30568"/>
+        <updated>2021-09-29T13:18:02.000Z</updated>
+        <summary type="html"><![CDATA[Recently I carried out some updated Windows 11 benchmarks against Linux to look at how this forthcoming Microsoft operating system release is competing with Ubuntu. In this article is a fresh look at the Windows Subsystem for Linux (WSL2) performance on the near-final Windows 11 against Ubuntu Linux.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Aims For 30x Energy Efficiency Improvement For AI Training + HPC By 2025]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-30x-Energy-Efficiency-2025</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-30x-Energy-Efficiency-2025"/>
+        <updated>2021-09-29T13:09:14.000Z</updated>
+        <summary type="html"><![CDATA[AMD this morning announced a goal of increasing the energy efficiency of EPYC processors running AI training and high performance workloads by 30x... Within the next four years...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LibreOffice Lands Initial Code For Qt6 Toolkit Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-Qt6-VCL</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-Qt6-VCL"/>
+        <updated>2021-09-29T12:54:22.000Z</updated>
+        <summary type="html"><![CDATA[Merged this morning into the LibreOffice code-base is the initial Qt6 VCL plug-in...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updated Zstd Implementation For The Linux Kernel Coming Soon]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Updated-For-Kernel-Soon</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Updated-For-Kernel-Soon"/>
+        <updated>2021-09-29T09:45:31.000Z</updated>
+        <summary type="html"><![CDATA[While the Linux kernel is increasingly supporting the use of Zstd for various compression purposes, the current Zstd code within the kernel is out-of-date and efforts so far to re-base it against the closer to upstream Zstd state have been stalled. Fortunately, a new attempt at getting the Zstd code updated for the Linux kernel will be published soon...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steam Beta Improves Its Vulkan Pre-Caching System, PipeWire Capture Now Opt-In]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Better-VLK-Pre-Cache</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Better-VLK-Pre-Cache"/>
+        <updated>2021-09-29T00:51:22.000Z</updated>
+        <summary type="html"><![CDATA[With the initial Steam Deck release quickly approaching, Valve continues to be quite busy on a variety of improvements to enhance their Steam Linux builds...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why we spent the last month eliminating PostgreSQL subtransactions]]></title>
+        <id>https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/</id>
+        <link href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/"/>
+        <updated>2021-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since last June, we noticed the database on GitLab.com would
+mysteriously stall for minutes, which would lead to users seeing 500
+errors during this time. Through a painstaking investigation over
+several weeks, we finally uncovered the cause of this: initiating a
+subtransaction via the SAVEPOINT SQL query while
+a long transaction is in progress can wreak havoc on database
+replicas. Thus launched a race, which we recently completed, to
+eliminate all SAVEPOINT queries from our code. Here's what happened,
+how we discovered the problem, and what we did to fix it.
+The symptoms begin
+On June 24th, we noticed that our CI/CD runners service reported a high
+error rate:
+
+A quick investigation revealed that database queries used to retrieve
+CI/CD builds data were timing out and that the unprocessed b…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RadeonSI Driver Merges NGG Improvements, Other Optimizations For Mesa 21.3]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-More-NGG</id>
@@ -350,86 +454,6 @@ Thank you: @CaptNo1]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OpenZFS 2.0.6 Released With Support For Newer Kernels]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.0.6-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenZFS-2.0.6-Released"/>
-        <updated>2021-09-25T10:23:00.000Z</updated>
-        <summary type="html"><![CDATA[While the OpenZFS 2.1 feature release has been available since July, for those still using the OpenZFS 2.0.x series and not yet prepared to make the jump to that big new release with dRAID and other changes, OpenZFS 2.0.6 was released this week...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine-Staging 6.18 Released With 616 Patches Atop Upstream]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.18</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-Staging-6.18"/>
-        <updated>2021-09-25T09:52:15.000Z</updated>
-        <summary type="html"><![CDATA[Building off yesterday's Wine 6.18 development release is now the next Wine-Staging installment that has more than six hundred extra patches on top...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XWayland GLX Path Enables sRGB Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-sRGB-Support</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-sRGB-Support"/>
-        <updated>2021-09-25T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Another item is now crossed off the XWayland TODO list with OpenGL sRGB support wired up...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.18 Released With HID Joystick Enabled By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.18-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.18-Released"/>
-        <updated>2021-09-24T22:01:31.000Z</updated>
-        <summary type="html"><![CDATA[Wine 6.18 has been popped as the newest bi-weekly development release of this software that allows Windows applications and games to run under Linux and in turn what also powers Steam Play's Proton...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BattlEye To Support Valve's Steam Deck / Proton]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=BattlEye-Proton-Steam-Deck</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=BattlEye-Proton-Steam-Deck"/>
-        <updated>2021-09-24T19:52:38.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday it was Epic Games confirming Easy Anti-Cheat for Linux and Wine/Proton ahead of the Steam Deck launch and today it's BattlEye confirming Proton / Steam Deck support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IBM Engineer Has Been Exploring Possible Rust Modules For GRUB]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-Possible-Rust-GRUB</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=IBM-Possible-Rust-GRUB"/>
-        <updated>2021-09-24T18:50:24.000Z</updated>
-        <summary type="html"><![CDATA[IBM engineer Daniel Axtens presented at this week's Linux Plumbers Conference on the prospects of using the Rust programming language for creating modules for the GRUB2 boot-loader...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GNU Coreutils 9.0: cp Now Enables CoW By Default + Copy Offload, wc Now Uses AVX2]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Coreutils-9.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Coreutils-9.0"/>
-        <updated>2021-09-24T17:36:51.000Z</updated>
-        <summary type="html"><![CDATA[Coreutils 9.0 is now available and it's a significant update to this collection of common open-source utilities found on effectively all Linux systems...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SiFive HiFive Unmatched Hands-On, Initial RISC-V Performance Benchmarks]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30545</id>
-        <link href="https://www.phoronix.com/vr.php?view=30545"/>
-        <updated>2021-09-24T13:22:01.000Z</updated>
-        <summary type="html"><![CDATA[A few weeks ago I finally received the HiFive Unmatched from SiFive as their flagship RISC-V development board. As a reminder this is their mini-ITX development board that is powered by their U740 SoC and features 16GB of DDR4 system memory, one PCI Express x16 slot that can work with AMD Radeon graphics cards on Linux, and other features. It's been a delight playing with this developer platform and enclosed are some early benchmarks as well showing off the U740 performance as well as how the Linux software support/performance has been evolving.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to incorporate private customer needs into a public product roadmap]]></title>
         <id>https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/</id>
         <link href="https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/"/>
@@ -696,18 +720,6 @@ No one’s hacking their way into my workstation, that’s for sure.
 But my experience working as a hacker myself has shown me that the opposite is often true. Those of us who are more technical are often much more vulnerable to an attack due to the complexity of our working environments.
 In this blog, we’re going to dive into the anatomy of something called a “drive-by attack,” where malicious code hidden within a website uses your own browser to attack your computer.
 As an example, I’ll show you how our own Red Team was able t…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The code review struggle is real. Here's what you need to know]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/03/the-code-review-struggle-is-real-heres-what-you-need-to-know/"/>
-        <updated>2021-09-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When making a list of the reasons to consider moving to a DevOps Platform, don't forget about code review, a critical piece of the process that's also an incredible source of frustration and delays to developers and their teams.
-In our 2021 Global DevSecOps Survey, respondents told us code quality was the number one reason they chose DevOps. But, when asked what was most likely to delay a product release, code review – vital to code quality – was one of the top four culprits (the others were testing, planning and code development). 
-The fact that code review is a pain point is hardly surprising, given that it can often require context-switching, communication, collaboration, and of course subject matter expertise. At a time when it's never been more urgent to release secure code as quickly…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
