@@ -1,18 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-01T00:39:12.615Z</id>
+    <id>urn:2021-10-02T00:36:12.844Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-01T00:39:12.615Z</updated>
+    <updated>2021-10-02T00:36:12.844Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Nearly Two Decades Later, ATI Radeon R300 Linux Driver Sees Occasional Improvement]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=R300-Friday-Night-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=R300-Friday-Night-2021"/>
+        <updated>2021-10-01T23:30:30.000Z</updated>
+        <summary type="html"><![CDATA[While earlier this year AMD shifted their Radeon Software driver focus to only supporting Polaris / GCN 1.4 and newer, when it comes to the open-source driver support on Linux there still is occasional activity going back to the ATI Radeon R300 days from nearly two decades ago...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat / Fedora To Focus On Driving New Linux Video Improvements Around PipeWire]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-Better-Video-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-Better-Video-2021"/>
+        <updated>2021-10-01T17:51:35.000Z</updated>
+        <summary type="html"><![CDATA[PipeWire from the start was designed around handling the needs of both audio and video streams on Linux. While PipeWire is already in use for screencasting/recording under Wayland and working with Flatpak'ed applications, recently much of PipeWire's focus has been on addressing the use-cases of JACK and PulseAudio on the sound side. Now that the audio support is in quite good shape, Red Hat engineers are back to focusing on improvements to the video support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fedora Server 35 Performance Looking Good - Initial Benchmarks With Intel Xeon Ice Lake]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30571</id>
+        <link href="https://www.phoronix.com/vr.php?view=30571"/>
+        <updated>2021-10-01T13:23:08.000Z</updated>
+        <summary type="html"><![CDATA[Given this week's release of Fedora 35 Beta I have begun my benchmarking to look at how this next installment of Fedora Linux is shaping up given that it tends to be at the forefront of open-source innovations given Red Hat's investments. For our initial F35 benchmarking is looking at the Fedora Server 35 Beta performance compared to Fedora 34 on a dual Intel Xeon Platinum 8380 server.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLVM 13.0 Released With Official Flang Binary Packages, Improved OpenCL Clang Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Released"/>
+        <updated>2021-10-01T13:02:40.000Z</updated>
+        <summary type="html"><![CDATA[LLVM 13.0 was tagged overnight as the latest half-year update to this widely-used, very powerful open-source compiler stack...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PoCL 1.8 OpenCL Implementation Coming With LLVM 13 Support, Better SPIR-V On CUDA]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-RC1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-RC1-Released"/>
+        <updated>2021-10-01T12:29:09.000Z</updated>
+        <summary type="html"><![CDATA[The first release candidate of the forthcoming PoCL 1.8 "Portable Computing Language" implementation is now available for testing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arm Begins Adding Armv9 Support To The GNU Compiler Toolchain]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Armv9-GNU-Toolchain-Starting</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Armv9-GNU-Toolchain-Starting"/>
+        <updated>2021-10-01T11:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Arm engineers have begun landing their Armv9 enablement work in the GNU compiler toolchain...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proton Experimental Enables NVIDIA DLSS For D3D12 Games, Proton Now Handles More Games]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-7-Plus-DLSS-Exp</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-7-Plus-DLSS-Exp"/>
+        <updated>2021-10-01T09:10:12.000Z</updated>
+        <summary type="html"><![CDATA[Valve published new versions of Proton and Proton Experimental last night...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15, AMD / Radeon Advancements, Intel SDSi Dominated Discussions This Month]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=September-2021-Highlights</id>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=September-2021-Highlights"/>
-        <updated>2021-09-30T23:26:00.000Z</updated>
+        <updated>2021-10-01T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[That's a wrap for September with 229 original news articles and another 13 featured Linux hardware reviews / multi-page benchmark articles, all written by your's truly. It was another eventful month with Linux 5.15 moving forward, a lot of driver activity by AMD and Intel, and other open-source milestones like the release of GNOME 41 and the shipping of the Ubuntu 21.10 and Fedora 35 beta releases...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join us for Hacktoberfest 2021!]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/01/join-us-for-hacktoberfest-2021/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/01/join-us-for-hacktoberfest-2021/"/>
+        <updated>2021-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s October 2021, and we have quite a few treats in store. In addition to celebrating the 10th anniversary of the GitLab open source project, GitLab Inc. will be participating in Hacktoberfest, an event dedicated to increasing contributions to open source projects that's now in its eighth year. This has been widely requested by the open source community for years, so we’re thrilled to see GitLab support rolled out!
+Thanks to DigitalOcean, the organization behind Hacktoberfest, people can now contribute to open source projects that are hosted on GitLab.com.
+It’s easy, sign up on the Hacktoberfest website using your GitLab account and explore the available projects to contribute.
+Project maintainers who want their projects to participate in Hacktoberfest should follow the steps described on…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.3.2]]></title>
+        <id>https://about.gitlab.com/releases/2021/10/01/gitlab-14-3-2-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/10/01/gitlab-14-3-2-released/"/>
+        <updated>2021-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.3.2 GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+the 14.3 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Add OR REPLACE when creating function
+Top 7 Highlight items for 14.3
+Update GitLab Shell to v13.21.1
+Remove feature flag check for candece finder
+Remove unexpected FK prior to swapping columns
+Allow ee images to be skipped on CE pipelines
+Bump kas to v14.3.3
+Important notes on upgrading
+These versions do not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -350,26 +466,6 @@ CI/CD builds data were timing out and that the unprocessed b…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fedora's Java Packages Have Fallen Into Rough Shape]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-Java-Rough-Shape</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-Java-Rough-Shape"/>
-        <updated>2021-09-28T09:51:46.000Z</updated>
-        <summary type="html"><![CDATA[While many years ago Fedora's Java support was in great shape with quickly integrating OpenJDK going back to IcedTea, these days Fedora's Java packages are barely maintained and largely fallen into disrepair...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Posts Code Enabling "Cyan Skillfish" Display Support Due To Different DCN2 Variant]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Cyan-Skillfish-DCN-2.01</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Cyan-Skillfish-DCN-2.01"/>
-        <updated>2021-09-28T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since July we've seen AMD open-source driver engineers posting code for "Cyan Skillfish" as an APU with Navi 1x graphics. While initial support for Cyan Skillfish was merged for Linux 5.15, it turns out the display code isn't yet wired up due to being a different DCN2 variant for its display block...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[SemVer versioning: how we handled it with linear interval arithmetic]]></title>
         <id>https://about.gitlab.com/blog/2021/09/28/generic-semantic-version-processing/</id>
         <link href="https://about.gitlab.com/blog/2021/09/28/generic-semantic-version-processing/"/>
@@ -388,56 +484,6 @@ that is updated on a daily basis providing information about
 vulnerable packages that is…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 To Bring Initial DisplayPort 2.0 Support For AMD Radeon Driver (AMDGPU)]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-2.0-Linux-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-DP-2.0-Linux-5.16"/>
-        <updated>2021-09-27T21:46:34.000Z</updated>
-        <summary type="html"><![CDATA[A batch of feature updates was submitted today for DRM-Next of early feature work slated to come to the next version of the Linux kernel...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Intel Software Defined Silicon" Coming To Linux For Activating Extra Licensed Hardware Features]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Software-Defined-Silicon</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Software-Defined-Silicon"/>
-        <updated>2021-09-27T18:45:32.000Z</updated>
-        <summary type="html"><![CDATA[There has been talk of Intel moving to offer more license-able/opt-in features for hardware capabilities found within a given processor as an upgrade. We are now seeing the Linux signs of that support coming with a driver for "Intel Software Defined Silicon" to allow for the secure activation of such features baked into the processor's silicon but only available as an up-charge option...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing The New ASUS Platform Profile Support In Linux 5.15]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30554</id>
-        <link href="https://www.phoronix.com/vr.php?view=30554"/>
-        <updated>2021-09-27T12:15:52.000Z</updated>
-        <summary type="html"><![CDATA[With the in-development Linux 5.15 kernel there is now support for ACPI Platform Profiles on supported ASUS laptops. This ASUS laptop platform profile support joins the likes of HP, Dell, and Lenovo laptops already having this support exposed under Linux that allows users to control their power/performance preference. Here are some tests with the ASUS ROG Strix G15 AMD Advantage laptop with the platform profile options under Linux 5.15.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bcachefs Merges Support For Btrfs-Like Snapshots]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Bcachefs-Lands-Snapshots</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Bcachefs-Lands-Snapshots"/>
-        <updated>2021-09-27T09:34:45.000Z</updated>
-        <summary type="html"><![CDATA[It's been a while since having any news to report on Bcachefs as the promising open-source file-system born out of the Linux kernel's block cache code. However, Kent Overstreet continues working tirelessly on it and has now merged Bcachefs' snapshot support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo Crypto Driver Being Worked On For Linux, Yields Much Better AES Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Nintendo-AES-Crypto-Driver</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Nintendo-AES-Crypto-Driver"/>
-        <updated>2021-09-27T09:22:03.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel support around the Nintendo Wii and Wii U game console hardware continues to improve and now a new Nintendo crypto driver is being tackled based on reverse-engineered documentation...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -724,29 +770,6 @@ Prefer a video? Watch the walkthrough below to learn how to deploy agentk to you
 
 How it works
 Anytime a developer performs changes to a manifest file managed within GitLab, the agentk w…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The benefits of DevOps practices for IBM Z]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/10/adopt-agile-and-devops-for-ibm-z/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/10/adopt-agile-and-devops-for-ibm-z/"/>
-        <updated>2021-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As more organizations adopt open source software, DevOps and cloud computing, teams are moving towards a hybrid approach to application development and deployments. This is a particular challenge for siloed mainframe development teams that typically work within their own development tools – and those tools are are not the same ones used by their distributed developer counterparts. These disparate toolsets are not integrated between build, package, test, and deploy steps. GitLab aims to provide a unified enterprise-wide DevOps platform with enhanced support for IBM z/OS® applications. Here are three critical areas to focus on that can help bridge the gap between mainframe and "modern" DevOps development.
-Common workflows for hybrid environments
-DevOps is naturally aligned to Agile processes…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitLab's 5 new code review features will make life easier]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/09/5-code-review-features/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/09/5-code-review-features/"/>
-        <updated>2021-09-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the second in a series of blog posts looking at the challenges of code review and the ways a DevOps platform can help. Read the first post.
-Code review can be one of the most deceivingly difficult things in delivering software faster. Given the high stakes involved, we've made some key additions to our DevOps Platform that focus on making the code review process as seamless and effective as possible. We believe the number one way to make code reviews effective is to provide context. Too often we think of code reviews as only "reading" and commenting on others' code - but what a good code reviewer does is understand the entire context of the proposed change. Context-driven code reviews should include factors like the issue that spurred on the change, how the change impacts non-obvio…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
