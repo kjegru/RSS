@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-02T00:36:12.844Z</id>
+    <id>urn:2021-10-03T00:40:05.433Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-02T00:36:12.844Z</updated>
+    <updated>2021-10-03T00:40:05.433Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[OpenBLAS 0.3.18 Released With LoongArch64 Support, More Optimizations]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.18-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.18-Released"/>
+        <updated>2021-10-02T19:02:53.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLAS 0.3.18 is out today as the latest feature update to this widely-used, open-source BLAS implementation...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel oneAPI 2021.4 Released With More Optimizations, Continues LLVM Adoption]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-oneAPI-2021.4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-oneAPI-2021.4"/>
+        <updated>2021-10-02T17:54:16.000Z</updated>
+        <summary type="html"><![CDATA[Intel on Friday formally released their oneAPI Toolkits 2021.4 release as the latest collection of their various software components for a multi-vendor, multi-architecture software platform across CPUs and XPUs (GPUs / accelerators)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[helloSystem 0.6 Released For macOS-Inspired FreeBSD]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=helloSystem-0.6</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=helloSystem-0.6"/>
+        <updated>2021-10-02T17:34:57.000Z</updated>
+        <summary type="html"><![CDATA[Version 0.6 of helloSystem is now available as the FreeBSD-based open-source operating system project taking design cues from Apple's macOS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook Is Aiming To Make Compilers Faster Using Machine Learning With CompilerGym]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Compiler-Gym</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Compiler-Gym"/>
+        <updated>2021-10-02T09:53:37.000Z</updated>
+        <summary type="html"><![CDATA[Facebook this week announced the open-sourcing of CompilerGym as their effort to improve compiler performance by leveraging machine learning to tackle optimization work...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Plasma 5.23 Lands More Last-Minute Fixes To Avoid Wayland Crashes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.23-Less-KWin-Crashes</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.23-Less-KWin-Crashes"/>
+        <updated>2021-10-02T09:31:11.000Z</updated>
+        <summary type="html"><![CDATA[Plasma 5.23 stable is due to be released in two weeks while until then KDE developers are scurrying to land more fixes in this next desktop update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nearly Two Decades Later, ATI Radeon R300 Linux Driver Sees Occasional Improvement]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=R300-Friday-Night-2021</id>
@@ -411,56 +461,6 @@ CI/CD builds data were timing out and that the unprocessed b…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Linux-5.16-KVM"/>
         <updated>2021-09-28T18:48:42.000Z</updated>
         <summary type="html"><![CDATA[While the Linux kernel still hasn't added any formal control yet for AMD Predictive Store Forwarding to disable it short of also toggling Spectre V4 / SSBD, with the Linux 5.16 kernel the AMD PSF bit will now be exposed to KVM guest virtual machines so that they -- either with a patched/future kernel or for other operating systems -- may choose to toggle explicitly disable this AMD CPU feature...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fedora 35 Beta Released With Many New Features, Countless Package Updates]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Beta-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fedora-35-Beta-Released"/>
-        <updated>2021-09-28T17:48:53.000Z</updated>
-        <summary type="html"><![CDATA[After seeing some initial release challenges, Fedora 35 Beta was released today across the Fedora Workstation, Fedora Server, and Fedora IoT flavors as well as their other versions...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ampere Altra Max M128-30 Linux Performance Preview]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30562</id>
-        <link href="https://www.phoronix.com/vr.php?view=30562"/>
-        <updated>2021-09-28T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The past month we have started our testing of Ampere's Altra Max M128-30, the company's new 128 core server processor, and in this article today are our initial benchmarks of this promising chip for high core count servers in both 1P and 2P configurations tested.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.194 Brings New Extension For Google's Fuchsia OS]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.194-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.194-Released"/>
-        <updated>2021-09-28T13:29:28.000Z</updated>
-        <summary type="html"><![CDATA[Vulkan 1.2.194 is out as the latest spec revision to this high performance graphics and compute API...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Picolibc Continues Maturing As Very Lightweight C Library For The Embedded World]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Picolibc-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Picolibc-2021"/>
-        <updated>2021-09-28T13:00:12.000Z</updated>
-        <summary type="html"><![CDATA[While Keith Packard is known for his work on X11/X.Org, the past few years he has also been developing Picolibc as a C library intended for embedded systems. He also recently jumped from SiFive to Amazon and appears at the ecommerce giant to be working on Picolibc in an official capacity, presumably for use on Amazon's growing hardware devices...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OmniOS Adds VirtFS File Sharing For Bhyve, Better System Console Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OmniOS-r151038</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OmniOS-r151038"/>
-        <updated>2021-09-28T12:09:53.000Z</updated>
-        <summary type="html"><![CDATA[The open-source Solaris/Illumos ecosystem certainly isn't vibrant these days like back during the Sun Microsystems times with OpenSolaris, but OmniOS continues progressing as one of the few still-active and useful Solaris/Illumos-powered platforms...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
