@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-03T00:40:05.433Z</id>
+    <id>urn:2021-10-04T00:41:43.479Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-03T00:40:05.433Z</updated>
+    <updated>2021-10-04T00:41:43.479Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15-rc4 Released - The Kernel Is Looking "Pretty Normal"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc4"/>
+        <updated>2021-10-03T21:56:07.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds has declared Linux 5.15-rc4 as the latest weekly release candidate of the maturing Linux 5.15 codebase...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 Aims For Better USB Low-Latency Audio Playback]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-USB-Audio-LL</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-USB-Audio-LL"/>
+        <updated>2021-10-03T12:57:19.000Z</updated>
+        <summary type="html"><![CDATA[The Linux kernel is trying again to enhance the low-latency playback mode of its USB audio driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Sends Out 11th Revision Of Linux Kernel Patches For AMX]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-Linux-Kernel-v11</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-Linux-Kernel-v11"/>
+        <updated>2021-10-03T12:26:30.000Z</updated>
+        <summary type="html"><![CDATA[While Intel Xeon "Sapphire Rapids" processors with Advanced Matrix Extensions are set for a Q2'22 ramp in production, one of the key new features that has yet to be properly plumbed in the mainline Linux kernel is for supporting AMX...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Initial Linux Kernel Patches Posted For The Fairphone 4]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fairphone-4-Linux-Patches</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fairphone-4-Linux-Patches"/>
+        <updated>2021-10-03T09:48:48.000Z</updated>
+        <summary type="html"><![CDATA[Announced this week was the Fairphone 4 as the latest iteration of this smartphone focused on being "sustainable and ethical" and now the initial patches have been sent out for providing mainline Linux kernel support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Compute-Runtime 21.39.21127 Brings Broader Alder Lake S Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.39.21127</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.39.21127"/>
+        <updated>2021-10-03T09:30:40.000Z</updated>
+        <summary type="html"><![CDATA[Intel's newest weekly Compute-Runtime update providing open-source OpenCL and oneAPI Level Zero support for their graphics hardware is now reader with broader support for upcoming Alder Lake S processors...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenBLAS 0.3.18 Released With LoongArch64 Support, More Optimizations]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.18-Released</id>
@@ -392,36 +442,6 @@ GitLab releases patches for vulnerabilities in dedicated security releases. Ther
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[LibreOffice Lands Initial Code For Qt6 Toolkit Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-Qt6-VCL</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LibreOffice-Qt6-VCL"/>
-        <updated>2021-09-29T12:54:22.000Z</updated>
-        <summary type="html"><![CDATA[Merged this morning into the LibreOffice code-base is the initial Qt6 VCL plug-in...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Updated Zstd Implementation For The Linux Kernel Coming Soon]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Updated-For-Kernel-Soon</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Updated-For-Kernel-Soon"/>
-        <updated>2021-09-29T09:45:31.000Z</updated>
-        <summary type="html"><![CDATA[While the Linux kernel is increasingly supporting the use of Zstd for various compression purposes, the current Zstd code within the kernel is out-of-date and efforts so far to re-base it against the closer to upstream Zstd state have been stalled. Fortunately, a new attempt at getting the Zstd code updated for the Linux kernel will be published soon...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Steam Beta Improves Its Vulkan Pre-Caching System, PipeWire Capture Now Opt-In]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Better-VLK-Pre-Cache</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Better-VLK-Pre-Cache"/>
-        <updated>2021-09-29T00:51:22.000Z</updated>
-        <summary type="html"><![CDATA[With the initial Steam Deck release quickly approaching, Valve continues to be quite busy on a variety of improvements to enhance their Steam Linux builds...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Why we spent the last month eliminating PostgreSQL subtransactions]]></title>
         <id>https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/</id>
         <link href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/"/>
@@ -443,26 +463,6 @@ A quick investigation revealed that database queries used to retrieve
 CI/CD builds data were timing out and that the unprocessed b…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RadeonSI Driver Merges NGG Improvements, Other Optimizations For Mesa 21.3]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-More-NGG</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RadeonSI-More-NGG"/>
-        <updated>2021-09-28T22:35:54.000Z</updated>
-        <summary type="html"><![CDATA[AMD open-source driver developers today merged another big set of patches providing various micro-optimizations and other enhancements to the RadeonSI Gallium3D driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 To Expose AMD PSF Disable Bit To KVM Guests]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Linux-5.16-KVM</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-PSF-Linux-5.16-KVM"/>
-        <updated>2021-09-28T18:48:42.000Z</updated>
-        <summary type="html"><![CDATA[While the Linux kernel still hasn't added any formal control yet for AMD Predictive Store Forwarding to disable it short of also toggling Spectre V4 / SSBD, with the Linux 5.16 kernel the AMD PSF bit will now be exposed to KVM guest virtual machines so that they -- either with a patched/future kernel or for other operating systems -- may choose to toggle explicitly disable this AMD CPU feature...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>

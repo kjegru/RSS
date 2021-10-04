@@ -81,7 +81,7 @@
           "description": "Since last June, we noticed the database on GitLab.com would\nmysteriously stall for minutes, which would lead to users seeing 500\nerrors during this time. Through a painstaking investigation over\nseveral weeks, we finally uncovered the cause of this: initiating a\nsubtransaction via the SAVEPOINT SQL query while\na long transaction is in progress can wreak havoc on database\nreplicas. Thus launched a race, which we recently completed, to\neliminate all SAVEPOINT queries from our code. Here's what happened,\nhow we discovered the problem, and what we did to fix it.\nThe symptoms begin\nOn June 24th, we noticed that our CI/CD runners service reported a high\nerror rate:\n\nA quick investigation revealed that database queries used to retrieve\nCI/CD builds data were timing out and that the unprocessed b…",
           "link": "https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/",
           "publishedOn": "2021-09-29T00:00:00.000Z",
-          "wordCount": 7255,
+          "wordCount": 7257,
           "title": "Why we spent the last month eliminating PostgreSQL subtransactions"
         },
         {
@@ -227,12 +227,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc4",
+          "author": null,
+          "description": "Linus Torvalds has declared Linux 5.15-rc4 as the latest weekly release candidate of the maturing Linux 5.15 codebase...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc4",
+          "publishedOn": "2021-10-03T21:56:07.000Z",
+          "wordCount": 747,
+          "title": "Linux 5.15-rc4 Released - The Kernel Is Looking \"Pretty Normal\""
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-USB-Audio-LL",
+          "author": null,
+          "description": "The Linux kernel is trying again to enhance the low-latency playback mode of its USB audio driver...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-USB-Audio-LL",
+          "publishedOn": "2021-10-03T12:57:19.000Z",
+          "wordCount": 921,
+          "title": "Linux 5.16 Aims For Better USB Low-Latency Audio Playback"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-Linux-Kernel-v11",
+          "author": null,
+          "description": "While Intel Xeon \"Sapphire Rapids\" processors with Advanced Matrix Extensions are set for a Q2'22 ramp in production, one of the key new features that has yet to be properly plumbed in the mainline Linux kernel is for supporting AMX...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-Linux-Kernel-v11",
+          "publishedOn": "2021-10-03T12:26:30.000Z",
+          "wordCount": 893,
+          "title": "Intel Sends Out 11th Revision Of Linux Kernel Patches For AMX"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Fairphone-4-Linux-Patches",
+          "author": null,
+          "description": "Announced this week was the Fairphone 4 as the latest iteration of this smartphone focused on being \"sustainable and ethical\" and now the initial patches have been sent out for providing mainline Linux kernel support...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Fairphone-4-Linux-Patches",
+          "publishedOn": "2021-10-03T09:48:48.000Z",
+          "wordCount": 797,
+          "title": "Initial Linux Kernel Patches Posted For The Fairphone 4"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.39.21127",
+          "author": null,
+          "description": "Intel's newest weekly Compute-Runtime update providing open-source OpenCL and oneAPI Level Zero support for their graphics hardware is now reader with broader support for upcoming Alder Lake S processors...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.39.21127",
+          "publishedOn": "2021-10-03T09:30:40.000Z",
+          "wordCount": 769,
+          "title": "Intel Compute-Runtime 21.39.21127 Brings Broader Alder Lake S Support"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBLAS-0.3.18-Released",
           "author": null,
           "description": "OpenBLAS 0.3.18 is out today as the latest feature update to this widely-used, open-source BLAS implementation...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBLAS-0.3.18-Released",
           "publishedOn": "2021-10-02T19:02:53.000Z",
-          "wordCount": 738,
+          "wordCount": 730,
           "title": "OpenBLAS 0.3.18 Released With LoongArch64 Support, More Optimizations"
         },
         {
@@ -241,7 +286,7 @@
           "description": "Intel on Friday formally released their oneAPI Toolkits 2021.4 release as the latest collection of their various software components for a multi-vendor, multi-architecture software platform across CPUs and XPUs (GPUs / accelerators)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-oneAPI-2021.4",
           "publishedOn": "2021-10-02T17:54:16.000Z",
-          "wordCount": 859,
+          "wordCount": 846,
           "title": "Intel oneAPI 2021.4 Released With More Optimizations, Continues LLVM Adoption"
         },
         {
@@ -250,7 +295,7 @@
           "description": "Version 0.6 of helloSystem is now available as the FreeBSD-based open-source operating system project taking design cues from Apple's macOS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=helloSystem-0.6",
           "publishedOn": "2021-10-02T17:34:57.000Z",
-          "wordCount": 678,
+          "wordCount": 750,
           "title": "helloSystem 0.6 Released For macOS-Inspired FreeBSD"
         },
         {
@@ -259,7 +304,7 @@
           "description": "Facebook this week announced the open-sourcing of CompilerGym as their effort to improve compiler performance by leveraging machine learning to tackle optimization work...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Facebook-Compiler-Gym",
           "publishedOn": "2021-10-02T09:53:37.000Z",
-          "wordCount": 824,
+          "wordCount": 862,
           "title": "Facebook Is Aiming To Make Compilers Faster Using Machine Learning With CompilerGym"
         },
         {
@@ -268,7 +313,7 @@
           "description": "Plasma 5.23 stable is due to be released in two weeks while until then KDE developers are scurrying to land more fixes in this next desktop update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Plasma-5.23-Less-KWin-Crashes",
           "publishedOn": "2021-10-02T09:31:11.000Z",
-          "wordCount": 884,
+          "wordCount": 876,
           "title": "Plasma 5.23 Lands More Last-Minute Fixes To Avoid Wayland Crashes"
         },
         {
@@ -277,7 +322,7 @@
           "description": "While earlier this year AMD shifted their Radeon Software driver focus to only supporting Polaris / GCN 1.4 and newer, when it comes to the open-source driver support on Linux there still is occasional activity going back to the ATI Radeon R300 days from nearly two decades ago...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=R300-Friday-Night-2021",
           "publishedOn": "2021-10-01T23:30:30.000Z",
-          "wordCount": 1027,
+          "wordCount": 1019,
           "title": "Nearly Two Decades Later, ATI Radeon R300 Linux Driver Sees Occasional Improvement"
         },
         {
@@ -286,7 +331,7 @@
           "description": "PipeWire from the start was designed around handling the needs of both audio and video streams on Linux. While PipeWire is already in use for screencasting/recording under Wayland and working with Flatpak'ed applications, recently much of PipeWire's focus has been on addressing the use-cases of JACK and PulseAudio on the sound side. Now that the audio support is in quite good shape, Red Hat engineers are back to focusing on improvements to the video support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-Better-Video-2021",
           "publishedOn": "2021-10-01T17:51:35.000Z",
-          "wordCount": 794,
+          "wordCount": 786,
           "title": "Red Hat / Fedora To Focus On Driving New Linux Video Improvements Around PipeWire"
         },
         {
@@ -295,7 +340,7 @@
           "description": "Given this week's release of Fedora 35 Beta I have begun my benchmarking to look at how this next installment of Fedora Linux is shaping up given that it tends to be at the forefront of open-source innovations given Red Hat's investments. For our initial F35 benchmarking is looking at the Fedora Server 35 Beta performance compared to Fedora 34 on a dual Intel Xeon Platinum 8380 server.",
           "link": "https://www.phoronix.com/vr.php?view=30571",
           "publishedOn": "2021-10-01T13:23:08.000Z",
-          "wordCount": 806,
+          "wordCount": 725,
           "title": "Fedora Server 35 Performance Looking Good - Initial Benchmarks With Intel Xeon Ice Lake"
         },
         {
@@ -304,7 +349,7 @@
           "description": "LLVM 13.0 was tagged overnight as the latest half-year update to this widely-used, very powerful open-source compiler stack...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-13.0-Released",
           "publishedOn": "2021-10-01T13:02:40.000Z",
-          "wordCount": 853,
+          "wordCount": 891,
           "title": "LLVM 13.0 Released With Official Flang Binary Packages, Improved OpenCL Clang Support"
         },
         {
@@ -313,7 +358,7 @@
           "description": "The first release candidate of the forthcoming PoCL 1.8 \"Portable Computing Language\" implementation is now available for testing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=POCL-1.8-RC1-Released",
           "publishedOn": "2021-10-01T12:29:09.000Z",
-          "wordCount": 706,
+          "wordCount": 769,
           "title": "PoCL 1.8 OpenCL Implementation Coming With LLVM 13 Support, Better SPIR-V On CUDA"
         },
         {
@@ -322,7 +367,7 @@
           "description": "Arm engineers have begun landing their Armv9 enablement work in the GNU compiler toolchain...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Armv9-GNU-Toolchain-Starting",
           "publishedOn": "2021-10-01T11:22:00.000Z",
-          "wordCount": 743,
+          "wordCount": 733,
           "title": "Arm Begins Adding Armv9 Support To The GNU Compiler Toolchain"
         },
         {
@@ -331,7 +376,7 @@
           "description": "Valve published new versions of Proton and Proton Experimental last night...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Proton-6.3-7-Plus-DLSS-Exp",
           "publishedOn": "2021-10-01T09:10:12.000Z",
-          "wordCount": 777,
+          "wordCount": 769,
           "title": "Proton Experimental Enables NVIDIA DLSS For D3D12 Games, Proton Now Handles More Games"
         },
         {
@@ -340,7 +385,7 @@
           "description": "That's a wrap for September with 229 original news articles and another 13 featured Linux hardware reviews / multi-page benchmark articles, all written by your's truly. It was another eventful month with Linux 5.15 moving forward, a lot of driver activity by AMD and Intel, and other open-source milestones like the release of GNOME 41 and the shipping of the Ubuntu 21.10 and Fedora 35 beta releases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=September-2021-Highlights",
           "publishedOn": "2021-10-01T04:00:00.000Z",
-          "wordCount": 2813,
+          "wordCount": 2805,
           "title": "Linux 5.15, AMD / Radeon Advancements, Intel SDSi Dominated Discussions This Month"
         },
         {
@@ -349,7 +394,7 @@
           "description": "Intel's open-source Linux graphics driver engineers are evaluating possible improvements to the Linux kernel for accommodating CPU and GPU synchronized priority scheduling...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CPU-GPU-Prio-Nice-Sched",
           "publishedOn": "2021-09-30T19:34:31.000Z",
-          "wordCount": 966,
+          "wordCount": 1033,
           "title": "Intel Exploring CPU+GPU Synchronized Priority Scheduling For Linux"
         },
         {
@@ -358,7 +403,7 @@
           "description": "In addition to Linux 5.15 adding a new AMD audio driver for \"Van Gogh\" APUs such as found in the forthcoming Steam Deck, AMD's open-source Linux driver engineers have also been working on other audio improvements -- this time on the Chromebook front...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Linux-Audio-Guybrush",
           "publishedOn": "2021-09-30T18:58:25.000Z",
-          "wordCount": 893,
+          "wordCount": 805,
           "title": "New AMD Linux Audio Driver Patches Posted - Aimed For Enhancing Chromebook Support"
         },
         {
@@ -367,7 +412,7 @@
           "description": "Intel has some new announcements around their neuromorphic computing research...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Loihi-2-Lava",
           "publishedOn": "2021-09-30T15:00:00.000Z",
-          "wordCount": 849,
+          "wordCount": 836,
           "title": "Intel Announces Loihi 2, Lava Software Framework For Advancing Neuromorphic Computing"
         },
         {
@@ -376,7 +421,7 @@
           "description": "Linux kernel developers have been working tirelessly to squeeze more performance out of IO_uring and the block / I/O code in general. IO_uring lead developer Jens Axboe who also serves as the Linux block subsystem's maintainer (among other roles and major contributions over the years) has used his system as a baseline for evaluating such kernel improvements. He's now moved to using AMD Zen 3 while sticking to Intel Optane storage and is seeing a mighty speed boost out of AMD's latest processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.1M-IOPS-Per-Core",
           "publishedOn": "2021-09-30T13:53:35.000Z",
-          "wordCount": 913,
+          "wordCount": 825,
           "title": "Linux Achieves 5.1M IOPS Per-Core With AMD Zen 3 + Intel Optane"
         },
         {
@@ -385,7 +430,7 @@
           "description": "PostgreSQL 14.0 is now officially available as the latest version of this widely-used, open-source SQL server...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PostgreSQL-14",
           "publishedOn": "2021-09-30T13:19:19.000Z",
-          "wordCount": 730,
+          "wordCount": 802,
           "title": "PostgreSQL 14.0 Released With More Performance Improvements"
         },
         {
@@ -394,7 +439,7 @@
           "description": "Google's work on the VirtIO DRM kernel driver around the notion of \"context types\" and being able to initialize different types of contexts is set to be merged for Linux 5.16 in opening up more use-cases for this driver that is an important part of the open-source virtualization graphics stack for graphics...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=VirtIO-Linux-5.16-Ctx-Type",
           "publishedOn": "2021-09-30T12:29:44.000Z",
-          "wordCount": 913,
+          "wordCount": 825,
           "title": "Linux 5.16 To Feature More Extensible VirtIO GPU Driver With \"Context Types\" Addition"
         },
         {
@@ -403,7 +448,7 @@
           "description": "Qt 6.2 LTS is out today as the first long-term support release in the Qt6 series and also with all of the major modules now ported over from Qt5 in aiming to make this a suitable point to transition from Qt 5.15 LTS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-6.2-LTS-Released",
           "publishedOn": "2021-09-30T10:38:36.000Z",
-          "wordCount": 946,
+          "wordCount": 938,
           "title": "Qt 6.2 LTS Released With Qt6 Now Aiming To Be Ready For Widespread Adoption"
         },
         {
@@ -412,7 +457,7 @@
           "description": "AMD has pushed out one more code drop of their AMDVLK official open-source Vulkan driver before ending out the quarter...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDVLK-2021.Q3.7",
           "publishedOn": "2021-09-30T10:09:48.000Z",
-          "wordCount": 769,
+          "wordCount": 841,
           "title": "AMDVLK 2021.Q3.7 Driver Released With New Extensions, More Optimizations"
         },
         {
@@ -421,7 +466,7 @@
           "description": "From our Ampere Altra Max M128-30 Linux performance preview earlier this week, one of the questions a number of readers were wondering about and a question I also still had open was on the Altra Max pricing... I've now received the current price list and actually comes in much lower than expected for a 128-core CPU in 2021...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ampere-Altra-Max-Pricing",
           "publishedOn": "2021-09-30T09:55:28.000Z",
-          "wordCount": 941,
+          "wordCount": 919,
           "title": "Ampere Altra Max 128-Core CPU Is Priced Lower Than Flagship Xeon, EPYC CPUs"
         },
         {
@@ -430,7 +475,7 @@
           "description": "Succeeding Mesa 21.2.2 from earlier this month that was a much delayed and in turn very large release, Mesa 21.2.3 is out today and it's on the quieter side...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.2.3-Released",
           "publishedOn": "2021-09-29T23:27:14.000Z",
-          "wordCount": 819,
+          "wordCount": 731,
           "title": "Mesa 21.2.3 Released As A Small Update To This Graphics Driver Stack"
         },
         {
@@ -439,7 +484,7 @@
           "description": "A new kernel option was proposed today called \"pkill_on_warn\" that would kill all threads in a process if that process provoked a kernel warning...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-pkill_on_warn",
           "publishedOn": "2021-09-29T19:32:45.000Z",
-          "wordCount": 904,
+          "wordCount": 817,
           "title": "\"pkill_on_warn\" Proposed For Killing Linux Processes That Cause A Kernel Warning"
         },
         {
@@ -448,7 +493,7 @@
           "description": "Libcamera as an open-source camera stack that has been coming together over the past few years has been maturing quite well, broadening its supported hardware and feature set, and more in filling a void in the Linux camera ecosystem...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=libcamera-2021",
           "publishedOn": "2021-09-29T18:30:06.000Z",
-          "wordCount": 878,
+          "wordCount": 882,
           "title": "Libcamera Maturing Well As Open-Source Camera Stack"
         },
         {
@@ -457,7 +502,7 @@
           "description": "Recently I carried out some updated Windows 11 benchmarks against Linux to look at how this forthcoming Microsoft operating system release is competing with Ubuntu. In this article is a fresh look at the Windows Subsystem for Linux (WSL2) performance on the near-final Windows 11 against Ubuntu Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30568",
           "publishedOn": "2021-09-29T13:18:02.000Z",
-          "wordCount": 867,
+          "wordCount": 891,
           "title": "Windows 11 WSL2 Performance Is Quite Competitive Against Ubuntu 20.04 LTS / Ubuntu 21.10"
         },
         {
@@ -466,53 +511,8 @@
           "description": "AMD this morning announced a goal of increasing the energy efficiency of EPYC processors running AI training and high performance workloads by 30x... Within the next four years...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-30x-Energy-Efficiency-2025",
           "publishedOn": "2021-09-29T13:09:14.000Z",
-          "wordCount": 776,
+          "wordCount": 839,
           "title": "AMD Aims For 30x Energy Efficiency Improvement For AI Training + HPC By 2025"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-Qt6-VCL",
-          "author": null,
-          "description": "Merged this morning into the LibreOffice code-base is the initial Qt6 VCL plug-in...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LibreOffice-Qt6-VCL",
-          "publishedOn": "2021-09-29T12:54:22.000Z",
-          "wordCount": 796,
-          "title": "LibreOffice Lands Initial Code For Qt6 Toolkit Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Zstd-Updated-For-Kernel-Soon",
-          "author": null,
-          "description": "While the Linux kernel is increasingly supporting the use of Zstd for various compression purposes, the current Zstd code within the kernel is out-of-date and efforts so far to re-base it against the closer to upstream Zstd state have been stalled. Fortunately, a new attempt at getting the Zstd code updated for the Linux kernel will be published soon...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zstd-Updated-For-Kernel-Soon",
-          "publishedOn": "2021-09-29T09:45:31.000Z",
-          "wordCount": 837,
-          "title": "Updated Zstd Implementation For The Linux Kernel Coming Soon"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Better-VLK-Pre-Cache",
-          "author": null,
-          "description": "With the initial Steam Deck release quickly approaching, Valve continues to be quite busy on a variety of improvements to enhance their Steam Linux builds...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Better-VLK-Pre-Cache",
-          "publishedOn": "2021-09-29T00:51:22.000Z",
-          "wordCount": 785,
-          "title": "Steam Beta Improves Its Vulkan Pre-Caching System, PipeWire Capture Now Opt-In"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RadeonSI-More-NGG",
-          "author": null,
-          "description": "AMD open-source driver developers today merged another big set of patches providing various micro-optimizations and other enhancements to the RadeonSI Gallium3D driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RadeonSI-More-NGG",
-          "publishedOn": "2021-09-28T22:35:54.000Z",
-          "wordCount": 876,
-          "title": "RadeonSI Driver Merges NGG Improvements, Other Optimizations For Mesa 21.3"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Linux-5.16-KVM",
-          "author": null,
-          "description": "While the Linux kernel still hasn't added any formal control yet for AMD Predictive Store Forwarding to disable it short of also toggling Spectre V4 / SSBD, with the Linux 5.16 kernel the AMD PSF bit will now be exposed to KVM guest virtual machines so that they -- either with a patched/future kernel or for other operating systems -- may choose to toggle explicitly disable this AMD CPU feature...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSF-Linux-5.16-KVM",
-          "publishedOn": "2021-09-28T18:48:42.000Z",
-          "wordCount": 1005,
-          "title": "Linux 5.16 To Expose AMD PSF Disable Bit To KVM Guests"
         }
       ]
     }
