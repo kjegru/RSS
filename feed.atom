@@ -1,10 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-04T00:41:43.479Z</id>
+    <id>urn:2021-10-05T00:37:18.268Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-04T00:41:43.479Z</updated>
+    <updated>2021-10-05T00:37:18.268Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RadeonSI Lands Another Big Overhead Optimization - "Substantially" Helps In Some Cases]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Display-List-Interface</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Display-List-Interface"/>
+        <updated>2021-10-04T23:17:21.000Z</updated>
+        <summary type="html"><![CDATA[Merged to Mesa 21.3-devel this weekend was a rework to the display list interface for the Gallium3D code and Mesa state tracker and wired up for the RadeonSI Gallium3D driver. This latest driver overhead reduction is another sizable win for AMD's open-source OpenGL driver on Linux...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 3.10 Released With Many Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Python-3.10-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Python-3.10-Released"/>
+        <updated>2021-10-04T22:26:54.000Z</updated>
+        <summary type="html"><![CDATA[Python 3.10 is out as the latest major update for this widely-used programming language's official implementation...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android 12 Now Available From The Android Open-Source Project]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Android-12-AOSP</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Android-12-AOSP"/>
+        <updated>2021-10-04T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google announced today that Android 12 is now officially available from the Android Open Source Project (AOSP)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Publishes Open-Source "GPUFORT" As Newest Effort To Help Transition Away From CUDA]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Radeon-GPUFORT</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Radeon-GPUFORT"/>
+        <updated>2021-10-04T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I've just been informed by AMD that they have now made their code public to a new project called GPUFORT. This new GPUFORT project will live under the Radeon Open eCosystem (ROCm) umbrella and is their latest endeavor in helping developers with large CUDA code-bases transition away from NVIDIA's closed ecosystem...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Prepares Linux Driver Support For USB4 DP Tunneling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-USB4-DP-Tunneling</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-USB4-DP-Tunneling"/>
+        <updated>2021-10-04T17:45:29.000Z</updated>
+        <summary type="html"><![CDATA[The newest patch series by AMD open-source Linux graphics driver engineers worth mentioning is around USB4 DisplayPort tunneling support for next-generation AMD hardware supporting USB4 connectivity...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Tiger Lake Performance Looking Even Better With Ubuntu 21.10]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30574</id>
+        <link href="https://www.phoronix.com/vr.php?view=30574"/>
+        <updated>2021-10-04T13:00:51.000Z</updated>
+        <summary type="html"><![CDATA[It's been one year now since Intel launched Tiger Lake mobile processors and since then we've been running routine benchmarks of the Core i7 1165G7 on Linux. Tiger Lake at launch was performing well under Linux but its performance has continued evolving nicely since on Linux, especially as it pertains to the Xe Graphics with the open-source OpenGL/Vulkan drivers. With Ubuntu 21.10 due out later this month, there is another performance boost to enjoy.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.3 RADV Vulkan Driver Lands Ray-Tracing Support For Older AMD Radeon GPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Mesa-21.3-Older-RT</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Mesa-21.3-Older-RT"/>
+        <updated>2021-10-04T12:28:54.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.3 recently landed RADV ray-tracing support for this open-source Radeon Vulkan driver with RDNA2 graphics processors. Now the software-based/emulated Vulkan ray-tracing support has been merged for handling pre-RDNA2 GPUs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lumina Desktop 1.6.1 Released With Theme Improvements While Bigger Improvements Planned]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lumina-Desktop-1.6.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lumina-Desktop-1.6.1"/>
+        <updated>2021-10-04T10:35:45.000Z</updated>
+        <summary type="html"><![CDATA[The Lumina Desktop Environment as the BSD-3 licensed desktop originally spearheaded for TrueOS/PC-BSD but found supported as well by other BSDs and Linux distributions is out with a rare new release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GCC 12 Compiler Squaring Away Its AVX-512 FP16 Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-AVX-512-FP16-Landing</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-AVX-512-FP16-Landing"/>
+        <updated>2021-10-04T10:13:36.000Z</updated>
+        <summary type="html"><![CDATA[In recent weeks the AVX-512 FP16 support has been landing within the GNU Compiler Collection codebase for next year's GCC 12 release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD SEV-SNP Development Continues Towards The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Autumn-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Autumn-2021"/>
+        <updated>2021-10-04T09:45:53.000Z</updated>
+        <summary type="html"><![CDATA[Since the launch of AMD EPYC 7003 "Milan" processors earlier this year there has been support for SEV-SNP as the latest evolution of Secure Encrypted Virtualization. The mainline Linux kernel still isn't yet supporting SEV Secure Nested Paging from the upstream kernel, but the out-of-tree patches continue to be available for those interested and development work continues in getting that code ready for mainline as well as ironing out other features...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use external status checks for merge requests]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/"/>
+        <updated>2021-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The external status checks for merge requests capability was recently introduced in GitLab and it allows the integration of third-party systems and applications with GitLab merge requests.
+What are "external status checks for merge requests"?
+External status checks are API calls to systems or applications that sit outside GitLab. These API calls are invoked during merge requests, which display a widget with the status of each external check. With external status checks, you can integrate GitLab with third-party systems, e.g. Salesforce, PeopleSoft, Microsoft Dynamics, etc., that require manual approval for merge requests. This makes it easy to see that merge requests have met external requirements before being merged, adding an extra method to ensure compliance and audit requirements are m…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux 5.15-rc4 Released - The Kernel Is Looking "Pretty Normal"]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc4</id>
@@ -272,56 +384,6 @@ to use GitLab's own infrastructure.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PostgreSQL 14.0 Released With More Performance Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PostgreSQL-14</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PostgreSQL-14"/>
-        <updated>2021-09-30T13:19:19.000Z</updated>
-        <summary type="html"><![CDATA[PostgreSQL 14.0 is now officially available as the latest version of this widely-used, open-source SQL server...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 To Feature More Extensible VirtIO GPU Driver With "Context Types" Addition]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VirtIO-Linux-5.16-Ctx-Type</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VirtIO-Linux-5.16-Ctx-Type"/>
-        <updated>2021-09-30T12:29:44.000Z</updated>
-        <summary type="html"><![CDATA[Google's work on the VirtIO DRM kernel driver around the notion of "context types" and being able to initialize different types of contexts is set to be merged for Linux 5.16 in opening up more use-cases for this driver that is an important part of the open-source virtualization graphics stack for graphics...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qt 6.2 LTS Released With Qt6 Now Aiming To Be Ready For Widespread Adoption]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-LTS-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Qt-6.2-LTS-Released"/>
-        <updated>2021-09-30T10:38:36.000Z</updated>
-        <summary type="html"><![CDATA[Qt 6.2 LTS is out today as the first long-term support release in the Qt6 series and also with all of the major modules now ported over from Qt5 in aiming to make this a suitable point to transition from Qt 5.15 LTS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMDVLK 2021.Q3.7 Driver Released With New Extensions, More Optimizations]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.7</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDVLK-2021.Q3.7"/>
-        <updated>2021-09-30T10:09:48.000Z</updated>
-        <summary type="html"><![CDATA[AMD has pushed out one more code drop of their AMDVLK official open-source Vulkan driver before ending out the quarter...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ampere Altra Max 128-Core CPU Is Priced Lower Than Flagship Xeon, EPYC CPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Altra-Max-Pricing</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Altra-Max-Pricing"/>
-        <updated>2021-09-30T09:55:28.000Z</updated>
-        <summary type="html"><![CDATA[From our Ampere Altra Max M128-30 Linux performance preview earlier this week, one of the questions a number of readers were wondering about and a question I also still had open was on the Altra Max pricing... I've now received the current price list and actually comes in much lower than expected for a 128-core CPU in 2021...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab user profiles have just become more personal]]></title>
         <id>https://about.gitlab.com/blog/2021/09/30/personal-profile/</id>
         <link href="https://about.gitlab.com/blog/2021/09/30/personal-profile/"/>
@@ -389,56 +451,6 @@ These versions contain important security fixes, and we strongly recommend that 
 GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days a…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.2.3 Released As A Small Update To This Graphics Driver Stack]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.3-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.2.3-Released"/>
-        <updated>2021-09-29T23:27:14.000Z</updated>
-        <summary type="html"><![CDATA[Succeeding Mesa 21.2.2 from earlier this month that was a much delayed and in turn very large release, Mesa 21.2.3 is out today and it's on the quieter side...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["pkill_on_warn" Proposed For Killing Linux Processes That Cause A Kernel Warning]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-pkill_on_warn</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-pkill_on_warn"/>
-        <updated>2021-09-29T19:32:45.000Z</updated>
-        <summary type="html"><![CDATA[A new kernel option was proposed today called "pkill_on_warn" that would kill all threads in a process if that process provoked a kernel warning...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Libcamera Maturing Well As Open-Source Camera Stack]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=libcamera-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=libcamera-2021"/>
-        <updated>2021-09-29T18:30:06.000Z</updated>
-        <summary type="html"><![CDATA[Libcamera as an open-source camera stack that has been coming together over the past few years has been maturing quite well, broadening its supported hardware and feature set, and more in filling a void in the Linux camera ecosystem...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 WSL2 Performance Is Quite Competitive Against Ubuntu 20.04 LTS / Ubuntu 21.10]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30568</id>
-        <link href="https://www.phoronix.com/vr.php?view=30568"/>
-        <updated>2021-09-29T13:18:02.000Z</updated>
-        <summary type="html"><![CDATA[Recently I carried out some updated Windows 11 benchmarks against Linux to look at how this forthcoming Microsoft operating system release is competing with Ubuntu. In this article is a fresh look at the Windows Subsystem for Linux (WSL2) performance on the near-final Windows 11 against Ubuntu Linux.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Aims For 30x Energy Efficiency Improvement For AI Training + HPC By 2025]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-30x-Energy-Efficiency-2025</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-30x-Energy-Efficiency-2025"/>
-        <updated>2021-09-29T13:09:14.000Z</updated>
-        <summary type="html"><![CDATA[AMD this morning announced a goal of increasing the energy efficiency of EPYC processors running AI training and high performance workloads by 30x... Within the next four years...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -754,22 +766,6 @@ Terraform is the most widely ado…]]></summary>
 Localization is a key way to drive growth and accelerate product adoption. When done poorly, localization or l10n, as it's commonly known, can slow down your development process, introduce bugs, and make it cumbersome to launch updates. When done right, teams can smooth out the process and continuously localize their app. We unpack how Weet conquered its localization problems using GitLab and Lokalise.
 What is Weet?
 Weet is an asynchronous video communication tool designed to reduce the need for meetings. By combin…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to deploy the GitLab Kubernetes Agent with limited permissions]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/10/setting-up-the-k-agent/"/>
-        <updated>2021-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The GitLab Kubernetes Agent (agentk) is an active in-cluster component for solving GitLab and Kubernetes integration tasks in a secure and cloud native way. The agentk communicates to the GitLab Kubernetes Agent Server (kas) to perform GitOps operations.
-In many examples, we see the agent being deployed with global-level permissions on your cluster. There are use cases where we want to reduce the scope of what agentk has access to. In this guide I will provide information on deploying agentk on your cluster, limiting what namespaces it can access, as well as using it to deploy your applications.
-Prefer a video? Watch the walkthrough below to learn how to deploy agentk to your cluster:
-
-
-How it works
-Anytime a developer performs changes to a manifest file managed within GitLab, the agentk w…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
