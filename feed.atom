@@ -1,10 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-05T00:37:18.268Z</id>
+    <id>urn:2021-10-06T00:39:29.435Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-05T00:37:18.268Z</updated>
+    <updated>2021-10-06T00:39:29.435Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Asahi Linux On The Apple M1: "Usable As A Basic Linux Desktop" Sans GPU Acceleration]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Asahi-Linux-September-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Asahi-Linux-September-2021"/>
+        <updated>2021-10-05T23:22:22.000Z</updated>
+        <summary type="html"><![CDATA[The Asahi Linux project that has been working nearly the past year on bringing up Apple M1 support under Linux has issued their September 2021 porting and reverse engineering report...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 Preps More Display Code For Alder Lake P & DG2/Alchemist]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-ADL-P-DG2-Display</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-ADL-P-DG2-Display"/>
+        <updated>2021-10-05T20:44:55.000Z</updated>
+        <summary type="html"><![CDATA[In Linux 5.14 Intel introduced initial Alder Lake P enablement driver support including around the new "XeLPD" display block. With Linux 5.15 there was the initial enablement around DG2/Alchemist graphics. Now for Linux 5.16 is a significant amount of new driver code for actually getting the display support into shape for both DG2 and ADL-P...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 KVM To Land RISC-V Hypervisor Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-KVM-RISC-V</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-KVM-RISC-V"/>
+        <updated>2021-10-05T18:36:25.000Z</updated>
+        <summary type="html"><![CDATA[Coming with the Linux 5.16 kernel cycle will be support for RISC-V virtualization with the Kernel-based Virtual Machine (KVM)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS Kmods SIG Working On exFAT, WireGuard Additions]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-exFAT-WG</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-exFAT-WG"/>
+        <updated>2021-10-05T18:17:05.000Z</updated>
+        <summary type="html"><![CDATA[Created this year has been the CentOS Kmods special interest group for dealing with deprecated device support and out-of-tree modules. This Kmods SIG has begun crafting their initial set of extra kernel modules for use on CentOS...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updated Zstd Planned For Linux 5.16 With Better Performance]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Linux-5.16-Plans</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Linux-5.16-Plans"/>
+        <updated>2021-10-05T13:10:37.000Z</updated>
+        <summary type="html"><![CDATA[As reported on last week, an updated Zstd implementation for the Linux kernel is being re-attempted by Zstd developer Nick Terrell at Facebook. Today he sent out the latest Zstd kernel patches to provide a much newer version of the code compared to what is currently mainlined and will provide much better performance and numerous fixes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mir 2.5 Released With Wayland Extension Updates For Better Handling On-Screen Keyboards]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mir-2.5-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mir-2.5-Released"/>
+        <updated>2021-10-05T12:30:46.000Z</updated>
+        <summary type="html"><![CDATA[Canonical continues advancing their Wayland-based Mir stack for embedded and IoT use-cases. Out today is Mir 2.5 with the latest features as they work to provide better support for on-screen keyboards...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.195 Introduced With Three New Extensions]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.195</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.195"/>
+        <updated>2021-10-05T12:19:57.000Z</updated>
+        <summary type="html"><![CDATA[Vulkan 1.2.195 is out today as the latest weekly update to this high performance, industry standard API for graphics and compute...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Releases September Update To CBL-Mariner Linux Distribution]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-September-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-September-2021"/>
+        <updated>2021-10-05T10:16:16.000Z</updated>
+        <summary type="html"><![CDATA[Not only did Microsoft release Windows 11 on Monday but they also released the latest monthly update to CBL-Mariner as the company's in-house Linux distribution...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micron's HSE Storage Engine 2.0 Debuts - No Longer Relies On Linux Kernel Modifications]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Micron-HSE-2.0-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Micron-HSE-2.0-Released"/>
+        <updated>2021-10-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In April 2020 there was the somewhat surprising announcement of Micron announcing their own open-source storage engine designed for SSDs and persistent memory. The Heterogeneous-Memory Storage Engine (HSE) has been redesigned and on Monday debuted in v2.0 form with some fundamental changes...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox 93 Primed For Release With AVIF Image Support, Canonical Managing Official Snap]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-93</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-93"/>
+        <updated>2021-10-05T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While the formal announcement has yet to hit the wire, releasing today is Firefox 93.0 as the newest monthly feature update to Mozilla's web browser...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why we built GitDock, our desktop app to navigate your GitLab activities]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities/"/>
+        <updated>2021-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Keeping track of everything that is happening in your GitLab projects and groups can be quite overwhelming. Often times you care about not only one project, but multiple ones. Even worse, these projects might even belong to different groups, making everything more complex.
+As an example, product designers at GitLab might work on all of these different projects over the course of just one week:
+gitlab-org/gitlab (our product)
+gitlab-com/www-gitlab-com (our handbook)
+gitlab-org/gitlab-design (space for discussions)
+gitlab-org/gitlab-services/design.gitlab.com (our design system)
+gitlab-org/ux-research (research studies)
+User-centric vs. project-centric navigation
+One of our product design managers (@jackib) created a visualization that shows the current project-centric navigation model that …]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RadeonSI Lands Another Big Overhead Optimization - "Substantially" Helps In Some Cases]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Display-List-Interface</id>
@@ -228,71 +346,11 @@ External status checks are API calls to systems or applications that sit outside
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Red Hat / Fedora To Focus On Driving New Linux Video Improvements Around PipeWire]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-Better-Video-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PipeWire-Better-Video-2021"/>
-        <updated>2021-10-01T17:51:35.000Z</updated>
-        <summary type="html"><![CDATA[PipeWire from the start was designed around handling the needs of both audio and video streams on Linux. While PipeWire is already in use for screencasting/recording under Wayland and working with Flatpak'ed applications, recently much of PipeWire's focus has been on addressing the use-cases of JACK and PulseAudio on the sound side. Now that the audio support is in quite good shape, Red Hat engineers are back to focusing on improvements to the video support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Fedora Server 35 Performance Looking Good - Initial Benchmarks With Intel Xeon Ice Lake]]></title>
         <id>https://www.phoronix.com/vr.php?view=30571</id>
         <link href="https://www.phoronix.com/vr.php?view=30571"/>
         <updated>2021-10-01T13:23:08.000Z</updated>
         <summary type="html"><![CDATA[Given this week's release of Fedora 35 Beta I have begun my benchmarking to look at how this next installment of Fedora Linux is shaping up given that it tends to be at the forefront of open-source innovations given Red Hat's investments. For our initial F35 benchmarking is looking at the Fedora Server 35 Beta performance compared to Fedora 34 on a dual Intel Xeon Platinum 8380 server.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLVM 13.0 Released With Official Flang Binary Packages, Improved OpenCL Clang Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-13.0-Released"/>
-        <updated>2021-10-01T13:02:40.000Z</updated>
-        <summary type="html"><![CDATA[LLVM 13.0 was tagged overnight as the latest half-year update to this widely-used, very powerful open-source compiler stack...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PoCL 1.8 OpenCL Implementation Coming With LLVM 13 Support, Better SPIR-V On CUDA]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-RC1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-RC1-Released"/>
-        <updated>2021-10-01T12:29:09.000Z</updated>
-        <summary type="html"><![CDATA[The first release candidate of the forthcoming PoCL 1.8 "Portable Computing Language" implementation is now available for testing...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arm Begins Adding Armv9 Support To The GNU Compiler Toolchain]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Armv9-GNU-Toolchain-Starting</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Armv9-GNU-Toolchain-Starting"/>
-        <updated>2021-10-01T11:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Arm engineers have begun landing their Armv9 enablement work in the GNU compiler toolchain...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proton Experimental Enables NVIDIA DLSS For D3D12 Games, Proton Now Handles More Games]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-7-Plus-DLSS-Exp</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Proton-6.3-7-Plus-DLSS-Exp"/>
-        <updated>2021-10-01T09:10:12.000Z</updated>
-        <summary type="html"><![CDATA[Valve published new versions of Proton and Proton Experimental last night...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15, AMD / Radeon Advancements, Intel SDSi Dominated Discussions This Month]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=September-2021-Highlights</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=September-2021-Highlights"/>
-        <updated>2021-10-01T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[That's a wrap for September with 229 original news articles and another 13 featured Linux hardware reviews / multi-page benchmark articles, all written by your's truly. It was another eventful month with Linux 5.15 moving forward, a lot of driver activity by AMD and Intel, and other open-source milestones like the release of GNOME 41 and the shipping of the Ubuntu 21.10 and Fedora 35 beta releases...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -341,46 +399,6 @@ Alternatively, sign up for GitLab.com
 to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Exploring CPU+GPU Synchronized Priority Scheduling For Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CPU-GPU-Prio-Nice-Sched</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CPU-GPU-Prio-Nice-Sched"/>
-        <updated>2021-09-30T19:34:31.000Z</updated>
-        <summary type="html"><![CDATA[Intel's open-source Linux graphics driver engineers are evaluating possible improvements to the Linux kernel for accommodating CPU and GPU synchronized priority scheduling...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New AMD Linux Audio Driver Patches Posted - Aimed For Enhancing Chromebook Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Audio-Guybrush</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Linux-Audio-Guybrush"/>
-        <updated>2021-09-30T18:58:25.000Z</updated>
-        <summary type="html"><![CDATA[In addition to Linux 5.15 adding a new AMD audio driver for "Van Gogh" APUs such as found in the forthcoming Steam Deck, AMD's open-source Linux driver engineers have also been working on other audio improvements -- this time on the Chromebook front...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Announces Loihi 2, Lava Software Framework For Advancing Neuromorphic Computing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Loihi-2-Lava</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Loihi-2-Lava"/>
-        <updated>2021-09-30T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel has some new announcements around their neuromorphic computing research...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Achieves 5.1M IOPS Per-Core With AMD Zen 3 + Intel Optane]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.1M-IOPS-Per-Core</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.1M-IOPS-Per-Core"/>
-        <updated>2021-09-30T13:53:35.000Z</updated>
-        <summary type="html"><![CDATA[Linux kernel developers have been working tirelessly to squeeze more performance out of IO_uring and the block / I/O code in general. IO_uring lead developer Jens Axboe who also serves as the Linux block subsystem's maintainer (among other roles and major contributions over the years) has used his system as a baseline for evaluating such kernel improvements. He's now moved to using AMD Zen 3 while sticking to Intel Optane storage and is seeing a mighty speed boost out of AMD's latest processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -753,19 +771,6 @@ GitLab and Terraform make it easy to tag and label infrastructure as code.
 Inside your toolbox
 GitLab the industry's leading DevOps platform. Not long ago, we announced the ability to control Terraform deployments, remote state management, private module registry, and merge request integration for Terraform. This gives users a range of solutions for running CI/CD for Terraform code and managing it on a large scale.
 Terraform is the most widely ado…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Weet integrates localization into the GitLab pipeline with Lokalise]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/13/lessons-weet-learned-lokalise/"/>
-        <updated>2021-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As a GitLab customer, Weet has fully invested in the premise of "Iterate faster, innovate together." Weet has a low tolerance for processes that don't keep pace with the way they develop and launch. One important process that was slowing the business down – localizing their app.
-Localization is a key way to drive growth and accelerate product adoption. When done poorly, localization or l10n, as it's commonly known, can slow down your development process, introduce bugs, and make it cumbersome to launch updates. When done right, teams can smooth out the process and continuously localize their app. We unpack how Weet conquered its localization problems using GitLab and Lokalise.
-What is Weet?
-Weet is an asynchronous video communication tool designed to reduce the need for meetings. By combin…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
