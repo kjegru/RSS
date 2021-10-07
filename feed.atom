@@ -1,10 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-06T00:39:29.435Z</id>
+    <id>urn:2021-10-07T00:39:10.979Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-06T00:39:29.435Z</updated>
+    <updated>2021-10-07T00:39:10.980Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA 470.62.05 Beta Brings Vulkan Video Updates]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.62.05-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.62.05-Beta"/>
+        <updated>2021-10-06T23:33:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA today published their newest Vulkan beta driver update for Windows and Linux with some new extension support plus Vulkan Video enhancements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FWUPD 1.7 Released With Supporting More Hardware For Firmware Updates On Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FWUPD-1.7"/>
+        <updated>2021-10-06T19:17:12.000Z</updated>
+        <summary type="html"><![CDATA[FWUPD and the Linux Vendor Firmware Service (LVFS) continue to serve as a resounding open-source success for allowing an increasing amount of hardware to support firmware updates on Linux from system/motherboard UEFI to disk drives and various peripherals. LVFS is now serving up more than two million firmware downloads a month while FWUPD 1.7 is out today with supporting firmware updates on even more hardware...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 96 To Feature Improved WebRTC Code, Better Wayland Screensharing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-96-Better-WebRTC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-96-Better-WebRTC"/>
+        <updated>2021-10-06T18:41:28.000Z</updated>
+        <summary type="html"><![CDATA[Next month's release of Chrome 96 is a bit more exciting now thanks to the work of Jan Grulich at Red Hat...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Enterprise Linux 8.5 Now Available As Beta]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RHEL-8.5-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RHEL-8.5-Beta"/>
+        <updated>2021-10-06T18:22:19.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat today made available the Red Hat Enterprise Linux 8.5 (RHEL 8.5) beta, incorporating a half-year of improvements to this flagship enterprise Linux distribution...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canonical Announces Ubuntu Frame As A Full-Screen Shell Built On Mir]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-Frame-Shell</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-Frame-Shell"/>
+        <updated>2021-10-06T17:36:52.000Z</updated>
+        <summary type="html"><![CDATA[Canonical today announced the launch of Ubuntu Frame, its full-screen shell built atop the Wayland-embracing Mir server for embedded displays, IoT, and related use-cases...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon Software 21.30 PRO vs. Mesa 21.3-devel + Linux 5.15 Gaming Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30576</id>
+        <link href="https://www.phoronix.com/vr.php?view=30576"/>
+        <updated>2021-10-06T13:16:57.000Z</updated>
+        <summary type="html"><![CDATA[For those wondering how AMD's latest-generation Radeon RX 6000 series is competing now between the Linux driver options of AMD's official Radeon Software for Linux 21.30 "PRO" driver stack and the latest upstream, fully open-source driver components from Mesa and the mainline Linux kernel, here is a fresh comparison.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi "V3D" Driver Landing Support For Multiple Sync Objects]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3D-Linux-5.16-Multi-Syncobjs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3D-Linux-5.16-Multi-Syncobjs"/>
+        <updated>2021-10-06T12:23:29.000Z</updated>
+        <summary type="html"><![CDATA[A new batch of drm-misc-next updates were sent out today for staging in DRM-Next ahead of the Linux 5.16 merge window. With this week's changes there is a notable addition for the Broadcom V3D DRM kernel driver, which most notably is for the Raspberry Pi 4 and newer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sony Has Begun Accelerating Their Contributions To Open-Source / Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sony-More-Open-Source-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sony-More-Open-Source-2021"/>
+        <updated>2021-10-06T09:56:00.000Z</updated>
+        <summary type="html"><![CDATA[At last week's Linux Foundation Open-Source Summit / Embedded Linux Conference there was a Sony presentation about their history with open-source/Linux and how since last year they have been "accelerating" their open-source contributions...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ampere Computing Steps Up With Monthly Open-Source Firmware Releases]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Monthly-OSS-Firmware</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Monthly-OSS-Firmware"/>
+        <updated>2021-10-06T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We have covered previously how Ampere Computing has been working on open-source firmware for their Ampere Altra processors and their reference server designs while now they are stepping up to the plate and committing to a monthly release cycle for their open-source firmware...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ET: Legacy 2.78 Released With Better OpenAL Sound, Android Support Materializing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ET-Legacy-2.78</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ET-Legacy-2.78"/>
+        <updated>2021-10-06T04:00:02.000Z</updated>
+        <summary type="html"><![CDATA[One of our favorite open-source game projects, ET: Legacy for letting the legendary game Wolfenstein: Enemy Territory live on as a community project, is out with a new release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to provision Ready-To-Run GitLab for 50,000 users with the AWS Quick Start]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/06/gitlab-cnh-for-50k-users/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/06/gitlab-cnh-for-50k-users/"/>
+        <updated>2021-10-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you have spent time reviewing GitLab Reference Architectures, you may have noticed the flexibility of the GitLab codebase; it's possible to support a broad range of implementations from a single box for under one hundred users to horizontal hyper-scaled setups for 50,000 or more.
+Scaling to massive sizes requires the services within GitLab to be broken out into dedicated compute and storage layers so they can each expand cost effectively based on high loading and an organization's specific usage patterns.
+Those who provision large scale systems on the cloud generally turn to Infrastructure as Code (IaC) to ensure consistency and to allow easy setup of pre-production environments for the target system. Until recently, GitLab implementers have had to craft this code from scratch.
+Now, tha…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Asahi Linux On The Apple M1: "Usable As A Basic Linux Desktop" Sans GPU Acceleration]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Asahi-Linux-September-2021</id>
@@ -251,106 +364,6 @@ External status checks are API calls to systems or applications that sit outside
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-USB-Audio-LL"/>
         <updated>2021-10-03T12:57:19.000Z</updated>
         <summary type="html"><![CDATA[The Linux kernel is trying again to enhance the low-latency playback mode of its USB audio driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Sends Out 11th Revision Of Linux Kernel Patches For AMX]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-Linux-Kernel-v11</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-AMX-Linux-Kernel-v11"/>
-        <updated>2021-10-03T12:26:30.000Z</updated>
-        <summary type="html"><![CDATA[While Intel Xeon "Sapphire Rapids" processors with Advanced Matrix Extensions are set for a Q2'22 ramp in production, one of the key new features that has yet to be properly plumbed in the mainline Linux kernel is for supporting AMX...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Initial Linux Kernel Patches Posted For The Fairphone 4]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Fairphone-4-Linux-Patches</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Fairphone-4-Linux-Patches"/>
-        <updated>2021-10-03T09:48:48.000Z</updated>
-        <summary type="html"><![CDATA[Announced this week was the Fairphone 4 as the latest iteration of this smartphone focused on being "sustainable and ethical" and now the initial patches have been sent out for providing mainline Linux kernel support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Compute-Runtime 21.39.21127 Brings Broader Alder Lake S Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.39.21127</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.39.21127"/>
-        <updated>2021-10-03T09:30:40.000Z</updated>
-        <summary type="html"><![CDATA[Intel's newest weekly Compute-Runtime update providing open-source OpenCL and oneAPI Level Zero support for their graphics hardware is now reader with broader support for upcoming Alder Lake S processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenBLAS 0.3.18 Released With LoongArch64 Support, More Optimizations]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.18-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenBLAS-0.3.18-Released"/>
-        <updated>2021-10-02T19:02:53.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLAS 0.3.18 is out today as the latest feature update to this widely-used, open-source BLAS implementation...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel oneAPI 2021.4 Released With More Optimizations, Continues LLVM Adoption]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-oneAPI-2021.4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-oneAPI-2021.4"/>
-        <updated>2021-10-02T17:54:16.000Z</updated>
-        <summary type="html"><![CDATA[Intel on Friday formally released their oneAPI Toolkits 2021.4 release as the latest collection of their various software components for a multi-vendor, multi-architecture software platform across CPUs and XPUs (GPUs / accelerators)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[helloSystem 0.6 Released For macOS-Inspired FreeBSD]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=helloSystem-0.6</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=helloSystem-0.6"/>
-        <updated>2021-10-02T17:34:57.000Z</updated>
-        <summary type="html"><![CDATA[Version 0.6 of helloSystem is now available as the FreeBSD-based open-source operating system project taking design cues from Apple's macOS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facebook Is Aiming To Make Compilers Faster Using Machine Learning With CompilerGym]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Compiler-Gym</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Facebook-Compiler-Gym"/>
-        <updated>2021-10-02T09:53:37.000Z</updated>
-        <summary type="html"><![CDATA[Facebook this week announced the open-sourcing of CompilerGym as their effort to improve compiler performance by leveraging machine learning to tackle optimization work...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Plasma 5.23 Lands More Last-Minute Fixes To Avoid Wayland Crashes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.23-Less-KWin-Crashes</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Plasma-5.23-Less-KWin-Crashes"/>
-        <updated>2021-10-02T09:31:11.000Z</updated>
-        <summary type="html"><![CDATA[Plasma 5.23 stable is due to be released in two weeks while until then KDE developers are scurrying to land more fixes in this next desktop update...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nearly Two Decades Later, ATI Radeon R300 Linux Driver Sees Occasional Improvement]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=R300-Friday-Night-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=R300-Friday-Night-2021"/>
-        <updated>2021-10-01T23:30:30.000Z</updated>
-        <summary type="html"><![CDATA[While earlier this year AMD shifted their Radeon Software driver focus to only supporting Polaris / GCN 1.4 and newer, when it comes to the open-source driver support on Linux there still is occasional activity going back to the ATI Radeon R300 days from nearly two decades ago...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fedora Server 35 Performance Looking Good - Initial Benchmarks With Intel Xeon Ice Lake]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30571</id>
-        <link href="https://www.phoronix.com/vr.php?view=30571"/>
-        <updated>2021-10-01T13:23:08.000Z</updated>
-        <summary type="html"><![CDATA[Given this week's release of Fedora 35 Beta I have begun my benchmarking to look at how this next installment of Fedora Linux is shaping up given that it tends to be at the forefront of open-source innovations given Red Hat's investments. For our initial F35 benchmarking is looking at the Fedora Server 35 Beta performance compared to Fedora 34 on a dual Intel Xeon Platinum 8380 server.]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
@@ -757,20 +770,6 @@ We spoke with Pouya Lotfi, the co-founder of QPage, to see how they use GitLab a
 Why GitLab?
 QPage was initially using a local bespoke CI/CD for about the first two months, but they soon realized they needed a more professional DevOps Platform system. Because Pouya and the team at QPage had already used GitLab at a previous employer, they knew it would be the right fit. So, they didn’t consider other options and opted for GitLab straight away.
 Everything you …]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Terratag to automatically manage tags and labels for your Terraform Code]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/14/gitlab-together-with-terratag-open-source-to-help-you-manage-terraform-resources/"/>
-        <updated>2021-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When using infrastructure as code (IaC) on a public cloud provider, it's important to use tags and labels to organize your IaC using their complementary services. Terratag, an open source project developed by env0, can be used with Terraform and placed on top of the GitLab CI/CD platform, making tagging and labeling IaC easier and more efficient.
-GitLab and Terraform make it easy to tag and label infrastructure as code.
-Inside your toolbox
-GitLab the industry's leading DevOps platform. Not long ago, we announced the ability to control Terraform deployments, remote state management, private module registry, and merge request integration for Terraform. This gives users a range of solutions for running CI/CD for Terraform code and managing it on a large scale.
-Terraform is the most widely ado…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
