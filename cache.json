@@ -31,6 +31,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/10/07/a-look-at-devops-salaries/",
+          "author": null,
+          "description": "This is the first in an occasional series of blog posts looking at DevOps salaries and careers.\nDespite the COVID-19 pandemic and the subsequent economic crisis that has disrupted lives and business across industries and around the world, demand for DevOps professionals remains strong and salaries continue to increase.\nThe IT industry, in general, fared better than many during the economic uncertainty of 2020 and 2021. With a strong IT infrastructure already in place and IT professionals accustomed to working remotely, increased demand and short supply for IT workers meant IT salaries held steady or rose in turbulent times, reported Randstad, a multinational human resources consulting firm. \nAnd DevOps professionals did even better than most in IT.\nDevOps salaries are on the rise\nDevOps, s…",
+          "link": "https://about.gitlab.com/blog/2021/10/07/a-look-at-devops-salaries/",
+          "publishedOn": "2021-10-07T00:00:00.000Z",
+          "wordCount": 1994,
+          "title": "DevOps salaries in 2021: where do you rank?"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/10/06/gitlab-cnh-for-50k-users/",
           "author": null,
           "description": "If you have spent time reviewing GitLab Reference Architectures, you may have noticed the flexibility of the GitLab codebase; it's possible to support a broad range of implementations from a single box for under one hundred users to horizontal hyper-scaled setups for 50,000 or more.\nScaling to massive sizes requires the services within GitLab to be broken out into dedicated compute and storage layers so they can each expand cost effectively based on high loading and an organization's specific usage patterns.\nThose who provision large scale systems on the cloud generally turn to Infrastructure as Code (IaC) to ensure consistency and to allow easy setup of pre-production environments for the target system. Until recently, GitLab implementers have had to craft this code from scratch.\nNow, tha…",
@@ -209,15 +218,6 @@
           "publishedOn": "2021-09-17T00:00:00.000Z",
           "wordCount": 1039,
           "title": "GitLab Patch Release: 14.2.4"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/",
-          "author": null,
-          "description": "Deployment automation is essential for any company involved in software development to stay competitive. QPage, a company that provides an end-to-end sourcing and recruitment solution for SMEs, realized it quickly and migrated to GitLab’s DevOps Platform to accelerate their deployment process.\nWe spoke with Pouya Lotfi, the co-founder of QPage, to see how they use GitLab at QPage and how it has helped the company.\nWhy GitLab?\nQPage was initially using a local bespoke CI/CD for about the first two months, but they soon realized they needed a more professional DevOps Platform system. Because Pouya and the team at QPage had already used GitLab at a previous employer, they knew it would be the right fit. So, they didn’t consider other options and opted for GitLab straight away.\nEverything you …",
-          "link": "https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/",
-          "publishedOn": "2021-09-15T00:00:00.000Z",
-          "wordCount": 2256,
-          "title": "How QPage achieved automatic deployment and efficiency using the GitLab DevOps Platform"
         }
       ]
     },
@@ -227,12 +227,75 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-PRIME-ASync-SDMA-Copy",
+          "author": null,
+          "description": "The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-PRIME-ASync-SDMA-Copy",
+          "publishedOn": "2021-10-08T00:19:58.000Z",
+          "wordCount": 818,
+          "title": "Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30585",
+          "author": null,
+          "description": "Earlier this week I posted benchmarks showing how Intel Tiger Lake performance has improved nicely for Ubuntu 21.10 compared to Ubuntu 21.04. Of course, readers immediately wondered whether this also applied on the AMD laptop side... So here are some tests using an AMD Ryzen 9 5900HX with the ASUS ROG Strix G15 AMD Advantage laptop under Ubuntu 21.04, Ubuntu 21.10, and then also looking at running Linux 5.15 + Mesa 21.3-devel Git for an even more bleeding edge experience.",
+          "link": "https://www.phoronix.com/vr.php?view=30585",
+          "publishedOn": "2021-10-07T13:30:00.000Z",
+          "wordCount": 1028,
+          "title": "AMD Ryzen 9 5900HX / ASUS ROG Strix G15 Is A Nicer Experience On Ubuntu 21.10"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-OpenOffice-4.1.11",
+          "author": null,
+          "description": "The Apache Software Foundation today announced the release of Apache OpenOffice 4.1.11 as their 14th release while stewarding this open-source office suite...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-OpenOffice-4.1.11",
+          "publishedOn": "2021-10-07T13:13:16.000Z",
+          "wordCount": 951,
+          "title": "Apache OpenOffice 4.1.11 Released - Increased Font Size In Help, Other Mundane Changes"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CM-Compiler-1.0.97",
+          "author": null,
+          "description": "Intel's CM Compiler is out with its first big update since earlier in the year for advancing their \"C For Metal\" GPU programming language effort...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CM-Compiler-1.0.97",
+          "publishedOn": "2021-10-07T10:20:00.000Z",
+          "wordCount": 905,
+          "title": "Intel C For Metal Compiler Updated With Support For XeHP & DG1"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Gen12.5-No-ASTC",
+          "author": null,
+          "description": "Somewhat of a surprising change with Intel Gen12.5 graphics is that they have removed the hardware supporting Adaptive Scalable Texture Compression (ASTC). Intel's Linux graphics driver has now been updated to address Gen12.5+ foregoing hardware support for ASTC texture compression...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Gen12.5-No-ASTC",
+          "publishedOn": "2021-10-07T09:49:31.000Z",
+          "wordCount": 860,
+          "title": "Intel Removes ASTC Hardware From Gen12.5+ Graphics"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Prepares-For-Bitmanip-Zbs",
+          "author": null,
+          "description": "The GNU toolchain (initially with the GNU Assembler) has begun landing support for RISC-V's Zbs instructions that are part of the Bitmanip extension to the processor ISA...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Prepares-For-Bitmanip-Zbs",
+          "publishedOn": "2021-10-07T09:19:54.000Z",
+          "wordCount": 740,
+          "title": "GNU Toolchain Begins Landing RISC-V Bitmanip/Zbs Instructions Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-RenderingNG-2021",
+          "author": null,
+          "description": "For the better part of the past decade Google has been pursuing performance improvements to their Chrome/Chromium web browser as the \"RenderingNG\" initiative to provide faster web page performance, lower memory consumption, and better battery life. This current work is finally wrapping up in 2021 to great success...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-RenderingNG-2021",
+          "publishedOn": "2021-10-07T04:00:00.000Z",
+          "wordCount": 898,
+          "title": "Google Trumpets The Success Of Their Chrome \"RenderingNG\" Performance Initiative"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.62.05-Beta",
           "author": null,
           "description": "NVIDIA today published their newest Vulkan beta driver update for Windows and Linux with some new extension support plus Vulkan Video enhancements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.62.05-Beta",
           "publishedOn": "2021-10-06T23:33:00.000Z",
-          "wordCount": 710,
+          "wordCount": 802,
           "title": "NVIDIA 470.62.05 Beta Brings Vulkan Video Updates"
         },
         {
@@ -241,7 +304,7 @@
           "description": "FWUPD and the Linux Vendor Firmware Service (LVFS) continue to serve as a resounding open-source success for allowing an increasing amount of hardware to support firmware updates on Linux from system/motherboard UEFI to disk drives and various peripherals. LVFS is now serving up more than two million firmware downloads a month while FWUPD 1.7 is out today with supporting firmware updates on even more hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.7",
           "publishedOn": "2021-10-06T19:17:12.000Z",
-          "wordCount": 831,
+          "wordCount": 763,
           "title": "FWUPD 1.7 Released With Supporting More Hardware For Firmware Updates On Linux"
         },
         {
@@ -250,7 +313,7 @@
           "description": "Next month's release of Chrome 96 is a bit more exciting now thanks to the work of Jan Grulich at Red Hat...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Better-WebRTC",
           "publishedOn": "2021-10-06T18:41:28.000Z",
-          "wordCount": 770,
+          "wordCount": 778,
           "title": "Chrome 96 To Feature Improved WebRTC Code, Better Wayland Screensharing"
         },
         {
@@ -259,7 +322,7 @@
           "description": "Red Hat today made available the Red Hat Enterprise Linux 8.5 (RHEL 8.5) beta, incorporating a half-year of improvements to this flagship enterprise Linux distribution...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RHEL-8.5-Beta",
           "publishedOn": "2021-10-06T18:22:19.000Z",
-          "wordCount": 778,
+          "wordCount": 726,
           "title": "Red Hat Enterprise Linux 8.5 Now Available As Beta"
         },
         {
@@ -268,7 +331,7 @@
           "description": "Canonical today announced the launch of Ubuntu Frame, its full-screen shell built atop the Wayland-embracing Mir server for embedded displays, IoT, and related use-cases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Frame-Shell",
           "publishedOn": "2021-10-06T17:36:52.000Z",
-          "wordCount": 724,
+          "wordCount": 782,
           "title": "Canonical Announces Ubuntu Frame As A Full-Screen Shell Built On Mir"
         },
         {
@@ -277,7 +340,7 @@
           "description": "For those wondering how AMD's latest-generation Radeon RX 6000 series is competing now between the Linux driver options of AMD's official Radeon Software for Linux 21.30 \"PRO\" driver stack and the latest upstream, fully open-source driver components from Mesa and the mainline Linux kernel, here is a fresh comparison.",
           "link": "https://www.phoronix.com/vr.php?view=30576",
           "publishedOn": "2021-10-06T13:16:57.000Z",
-          "wordCount": 759,
+          "wordCount": 780,
           "title": "Radeon Software 21.30 PRO vs. Mesa 21.3-devel + Linux 5.15 Gaming Performance"
         },
         {
@@ -286,7 +349,7 @@
           "description": "A new batch of drm-misc-next updates were sent out today for staging in DRM-Next ahead of the Linux 5.16 merge window. With this week's changes there is a notable addition for the Broadcom V3D DRM kernel driver, which most notably is for the Raspberry Pi 4 and newer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3D-Linux-5.16-Multi-Syncobjs",
           "publishedOn": "2021-10-06T12:23:29.000Z",
-          "wordCount": 767,
+          "wordCount": 779,
           "title": "Raspberry Pi \"V3D\" Driver Landing Support For Multiple Sync Objects"
         },
         {
@@ -295,7 +358,7 @@
           "description": "At last week's Linux Foundation Open-Source Summit / Embedded Linux Conference there was a Sony presentation about their history with open-source/Linux and how since last year they have been \"accelerating\" their open-source contributions...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sony-More-Open-Source-2021",
           "publishedOn": "2021-10-06T09:56:00.000Z",
-          "wordCount": 894,
+          "wordCount": 830,
           "title": "Sony Has Begun Accelerating Their Contributions To Open-Source / Linux"
         },
         {
@@ -304,7 +367,7 @@
           "description": "We have covered previously how Ampere Computing has been working on open-source firmware for their Ampere Altra processors and their reference server designs while now they are stepping up to the plate and committing to a monthly release cycle for their open-source firmware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ampere-Monthly-OSS-Firmware",
           "publishedOn": "2021-10-06T07:00:00.000Z",
-          "wordCount": 861,
+          "wordCount": 873,
           "title": "Ampere Computing Steps Up With Monthly Open-Source Firmware Releases"
         },
         {
@@ -313,7 +376,7 @@
           "description": "One of our favorite open-source game projects, ET: Legacy for letting the legendary game Wolfenstein: Enemy Territory live on as a community project, is out with a new release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=ET-Legacy-2.78",
           "publishedOn": "2021-10-06T04:00:02.000Z",
-          "wordCount": 741,
+          "wordCount": 833,
           "title": "ET: Legacy 2.78 Released With Better OpenAL Sound, Android Support Materializing"
         },
         {
@@ -322,7 +385,7 @@
           "description": "The Asahi Linux project that has been working nearly the past year on bringing up Apple M1 support under Linux has issued their September 2021 porting and reverse engineering report...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Asahi-Linux-September-2021",
           "publishedOn": "2021-10-05T23:22:22.000Z",
-          "wordCount": 984,
+          "wordCount": 1076,
           "title": "Asahi Linux On The Apple M1: \"Usable As A Basic Linux Desktop\" Sans GPU Acceleration"
         },
         {
@@ -331,7 +394,7 @@
           "description": "In Linux 5.14 Intel introduced initial Alder Lake P enablement driver support including around the new \"XeLPD\" display block. With Linux 5.15 there was the initial enablement around DG2/Alchemist graphics. Now for Linux 5.16 is a significant amount of new driver code for actually getting the display support into shape for both DG2 and ADL-P...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-ADL-P-DG2-Display",
           "publishedOn": "2021-10-05T20:44:55.000Z",
-          "wordCount": 837,
+          "wordCount": 924,
           "title": "Linux 5.16 Preps More Display Code For Alder Lake P & DG2/Alchemist"
         },
         {
@@ -340,7 +403,7 @@
           "description": "Coming with the Linux 5.16 kernel cycle will be support for RISC-V virtualization with the Kernel-based Virtual Machine (KVM)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-KVM-RISC-V",
           "publishedOn": "2021-10-05T18:36:25.000Z",
-          "wordCount": 771,
+          "wordCount": 737,
           "title": "Linux 5.16 KVM To Land RISC-V Hypervisor Support"
         },
         {
@@ -349,7 +412,7 @@
           "description": "Created this year has been the CentOS Kmods special interest group for dealing with deprecated device support and out-of-tree modules. This Kmods SIG has begun crafting their initial set of extra kernel modules for use on CentOS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Kmods-exFAT-WG",
           "publishedOn": "2021-10-05T18:17:05.000Z",
-          "wordCount": 879,
+          "wordCount": 891,
           "title": "CentOS Kmods SIG Working On exFAT, WireGuard Additions"
         },
         {
@@ -358,7 +421,7 @@
           "description": "As reported on last week, an updated Zstd implementation for the Linux kernel is being re-attempted by Zstd developer Nick Terrell at Facebook. Today he sent out the latest Zstd kernel patches to provide a much newer version of the code compared to what is currently mainlined and will provide much better performance and numerous fixes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Zstd-Linux-5.16-Plans",
           "publishedOn": "2021-10-05T13:10:37.000Z",
-          "wordCount": 981,
+          "wordCount": 927,
           "title": "Updated Zstd Planned For Linux 5.16 With Better Performance"
         },
         {
@@ -367,7 +430,7 @@
           "description": "Canonical continues advancing their Wayland-based Mir stack for embedded and IoT use-cases. Out today is Mir 2.5 with the latest features as they work to provide better support for on-screen keyboards...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mir-2.5-Released",
           "publishedOn": "2021-10-05T12:30:46.000Z",
-          "wordCount": 807,
+          "wordCount": 739,
           "title": "Mir 2.5 Released With Wayland Extension Updates For Better Handling On-Screen Keyboards"
         },
         {
@@ -376,7 +439,7 @@
           "description": "Vulkan 1.2.195 is out today as the latest weekly update to this high performance, industry standard API for graphics and compute...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.195",
           "publishedOn": "2021-10-05T12:19:57.000Z",
-          "wordCount": 802,
+          "wordCount": 828,
           "title": "Vulkan 1.2.195 Introduced With Three New Extensions"
         },
         {
@@ -385,7 +448,7 @@
           "description": "Not only did Microsoft release Windows 11 on Monday but they also released the latest monthly update to CBL-Mariner as the company's in-house Linux distribution...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=CBL-Mariner-September-2021",
           "publishedOn": "2021-10-05T10:16:16.000Z",
-          "wordCount": 782,
+          "wordCount": 808,
           "title": "Microsoft Releases September Update To CBL-Mariner Linux Distribution"
         },
         {
@@ -394,7 +457,7 @@
           "description": "In April 2020 there was the somewhat surprising announcement of Micron announcing their own open-source storage engine designed for SSDs and persistent memory. The Heterogeneous-Memory Storage Engine (HSE) has been redesigned and on Monday debuted in v2.0 form with some fundamental changes...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Micron-HSE-2.0-Released",
           "publishedOn": "2021-10-05T08:00:00.000Z",
-          "wordCount": 994,
+          "wordCount": 1006,
           "title": "Micron's HSE Storage Engine 2.0 Debuts - No Longer Relies On Linux Kernel Modifications"
         },
         {
@@ -403,7 +466,7 @@
           "description": "While the formal announcement has yet to hit the wire, releasing today is Firefox 93.0 as the newest monthly feature update to Mozilla's web browser...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Firefox-93",
           "publishedOn": "2021-10-05T04:00:00.000Z",
-          "wordCount": 819,
+          "wordCount": 911,
           "title": "Firefox 93 Primed For Release With AVIF Image Support, Canonical Managing Official Snap"
         },
         {
@@ -412,7 +475,7 @@
           "description": "Merged to Mesa 21.3-devel this weekend was a rework to the display list interface for the Gallium3D code and Mesa state tracker and wired up for the RadeonSI Gallium3D driver. This latest driver overhead reduction is another sizable win for AMD's open-source OpenGL driver on Linux...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Display-List-Interface",
           "publishedOn": "2021-10-04T23:17:21.000Z",
-          "wordCount": 957,
+          "wordCount": 903,
           "title": "RadeonSI Lands Another Big Overhead Optimization - \"Substantially\" Helps In Some Cases"
         },
         {
@@ -421,7 +484,7 @@
           "description": "Python 3.10 is out as the latest major update for this widely-used programming language's official implementation...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Python-3.10-Released",
           "publishedOn": "2021-10-04T22:26:54.000Z",
-          "wordCount": 673,
+          "wordCount": 685,
           "title": "Python 3.10 Released With Many Improvements"
         },
         {
@@ -430,7 +493,7 @@
           "description": "Google announced today that Android 12 is now officially available from the Android Open Source Project (AOSP)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Android-12-AOSP",
           "publishedOn": "2021-10-04T19:00:00.000Z",
-          "wordCount": 770,
+          "wordCount": 778,
           "title": "Android 12 Now Available From The Android Open-Source Project"
         },
         {
@@ -439,7 +502,7 @@
           "description": "I've just been informed by AMD that they have now made their code public to a new project called GPUFORT. This new GPUFORT project will live under the Radeon Open eCosystem (ROCm) umbrella and is their latest endeavor in helping developers with large CUDA code-bases transition away from NVIDIA's closed ecosystem...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Radeon-GPUFORT",
           "publishedOn": "2021-10-04T18:30:00.000Z",
-          "wordCount": 943,
+          "wordCount": 957,
           "title": "AMD Publishes Open-Source \"GPUFORT\" As Newest Effort To Help Transition Away From CUDA"
         },
         {
@@ -448,71 +511,8 @@
           "description": "The newest patch series by AMD open-source Linux graphics driver engineers worth mentioning is around USB4 DisplayPort tunneling support for next-generation AMD hardware supporting USB4 connectivity...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-USB4-DP-Tunneling",
           "publishedOn": "2021-10-04T17:45:29.000Z",
-          "wordCount": 793,
+          "wordCount": 878,
           "title": "AMD Prepares Linux Driver Support For USB4 DP Tunneling"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30574",
-          "author": null,
-          "description": "It's been one year now since Intel launched Tiger Lake mobile processors and since then we've been running routine benchmarks of the Core i7 1165G7 on Linux. Tiger Lake at launch was performing well under Linux but its performance has continued evolving nicely since on Linux, especially as it pertains to the Xe Graphics with the open-source OpenGL/Vulkan drivers. With Ubuntu 21.10 due out later this month, there is another performance boost to enjoy.",
-          "link": "https://www.phoronix.com/vr.php?view=30574",
-          "publishedOn": "2021-10-04T13:00:51.000Z",
-          "wordCount": 856,
-          "title": "Intel Tiger Lake Performance Looking Even Better With Ubuntu 21.10"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Mesa-21.3-Older-RT",
-          "author": null,
-          "description": "Mesa 21.3 recently landed RADV ray-tracing support for this open-source Radeon Vulkan driver with RDNA2 graphics processors. Now the software-based/emulated Vulkan ray-tracing support has been merged for handling pre-RDNA2 GPUs...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Mesa-21.3-Older-RT",
-          "publishedOn": "2021-10-04T12:28:54.000Z",
-          "wordCount": 886,
-          "title": "Mesa 21.3 RADV Vulkan Driver Lands Ray-Tracing Support For Older AMD Radeon GPUs"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Lumina-Desktop-1.6.1",
-          "author": null,
-          "description": "The Lumina Desktop Environment as the BSD-3 licensed desktop originally spearheaded for TrueOS/PC-BSD but found supported as well by other BSDs and Linux distributions is out with a rare new release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lumina-Desktop-1.6.1",
-          "publishedOn": "2021-10-04T10:35:45.000Z",
-          "wordCount": 816,
-          "title": "Lumina Desktop 1.6.1 Released With Theme Improvements While Bigger Improvements Planned"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-AVX-512-FP16-Landing",
-          "author": null,
-          "description": "In recent weeks the AVX-512 FP16 support has been landing within the GNU Compiler Collection codebase for next year's GCC 12 release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-AVX-512-FP16-Landing",
-          "publishedOn": "2021-10-04T10:13:36.000Z",
-          "wordCount": 849,
-          "title": "GCC 12 Compiler Squaring Away Its AVX-512 FP16 Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-SNP-Autumn-2021",
-          "author": null,
-          "description": "Since the launch of AMD EPYC 7003 \"Milan\" processors earlier this year there has been support for SEV-SNP as the latest evolution of Secure Encrypted Virtualization. The mainline Linux kernel still isn't yet supporting SEV Secure Nested Paging from the upstream kernel, but the out-of-tree patches continue to be available for those interested and development work continues in getting that code ready for mainline as well as ironing out other features...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SEV-SNP-Autumn-2021",
-          "publishedOn": "2021-10-04T09:45:53.000Z",
-          "wordCount": 960,
-          "title": "AMD SEV-SNP Development Continues Towards The Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc4",
-          "author": null,
-          "description": "Linus Torvalds has declared Linux 5.15-rc4 as the latest weekly release candidate of the maturing Linux 5.15 codebase...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc4",
-          "publishedOn": "2021-10-03T21:56:07.000Z",
-          "wordCount": 791,
-          "title": "Linux 5.15-rc4 Released - The Kernel Is Looking \"Pretty Normal\""
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-USB-Audio-LL",
-          "author": null,
-          "description": "The Linux kernel is trying again to enhance the low-latency playback mode of its USB audio driver...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-USB-Audio-LL",
-          "publishedOn": "2021-10-03T12:57:19.000Z",
-          "wordCount": 965,
-          "title": "Linux 5.16 Aims For Better USB Low-Latency Audio Playback"
         }
       ]
     }

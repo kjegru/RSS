@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-07T00:39:10.979Z</id>
+    <id>urn:2021-10-08T00:39:26.785Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-07T00:39:10.980Z</updated>
+    <updated>2021-10-08T00:39:26.785Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-PRIME-ASync-SDMA-Copy</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-PRIME-ASync-SDMA-Copy"/>
+        <updated>2021-10-08T00:19:58.000Z</updated>
+        <summary type="html"><![CDATA[The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Ryzen 9 5900HX / ASUS ROG Strix G15 Is A Nicer Experience On Ubuntu 21.10]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30585</id>
+        <link href="https://www.phoronix.com/vr.php?view=30585"/>
+        <updated>2021-10-07T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this week I posted benchmarks showing how Intel Tiger Lake performance has improved nicely for Ubuntu 21.10 compared to Ubuntu 21.04. Of course, readers immediately wondered whether this also applied on the AMD laptop side... So here are some tests using an AMD Ryzen 9 5900HX with the ASUS ROG Strix G15 AMD Advantage laptop under Ubuntu 21.04, Ubuntu 21.10, and then also looking at running Linux 5.15 + Mesa 21.3-devel Git for an even more bleeding edge experience.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache OpenOffice 4.1.11 Released - Increased Font Size In Help, Other Mundane Changes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-OpenOffice-4.1.11</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-OpenOffice-4.1.11"/>
+        <updated>2021-10-07T13:13:16.000Z</updated>
+        <summary type="html"><![CDATA[The Apache Software Foundation today announced the release of Apache OpenOffice 4.1.11 as their 14th release while stewarding this open-source office suite...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel C For Metal Compiler Updated With Support For XeHP & DG1]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CM-Compiler-1.0.97</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CM-Compiler-1.0.97"/>
+        <updated>2021-10-07T10:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel's CM Compiler is out with its first big update since earlier in the year for advancing their "C For Metal" GPU programming language effort...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Removes ASTC Hardware From Gen12.5+ Graphics]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Gen12.5-No-ASTC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Gen12.5-No-ASTC"/>
+        <updated>2021-10-07T09:49:31.000Z</updated>
+        <summary type="html"><![CDATA[Somewhat of a surprising change with Intel Gen12.5 graphics is that they have removed the hardware supporting Adaptive Scalable Texture Compression (ASTC). Intel's Linux graphics driver has now been updated to address Gen12.5+ foregoing hardware support for ASTC texture compression...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Toolchain Begins Landing RISC-V Bitmanip/Zbs Instructions Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Prepares-For-Bitmanip-Zbs</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Prepares-For-Bitmanip-Zbs"/>
+        <updated>2021-10-07T09:19:54.000Z</updated>
+        <summary type="html"><![CDATA[The GNU toolchain (initially with the GNU Assembler) has begun landing support for RISC-V's Zbs instructions that are part of the Bitmanip extension to the processor ISA...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Trumpets The Success Of Their Chrome "RenderingNG" Performance Initiative]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-RenderingNG-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-RenderingNG-2021"/>
+        <updated>2021-10-07T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For the better part of the past decade Google has been pursuing performance improvements to their Chrome/Chromium web browser as the "RenderingNG" initiative to provide faster web page performance, lower memory consumption, and better battery life. This current work is finally wrapping up in 2021 to great success...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DevOps salaries in 2021: where do you rank?]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/07/a-look-at-devops-salaries/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/07/a-look-at-devops-salaries/"/>
+        <updated>2021-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first in an occasional series of blog posts looking at DevOps salaries and careers.
+Despite the COVID-19 pandemic and the subsequent economic crisis that has disrupted lives and business across industries and around the world, demand for DevOps professionals remains strong and salaries continue to increase.
+The IT industry, in general, fared better than many during the economic uncertainty of 2020 and 2021. With a strong IT infrastructure already in place and IT professionals accustomed to working remotely, increased demand and short supply for IT workers meant IT salaries held steady or rose in turbulent times, reported Randstad, a multinational human resources consulting firm. 
+And DevOps professionals did even better than most in IT.
+DevOps salaries are on the rise
+DevOps, s…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NVIDIA 470.62.05 Beta Brings Vulkan Video Updates]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-470.62.05-Beta</id>
@@ -287,56 +372,6 @@ One of our product design managers (@jackib) created a visualization that shows 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Intel Tiger Lake Performance Looking Even Better With Ubuntu 21.10]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30574</id>
-        <link href="https://www.phoronix.com/vr.php?view=30574"/>
-        <updated>2021-10-04T13:00:51.000Z</updated>
-        <summary type="html"><![CDATA[It's been one year now since Intel launched Tiger Lake mobile processors and since then we've been running routine benchmarks of the Core i7 1165G7 on Linux. Tiger Lake at launch was performing well under Linux but its performance has continued evolving nicely since on Linux, especially as it pertains to the Xe Graphics with the open-source OpenGL/Vulkan drivers. With Ubuntu 21.10 due out later this month, there is another performance boost to enjoy.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.3 RADV Vulkan Driver Lands Ray-Tracing Support For Older AMD Radeon GPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Mesa-21.3-Older-RT</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RADV-Mesa-21.3-Older-RT"/>
-        <updated>2021-10-04T12:28:54.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 21.3 recently landed RADV ray-tracing support for this open-source Radeon Vulkan driver with RDNA2 graphics processors. Now the software-based/emulated Vulkan ray-tracing support has been merged for handling pre-RDNA2 GPUs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lumina Desktop 1.6.1 Released With Theme Improvements While Bigger Improvements Planned]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lumina-Desktop-1.6.1</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Lumina-Desktop-1.6.1"/>
-        <updated>2021-10-04T10:35:45.000Z</updated>
-        <summary type="html"><![CDATA[The Lumina Desktop Environment as the BSD-3 licensed desktop originally spearheaded for TrueOS/PC-BSD but found supported as well by other BSDs and Linux distributions is out with a rare new release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 12 Compiler Squaring Away Its AVX-512 FP16 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-AVX-512-FP16-Landing</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-AVX-512-FP16-Landing"/>
-        <updated>2021-10-04T10:13:36.000Z</updated>
-        <summary type="html"><![CDATA[In recent weeks the AVX-512 FP16 support has been landing within the GNU Compiler Collection codebase for next year's GCC 12 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD SEV-SNP Development Continues Towards The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Autumn-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-SEV-SNP-Autumn-2021"/>
-        <updated>2021-10-04T09:45:53.000Z</updated>
-        <summary type="html"><![CDATA[Since the launch of AMD EPYC 7003 "Milan" processors earlier this year there has been support for SEV-SNP as the latest evolution of Secure Encrypted Virtualization. The mainline Linux kernel still isn't yet supporting SEV Secure Nested Paging from the upstream kernel, but the out-of-tree patches continue to be available for those interested and development work continues in getting that code ready for mainline as well as ironing out other features...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to use external status checks for merge requests]]></title>
         <id>https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/</id>
         <link href="https://about.gitlab.com/blog/2021/10/04/how-to-status-checks/"/>
@@ -346,26 +381,6 @@ What are "external status checks for merge requests"?
 External status checks are API calls to systems or applications that sit outside GitLab. These API calls are invoked during merge requests, which display a widget with the status of each external check. With external status checks, you can integrate GitLab with third-party systems, e.g. Salesforce, PeopleSoft, Microsoft Dynamics, etc., that require manual approval for merge requests. This makes it easy to see that merge requests have met external requirements before being merged, adding an extra method to ensure compliance and audit requirements are m…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15-rc4 Released - The Kernel Is Looking "Pretty Normal"]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc4"/>
-        <updated>2021-10-03T21:56:07.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds has declared Linux 5.15-rc4 as the latest weekly release candidate of the maturing Linux 5.15 codebase...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 Aims For Better USB Low-Latency Audio Playback]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-USB-Audio-LL</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-USB-Audio-LL"/>
-        <updated>2021-10-03T12:57:19.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel is trying again to enhance the low-latency playback mode of its USB audio driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -758,20 +773,6 @@ to use GitLab's own infrastructure.]]></summary>
 Thank you @ad-m]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How QPage achieved automatic deployment and efficiency using the GitLab DevOps Platform]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/15/qpage-on-the-devops-platform/"/>
-        <updated>2021-09-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Deployment automation is essential for any company involved in software development to stay competitive. QPage, a company that provides an end-to-end sourcing and recruitment solution for SMEs, realized it quickly and migrated to GitLab’s DevOps Platform to accelerate their deployment process.
-We spoke with Pouya Lotfi, the co-founder of QPage, to see how they use GitLab at QPage and how it has helped the company.
-Why GitLab?
-QPage was initially using a local bespoke CI/CD for about the first two months, but they soon realized they needed a more professional DevOps Platform system. Because Pouya and the team at QPage had already used GitLab at a previous employer, they knew it would be the right fit. So, they didn’t consider other options and opted for GitLab straight away.
-Everything you …]]></summary>
-        <author>
-            <name>GitLab</name>
         </author>
     </entry>
 </feed>
