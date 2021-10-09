@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-08T00:39:26.785Z</id>
+    <id>urn:2021-10-09T00:35:33.585Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-08T00:39:26.785Z</updated>
+    <updated>2021-10-09T00:35:33.585Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A Big Batch Of AMD Graphics Driver Updates Just Sent Out For Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-For-Linux-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-For-Linux-5.16"/>
+        <updated>2021-10-08T20:50:32.000Z</updated>
+        <summary type="html"><![CDATA[Building off the earlier DRM-Next staged code from last month that brought initial DisplayPort 2.0 support and other feature work, another feature pull request was submitted today of additional AMD Radeon "AMDGPU" kernel driver changes slated for Linux 5.16...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wine 6.19 Continues Work On HID Joystick, PE Conversion]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.19-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.19-Released"/>
+        <updated>2021-10-08T19:25:36.000Z</updated>
+        <summary type="html"><![CDATA[Wine 6.19 is out as the latest bi-weekly development release of Wine as the developers work towards Wine 7.0 stable in early 2022...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.3 Enables NGG Culling By Default For RDNA2 GPUs]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-NGGC-Def</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-NGGC-Def"/>
+        <updated>2021-10-08T17:42:57.000Z</updated>
+        <summary type="html"><![CDATA[The Radeon Vulkan driver "RADV" within Mesa 21.3 is enabling NGG culling by default for Radeon RX 6000 series (RDNA2) GPUs and newer as another performance win...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GCC 12 Enables Auto-Vectorization For -O2 Optimization Level]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Auto-Vec-O2</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Auto-Vec-O2"/>
+        <updated>2021-10-08T14:06:20.000Z</updated>
+        <summary type="html"><![CDATA[A month ago was talk of GCC developers enabling the vectorizer at the common "-O2" optimization level and now that change has landed into the GCC 12 development code-base...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flatpak 1.12 Released - Better Sub-Sandbox Handling To Benefit Steam]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Flatpak-1.12-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Flatpak-1.12-Released"/>
+        <updated>2021-10-08T11:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Flatpak 1.12 was just released along with issuing Flatpak 1.10.4 to address a security vulnerability in the portal support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 To Add Intel Encrypted PXP, Alder Lake S Declared Stable & Ready]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=drm-intel-gt-next-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=drm-intel-gt-next-5.16"/>
+        <updated>2021-10-08T10:53:59.000Z</updated>
+        <summary type="html"><![CDATA[A new batch of Intel kernel graphics driver code was mailed out today to DRM-Next for staging ahead of next month's Linux 5.16 kernel merge window. Lots of notable changes in this pull!..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X.Org Modesetting Driver Will Now Better Handle Multi-Montior Mixed-VRR Setups]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Modesetting-VRR-Multi</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Modesetting-VRR-Multi"/>
+        <updated>2021-10-08T10:11:54.000Z</updated>
+        <summary type="html"><![CDATA[The xf86-video-modesetting DDX driver that is commonly in use for systems running an X.Org Server will soon find better support if you have a multi-monitor configuration where only some displays can support variable rate refresh (VRR / Adaptive-Sync / FreeSync)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Continues Optimizing Linux For Optane DC Persistent Memory Servers]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Optimize-PMEM-Place-v9</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Optimize-PMEM-Place-v9"/>
+        <updated>2021-10-08T09:45:15.000Z</updated>
+        <summary type="html"><![CDATA[With the Linux 5.15 kernel there is a patch to benefit tiered memory systems with a focus on servers having persistent memory. That patch is demoting pages during page reclamation to slower tiers of memory such as Optane DC persistent memory. Intel continues building on that and other persistent memory kernel work for plumbing the kernel with optimized memory placement for these modern servers...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-PRIME-ASync-SDMA-Copy</id>
@@ -13,6 +93,28 @@
         <summary type="html"><![CDATA[The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...]]></summary>
         <author>
             <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updates to de-identifying Service Usage Data]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/08/updates-to-de-identifying-service-usage-data/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/08/updates-to-de-identifying-service-usage-data/"/>
+        <updated>2021-10-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab has been working on a process to intentionally limit our own ability to identify individual users from Service Usage Data in order to protect user privacy even better. Earlier this year, we solicited input on plans to de-identify GitLab’s Service Usage Data. We are now ready to move forward with a new system to de-identify SaaS usage data before it enters GitLab’s internal analytics environment.
+What isn’t changing?
+The service usage data policy for SaaS and Self-Managed remains unchanged.
+What is changing?
+With user privacy in mind, we are building a pseudonymization process to run against our SaaS service usage data.
+We have determined that we do not need fully identifiable information anymore for our analytics environment, and as such we are pursuing this approach that will result in better privacy for GitLab users.
+We’ll create a one-way hash or transform directly identifiable data. This means that the data will be hashed at the collection layer before it is sent to our analytics environment.
+You can read more details about our pseudonymization solution here. Once our pseudonymization solution is in place, we will update data we collect to ensure it follows the  solution. You can read more about what data we collect and its de-identification state here.
+Timeline and implementation
+We’re planning to roll out these changes in October 2021. Keep an eye on our Product Intelligence roadmap to monitor our progress. Once complete, we’ll update this blog post with the final status.
+More information
+Please find more information about our privacy policy. Further details on how service usage data is used for product improvement can be found on our Product Direction page. Also see  GitLab’s analytics environment and SaaS Data Collection Catalog.
+Please share your questions on the community forum.]]></summary>
+        <author>
+            <name>GitLab</name>
         </author>
     </entry>
     <entry>
@@ -274,36 +376,6 @@ Now, tha…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Microsoft Releases September Update To CBL-Mariner Linux Distribution]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-September-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CBL-Mariner-September-2021"/>
-        <updated>2021-10-05T10:16:16.000Z</updated>
-        <summary type="html"><![CDATA[Not only did Microsoft release Windows 11 on Monday but they also released the latest monthly update to CBL-Mariner as the company's in-house Linux distribution...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Micron's HSE Storage Engine 2.0 Debuts - No Longer Relies On Linux Kernel Modifications]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Micron-HSE-2.0-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Micron-HSE-2.0-Released"/>
-        <updated>2021-10-05T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In April 2020 there was the somewhat surprising announcement of Micron announcing their own open-source storage engine designed for SSDs and persistent memory. The Heterogeneous-Memory Storage Engine (HSE) has been redesigned and on Monday debuted in v2.0 form with some fundamental changes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox 93 Primed For Release With AVIF Image Support, Canonical Managing Official Snap]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-93</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Firefox-93"/>
-        <updated>2021-10-05T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While the formal announcement has yet to hit the wire, releasing today is Firefox 93.0 as the newest monthly feature update to Mozilla's web browser...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Why we built GitDock, our desktop app to navigate your GitLab activities]]></title>
         <id>https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities/</id>
         <link href="https://about.gitlab.com/blog/2021/10/05/gitpod-desktop-app-personal-activities/"/>
@@ -319,56 +391,6 @@ User-centric vs. project-centric navigation
 One of our product design managers (@jackib) created a visualization that shows the current project-centric navigation model that …]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RadeonSI Lands Another Big Overhead Optimization - "Substantially" Helps In Some Cases]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Display-List-Interface</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Display-List-Interface"/>
-        <updated>2021-10-04T23:17:21.000Z</updated>
-        <summary type="html"><![CDATA[Merged to Mesa 21.3-devel this weekend was a rework to the display list interface for the Gallium3D code and Mesa state tracker and wired up for the RadeonSI Gallium3D driver. This latest driver overhead reduction is another sizable win for AMD's open-source OpenGL driver on Linux...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python 3.10 Released With Many Improvements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Python-3.10-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Python-3.10-Released"/>
-        <updated>2021-10-04T22:26:54.000Z</updated>
-        <summary type="html"><![CDATA[Python 3.10 is out as the latest major update for this widely-used programming language's official implementation...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android 12 Now Available From The Android Open-Source Project]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Android-12-AOSP</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Android-12-AOSP"/>
-        <updated>2021-10-04T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Google announced today that Android 12 is now officially available from the Android Open Source Project (AOSP)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Publishes Open-Source "GPUFORT" As Newest Effort To Help Transition Away From CUDA]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Radeon-GPUFORT</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Radeon-GPUFORT"/>
-        <updated>2021-10-04T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[I've just been informed by AMD that they have now made their code public to a new project called GPUFORT. This new GPUFORT project will live under the Radeon Open eCosystem (ROCm) umbrella and is their latest endeavor in helping developers with large CUDA code-bases transition away from NVIDIA's closed ecosystem...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Prepares Linux Driver Support For USB4 DP Tunneling]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-USB4-DP-Tunneling</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-USB4-DP-Tunneling"/>
-        <updated>2021-10-04T17:45:29.000Z</updated>
-        <summary type="html"><![CDATA[The newest patch series by AMD open-source Linux graphics driver engineers worth mentioning is around USB4 DisplayPort tunneling support for next-generation AMD hardware supporting USB4 connectivity...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -729,37 +751,6 @@ It's well documented how security can shift left using a DevOps platform, so it'
 Starting in GitLab 14.2, editing Markdown content in the Web Editor or Web IDE just got even better.
 Introducing the realtime Preview Markdown editor
 GitLab Flavored Markdown automatically renders Markdown content in an easy-to-read and easy-to-write plain text language. Although Markdown is inherently more “human-readable” …]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.2.4]]></title>
-        <id>https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/09/17/gitlab-14-2-4-released/"/>
-        <updated>2021-09-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.2.4 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-last month's 14.2 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Available in GitLab Free, Premium, and Ultimate:
-Removes cleanup job from Terraform.latest
-Run AWS Release rake task only if on latest stable tag
-Fix Elastic::MigrationWorker current_migration
-Derive virtual storage's filesystem id from its name
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
