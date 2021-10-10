@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-09T00:35:33.585Z</id>
+    <id>urn:2021-10-10T00:38:36.149Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-09T00:35:33.585Z</updated>
+    <updated>2021-10-10T00:38:36.149Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[IBM Proposing A CPU Namespace For The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-CPU-Namespace</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-CPU-Namespace"/>
+        <updated>2021-10-09T22:56:52.000Z</updated>
+        <summary type="html"><![CDATA[IBM engineer Pratik Sampat published an early prototype of a CPU namespace interface for the Linux kernel. This CPU namespace was devised to address coherency issues with current means of viewing available CPU resources as well as addressing possible security issues stemming from understanding resource access/positioning on the system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Begins Preparing Linux Graphics Driver For Multi-Tile Hardware]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Preps-Linux-Multi-Tile</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Preps-Linux-Multi-Tile"/>
+        <updated>2021-10-09T14:25:16.000Z</updated>
+        <summary type="html"><![CDATA[Intel has been preparing Xe HP bring-up for many months already including fundamental work around their discrete graphics/accelerator support for their Linux graphics driver stack going back quite a while. On the Xe HP front,  Friday afternoon brought an important patch series posted for the first time: initial work around multi-tile support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian 11.1 Released With Initial Batch Of Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11.1-Released"/>
+        <updated>2021-10-09T14:07:33.000Z</updated>
+        <summary type="html"><![CDATA[Debian 11 "Bullseye" debuted back in August as the latest major release for this popular community Linux distribution. Today it's been succeeded by Debian 11.1...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It Appears FUTEX2 Will Land For Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Bits-In-Locking-Core</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Bits-In-Locking-Core"/>
+        <updated>2021-10-09T10:39:19.000Z</updated>
+        <summary type="html"><![CDATA[Barring any last minute reservations it appears the initial "FUTEX2" work that is of much interest to Linux gamers enjoying Steam Play / Proton will find that kernel functionality in Linux 5.16...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Moves To GitLab-Based CI, Lands More Plasma Wayland Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Goes-To-GitLab-CI</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Goes-To-GitLab-CI"/>
+        <updated>2021-10-09T10:13:11.000Z</updated>
+        <summary type="html"><![CDATA[KDE developers remain very busy squashing bugs ahead of the release of Plasma 5.23 that is also known as the Plasma 25th Anniversary Edition...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Big Batch Of AMD Graphics Driver Updates Just Sent Out For Linux 5.16]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-For-Linux-5.16</id>
@@ -321,56 +371,6 @@ Now, tha…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-ADL-P-DG2-Display"/>
         <updated>2021-10-05T20:44:55.000Z</updated>
         <summary type="html"><![CDATA[In Linux 5.14 Intel introduced initial Alder Lake P enablement driver support including around the new "XeLPD" display block. With Linux 5.15 there was the initial enablement around DG2/Alchemist graphics. Now for Linux 5.16 is a significant amount of new driver code for actually getting the display support into shape for both DG2 and ADL-P...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 KVM To Land RISC-V Hypervisor Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-KVM-RISC-V</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-KVM-RISC-V"/>
-        <updated>2021-10-05T18:36:25.000Z</updated>
-        <summary type="html"><![CDATA[Coming with the Linux 5.16 kernel cycle will be support for RISC-V virtualization with the Kernel-based Virtual Machine (KVM)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CentOS Kmods SIG Working On exFAT, WireGuard Additions]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-exFAT-WG</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=CentOS-Kmods-exFAT-WG"/>
-        <updated>2021-10-05T18:17:05.000Z</updated>
-        <summary type="html"><![CDATA[Created this year has been the CentOS Kmods special interest group for dealing with deprecated device support and out-of-tree modules. This Kmods SIG has begun crafting their initial set of extra kernel modules for use on CentOS...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Updated Zstd Planned For Linux 5.16 With Better Performance]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Linux-5.16-Plans</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Zstd-Linux-5.16-Plans"/>
-        <updated>2021-10-05T13:10:37.000Z</updated>
-        <summary type="html"><![CDATA[As reported on last week, an updated Zstd implementation for the Linux kernel is being re-attempted by Zstd developer Nick Terrell at Facebook. Today he sent out the latest Zstd kernel patches to provide a much newer version of the code compared to what is currently mainlined and will provide much better performance and numerous fixes...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mir 2.5 Released With Wayland Extension Updates For Better Handling On-Screen Keyboards]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mir-2.5-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mir-2.5-Released"/>
-        <updated>2021-10-05T12:30:46.000Z</updated>
-        <summary type="html"><![CDATA[Canonical continues advancing their Wayland-based Mir stack for embedded and IoT use-cases. Out today is Mir 2.5 with the latest features as they work to provide better support for on-screen keyboards...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.195 Introduced With Three New Extensions]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.195</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.195"/>
-        <updated>2021-10-05T12:19:57.000Z</updated>
-        <summary type="html"><![CDATA[Vulkan 1.2.195 is out today as the latest weekly update to this high performance, industry standard API for graphics and compute...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
