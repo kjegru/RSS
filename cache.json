@@ -227,12 +227,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-Released",
+          "author": null,
+          "description": "Linus Torvalds just pushed out the Linux 5.15-rc5 kernel release with things looking smooth for this stage and hopefully leading to an on-time release in just a few weeks...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-Released",
+          "publishedOn": "2021-10-11T00:29:57.000Z",
+          "wordCount": 741,
+          "title": "Linux 5.15-rc5 Released With This Cycle Running Smoothly"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Phoronix-Test-Suite-10.6",
+          "author": null,
+          "description": "Phoronix Test Suite 10.6.1 was released today with various improvements for our cross-platform, open-source, fully-automated benchmarking software...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Phoronix-Test-Suite-10.6",
+          "publishedOn": "2021-10-10T23:19:01.000Z",
+          "wordCount": 777,
+          "title": "Phoronix Test Suite 10.6 Released With Various Improvements For Linux Benchmarking"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Tegra-Linux-5.16-NVDEC",
+          "author": null,
+          "description": "The Tegra DRM driver changes were sent out on Friday of the new material destined for Linux 5.16. Notable this time around is NVIDIA's NVDEC driver being included...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Tegra-Linux-5.16-NVDEC",
+          "publishedOn": "2021-10-10T10:45:54.000Z",
+          "wordCount": 927,
+          "title": "NVIDIA Contributing Tegra NVDEC Support To Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-x86",
+          "author": null,
+          "description": "Sent in this morning were an urgent set of x86 updates for the Linux 5.15-rc5 kernel due out later today...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-x86",
+          "publishedOn": "2021-10-10T10:00:00.000Z",
+          "wordCount": 1014,
+          "title": "Linux 5.15-rc5 x86 Changes Aim To Fix \"Yet Another Hardware Trainwreck\""
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Daily-For-Fedora",
+          "author": null,
+          "description": "Red Hat's Platform Tools team is making it very easy to run the very bleeding edge, development version of the LLVM toolchain and Clang compiler on the current versions of Fedora...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Daily-For-Fedora",
+          "publishedOn": "2021-10-10T09:53:28.000Z",
+          "wordCount": 814,
+          "title": "Red Hat Is Making It Easy To Run Bleeding-Edge LLVM/Clang On Fedora"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-CPU-Namespace",
           "author": null,
           "description": "IBM engineer Pratik Sampat published an early prototype of a CPU namespace interface for the Linux kernel. This CPU namespace was devised to address coherency issues with current means of viewing available CPU resources as well as addressing possible security issues stemming from understanding resource access/positioning on the system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-CPU-Namespace",
           "publishedOn": "2021-10-09T22:56:52.000Z",
-          "wordCount": 1191,
+          "wordCount": 1212,
           "title": "IBM Proposing A CPU Namespace For The Linux Kernel"
         },
         {
@@ -241,7 +286,7 @@
           "description": "Intel has been preparing Xe HP bring-up for many months already including fundamental work around their discrete graphics/accelerator support for their Linux graphics driver stack going back quite a while. On the Xe HP front,  Friday afternoon brought an important patch series posted for the first time: initial work around multi-tile support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Preps-Linux-Multi-Tile",
           "publishedOn": "2021-10-09T14:25:16.000Z",
-          "wordCount": 985,
+          "wordCount": 975,
           "title": "Intel Begins Preparing Linux Graphics Driver For Multi-Tile Hardware"
         },
         {
@@ -250,7 +295,7 @@
           "description": "Debian 11 \"Bullseye\" debuted back in August as the latest major release for this popular community Linux distribution. Today it's been succeeded by Debian 11.1...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11.1-Released",
           "publishedOn": "2021-10-09T14:07:33.000Z",
-          "wordCount": 714,
+          "wordCount": 704,
           "title": "Debian 11.1 Released With Initial Batch Of Fixes"
         },
         {
@@ -259,7 +304,7 @@
           "description": "Barring any last minute reservations it appears the initial \"FUTEX2\" work that is of much interest to Linux gamers enjoying Steam Play / Proton will find that kernel functionality in Linux 5.16...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-Bits-In-Locking-Core",
           "publishedOn": "2021-10-09T10:39:19.000Z",
-          "wordCount": 881,
+          "wordCount": 790,
           "title": "It Appears FUTEX2 Will Land For Linux 5.16"
         },
         {
@@ -268,7 +313,7 @@
           "description": "KDE developers remain very busy squashing bugs ahead of the release of Plasma 5.23 that is also known as the Plasma 25th Anniversary Edition...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Goes-To-GitLab-CI",
           "publishedOn": "2021-10-09T10:13:11.000Z",
-          "wordCount": 946,
+          "wordCount": 856,
           "title": "KDE Moves To GitLab-Based CI, Lands More Plasma Wayland Fixes"
         },
         {
@@ -277,7 +322,7 @@
           "description": "Building off the earlier DRM-Next staged code from last month that brought initial DisplayPort 2.0 support and other feature work, another feature pull request was submitted today of additional AMD Radeon \"AMDGPU\" kernel driver changes slated for Linux 5.16...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-More-For-Linux-5.16",
           "publishedOn": "2021-10-08T20:50:32.000Z",
-          "wordCount": 941,
+          "wordCount": 945,
           "title": "A Big Batch Of AMD Graphics Driver Updates Just Sent Out For Linux 5.16"
         },
         {
@@ -286,7 +331,7 @@
           "description": "Wine 6.19 is out as the latest bi-weekly development release of Wine as the developers work towards Wine 7.0 stable in early 2022...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.19-Released",
           "publishedOn": "2021-10-08T19:25:36.000Z",
-          "wordCount": 747,
+          "wordCount": 817,
           "title": "Wine 6.19 Continues Work On HID Joystick, PE Conversion"
         },
         {
@@ -295,7 +340,7 @@
           "description": "The Radeon Vulkan driver \"RADV\" within Mesa 21.3 is enabling NGG culling by default for Radeon RX 6000 series (RDNA2) GPUs and newer as another performance win...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RADV-NGGC-Def",
           "publishedOn": "2021-10-08T17:42:57.000Z",
-          "wordCount": 842,
+          "wordCount": 798,
           "title": "Mesa 21.3 Enables NGG Culling By Default For RDNA2 GPUs"
         },
         {
@@ -304,7 +349,7 @@
           "description": "A month ago was talk of GCC developers enabling the vectorizer at the common \"-O2\" optimization level and now that change has landed into the GCC 12 development code-base...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-Auto-Vec-O2",
           "publishedOn": "2021-10-08T14:06:20.000Z",
-          "wordCount": 792,
+          "wordCount": 862,
           "title": "GCC 12 Enables Auto-Vectorization For -O2 Optimization Level"
         },
         {
@@ -313,7 +358,7 @@
           "description": "Flatpak 1.12 was just released along with issuing Flatpak 1.10.4 to address a security vulnerability in the portal support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Flatpak-1.12-Released",
           "publishedOn": "2021-10-08T11:34:00.000Z",
-          "wordCount": 866,
+          "wordCount": 785,
           "title": "Flatpak 1.12 Released - Better Sub-Sandbox Handling To Benefit Steam"
         },
         {
@@ -322,7 +367,7 @@
           "description": "A new batch of Intel kernel graphics driver code was mailed out today to DRM-Next for staging ahead of next month's Linux 5.16 kernel merge window. Lots of notable changes in this pull!..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=drm-intel-gt-next-5.16",
           "publishedOn": "2021-10-08T10:53:59.000Z",
-          "wordCount": 1131,
+          "wordCount": 1107,
           "title": "Linux 5.16 To Add Intel Encrypted PXP, Alder Lake S Declared Stable & Ready"
         },
         {
@@ -331,7 +376,7 @@
           "description": "The xf86-video-modesetting DDX driver that is commonly in use for systems running an X.Org Server will soon find better support if you have a multi-monitor configuration where only some displays can support variable rate refresh (VRR / Adaptive-Sync / FreeSync)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Modesetting-VRR-Multi",
           "publishedOn": "2021-10-08T10:11:54.000Z",
-          "wordCount": 798,
+          "wordCount": 788,
           "title": "X.Org Modesetting Driver Will Now Better Handle Multi-Montior Mixed-VRR Setups"
         },
         {
@@ -340,7 +385,7 @@
           "description": "With the Linux 5.15 kernel there is a patch to benefit tiered memory systems with a focus on servers having persistent memory. That patch is demoting pages during page reclamation to slower tiers of memory such as Optane DC persistent memory. Intel continues building on that and other persistent memory kernel work for plumbing the kernel with optimized memory placement for these modern servers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Optimize-PMEM-Place-v9",
           "publishedOn": "2021-10-08T09:45:15.000Z",
-          "wordCount": 821,
+          "wordCount": 891,
           "title": "Intel Continues Optimizing Linux For Optane DC Persistent Memory Servers"
         },
         {
@@ -349,7 +394,7 @@
           "description": "The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-PRIME-ASync-SDMA-Copy",
           "publishedOn": "2021-10-08T00:19:58.000Z",
-          "wordCount": 890,
+          "wordCount": 889,
           "title": "Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups"
         },
         {
@@ -358,7 +403,7 @@
           "description": "Earlier this week I posted benchmarks showing how Intel Tiger Lake performance has improved nicely for Ubuntu 21.10 compared to Ubuntu 21.04. Of course, readers immediately wondered whether this also applied on the AMD laptop side... So here are some tests using an AMD Ryzen 9 5900HX with the ASUS ROG Strix G15 AMD Advantage laptop under Ubuntu 21.04, Ubuntu 21.10, and then also looking at running Linux 5.15 + Mesa 21.3-devel Git for an even more bleeding edge experience.",
           "link": "https://www.phoronix.com/vr.php?view=30585",
           "publishedOn": "2021-10-07T13:30:00.000Z",
-          "wordCount": 1015,
+          "wordCount": 1012,
           "title": "AMD Ryzen 9 5900HX / ASUS ROG Strix G15 Is A Nicer Experience On Ubuntu 21.10"
         },
         {
@@ -367,7 +412,7 @@
           "description": "The Apache Software Foundation today announced the release of Apache OpenOffice 4.1.11 as their 14th release while stewarding this open-source office suite...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-OpenOffice-4.1.11",
           "publishedOn": "2021-10-07T13:13:16.000Z",
-          "wordCount": 953,
+          "wordCount": 863,
           "title": "Apache OpenOffice 4.1.11 Released - Increased Font Size In Help, Other Mundane Changes"
         },
         {
@@ -376,7 +421,7 @@
           "description": "Intel's CM Compiler is out with its first big update since earlier in the year for advancing their \"C For Metal\" GPU programming language effort...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CM-Compiler-1.0.97",
           "publishedOn": "2021-10-07T10:20:00.000Z",
-          "wordCount": 911,
+          "wordCount": 901,
           "title": "Intel C For Metal Compiler Updated With Support For XeHP & DG1"
         },
         {
@@ -385,7 +430,7 @@
           "description": "Somewhat of a surprising change with Intel Gen12.5 graphics is that they have removed the hardware supporting Adaptive Scalable Texture Compression (ASTC). Intel's Linux graphics driver has now been updated to address Gen12.5+ foregoing hardware support for ASTC texture compression...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Gen12.5-No-ASTC",
           "publishedOn": "2021-10-07T09:49:31.000Z",
-          "wordCount": 946,
+          "wordCount": 936,
           "title": "Intel Removes ASTC Hardware From Gen12.5+ Graphics"
         },
         {
@@ -394,7 +439,7 @@
           "description": "The GNU toolchain (initially with the GNU Assembler) has begun landing support for RISC-V's Zbs instructions that are part of the Bitmanip extension to the processor ISA...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Prepares-For-Bitmanip-Zbs",
           "publishedOn": "2021-10-07T09:19:54.000Z",
-          "wordCount": 740,
+          "wordCount": 810,
           "title": "GNU Toolchain Begins Landing RISC-V Bitmanip/Zbs Instructions Support"
         },
         {
@@ -403,7 +448,7 @@
           "description": "For the better part of the past decade Google has been pursuing performance improvements to their Chrome/Chromium web browser as the \"RenderingNG\" initiative to provide faster web page performance, lower memory consumption, and better battery life. This current work is finally wrapping up in 2021 to great success...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-RenderingNG-2021",
           "publishedOn": "2021-10-07T04:00:00.000Z",
-          "wordCount": 818,
+          "wordCount": 808,
           "title": "Google Trumpets The Success Of Their Chrome \"RenderingNG\" Performance Initiative"
         },
         {
@@ -412,7 +457,7 @@
           "description": "NVIDIA today published their newest Vulkan beta driver update for Windows and Linux with some new extension support plus Vulkan Video enhancements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.62.05-Beta",
           "publishedOn": "2021-10-06T23:33:00.000Z",
-          "wordCount": 802,
+          "wordCount": 783,
           "title": "NVIDIA 470.62.05 Beta Brings Vulkan Video Updates"
         },
         {
@@ -421,7 +466,7 @@
           "description": "FWUPD and the Linux Vendor Firmware Service (LVFS) continue to serve as a resounding open-source success for allowing an increasing amount of hardware to support firmware updates on Linux from system/motherboard UEFI to disk drives and various peripherals. LVFS is now serving up more than two million firmware downloads a month while FWUPD 1.7 is out today with supporting firmware updates on even more hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.7",
           "publishedOn": "2021-10-06T19:17:12.000Z",
-          "wordCount": 763,
+          "wordCount": 753,
           "title": "FWUPD 1.7 Released With Supporting More Hardware For Firmware Updates On Linux"
         },
         {
@@ -430,7 +475,7 @@
           "description": "Next month's release of Chrome 96 is a bit more exciting now thanks to the work of Jan Grulich at Red Hat...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Better-WebRTC",
           "publishedOn": "2021-10-06T18:41:28.000Z",
-          "wordCount": 858,
+          "wordCount": 768,
           "title": "Chrome 96 To Feature Improved WebRTC Code, Better Wayland Screensharing"
         },
         {
@@ -439,7 +484,7 @@
           "description": "Red Hat today made available the Red Hat Enterprise Linux 8.5 (RHEL 8.5) beta, incorporating a half-year of improvements to this flagship enterprise Linux distribution...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RHEL-8.5-Beta",
           "publishedOn": "2021-10-06T18:22:19.000Z",
-          "wordCount": 729,
+          "wordCount": 719,
           "title": "Red Hat Enterprise Linux 8.5 Now Available As Beta"
         },
         {
@@ -448,7 +493,7 @@
           "description": "Canonical today announced the launch of Ubuntu Frame, its full-screen shell built atop the Wayland-embracing Mir server for embedded displays, IoT, and related use-cases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Frame-Shell",
           "publishedOn": "2021-10-06T17:36:52.000Z",
-          "wordCount": 736,
+          "wordCount": 726,
           "title": "Canonical Announces Ubuntu Frame As A Full-Screen Shell Built On Mir"
         },
         {
@@ -457,7 +502,7 @@
           "description": "For those wondering how AMD's latest-generation Radeon RX 6000 series is competing now between the Linux driver options of AMD's official Radeon Software for Linux 21.30 \"PRO\" driver stack and the latest upstream, fully open-source driver components from Mesa and the mainline Linux kernel, here is a fresh comparison.",
           "link": "https://www.phoronix.com/vr.php?view=30576",
           "publishedOn": "2021-10-06T13:16:57.000Z",
-          "wordCount": 767,
+          "wordCount": 830,
           "title": "Radeon Software 21.30 PRO vs. Mesa 21.3-devel + Linux 5.15 Gaming Performance"
         },
         {
@@ -466,53 +511,8 @@
           "description": "A new batch of drm-misc-next updates were sent out today for staging in DRM-Next ahead of the Linux 5.16 merge window. With this week's changes there is a notable addition for the Broadcom V3D DRM kernel driver, which most notably is for the Raspberry Pi 4 and newer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3D-Linux-5.16-Multi-Syncobjs",
           "publishedOn": "2021-10-06T12:23:29.000Z",
-          "wordCount": 853,
+          "wordCount": 762,
           "title": "Raspberry Pi \"V3D\" Driver Landing Support For Multiple Sync Objects"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Sony-More-Open-Source-2021",
-          "author": null,
-          "description": "At last week's Linux Foundation Open-Source Summit / Embedded Linux Conference there was a Sony presentation about their history with open-source/Linux and how since last year they have been \"accelerating\" their open-source contributions...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sony-More-Open-Source-2021",
-          "publishedOn": "2021-10-06T09:56:00.000Z",
-          "wordCount": 832,
-          "title": "Sony Has Begun Accelerating Their Contributions To Open-Source / Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ampere-Monthly-OSS-Firmware",
-          "author": null,
-          "description": "We have covered previously how Ampere Computing has been working on open-source firmware for their Ampere Altra processors and their reference server designs while now they are stepping up to the plate and committing to a monthly release cycle for their open-source firmware...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ampere-Monthly-OSS-Firmware",
-          "publishedOn": "2021-10-06T07:00:00.000Z",
-          "wordCount": 873,
-          "title": "Ampere Computing Steps Up With Monthly Open-Source Firmware Releases"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=ET-Legacy-2.78",
-          "author": null,
-          "description": "One of our favorite open-source game projects, ET: Legacy for letting the legendary game Wolfenstein: Enemy Territory live on as a community project, is out with a new release...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=ET-Legacy-2.78",
-          "publishedOn": "2021-10-06T04:00:02.000Z",
-          "wordCount": 819,
-          "title": "ET: Legacy 2.78 Released With Better OpenAL Sound, Android Support Materializing"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Asahi-Linux-September-2021",
-          "author": null,
-          "description": "The Asahi Linux project that has been working nearly the past year on bringing up Apple M1 support under Linux has issued their September 2021 porting and reverse engineering report...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Asahi-Linux-September-2021",
-          "publishedOn": "2021-10-05T23:22:22.000Z",
-          "wordCount": 996,
-          "title": "Asahi Linux On The Apple M1: \"Usable As A Basic Linux Desktop\" Sans GPU Acceleration"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-ADL-P-DG2-Display",
-          "author": null,
-          "description": "In Linux 5.14 Intel introduced initial Alder Lake P enablement driver support including around the new \"XeLPD\" display block. With Linux 5.15 there was the initial enablement around DG2/Alchemist graphics. Now for Linux 5.16 is a significant amount of new driver code for actually getting the display support into shape for both DG2 and ADL-P...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-ADL-P-DG2-Display",
-          "publishedOn": "2021-10-05T20:44:55.000Z",
-          "wordCount": 896,
-          "title": "Linux 5.16 Preps More Display Code For Alder Lake P & DG2/Alchemist"
         }
       ]
     }

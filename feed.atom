@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-10T00:38:36.149Z</id>
+    <id>urn:2021-10-11T00:38:05.261Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-10T00:38:36.149Z</updated>
+    <updated>2021-10-11T00:38:05.261Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15-rc5 Released With This Cycle Running Smoothly]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc5-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc5-Released"/>
+        <updated>2021-10-11T00:29:57.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds just pushed out the Linux 5.15-rc5 kernel release with things looking smooth for this stage and hopefully leading to an on-time release in just a few weeks...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phoronix Test Suite 10.6 Released With Various Improvements For Linux Benchmarking]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Phoronix-Test-Suite-10.6</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Phoronix-Test-Suite-10.6"/>
+        <updated>2021-10-10T23:19:01.000Z</updated>
+        <summary type="html"><![CDATA[Phoronix Test Suite 10.6.1 was released today with various improvements for our cross-platform, open-source, fully-automated benchmarking software...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Contributing Tegra NVDEC Support To Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-Linux-5.16-NVDEC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-Tegra-Linux-5.16-NVDEC"/>
+        <updated>2021-10-10T10:45:54.000Z</updated>
+        <summary type="html"><![CDATA[The Tegra DRM driver changes were sent out on Friday of the new material destined for Linux 5.16. Notable this time around is NVIDIA's NVDEC driver being included...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15-rc5 x86 Changes Aim To Fix "Yet Another Hardware Trainwreck"]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc5-x86</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc5-x86"/>
+        <updated>2021-10-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sent in this morning were an urgent set of x86 updates for the Linux 5.15-rc5 kernel due out later today...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Is Making It Easy To Run Bleeding-Edge LLVM/Clang On Fedora]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-Daily-For-Fedora</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LLVM-Daily-For-Fedora"/>
+        <updated>2021-10-10T09:53:28.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat's Platform Tools team is making it very easy to run the very bleeding edge, development version of the LLVM toolchain and Clang compiler on the current versions of Fedora...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IBM Proposing A CPU Namespace For The Linux Kernel]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-CPU-Namespace</id>
@@ -313,36 +363,6 @@ DevOps, s…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Sony Has Begun Accelerating Their Contributions To Open-Source / Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sony-More-Open-Source-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sony-More-Open-Source-2021"/>
-        <updated>2021-10-06T09:56:00.000Z</updated>
-        <summary type="html"><![CDATA[At last week's Linux Foundation Open-Source Summit / Embedded Linux Conference there was a Sony presentation about their history with open-source/Linux and how since last year they have been "accelerating" their open-source contributions...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ampere Computing Steps Up With Monthly Open-Source Firmware Releases]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Monthly-OSS-Firmware</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ampere-Monthly-OSS-Firmware"/>
-        <updated>2021-10-06T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We have covered previously how Ampere Computing has been working on open-source firmware for their Ampere Altra processors and their reference server designs while now they are stepping up to the plate and committing to a monthly release cycle for their open-source firmware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ET: Legacy 2.78 Released With Better OpenAL Sound, Android Support Materializing]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=ET-Legacy-2.78</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=ET-Legacy-2.78"/>
-        <updated>2021-10-06T04:00:02.000Z</updated>
-        <summary type="html"><![CDATA[One of our favorite open-source game projects, ET: Legacy for letting the legendary game Wolfenstein: Enemy Territory live on as a community project, is out with a new release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to provision Ready-To-Run GitLab for 50,000 users with the AWS Quick Start]]></title>
         <id>https://about.gitlab.com/blog/2021/10/06/gitlab-cnh-for-50k-users/</id>
         <link href="https://about.gitlab.com/blog/2021/10/06/gitlab-cnh-for-50k-users/"/>
@@ -353,26 +373,6 @@ Those who provision large scale systems on the cloud generally turn to Infrastru
 Now, tha…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asahi Linux On The Apple M1: "Usable As A Basic Linux Desktop" Sans GPU Acceleration]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Asahi-Linux-September-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Asahi-Linux-September-2021"/>
-        <updated>2021-10-05T23:22:22.000Z</updated>
-        <summary type="html"><![CDATA[The Asahi Linux project that has been working nearly the past year on bringing up Apple M1 support under Linux has issued their September 2021 porting and reverse engineering report...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.16 Preps More Display Code For Alder Lake P & DG2/Alchemist]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-ADL-P-DG2-Display</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-ADL-P-DG2-Display"/>
-        <updated>2021-10-05T20:44:55.000Z</updated>
-        <summary type="html"><![CDATA[In Linux 5.14 Intel introduced initial Alder Lake P enablement driver support including around the new "XeLPD" display block. With Linux 5.15 there was the initial enablement around DG2/Alchemist graphics. Now for Linux 5.16 is a significant amount of new driver code for actually getting the display support into shape for both DG2 and ADL-P...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
