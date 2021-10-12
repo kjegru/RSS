@@ -20,14 +20,176 @@
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Threat modeling the Kubernetes Agent: from MVC to continuous improvement</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/10/11/threat-modeling-kubernetes-agent/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>Threat modeling is more common in people’s everyday lives than they might think.  Each of us performs some level of threat modeling every time we’re in a situation where we’re evaluating threats. An everyday example I really like: crossing the street. Before we cross the street we look both ways, we evaluate the speed of each oncoming vehicle and verify the driver has seen us. Finally, if the lights are green, we cross the street. This is threat modeling!
+If you’re interested in learning more about what threat modeling is and how we’re developing our threat model here at GitLab, you can read about “How we’re creating a threat model framework that works for GitLab“ by my teammate Mark Loveless.
+Threat modeling IRL
+In this blog post I’ll talk about how we put our threat modeling process into…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Notice for GitKraken users with GitLab</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/10/11/notice-for-gitkraken-users-with-gitlab/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>We’re sharing details on a vulnerability found with the Axosoft GitKraken software. Axosoft found a defect in the key gen package used by GitKraken versions 7.6.0 to 8.0.0 that could generate weak or duplicate SSH keys. This could enable an attacker to gain unauthorized access to an account or repositories on GitLab.com or a self-managed instance.
+Based on our investigations to date, there is no indication that GitLab.com or any projects on GitLab.com that use the GitKraken tool have been impacted by this vulnerability.
+Who is affected?
+This vulnerability affects GitKraken users who created SSH keys using GitKraken releases from May 12, 2021 (7.6.0) to the week of September 27, 2021 (8.0.0).
+GitKraken 8.0.1, released on September 28, 2021, fixes the bug.
+Action we have taken
+We have emailed users with affected keys earlier today, October 11, 2021.
+For GitLab.com customers, we have already blocked known weak keys.
+If affected, action you need to take
+If you used a version of GitKraken prior to 8.0.1 to generate SSH keys, we highly recommend that you take the following actions:
+Self-managed customers:
+Revoke the SSH keys immediately. For additional instructions, see: https://docs.gitlab.com/ee/user/admin_area/credentials_inventory.html#delete-a-users-ssh-key
+Update GitKraken to the latest version: https://support.gitkraken.com/release-notes/current/
+Generate new SSH keys: https://support.gitkraken.com/integrations/gitlab/#generating-an-ssh-key-for-gitlab
+GitLab.com customers:
+Update GitKraken to the latest version: https://support.gitkraken.com/release-notes/current/
+Generate new SSH keys: https://support.gitkraken.com/integrations/gitlab/#generating-an-ssh-key-for-gitlab
+More information can be found in Axosoft’s disclosure: https://www.gitkraken.com/blog/weak-ssh-key-fix 
+and in CVE-2021-41117.
+For questions or concerns regarding GitKraken or its use with GitLab, please contact Axosoft (support@gitkraken.com). For questions concerning your GitLab account, please contact our Support department.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How ten steps over ten years led to the DevOps Platform</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/10/11/how-ten-steps-over-ten-years-led-to-the-devops-platform/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>The first commit to GitLab (!!) was 10 years ago. Today, it’s an entirely different world: DevOps is increasingly mainstream and there&#x27;s a DevOps platform revolution.
+We didn’t have a crystal ball back then, but we did try to create a product, a culture and a company that reflected what we thought mattered most. Here’s a look back at 10 key decisions we made that still have impact:
+Work in parallel: When we started, it was clear the waterfall method of software development - where one stage waited on another stage and nothing happened independently - slowed everything. We decided right from the beginning that a “work in parallel” philosophy would be fundamental to our culture and our behaviors. Also, such a philosophy naturally supported everything else we did, including bringing CI and CD…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Lutris 0.5.9 Released With Support For The Epic Games Store, New Options</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Lutris-0.5.9-Released">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Lutris 0.5.9 is now available for this open-source Linux game manager program that has now added initial support for the Epic Games Store among other new options and enhancements in this new version...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Microsoft Publishes WSL Preview Inside the Windows 11 Store</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Microsoft-Windows-11-WSL-Store">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Those running Microsoft&#x27;s recently released Windows 11 will now be able to find the Windows Subsystem for Linux (WSL) available from within the Microsoft Store for easier setting up of this Linux-based environment...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Intel Posts Latest DG2/Alchemist Linux Patches In Requiring 64K Page Size Handling</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Intel-DG2-64k-Pages-Flat-CCS">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>While Linux 5.15 brings very early bits around DG2/Alchemist graphics card support, further work is needed to bring it into usable shape for end-users. The latest new patch series to be posted came out today with more driver changes needed around local device memory handling for DG2...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Walmart Pushes Open-Source L3AF To Help Out eBPF Ecosystem</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Walmart-L3AF-eBPF">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Retail shopping giant Walmart has found use out eBPF programs and today announced the open-source L3AF to help in the effort...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ubuntu 19.10 To 21.10: AMD Zen 2 + Radeon Performance On Linux Over Two Years</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30591">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>With Ubuntu 21.10 due for release this week I&#x27;ve been running various Ubuntu Linux performance comparisons across a variety of hardware and overall this new release is looking to be in great shape. One of the tests I recently carried out for curiosity is seeing how the AMD Zen 2 performance has evolved now over the past two years on Linux going from Ubuntu 19.10 to Ubuntu 21.10.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">More Optimizations Has Linux Approaching 7M IOPS Per Core</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-Approaching-7M-IOPS">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Linux block subsystem maintainer and IO_uring lead developer Jens Axboe continues making staggering optimizations to the kernel code to squeeze out the maximum performance potential out of his shiny new system...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Krita 5.0 Beta 2 Reworks Its GPU Accelerated Canvas</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Krita-5.0-Beta-2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Krita 5.0 Beta 2 is out today as the newest test release for this very powerful, open-source digital painting program...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AMD Publishes New Linux Audio Driver Code For  Yellow Carp / ACP6x Audio Co-Processor</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;AMD-Yellow-Carp-Audio-Driver">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>It was just with Linux 5.15 last month that AMD added a new audio driver for Van Gogh APUs sporting an ACP 5.x audio co-processor (ACP) while now a new driver has been posted for Yellow Carp / Rembrandt with it introducing new ACP 6.x audio co-processor IP...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">EROFS File-System Adding LZMA Compression Support Via New MicroLZMA</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;EROFS-LZMA-Compression">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The EROFS read-only file-system is adding LZMA compression support using a new header/container format called MicroLZMA...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Linux 5.15-rc5 Released With This Cycle Running Smoothly</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Linux-5.15-rc5-Released">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
+                    <span class="article-reading-time">(3 min)</span>
                     <span>Linus Torvalds just pushed out the Linux 5.15-rc5 kernel release with things looking smooth for this stage and hopefully leading to an on-time release in just a few weeks...</span>
                   </div>
                 </a>
@@ -370,28 +532,6 @@ DevOps, s…</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GNU Toolchain Begins Landing RISC-V Bitmanip/Zbs Instructions Support</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;GNU-Prepares-For-Bitmanip-Zbs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The GNU toolchain (initially with the GNU Assembler) has begun landing support for RISC-V&#x27;s Zbs instructions that are part of the Bitmanip extension to the processor ISA...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google Trumpets The Success Of Their Chrome &quot;RenderingNG&quot; Performance Initiative</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Chrome-RenderingNG-2021">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>For the better part of the past decade Google has been pursuing performance improvements to their Chrome/Chromium web browser as the &quot;RenderingNG&quot; initiative to provide faster web page performance, lower memory consumption, and better battery life. This current work is finally wrapping up in 2021 to great success...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
@@ -413,89 +553,6 @@ DevOps, s…</span>
 Scaling to massive sizes requires the services within GitLab to be broken out into dedicated compute and storage layers so they can each expand cost effectively based on high loading and an organization&#x27;s specific usage patterns.
 Those who provision large scale systems on the cloud generally turn to Infrastructure as Code (IaC) to ensure consistency and to allow easy setup of pre-production environments for the target system. Until recently, GitLab implementers have had to craft this code from scratch.
 Now, tha…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.phoronix.com/">Phoronix</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">NVIDIA 470.62.05 Beta Brings Vulkan Video Updates</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;NVIDIA-470.62.05-Beta">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>NVIDIA today published their newest Vulkan beta driver update for Windows and Linux with some new extension support plus Vulkan Video enhancements...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">FWUPD 1.7 Released With Supporting More Hardware For Firmware Updates On Linux</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;FWUPD-1.7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>FWUPD and the Linux Vendor Firmware Service (LVFS) continue to serve as a resounding open-source success for allowing an increasing amount of hardware to support firmware updates on Linux from system/motherboard UEFI to disk drives and various peripherals. LVFS is now serving up more than two million firmware downloads a month while FWUPD 1.7 is out today with supporting firmware updates on even more hardware...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Chrome 96 To Feature Improved WebRTC Code, Better Wayland Screensharing</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Chrome-96-Better-WebRTC">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Next month&#x27;s release of Chrome 96 is a bit more exciting now thanks to the work of Jan Grulich at Red Hat...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Red Hat Enterprise Linux 8.5 Now Available As Beta</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;RHEL-8.5-Beta">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Red Hat today made available the Red Hat Enterprise Linux 8.5 (RHEL 8.5) beta, incorporating a half-year of improvements to this flagship enterprise Linux distribution...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Canonical Announces Ubuntu Frame As A Full-Screen Shell Built On Mir</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;Ubuntu-Frame-Shell">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Canonical today announced the launch of Ubuntu Frame, its full-screen shell built atop the Wayland-embracing Mir server for embedded displays, IoT, and related use-cases...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Radeon Software 21.30 PRO vs. Mesa 21.3-devel + Linux 5.15 Gaming Performance</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/vr.php?view&#x3D;30576">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>For those wondering how AMD&#x27;s latest-generation Radeon RX 6000 series is competing now between the Linux driver options of AMD&#x27;s official Radeon Software for Linux 21.30 &quot;PRO&quot; driver stack and the latest upstream, fully open-source driver components from Mesa and the mainline Linux kernel, here is a fresh comparison.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Raspberry Pi &quot;V3D&quot; Driver Landing Support For Multiple Sync Objects</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.phoronix.com/scan.php?page&#x3D;news_item&amp;px&#x3D;V3D-Linux-5.16-Multi-Syncobjs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>A new batch of drm-misc-next updates were sent out today for staging in DRM-Next ahead of the Linux 5.16 merge window. With this week&#x27;s changes there is a notable addition for the Broadcom V3D DRM kernel driver, which most notably is for the Raspberry Pi 4 and newer...</span>
                   </div>
                 </a>
               </details>
@@ -954,72 +1011,6 @@ to use GitLab&#x27;s own infrastructure.</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GitLab 14.3 releases Project Security Policies &amp; Next Gen SAST</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(20 min)</span>
-                    <span>Today, we are excited to announce the release of GitLab 14.3 with project-level security scan execution policies, next generation SAST to reduce Ruby false positives, group-level permissions for protected environments, group access for the GitLab Kubernetes Agent, and much more!
-These are just a few highlights from the 40+ improvements in this release. Read on to check out all of the great updates below.
-To preview what&#x27;s coming in next month’s release, check out our Upcoming Releases page, which includes our 14.4 release kickoff video.
-Join us for an upcoming event
-
-
-
-
-
-
-
-
-
-This month&#x27;s Most Valuable Person (MVP) is
-feistel
-
-@feistel started contributing to GitLab Pages in September 2020. In the last 4 months, they have made continuous contributions to improve Pages by adding features, fi…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-21">2021-09-21</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://about.gitlab.com/blog/">GitLab</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">It&#x27;s time to build more accessible software. A DevOps platform can help</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>The earlier a feature or process is introduced in the multi-step software development lifecycle (SDLC), the more likely it is to be fully integrated into the product.
-It&#x27;s well documented how security can shift left using a DevOps platform, so it&#x27;s time to make the case that accessbility needs to be thought about earlier (and, clearly, a DevOps platform can facilitate that too). Although there are laws that require applications to meet certain accessibility requirements, which opens an application up to a broader user base, rarely is accessibility considered a core product requirement. Instead, it is just a test tacked on at the end instead of being built into the DevOps platform process.
-[Learn more about how the open source development community helps build accessible software]
-&quot;The prob…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GitLab&#x27;s realtime Preview Markdown is an editor for everyone</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.gitlab.com/blog/2021/09/21/introducing-markdown-live-preview/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Fostering better, more meaningful collaboration is an integral part of DevOps and a key part of what GitLab, the complete DevOps Platform, unlocks for developers and their teams. While many developers or engineers feel more comfortable working locally on their machines and spend a majority of their time using a CLI to push code changes, with GitLab you can also use the Web Editor or Web IDE to collaborate and edit content in a much easier, faster, and approachable way.
-Starting in GitLab 14.2, editing Markdown content in the Web Editor or Web IDE just got even better.
-Introducing the realtime Preview Markdown editor
-GitLab Flavored Markdown automatically renders Markdown content in an easy-to-read and easy-to-write plain text language. Although Markdown is inherently more “human-readable” …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
@@ -1049,7 +1040,7 @@ Thank you @ad-m</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-10-11T00:38:05.235Z">2021-10-11T00:38:05.235Z</time>
+    <time id="build-timestamp" datetime="2021-10-12T00:39:55.931Z">2021-10-12T00:39:55.931Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.2</a></span>
   </footer>
   <script src="index.js"></script>

@@ -31,6 +31,33 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/10/11/threat-modeling-kubernetes-agent/",
+          "author": null,
+          "description": "Threat modeling is more common in people’s everyday lives than they might think.  Each of us performs some level of threat modeling every time we’re in a situation where we’re evaluating threats. An everyday example I really like: crossing the street. Before we cross the street we look both ways, we evaluate the speed of each oncoming vehicle and verify the driver has seen us. Finally, if the lights are green, we cross the street. This is threat modeling!\nIf you’re interested in learning more about what threat modeling is and how we’re developing our threat model here at GitLab, you can read about “How we’re creating a threat model framework that works for GitLab“ by my teammate Mark Loveless.\nThreat modeling IRL\nIn this blog post I’ll talk about how we put our threat modeling process into…",
+          "link": "https://about.gitlab.com/blog/2021/10/11/threat-modeling-kubernetes-agent/",
+          "publishedOn": "2021-10-11T00:00:00.000Z",
+          "wordCount": 3565,
+          "title": "Threat modeling the Kubernetes Agent: from MVC to continuous improvement"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/10/11/notice-for-gitkraken-users-with-gitlab/",
+          "author": null,
+          "description": "We’re sharing details on a vulnerability found with the Axosoft GitKraken software. Axosoft found a defect in the key gen package used by GitKraken versions 7.6.0 to 8.0.0 that could generate weak or duplicate SSH keys. This could enable an attacker to gain unauthorized access to an account or repositories on GitLab.com or a self-managed instance.\nBased on our investigations to date, there is no indication that GitLab.com or any projects on GitLab.com that use the GitKraken tool have been impacted by this vulnerability.\nWho is affected?\nThis vulnerability affects GitKraken users who created SSH keys using GitKraken releases from May 12, 2021 (7.6.0) to the week of September 27, 2021 (8.0.0).\nGitKraken 8.0.1, released on September 28, 2021, fixes the bug.\nAction we have taken\nWe have emailed users with affected keys earlier today, October 11, 2021.\nFor GitLab.com customers, we have already blocked known weak keys.\nIf affected, action you need to take\nIf you used a version of GitKraken prior to 8.0.1 to generate SSH keys, we highly recommend that you take the following actions:\nSelf-managed customers:\nRevoke the SSH keys immediately. For additional instructions, see: https://docs.gitlab.com/ee/user/admin_area/credentials_inventory.html#delete-a-users-ssh-key\nUpdate GitKraken to the latest version: https://support.gitkraken.com/release-notes/current/\nGenerate new SSH keys: https://support.gitkraken.com/integrations/gitlab/#generating-an-ssh-key-for-gitlab\nGitLab.com customers:\nUpdate GitKraken to the latest version: https://support.gitkraken.com/release-notes/current/\nGenerate new SSH keys: https://support.gitkraken.com/integrations/gitlab/#generating-an-ssh-key-for-gitlab\nMore information can be found in Axosoft’s disclosure: https://www.gitkraken.com/blog/weak-ssh-key-fix \nand in CVE-2021-41117.\nFor questions or concerns regarding GitKraken or its use with GitLab, please contact Axosoft (support@gitkraken.com). For questions concerning your GitLab account, please contact our Support department.",
+          "link": "https://about.gitlab.com/blog/2021/10/11/notice-for-gitkraken-users-with-gitlab/",
+          "publishedOn": "2021-10-11T00:00:00.000Z",
+          "wordCount": 1279,
+          "title": "Notice for GitKraken users with GitLab"
+        },
+        {
+          "id": "https://about.gitlab.com/blog/2021/10/11/how-ten-steps-over-ten-years-led-to-the-devops-platform/",
+          "author": null,
+          "description": "The first commit to GitLab (!!) was 10 years ago. Today, it’s an entirely different world: DevOps is increasingly mainstream and there's a DevOps platform revolution.\nWe didn’t have a crystal ball back then, but we did try to create a product, a culture and a company that reflected what we thought mattered most. Here’s a look back at 10 key decisions we made that still have impact:\nWork in parallel: When we started, it was clear the waterfall method of software development - where one stage waited on another stage and nothing happened independently - slowed everything. We decided right from the beginning that a “work in parallel” philosophy would be fundamental to our culture and our behaviors. Also, such a philosophy naturally supported everything else we did, including bringing CI and CD…",
+          "link": "https://about.gitlab.com/blog/2021/10/11/how-ten-steps-over-ten-years-led-to-the-devops-platform/",
+          "publishedOn": "2021-10-11T00:00:00.000Z",
+          "wordCount": 2183,
+          "title": "How ten steps over ten years led to the DevOps Platform"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/10/08/updates-to-de-identifying-service-usage-data/",
           "author": null,
           "description": "GitLab has been working on a process to intentionally limit our own ability to identify individual users from Service Usage Data in order to protect user privacy even better. Earlier this year, we solicited input on plans to de-identify GitLab’s Service Usage Data. We are now ready to move forward with a new system to de-identify SaaS usage data before it enters GitLab’s internal analytics environment.\nWhat isn’t changing?\nThe service usage data policy for SaaS and Self-Managed remains unchanged.\nWhat is changing?\nWith user privacy in mind, we are building a pseudonymization process to run against our SaaS service usage data.\nWe have determined that we do not need fully identifiable information anymore for our analytics environment, and as such we are pursuing this approach that will result in better privacy for GitLab users.\nWe’ll create a one-way hash or transform directly identifiable data. This means that the data will be hashed at the collection layer before it is sent to our analytics environment.\nYou can read more details about our pseudonymization solution here. Once our pseudonymization solution is in place, we will update data we collect to ensure it follows the  solution. You can read more about what data we collect and its de-identification state here.\nTimeline and implementation\nWe’re planning to roll out these changes in October 2021. Keep an eye on our Product Intelligence roadmap to monitor our progress. Once complete, we’ll update this blog post with the final status.\nMore information\nPlease find more information about our privacy policy. Further details on how service usage data is used for product improvement can be found on our Product Direction page. Also see  GitLab’s analytics environment and SaaS Data Collection Catalog.\nPlease share your questions on the community forum.",
@@ -81,7 +108,7 @@
           "description": "It’s October 2021, and we have quite a few treats in store. In addition to celebrating the 10th anniversary of the GitLab open source project, GitLab Inc. will be participating in Hacktoberfest, an event dedicated to increasing contributions to open source projects that's now in its eighth year. This has been widely requested by the open source community for years, so we’re thrilled to see GitLab support rolled out!\nThanks to DigitalOcean, the organization behind Hacktoberfest, people can now contribute to open source projects that are hosted on GitLab.com.\nIt’s easy, sign up on the Hacktoberfest website using your GitLab account and explore the available projects to contribute.\nProject maintainers who want their projects to participate in Hacktoberfest should follow the steps described on…",
           "link": "https://about.gitlab.com/blog/2021/10/01/join-us-for-hacktoberfest-2021/",
           "publishedOn": "2021-10-01T00:00:00.000Z",
-          "wordCount": 1461,
+          "wordCount": 1483,
           "title": "Join us for Hacktoberfest 2021!"
         },
         {
@@ -191,33 +218,6 @@
           "publishedOn": "2021-09-22T00:00:00.000Z",
           "wordCount": 1026,
           "title": "GitLab Patch Release: 13.12.12"
-        },
-        {
-          "id": "https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/",
-          "author": null,
-          "description": "Today, we are excited to announce the release of GitLab 14.3 with project-level security scan execution policies, next generation SAST to reduce Ruby false positives, group-level permissions for protected environments, group access for the GitLab Kubernetes Agent, and much more!\nThese are just a few highlights from the 40+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.4 release kickoff video.\nJoin us for an upcoming event\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nfeistel\n\n@feistel started contributing to GitLab Pages in September 2020. In the last 4 months, they have made continuous contributions to improve Pages by adding features, fi…",
-          "link": "https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/",
-          "publishedOn": "2021-09-22T00:00:00.000Z",
-          "wordCount": 6038,
-          "title": "GitLab 14.3 releases Project Security Policies & Next Gen SAST"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/",
-          "author": null,
-          "description": "The earlier a feature or process is introduced in the multi-step software development lifecycle (SDLC), the more likely it is to be fully integrated into the product.\nIt's well documented how security can shift left using a DevOps platform, so it's time to make the case that accessbility needs to be thought about earlier (and, clearly, a DevOps platform can facilitate that too). Although there are laws that require applications to meet certain accessibility requirements, which opens an application up to a broader user base, rarely is accessibility considered a core product requirement. Instead, it is just a test tacked on at the end instead of being built into the DevOps platform process.\n[Learn more about how the open source development community helps build accessible software]\n\"The prob…",
-          "link": "https://about.gitlab.com/blog/2021/09/21/how-the-devops-platform-makes-building-accessible-software-easier/",
-          "publishedOn": "2021-09-21T00:00:00.000Z",
-          "wordCount": 2846,
-          "title": "It's time to build more accessible software. A DevOps platform can help"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/09/21/introducing-markdown-live-preview/",
-          "author": null,
-          "description": "Fostering better, more meaningful collaboration is an integral part of DevOps and a key part of what GitLab, the complete DevOps Platform, unlocks for developers and their teams. While many developers or engineers feel more comfortable working locally on their machines and spend a majority of their time using a CLI to push code changes, with GitLab you can also use the Web Editor or Web IDE to collaborate and edit content in a much easier, faster, and approachable way.\nStarting in GitLab 14.2, editing Markdown content in the Web Editor or Web IDE just got even better.\nIntroducing the realtime Preview Markdown editor\nGitLab Flavored Markdown automatically renders Markdown content in an easy-to-read and easy-to-write plain text language. Although Markdown is inherently more “human-readable” …",
-          "link": "https://about.gitlab.com/blog/2021/09/21/introducing-markdown-live-preview/",
-          "publishedOn": "2021-09-21T00:00:00.000Z",
-          "wordCount": 1605,
-          "title": "GitLab's realtime Preview Markdown is an editor for everyone"
         }
       ]
     },
@@ -227,12 +227,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Released",
+          "author": null,
+          "description": "Lutris 0.5.9 is now available for this open-source Linux game manager program that has now added initial support for the Epic Games Store among other new options and enhancements in this new version...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Released",
+          "publishedOn": "2021-10-11T19:43:29.000Z",
+          "wordCount": 854,
+          "title": "Lutris 0.5.9 Released With Support For The Epic Games Store, New Options"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Windows-11-WSL-Store",
+          "author": null,
+          "description": "Those running Microsoft's recently released Windows 11 will now be able to find the Windows Subsystem for Linux (WSL) available from within the Microsoft Store for easier setting up of this Linux-based environment...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Windows-11-WSL-Store",
+          "publishedOn": "2021-10-11T19:21:26.000Z",
+          "wordCount": 854,
+          "title": "Microsoft Publishes WSL Preview Inside the Windows 11 Store"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-64k-Pages-Flat-CCS",
+          "author": null,
+          "description": "While Linux 5.15 brings very early bits around DG2/Alchemist graphics card support, further work is needed to bring it into usable shape for end-users. The latest new patch series to be posted came out today with more driver changes needed around local device memory handling for DG2...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-64k-Pages-Flat-CCS",
+          "publishedOn": "2021-10-11T18:53:47.000Z",
+          "wordCount": 921,
+          "title": "Intel Posts Latest DG2/Alchemist Linux Patches In Requiring 64K Page Size Handling"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Walmart-L3AF-eBPF",
+          "author": null,
+          "description": "Retail shopping giant Walmart has found use out eBPF programs and today announced the open-source L3AF to help in the effort...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Walmart-L3AF-eBPF",
+          "publishedOn": "2021-10-11T18:07:50.000Z",
+          "wordCount": 792,
+          "title": "Walmart Pushes Open-Source L3AF To Help Out eBPF Ecosystem"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30591",
+          "author": null,
+          "description": "With Ubuntu 21.10 due for release this week I've been running various Ubuntu Linux performance comparisons across a variety of hardware and overall this new release is looking to be in great shape. One of the tests I recently carried out for curiosity is seeing how the AMD Zen 2 performance has evolved now over the past two years on Linux going from Ubuntu 19.10 to Ubuntu 21.10.",
+          "link": "https://www.phoronix.com/vr.php?view=30591",
+          "publishedOn": "2021-10-11T13:12:58.000Z",
+          "wordCount": 819,
+          "title": "Ubuntu 19.10 To 21.10: AMD Zen 2 + Radeon Performance On Linux Over Two Years"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Approaching-7M-IOPS",
+          "author": null,
+          "description": "Linux block subsystem maintainer and IO_uring lead developer Jens Axboe continues making staggering optimizations to the kernel code to squeeze out the maximum performance potential out of his shiny new system...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Approaching-7M-IOPS",
+          "publishedOn": "2021-10-11T13:04:33.000Z",
+          "wordCount": 907,
+          "title": "More Optimizations Has Linux Approaching 7M IOPS Per Core"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Krita-5.0-Beta-2",
+          "author": null,
+          "description": "Krita 5.0 Beta 2 is out today as the newest test release for this very powerful, open-source digital painting program...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Krita-5.0-Beta-2",
+          "publishedOn": "2021-10-11T11:15:33.000Z",
+          "wordCount": 740,
+          "title": "Krita 5.0 Beta 2 Reworks Its GPU Accelerated Canvas"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Yellow-Carp-Audio-Driver",
+          "author": null,
+          "description": "It was just with Linux 5.15 last month that AMD added a new audio driver for Van Gogh APUs sporting an ACP 5.x audio co-processor (ACP) while now a new driver has been posted for Yellow Carp / Rembrandt with it introducing new ACP 6.x audio co-processor IP...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Yellow-Carp-Audio-Driver",
+          "publishedOn": "2021-10-11T09:49:39.000Z",
+          "wordCount": 891,
+          "title": "AMD Publishes New Linux Audio Driver Code For  Yellow Carp / ACP6x Audio Co-Processor"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=EROFS-LZMA-Compression",
+          "author": null,
+          "description": "The EROFS read-only file-system is adding LZMA compression support using a new header/container format called MicroLZMA...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=EROFS-LZMA-Compression",
+          "publishedOn": "2021-10-11T09:28:05.000Z",
+          "wordCount": 753,
+          "title": "EROFS File-System Adding LZMA Compression Support Via New MicroLZMA"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-Released",
           "author": null,
           "description": "Linus Torvalds just pushed out the Linux 5.15-rc5 kernel release with things looking smooth for this stage and hopefully leading to an on-time release in just a few weeks...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-Released",
           "publishedOn": "2021-10-11T00:29:57.000Z",
-          "wordCount": 741,
+          "wordCount": 789,
           "title": "Linux 5.15-rc5 Released With This Cycle Running Smoothly"
         },
         {
@@ -241,7 +322,7 @@
           "description": "Phoronix Test Suite 10.6.1 was released today with various improvements for our cross-platform, open-source, fully-automated benchmarking software...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Phoronix-Test-Suite-10.6",
           "publishedOn": "2021-10-10T23:19:01.000Z",
-          "wordCount": 777,
+          "wordCount": 825,
           "title": "Phoronix Test Suite 10.6 Released With Various Improvements For Linux Benchmarking"
         },
         {
@@ -250,7 +331,7 @@
           "description": "The Tegra DRM driver changes were sent out on Friday of the new material destined for Linux 5.16. Notable this time around is NVIDIA's NVDEC driver being included...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Tegra-Linux-5.16-NVDEC",
           "publishedOn": "2021-10-10T10:45:54.000Z",
-          "wordCount": 927,
+          "wordCount": 851,
           "title": "NVIDIA Contributing Tegra NVDEC Support To Linux 5.16"
         },
         {
@@ -259,7 +340,7 @@
           "description": "Sent in this morning were an urgent set of x86 updates for the Linux 5.15-rc5 kernel due out later today...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-x86",
           "publishedOn": "2021-10-10T10:00:00.000Z",
-          "wordCount": 1014,
+          "wordCount": 1018,
           "title": "Linux 5.15-rc5 x86 Changes Aim To Fix \"Yet Another Hardware Trainwreck\""
         },
         {
@@ -268,7 +349,7 @@
           "description": "Red Hat's Platform Tools team is making it very easy to run the very bleeding edge, development version of the LLVM toolchain and Clang compiler on the current versions of Fedora...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LLVM-Daily-For-Fedora",
           "publishedOn": "2021-10-10T09:53:28.000Z",
-          "wordCount": 814,
+          "wordCount": 818,
           "title": "Red Hat Is Making It Easy To Run Bleeding-Edge LLVM/Clang On Fedora"
         },
         {
@@ -277,7 +358,7 @@
           "description": "IBM engineer Pratik Sampat published an early prototype of a CPU namespace interface for the Linux kernel. This CPU namespace was devised to address coherency issues with current means of viewing available CPU resources as well as addressing possible security issues stemming from understanding resource access/positioning on the system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-CPU-Namespace",
           "publishedOn": "2021-10-09T22:56:52.000Z",
-          "wordCount": 1212,
+          "wordCount": 1207,
           "title": "IBM Proposing A CPU Namespace For The Linux Kernel"
         },
         {
@@ -286,7 +367,7 @@
           "description": "Intel has been preparing Xe HP bring-up for many months already including fundamental work around their discrete graphics/accelerator support for their Linux graphics driver stack going back quite a while. On the Xe HP front,  Friday afternoon brought an important patch series posted for the first time: initial work around multi-tile support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Preps-Linux-Multi-Tile",
           "publishedOn": "2021-10-09T14:25:16.000Z",
-          "wordCount": 975,
+          "wordCount": 899,
           "title": "Intel Begins Preparing Linux Graphics Driver For Multi-Tile Hardware"
         },
         {
@@ -295,7 +376,7 @@
           "description": "Debian 11 \"Bullseye\" debuted back in August as the latest major release for this popular community Linux distribution. Today it's been succeeded by Debian 11.1...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Debian-11.1-Released",
           "publishedOn": "2021-10-09T14:07:33.000Z",
-          "wordCount": 704,
+          "wordCount": 708,
           "title": "Debian 11.1 Released With Initial Batch Of Fixes"
         },
         {
@@ -304,7 +385,7 @@
           "description": "Barring any last minute reservations it appears the initial \"FUTEX2\" work that is of much interest to Linux gamers enjoying Steam Play / Proton will find that kernel functionality in Linux 5.16...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FUTEX2-Bits-In-Locking-Core",
           "publishedOn": "2021-10-09T10:39:19.000Z",
-          "wordCount": 790,
+          "wordCount": 840,
           "title": "It Appears FUTEX2 Will Land For Linux 5.16"
         },
         {
@@ -313,7 +394,7 @@
           "description": "KDE developers remain very busy squashing bugs ahead of the release of Plasma 5.23 that is also known as the Plasma 25th Anniversary Edition...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Goes-To-GitLab-CI",
           "publishedOn": "2021-10-09T10:13:11.000Z",
-          "wordCount": 856,
+          "wordCount": 938,
           "title": "KDE Moves To GitLab-Based CI, Lands More Plasma Wayland Fixes"
         },
         {
@@ -322,7 +403,7 @@
           "description": "Building off the earlier DRM-Next staged code from last month that brought initial DisplayPort 2.0 support and other feature work, another feature pull request was submitted today of additional AMD Radeon \"AMDGPU\" kernel driver changes slated for Linux 5.16...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-More-For-Linux-5.16",
           "publishedOn": "2021-10-08T20:50:32.000Z",
-          "wordCount": 945,
+          "wordCount": 935,
           "title": "A Big Batch Of AMD Graphics Driver Updates Just Sent Out For Linux 5.16"
         },
         {
@@ -331,7 +412,7 @@
           "description": "Wine 6.19 is out as the latest bi-weekly development release of Wine as the developers work towards Wine 7.0 stable in early 2022...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.19-Released",
           "publishedOn": "2021-10-08T19:25:36.000Z",
-          "wordCount": 817,
+          "wordCount": 812,
           "title": "Wine 6.19 Continues Work On HID Joystick, PE Conversion"
         },
         {
@@ -340,7 +421,7 @@
           "description": "The Radeon Vulkan driver \"RADV\" within Mesa 21.3 is enabling NGG culling by default for Radeon RX 6000 series (RDNA2) GPUs and newer as another performance win...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-RADV-NGGC-Def",
           "publishedOn": "2021-10-08T17:42:57.000Z",
-          "wordCount": 798,
+          "wordCount": 756,
           "title": "Mesa 21.3 Enables NGG Culling By Default For RDNA2 GPUs"
         },
         {
@@ -349,7 +430,7 @@
           "description": "A month ago was talk of GCC developers enabling the vectorizer at the common \"-O2\" optimization level and now that change has landed into the GCC 12 development code-base...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12-Auto-Vec-O2",
           "publishedOn": "2021-10-08T14:06:20.000Z",
-          "wordCount": 862,
+          "wordCount": 786,
           "title": "GCC 12 Enables Auto-Vectorization For -O2 Optimization Level"
         },
         {
@@ -358,7 +439,7 @@
           "description": "Flatpak 1.12 was just released along with issuing Flatpak 1.10.4 to address a security vulnerability in the portal support...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Flatpak-1.12-Released",
           "publishedOn": "2021-10-08T11:34:00.000Z",
-          "wordCount": 785,
+          "wordCount": 869,
           "title": "Flatpak 1.12 Released - Better Sub-Sandbox Handling To Benefit Steam"
         },
         {
@@ -367,7 +448,7 @@
           "description": "A new batch of Intel kernel graphics driver code was mailed out today to DRM-Next for staging ahead of next month's Linux 5.16 kernel merge window. Lots of notable changes in this pull!..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=drm-intel-gt-next-5.16",
           "publishedOn": "2021-10-08T10:53:59.000Z",
-          "wordCount": 1107,
+          "wordCount": 1125,
           "title": "Linux 5.16 To Add Intel Encrypted PXP, Alder Lake S Declared Stable & Ready"
         },
         {
@@ -376,7 +457,7 @@
           "description": "The xf86-video-modesetting DDX driver that is commonly in use for systems running an X.Org Server will soon find better support if you have a multi-monitor configuration where only some displays can support variable rate refresh (VRR / Adaptive-Sync / FreeSync)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Modesetting-VRR-Multi",
           "publishedOn": "2021-10-08T10:11:54.000Z",
-          "wordCount": 788,
+          "wordCount": 838,
           "title": "X.Org Modesetting Driver Will Now Better Handle Multi-Montior Mixed-VRR Setups"
         },
         {
@@ -385,7 +466,7 @@
           "description": "With the Linux 5.15 kernel there is a patch to benefit tiered memory systems with a focus on servers having persistent memory. That patch is demoting pages during page reclamation to slower tiers of memory such as Optane DC persistent memory. Intel continues building on that and other persistent memory kernel work for plumbing the kernel with optimized memory placement for these modern servers...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Optimize-PMEM-Place-v9",
           "publishedOn": "2021-10-08T09:45:15.000Z",
-          "wordCount": 891,
+          "wordCount": 861,
           "title": "Intel Continues Optimizing Linux For Optane DC Persistent Memory Servers"
         },
         {
@@ -394,7 +475,7 @@
           "description": "The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-PRIME-ASync-SDMA-Copy",
           "publishedOn": "2021-10-08T00:19:58.000Z",
-          "wordCount": 889,
+          "wordCount": 813,
           "title": "Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups"
         },
         {
@@ -403,7 +484,7 @@
           "description": "Earlier this week I posted benchmarks showing how Intel Tiger Lake performance has improved nicely for Ubuntu 21.10 compared to Ubuntu 21.04. Of course, readers immediately wondered whether this also applied on the AMD laptop side... So here are some tests using an AMD Ryzen 9 5900HX with the ASUS ROG Strix G15 AMD Advantage laptop under Ubuntu 21.04, Ubuntu 21.10, and then also looking at running Linux 5.15 + Mesa 21.3-devel Git for an even more bleeding edge experience.",
           "link": "https://www.phoronix.com/vr.php?view=30585",
           "publishedOn": "2021-10-07T13:30:00.000Z",
-          "wordCount": 1012,
+          "wordCount": 983,
           "title": "AMD Ryzen 9 5900HX / ASUS ROG Strix G15 Is A Nicer Experience On Ubuntu 21.10"
         },
         {
@@ -412,7 +493,7 @@
           "description": "The Apache Software Foundation today announced the release of Apache OpenOffice 4.1.11 as their 14th release while stewarding this open-source office suite...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apache-OpenOffice-4.1.11",
           "publishedOn": "2021-10-07T13:13:16.000Z",
-          "wordCount": 863,
+          "wordCount": 867,
           "title": "Apache OpenOffice 4.1.11 Released - Increased Font Size In Help, Other Mundane Changes"
         },
         {
@@ -421,7 +502,7 @@
           "description": "Intel's CM Compiler is out with its first big update since earlier in the year for advancing their \"C For Metal\" GPU programming language effort...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-CM-Compiler-1.0.97",
           "publishedOn": "2021-10-07T10:20:00.000Z",
-          "wordCount": 901,
+          "wordCount": 985,
           "title": "Intel C For Metal Compiler Updated With Support For XeHP & DG1"
         },
         {
@@ -430,89 +511,8 @@
           "description": "Somewhat of a surprising change with Intel Gen12.5 graphics is that they have removed the hardware supporting Adaptive Scalable Texture Compression (ASTC). Intel's Linux graphics driver has now been updated to address Gen12.5+ foregoing hardware support for ASTC texture compression...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Gen12.5-No-ASTC",
           "publishedOn": "2021-10-07T09:49:31.000Z",
-          "wordCount": 936,
+          "wordCount": 860,
           "title": "Intel Removes ASTC Hardware From Gen12.5+ Graphics"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Prepares-For-Bitmanip-Zbs",
-          "author": null,
-          "description": "The GNU toolchain (initially with the GNU Assembler) has begun landing support for RISC-V's Zbs instructions that are part of the Bitmanip extension to the processor ISA...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Prepares-For-Bitmanip-Zbs",
-          "publishedOn": "2021-10-07T09:19:54.000Z",
-          "wordCount": 810,
-          "title": "GNU Toolchain Begins Landing RISC-V Bitmanip/Zbs Instructions Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-RenderingNG-2021",
-          "author": null,
-          "description": "For the better part of the past decade Google has been pursuing performance improvements to their Chrome/Chromium web browser as the \"RenderingNG\" initiative to provide faster web page performance, lower memory consumption, and better battery life. This current work is finally wrapping up in 2021 to great success...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-RenderingNG-2021",
-          "publishedOn": "2021-10-07T04:00:00.000Z",
-          "wordCount": 808,
-          "title": "Google Trumpets The Success Of Their Chrome \"RenderingNG\" Performance Initiative"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.62.05-Beta",
-          "author": null,
-          "description": "NVIDIA today published their newest Vulkan beta driver update for Windows and Linux with some new extension support plus Vulkan Video enhancements...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470.62.05-Beta",
-          "publishedOn": "2021-10-06T23:33:00.000Z",
-          "wordCount": 783,
-          "title": "NVIDIA 470.62.05 Beta Brings Vulkan Video Updates"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.7",
-          "author": null,
-          "description": "FWUPD and the Linux Vendor Firmware Service (LVFS) continue to serve as a resounding open-source success for allowing an increasing amount of hardware to support firmware updates on Linux from system/motherboard UEFI to disk drives and various peripherals. LVFS is now serving up more than two million firmware downloads a month while FWUPD 1.7 is out today with supporting firmware updates on even more hardware...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=FWUPD-1.7",
-          "publishedOn": "2021-10-06T19:17:12.000Z",
-          "wordCount": 753,
-          "title": "FWUPD 1.7 Released With Supporting More Hardware For Firmware Updates On Linux"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Better-WebRTC",
-          "author": null,
-          "description": "Next month's release of Chrome 96 is a bit more exciting now thanks to the work of Jan Grulich at Red Hat...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Better-WebRTC",
-          "publishedOn": "2021-10-06T18:41:28.000Z",
-          "wordCount": 768,
-          "title": "Chrome 96 To Feature Improved WebRTC Code, Better Wayland Screensharing"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RHEL-8.5-Beta",
-          "author": null,
-          "description": "Red Hat today made available the Red Hat Enterprise Linux 8.5 (RHEL 8.5) beta, incorporating a half-year of improvements to this flagship enterprise Linux distribution...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RHEL-8.5-Beta",
-          "publishedOn": "2021-10-06T18:22:19.000Z",
-          "wordCount": 719,
-          "title": "Red Hat Enterprise Linux 8.5 Now Available As Beta"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Frame-Shell",
-          "author": null,
-          "description": "Canonical today announced the launch of Ubuntu Frame, its full-screen shell built atop the Wayland-embracing Mir server for embedded displays, IoT, and related use-cases...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Frame-Shell",
-          "publishedOn": "2021-10-06T17:36:52.000Z",
-          "wordCount": 726,
-          "title": "Canonical Announces Ubuntu Frame As A Full-Screen Shell Built On Mir"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30576",
-          "author": null,
-          "description": "For those wondering how AMD's latest-generation Radeon RX 6000 series is competing now between the Linux driver options of AMD's official Radeon Software for Linux 21.30 \"PRO\" driver stack and the latest upstream, fully open-source driver components from Mesa and the mainline Linux kernel, here is a fresh comparison.",
-          "link": "https://www.phoronix.com/vr.php?view=30576",
-          "publishedOn": "2021-10-06T13:16:57.000Z",
-          "wordCount": 830,
-          "title": "Radeon Software 21.30 PRO vs. Mesa 21.3-devel + Linux 5.15 Gaming Performance"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=V3D-Linux-5.16-Multi-Syncobjs",
-          "author": null,
-          "description": "A new batch of drm-misc-next updates were sent out today for staging in DRM-Next ahead of the Linux 5.16 merge window. With this week's changes there is a notable addition for the Broadcom V3D DRM kernel driver, which most notably is for the Raspberry Pi 4 and newer...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3D-Linux-5.16-Multi-Syncobjs",
-          "publishedOn": "2021-10-06T12:23:29.000Z",
-          "wordCount": 762,
-          "title": "Raspberry Pi \"V3D\" Driver Landing Support For Multiple Sync Objects"
         }
       ]
     }
