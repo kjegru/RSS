@@ -1,10 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-12T00:39:55.949Z</id>
+    <id>urn:2021-10-13T00:37:27.217Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-12T00:39:55.949Z</updated>
+    <updated>2021-10-13T00:37:27.217Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Red Hat Is Hiring Another Linux Developer To Work On GPU Hardware Enablement]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-New-2021-GPU-Developer</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-New-2021-GPU-Developer"/>
+        <updated>2021-10-12T22:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Red Hat already employs numerous open-source graphics driver developers from DRM subsystem maintainer David Airlie to numerous others on his team working on areas from Mesa OpenCL support to Heterogeneous Memory Management to other user and kernel-space improvements for open-source Linux graphics. Red Hat has now put out a call to hire yet another experienced Linux GPU driver developer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Contributes AVX-512 Optimizations To Numpy, Yields Massive Speedups]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Numpy-AVX-512-Landed</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Numpy-AVX-512-Landed"/>
+        <updated>2021-10-12T18:50:12.000Z</updated>
+        <summary type="html"><![CDATA[Intel has contributed AVX-512 optimizations to upstream Numpy. For those using Numpy as this leading Python library for numerical computing, newer Intel CPUs with AVX-512 capabilities can enjoy major speed-ups in the range of 14~32x faster...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNOME's Platform Design Continues Evolving From Dark Mode To Toasts]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Platform-Design-EO2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNOME-Platform-Design-EO2021"/>
+        <updated>2021-10-12T18:35:07.000Z</updated>
+        <summary type="html"><![CDATA[GNOME developer Allan Day has provided an update on behalf of the GNOME design time around some of their recent platform design improvements and some of the changes they are talking about in the near future...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7.4M IOPS Achieved Per-Core With Newest Linux Patches]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=7.4M-IOPS-Linux-Per-Core</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=7.4M-IOPS-Linux-Per-Core"/>
+        <updated>2021-10-12T18:14:43.000Z</updated>
+        <summary type="html"><![CDATA[Linux block subsystem maintainer and lead IO_uring developer Jens Axboe had a goal of hitting 7M IOPS per-core performance this week. On Monday he managed to already hit 7.2M IOPS and today hit 7.4M IOPS with his latest work-in-progress kernel patches...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Portable Computing Language 1.8 Released For OpenCL On CPUs, Other Accelerators]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=POCL-1.8-Released"/>
+        <updated>2021-10-12T17:31:31.000Z</updated>
+        <summary type="html"><![CDATA[PoCL is the open-source project implementing OpenCL for CPU-based execution as well as multi-device support by getting its Portable Computing Language implementation working atop NVIDIA GPUs via CUDA, AMD GPUs via HSA, and other back-ends by way of LLVM. PoCL 1.8 is out today as the newest feature release...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Tiger Lake Performance Across Five Autumn 2021 Linux Distributions]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30597</id>
+        <link href="https://www.phoronix.com/vr.php?view=30597"/>
+        <updated>2021-10-12T12:26:39.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month were benchmarks looking at how Intel Tiger Lake performance has improved from Ubuntu 21.04 to Ubuntu 21.10, but how does Canonical's latest Linux offering compete with other autumn 2021 distributions? In this article from the Dell XPS Core i7-1165G7 Tiger Lake notebook are benchmarks of Ubuntu 21.10 going up against Arch Linux, Clear Linux, Fedora Workstation 35, and openSUSE Tumbleweed for getting an idea how the performance compares with this latest-generation Intel EVO notebook.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Glibc 2.35 Removes The Long-Deprecated Intel MPX Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-2.35-Removes-Intel-MPX</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Glibc-2.35-Removes-Intel-MPX"/>
+        <updated>2021-10-12T10:02:14.000Z</updated>
+        <summary type="html"><![CDATA[Intel Memory Protection Extensions (MPX) never really took off and the Linux support has been deprecated for a while with the code elsewhere in the stack already having been removed while with the upcoming Glibc 2.35 release that GNU C Library is also flushing away its support...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux x86 FPU Code Getting Reworked In Preparation For Intel AMX]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FPU-Cleaning-For-AMX</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-FPU-Cleaning-For-AMX"/>
+        <updated>2021-10-12T09:45:22.000Z</updated>
+        <summary type="html"><![CDATA[It's been one year now that Intel has been posting Linux kernel patches to enable AMX support for upcoming Sapphire Rapids processors. Over the past year their Linux kernel patches for enabling Advanced Matrix Extensions has gone through 11 rounds of review but that journey isn't over yet...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/12/open-shift-ga/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/12/open-shift-ga/"/>
+        <updated>2021-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, GitLab is pleased to announce the general availability (GA) of the GitLab-supported GitLab Operator, with the ability to run production instances of GitLab on Kubernetes platforms, including Red Hat OpenShift.
+IT organizations that rely on Red Hat OpenShift can now deploy and run GitLab on the same infrastructure they trust for their other shared services. For many organizations in the public sector and regulated industries that only use Red Hat OpenShift, the Operator unlocks the ability to use GitLab, the DevOps Platform, allowing them to move out of the DIY DevOps stage and embrace modern DevOps practices with greater speed, efficiency, and improved security.
+ 
+
+
+
+Why did we build the GitLab Operator?
+We believe user expectations are at an all-time high. They expect always-on app…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab updates its cookie management tool]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/12/gitlab-updates-its-cookie-management-tool/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/12/gitlab-updates-its-cookie-management-tool/"/>
+        <updated>2021-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We recently completed a review of our cookie management tool and have decided to take this opportunity to improve the overall experience for our users by unifying our cookie management tool across all GitLab Inc. domains.
+GitLab committed to not sending  service usage data from our products (GitLab SaaS and self-managed) to a third-party product analytics service and we keep that commitment with this update.
+What is changing?
+We’re unifying our cookie management tool across all GitLab Inc. domains to improve the user experience. Starting on 2021-10-12 we will deploy the OneTrust Cookie Management Tool to manage cookies across all gitlab.com sites. This change will provide users with a central location to opt in or out of cookies that are not strictly necessary for our site and its subdomains, including docs.gitlab.com, about.gitlab.com and customers.gitlab.com.
+We also plan to add  a cookie to our trial signup flow and to our commerce flows located inside the gitlab.com application to enable us to understand how visitors are engaging with these pages and to help analyze and and improve these flows and resolve any technical issues.  This cookie will not be used for any tracking of how you use the functionality of our SaaS or self-managed products, and users can opt in or out of this cookie through our cookie management tool.
+What won’t change
+We will not be adding additional metrics or mechanisms to collect analytics data from our core product (including all GitLab features and categories). We will continue to honor the Do Not Track (DNT) mechanism in web browsers for both GitLab.com and GitLab Self-Managed users.
+Timeline and implementation
+We plan to roll  out the new cookie management tool on 2021-10-12. This will replace our current cookie tool and will require users to review a new cookie notice and manage the settings of cookies on their next visit. Those settings will be retained per-device and per browser and can be modified after the original selection.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab Patch Release: 14.3.3]]></title>
+        <id>https://about.gitlab.com/releases/2021/10/12/gitlab-14-3-3-released/</id>
+        <link href="https://about.gitlab.com/releases/2021/10/12/gitlab-14-3-3-released/"/>
+        <updated>2021-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing version 14.3.3 for GitLab Community Edition and Enterprise Edition.
+This version resolves a number of regressions and bugs in
+this month's 14.3 release and
+prior versions.
+GitLab Community Edition and Enterprise Edition
+Fix dependency proxy image prefix
+Drop taggings index if exists during migration
+Fix 2FA setup for users with no password
+Disable caching of MergeToRefService call in mergeability check
+Delay praefect database_*_no_proxy removals
+Update cacerts to 2021-09-30
+Symlink OpenSSL default cert file to Debian cert path
+Important notes on upgrading
+This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
+which is only used for updates.
+Updating
+To update, check out our update page.
+GitLab subscriptions
+Access to GitLab Premium and Ultimate features is granted by a paid subscription.
+Alternatively, sign up for GitLab.com
+to use GitLab's own infrastructure.]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lutris 0.5.9 Released With Support For The Epic Games Store, New Options]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Lutris-0.5.9-Released</id>
@@ -300,46 +448,6 @@ Work in parallel: When we started, it was clear the waterfall method of software
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.16 To Add Intel Encrypted PXP, Alder Lake S Declared Stable & Ready]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=drm-intel-gt-next-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=drm-intel-gt-next-5.16"/>
-        <updated>2021-10-08T10:53:59.000Z</updated>
-        <summary type="html"><![CDATA[A new batch of Intel kernel graphics driver code was mailed out today to DRM-Next for staging ahead of next month's Linux 5.16 kernel merge window. Lots of notable changes in this pull!..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[X.Org Modesetting Driver Will Now Better Handle Multi-Montior Mixed-VRR Setups]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Modesetting-VRR-Multi</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Modesetting-VRR-Multi"/>
-        <updated>2021-10-08T10:11:54.000Z</updated>
-        <summary type="html"><![CDATA[The xf86-video-modesetting DDX driver that is commonly in use for systems running an X.Org Server will soon find better support if you have a multi-monitor configuration where only some displays can support variable rate refresh (VRR / Adaptive-Sync / FreeSync)...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Continues Optimizing Linux For Optane DC Persistent Memory Servers]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Optimize-PMEM-Place-v9</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Optimize-PMEM-Place-v9"/>
-        <updated>2021-10-08T09:45:15.000Z</updated>
-        <summary type="html"><![CDATA[With the Linux 5.15 kernel there is a patch to benefit tiered memory systems with a focus on servers having persistent memory. That patch is demoting pages during page reclamation to slower tiers of memory such as Optane DC persistent memory. Intel continues building on that and other persistent memory kernel work for plumbing the kernel with optimized memory placement for these modern servers...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radeon Gallium3D Picks Up A Nice Performance Optimization For iGPU/dGPU PRIME Setups]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-PRIME-ASync-SDMA-Copy</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-PRIME-ASync-SDMA-Copy"/>
-        <updated>2021-10-08T00:19:58.000Z</updated>
-        <summary type="html"><![CDATA[The AMD Radeon Gallium3D driver code today landed a nice optimization for benefiting PRIME setups with integrated and discrete Radeon GPUs...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Updates to de-identifying Service Usage Data]]></title>
         <id>https://about.gitlab.com/blog/2021/10/08/updates-to-de-identifying-service-usage-data/</id>
         <link href="https://about.gitlab.com/blog/2021/10/08/updates-to-de-identifying-service-usage-data/"/>
@@ -359,46 +467,6 @@ Please find more information about our privacy policy. Further details on how se
 Please share your questions on the community forum.]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Ryzen 9 5900HX / ASUS ROG Strix G15 Is A Nicer Experience On Ubuntu 21.10]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30585</id>
-        <link href="https://www.phoronix.com/vr.php?view=30585"/>
-        <updated>2021-10-07T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this week I posted benchmarks showing how Intel Tiger Lake performance has improved nicely for Ubuntu 21.10 compared to Ubuntu 21.04. Of course, readers immediately wondered whether this also applied on the AMD laptop side... So here are some tests using an AMD Ryzen 9 5900HX with the ASUS ROG Strix G15 AMD Advantage laptop under Ubuntu 21.04, Ubuntu 21.10, and then also looking at running Linux 5.15 + Mesa 21.3-devel Git for an even more bleeding edge experience.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache OpenOffice 4.1.11 Released - Increased Font Size In Help, Other Mundane Changes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-OpenOffice-4.1.11</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apache-OpenOffice-4.1.11"/>
-        <updated>2021-10-07T13:13:16.000Z</updated>
-        <summary type="html"><![CDATA[The Apache Software Foundation today announced the release of Apache OpenOffice 4.1.11 as their 14th release while stewarding this open-source office suite...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel C For Metal Compiler Updated With Support For XeHP & DG1]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CM-Compiler-1.0.97</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-CM-Compiler-1.0.97"/>
-        <updated>2021-10-07T10:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Intel's CM Compiler is out with its first big update since earlier in the year for advancing their "C For Metal" GPU programming language effort...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Removes ASTC Hardware From Gen12.5+ Graphics]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Gen12.5-No-ASTC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Gen12.5-No-ASTC"/>
-        <updated>2021-10-07T09:49:31.000Z</updated>
-        <summary type="html"><![CDATA[Somewhat of a surprising change with Intel Gen12.5 graphics is that they have removed the hardware supporting Adaptive Scalable Texture Compression (ASTC). Intel's Linux graphics driver has now been updated to address Gen12.5+ foregoing hardware support for ASTC texture compression...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -701,60 +769,6 @@ Chore: Dependency updates
 Thank you: @CaptNo1]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to incorporate private customer needs into a public product roadmap]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/23/best-practices-customer-feature-request/"/>
-        <updated>2021-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Effectively communicating a customer’s private needs to product teams is essential to a product’s success, but it can be a tricky undertaking.
-Teams can face several challenges in communicating and tracking customers' requests, including protecting customer confidentiality, tracking priority and progress, and making sure the product team is getting actionable feedback that can be incorporated into product milestones.
-This blog post shares GitLab's best practices and lessons learned, as well as a video conversation between GitLab CEO Sid Sijbrandij and Fleet CEO Mike McNeil.
-In line with GitLab's open core model and transparency value, our product roadmap is public and the product team uses public issue trackers for feature requests and to plan the work. Because the issues are public, custo…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Have DevOps jobs to fill? Try these 3 strategies to hire and retain]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/23/have-devops-jobs-to-fill-try-these-3-strategies-to-hire-and-retain/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/23/have-devops-jobs-to-fill-try-these-3-strategies-to-hire-and-retain/"/>
-        <updated>2021-09-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If every company is a software company, how do you stand out from the crowd when it comes to attracting developer talent and filling DevOps jobs?
-There’s a well-known, and worldwide, shortage of software developers, especially those with expertise in DevOps. Worse still, demand for those roles is accelerating rapidly: The US Bureau of Labor Statistics predicts employment opportunities for devs and testers will increase 22% between 2020 and 2030. That growth rate means nearly 190,000 net new developer/QA/test jobs will be opening each year, according to the BLS.
-That’s all a long way of saying things are tough out there. Organizations looking to expand, or even just maintain, their DevOps jobs momentum have to find unique ways to stand out from the crowd because, as many surveys have shown,…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 13.12.12]]></title>
-        <id>https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/09/22/gitlab-13-12-12-released/"/>
-        <updated>2021-09-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 13.12.12 for GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-the 13.12 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Derive virtual storage's filesystem id from its name
-Allow Raspberry Pi builds on Graviton
-Stop pinning versions of perl related packages in UBI images
-Important notes on upgrading
-This version does not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
-        <author>
-            <name>GitLab</name>
         </author>
     </entry>
     <entry>
