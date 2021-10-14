@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-13T00:37:27.217Z</id>
+    <id>urn:2021-10-14T00:35:22.438Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-13T00:37:27.217Z</updated>
+    <updated>2021-10-14T00:35:22.438Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.3-rc1 Released With Improved Zink, Radeon Ray-Tracing, RADV NGG Culling]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-rc1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-rc1-Released"/>
+        <updated>2021-10-13T20:26:46.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 21.3 feature development is now over with the code having been branched and the first release candidate issued...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Patches Rewrite The Retpoline Rewrite Code - Possible Performance Benefit]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Retpoline-Rewrite-Rewrite</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Retpoline-Rewrite-Rewrite"/>
+        <updated>2021-10-13T18:11:04.000Z</updated>
+        <summary type="html"><![CDATA[The Linux kernel has supported Retpolines for over three years now as part of their Spectre Variant Two mitigations while now a patch series is proposed that rewrites Retpoline's rewrite logic...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DragonFlyBSD 6.0.1 Released With AMD Zen 3 Temperature Monitoring, Fixes]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-6.0.1-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-6.0.1-Released"/>
+        <updated>2021-10-13T17:20:35.000Z</updated>
+        <summary type="html"><![CDATA[Released back in May was the shiny DragonFlyBSD 6.0 release while today a point release for it has been issued...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Radeon RX 6600 Linux Performance]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30600</id>
+        <link href="https://www.phoronix.com/vr.php?view=30600"/>
+        <updated>2021-10-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today AMD is officially launching the Radeon RX 6600 graphics card as a trimmed down model from the Radeon RX 6600 XT that launched back in August. This new (non-XT) model has a suggested price of $329 USD and here is a look at how well this RDNA2 graphics card is performing under Linux.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkan 1.2.196 Introduces H.265 Encode Extension]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.196-H265-Encode</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.196-H265-Encode"/>
+        <updated>2021-10-13T11:27:41.000Z</updated>
+        <summary type="html"><![CDATA[Arriving back in April were the initial Vulkan Video extensions that included support for video decode of H.264 and H.265 while the initial video encode support was limited to H.264. Out today with Vulkan 1.2.196 is the new extension allowing for H.265 encoding with this new industry-standard video API...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 21.3 Fixes Issue Of Some Games Having Transparency Issues Under Wayland]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-Fixes-Wayland-Trans</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-Fixes-Wayland-Trans"/>
+        <updated>2021-10-13T11:17:28.000Z</updated>
+        <summary type="html"><![CDATA[Landing in time for the imminent Mesa 21.3 feature freeze / code branching is support for the EGL_EXT_present_opaque extension on Wayland. While this EGL extension may not sound too exciting, for some OpenGL games on Wayland it will address some transparency issues...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Loongson Volleys Latest Patches For LoongArch Linux Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-Linux-v5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-Linux-v5"/>
+        <updated>2021-10-13T09:06:01.000Z</updated>
+        <summary type="html"><![CDATA[Chinese vendor Loongson continues working on their Linux kernel patches enabling the LoongArch processor ISA as their fork from MIPS. While early on when copying existing MIPS open-source code they were quick to call their new ISA "not MIPS", in these later patch series they continue to refer to their ISA as "a bit like MIPS or RISC-V."..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DAMON Extended To Offer Physical Memory Address Space Monitoring]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Physical-Monitoring</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Physical-Monitoring"/>
+        <updated>2021-10-13T07:45:20.000Z</updated>
+        <summary type="html"><![CDATA[One of many exciting additions with the forthcoming Linux 5.15 kernel is DAMON landed as a data access monitoring framework. DAMON opens up new possibilities around proactive reclamation of system memory and other interesting features. Currently though it's limited to monitoring the virtual address space of the kernel but a new set of patches out allow for physical address space monitoring as well...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Red Hat Is Hiring Another Linux Developer To Work On GPU Hardware Enablement]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-New-2021-GPU-Developer</id>
@@ -363,86 +443,6 @@ Work in parallel: When we started, it was clear the waterfall method of software
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Preps-Linux-Multi-Tile"/>
         <updated>2021-10-09T14:25:16.000Z</updated>
         <summary type="html"><![CDATA[Intel has been preparing Xe HP bring-up for many months already including fundamental work around their discrete graphics/accelerator support for their Linux graphics driver stack going back quite a while. On the Xe HP front,  Friday afternoon brought an important patch series posted for the first time: initial work around multi-tile support...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debian 11.1 Released With Initial Batch Of Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Debian-11.1-Released"/>
-        <updated>2021-10-09T14:07:33.000Z</updated>
-        <summary type="html"><![CDATA[Debian 11 "Bullseye" debuted back in August as the latest major release for this popular community Linux distribution. Today it's been succeeded by Debian 11.1...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It Appears FUTEX2 Will Land For Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Bits-In-Locking-Core</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FUTEX2-Bits-In-Locking-Core"/>
-        <updated>2021-10-09T10:39:19.000Z</updated>
-        <summary type="html"><![CDATA[Barring any last minute reservations it appears the initial "FUTEX2" work that is of much interest to Linux gamers enjoying Steam Play / Proton will find that kernel functionality in Linux 5.16...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE Moves To GitLab-Based CI, Lands More Plasma Wayland Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Goes-To-GitLab-CI</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Goes-To-GitLab-CI"/>
-        <updated>2021-10-09T10:13:11.000Z</updated>
-        <summary type="html"><![CDATA[KDE developers remain very busy squashing bugs ahead of the release of Plasma 5.23 that is also known as the Plasma 25th Anniversary Edition...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Big Batch Of AMD Graphics Driver Updates Just Sent Out For Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-For-Linux-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-For-Linux-5.16"/>
-        <updated>2021-10-08T20:50:32.000Z</updated>
-        <summary type="html"><![CDATA[Building off the earlier DRM-Next staged code from last month that brought initial DisplayPort 2.0 support and other feature work, another feature pull request was submitted today of additional AMD Radeon "AMDGPU" kernel driver changes slated for Linux 5.16...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wine 6.19 Continues Work On HID Joystick, PE Conversion]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.19-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.19-Released"/>
-        <updated>2021-10-08T19:25:36.000Z</updated>
-        <summary type="html"><![CDATA[Wine 6.19 is out as the latest bi-weekly development release of Wine as the developers work towards Wine 7.0 stable in early 2022...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.3 Enables NGG Culling By Default For RDNA2 GPUs]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-NGGC-Def</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-RADV-NGGC-Def"/>
-        <updated>2021-10-08T17:42:57.000Z</updated>
-        <summary type="html"><![CDATA[The Radeon Vulkan driver "RADV" within Mesa 21.3 is enabling NGG culling by default for Radeon RX 6000 series (RDNA2) GPUs and newer as another performance win...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GCC 12 Enables Auto-Vectorization For -O2 Optimization Level]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Auto-Vec-O2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GCC-12-Auto-Vec-O2"/>
-        <updated>2021-10-08T14:06:20.000Z</updated>
-        <summary type="html"><![CDATA[A month ago was talk of GCC developers enabling the vectorizer at the common "-O2" optimization level and now that change has landed into the GCC 12 development code-base...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flatpak 1.12 Released - Better Sub-Sandbox Handling To Benefit Steam]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Flatpak-1.12-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Flatpak-1.12-Released"/>
-        <updated>2021-10-08T11:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Flatpak 1.12 was just released along with issuing Flatpak 1.10.4 to address a security vulnerability in the portal support...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
