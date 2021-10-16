@@ -6,22 +6,22 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3",
+          "author": null,
+          "description": "Fixed: broken links in documentation\nChore: Dependency updates\nThank you: @hirdot",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3",
+          "publishedOn": "2021-10-16T00:01:47.000Z",
+          "wordCount": 299,
+          "title": "v1.11.3"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
           "author": null,
           "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
           "publishedOn": "2021-09-26T18:45:39.000Z",
-          "wordCount": 354,
+          "wordCount": 350,
           "title": "v1.11.2"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
-          "author": null,
-          "description": "Fixed: Unexpected nested element in author field crashes the parser\nThank you @ad-m",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
-          "publishedOn": "2021-09-16T06:39:32.000Z",
-          "wordCount": 344,
-          "title": "v1.11.1"
         }
       ]
     },
@@ -227,12 +227,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9",
+          "author": null,
+          "description": "The Khronos Group's OpenCL working group did a quiet Friday evening tagging of OpenCL 3.0.9...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9",
+          "publishedOn": "2021-10-15T23:32:58.000Z",
+          "wordCount": 766,
+          "title": "OpenCL 3.0.9 Specification Released"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PinePhone-Pro",
+          "author": null,
+          "description": "The PinePhone Pro is being announced this morning as the organization's new smartphone building upon the successes and experience of the original PinePhone Linux smartphone...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PinePhone-Pro",
+          "publishedOn": "2021-10-15T14:00:00.000Z",
+          "wordCount": 757,
+          "title": "PinePhone Pro Announced As New Linux Smartphone"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.41.21220",
+          "author": null,
+          "description": "Intel's open-source engineers have shipped Compute-Runtime 21.41.21220 as the newest version of this Linux compute stack enabling OpenCL and Level Zero support with their graphics processors...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.41.21220",
+          "publishedOn": "2021-10-15T13:30:21.000Z",
+          "wordCount": 801,
+          "title": "Intel Compute-Runtime 21.41.21220 Ships Updated DG1 Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AV1-libaom-3.2",
+          "author": null,
+          "description": "Libaom 3.2 is now available as the latest version of the official AOMedia/Google-developed AV1 Codec Library. With libaom 3.2 comes compression efficiency improvements, perceptual quality improvements, and a variety of speed-ups and memory optimizations...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AV1-libaom-3.2",
+          "publishedOn": "2021-10-15T12:31:50.000Z",
+          "wordCount": 686,
+          "title": "AV1 Codec Library libaom v3.2 Brings More Performance Optimizations"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Cluster-Scheduler",
+          "author": null,
+          "description": "Cluster scheduler support has been queued up for landing in the Linux 5.16 kernel for AArch64 and x86_64 systems for improving the CPU scheduler behavior for systems that have clusters of CPU cores...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Cluster-Scheduler",
+          "publishedOn": "2021-10-15T10:37:13.000Z",
+          "wordCount": 855,
+          "title": "Cluster Scheduler Support Queued Ahead Of Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=SALSA-Linux-Audio-2021",
+          "author": null,
+          "description": "Linux sound subsystem maintainer Takashi Iwai of SUSE is back to hacking on SALSA, the \"small ALSA\" library that he started a decade ago but hadn't seen a new release in six years or any code activity for the past four years... until this week...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=SALSA-Linux-Audio-2021",
+          "publishedOn": "2021-10-15T10:03:05.000Z",
+          "wordCount": 893,
+          "title": "SALSA Back In Development As A Small ALSA Library For Linux Systems"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.16-PSR",
+          "author": null,
+          "description": "With it getting late into the Linux 5.15 kernel cycle, the focus is shifting by the Direct Rendering Driver maintainers from new feature work targeting the next cycle (5.16) to instead on bug fixes. AMD sent out a pull request of new AMDGPU Linux 5.16 material this week that is primarily delivering bug fixes but one notable addition is finally enabling PSR by default for newer GPUs...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.16-PSR",
+          "publishedOn": "2021-10-15T09:33:59.000Z",
+          "wordCount": 984,
+          "title": "AMD Finally Enabling PSR By Default For Newer Hardware With Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30613",
+          "author": null,
+          "description": "Made public this week by CPU security researchers at Graz University of Technology and CISPA Helmholtz Center for Information Security was the research paper published \"AMD Prefetch Attacks through Power and Time\". The paper points to AMD CPUs suffering from a side-channel leakage vulnerability through timing and power variations of the PREFETCH instruction. The paper argues that AMD CPUs should activate stronger page table isolation by default. AMD has now published their security response where they are not recommending any mitigation changes at this time. But what if Kernel Page Table Isolation (KPTI/PTI) proves necessary for AMD CPUs? Here are some initial benchmarks showing what that performance impact could look like.",
+          "link": "https://www.phoronix.com/vr.php?view=30613",
+          "publishedOn": "2021-10-15T04:00:00.000Z",
+          "wordCount": 1318,
+          "title": "The \"What If\" Performance Cost To Kernel Page Table Isolation On AMD CPUs"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC2",
           "author": null,
           "description": "X.Org Server 21.1 continues running slightly behind schedule but out today is a second release candidate of that upcoming xorg-server version -- the first in more than three years...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC2",
           "publishedOn": "2021-10-14T19:36:24.000Z",
-          "wordCount": 849,
+          "wordCount": 835,
           "title": "X.Org Server 21.1 RC2 Brings Fix For Mixed VRR/Non-VRR Multi-Monitor Setups"
         },
         {
@@ -241,7 +313,7 @@
           "description": "Devuan 4.0 \"Chimaera\" is officially out today as the latest stable release of this Linux distribution known for being a close rebuild of Debian but without a dependence on systemd...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Released",
           "publishedOn": "2021-10-14T17:46:47.000Z",
-          "wordCount": 687,
+          "wordCount": 755,
           "title": "Devuan 4.0 Released As Debian 11 Without Systemd"
         },
         {
@@ -250,7 +322,7 @@
           "description": "Ubuntu 21.10 \"Impish Indri\" is now officially available as the latest six-month update to Ubuntu Linux and also serving as the last release prior to the next long-term support cycle, Ubuntu 22.04 LTS...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10",
           "publishedOn": "2021-10-14T14:53:57.000Z",
-          "wordCount": 953,
+          "wordCount": 861,
           "title": "Ubuntu 21.10 Released With GNOME 40 Desktop, Many Underlying Improvements"
         },
         {
@@ -259,7 +331,7 @@
           "description": "NVIDIA 495.29.05 is out today as the first public Linux driver in the 495 series...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.29.05-Linux",
           "publishedOn": "2021-10-14T13:36:20.000Z",
-          "wordCount": 755,
+          "wordCount": 823,
           "title": "NVIDIA 495 Linux Beta Driver Released With GBM Support"
         },
         {
@@ -268,7 +340,7 @@
           "description": "Not only is Ubuntu 21.10 releasing today but over on the BSD side of the table is the debut this morning of OpenBSD 7.0...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBSD-7.0-Released",
           "publishedOn": "2021-10-14T13:00:03.000Z",
-          "wordCount": 857,
+          "wordCount": 774,
           "title": "OpenBSD 7.0 Released With RISC-V 64-bit Port, Better Apple Silicon Support"
         },
         {
@@ -277,7 +349,7 @@
           "description": "While we recently looked at autumn 2021 Linux distributions on Intel Tiger Lake for seeing how these various latest distributions are competing on client platforms, in today's article is a look at how well the latest Linux distributions perform when using the latest-generation Intel Xeon Scalable 3rd Gen \"Ice Lake\" server hardware with two Xeon Platinum 8380 processors. AlmaLinux, Arch Linux, CentOS Stream, Clear Linux, Debian, Fedora, openSUSE, and Ubuntu were battling it out on this Intel reference server.",
           "link": "https://www.phoronix.com/vr.php?view=30607",
           "publishedOn": "2021-10-14T12:30:00.000Z",
-          "wordCount": 884,
+          "wordCount": 922,
           "title": "9-Way H2'2021 Linux OS Performance Comparison On Intel Xeon Scalable Ice Lake"
         },
         {
@@ -286,7 +358,7 @@
           "description": "KDE Plasma 5.23 is officially out this morning as the newest major open-source desktop release and is known now as the KDE 25th Anniversary Edition...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Released",
           "publishedOn": "2021-10-14T10:22:20.000Z",
-          "wordCount": 873,
+          "wordCount": 827,
           "title": "KDE Plasma 5.23 Released In Marking 25 Years Of KDE"
         },
         {
@@ -295,7 +367,7 @@
           "description": "With Qt 6.2 LTS having shipped at the end of September, The Qt Company is now turning their attention to Qt Creator 6 as the next version of their Qt/C++ focused integrated development environment...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-6-Beta",
           "publishedOn": "2021-10-14T10:15:19.000Z",
-          "wordCount": 826,
+          "wordCount": 814,
           "title": "Qt Creator 6 Beta Released With Updated C++ Code Model, Binaries Built Against Qt 6.2"
         },
         {
@@ -304,7 +376,7 @@
           "description": "Moving forward regular respins of the openSUSE Leap images are expected to include the latest package updates in making for a more pleasant out-of-the-box experience...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=openSUSE-Leap-Regular-Rebuilds",
           "publishedOn": "2021-10-14T09:27:24.000Z",
-          "wordCount": 755,
+          "wordCount": 757,
           "title": "openSUSE Leap ISOs To See Regular Respins For Integrating Latest Updates"
         },
         {
@@ -313,7 +385,7 @@
           "description": "A new feature for upcoming XeHPG graphics that was merged into Intel's open-source Linux OpenGL and Vulkan drivers today was for tessellation distribution and geometry distribution across the graphics hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XeHPG-Tess-Geometry-Distribute",
           "publishedOn": "2021-10-14T04:00:00.000Z",
-          "wordCount": 873,
+          "wordCount": 820,
           "title": "Intel Linux Driver Lands Tessellation/Geometry Distribution Feature For Xe-HPG"
         },
         {
@@ -322,7 +394,7 @@
           "description": "Mesa 21.3 feature development is now over with the code having been branched and the first release candidate issued...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-rc1-Released",
           "publishedOn": "2021-10-13T20:26:46.000Z",
-          "wordCount": 886,
+          "wordCount": 874,
           "title": "Mesa 21.3-rc1 Released With Improved Zink, Radeon Ray-Tracing, RADV NGG Culling"
         },
         {
@@ -331,7 +403,7 @@
           "description": "The Linux kernel has supported Retpolines for over three years now as part of their Spectre Variant Two mitigations while now a patch series is proposed that rewrites Retpoline's rewrite logic...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Retpoline-Rewrite-Rewrite",
           "publishedOn": "2021-10-13T18:11:04.000Z",
-          "wordCount": 842,
+          "wordCount": 830,
           "title": "Linux Patches Rewrite The Retpoline Rewrite Code - Possible Performance Benefit"
         },
         {
@@ -340,7 +412,7 @@
           "description": "Released back in May was the shiny DragonFlyBSD 6.0 release while today a point release for it has been issued...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DragonFlyBSD-6.0.1-Released",
           "publishedOn": "2021-10-13T17:20:35.000Z",
-          "wordCount": 716,
+          "wordCount": 658,
           "title": "DragonFlyBSD 6.0.1 Released With AMD Zen 3 Temperature Monitoring, Fixes"
         },
         {
@@ -349,7 +421,7 @@
           "description": "Today AMD is officially launching the Radeon RX 6600 graphics card as a trimmed down model from the Radeon RX 6600 XT that launched back in August. This new (non-XT) model has a suggested price of $329 USD and here is a look at how well this RDNA2 graphics card is performing under Linux.",
           "link": "https://www.phoronix.com/vr.php?view=30600",
           "publishedOn": "2021-10-13T13:00:00.000Z",
-          "wordCount": 980,
+          "wordCount": 963,
           "title": "AMD Radeon RX 6600 Linux Performance"
         },
         {
@@ -358,7 +430,7 @@
           "description": "Arriving back in April were the initial Vulkan Video extensions that included support for video decode of H.264 and H.265 while the initial video encode support was limited to H.264. Out today with Vulkan 1.2.196 is the new extension allowing for H.265 encoding with this new industry-standard video API...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-1.2.196-H265-Encode",
           "publishedOn": "2021-10-13T11:27:41.000Z",
-          "wordCount": 873,
+          "wordCount": 861,
           "title": "Vulkan 1.2.196 Introduces H.265 Encode Extension"
         },
         {
@@ -367,7 +439,7 @@
           "description": "Landing in time for the imminent Mesa 21.3 feature freeze / code branching is support for the EGL_EXT_present_opaque extension on Wayland. While this EGL extension may not sound too exciting, for some OpenGL games on Wayland it will address some transparency issues...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-21.3-Fixes-Wayland-Trans",
           "publishedOn": "2021-10-13T11:17:28.000Z",
-          "wordCount": 825,
+          "wordCount": 767,
           "title": "Mesa 21.3 Fixes Issue Of Some Games Having Transparency Issues Under Wayland"
         },
         {
@@ -376,7 +448,7 @@
           "description": "Chinese vendor Loongson continues working on their Linux kernel patches enabling the LoongArch processor ISA as their fork from MIPS. While early on when copying existing MIPS open-source code they were quick to call their new ISA \"not MIPS\", in these later patch series they continue to refer to their ISA as \"a bit like MIPS or RISC-V.\"..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=LoongArch-Linux-v5",
           "publishedOn": "2021-10-13T09:06:01.000Z",
-          "wordCount": 857,
+          "wordCount": 763,
           "title": "Loongson Volleys Latest Patches For LoongArch Linux Support"
         },
         {
@@ -385,7 +457,7 @@
           "description": "One of many exciting additions with the forthcoming Linux 5.15 kernel is DAMON landed as a data access monitoring framework. DAMON opens up new possibilities around proactive reclamation of system memory and other interesting features. Currently though it's limited to monitoring the virtual address space of the kernel but a new set of patches out allow for physical address space monitoring as well...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DAMON-Physical-Monitoring",
           "publishedOn": "2021-10-13T07:45:20.000Z",
-          "wordCount": 710,
+          "wordCount": 776,
           "title": "DAMON Extended To Offer Physical Memory Address Space Monitoring"
         },
         {
@@ -394,7 +466,7 @@
           "description": "Red Hat already employs numerous open-source graphics driver developers from DRM subsystem maintainer David Airlie to numerous others on his team working on areas from Mesa OpenCL support to Heterogeneous Memory Management to other user and kernel-space improvements for open-source Linux graphics. Red Hat has now put out a call to hire yet another experienced Linux GPU driver developer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Red-Hat-New-2021-GPU-Developer",
           "publishedOn": "2021-10-12T22:36:21.000Z",
-          "wordCount": 867,
+          "wordCount": 784,
           "title": "Red Hat Is Hiring Another Linux Developer To Work On GPU Hardware Enablement"
         },
         {
@@ -403,7 +475,7 @@
           "description": "Intel has contributed AVX-512 optimizations to upstream Numpy. For those using Numpy as this leading Python library for numerical computing, newer Intel CPUs with AVX-512 capabilities can enjoy major speed-ups in the range of 14~32x faster...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Numpy-AVX-512-Landed",
           "publishedOn": "2021-10-12T18:50:12.000Z",
-          "wordCount": 792,
+          "wordCount": 773,
           "title": "Intel Contributes AVX-512 Optimizations To Numpy, Yields Massive Speedups"
         },
         {
@@ -412,7 +484,7 @@
           "description": "GNOME developer Allan Day has provided an update on behalf of the GNOME design time around some of their recent platform design improvements and some of the changes they are talking about in the near future...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNOME-Platform-Design-EO2021",
           "publishedOn": "2021-10-12T18:35:07.000Z",
-          "wordCount": 742,
+          "wordCount": 730,
           "title": "GNOME's Platform Design Continues Evolving From Dark Mode To Toasts"
         },
         {
@@ -421,7 +493,7 @@
           "description": "Linux block subsystem maintainer and lead IO_uring developer Jens Axboe had a goal of hitting 7M IOPS per-core performance this week. On Monday he managed to already hit 7.2M IOPS and today hit 7.4M IOPS with his latest work-in-progress kernel patches...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=7.4M-IOPS-Linux-Per-Core",
           "publishedOn": "2021-10-12T18:14:43.000Z",
-          "wordCount": 777,
+          "wordCount": 845,
           "title": "7.4M IOPS Achieved Per-Core With Newest Linux Patches"
         },
         {
@@ -430,7 +502,7 @@
           "description": "PoCL is the open-source project implementing OpenCL for CPU-based execution as well as multi-device support by getting its Portable Computing Language implementation working atop NVIDIA GPUs via CUDA, AMD GPUs via HSA, and other back-ends by way of LLVM. PoCL 1.8 is out today as the newest feature release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=POCL-1.8-Released",
           "publishedOn": "2021-10-12T17:31:31.000Z",
-          "wordCount": 774,
+          "wordCount": 682,
           "title": "Portable Computing Language 1.8 Released For OpenCL On CPUs, Other Accelerators"
         },
         {
@@ -439,83 +511,11 @@
           "description": "Earlier this month were benchmarks looking at how Intel Tiger Lake performance has improved from Ubuntu 21.04 to Ubuntu 21.10, but how does Canonical's latest Linux offering compete with other autumn 2021 distributions? In this article from the Dell XPS Core i7-1165G7 Tiger Lake notebook are benchmarks of Ubuntu 21.10 going up against Arch Linux, Clear Linux, Fedora Workstation 35, and openSUSE Tumbleweed for getting an idea how the performance compares with this latest-generation Intel EVO notebook.",
           "link": "https://www.phoronix.com/vr.php?view=30597",
           "publishedOn": "2021-10-12T12:26:39.000Z",
-          "wordCount": 976,
+          "wordCount": 888,
           "title": "Intel Tiger Lake Performance Across Five Autumn 2021 Linux Distributions"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-2.35-Removes-Intel-MPX",
-          "author": null,
-          "description": "Intel Memory Protection Extensions (MPX) never really took off and the Linux support has been deprecated for a while with the code elsewhere in the stack already having been removed while with the upcoming Glibc 2.35 release that GNU C Library is also flushing away its support...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Glibc-2.35-Removes-Intel-MPX",
-          "publishedOn": "2021-10-12T10:02:14.000Z",
-          "wordCount": 756,
-          "title": "Glibc 2.35 Removes The Long-Deprecated Intel MPX Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-FPU-Cleaning-For-AMX",
-          "author": null,
-          "description": "It's been one year now that Intel has been posting Linux kernel patches to enable AMX support for upcoming Sapphire Rapids processors. Over the past year their Linux kernel patches for enabling Advanced Matrix Extensions has gone through 11 rounds of review but that journey isn't over yet...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-FPU-Cleaning-For-AMX",
-          "publishedOn": "2021-10-12T09:45:22.000Z",
-          "wordCount": 935,
-          "title": "Linux x86 FPU Code Getting Reworked In Preparation For Intel AMX"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Released",
-          "author": null,
-          "description": "Lutris 0.5.9 is now available for this open-source Linux game manager program that has now added initial support for the Epic Games Store among other new options and enhancements in this new version...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Lutris-0.5.9-Released",
-          "publishedOn": "2021-10-11T19:43:29.000Z",
-          "wordCount": 848,
-          "title": "Lutris 0.5.9 Released With Support For The Epic Games Store, New Options"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Windows-11-WSL-Store",
-          "author": null,
-          "description": "Those running Microsoft's recently released Windows 11 will now be able to find the Windows Subsystem for Linux (WSL) available from within the Microsoft Store for easier setting up of this Linux-based environment...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Microsoft-Windows-11-WSL-Store",
-          "publishedOn": "2021-10-11T19:21:26.000Z",
-          "wordCount": 834,
-          "title": "Microsoft Publishes WSL Preview Inside the Windows 11 Store"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-64k-Pages-Flat-CCS",
-          "author": null,
-          "description": "While Linux 5.15 brings very early bits around DG2/Alchemist graphics card support, further work is needed to bring it into usable shape for end-users. The latest new patch series to be posted came out today with more driver changes needed around local device memory handling for DG2...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-DG2-64k-Pages-Flat-CCS",
-          "publishedOn": "2021-10-11T18:53:47.000Z",
-          "wordCount": 901,
-          "title": "Intel Posts Latest DG2/Alchemist Linux Patches In Requiring 64K Page Size Handling"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Walmart-L3AF-eBPF",
-          "author": null,
-          "description": "Retail shopping giant Walmart has found use out eBPF programs and today announced the open-source L3AF to help in the effort...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Walmart-L3AF-eBPF",
-          "publishedOn": "2021-10-11T18:07:50.000Z",
-          "wordCount": 838,
-          "title": "Walmart Pushes Open-Source L3AF To Help Out eBPF Ecosystem"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30591",
-          "author": null,
-          "description": "With Ubuntu 21.10 due for release this week I've been running various Ubuntu Linux performance comparisons across a variety of hardware and overall this new release is looking to be in great shape. One of the tests I recently carried out for curiosity is seeing how the AMD Zen 2 performance has evolved now over the past two years on Linux going from Ubuntu 19.10 to Ubuntu 21.10.",
-          "link": "https://www.phoronix.com/vr.php?view=30591",
-          "publishedOn": "2021-10-11T13:12:58.000Z",
-          "wordCount": 885,
-          "title": "Ubuntu 19.10 To 21.10: AMD Zen 2 + Radeon Performance On Linux Over Two Years"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Approaching-7M-IOPS",
-          "author": null,
-          "description": "Linux block subsystem maintainer and IO_uring lead developer Jens Axboe continues making staggering optimizations to the kernel code to squeeze out the maximum performance potential out of his shiny new system...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Approaching-7M-IOPS",
-          "publishedOn": "2021-10-11T13:04:33.000Z",
-          "wordCount": 821,
-          "title": "More Optimizations Has Linux Approaching 7M IOPS Per Core"
         }
       ]
     }
   ],
-  "cliVersion": "1.11.2"
+  "cliVersion": "1.11.3"
 }
