@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-17T00:37:07.228Z</id>
+    <id>urn:2021-10-18T00:38:31.863Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-17T00:37:07.228Z</updated>
+    <updated>2021-10-18T00:38:31.863Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Linux To No Longer Enable AMD SME Usage By Default Due To Problems With Some Hardware]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-SME-No-Default-Use</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-SME-No-Default-Use"/>
+        <updated>2021-10-17T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Being sent in as a fix for the Linux 5.15 kernel this morning and to be back-ported to existing stable series is a behavior change that the Linux kernel will no longer use AMD Secure Memory Encryption (SME) by default on supported hardware but rather making it now opt-in due to shortcomings of some platforms...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vortex86 Processors Finally Seeing Work In 2021 For Proper Handling Under Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Linux-Detection</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Linux-Detection"/>
+        <updated>2021-10-17T10:13:31.000Z</updated>
+        <summary type="html"><![CDATA[The Vortex86 32-bit SoCs have worked under Linux for those distributions still maintaining 32-bit x86 support and where not hitting corner-cases of some i686 level features not being supported by some Vortex86 cores, but there is finally a pending kernel patch to provide proper CPU detection for Vortex86 hardware...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Axboe Achieves 8M IOPS Per-Core With Newest Linux Optimization Patches]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=8M-IOPS-Per-Core-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=8M-IOPS-Per-Core-Linux"/>
+        <updated>2021-10-17T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It was just last week that Linux optimizations were leading to possible 6M IOPS per core and then at the start of this week new patches pushed Linux past 7M IOPS per-core with an ideal hardware configuration as well. In ending out the week, 8M IOPS has been reached!..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rust-Based Cloud-Hypervisor 19.0 Released With Improved Live Migration, Faster Boot Time]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-19.0</id>
@@ -315,36 +345,6 @@ In my Founder’s Letter, which you can read below, I told GitLab’s origin sto
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-Fixes-Wayland-Trans"/>
         <updated>2021-10-13T11:17:28.000Z</updated>
         <summary type="html"><![CDATA[Landing in time for the imminent Mesa 21.3 feature freeze / code branching is support for the EGL_EXT_present_opaque extension on Wayland. While this EGL extension may not sound too exciting, for some OpenGL games on Wayland it will address some transparency issues...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loongson Volleys Latest Patches For LoongArch Linux Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-Linux-v5</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=LoongArch-Linux-v5"/>
-        <updated>2021-10-13T09:06:01.000Z</updated>
-        <summary type="html"><![CDATA[Chinese vendor Loongson continues working on their Linux kernel patches enabling the LoongArch processor ISA as their fork from MIPS. While early on when copying existing MIPS open-source code they were quick to call their new ISA "not MIPS", in these later patch series they continue to refer to their ISA as "a bit like MIPS or RISC-V."..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DAMON Extended To Offer Physical Memory Address Space Monitoring]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Physical-Monitoring</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DAMON-Physical-Monitoring"/>
-        <updated>2021-10-13T07:45:20.000Z</updated>
-        <summary type="html"><![CDATA[One of many exciting additions with the forthcoming Linux 5.15 kernel is DAMON landed as a data access monitoring framework. DAMON opens up new possibilities around proactive reclamation of system memory and other interesting features. Currently though it's limited to monitoring the virtual address space of the kernel but a new set of patches out allow for physical address space monitoring as well...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat Is Hiring Another Linux Developer To Work On GPU Hardware Enablement]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-New-2021-GPU-Developer</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Red-Hat-New-2021-GPU-Developer"/>
-        <updated>2021-10-12T22:36:21.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat already employs numerous open-source graphics driver developers from DRM subsystem maintainer David Airlie to numerous others on his team working on areas from Mesa OpenCL support to Heterogeneous Memory Management to other user and kernel-space improvements for open-source Linux graphics. Red Hat has now put out a call to hire yet another experienced Linux GPU driver developer...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
