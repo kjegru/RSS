@@ -1,10 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-18T00:38:31.863Z</id>
+    <id>urn:2021-10-19T00:38:06.179Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-18T00:38:31.863Z</updated>
+    <updated>2021-10-19T00:38:06.179Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 22.04 LTS "Jammy Jellyfish" Begins Development]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-22.04-LTS-Development</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-22.04-LTS-Development"/>
+        <updated>2021-10-18T20:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Canonical today formally opened the "Jammy" archive for development for what will be the next version of Ubuntu, 22.04 LTS "Jammy Jellyfish"...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Announces The M1 Pro / M1 Max, Asahi Linux Starts Eyeing Their Bring-Up]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Pro-M1-Max</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-M1-Pro-M1-Max"/>
+        <updated>2021-10-18T18:30:13.000Z</updated>
+        <summary type="html"><![CDATA[Apple today announced the M1 Pro and M1 Max as their most powerful SoCs ever built by the company. The new chips feature up to a 10-core processor, 32-core GPU, and up to 64GB of unified memory...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valve Launches "Steam Deck Verified" Program For Games That Run Well On The Steam Deck]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Deck-Verified</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Steam-Deck-Verified"/>
+        <updated>2021-10-18T18:15:55.000Z</updated>
+        <summary type="html"><![CDATA[Valve is introducing a Steam Deck Verified system for helping gamers find out what games have been verified to work well on their forthcoming AMD+Linux-powered handheld game console...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VKD3D-Proton 2.5 Released With Experimental DXR 1.1, More Games Working]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=VKD3D-Proton-2.5"/>
+        <updated>2021-10-18T16:04:54.000Z</updated>
+        <summary type="html"><![CDATA[VKD3D-Proton as Valve's Direct3D 12 over Vulkan implementation for Steam Play's Proton is out with a big feature update...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 21.10 Radeon Gaming With KDE Plasma vs. GNOME Shell + Wayland vs. X.Org]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30617</id>
+        <link href="https://www.phoronix.com/vr.php?view=30617"/>
+        <updated>2021-10-18T12:14:43.000Z</updated>
+        <summary type="html"><![CDATA[With last week's release of Ubuntu 21.10, here are some fresh benchmarks looking at the Linux gaming performance on this new release while testing both the GNOME Shell 40 default desktop to that of its KDE Plasma 5.22 based option. Both the X.Org and Wayland sessions for KDE and GNOME were benchmarked for seeing how the Linux gaming performance compares with the Radeon open-source GPU driver stack.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Habana Labs For Linux 5.16 To Bring Peer-To-Peer Support With DMA-BUF]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.16"/>
+        <updated>2021-10-18T10:38:16.000Z</updated>
+        <summary type="html"><![CDATA[The drama around DMA-BUF code for the Habana Labs AI driver appears to be wrapping up with the Linux 5.16 cycle that is coming up...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesa 22.0 Lands Some Patches Toward OpenCL Image Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-22.0-OpenCL-Image-Prep</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-22.0-OpenCL-Image-Prep"/>
+        <updated>2021-10-18T09:29:15.000Z</updated>
+        <summary type="html"><![CDATA[Mesa 22.0-devel is one step closer to having OpenCL image support that is sought after by many individuals for allowing more OpenCL-enabled desktop software to work nicely with this open-source OpenCL component in Mesa...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.15-rc6 Ticks Up In Size, Stops Using AMD SME By Default]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc6-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc6-Released"/>
+        <updated>2021-10-18T08:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Linus Torvalds is out with Linux 5.15-rc6 and its increase in size has him slightly worried...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get started with GitLab's Helm Package Registry]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/18/improve-cd-workflows-helm-chart-registry/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/18/improve-cd-workflows-helm-chart-registry/"/>
+        <updated>2021-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In our 14.1 release, we offered the ability to add Helm charts to the GitLab Package Registry. Here's everything you need to know to leverage application deployment with these new features.
+The role of container images
+The de-facto standard is to package applications into OCI Images which are often just referred to as container images and more often as Docker containers. The Open Container Initiative was launched in 2015 by Docker and other companies to define industry standards around container image formats and runtimes. GitLab introduced an OCI conform Container Registry with the release of GitLab 8.8 in May 2016.
+Today, a common and widely adopted approach is to deploy applications with Helm charts to Kubernetes. This will be covered in this blog together with the feature release in Gi…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux To No Longer Enable AMD SME Usage By Default Due To Problems With Some Hardware]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-SME-No-Default-Use</id>
@@ -258,26 +351,6 @@ Thank you: @hirdot]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[openSUSE Leap ISOs To See Regular Respins For Integrating Latest Updates]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=openSUSE-Leap-Regular-Rebuilds</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=openSUSE-Leap-Regular-Rebuilds"/>
-        <updated>2021-10-14T09:27:24.000Z</updated>
-        <summary type="html"><![CDATA[Moving forward regular respins of the openSUSE Leap images are expected to include the latest package updates in making for a more pleasant out-of-the-box experience...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Linux Driver Lands Tessellation/Geometry Distribution Feature For Xe-HPG]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XeHPG-Tess-Geometry-Distribute</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XeHPG-Tess-Geometry-Distribute"/>
-        <updated>2021-10-14T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new feature for upcoming XeHPG graphics that was merged into Intel's open-source Linux OpenGL and Vulkan drivers today was for tessellation distribution and geometry distribution across the graphics hardware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitLab Inc. takes The DevOps Platform public]]></title>
         <id>https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/</id>
         <link href="https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/"/>
@@ -287,66 +360,6 @@ In a world where software defines the speed of innovation, every company must be
 In my Founder’s Letter, which you can read below, I told GitLab’s origin story. GitLab did not start in a tech incubator, garage…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.3-rc1 Released With Improved Zink, Radeon Ray-Tracing, RADV NGG Culling]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-rc1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-rc1-Released"/>
-        <updated>2021-10-13T20:26:46.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 21.3 feature development is now over with the code having been branched and the first release candidate issued...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Patches Rewrite The Retpoline Rewrite Code - Possible Performance Benefit]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Retpoline-Rewrite-Rewrite</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-Retpoline-Rewrite-Rewrite"/>
-        <updated>2021-10-13T18:11:04.000Z</updated>
-        <summary type="html"><![CDATA[The Linux kernel has supported Retpolines for over three years now as part of their Spectre Variant Two mitigations while now a patch series is proposed that rewrites Retpoline's rewrite logic...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DragonFlyBSD 6.0.1 Released With AMD Zen 3 Temperature Monitoring, Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-6.0.1-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=DragonFlyBSD-6.0.1-Released"/>
-        <updated>2021-10-13T17:20:35.000Z</updated>
-        <summary type="html"><![CDATA[Released back in May was the shiny DragonFlyBSD 6.0 release while today a point release for it has been issued...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Radeon RX 6600 Linux Performance]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30600</id>
-        <link href="https://www.phoronix.com/vr.php?view=30600"/>
-        <updated>2021-10-13T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today AMD is officially launching the Radeon RX 6600 graphics card as a trimmed down model from the Radeon RX 6600 XT that launched back in August. This new (non-XT) model has a suggested price of $329 USD and here is a look at how well this RDNA2 graphics card is performing under Linux.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulkan 1.2.196 Introduces H.265 Encode Extension]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.196-H265-Encode</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkan-1.2.196-H265-Encode"/>
-        <updated>2021-10-13T11:27:41.000Z</updated>
-        <summary type="html"><![CDATA[Arriving back in April were the initial Vulkan Video extensions that included support for video decode of H.264 and H.265 while the initial video encode support was limited to H.264. Out today with Vulkan 1.2.196 is the new extension allowing for H.265 encoding with this new industry-standard video API...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 21.3 Fixes Issue Of Some Games Having Transparency Issues Under Wayland]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-Fixes-Wayland-Trans</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-21.3-Fixes-Wayland-Trans"/>
-        <updated>2021-10-13T11:17:28.000Z</updated>
-        <summary type="html"><![CDATA[Landing in time for the imminent Mesa 21.3 feature freeze / code branching is support for the EGL_EXT_present_opaque extension on Wayland. While this EGL extension may not sound too exciting, for some OpenGL games on Wayland it will address some transparency issues...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -721,34 +734,6 @@ vulnerable packages that is…]]></summary>
 Why consider special configuration?
 While Sidekiq (both in general, and in a GitLab deployment) will usually just work most of the time, there can be some sharp edges and limits. Raw scale is a clear and obvious driver for needing to take action, and although it may be fine to simply scale out multiple Sidekiq nodes each listening to all the queues, at some point:
 The uniqueness of workload distribution and job characteristics may require dedicated workers, either sharded on job attributes (as for GitLab.com), or specific workers (based on yo…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Patch Release: 14.0.11]]></title>
-        <id>https://about.gitlab.com/releases/2021/09/27/gitlab-14-0-11-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/09/27/gitlab-14-0-11-released/"/>
-        <updated>2021-09-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing version 14.0.11 GitLab Community Edition and Enterprise Edition.
-This version resolves a number of regressions and bugs in
-the 14.0 release and
-prior versions.
-GitLab Community Edition and Enterprise Edition
-Derive virtual storage's filesystem id from its name
-Fix Elastic::MigrationWorker current_migration
-Important notes on upgrading
-These versions do not include any new migrations, and for multi-node deployments, should not require any downtime.
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a /etc/gitlab/skip-auto-reconfigure file,
-which is only used for updates.
-Updating
-To update, check out our update page.
-GitLab subscriptions
-Access to GitLab Premium and Ultimate features is granted by a paid subscription.
-Alternatively, sign up for GitLab.com
-to use GitLab's own infrastructure.]]></summary>
         <author>
             <name>GitLab</name>
         </author>
