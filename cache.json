@@ -31,6 +31,15 @@
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
         {
+          "id": "https://about.gitlab.com/blog/2021/10/19/top-10-gitlab-hacks/",
+          "author": null,
+          "description": "It's been ten years since the first commit to GitLab, so we sharing our ten favorite GitLab hacks to help you get the most out of our DevOps Platform. These are tips for all stages of the development lifecycle, so roll up your sleeves and let's get started.\nManage faster with quick actions\nYou might have adopted keyboard shortcuts for faster navigation and workflows already - if not, checkout the GitLab documentation for platform specific shortcuts. The knowledge of pressing r to land in the reply to comment in text form can be combined other quick actions including:\n/assign_reviewer @ <search username>\n\n/label ~ <search label>\n/label ~enhancement ~workflow::indev\n\n/due Oct 8\n\n/rebase\n\n/approve\n\n/merge \n\n\nQuick actions are also helpful if you have to manage many issues, merge requests and …",
+          "link": "https://about.gitlab.com/blog/2021/10/19/top-10-gitlab-hacks/",
+          "publishedOn": "2021-10-19T00:00:00.000Z",
+          "wordCount": 5773,
+          "title": "Top ten GitLab hacks for all stages of the DevOps Platform"
+        },
+        {
           "id": "https://about.gitlab.com/blog/2021/10/18/improve-cd-workflows-helm-chart-registry/",
           "author": null,
           "description": "In our 14.1 release, we offered the ability to add Helm charts to the GitLab Package Registry. Here's everything you need to know to leverage application deployment with these new features.\nThe role of container images\nThe de-facto standard is to package applications into OCI Images which are often just referred to as container images and more often as Docker containers. The Open Container Initiative was launched in 2015 by Docker and other companies to define industry standards around container image formats and runtimes. GitLab introduced an OCI conform Container Registry with the release of GitLab 8.8 in May 2016.\nToday, a common and widely adopted approach is to deploy applications with Helm charts to Kubernetes. This will be covered in this blog together with the feature release in Gi…",
@@ -45,7 +54,7 @@
           "description": "Today, GitLab Inc. announced the next milestone in our journey as we become a publicly traded company on the Nasdaq Global Market (NASDAQ: GTLB). GitLab was the first company to publicly live stream the entire end-to-end listing day at Nasdaq.\nIn a world where software defines the speed of innovation, every company must become a software company or they’ll be disrupted by a software company. We believe that GitLab, the DevOps Platform, helps companies to deliver software faster and more efficiently, while strengthening security and compliance. And it all happens inside our single platform where engineering, security, and operations teams can collaborate together.\nIn my Founder’s Letter, which you can read below, I told GitLab’s origin story. GitLab did not start in a tech incubator, garage…",
           "link": "https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/",
           "publishedOn": "2021-10-14T00:00:00.000Z",
-          "wordCount": 7200,
+          "wordCount": 7201,
           "title": "GitLab Inc. takes The DevOps Platform public"
         },
         {
@@ -54,16 +63,16 @@
           "description": "Today, GitLab is pleased to announce the general availability (GA) of the GitLab-supported GitLab Operator, with the ability to run production instances of GitLab on Kubernetes platforms, including Red Hat OpenShift.\nIT organizations that rely on Red Hat OpenShift can now deploy and run GitLab on the same infrastructure they trust for their other shared services. For many organizations in the public sector and regulated industries that only use Red Hat OpenShift, the Operator unlocks the ability to use GitLab, the DevOps Platform, allowing them to move out of the DIY DevOps stage and embrace modern DevOps practices with greater speed, efficiency, and improved security.\n \n\n\n\nWhy did we build the GitLab Operator?\nWe believe user expectations are at an all-time high. They expect always-on app…",
           "link": "https://about.gitlab.com/blog/2021/10/12/open-shift-ga/",
           "publishedOn": "2021-10-12T00:00:00.000Z",
-          "wordCount": 2082,
+          "wordCount": 2083,
           "title": "GitLab’s Kubernetes Operator with support for Red Hat OpenShift is now generally available"
         },
         {
           "id": "https://about.gitlab.com/blog/2021/10/12/gitlab-updates-its-cookie-management-tool/",
           "author": null,
-          "description": "We recently completed a review of our cookie management tool and have decided to take this opportunity to improve the overall experience for our users by unifying our cookie management tool across all GitLab Inc. domains.\nGitLab committed to not sending  service usage data from our products (GitLab SaaS and self-managed) to a third-party product analytics service and we keep that commitment with this update.\nWhat is changing?\nWe’re unifying our cookie management tool across all GitLab Inc. domains to improve the user experience. Starting on 2021-10-12 we will deploy the OneTrust Cookie Management Tool to manage cookies across all gitlab.com sites. This change will provide users with a central location to opt in or out of cookies that are not strictly necessary for our site and its subdomains, including docs.gitlab.com, about.gitlab.com and customers.gitlab.com.\nWe also plan to add  a cookie to our trial signup flow and to our commerce flows located inside the gitlab.com application to enable us to understand how visitors are engaging with these pages and to help analyze and and improve these flows and resolve any technical issues.  This cookie will not be used for any tracking of how you use the functionality of our SaaS or self-managed products, and users can opt in or out of this cookie through our cookie management tool.\nWhat won’t change\nWe will not be adding additional metrics or mechanisms to collect analytics data from our core product (including all GitLab features and categories). We will continue to honor the Do Not Track (DNT) mechanism in web browsers for both GitLab.com and GitLab Self-Managed users.\nTimeline and implementation\nWe plan to roll  out the new cookie management tool on 2021-10-12. This will replace our current cookie tool and will require users to review a new cookie notice and manage the settings of cookies on their next visit. Those settings will be retained per-device and per browser and can be modified after the original selection.",
+          "description": "We recently completed a review of our cookie management tool and have decided to take this opportunity to improve the overall experience for our users by unifying our cookie management tool across all GitLab Inc. domains.\nGitLab committed to not sending  service usage data from our products (GitLab SaaS and self-managed) to a third-party product analytics service, and we keep that commitment with this update.\nWhat is changing?\nWe’re unifying our cookie management tool across all GitLab Inc. domains to improve the user experience. Starting on 2021-10-12 we will deploy the OneTrust Cookie Management Tool to manage cookies across all gitlab.com sites. This change will provide users with a central location to opt in or out of cookies that are not strictly necessary for our site and its subdomains, including docs.gitlab.com, about.gitlab.com and customers.gitlab.com.\nWe also plan to add  a cookie to our trial signup flow and to our commerce flows located inside the gitlab.com application to enable us to understand how visitors are engaging with these pages and to help analyze and improve these flows and resolve any technical issues.  This cookie will not be used for any tracking of how you use the functionality of our SaaS or self-managed products, and users can opt in or out of this cookie through our cookie management tool.\nWhat won’t change\nWe will not be adding additional metrics or mechanisms to collect analytics data from our core product (including all GitLab features and categories). We will continue to honor the Do Not Track (DNT) mechanism in web browsers for both GitLab.com and GitLab Self-Managed users.\nTimeline and implementation\nWe plan to roll  out the new cookie management tool on 2021-10-12. This will replace our current cookie tool and will require users to review a new cookie notice and manage the settings of cookies on their next visit. Those settings will be retained per-device and per browser and can be modified after the original selection.",
           "link": "https://about.gitlab.com/blog/2021/10/12/gitlab-updates-its-cookie-management-tool/",
           "publishedOn": "2021-10-12T00:00:00.000Z",
-          "wordCount": 1393,
+          "wordCount": 1391,
           "title": "GitLab updates its cookie management tool"
         },
         {
@@ -209,15 +218,6 @@
           "publishedOn": "2021-09-28T00:00:00.000Z",
           "wordCount": 7740,
           "title": "SemVer versioning: how we handled it with linear interval arithmetic"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/09/27/how-to-configure-sidekiq-for-gitlab-at-scale/",
-          "author": null,
-          "description": "Configuring Sidekiq in your own deployment of GitLab is a little complicated, but entirely possible. In this blog post, we share how to set up Sidekiq for GitLab in special cases and at a large scale by sharing some exmaples that may be useful to you.\nWhy consider special configuration?\nWhile Sidekiq (both in general, and in a GitLab deployment) will usually just work most of the time, there can be some sharp edges and limits. Raw scale is a clear and obvious driver for needing to take action, and although it may be fine to simply scale out multiple Sidekiq nodes each listening to all the queues, at some point:\nThe uniqueness of workload distribution and job characteristics may require dedicated workers, either sharded on job attributes (as for GitLab.com), or specific workers (based on yo…",
-          "link": "https://about.gitlab.com/blog/2021/09/27/how-to-configure-sidekiq-for-gitlab-at-scale/",
-          "publishedOn": "2021-09-27T00:00:00.000Z",
-          "wordCount": 6307,
-          "title": "How to configure Sidekiq for specialized or large-scale GitLab instances"
         }
       ]
     },
@@ -227,12 +227,93 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.3-Released",
+          "author": null,
+          "description": "Oracle has published its latest quarterly update to GraalVM, the  open-source Java JVM/JDK implemented in Java that also supports other execution modes and programming languages from Python to R to Ruby...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.3-Released",
+          "publishedOn": "2021-10-19T23:17:07.000Z",
+          "wordCount": 930,
+          "title": "Oracle Releases GraalVM 21.3 With Java 17 Support, Other Enhancements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-95-Released",
+          "author": null,
+          "description": "Chrome 95 has rolled out as stable today as the latest version of Google's web browser...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-95-Released",
+          "publishedOn": "2021-10-19T19:06:38.000Z",
+          "wordCount": 782,
+          "title": "Chrome 95 Released With FTP Support Completely Removed, New Developer Additions"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Continues-Tuning-SPEC",
+          "author": null,
+          "description": "In recent months we have seen a lot of RadeonSI optimizations focused on SPECViewPerf with AMD seemingly trying to get this open-source OpenGL driver into very capable shape moving forward for workstation GL workloads. Hitting Mesa 22.0-devel today is yet another round of patches for tuning SPECViewPerf...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Continues-Tuning-SPEC",
+          "publishedOn": "2021-10-19T18:49:24.000Z",
+          "wordCount": 800,
+          "title": "RadeonSI Lands Another \"Very Large\" Optimization To Further Boost SPECViewPerf"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Singh-CentOS-Steps-Down",
+          "author": null,
+          "description": "Karanbir Singh who had served as the CentOS Project Leader and involved with the community-based RHEL distribution since 2004 has stepped down from his roles...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Singh-CentOS-Steps-Down",
+          "publishedOn": "2021-10-19T18:10:50.000Z",
+          "wordCount": 776,
+          "title": "CentOS Project Chair Karanbir Singh Steps Down"
+        },
+        {
+          "id": "https://www.phoronix.com/vr.php?view=30623",
+          "author": null,
+          "description": "Announced earlier this year for Google Cloud was a new family of virtual machines called Tau VMs. The initial T2D instances are powered by AMD EPYC 7003 \"Milan\" processors to deliver leading performance and are also positioned to deliver great value in going up against the likes of Amazon's Graviton2 instances. Tau VM instances are now available as a preview and Google has provided us with gratis access to the new instance types for benchmarking.",
+          "link": "https://www.phoronix.com/vr.php?view=30623",
+          "publishedOn": "2021-10-19T13:01:00.000Z",
+          "wordCount": 1062,
+          "title": "Google Cloud Tau VM Instances Deliver Better Performance, Price-Performance Than Graviton2 M6g"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9-Extensions",
+          "author": null,
+          "description": "Last Friday night we spotted OpenCL 3.0.9 with several new extensions included. Today The Khronos Group is formally announcing these latest OpenCL additions focused on Vulkan interoperability as well as neural network inferencing...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9-Extensions",
+          "publishedOn": "2021-10-19T13:00:00.000Z",
+          "wordCount": 800,
+          "title": "Vendors Including NVIDIA Talk Up New OpenCL Extensions For Vulkan Interop, NN Inference"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-SiliFuzz-CPU-Defects",
+          "author": null,
+          "description": "With OSS-Fuzz for continuous fuzzing of open-source projects and along with working on the various sanitizers for compilers, Google has been doing a lot for proactively uncovering software defects in key open-source projects. Now though a group of their engineers have been working on SiliFuzz for software aiming to discover new CPU defects...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-SiliFuzz-CPU-Defects",
+          "publishedOn": "2021-10-19T09:50:22.000Z",
+          "wordCount": 898,
+          "title": "Google Developing \"SiliFuzz\" For Fuzzing CPUs To Uncover Electrical Defects"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-NGG-Culling-Navi-1x",
+          "author": null,
+          "description": "As another possible performance win for RadeonSI Gallium3D as AMD's open-source Radeon OpenGL driver on Linux systems is enabling of NGG culling for Navi 1x consumer graphics processors rather than limiting it only to newer Navi 2x (RDNA2) GPUs...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-NGG-Culling-Navi-1x",
+          "publishedOn": "2021-10-19T08:00:00.000Z",
+          "wordCount": 779,
+          "title": "RadeonSI Enables NGG Shader Culling For Navi 1x Consumer GPUs"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Port-WIP-For-Haiku",
+          "author": null,
+          "description": "After successfully getting Mesa's software-based Lavapipe Vulkan implementation building on Haiku last month along with related Mesa code for headless support, a developer independent of AMD has started work on porting the Mesa Radeon Vulkan driver \"RADV\" to Haiku...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Port-WIP-For-Haiku",
+          "publishedOn": "2021-10-19T04:00:00.000Z",
+          "wordCount": 816,
+          "title": "Early Progress Made On Porting Radeon Vulkan Driver To BeOS-Inspired Haiku OS"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-22.04-LTS-Development",
           "author": null,
           "description": "Canonical today formally opened the \"Jammy\" archive for development for what will be the next version of Ubuntu, 22.04 LTS \"Jammy Jellyfish\"...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-22.04-LTS-Development",
           "publishedOn": "2021-10-18T20:00:20.000Z",
-          "wordCount": 936,
+          "wordCount": 889,
           "title": "Ubuntu 22.04 LTS \"Jammy Jellyfish\" Begins Development"
         },
         {
@@ -241,7 +322,7 @@
           "description": "Apple today announced the M1 Pro and M1 Max as their most powerful SoCs ever built by the company. The new chips feature up to a 10-core processor, 32-core GPU, and up to 64GB of unified memory...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-Pro-M1-Max",
           "publishedOn": "2021-10-18T18:30:13.000Z",
-          "wordCount": 1053,
+          "wordCount": 972,
           "title": "Apple Announces The M1 Pro / M1 Max, Asahi Linux Starts Eyeing Their Bring-Up"
         },
         {
@@ -250,7 +331,7 @@
           "description": "Valve is introducing a Steam Deck Verified system for helping gamers find out what games have been verified to work well on their forthcoming AMD+Linux-powered handheld game console...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-Verified",
           "publishedOn": "2021-10-18T18:15:55.000Z",
-          "wordCount": 839,
+          "wordCount": 838,
           "title": "Valve Launches \"Steam Deck Verified\" Program For Games That Run Well On The Steam Deck"
         },
         {
@@ -259,7 +340,7 @@
           "description": "VKD3D-Proton as Valve's Direct3D 12 over Vulkan implementation for Steam Play's Proton is out with a big feature update...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.5",
           "publishedOn": "2021-10-18T16:04:54.000Z",
-          "wordCount": 794,
+          "wordCount": 713,
           "title": "VKD3D-Proton 2.5 Released With Experimental DXR 1.1, More Games Working"
         },
         {
@@ -268,7 +349,7 @@
           "description": "With last week's release of Ubuntu 21.10, here are some fresh benchmarks looking at the Linux gaming performance on this new release while testing both the GNOME Shell 40 default desktop to that of its KDE Plasma 5.22 based option. Both the X.Org and Wayland sessions for KDE and GNOME were benchmarked for seeing how the Linux gaming performance compares with the Radeon open-source GPU driver stack.",
           "link": "https://www.phoronix.com/vr.php?view=30617",
           "publishedOn": "2021-10-18T12:14:43.000Z",
-          "wordCount": 857,
+          "wordCount": 855,
           "title": "Ubuntu 21.10 Radeon Gaming With KDE Plasma vs. GNOME Shell + Wayland vs. X.Org"
         },
         {
@@ -277,7 +358,7 @@
           "description": "The drama around DMA-BUF code for the Habana Labs AI driver appears to be wrapping up with the Linux 5.16 cycle that is coming up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Habana-Labs-Linux-5.16",
           "publishedOn": "2021-10-18T10:38:16.000Z",
-          "wordCount": 895,
+          "wordCount": 965,
           "title": "Habana Labs For Linux 5.16 To Bring Peer-To-Peer Support With DMA-BUF"
         },
         {
@@ -286,7 +367,7 @@
           "description": "Mesa 22.0-devel is one step closer to having OpenCL image support that is sought after by many individuals for allowing more OpenCL-enabled desktop software to work nicely with this open-source OpenCL component in Mesa...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mesa-22.0-OpenCL-Image-Prep",
           "publishedOn": "2021-10-18T09:29:15.000Z",
-          "wordCount": 785,
+          "wordCount": 864,
           "title": "Mesa 22.0 Lands Some Patches Toward OpenCL Image Support"
         },
         {
@@ -295,7 +376,7 @@
           "description": "Linus Torvalds is out with Linux 5.15-rc6 and its increase in size has him slightly worried...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc6-Released",
           "publishedOn": "2021-10-18T08:33:00.000Z",
-          "wordCount": 885,
+          "wordCount": 884,
           "title": "Linux 5.15-rc6 Ticks Up In Size, Stops Using AMD SME By Default"
         },
         {
@@ -304,7 +385,7 @@
           "description": "Being sent in as a fix for the Linux 5.15 kernel this morning and to be back-ported to existing stable series is a behavior change that the Linux kernel will no longer use AMD Secure Memory Encryption (SME) by default on supported hardware but rather making it now opt-in due to shortcomings of some platforms...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-SME-No-Default-Use",
           "publishedOn": "2021-10-17T11:00:00.000Z",
-          "wordCount": 982,
+          "wordCount": 901,
           "title": "Linux To No Longer Enable AMD SME Usage By Default Due To Problems With Some Hardware"
         },
         {
@@ -313,7 +394,7 @@
           "description": "The Vortex86 32-bit SoCs have worked under Linux for those distributions still maintaining 32-bit x86 support and where not hitting corner-cases of some i686 level features not being supported by some Vortex86 cores, but there is finally a pending kernel patch to provide proper CPU detection for Vortex86 hardware...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vortex86-Linux-Detection",
           "publishedOn": "2021-10-17T10:13:31.000Z",
-          "wordCount": 888,
+          "wordCount": 897,
           "title": "Vortex86 Processors Finally Seeing Work In 2021 For Proper Handling Under Linux"
         },
         {
@@ -322,7 +403,7 @@
           "description": "It was just last week that Linux optimizations were leading to possible 6M IOPS per core and then at the start of this week new patches pushed Linux past 7M IOPS per-core with an ideal hardware configuration as well. In ending out the week, 8M IOPS has been reached!..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=8M-IOPS-Per-Core-Linux",
           "publishedOn": "2021-10-17T04:00:00.000Z",
-          "wordCount": 801,
+          "wordCount": 800,
           "title": "Axboe Achieves 8M IOPS Per-Core With Newest Linux Optimization Patches"
         },
         {
@@ -331,7 +412,7 @@
           "description": "Cloud-Hypervisor 19.0 debuted this week as the Intel-led open-source VMM focused on supporting modern cloud workloads and written in the Rust programming language while leveraging the Linux's KVM virtualization code or the Microsoft MSHV hypervisor on Windows...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Cloud-Hypervisor-19.0",
           "publishedOn": "2021-10-16T17:33:30.000Z",
-          "wordCount": 752,
+          "wordCount": 751,
           "title": "Rust-Based Cloud-Hypervisor 19.0 Released With Improved Live Migration, Faster Boot Time"
         },
         {
@@ -340,7 +421,7 @@
           "description": "Arriving in the wireless-drivers-next branch this week is the \"rtw89\" driver as a Realtek-contributed open-source 802.11ax WiFi driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Realtek-802.11ax-rtw89",
           "publishedOn": "2021-10-16T09:40:17.000Z",
-          "wordCount": 755,
+          "wordCount": 834,
           "title": "Realtek 802.11ax WiFi Driver \"rtw89\" Queued Ahead Of Linux 5.16"
         },
         {
@@ -349,7 +430,7 @@
           "description": "This week marked the release of Plasma 5.23 in celebrating 25 years of the KDE desktop project while celebrations didn't last long with developers already hard at work on the Plasma 5.23.1 point release, feature work for Plasma 5.24, and also improvements to the KDE Applications and KDE Frameworks...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-More-Crash-Fixes-Coming",
           "publishedOn": "2021-10-16T09:27:24.000Z",
-          "wordCount": 831,
+          "wordCount": 830,
           "title": "KDE's Plasma Wayland Session Continues Seeing More Crash Fixes"
         },
         {
@@ -358,7 +439,7 @@
           "description": "The open-source Bareflank Hypervisor project designed to prototype new hypervisors across Intel, AMD, and AArch64 platforms issued their long-awaited 3.0 pre-release on Friday...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Bareflank-3.0-Pre-Release",
           "publishedOn": "2021-10-16T08:46:44.000Z",
-          "wordCount": 769,
+          "wordCount": 722,
           "title": "Bareflank Hypervisor 3.0 Pre-Release Debuts With Many Changes"
         },
         {
@@ -367,7 +448,7 @@
           "description": "On Thursday in addition to the releases of Ubuntu 21.10 (plus its derivatives) and OpenBSD 7.0, the Genode OS Framework based Sculpt OS saw its 21.10 release...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Sculpt-OS-21.10",
           "publishedOn": "2021-10-16T07:30:00.000Z",
-          "wordCount": 910,
+          "wordCount": 825,
           "title": "Genode-Based Sculpt OS 21.10 Adds Intel GPU Acceleration, USB Web Camera Support"
         },
         {
@@ -376,7 +457,7 @@
           "description": "The Khronos Group's OpenCL working group did a quiet Friday evening tagging of OpenCL 3.0.9...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9",
           "publishedOn": "2021-10-15T23:32:58.000Z",
-          "wordCount": 859,
+          "wordCount": 868,
           "title": "OpenCL 3.0.9 Specification Released"
         },
         {
@@ -385,7 +466,7 @@
           "description": "The PinePhone Pro is being announced this morning as the organization's new smartphone building upon the successes and experience of the original PinePhone Linux smartphone...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PinePhone-Pro",
           "publishedOn": "2021-10-15T14:00:00.000Z",
-          "wordCount": 780,
+          "wordCount": 850,
           "title": "PinePhone Pro Announced As New Linux Smartphone"
         },
         {
@@ -394,7 +475,7 @@
           "description": "Intel's open-source engineers have shipped Compute-Runtime 21.41.21220 as the newest version of this Linux compute stack enabling OpenCL and Level Zero support with their graphics processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Compute-21.41.21220",
           "publishedOn": "2021-10-15T13:30:21.000Z",
-          "wordCount": 832,
+          "wordCount": 877,
           "title": "Intel Compute-Runtime 21.41.21220 Ships Updated DG1 Support"
         },
         {
@@ -403,7 +484,7 @@
           "description": "Libaom 3.2 is now available as the latest version of the official AOMedia/Google-developed AV1 Codec Library. With libaom 3.2 comes compression efficiency improvements, perceptual quality improvements, and a variety of speed-ups and memory optimizations...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AV1-libaom-3.2",
           "publishedOn": "2021-10-15T12:31:50.000Z",
-          "wordCount": 795,
+          "wordCount": 794,
           "title": "AV1 Codec Library libaom v3.2 Brings More Performance Optimizations"
         },
         {
@@ -412,7 +493,7 @@
           "description": "Cluster scheduler support has been queued up for landing in the Linux 5.16 kernel for AArch64 and x86_64 systems for improving the CPU scheduler behavior for systems that have clusters of CPU cores...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Cluster-Scheduler",
           "publishedOn": "2021-10-15T10:37:13.000Z",
-          "wordCount": 887,
+          "wordCount": 886,
           "title": "Cluster Scheduler Support Queued Ahead Of Linux 5.16"
         },
         {
@@ -421,7 +502,7 @@
           "description": "Linux sound subsystem maintainer Takashi Iwai of SUSE is back to hacking on SALSA, the \"small ALSA\" library that he started a decade ago but hadn't seen a new release in six years or any code activity for the past four years... until this week...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SALSA-Linux-Audio-2021",
           "publishedOn": "2021-10-15T10:03:05.000Z",
-          "wordCount": 842,
+          "wordCount": 912,
           "title": "SALSA Back In Development As A Small ALSA Library For Linux Systems"
         },
         {
@@ -430,89 +511,8 @@
           "description": "With it getting late into the Linux 5.15 kernel cycle, the focus is shifting by the Direct Rendering Driver maintainers from new feature work targeting the next cycle (5.16) to instead on bug fixes. AMD sent out a pull request of new AMDGPU Linux 5.16 material this week that is primarily delivering bug fixes but one notable addition is finally enabling PSR by default for newer GPUs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-Linux-5.16-PSR",
           "publishedOn": "2021-10-15T09:33:59.000Z",
-          "wordCount": 967,
+          "wordCount": 1044,
           "title": "AMD Finally Enabling PSR By Default For Newer Hardware With Linux 5.16"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30613",
-          "author": null,
-          "description": "Made public this week by CPU security researchers at Graz University of Technology and CISPA Helmholtz Center for Information Security was the research paper published \"AMD Prefetch Attacks through Power and Time\". The paper points to AMD CPUs suffering from a side-channel leakage vulnerability through timing and power variations of the PREFETCH instruction. The paper argues that AMD CPUs should activate stronger page table isolation by default. AMD has now published their security response where they are not recommending any mitigation changes at this time. But what if Kernel Page Table Isolation (KPTI/PTI) proves necessary for AMD CPUs? Here are some initial benchmarks showing what that performance impact could look like.",
-          "link": "https://www.phoronix.com/vr.php?view=30613",
-          "publishedOn": "2021-10-15T04:00:00.000Z",
-          "wordCount": 1430,
-          "title": "The \"What If\" Performance Cost To Kernel Page Table Isolation On AMD CPUs"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC2",
-          "author": null,
-          "description": "X.Org Server 21.1 continues running slightly behind schedule but out today is a second release candidate of that upcoming xorg-server version -- the first in more than three years...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Server-21.1-RC2",
-          "publishedOn": "2021-10-14T19:36:24.000Z",
-          "wordCount": 864,
-          "title": "X.Org Server 21.1 RC2 Brings Fix For Mixed VRR/Non-VRR Multi-Monitor Setups"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Released",
-          "author": null,
-          "description": "Devuan 4.0 \"Chimaera\" is officially out today as the latest stable release of this Linux distribution known for being a close rebuild of Debian but without a dependence on systemd...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Devuan-4.0-Released",
-          "publishedOn": "2021-10-14T17:46:47.000Z",
-          "wordCount": 704,
-          "title": "Devuan 4.0 Released As Debian 11 Without Systemd"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10",
-          "author": null,
-          "description": "Ubuntu 21.10 \"Impish Indri\" is now officially available as the latest six-month update to Ubuntu Linux and also serving as the last release prior to the next long-term support cycle, Ubuntu 22.04 LTS...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10",
-          "publishedOn": "2021-10-14T14:53:57.000Z",
-          "wordCount": 888,
-          "title": "Ubuntu 21.10 Released With GNOME 40 Desktop, Many Underlying Improvements"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.29.05-Linux",
-          "author": null,
-          "description": "NVIDIA 495.29.05 is out today as the first public Linux driver in the 495 series...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-495.29.05-Linux",
-          "publishedOn": "2021-10-14T13:36:20.000Z",
-          "wordCount": 852,
-          "title": "NVIDIA 495 Linux Beta Driver Released With GBM Support"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBSD-7.0-Released",
-          "author": null,
-          "description": "Not only is Ubuntu 21.10 releasing today but over on the BSD side of the table is the debut this morning of OpenBSD 7.0...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenBSD-7.0-Released",
-          "publishedOn": "2021-10-14T13:00:03.000Z",
-          "wordCount": 803,
-          "title": "OpenBSD 7.0 Released With RISC-V 64-bit Port, Better Apple Silicon Support"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30607",
-          "author": null,
-          "description": "While we recently looked at autumn 2021 Linux distributions on Intel Tiger Lake for seeing how these various latest distributions are competing on client platforms, in today's article is a look at how well the latest Linux distributions perform when using the latest-generation Intel Xeon Scalable 3rd Gen \"Ice Lake\" server hardware with two Xeon Platinum 8380 processors. AlmaLinux, Arch Linux, CentOS Stream, Clear Linux, Debian, Fedora, openSUSE, and Ubuntu were battling it out on this Intel reference server.",
-          "link": "https://www.phoronix.com/vr.php?view=30607",
-          "publishedOn": "2021-10-14T12:30:00.000Z",
-          "wordCount": 908,
-          "title": "9-Way H2'2021 Linux OS Performance Comparison On Intel Xeon Scalable Ice Lake"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Released",
-          "author": null,
-          "description": "KDE Plasma 5.23 is officially out this morning as the newest major open-source desktop release and is known now as the KDE 25th Anniversary Edition...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-5.23-Released",
-          "publishedOn": "2021-10-14T10:22:20.000Z",
-          "wordCount": 875,
-          "title": "KDE Plasma 5.23 Released In Marking 25 Years Of KDE"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-6-Beta",
-          "author": null,
-          "description": "With Qt 6.2 LTS having shipped at the end of September, The Qt Company is now turning their attention to Qt Creator 6 as the next version of their Qt/C++ focused integrated development environment...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Qt-Creator-6-Beta",
-          "publishedOn": "2021-10-14T10:15:19.000Z",
-          "wordCount": 763,
-          "title": "Qt Creator 6 Beta Released With Updated C++ Code Model, Binaries Built Against Qt 6.2"
         }
       ]
     }
