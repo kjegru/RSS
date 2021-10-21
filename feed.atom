@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-20T00:38:14.054Z</id>
+    <id>urn:2021-10-21T00:41:44.898Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-20T00:38:14.055Z</updated>
+    <updated>2021-10-21T00:41:44.898Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[CUDA-Python Reaches "GA" With NVIDIA CUDA 11.5 Release, __int128 Preview]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-CUDA-11.5</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-CUDA-11.5"/>
+        <updated>2021-10-20T23:00:11.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA has made available CUDA 11.5 today as the latest version of their popular but proprietary compute stack/platform. Notable with CUDA 11.5 is that CUDA-Python has reached general availability status...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GIMP 2.99.8 Released As Another Step Toward The Long Overdue GIMP 3.0]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GIMP-2.99.8-Released</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GIMP-2.99.8-Released"/>
+        <updated>2021-10-20T19:06:57.000Z</updated>
+        <summary type="html"><![CDATA[GIMP 3.0 as the GTK3 port of this open-source Adobe Photoshop alternative has been talked about for nearly a decade now and the work remains ongoing. However, out today is GIMP 2.99.8 as the newest development snapshot...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Makes ControlFlag Open-Source For Helping To Detect Bugs In Code]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ControlFlag-Open-Source</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-ControlFlag-Open-Source"/>
+        <updated>2021-10-20T18:29:35.000Z</updated>
+        <summary type="html"><![CDATA[Last year Intel announced ControlFlag as a machine learning tool for helping to uncover bugs within code. ControlFlag promised impressive results after being trained on more than one billion lines of code and at the end of 2020 was already being used internally on Intel's code-bases from firmware to software applications. We hadn't heard anything more about ControlFlag this year... Until today. Intel has now made ControlFlag open-source for helping to autonomously detect more programming bugs...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eclipse OpenJ9 0.29 Released With Full AArch64 Linux Support, More Mature JITServer Tech]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-v0.29</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Eclipse-OpenJ9-v0.29"/>
+        <updated>2021-10-20T18:00:33.000Z</updated>
+        <summary type="html"><![CDATA[The newest feature release to Eclipse OpenJ9 is now available, the high performance Java Virtual Machine originating from IBM J9...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radeon RX 6600 Linux Performance Rising Even Higher With Newest Open-Source Driver]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30628</id>
+        <link href="https://www.phoronix.com/vr.php?view=30628"/>
+        <updated>2021-10-20T13:09:03.000Z</updated>
+        <summary type="html"><![CDATA[Just one week ago was the public launch of the Radeon RX 6600 as the newest offering in the RDNA2 GPU line-up. While in our Radeon RX 6600 Linux review the performance was good on AMD's well regarded open-source driver stack and standing ground against the likes of the GeForce RTX 3060 with NVIDIA's proprietary Linux driver, it turns out the RX 6600 Linux performance can be even better already. Here are benchmarks of the Radeon RX 6600 on Linux across six different driver configurations.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 5.16 To Support The 2021 Apple Magic Keyboard]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Apple-Magic-2021</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Apple-Magic-2021"/>
+        <updated>2021-10-20T13:03:56.000Z</updated>
+        <summary type="html"><![CDATA[Separate from all the ongoing Apple Silicon/M1 bring-up work for the Linux kernel, the Linux 5.16 cycle is set to support this year's Apple Magic Keyboard...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Silicon PCIe Driver Queued For Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-PCIe-For-Linux-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-PCIe-For-Linux-5.16"/>
+        <updated>2021-10-20T09:54:53.000Z</updated>
+        <summary type="html"><![CDATA[Queued this week into the Linux PCI subsystem's "next" branch is the Apple PCIe driver needed to enable PCI Express support for Apple SoCs such as the M1...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD GPU Driver Looks To Make Use Of Intel's New Buddy Allocator Code In The Linux Kernel]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Intel-Buddy-Allocator</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Intel-Buddy-Allocator"/>
+        <updated>2021-10-20T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to the nature of open-source, AMD engineers for the "AMDGPU" kernel graphics driver are looking to make use of Intel's new i915 buddy allocator code they introduced as part of all their video memory management changes as part of their discrete graphics bring-up...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nintendo Wii U Gamepad Linux Driver Support Still Pursuing Mainline]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wii-U-Gamepad-Driver-v4</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wii-U-Gamepad-Driver-v4"/>
+        <updated>2021-10-20T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been a half-year since talking about the Wii U gamepad driver that's been in development with mainline ambitions for supporting this wireless gamepad in conjunction with the Nintendo Wii U console. The driver has just been revised to address earlier code review comments, again renewing interest in the effort and possible mainlining in a future kernel version...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four tips to increase your DevOps salary]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/20/four-tips-to-increase-your-devops-salary/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/20/four-tips-to-increase-your-devops-salary/"/>
+        <updated>2021-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the second in an occasional series looking at DevOps salaries and careers. Find out how your DevOps salary stacks up.
+Salaries for DevOps professionals are strong, despite a pandemic and a global economic crisis. However, you can still command an even higher salary with four straightforward strategies.
+Various surveys have shown the IT industry is thriving right now and DevOps professionals, in particular, are increasing in demand and value. DevOps repeatedly ranks well on some reputable lists such as Robert Half’s 15 highest paying IT jobs and Glassdoor’s 2021 list of Best Jobs in America.
+In an August jobs report, Dice CEO Art Zeile called this “one of the hottest tech job markets since the dot-com era,” and pointed to the upward trend in tech job postings since November 2020.
+Ho…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oracle Releases GraalVM 21.3 With Java 17 Support, Other Enhancements]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.3-Released</id>
@@ -100,9 +204,9 @@
         <id>https://about.gitlab.com/blog/2021/10/19/top-10-gitlab-hacks/</id>
         <link href="https://about.gitlab.com/blog/2021/10/19/top-10-gitlab-hacks/"/>
         <updated>2021-10-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's been ten years since the first commit to GitLab, so we sharing our ten favorite GitLab hacks to help you get the most out of our DevOps Platform. These are tips for all stages of the development lifecycle, so roll up your sleeves and let's get started.
+        <summary type="html"><![CDATA[It's been ten years since the first commit to GitLab, so we are sharing our ten favorite GitLab hacks to help you get the most out of our DevOps Platform. These are tips for all stages of the development lifecycle, so roll up your sleeves and let's get started.
 Manage faster with quick actions
-You might have adopted keyboard shortcuts for faster navigation and workflows already - if not, checkout the GitLab documentation for platform specific shortcuts. The knowledge of pressing r to land in the reply to comment in text form can be combined other quick actions including:
+You might have adopted keyboard shortcuts for faster navigation and workflows already - if not, check out the GitLab documentation for platform specific shortcuts. The knowledge of pressing r to land in the reply to comment in text form can be combined with other quick actions, including:
 /assign_reviewer @ <search username>
 
 /label ~ <search label>
@@ -117,7 +221,7 @@ You might have adopted keyboard shortcuts for faster navigation and workflows al
 /merge 
 
 
-Quick actions are also helpful if you have to manage many issues, merge requests and …]]></summary>
+Quick actions are also helpful if you have to manage many issues, merge re…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
@@ -276,26 +380,6 @@ Today, a common and widely adopted approach is to deploy applications with Helm 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Bareflank Hypervisor 3.0 Pre-Release Debuts With Many Changes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Bareflank-3.0-Pre-Release</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Bareflank-3.0-Pre-Release"/>
-        <updated>2021-10-16T08:46:44.000Z</updated>
-        <summary type="html"><![CDATA[The open-source Bareflank Hypervisor project designed to prototype new hypervisors across Intel, AMD, and AArch64 platforms issued their long-awaited 3.0 pre-release on Friday...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Genode-Based Sculpt OS 21.10 Adds Intel GPU Acceleration, USB Web Camera Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Sculpt-OS-21.10</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Sculpt-OS-21.10"/>
-        <updated>2021-10-16T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[On Thursday in addition to the releases of Ubuntu 21.10 (plus its derivatives) and OpenBSD 7.0, the Genode OS Framework based Sculpt OS saw its 21.10 release...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[v1.11.3]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3</id>
         <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3"/>
@@ -305,76 +389,6 @@ Chore: Dependency updates
 Thank you: @hirdot]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenCL 3.0.9 Specification Released]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.9</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.9"/>
-        <updated>2021-10-15T23:32:58.000Z</updated>
-        <summary type="html"><![CDATA[The Khronos Group's OpenCL working group did a quiet Friday evening tagging of OpenCL 3.0.9...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PinePhone Pro Announced As New Linux Smartphone]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=PinePhone-Pro</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=PinePhone-Pro"/>
-        <updated>2021-10-15T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The PinePhone Pro is being announced this morning as the organization's new smartphone building upon the successes and experience of the original PinePhone Linux smartphone...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Compute-Runtime 21.41.21220 Ships Updated DG1 Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.41.21220</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Intel-Compute-21.41.21220"/>
-        <updated>2021-10-15T13:30:21.000Z</updated>
-        <summary type="html"><![CDATA[Intel's open-source engineers have shipped Compute-Runtime 21.41.21220 as the newest version of this Linux compute stack enabling OpenCL and Level Zero support with their graphics processors...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AV1 Codec Library libaom v3.2 Brings More Performance Optimizations]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-libaom-3.2</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AV1-libaom-3.2"/>
-        <updated>2021-10-15T12:31:50.000Z</updated>
-        <summary type="html"><![CDATA[Libaom 3.2 is now available as the latest version of the official AOMedia/Google-developed AV1 Codec Library. With libaom 3.2 comes compression efficiency improvements, perceptual quality improvements, and a variety of speed-ups and memory optimizations...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cluster Scheduler Support Queued Ahead Of Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Cluster-Scheduler</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Cluster-Scheduler"/>
-        <updated>2021-10-15T10:37:13.000Z</updated>
-        <summary type="html"><![CDATA[Cluster scheduler support has been queued up for landing in the Linux 5.16 kernel for AArch64 and x86_64 systems for improving the CPU scheduler behavior for systems that have clusters of CPU cores...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SALSA Back In Development As A Small ALSA Library For Linux Systems]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SALSA-Linux-Audio-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SALSA-Linux-Audio-2021"/>
-        <updated>2021-10-15T10:03:05.000Z</updated>
-        <summary type="html"><![CDATA[Linux sound subsystem maintainer Takashi Iwai of SUSE is back to hacking on SALSA, the "small ALSA" library that he started a decade ago but hadn't seen a new release in six years or any code activity for the past four years... until this week...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD Finally Enabling PSR By Default For Newer Hardware With Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Linux-5.16-PSR</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-Linux-5.16-PSR"/>
-        <updated>2021-10-15T09:33:59.000Z</updated>
-        <summary type="html"><![CDATA[With it getting late into the Linux 5.15 kernel cycle, the focus is shifting by the Direct Rendering Driver maintainers from new feature work targeting the next cycle (5.16) to instead on bug fixes. AMD sent out a pull request of new AMDGPU Linux 5.16 material this week that is primarily delivering bug fixes but one notable addition is finally enabling PSR by default for newer GPUs...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -727,27 +741,6 @@ error rate:
 
 A quick investigation revealed that database queries used to retrieve
 CI/CD builds data were timing out and that the unprocessed b…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SemVer versioning: how we handled it with linear interval arithmetic]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/28/generic-semantic-version-processing/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/28/generic-semantic-version-processing/"/>
-        <updated>2021-09-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The semantic versioning (SemVer) specification can be
-considered the de-facto standard for tracking software states during its
-evolution. Unfortunately, in reality many languages/ecosystems practice "SemVer versioning" and have not adopted
-the standard as-is; instead we can find many different semantic versioning
-flavors that are not necessarily compatible with the original SemVer spec. SemVer Versioning has
-led to the creation of a variety of different semantic versioning schemes.
-GitLab provides a Dependency Scanning (DS)
-feature that automatically detects vulnerabilities in the dependencies of a
-software project for a variety of different languages. DS relies on the
-GitLab security advisory database
-that is updated on a daily basis providing information about
-vulnerable packages that is…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
