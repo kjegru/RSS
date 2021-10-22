@@ -1,10 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-21T00:41:44.898Z</id>
+    <id>urn:2021-10-22T00:41:57.975Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-21T00:41:44.898Z</updated>
+    <updated>2021-10-22T00:41:57.975Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SiFive Has A New RISC-V Core To Improve Performance By 50%, Outperform Cortex-A78]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-P550-Successor</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=SiFive-P550-Successor"/>
+        <updated>2021-10-21T22:42:59.000Z</updated>
+        <summary type="html"><![CDATA[SiFive just shared word that at today's Linley Conference they teased their Performance P550 successor that will "set a new standard for the highest efficiency RISC-V processor available."..]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trying Out Ubuntu's New Flutter+Curtin-Powered Desktop Installer Was Disappointing]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-New-Install-Try</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ubuntu-21.10-New-Install-Try"/>
+        <updated>2021-10-21T19:15:35.000Z</updated>
+        <summary type="html"><![CDATA[An effort going on for a while at Canonical has been to develop a new desktop installer for Ubuntu. With the recent Ubuntu 21.10 release they are still using their classic Ubiquity installer by default but have published a new preview build of Ubuntu 21.10 with their new desktop installer option. Here is a look at Ubuntu's forthcoming new installer...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 96 Beta Begins Preparing For Chrome 100, Adds Priority Hints Feature]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-96-Beta</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-96-Beta"/>
+        <updated>2021-10-21T18:37:45.000Z</updated>
+        <summary type="html"><![CDATA[Following this week's release of Chrome 95, Google has now promoted Chrome 96 to beta status...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XWayland 21.1.3 Nears With Support For NVIDIA 495 Driver's GBM]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-21.1.3-RC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=XWayland-21.1.3-RC"/>
+        <updated>2021-10-21T17:57:22.000Z</updated>
+        <summary type="html"><![CDATA[The release candidate to XWayland 21.1.3 is out today with just a few changes but made significant by support for the NVIDIA 495 series driver GBM code path...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD EPYC 7003 "Milan" Performance On Ubuntu Linux Six Months After Launch]]></title>
+        <id>https://www.phoronix.com/vr.php?view=30634</id>
+        <link href="https://www.phoronix.com/vr.php?view=30634"/>
+        <updated>2021-10-21T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been a half-year already since AMD introduced the EPYC 7003 "Milan" processors that continue performing well and gaining marketshare. While the recently released Ubuntu 21.10 is not a long-term support (LTS) release, for those wondering what this latest Linux distribution means for EPYC 7003 series performance, here is a look at its performance across many benchmarks against that of Ubuntu 21.04 that was released right after the Milan launch and then Ubuntu 20.04 as the current LTS stable series.]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD "Smart Trace Buffer" Feature Being Wired Up For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Smart-Trace-Buffer-Linux</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Smart-Trace-Buffer-Linux"/>
+        <updated>2021-10-21T10:15:06.000Z</updated>
+        <summary type="html"><![CDATA[AMD patches this month have begun preparing support for a new CPU feature called Smart Trace Buffer (STB)...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[V3DV Raspberry Pi Driver Now Exposes Vulkan 1.1]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Vulkan-1.1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=V3DV-Vulkan-1.1"/>
+        <updated>2021-10-21T09:19:39.000Z</updated>
+        <summary type="html"><![CDATA[Mesa's V3DV driver for supporting newer Broadcom VideoCore graphics hardware with Vulkan now is advertising v1.1 support. This Vulkan 1.1 support in V3DV is notable as the Raspberry Pi 4 and newer are the most notable beneficiaries of this driver...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi Sees Their First Price Increase Due To Supply Chain issues]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Raspberry-Pi-Supply-Chain</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Raspberry-Pi-Supply-Chain"/>
+        <updated>2021-10-21T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The ongoing supply chain issues across the semiconductor industry (and more broadly) are now impacting the Raspberry Pi operations for end-users/customers when it comes to pricing...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ruby Lands "YJIT" As A Speedy, In-Process JIT Compiler]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Ruby-YJIT</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Ruby-YJIT"/>
+        <updated>2021-10-21T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Ruby programming language implementation has merged YJIT, its new just-in-time (JIT) compiler...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get started with Python programming]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/21/beginner-guide-python-programming/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/21/beginner-guide-python-programming/"/>
+        <updated>2021-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Are you a programming enthusiast who wants to learn Python? Are you new to coding? Do you need help deciding where to begin with Python? If you are looking for answers to these questions, then you are in the right place.
+Python is an easy-to-learn, easy-to-use and easy-to-deploy programming language, with rampant usage in building web and desktop applications, analyzing data and performing DevOps tasks. It is a free, open-source, object-oriented coding language used to write simple scripts and complex programs. Of the almost 700 programming languages, Python is considered one of the best to learn first.
+Installing Python
+Before discussing the basics of Python, it is essential to download and install Python on your desktop/laptop. Python works on multiple platforms, including Linux, Windows…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here's how to do GitOps with GitLab]]></title>
+        <id>https://about.gitlab.com/blog/2021/10/21/gitops-with-gitlab/</id>
+        <link href="https://about.gitlab.com/blog/2021/10/21/gitops-with-gitlab/"/>
+        <updated>2021-10-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It is possible to use GitLab as a best-in-class GitOps tool, and this blog post series is going to show you how. This is the first post in a series of easy-to-follow tutorials; posts will focus on different user problems including provisioning, managing a base infrastructure, and deploying various 3rd party or custom applications on top of them.
+This post provides an overview of the entire series, and will provide a bit of context around GitOps, Infrastructure as Code and related notions.
+Start with the buzzwords
+The DevOps industry is changing at a very fast pace, and there are plenty of new ideas popping up around this transformation. What are these? Let’s look into the following concepts and why they matter: DevOps, site reliability engineers (SRE), GitOps, Infrastructure as Code, and c…]]></summary>
+        <author>
+            <name>GitLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CUDA-Python Reaches "GA" With NVIDIA CUDA 11.5 Release, __int128 Preview]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=NVIDIA-CUDA-11.5</id>
@@ -277,36 +393,6 @@ Quick actions are also helpful if you have to manage many issues, merge re…]]>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Habana Labs For Linux 5.16 To Bring Peer-To-Peer Support With DMA-BUF]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Habana-Labs-Linux-5.16"/>
-        <updated>2021-10-18T10:38:16.000Z</updated>
-        <summary type="html"><![CDATA[The drama around DMA-BUF code for the Habana Labs AI driver appears to be wrapping up with the Linux 5.16 cycle that is coming up...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mesa 22.0 Lands Some Patches Toward OpenCL Image Support]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-22.0-OpenCL-Image-Prep</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mesa-22.0-OpenCL-Image-Prep"/>
-        <updated>2021-10-18T09:29:15.000Z</updated>
-        <summary type="html"><![CDATA[Mesa 22.0-devel is one step closer to having OpenCL image support that is sought after by many individuals for allowing more OpenCL-enabled desktop software to work nicely with this open-source OpenCL component in Mesa...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux 5.15-rc6 Ticks Up In Size, Stops Using AMD SME By Default]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc6-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.15-rc6-Released"/>
-        <updated>2021-10-18T08:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds is out with Linux 5.15-rc6 and its increase in size has him slightly worried...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Get started with GitLab's Helm Package Registry]]></title>
         <id>https://about.gitlab.com/blog/2021/10/18/improve-cd-workflows-helm-chart-registry/</id>
         <link href="https://about.gitlab.com/blog/2021/10/18/improve-cd-workflows-helm-chart-registry/"/>
@@ -317,66 +403,6 @@ The de-facto standard is to package applications into OCI Images which are often
 Today, a common and widely adopted approach is to deploy applications with Helm charts to Kubernetes. This will be covered in this blog together with the feature release in Gi…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux To No Longer Enable AMD SME Usage By Default Due To Problems With Some Hardware]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-SME-No-Default-Use</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-SME-No-Default-Use"/>
-        <updated>2021-10-17T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Being sent in as a fix for the Linux 5.15 kernel this morning and to be back-ported to existing stable series is a behavior change that the Linux kernel will no longer use AMD Secure Memory Encryption (SME) by default on supported hardware but rather making it now opt-in due to shortcomings of some platforms...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vortex86 Processors Finally Seeing Work In 2021 For Proper Handling Under Linux]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Linux-Detection</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Linux-Detection"/>
-        <updated>2021-10-17T10:13:31.000Z</updated>
-        <summary type="html"><![CDATA[The Vortex86 32-bit SoCs have worked under Linux for those distributions still maintaining 32-bit x86 support and where not hitting corner-cases of some i686 level features not being supported by some Vortex86 cores, but there is finally a pending kernel patch to provide proper CPU detection for Vortex86 hardware...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Axboe Achieves 8M IOPS Per-Core With Newest Linux Optimization Patches]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=8M-IOPS-Per-Core-Linux</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=8M-IOPS-Per-Core-Linux"/>
-        <updated>2021-10-17T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It was just last week that Linux optimizations were leading to possible 6M IOPS per core and then at the start of this week new patches pushed Linux past 7M IOPS per-core with an ideal hardware configuration as well. In ending out the week, 8M IOPS has been reached!..]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust-Based Cloud-Hypervisor 19.0 Released With Improved Live Migration, Faster Boot Time]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-19.0</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Cloud-Hypervisor-19.0"/>
-        <updated>2021-10-16T17:33:30.000Z</updated>
-        <summary type="html"><![CDATA[Cloud-Hypervisor 19.0 debuted this week as the Intel-led open-source VMM focused on supporting modern cloud workloads and written in the Rust programming language while leveraging the Linux's KVM virtualization code or the Microsoft MSHV hypervisor on Windows...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Realtek 802.11ax WiFi Driver "rtw89" Queued Ahead Of Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Realtek-802.11ax-rtw89</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Realtek-802.11ax-rtw89"/>
-        <updated>2021-10-16T09:40:17.000Z</updated>
-        <summary type="html"><![CDATA[Arriving in the wireless-drivers-next branch this week is the "rtw89" driver as a Realtek-contributed open-source 802.11ax WiFi driver...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDE's Plasma Wayland Session Continues Seeing More Crash Fixes]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-More-Crash-Fixes-Coming</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-More-Crash-Fixes-Coming"/>
-        <updated>2021-10-16T09:27:24.000Z</updated>
-        <summary type="html"><![CDATA[This week marked the release of Plasma 5.23 in celebrating 25 years of the KDE desktop project while celebrations didn't last long with developers already hard at work on the Plasma 5.23.1 point release, feature work for Plasma 5.24, and also improvements to the KDE Applications and KDE Frameworks...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
@@ -705,42 +731,6 @@ Cover image by Ben Sweet on Unsplash]]></summary>
 Despite the undeniable progress DevOps has brought to software development, integrating automated software testing into the lifecycle has remained an elusive goal for many teams. Here’s a look at why testing is such a difficult step to get right, and how an integrated DevOps Platform can bring much-needed structure to the process.
 The state of automated software testing
 According to our 2021 Survey, it’s safe to say respondents are frustrated with software test…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLab Security Release: 14.3.1, 14.2.5, and 14.1.7]]></title>
-        <id>https://about.gitlab.com/releases/2021/09/30/security-release-gitlab-14-3-1-released/</id>
-        <link href="https://about.gitlab.com/releases/2021/09/30/security-release-gitlab-14-3-1-released/"/>
-        <updated>2021-09-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing versions 14.3.1, 14.2.5, and 14.1.7 for GitLab Community Edition (CE) and Enterprise Edition (EE).
-These versions contain important security fixes, and we strongly recommend that all GitLab installations be upgraded to one of these versions immediately.
-GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, released a week after the feature release (which deploys on the 22nd of each month), and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our security FAQ. You can see all of our regular and security release blog posts here. In addition, the issues detailing each vulnerability are made public on our issue tracker 30 days a…]]></summary>
-        <author>
-            <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we spent the last month eliminating PostgreSQL subtransactions]]></title>
-        <id>https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/</id>
-        <link href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/"/>
-        <updated>2021-09-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since last June, we noticed the database on GitLab.com would
-mysteriously stall for minutes, which would lead to users seeing 500
-errors during this time. Through a painstaking investigation over
-several weeks, we finally uncovered the cause of this: initiating a
-subtransaction via the SAVEPOINT SQL query while
-a long transaction is in progress can wreak havoc on database
-replicas. Thus launched a race, which we recently completed, to
-eliminate all SAVEPOINT queries from our code. Here's what happened,
-how we discovered the problem, and what we did to fix it.
-The symptoms begin
-On June 24th, we noticed that our CI/CD runners service reported a high
-error rate:
-
-A quick investigation revealed that database queries used to retrieve
-CI/CD builds data were timing out and that the unprocessed b…]]></summary>
         <author>
             <name>GitLab</name>
         </author>
