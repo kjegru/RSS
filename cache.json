@@ -11,7 +11,7 @@
           "description": "Fixed: broken links in documentation\nChore: Dependency updates\nThank you: @hirdot",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3",
           "publishedOn": "2021-10-16T00:01:47.000Z",
-          "wordCount": 299,
+          "wordCount": 295,
           "title": "v1.11.3"
         },
         {
@@ -20,7 +20,7 @@
           "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
           "publishedOn": "2021-09-26T18:45:39.000Z",
-          "wordCount": 350,
+          "wordCount": 326,
           "title": "v1.11.2"
         }
       ]
@@ -30,6 +30,15 @@
       "feedUrl": "https://about.gitlab.com/atom.xml",
       "siteUrl": "https://about.gitlab.com/blog/",
       "articles": [
+        {
+          "id": "https://about.gitlab.com/releases/2021/10/22/gitlab-14-4-released/",
+          "author": null,
+          "description": "Today, we are excited to announce the release of GitLab 14.4 with Scheduled DAST scans, Integrated error tracking inside GitLab without a Sentry instance, Remote Repositories for GitLab in Visual Studio Code, DevOps Adoption trend graph, GA for GitLab Operator and much more!\nThese are just a few highlights from the 30+ improvements in this release. Read on to check out all of the great updates below.\nTo preview what's coming in next month’s release, check out our Upcoming Releases page, which includes our 14.5 release kickoff video.\nJoin us for an upcoming event\n\n\n\n\n\n\n\n\n\nThis month's Most Valuable Person (MVP) is\nEthan Reesor\n\nEhtan leapt in and offered to contribute remote repository support in VS Code for GitLab hosted projects. This effort was no small feat and consisted of not one, not…",
+          "link": "https://about.gitlab.com/releases/2021/10/22/gitlab-14-4-released/",
+          "publishedOn": "2021-10-22T00:00:00.000Z",
+          "wordCount": 4486,
+          "title": "GitLab 14.4 released with Scheduled DAST scans and Integrated error tracking"
+        },
         {
           "id": "https://about.gitlab.com/blog/2021/10/21/beginner-guide-python-programming/",
           "author": null,
@@ -108,7 +117,7 @@
           "description": "Today we are releasing version 14.3.3 for GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthis month's 14.3 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nFix dependency proxy image prefix\nDrop taggings index if exists during migration\nFix 2FA setup for users with no password\nDisable caching of MergeToRefService call in mergeability check\nDelay praefect database_*_no_proxy removals\nUpdate cacerts to 2021-09-30\nSymlink OpenSSL default cert file to Debian cert path\nImportant notes on upgrading\nThis version does not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/10/12/gitlab-14-3-3-released/",
           "publishedOn": "2021-10-12T00:00:00.000Z",
-          "wordCount": 1046,
+          "wordCount": 1091,
           "title": "GitLab Patch Release: 14.3.3"
         },
         {
@@ -198,7 +207,7 @@
           "description": "Today we are releasing version 14.3.2 GitLab Community Edition and Enterprise Edition.\nThis version resolves a number of regressions and bugs in\nthe 14.3 release and\nprior versions.\nGitLab Community Edition and Enterprise Edition\nAdd OR REPLACE when creating function\nTop 7 Highlight items for 14.3\nUpdate GitLab Shell to v13.21.1\nRemove feature flag check for candece finder\nRemove unexpected FK prior to swapping columns\nAllow ee images to be skipped on CE pipelines\nBump kas to v14.3.3\nImportant notes on upgrading\nThese versions do not include any new migrations, and for multi-node deployments, should not require any downtime.\nPlease be aware that by default the Omnibus packages will stop, run migrations,\nand start again, no matter how “big” or “small” the upgrade is. This behavior\ncan be changed by adding a /etc/gitlab/skip-auto-reconfigure file,\nwhich is only used for updates.\nUpdating\nTo update, check out our update page.\nGitLab subscriptions\nAccess to GitLab Premium and Ultimate features is granted by a paid subscription.\nAlternatively, sign up for GitLab.com\nto use GitLab's own infrastructure.",
           "link": "https://about.gitlab.com/releases/2021/10/01/gitlab-14-3-2-released/",
           "publishedOn": "2021-10-01T00:00:00.000Z",
-          "wordCount": 1052,
+          "wordCount": 1086,
           "title": "GitLab Patch Release: 14.3.2"
         },
         {
@@ -209,15 +218,6 @@
           "publishedOn": "2021-09-30T00:00:00.000Z",
           "wordCount": 1073,
           "title": "GitLab user profiles have just become more personal"
-        },
-        {
-          "id": "https://about.gitlab.com/blog/2021/09/30/want-faster-releases-your-answer-lies-in-automated-software-testing/",
-          "author": null,
-          "description": "For three years in a row, our Global DevSecOps Survey found testing was the number one reason (by large margins) for release delays. A lack of automated software testing, combined with too many manual tests conducted too late in the process, was a story told time after time, and it certainly was one without any kind of happy ending.\nDespite the undeniable progress DevOps has brought to software development, integrating automated software testing into the lifecycle has remained an elusive goal for many teams. Here’s a look at why testing is such a difficult step to get right, and how an integrated DevOps Platform can bring much-needed structure to the process.\nThe state of automated software testing\nAccording to our 2021 Survey, it’s safe to say respondents are frustrated with software test…",
-          "link": "https://about.gitlab.com/blog/2021/09/30/want-faster-releases-your-answer-lies-in-automated-software-testing/",
-          "publishedOn": "2021-09-30T00:00:00.000Z",
-          "wordCount": 1447,
-          "title": "Want faster releases? Your answer lies in automated software testing"
         }
       ]
     },
@@ -227,12 +227,84 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.20-Released",
+          "author": null,
+          "description": "Wine 6.20 was released today as the latest bi-weekly development release of this open-source software for enjoying Windows games and applications on Linux and other platforms...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.20-Released",
+          "publishedOn": "2021-10-22T19:57:01.000Z",
+          "wordCount": 810,
+          "title": "Wine 6.20 Released With More Modules Switching To The PE Format"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=System76-ACPI-Linux-5.16",
+          "author": null,
+          "description": "Patches queued this week into the platform-drivers-x86 \"for-next\" branch ahead of the Linux 5.16 merge window will provide some useful improvements to System76 laptop owners...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=System76-ACPI-Linux-5.16",
+          "publishedOn": "2021-10-22T19:14:53.000Z",
+          "wordCount": 840,
+          "title": "System76 Laptops To See Some Useful Improvements With Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.39-Released",
+          "author": null,
+          "description": "PipeWire 0.3.39 was released on Thursday as the newest update to this audio/video stream solution for Linux systems that continues proving itself capable of replacing the roles of JACK and PulseAudio, among other use-cases...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.39-Released",
+          "publishedOn": "2021-10-22T17:43:38.000Z",
+          "wordCount": 808,
+          "title": "PipeWire 0.3.39 Brings Libcamera Plugin Improvements, Better Compatibility For JACK Apps"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-Linux-Part-4",
+          "author": null,
+          "description": "While for many years we have been accustomed to seeing Intel land their new hardware feature enablement work in the Linux kernel and related components well ahead of products shipping, occasionally there are lapses due to various internal and external timings. The launch of Sapphire Rapids is quickly approaching and one of the major additions is Advanced Matrix Extensions with its Linux support still being in the works...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-Linux-Part-4",
+          "publishedOn": "2021-10-22T13:07:44.000Z",
+          "wordCount": 1161,
+          "title": "Intel Posts The \"Last Part\" To Their AMX Bring-Up For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12.0-October-Zen-3-Perf",
+          "author": null,
+          "description": "GCC 12 isn't seeing its stable release until around March~April as usual, but with feature development slowly wrapping up as approaching the next stage of development next month to focus on fixes, recently I wrapped up some preliminary benchmarks for how GCC 12.0 is currently performing against GCC 11.2 on an AMD Ryzen 9 5950X (Zen 3) system...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12.0-October-Zen-3-Perf",
+          "publishedOn": "2021-10-22T10:07:35.000Z",
+          "wordCount": 955,
+          "title": "An Early Look At The GCC 12 Compiler Performance On AMD Zen 3"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-Native-1.9.2a",
+          "author": null,
+          "description": "Valve continues embracing DXVK-Native for allowing more of their older games to target Vulkan by using this Direct3D-to-Vulkan translation layer for native games. DXVK-Native 1.9.2a is out with the latest fixes and improvements...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-Native-1.9.2a",
+          "publishedOn": "2021-10-22T09:16:13.000Z",
+          "wordCount": 795,
+          "title": "DXVK-Native 1.9.2a Released For Direct3D-Over-Vulkan With Native Games"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-5.16-Multi-LRC-Exec",
+          "author": null,
+          "description": "Intel's \"parallel submission\" user-space API for their i915 kernel graphics driver has been queued into DRM-Next today ahead of the Linux 5.16 kernel cycle...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-5.16-Multi-LRC-Exec",
+          "publishedOn": "2021-10-22T06:00:00.000Z",
+          "wordCount": 987,
+          "title": "Intel Graphics Driver's New Parallel Submission uAPI Landing For Linux 5.16"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Continues-Mesa-Cache",
+          "author": null,
+          "description": "A new Steam client beta is out with a few Linux enhancements worth noting...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Continues-Mesa-Cache",
+          "publishedOn": "2021-10-22T04:00:00.000Z",
+          "wordCount": 813,
+          "title": "Steam Continues Improving Its Shader Pre-Caching Support, Other Beta Improvements"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-P550-Successor",
           "author": null,
           "description": "SiFive just shared word that at today's Linley Conference they teased their Performance P550 successor that will \"set a new standard for the highest efficiency RISC-V processor available.\"..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-P550-Successor",
           "publishedOn": "2021-10-21T22:42:59.000Z",
-          "wordCount": 693,
+          "wordCount": 696,
           "title": "SiFive Has A New RISC-V Core To Improve Performance By 50%, Outperform Cortex-A78"
         },
         {
@@ -241,7 +313,7 @@
           "description": "An effort going on for a while at Canonical has been to develop a new desktop installer for Ubuntu. With the recent Ubuntu 21.10 release they are still using their classic Ubiquity installer by default but have published a new preview build of Ubuntu 21.10 with their new desktop installer option. Here is a look at Ubuntu's forthcoming new installer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-New-Install-Try",
           "publishedOn": "2021-10-21T19:15:35.000Z",
-          "wordCount": 1101,
+          "wordCount": 1138,
           "title": "Trying Out Ubuntu's New Flutter+Curtin-Powered Desktop Installer Was Disappointing"
         },
         {
@@ -250,7 +322,7 @@
           "description": "Following this week's release of Chrome 95, Google has now promoted Chrome 96 to beta status...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Beta",
           "publishedOn": "2021-10-21T18:37:45.000Z",
-          "wordCount": 824,
+          "wordCount": 827,
           "title": "Chrome 96 Beta Begins Preparing For Chrome 100, Adds Priority Hints Feature"
         },
         {
@@ -259,7 +331,7 @@
           "description": "The release candidate to XWayland 21.1.3 is out today with just a few changes but made significant by support for the NVIDIA 495 series driver GBM code path...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.3-RC",
           "publishedOn": "2021-10-21T17:57:22.000Z",
-          "wordCount": 878,
+          "wordCount": 801,
           "title": "XWayland 21.1.3 Nears With Support For NVIDIA 495 Driver's GBM"
         },
         {
@@ -268,7 +340,7 @@
           "description": "It's been a half-year already since AMD introduced the EPYC 7003 \"Milan\" processors that continue performing well and gaining marketshare. While the recently released Ubuntu 21.10 is not a long-term support (LTS) release, for those wondering what this latest Linux distribution means for EPYC 7003 series performance, here is a look at its performance across many benchmarks against that of Ubuntu 21.04 that was released right after the Milan launch and then Ubuntu 20.04 as the current LTS stable series.",
           "link": "https://www.phoronix.com/vr.php?view=30634",
           "publishedOn": "2021-10-21T13:00:00.000Z",
-          "wordCount": 939,
+          "wordCount": 942,
           "title": "AMD EPYC 7003 \"Milan\" Performance On Ubuntu Linux Six Months After Launch"
         },
         {
@@ -277,7 +349,7 @@
           "description": "AMD patches this month have begun preparing support for a new CPU feature called Smart Trace Buffer (STB)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Smart-Trace-Buffer-Linux",
           "publishedOn": "2021-10-21T10:15:06.000Z",
-          "wordCount": 1025,
+          "wordCount": 1028,
           "title": "AMD \"Smart Trace Buffer\" Feature Being Wired Up For Linux"
         },
         {
@@ -286,7 +358,7 @@
           "description": "Mesa's V3DV driver for supporting newer Broadcom VideoCore graphics hardware with Vulkan now is advertising v1.1 support. This Vulkan 1.1 support in V3DV is notable as the Raspberry Pi 4 and newer are the most notable beneficiaries of this driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-Vulkan-1.1",
           "publishedOn": "2021-10-21T09:19:39.000Z",
-          "wordCount": 793,
+          "wordCount": 876,
           "title": "V3DV Raspberry Pi Driver Now Exposes Vulkan 1.1"
         },
         {
@@ -295,7 +367,7 @@
           "description": "The ongoing supply chain issues across the semiconductor industry (and more broadly) are now impacting the Raspberry Pi operations for end-users/customers when it comes to pricing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Raspberry-Pi-Supply-Chain",
           "publishedOn": "2021-10-21T05:00:00.000Z",
-          "wordCount": 769,
+          "wordCount": 773,
           "title": "Raspberry Pi Sees Their First Price Increase Due To Supply Chain issues"
         },
         {
@@ -304,7 +376,7 @@
           "description": "The Ruby programming language implementation has merged YJIT, its new just-in-time (JIT) compiler...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ruby-YJIT",
           "publishedOn": "2021-10-21T04:00:00.000Z",
-          "wordCount": 737,
+          "wordCount": 786,
           "title": "Ruby Lands \"YJIT\" As A Speedy, In-Process JIT Compiler"
         },
         {
@@ -313,7 +385,7 @@
           "description": "NVIDIA has made available CUDA 11.5 today as the latest version of their popular but proprietary compute stack/platform. Notable with CUDA 11.5 is that CUDA-Python has reached general availability status...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-CUDA-11.5",
           "publishedOn": "2021-10-20T23:00:11.000Z",
-          "wordCount": 800,
+          "wordCount": 803,
           "title": "CUDA-Python Reaches \"GA\" With NVIDIA CUDA 11.5 Release, __int128 Preview"
         },
         {
@@ -322,7 +394,7 @@
           "description": "GIMP 3.0 as the GTK3 port of this open-source Adobe Photoshop alternative has been talked about for nearly a decade now and the work remains ongoing. However, out today is GIMP 2.99.8 as the newest development snapshot...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GIMP-2.99.8-Released",
           "publishedOn": "2021-10-20T19:06:57.000Z",
-          "wordCount": 966,
+          "wordCount": 889,
           "title": "GIMP 2.99.8 Released As Another Step Toward The Long Overdue GIMP 3.0"
         },
         {
@@ -331,7 +403,7 @@
           "description": "Last year Intel announced ControlFlag as a machine learning tool for helping to uncover bugs within code. ControlFlag promised impressive results after being trained on more than one billion lines of code and at the end of 2020 was already being used internally on Intel's code-bases from firmware to software applications. We hadn't heard anything more about ControlFlag this year... Until today. Intel has now made ControlFlag open-source for helping to autonomously detect more programming bugs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ControlFlag-Open-Source",
           "publishedOn": "2021-10-20T18:29:35.000Z",
-          "wordCount": 803,
+          "wordCount": 885,
           "title": "Intel Makes ControlFlag Open-Source For Helping To Detect Bugs In Code"
         },
         {
@@ -340,7 +412,7 @@
           "description": "The newest feature release to Eclipse OpenJ9 is now available, the high performance Java Virtual Machine originating from IBM J9...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Eclipse-OpenJ9-v0.29",
           "publishedOn": "2021-10-20T18:00:33.000Z",
-          "wordCount": 778,
+          "wordCount": 861,
           "title": "Eclipse OpenJ9 0.29 Released With Full AArch64 Linux Support, More Mature JITServer Tech"
         },
         {
@@ -349,7 +421,7 @@
           "description": "Just one week ago was the public launch of the Radeon RX 6600 as the newest offering in the RDNA2 GPU line-up. While in our Radeon RX 6600 Linux review the performance was good on AMD's well regarded open-source driver stack and standing ground against the likes of the GeForce RTX 3060 with NVIDIA's proprietary Linux driver, it turns out the RX 6600 Linux performance can be even better already. Here are benchmarks of the Radeon RX 6600 on Linux across six different driver configurations.",
           "link": "https://www.phoronix.com/vr.php?view=30628",
           "publishedOn": "2021-10-20T13:09:03.000Z",
-          "wordCount": 1006,
+          "wordCount": 1009,
           "title": "Radeon RX 6600 Linux Performance Rising Even Higher With Newest Open-Source Driver"
         },
         {
@@ -358,7 +430,7 @@
           "description": "Separate from all the ongoing Apple Silicon/M1 bring-up work for the Linux kernel, the Linux 5.16 cycle is set to support this year's Apple Magic Keyboard...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Apple-Magic-2021",
           "publishedOn": "2021-10-20T13:03:56.000Z",
-          "wordCount": 868,
+          "wordCount": 791,
           "title": "Linux 5.16 To Support The 2021 Apple Magic Keyboard"
         },
         {
@@ -367,7 +439,7 @@
           "description": "Queued this week into the Linux PCI subsystem's \"next\" branch is the Apple PCIe driver needed to enable PCI Express support for Apple SoCs such as the M1...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-PCIe-For-Linux-5.16",
           "publishedOn": "2021-10-20T09:54:53.000Z",
-          "wordCount": 865,
+          "wordCount": 868,
           "title": "Apple Silicon PCIe Driver Queued For Linux 5.16"
         },
         {
@@ -376,7 +448,7 @@
           "description": "Thanks to the nature of open-source, AMD engineers for the \"AMDGPU\" kernel graphics driver are looking to make use of Intel's new i915 buddy allocator code they introduced as part of all their video memory management changes as part of their discrete graphics bring-up...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Intel-Buddy-Allocator",
           "publishedOn": "2021-10-20T07:00:00.000Z",
-          "wordCount": 985,
+          "wordCount": 988,
           "title": "AMD GPU Driver Looks To Make Use Of Intel's New Buddy Allocator Code In The Linux Kernel"
         },
         {
@@ -385,7 +457,7 @@
           "description": "It's been a half-year since talking about the Wii U gamepad driver that's been in development with mainline ambitions for supporting this wireless gamepad in conjunction with the Nintendo Wii U console. The driver has just been revised to address earlier code review comments, again renewing interest in the effort and possible mainlining in a future kernel version...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wii-U-Gamepad-Driver-v4",
           "publishedOn": "2021-10-20T04:00:00.000Z",
-          "wordCount": 914,
+          "wordCount": 872,
           "title": "Nintendo Wii U Gamepad Linux Driver Support Still Pursuing Mainline"
         },
         {
@@ -394,7 +466,7 @@
           "description": "Oracle has published its latest quarterly update to GraalVM, the  open-source Java JVM/JDK implemented in Java that also supports other execution modes and programming languages from Python to R to Ruby...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.3-Released",
           "publishedOn": "2021-10-19T23:17:07.000Z",
-          "wordCount": 869,
+          "wordCount": 872,
           "title": "Oracle Releases GraalVM 21.3 With Java 17 Support, Other Enhancements"
         },
         {
@@ -403,7 +475,7 @@
           "description": "Chrome 95 has rolled out as stable today as the latest version of Google's web browser...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-95-Released",
           "publishedOn": "2021-10-19T19:06:38.000Z",
-          "wordCount": 789,
+          "wordCount": 872,
           "title": "Chrome 95 Released With FTP Support Completely Removed, New Developer Additions"
         },
         {
@@ -412,7 +484,7 @@
           "description": "In recent months we have seen a lot of RadeonSI optimizations focused on SPECViewPerf with AMD seemingly trying to get this open-source OpenGL driver into very capable shape moving forward for workstation GL workloads. Hitting Mesa 22.0-devel today is yet another round of patches for tuning SPECViewPerf...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-Continues-Tuning-SPEC",
           "publishedOn": "2021-10-19T18:49:24.000Z",
-          "wordCount": 815,
+          "wordCount": 884,
           "title": "RadeonSI Lands Another \"Very Large\" Optimization To Further Boost SPECViewPerf"
         },
         {
@@ -421,7 +493,7 @@
           "description": "Karanbir Singh who had served as the CentOS Project Leader and involved with the community-based RHEL distribution since 2004 has stepped down from his roles...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Singh-CentOS-Steps-Down",
           "publishedOn": "2021-10-19T18:10:50.000Z",
-          "wordCount": 783,
+          "wordCount": 706,
           "title": "CentOS Project Chair Karanbir Singh Steps Down"
         },
         {
@@ -430,7 +502,7 @@
           "description": "Announced earlier this year for Google Cloud was a new family of virtual machines called Tau VMs. The initial T2D instances are powered by AMD EPYC 7003 \"Milan\" processors to deliver leading performance and are also positioned to deliver great value in going up against the likes of Amazon's Graviton2 instances. Tau VM instances are now available as a preview and Google has provided us with gratis access to the new instance types for benchmarking.",
           "link": "https://www.phoronix.com/vr.php?view=30623",
           "publishedOn": "2021-10-19T13:01:00.000Z",
-          "wordCount": 1147,
+          "wordCount": 1070,
           "title": "Google Cloud Tau VM Instances Deliver Better Performance, Price-Performance Than Graviton2 M6g"
         },
         {
@@ -439,80 +511,8 @@
           "description": "Last Friday night we spotted OpenCL 3.0.9 with several new extensions included. Today The Khronos Group is formally announcing these latest OpenCL additions focused on Vulkan interoperability as well as neural network inferencing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=OpenCL-3.0.9-Extensions",
           "publishedOn": "2021-10-19T13:00:00.000Z",
-          "wordCount": 887,
+          "wordCount": 810,
           "title": "Vendors Including NVIDIA Talk Up New OpenCL Extensions For Vulkan Interop, NN Inference"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-SiliFuzz-CPU-Defects",
-          "author": null,
-          "description": "With OSS-Fuzz for continuous fuzzing of open-source projects and along with working on the various sanitizers for compilers, Google has been doing a lot for proactively uncovering software defects in key open-source projects. Now though a group of their engineers have been working on SiliFuzz for software aiming to discover new CPU defects...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-SiliFuzz-CPU-Defects",
-          "publishedOn": "2021-10-19T09:50:22.000Z",
-          "wordCount": 985,
-          "title": "Google Developing \"SiliFuzz\" For Fuzzing CPUs To Uncover Electrical Defects"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-NGG-Culling-Navi-1x",
-          "author": null,
-          "description": "As another possible performance win for RadeonSI Gallium3D as AMD's open-source Radeon OpenGL driver on Linux systems is enabling of NGG culling for Navi 1x consumer graphics processors rather than limiting it only to newer Navi 2x (RDNA2) GPUs...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RadeonSI-NGG-Culling-Navi-1x",
-          "publishedOn": "2021-10-19T08:00:00.000Z",
-          "wordCount": 874,
-          "title": "RadeonSI Enables NGG Shader Culling For Navi 1x Consumer GPUs"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Port-WIP-For-Haiku",
-          "author": null,
-          "description": "After successfully getting Mesa's software-based Lavapipe Vulkan implementation building on Haiku last month along with related Mesa code for headless support, a developer independent of AMD has started work on porting the Mesa Radeon Vulkan driver \"RADV\" to Haiku...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=RADV-Port-WIP-For-Haiku",
-          "publishedOn": "2021-10-19T04:00:00.000Z",
-          "wordCount": 903,
-          "title": "Early Progress Made On Porting Radeon Vulkan Driver To BeOS-Inspired Haiku OS"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-22.04-LTS-Development",
-          "author": null,
-          "description": "Canonical today formally opened the \"Jammy\" archive for development for what will be the next version of Ubuntu, 22.04 LTS \"Jammy Jellyfish\"...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-22.04-LTS-Development",
-          "publishedOn": "2021-10-18T20:00:20.000Z",
-          "wordCount": 896,
-          "title": "Ubuntu 22.04 LTS \"Jammy Jellyfish\" Begins Development"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-Pro-M1-Max",
-          "author": null,
-          "description": "Apple today announced the M1 Pro and M1 Max as their most powerful SoCs ever built by the company. The new chips feature up to a 10-core processor, 32-core GPU, and up to 64GB of unified memory...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-M1-Pro-M1-Max",
-          "publishedOn": "2021-10-18T18:30:13.000Z",
-          "wordCount": 1020,
-          "title": "Apple Announces The M1 Pro / M1 Max, Asahi Linux Starts Eyeing Their Bring-Up"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-Verified",
-          "author": null,
-          "description": "Valve is introducing a Steam Deck Verified system for helping gamers find out what games have been verified to work well on their forthcoming AMD+Linux-powered handheld game console...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Deck-Verified",
-          "publishedOn": "2021-10-18T18:15:55.000Z",
-          "wordCount": 765,
-          "title": "Valve Launches \"Steam Deck Verified\" Program For Games That Run Well On The Steam Deck"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.5",
-          "author": null,
-          "description": "VKD3D-Proton as Valve's Direct3D 12 over Vulkan implementation for Steam Play's Proton is out with a big feature update...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.5",
-          "publishedOn": "2021-10-18T16:04:54.000Z",
-          "wordCount": 720,
-          "title": "VKD3D-Proton 2.5 Released With Experimental DXR 1.1, More Games Working"
-        },
-        {
-          "id": "https://www.phoronix.com/vr.php?view=30617",
-          "author": null,
-          "description": "With last week's release of Ubuntu 21.10, here are some fresh benchmarks looking at the Linux gaming performance on this new release while testing both the GNOME Shell 40 default desktop to that of its KDE Plasma 5.22 based option. Both the X.Org and Wayland sessions for KDE and GNOME were benchmarked for seeing how the Linux gaming performance compares with the Radeon open-source GPU driver stack.",
-          "link": "https://www.phoronix.com/vr.php?view=30617",
-          "publishedOn": "2021-10-18T12:14:43.000Z",
-          "wordCount": 940,
-          "title": "Ubuntu 21.10 Radeon Gaming With KDE Plasma vs. GNOME Shell + Wayland vs. X.Org"
         }
       ]
     }
