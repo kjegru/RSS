@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-23T00:40:04.873Z</id>
+    <id>urn:2021-10-24T00:37:36.613Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-23T00:40:04.873Z</updated>
+    <updated>2021-10-24T00:37:36.613Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mediatek Posts 8k Lines Of New Linux Kernel Driver Code For AI Processing Unit Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8192-APU-Driver</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8192-APU-Driver"/>
+        <updated>2021-10-23T21:24:09.000Z</updated>
+        <summary type="html"><![CDATA[For a number of months Mediatek engineers have been posting some Linux kernel driver code for bringing up the AI Processing Unit (APU) within the MT8192 SoC while out this weekend is the complete patch series at more than eight thousand lines of code...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vortex86 Processor Detection Landing For Linux 5.16]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Detection-Linux-5.16</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vortex86-Detection-Linux-5.16"/>
+        <updated>2021-10-23T16:47:59.000Z</updated>
+        <summary type="html"><![CDATA[Recently I wrote about Vortex86 processors seeing detection work under Linux for improving the state of these aging x86 32-bit SoCs. That work is now slated to be introduced in the upcoming Linux 5.16 cycle for those running these aging SoCs/processors...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDE Plasma Readies Its NVIDIA GBM Support, Fingerprint Authentication Added]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-GBM-NVIDIA-Ready</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=KDE-Plasma-GBM-NVIDIA-Ready"/>
+        <updated>2021-10-23T09:36:51.000Z</updated>
+        <summary type="html"><![CDATA[It's been an exciting week for KDE developers with preparing their formal support for handling NVIDIA's driver with GBM support as well as getting fingerprint authentication finally in place, among other improvements...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FreeBSD 12.3 Prepares For New Release Ahead Of Christmas, Beta Starts]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeBSD-12.3-BETA1</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=FreeBSD-12.3-BETA1"/>
+        <updated>2021-10-23T08:52:17.000Z</updated>
+        <summary type="html"><![CDATA[The FreeBSD team has begun preparations for their next release process with an aim to ship FreeBSD 12.3 in early December...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulkanised Fall 2021 Material Available - Autodesk Has Begun Using MoltenVK]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-Fall-2021-Materials</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Vulkanised-Fall-2021-Materials"/>
+        <updated>2021-10-23T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week was the virtual Vulkanised Fall 2021 event hosted by The Khronos Group. The two-day event was focused on all things Vulkan and for those that missed it all of the slide decks and other material are now available...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wine 6.20 Released With More Modules Switching To The PE Format]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wine-6.20-Released</id>
@@ -337,56 +387,6 @@ Ho…]]></summary>
         <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.3-Released"/>
         <updated>2021-10-19T23:17:07.000Z</updated>
         <summary type="html"><![CDATA[Oracle has published its latest quarterly update to GraalVM, the  open-source Java JVM/JDK implemented in Java that also supports other execution modes and programming languages from Python to R to Ruby...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 95 Released With FTP Support Completely Removed, New Developer Additions]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-95-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Chrome-95-Released"/>
-        <updated>2021-10-19T19:06:38.000Z</updated>
-        <summary type="html"><![CDATA[Chrome 95 has rolled out as stable today as the latest version of Google's web browser...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RadeonSI Lands Another "Very Large" Optimization To Further Boost SPECViewPerf]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Continues-Tuning-SPEC</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=RadeonSI-Continues-Tuning-SPEC"/>
-        <updated>2021-10-19T18:49:24.000Z</updated>
-        <summary type="html"><![CDATA[In recent months we have seen a lot of RadeonSI optimizations focused on SPECViewPerf with AMD seemingly trying to get this open-source OpenGL driver into very capable shape moving forward for workstation GL workloads. Hitting Mesa 22.0-devel today is yet another round of patches for tuning SPECViewPerf...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CentOS Project Chair Karanbir Singh Steps Down]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Singh-CentOS-Steps-Down</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Singh-CentOS-Steps-Down"/>
-        <updated>2021-10-19T18:10:50.000Z</updated>
-        <summary type="html"><![CDATA[Karanbir Singh who had served as the CentOS Project Leader and involved with the community-based RHEL distribution since 2004 has stepped down from his roles...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud Tau VM Instances Deliver Better Performance, Price-Performance Than Graviton2 M6g]]></title>
-        <id>https://www.phoronix.com/vr.php?view=30623</id>
-        <link href="https://www.phoronix.com/vr.php?view=30623"/>
-        <updated>2021-10-19T13:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Announced earlier this year for Google Cloud was a new family of virtual machines called Tau VMs. The initial T2D instances are powered by AMD EPYC 7003 "Milan" processors to deliver leading performance and are also positioned to deliver great value in going up against the likes of Amazon's Graviton2 instances. Tau VM instances are now available as a preview and Google has provided us with gratis access to the new instance types for benchmarking.]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vendors Including NVIDIA Talk Up New OpenCL Extensions For Vulkan Interop, NN Inference]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.9-Extensions</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=OpenCL-3.0.9-Extensions"/>
-        <updated>2021-10-19T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last Friday night we spotted OpenCL 3.0.9 with several new extensions included. Today The Khronos Group is formally announcing these latest OpenCL additions focused on Vulkan interoperability as well as neural network inferencing...]]></summary>
         <author>
             <name>Phoronix</name>
         </author>
