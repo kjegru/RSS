@@ -227,12 +227,57 @@
       "siteUrl": "https://www.phoronix.com/",
       "articles": [
         {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.60-Build-System",
+          "author": null,
+          "description": "Meson 0.60 was released on Sunday as the newest version of this increasingly popular and widely-used cross-platform build system...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Meson-0.60-Build-System",
+          "publishedOn": "2021-10-24T17:54:28.000Z",
+          "wordCount": 821,
+          "title": "Meson v0.60 Build System Brings Numerous Improvements"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-More-USB4-DC",
+          "author": null,
+          "description": "Earlier this month AMD's open-source driver engineers began posting patches for the AMDGPU kernel driver to handle USB4 DP tunneling. That tunneling for DisplayPort with USB4 is for upcoming Yellow Carp / Rembrandt APUs. The USB4 driver bring-up  within AMDGPU continues...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-More-USB4-DC",
+          "publishedOn": "2021-10-24T15:08:19.000Z",
+          "wordCount": 852,
+          "title": "AMD Continues Work On USB4 Support In Their Linux Graphics Driver"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-LoongArch",
+          "author": null,
+          "description": "In addition to Loongson working on Linux kernel support for their MIPS-derived LoongArch CPU architecture, the first bits of the GNU toolchain support for this Chinese CPU architecture have been merged...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GNU-Binutils-LoongArch",
+          "publishedOn": "2021-10-24T14:53:40.000Z",
+          "wordCount": 771,
+          "title": "GNU Toolchain Begins Landing LoongArch Support"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Google-UMCG-Linux-v0.7",
+          "author": null,
+          "description": "Earlier this year was news that Google is finally working to open-source their Fibers user-space scheduling framework. For the better part of the past decade they have been developing this user-space scheduling framework and finally now are working on offering public, open-source code intended for upstream around their work...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Google-UMCG-Linux-v0.7",
+          "publishedOn": "2021-10-24T10:21:24.000Z",
+          "wordCount": 818,
+          "title": "Google Continues Work On User-Managed Concurrency Groups For Linux"
+        },
+        {
+          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Bareflank-3.0",
+          "author": null,
+          "description": "Bareflank, as what started a few years ago as a Linux hypervisor written in modern C++ and focused on security and other new features as a \"hypervisor SDK\" of sorts, is now up to version 3.0...",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Bareflank-3.0",
+          "publishedOn": "2021-10-24T09:37:45.000Z",
+          "wordCount": 726,
+          "title": "Bareflank 3.0 Hypervisor Released With Microkernel Design, AMD Virtualization Support"
+        },
+        {
           "id": "https://www.phoronix.com/scan.php?page=news_item&px=Mediatek-MT8192-APU-Driver",
           "author": null,
           "description": "For a number of months Mediatek engineers have been posting some Linux kernel driver code for bringing up the AI Processing Unit (APU) within the MT8192 SoC while out this weekend is the complete patch series at more than eight thousand lines of code...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Mediatek-MT8192-APU-Driver",
           "publishedOn": "2021-10-23T21:24:09.000Z",
-          "wordCount": 960,
+          "wordCount": 869,
           "title": "Mediatek Posts 8k Lines Of New Linux Kernel Driver Code For AI Processing Unit Support"
         },
         {
@@ -241,7 +286,7 @@
           "description": "Recently I wrote about Vortex86 processors seeing detection work under Linux for improving the state of these aging x86 32-bit SoCs. That work is now slated to be introduced in the upcoming Linux 5.16 cycle for those running these aging SoCs/processors...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vortex86-Detection-Linux-5.16",
           "publishedOn": "2021-10-23T16:47:59.000Z",
-          "wordCount": 844,
+          "wordCount": 835,
           "title": "Vortex86 Processor Detection Landing For Linux 5.16"
         },
         {
@@ -250,7 +295,7 @@
           "description": "It's been an exciting week for KDE developers with preparing their formal support for handling NVIDIA's driver with GBM support as well as getting fingerprint authentication finally in place, among other improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-GBM-NVIDIA-Ready",
           "publishedOn": "2021-10-23T09:36:51.000Z",
-          "wordCount": 868,
+          "wordCount": 815,
           "title": "KDE Plasma Readies Its NVIDIA GBM Support, Fingerprint Authentication Added"
         },
         {
@@ -259,7 +304,7 @@
           "description": "The FreeBSD team has begun preparations for their next release process with an aim to ship FreeBSD 12.3 in early December...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=FreeBSD-12.3-BETA1",
           "publishedOn": "2021-10-23T08:52:17.000Z",
-          "wordCount": 717,
+          "wordCount": 776,
           "title": "FreeBSD 12.3 Prepares For New Release Ahead Of Christmas, Beta Starts"
         },
         {
@@ -268,7 +313,7 @@
           "description": "Last week was the virtual Vulkanised Fall 2021 event hosted by The Khronos Group. The two-day event was focused on all things Vulkan and for those that missed it all of the slide decks and other material are now available...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Vulkanised-Fall-2021-Materials",
           "publishedOn": "2021-10-23T04:00:00.000Z",
-          "wordCount": 890,
+          "wordCount": 803,
           "title": "Vulkanised Fall 2021 Material Available - Autodesk Has Begun Using MoltenVK"
         },
         {
@@ -277,7 +322,7 @@
           "description": "Wine 6.20 was released today as the latest bi-weekly development release of this open-source software for enjoying Windows games and applications on Linux and other platforms...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wine-6.20-Released",
           "publishedOn": "2021-10-22T19:57:01.000Z",
-          "wordCount": 893,
+          "wordCount": 886,
           "title": "Wine 6.20 Released With More Modules Switching To The PE Format"
         },
         {
@@ -286,7 +331,7 @@
           "description": "Patches queued this week into the platform-drivers-x86 \"for-next\" branch ahead of the Linux 5.16 merge window will provide some useful improvements to System76 laptop owners...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=System76-ACPI-Linux-5.16",
           "publishedOn": "2021-10-22T19:14:53.000Z",
-          "wordCount": 842,
+          "wordCount": 833,
           "title": "System76 Laptops To See Some Useful Improvements With Linux 5.16"
         },
         {
@@ -295,7 +340,7 @@
           "description": "PipeWire 0.3.39 was released on Thursday as the newest update to this audio/video stream solution for Linux systems that continues proving itself capable of replacing the roles of JACK and PulseAudio, among other use-cases...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=PipeWire-0.3.39-Released",
           "publishedOn": "2021-10-22T17:43:38.000Z",
-          "wordCount": 777,
+          "wordCount": 804,
           "title": "PipeWire 0.3.39 Brings Libcamera Plugin Improvements, Better Compatibility For JACK Apps"
         },
         {
@@ -304,7 +349,7 @@
           "description": "While for many years we have been accustomed to seeing Intel land their new hardware feature enablement work in the Linux kernel and related components well ahead of products shipping, occasionally there are lapses due to various internal and external timings. The launch of Sapphire Rapids is quickly approaching and one of the major additions is Advanced Matrix Extensions with its Linux support still being in the works...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-AMX-Linux-Part-4",
           "publishedOn": "2021-10-22T13:07:44.000Z",
-          "wordCount": 1173,
+          "wordCount": 1086,
           "title": "Intel Posts The \"Last Part\" To Their AMX Bring-Up For Linux"
         },
         {
@@ -313,7 +358,7 @@
           "description": "GCC 12 isn't seeing its stable release until around March~April as usual, but with feature development slowly wrapping up as approaching the next stage of development next month to focus on fixes, recently I wrapped up some preliminary benchmarks for how GCC 12.0 is currently performing against GCC 11.2 on an AMD Ryzen 9 5950X (Zen 3) system...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GCC-12.0-October-Zen-3-Perf",
           "publishedOn": "2021-10-22T10:07:35.000Z",
-          "wordCount": 1029,
+          "wordCount": 1031,
           "title": "An Early Look At The GCC 12 Compiler Performance On AMD Zen 3"
         },
         {
@@ -322,7 +367,7 @@
           "description": "Valve continues embracing DXVK-Native for allowing more of their older games to target Vulkan by using this Direct3D-to-Vulkan translation layer for native games. DXVK-Native 1.9.2a is out with the latest fixes and improvements...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=DXVK-Native-1.9.2a",
           "publishedOn": "2021-10-22T09:16:13.000Z",
-          "wordCount": 798,
+          "wordCount": 837,
           "title": "DXVK-Native 1.9.2a Released For Direct3D-Over-Vulkan With Native Games"
         },
         {
@@ -331,7 +376,7 @@
           "description": "Intel's \"parallel submission\" user-space API for their i915 kernel graphics driver has been queued into DRM-Next today ahead of the Linux 5.16 kernel cycle...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Linux-5.16-Multi-LRC-Exec",
           "publishedOn": "2021-10-22T06:00:00.000Z",
-          "wordCount": 910,
+          "wordCount": 903,
           "title": "Intel Graphics Driver's New Parallel Submission uAPI Landing For Linux 5.16"
         },
         {
@@ -340,7 +385,7 @@
           "description": "A new Steam client beta is out with a few Linux enhancements worth noting...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Steam-Continues-Mesa-Cache",
           "publishedOn": "2021-10-22T04:00:00.000Z",
-          "wordCount": 896,
+          "wordCount": 889,
           "title": "Steam Continues Improving Its Shader Pre-Caching Support, Other Beta Improvements"
         },
         {
@@ -349,7 +394,7 @@
           "description": "SiFive just shared word that at today's Linley Conference they teased their Performance P550 successor that will \"set a new standard for the highest efficiency RISC-V processor available.\"..",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=SiFive-P550-Successor",
           "publishedOn": "2021-10-21T22:42:59.000Z",
-          "wordCount": 779,
+          "wordCount": 772,
           "title": "SiFive Has A New RISC-V Core To Improve Performance By 50%, Outperform Cortex-A78"
         },
         {
@@ -358,7 +403,7 @@
           "description": "An effort going on for a while at Canonical has been to develop a new desktop installer for Ubuntu. With the recent Ubuntu 21.10 release they are still using their classic Ubiquity installer by default but have published a new preview build of Ubuntu 21.10 with their new desktop installer option. Here is a look at Ubuntu's forthcoming new installer...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-New-Install-Try",
           "publishedOn": "2021-10-21T19:15:35.000Z",
-          "wordCount": 1061,
+          "wordCount": 1125,
           "title": "Trying Out Ubuntu's New Flutter+Curtin-Powered Desktop Installer Was Disappointing"
         },
         {
@@ -367,7 +412,7 @@
           "description": "Following this week's release of Chrome 95, Google has now promoted Chrome 96 to beta status...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Chrome-96-Beta",
           "publishedOn": "2021-10-21T18:37:45.000Z",
-          "wordCount": 910,
+          "wordCount": 899,
           "title": "Chrome 96 Beta Begins Preparing For Chrome 100, Adds Priority Hints Feature"
         },
         {
@@ -376,7 +421,7 @@
           "description": "The release candidate to XWayland 21.1.3 is out today with just a few changes but made significant by support for the NVIDIA 495 series driver GBM code path...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=XWayland-21.1.3-RC",
           "publishedOn": "2021-10-21T17:57:22.000Z",
-          "wordCount": 884,
+          "wordCount": 877,
           "title": "XWayland 21.1.3 Nears With Support For NVIDIA 495 Driver's GBM"
         },
         {
@@ -385,7 +430,7 @@
           "description": "It's been a half-year already since AMD introduced the EPYC 7003 \"Milan\" processors that continue performing well and gaining marketshare. While the recently released Ubuntu 21.10 is not a long-term support (LTS) release, for those wondering what this latest Linux distribution means for EPYC 7003 series performance, here is a look at its performance across many benchmarks against that of Ubuntu 21.04 that was released right after the Milan launch and then Ubuntu 20.04 as the current LTS stable series.",
           "link": "https://www.phoronix.com/vr.php?view=30634",
           "publishedOn": "2021-10-21T13:00:00.000Z",
-          "wordCount": 946,
+          "wordCount": 929,
           "title": "AMD EPYC 7003 \"Milan\" Performance On Ubuntu Linux Six Months After Launch"
         },
         {
@@ -394,7 +439,7 @@
           "description": "AMD patches this month have begun preparing support for a new CPU feature called Smart Trace Buffer (STB)...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Smart-Trace-Buffer-Linux",
           "publishedOn": "2021-10-21T10:15:06.000Z",
-          "wordCount": 1031,
+          "wordCount": 1024,
           "title": "AMD \"Smart Trace Buffer\" Feature Being Wired Up For Linux"
         },
         {
@@ -403,7 +448,7 @@
           "description": "Mesa's V3DV driver for supporting newer Broadcom VideoCore graphics hardware with Vulkan now is advertising v1.1 support. This Vulkan 1.1 support in V3DV is notable as the Raspberry Pi 4 and newer are the most notable beneficiaries of this driver...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=V3DV-Vulkan-1.1",
           "publishedOn": "2021-10-21T09:19:39.000Z",
-          "wordCount": 879,
+          "wordCount": 838,
           "title": "V3DV Raspberry Pi Driver Now Exposes Vulkan 1.1"
         },
         {
@@ -412,7 +457,7 @@
           "description": "The ongoing supply chain issues across the semiconductor industry (and more broadly) are now impacting the Raspberry Pi operations for end-users/customers when it comes to pricing...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Raspberry-Pi-Supply-Chain",
           "publishedOn": "2021-10-21T05:00:00.000Z",
-          "wordCount": 777,
+          "wordCount": 848,
           "title": "Raspberry Pi Sees Their First Price Increase Due To Supply Chain issues"
         },
         {
@@ -421,7 +466,7 @@
           "description": "The Ruby programming language implementation has merged YJIT, its new just-in-time (JIT) compiler...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Ruby-YJIT",
           "publishedOn": "2021-10-21T04:00:00.000Z",
-          "wordCount": 823,
+          "wordCount": 816,
           "title": "Ruby Lands \"YJIT\" As A Speedy, In-Process JIT Compiler"
         },
         {
@@ -430,7 +475,7 @@
           "description": "NVIDIA has made available CUDA 11.5 today as the latest version of their popular but proprietary compute stack/platform. Notable with CUDA 11.5 is that CUDA-Python has reached general availability status...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-CUDA-11.5",
           "publishedOn": "2021-10-20T23:00:11.000Z",
-          "wordCount": 806,
+          "wordCount": 879,
           "title": "CUDA-Python Reaches \"GA\" With NVIDIA CUDA 11.5 Release, __int128 Preview"
         },
         {
@@ -439,7 +484,7 @@
           "description": "GIMP 3.0 as the GTK3 port of this open-source Adobe Photoshop alternative has been talked about for nearly a decade now and the work remains ongoing. However, out today is GIMP 2.99.8 as the newest development snapshot...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=GIMP-2.99.8-Released",
           "publishedOn": "2021-10-20T19:06:57.000Z",
-          "wordCount": 972,
+          "wordCount": 885,
           "title": "GIMP 2.99.8 Released As Another Step Toward The Long Overdue GIMP 3.0"
         },
         {
@@ -448,7 +493,7 @@
           "description": "Last year Intel announced ControlFlag as a machine learning tool for helping to uncover bugs within code. ControlFlag promised impressive results after being trained on more than one billion lines of code and at the end of 2020 was already being used internally on Intel's code-bases from firmware to software applications. We hadn't heard anything more about ControlFlag this year... Until today. Intel has now made ControlFlag open-source for helping to autonomously detect more programming bugs...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-ControlFlag-Open-Source",
           "publishedOn": "2021-10-20T18:29:35.000Z",
-          "wordCount": 808,
+          "wordCount": 801,
           "title": "Intel Makes ControlFlag Open-Source For Helping To Detect Bugs In Code"
         },
         {
@@ -457,7 +502,7 @@
           "description": "The newest feature release to Eclipse OpenJ9 is now available, the high performance Java Virtual Machine originating from IBM J9...",
           "link": "https://www.phoronix.com/scan.php?page=news_item&px=Eclipse-OpenJ9-v0.29",
           "publishedOn": "2021-10-20T18:00:33.000Z",
-          "wordCount": 784,
+          "wordCount": 777,
           "title": "Eclipse OpenJ9 0.29 Released With Full AArch64 Linux Support, More Mature JITServer Tech"
         },
         {
@@ -466,53 +511,8 @@
           "description": "Just one week ago was the public launch of the Radeon RX 6600 as the newest offering in the RDNA2 GPU line-up. While in our Radeon RX 6600 Linux review the performance was good on AMD's well regarded open-source driver stack and standing ground against the likes of the GeForce RTX 3060 with NVIDIA's proprietary Linux driver, it turns out the RX 6600 Linux performance can be even better already. Here are benchmarks of the Radeon RX 6600 on Linux across six different driver configurations.",
           "link": "https://www.phoronix.com/vr.php?view=30628",
           "publishedOn": "2021-10-20T13:09:03.000Z",
-          "wordCount": 1093,
+          "wordCount": 996,
           "title": "Radeon RX 6600 Linux Performance Rising Even Higher With Newest Open-Source Driver"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Apple-Magic-2021",
-          "author": null,
-          "description": "Separate from all the ongoing Apple Silicon/M1 bring-up work for the Linux kernel, the Linux 5.16 cycle is set to support this year's Apple Magic Keyboard...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.16-Apple-Magic-2021",
-          "publishedOn": "2021-10-20T13:03:56.000Z",
-          "wordCount": 794,
-          "title": "Linux 5.16 To Support The 2021 Apple Magic Keyboard"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-PCIe-For-Linux-5.16",
-          "author": null,
-          "description": "Queued this week into the Linux PCI subsystem's \"next\" branch is the Apple PCIe driver needed to enable PCI Express support for Apple SoCs such as the M1...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Apple-PCIe-For-Linux-5.16",
-          "publishedOn": "2021-10-20T09:54:53.000Z",
-          "wordCount": 871,
-          "title": "Apple Silicon PCIe Driver Queued For Linux 5.16"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Intel-Buddy-Allocator",
-          "author": null,
-          "description": "Thanks to the nature of open-source, AMD engineers for the \"AMDGPU\" kernel graphics driver are looking to make use of Intel's new i915 buddy allocator code they introduced as part of all their video memory management changes as part of their discrete graphics bring-up...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Intel-Buddy-Allocator",
-          "publishedOn": "2021-10-20T07:00:00.000Z",
-          "wordCount": 991,
-          "title": "AMD GPU Driver Looks To Make Use Of Intel's New Buddy Allocator Code In The Linux Kernel"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=Wii-U-Gamepad-Driver-v4",
-          "author": null,
-          "description": "It's been a half-year since talking about the Wii U gamepad driver that's been in development with mainline ambitions for supporting this wireless gamepad in conjunction with the Nintendo Wii U console. The driver has just been revised to address earlier code review comments, again renewing interest in the effort and possible mainlining in a future kernel version...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Wii-U-Gamepad-Driver-v4",
-          "publishedOn": "2021-10-20T04:00:00.000Z",
-          "wordCount": 876,
-          "title": "Nintendo Wii U Gamepad Linux Driver Support Still Pursuing Mainline"
-        },
-        {
-          "id": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.3-Released",
-          "author": null,
-          "description": "Oracle has published its latest quarterly update to GraalVM, the  open-source Java JVM/JDK implemented in Java that also supports other execution modes and programming languages from Python to R to Ruby...",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=GraalVM-21.3-Released",
-          "publishedOn": "2021-10-19T23:17:07.000Z",
-          "wordCount": 955,
-          "title": "Oracle Releases GraalVM 21.3 With Java 17 Support, Other Enhancements"
         }
       ]
     }

@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-10-24T00:37:36.613Z</id>
+    <id>urn:2021-10-25T00:39:24.733Z</id>
     <title>osmos::feed</title>
-    <updated>2021-10-24T00:37:36.613Z</updated>
+    <updated>2021-10-25T00:39:24.733Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Meson v0.60 Build System Brings Numerous Improvements]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Meson-0.60-Build-System</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Meson-0.60-Build-System"/>
+        <updated>2021-10-24T17:54:28.000Z</updated>
+        <summary type="html"><![CDATA[Meson 0.60 was released on Sunday as the newest version of this increasingly popular and widely-used cross-platform build system...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Continues Work On USB4 Support In Their Linux Graphics Driver]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-USB4-DC</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMDGPU-More-USB4-DC"/>
+        <updated>2021-10-24T15:08:19.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month AMD's open-source driver engineers began posting patches for the AMDGPU kernel driver to handle USB4 DP tunneling. That tunneling for DisplayPort with USB4 is for upcoming Yellow Carp / Rembrandt APUs. The USB4 driver bring-up  within AMDGPU continues...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Toolchain Begins Landing LoongArch Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-LoongArch</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Binutils-LoongArch"/>
+        <updated>2021-10-24T14:53:40.000Z</updated>
+        <summary type="html"><![CDATA[In addition to Loongson working on Linux kernel support for their MIPS-derived LoongArch CPU architecture, the first bits of the GNU toolchain support for this Chinese CPU architecture have been merged...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Continues Work On User-Managed Concurrency Groups For Linux]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-UMCG-Linux-v0.7</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-UMCG-Linux-v0.7"/>
+        <updated>2021-10-24T10:21:24.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year was news that Google is finally working to open-source their Fibers user-space scheduling framework. For the better part of the past decade they have been developing this user-space scheduling framework and finally now are working on offering public, open-source code intended for upstream around their work...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bareflank 3.0 Hypervisor Released With Microkernel Design, AMD Virtualization Support]]></title>
+        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Bareflank-3.0</id>
+        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Bareflank-3.0"/>
+        <updated>2021-10-24T09:37:45.000Z</updated>
+        <summary type="html"><![CDATA[Bareflank, as what started a few years ago as a Linux hypervisor written in modern C++ and focused on security and other new features as a "hypervisor SDK" of sorts, is now up to version 3.0...]]></summary>
+        <author>
+            <name>Phoronix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mediatek Posts 8k Lines Of New Linux Kernel Driver Code For AI Processing Unit Support]]></title>
         <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Mediatek-MT8192-APU-Driver</id>
@@ -328,46 +378,6 @@ The DevOps industry is changing at a very fast pace, and there are plenty of new
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux 5.16 To Support The 2021 Apple Magic Keyboard]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Apple-Magic-2021</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.16-Apple-Magic-2021"/>
-        <updated>2021-10-20T13:03:56.000Z</updated>
-        <summary type="html"><![CDATA[Separate from all the ongoing Apple Silicon/M1 bring-up work for the Linux kernel, the Linux 5.16 cycle is set to support this year's Apple Magic Keyboard...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Silicon PCIe Driver Queued For Linux 5.16]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-PCIe-For-Linux-5.16</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Apple-PCIe-For-Linux-5.16"/>
-        <updated>2021-10-20T09:54:53.000Z</updated>
-        <summary type="html"><![CDATA[Queued this week into the Linux PCI subsystem's "next" branch is the Apple PCIe driver needed to enable PCI Express support for Apple SoCs such as the M1...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD GPU Driver Looks To Make Use Of Intel's New Buddy Allocator Code In The Linux Kernel]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Intel-Buddy-Allocator</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=AMD-Intel-Buddy-Allocator"/>
-        <updated>2021-10-20T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to the nature of open-source, AMD engineers for the "AMDGPU" kernel graphics driver are looking to make use of Intel's new i915 buddy allocator code they introduced as part of all their video memory management changes as part of their discrete graphics bring-up...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo Wii U Gamepad Linux Driver Support Still Pursuing Mainline]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=Wii-U-Gamepad-Driver-v4</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Wii-U-Gamepad-Driver-v4"/>
-        <updated>2021-10-20T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's been a half-year since talking about the Wii U gamepad driver that's been in development with mainline ambitions for supporting this wireless gamepad in conjunction with the Nintendo Wii U console. The driver has just been revised to address earlier code review comments, again renewing interest in the effort and possible mainlining in a future kernel version...]]></summary>
-        <author>
-            <name>Phoronix</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Four tips to increase your DevOps salary]]></title>
         <id>https://about.gitlab.com/blog/2021/10/20/four-tips-to-increase-your-devops-salary/</id>
         <link href="https://about.gitlab.com/blog/2021/10/20/four-tips-to-increase-your-devops-salary/"/>
@@ -379,16 +389,6 @@ In an August jobs report, Dice CEO Art Zeile called this “one of the hottest t
 Ho…]]></summary>
         <author>
             <name>GitLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Releases GraalVM 21.3 With Java 17 Support, Other Enhancements]]></title>
-        <id>https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.3-Released</id>
-        <link href="https://www.phoronix.com/scan.php?page=news_item&amp;px=GraalVM-21.3-Released"/>
-        <updated>2021-10-19T23:17:07.000Z</updated>
-        <summary type="html"><![CDATA[Oracle has published its latest quarterly update to GraalVM, the  open-source Java JVM/JDK implemented in Java that also supports other execution modes and programming languages from Python to R to Ruby...]]></summary>
-        <author>
-            <name>Phoronix</name>
         </author>
     </entry>
     <entry>
